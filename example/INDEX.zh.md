@@ -2,7 +2,7 @@
 
 *[English](INDEX.md) | 简体中文*
 
-七个小样本示例，按考察的能力分组。简介说明该示例实际考的是什么。
+六个小样本示例，按考察的能力分组。简介说明该示例实际考的是什么。
 
 ## 一、历史常识
 
@@ -16,7 +16,6 @@
 ## 三、图像识别
 
 1. [pixel-recognition](pixel-recognition/README.zh.md) — 测试JEV模型能否仅凭像素数值识别图像内容。
-2. [digit-formats](digit-formats/README.zh.md) — 测试JEV模型能否从 base64 编码的 PNG data URI 中识别手写数字。
 
 ## 四、伦理决策
 

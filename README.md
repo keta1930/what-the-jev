@@ -17,7 +17,6 @@ what-the-jev/
 │   ├── math-word-problem/  [Arithmetic] Tests Jev on grade-school arithmetic word problems.
 │   ├── university-math/    [Arithmetic] Tests Jev on calculus, linear algebra, and probability problems.
 │   ├── pixel-recognition/  [Vision] Tests whether Jev can identify image content from raw pixel values alone.
-│   ├── digit-formats/      [Vision] Tests whether Jev can recognize a handwritten digit from a base64-encoded PNG data URI.
 │   ├── ethics-dilemmas/    [Ethics] Tests Jev's acceptability judgments in classic ethical dilemmas.
 │   └── ticket-triage/      [Business] Tests Jev's classification of customer-support tickets, refund claims, and urgency.
 ├── experiments/            professional-grade experiments

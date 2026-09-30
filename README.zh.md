@@ -17,7 +17,6 @@ what-the-jev/
 │   ├── math-word-problem/  【算术与计算】测试JEV模型在小学算术应用题上的表现。
 │   ├── university-math/    【算术与计算】测试JEV模型在微积分、线性代数与概率计算题上的表现。
 │   ├── pixel-recognition/  【图像识别】测试JEV模型能否仅凭像素数值识别图像内容。
-│   ├── digit-formats/      【图像识别】测试JEV模型能否从 base64 编码的 PNG data URI 中识别手写数字。
 │   ├── ethics-dilemmas/    【伦理决策】测试JEV模型在经典伦理困境中的行为可接受性判断。
 │   └── ticket-triage/      【业务决策】测试JEV模型对客服工单的分类、退款诉求与紧急程度判断。
 ├── experiments/            专业级实验

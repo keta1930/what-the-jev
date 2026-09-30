@@ -2,7 +2,7 @@
 
 *English | [简体中文](INDEX_ZH.md)*
 
-Seven small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
+Six small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
 
 ## 1. Historical Knowledge
 
@@ -16,7 +16,6 @@ Seven small-sample examples, grouped by the ability they probe. Each description
 ## 3. Image Recognition
 
 1. [pixel-recognition](pixel-recognition/README.md) — Tests whether Jev can identify image content from raw pixel values alone.
-2. [digit-formats](digit-formats/README.md) — Tests whether Jev can recognize a handwritten digit from a base64-encoded PNG data URI.
 
 ## 4. Ethical Decision-Making
 
