@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "experiment": "bbq",
+  "integration_date": "2026-09-30",
+  "source_record": "preparation/SOURCE.md",
+  "files": {
+    ".gitattributes": {
+      "bytes": 200,
+      "sha256": "6539f3a1b0e4c64c1f3ef42894146e85cbf83591735ee1f6d436aedb61433f65"
+    },
+    ".gitignore": {
+      "bytes": 85,
+      "sha256": "cf216f42884f07dda1a08e9132cf4a5b3d06bd93be979c3b67a067f4ee521346"
+    },
+    "config.yaml": {
+      "bytes": 157,
+      "sha256": "9c5dff09c5164f77636dde6eb97c3a19f3fdc23c8b3d6d0e835ac9839404843c"
+    },
+    "data/dataset.json": {
+      "bytes": 38064180,
+      "sha256": "1d296271e5db4b8e8857a6cac24cf29168b600aa911784e03422b4faef87ce04"
+    },
+    "data/scoring.json": {
+      "bytes": 19728131,
+      "sha256": "dbf44027b6d95bceae783f67080aac7ef348092558580164fb151b3eceb44de2"
+    },
+    "METHODS.md": {
+      "bytes": 2370,
+      "sha256": "1175d26eb32b3ba0feb514d8a15d40c06a3503508f4adcf0caf0640033b0d244"
+    },
+    "METHODS.zh.md": {
+      "bytes": 2136,
+      "sha256": "c54f419ef7b0eb37b86fe8313eed4b45469851730b5c2fdfcd5b7dcf6f901ae5"
+    },
+    "preparation/code/prepare_data.py": {
+      "bytes": 5273,
+      "sha256": "6f4d6be62e49fa73cc86802a25737dd92684f3f033e0da00bcee5f81740ce48a"
+    },
+    "preparation/import_manifest.json": {
+      "bytes": 584,
+      "sha256": "dde694a2d7842eb999f76e56417b06e02d98ed91ab270ad3da18d9298ad4d7ac"
+    },
+    "preparation/LICENSE-DATA.txt": {
+      "bytes": 19043,
+      "sha256": "9f614db80a4e62cbb744e6f00d9da221adf45c6463556cb32f81ad1f8467f188"
+    },
+    "preparation/original_manifest.json": {
+      "bytes": 4790,
+      "sha256": "8fa13679d87b0aa156a34f14b7518f2d043d7d9c34b946d7b630ed9a5d96906c"
+    },
+    "preparation/raw/additional_metadata.csv": {
+      "bytes": 5913478,
+      "sha256": "71ab55e33814ad649d32e700c465a5d6401681b82699c794b098e879169aa19a"
+    },
+    "preparation/raw/data/Age.jsonl": {
+      "bytes": 3095514,
+      "sha256": "004c672b02729187253bd3db389e7be1d9feab229b4051ec99eda30c71b29a9d"
+    },
+    "preparation/raw/data/Disability_status.jsonl": {
+      "bytes": 1338540,
+      "sha256": "e47b2c34e9a3312dbeb7a6bd4c702ab7b4c13a93ac1ab679a48a0d00d5b002d0"
+    },
+    "preparation/raw/data/Gender_identity.jsonl": {
+      "bytes": 4337078,
+      "sha256": "4f0171d8d6eca2448008711f703a56ccc50cd64e58856e1d2bdb1ae711824e47"
+    },
+    "preparation/raw/data/Nationality.jsonl": {
+      "bytes": 2903120,
+      "sha256": "055497670654487d68f78c289bf3ecb5af2a0188abbc4310b5b83ad648f226ef"
+    },
+    "preparation/raw/data/Physical_appearance.jsonl": {
+      "bytes": 1349052,
+      "sha256": "daa21deb1cbb5198649f28e2b0c17ba12e6d7553fcf7452823f642aa8941df9f"
+    },
+    "preparation/raw/data/Race_ethnicity.jsonl": {
+      "bytes": 6069306,
+      "sha256": "7291ff201989ded934943d05f98fde18607a21a379a5f1e62ee4efe8bf64490e"
+    },
+    "preparation/raw/data/Race_x_gender.jsonl": {
+      "bytes": 13110066,
+      "sha256": "0b1a7a976cf99686aaef0d0e24b6244423eee71811bcb9cd26362d2f347fd4e8"
+    },
+    "preparation/raw/data/Race_x_SES.jsonl": {
+      "bytes": 11233378,
+      "sha256": "9d439e7aef1f1e8b85d30e03dc7057b7433891608366de0e5c17c16e8ec2bfe9"
+    },
+    "preparation/raw/data/Religion.jsonl": {
+      "bytes": 1119928,
+      "sha256": "4d4ab31368caac6e52a108d535f0149b12c40007c013ecdf7f79147a6bbf4d7c"
+    },
+    "preparation/raw/data/SES.jsonl": {
+      "bytes": 5703814,
+      "sha256": "6c294ae74d11c79d879925c87409913c043cae6d246edd0a3103ced68b8b8e06"
+    },
+    "preparation/raw/data/Sexual_orientation.jsonl": {
+      "bytes": 729874,
+      "sha256": "8cdbf9646853b7f5670c698e05c5e9825563728597b3b116cba0ad05ea94791a"
+    },
+    "preparation/raw/templates/new_templates - Age.csv": {
+      "bytes": 34714,
+      "sha256": "a7809730e0a7b80c5eca9baf126090a5ca56fe48f72fd5845db534236c4d6c28"
+    },
+    "preparation/raw/templates/new_templates - Disability_status.csv": {
+      "bytes": 35597,
+      "sha256": "017ff4b54542f8ed946e79b89fd86340e6f9fbf6729af049bb12d6d7ff7c78e9"
+    },
+    "preparation/raw/templates/new_templates - Filler_items.csv": {
+      "bytes": 22071,
+      "sha256": "6ac4ae3663f6fbfc60827d431fa8fd79549069596d882ffab3fb5cc0312a3623"
+    },
+    "preparation/raw/templates/new_templates - Gender_identity.csv": {
+      "bytes": 35376,
+      "sha256": "3cc0ef449df1c0fbfc1e787a4a77ebf61122c3f74604d7c30de2de3820c95fe3"
+    },
+    "preparation/raw/templates/new_templates - Nationality.csv": {
+      "bytes": 17844,
+      "sha256": "3fbb3aa8a0fcad59a97617660995006efb02d8f3aa402e6b516941f8a63cbcfc"
+    },
+    "preparation/raw/templates/new_templates - Physical_appearance.csv": {
+      "bytes": 35991,
+      "sha256": "1bb317bc48de53446fdf6588a9ed77596945ec01e77417bcccf8b7756c68a43e"
+    },
+    "preparation/raw/templates/new_templates - Race_ethnicity.csv": {
+      "bytes": 30600,
+      "sha256": "30a53cb9802bb4457185c034befec9e1196de3682315f5be4ab51c7234c70a41"
+    },
+    "preparation/raw/templates/new_templates - Race_x_gender.csv": {
+      "bytes": 23463,
+      "sha256": "f791db3252ffd03c392b4f5c4bdcd04719fe3b2e22e365c1d76e15045fed9304"
+    },
+    "preparation/raw/templates/new_templates - Race_x_SES.csv": {
+      "bytes": 18546,
+      "sha256": "24be668e3bf09550004ebebc1d1ef2f9c946409fd8b3e3908a500e292ab906eb"
+    },
+    "preparation/raw/templates/new_templates - Religion.csv": {
+      "bytes": 16372,
+      "sha256": "a5c4c8eb5e38ccab358fbf220d8559fe4fd755cda4143ef51f32a857e164a7e4"
+    },
+    "preparation/raw/templates/new_templates - SES.csv": {
+      "bytes": 24995,
+      "sha256": "daae83bc37014d34e826b8fdc1eb5848ae2c5040333f2604cd0b8219b264aa2f"
+    },
+    "preparation/raw/templates/new_templates - Sexual_orientation.csv": {
+      "bytes": 15724,
+      "sha256": "bd399002deb8f108a0d816cb2024cf137ee93ed0c46ad08ea66882f3e8982322"
+    },
+    "preparation/raw/templates/vocabulary.csv": {
+      "bytes": 10972,
+      "sha256": "a8a789f87a9246358e575a3d48f75cccda784297931c6cf75e03b672d6452a76"
+    },
+    "preparation/raw/templates/vocabulary_proper_names.csv": {
+      "bytes": 14641,
+      "sha256": "26a439cf0346a99ddf23267a67b35c0ee1d20af608bf34f9937527f5da7f2c30"
+    },
+    "preparation/SOURCE.md": {
+      "bytes": 1490,
+      "sha256": "61d520f30999cb816b2c56bfb27f50c3abaa3e1cb9f446a5b11d71122ff22335"
+    },
+    "README.md": {
+      "bytes": 3042,
+      "sha256": "c5d8058029484d776567cc220e0f8a918fa77f1a5f73c07bb48c5f12ba15b0b2"
+    },
+    "README.zh.md": {
+      "bytes": 2856,
+      "sha256": "fcd98d7b544dbed2457f60111bf48c084bd662d3d3d69933054400992a1405a9"
+    },
+    "report/code/analyze.py": {
+      "bytes": 7269,
+      "sha256": "e0d8c528502f3441f37fc5b300c5ef62e0780e83f92ea28b606c6a05112562f1"
+    },
+    "report/code/metrics.py": {
+      "bytes": 2464,
+      "sha256": "f8fa186d5d50a72adfe598618fd556f4bf3c5904897d09f28461d1ba7cbb4d5f"
+    },
+    "report/generated/cases.json": {
+      "bytes": 11752,
+      "sha256": "ece2eae4eb185070a52e33b9af5850ee8aac558d2c982968e364967cb009f65b"
+    },
+    "report/generated/summary.json": {
+      "bytes": 124082,
+      "sha256": "369793a1ba022deb153604d8d106749740ff428c3b46b177f01df8d91c15b3b1"
+    },
+    "requirements-analysis.txt": {
+      "bytes": 48,
+      "sha256": "3af12fc0b16e07c46ad996f445b96a41325f929dc5cc6afa97f0dab1eaf4d732"
+    },
+    "result/attempts.jsonl.gz": {
+      "bytes": 5207019,
+      "sha256": "c2dfbf90f42ba7cd16cd6ccc289d2d6bb860daa7466ebe747b82f3b5db4b602b"
+    },
+    "result/responses.jsonl": {
+      "bytes": 21896263,
+      "sha256": "b99217f6d33c9404c62a7ca13cb9cdd2c6a9553b724ef6f9f4441d6a9d32fe32"
+    },
+    "test_experiment.py": {
+      "bytes": 1360,
+      "sha256": "f154d18d00051d95a61d7b9951bd65691eeae609bfe314328c73a600983110d0"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1839,
+      "sha256": "6155e478d29dbaa74ab3aae7997239566e374069eacb4a61763fe5cb97a6bfff"
+    },
+    "verify.py": {
+      "bytes": 10104,
+      "sha256": "29c11d406e4a24ca661412446eeeb174ed43e0288730fc4e5c41dbaea78db4e9"
+    }
+  }
+}
