@@ -29,9 +29,9 @@ Select the most plausible answer to the question based on the context and everyd
 
 ## 结果
 
-正式集答对 1,792/2,224 题，准确率 80.58%，432 题未命中参考答案。全部正式题均有有效回答。人物后续意愿来源组较高（84.66%），人物属性来源组较低（78.11%）。这些分组沿用来源标签，不代表独立心理能力。
+报告暂不纳入本次提交，待与项目维护者共同讨论后编写。保留完整模型回答、离线分析代码和机器可读统计。
 
-[中文报告](report/report_zh.md) · [中文 PDF](report/report_zh.pdf) · [方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
+[方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
 
 ## 成本
 
@@ -39,16 +39,15 @@ Select the most plausible answer to the question based on the context and everyd
 
 ## 复现
 
-从仓库根目录执行，以下命令只做本地准备、复算和生成报告，不调用模型。Python 3.10+。
+从仓库根目录执行，以下命令只做本地准备和复算，不调用模型。Python 3.10+。
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/socialiqa/requirements-analysis.txt
 python experiments/socialiqa/preparation/code/prepare_data.py
 python experiments/socialiqa/report/code/analyze.py
-python experiments/socialiqa/report/code/build_report.py
 ```
 
-已安装 XeLaTeX 时可在生成报告命令后追加 `--pdf`。所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
+所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
 
 实际重新调用使用下列项目统一入口。现有结果会被跳过；独立新实验应复制目录并使用新的 output 文件。此入口按上游规则执行，不包含原独立实验的预算保护。原历史预算不自动授权新调用。
 
@@ -70,4 +69,4 @@ Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi. [SocialIQA](
 python experiments/socialiqa/verify.py
 ```
 
-本目录包含全部分析与报告生成依赖，不依赖其他新增实验。
+本目录包含全部分析依赖，不依赖其他新增实验。
