@@ -2,7 +2,7 @@
 
 *[English](INDEX.md) | 简体中文*
 
-六个小样本示例，按考察的能力分组。简介说明该示例实际考的是什么。
+七个小样本示例，按考察的能力分组。简介说明该示例实际考的是什么。
 
 ## 一、历史常识
 
@@ -24,3 +24,7 @@
 ## 五、业务决策
 
 1. [ticket-triage](ticket-triage/README.zh.md) — 测试JEV模型对客服工单的分类、退款诉求与紧急程度判断。
+
+## 六、安全
+
+1. [injection-guard](injection-guard/README.zh.md) — 测试JEV模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。

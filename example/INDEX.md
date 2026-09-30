@@ -2,7 +2,7 @@
 
 *English | [简体中文](INDEX_ZH.md)*
 
-Six small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
+Seven small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
 
 ## 1. Historical Knowledge
 
@@ -24,3 +24,7 @@ Six small-sample examples, grouped by the ability they probe. Each description s
 ## 5. Business Decision-Making
 
 1. [ticket-triage](ticket-triage/README.md) — Tests Jev's classification of customer-support tickets, refund claims, and urgency triage.
+
+## 6. Security
+
+1. [injection-guard](injection-guard/README.md) — Tests whether Jev can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations.
