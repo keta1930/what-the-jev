@@ -1,0 +1,9 @@
+model: typesafe/jev-1.13
+endpoint: https://openrouter.ai/api/alpha/decisions
+data:
+  - data/dataset.numeric.json
+  - data/dataset.pairwise.json
+output:
+  - result/responses.score.numeric.jsonl
+  - result/responses.choice.pairwise.jsonl
+concurrency: 16
