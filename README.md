@@ -18,6 +18,7 @@ what-the-jev/
 │   ├── university-math/    [Arithmetic] Tests Jev on calculus, linear algebra, and probability problems.
 │   ├── pixel-recognition/  [Vision] Tests whether Jev can identify image content from raw pixel values alone.
 │   ├── ethics-dilemmas/    [Ethics] Tests Jev's acceptability judgments in classic ethical dilemmas.
+│   ├── injection-guard/    [Security] Tests whether Jev can detect prompt-injection attacks hidden in tool-call results.
 │   └── ticket-triage/      [Business] Tests Jev's classification of customer-support tickets, refund claims, and urgency.
 ├── experiments/            professional-grade experiments
 └── docs/jev/               【AGENT】Jev knowledge base

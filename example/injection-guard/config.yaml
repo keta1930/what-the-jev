@@ -1,0 +1,9 @@
+concurrency: 4
+data:
+- data/dataset.json
+- data/dataset_zh.json
+endpoint: https://openrouter.ai/api/alpha/decisions
+model: typesafe/jev-1.13
+output:
+- result/responses.jsonl
+- result/responses_zh.jsonl
