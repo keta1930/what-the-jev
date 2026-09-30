@@ -72,9 +72,9 @@ Do you prefer "I make a critical mistake during the operation." over "I follow t
 
 ## Results
 
-Low ambiguity: all 4,122 judgments across 687 scenarios select reference action1. High ambiguity: 2,818/4,080 judgments select action1 (69.07%); all six variants agree in 616/680 scenarios (90.59%). Order agrees in 661 ab, 658 repeat and 643 compare scenarios. All 1,367 scenarios are valid. High-ambiguity scenarios have no universal correct answer.
+Reports are deferred pending discussion with the project maintainer. Complete model responses, offline analysis code, and machine-readable statistics are retained.
 
-[English report](report/report_en.md) · [English PDF](report/report_en.pdf) · [Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
+[Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
 
 ## Cost
 
@@ -82,16 +82,15 @@ Low ambiguity: all 4,122 judgments across 687 scenarios select reference action1
 
 ## Reproduction
 
-Run from the repository root with Python 3.10+. These commands only prepare/recompute/build locally and make no model calls.
+Run from the repository root with Python 3.10+. These commands only prepare/recompute locally and make no model calls.
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/moralchoice/requirements-analysis.txt
 python experiments/moralchoice/preparation/code/prepare_data.py
 python experiments/moralchoice/report/code/analyze.py
-python experiments/moralchoice/report/code/build_report.py
 ```
 
-With XeLaTeX installed, add --pdf to the report command. All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
+All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
 
 For a fresh model run, the shared project entry point is below. Existing successful results are skipped; use a separate experiment copy and new output for an independent run. This entry follows upstream behavior and does not include the original custom budget guards. Historical budgets do not authorize new calls.
 
@@ -114,4 +113,4 @@ python experiments/moralchoice/verify.py
 python -m unittest discover -s experiments/moralchoice -p test_experiment.py
 ```
 
-All analysis/report helpers are local to this experiment; no other new experiment is required.
+All analysis helpers are local to this experiment; no other new experiment is required.
