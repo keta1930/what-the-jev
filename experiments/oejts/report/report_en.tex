@@ -1,0 +1,123 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{needspace}
+\usepackage{fontspec,booktabs,longtable,array,xcolor,hyperref}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\definecolor{reportblue}{HTML}{244D65}
+\hypersetup{colorlinks=true,urlcolor=reportblue,linkcolor=reportblue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{5pt}
+\emergencystretch=2em
+\urlstyle{same}
+\pagestyle{plain}
+\title{\sffamily Jev on OEJTS: Response Tendencies and Repeat Stability}
+\author{}
+\date{September 30, 2026}
+\begin{document}
+\begin{center}{\sffamily\LARGE Jev on OEJTS: Response Tendencies and Repeat Stability\par}\vspace{8pt}{\small September 30, 2026}\end{center}\vspace{6pt}
+\section*{Abstract}
+Ten rounds of the 32 English five-position OEJTS 1.2 items yield 320 valid responses. The scale’s scoring rule yields ISTJ in all ten rounds. SN lies closest to its classification boundary and falls exactly on it in two rounds. 25 of 32 items retain the same position in every round. Results describe response and scoring stability under fixed wording.
+\section{Dataset}
+OEJTS 1.2 is an open alternative scale released by Eric Jorgenson, not the official MBTI. Each item presents two endpoint descriptions and five positions under a fixed model-self-description instruction. Items are requested independently across ten rounds. Model snapshot: typesafe/jev-1.13-20260917.
+
+The scale’s scoring and boundaries are used for IE, SN, FT and JP. Because items include human lived-experience descriptions, this is an exploratory adaptation of model response tendencies. Type counts are repeated scoring outcomes, not personality probabilities.
+
+\section{Results}
+\Needspace{8\baselineskip}
+\subsection{Overall results}
+The criterion is the scale’s numerical scoring rule; there is no correct-answer accuracy. Selecting the middle position on every item gives 24 on each dimension and ISFJ under the original classification rule, providing a boundary reference.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.4000\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.6000\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Measure} & \textbf{Result}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Measure} & \textbf{Result}\\
+\midrule
+\endhead
+Distinct items & 32\\
+Complete rounds & 10\\
+Valid responses & 320\\
+Type counts & ISTJ: 10\\
+Items unchanged across ten rounds & 25 / 32\\
+\bottomrule
+\end{longtable}
+}
+\Needspace{8\baselineskip}
+\subsection{Dimension stability}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Dimension} & \textbf{Mean} & \textbf{Minimum} & \textbf{Maximum} & \textbf{Mean distance from 24} & \textbf{Boundary rounds}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Dimension} & \textbf{Mean} & \textbf{Minimum} & \textbf{Maximum} & \textbf{Mean distance from 24} & \textbf{Boundary rounds}\\
+\midrule
+\endhead
+IE & 13.90 & 13 & 15 & 10.10 & 0\\
+SN & 22.40 & 22 & 24 & 1.60 & 2\\
+FT & 29.90 & 28 & 31 & 5.90 & 0\\
+JP & 16.30 & 16 & 17 & 7.70 & 0\\
+\bottomrule
+\end{longtable}
+}
+SN has a mean boundary distance of 1.60, smaller than the other dimensions. An identical type across ten rounds does not imply identical item answers or that every dimension is far from its boundary.
+
+\Needspace{8\baselineskip}
+\subsection{Scores by round}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1267\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Round} & \textbf{Type} & \textbf{IE} & \textbf{SN} & \textbf{FT} & \textbf{JP} & \textbf{Boundary}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Round} & \textbf{Type} & \textbf{IE} & \textbf{SN} & \textbf{FT} & \textbf{JP} & \textbf{Boundary}\\
+\midrule
+\endhead
+1 & ISTJ & 14 & 22 & 28 & 16 & -\\
+2 & ISTJ & 14 & 22 & 30 & 16 & -\\
+3 & ISTJ & 13 & 22 & 30 & 17 & -\\
+4 & ISTJ & 13 & 22 & 30 & 17 & -\\
+5 & ISTJ & 14 & 22 & 30 & 16 & -\\
+6 & ISTJ & 14 & 22 & 30 & 16 & -\\
+7 & ISTJ & 13 & 22 & 31 & 16 & -\\
+8 & ISTJ & 15 & 22 & 30 & 16 & -\\
+9 & ISTJ & 15 & 24 & 30 & 17 & SN\\
+10 & ISTJ & 14 & 24 & 30 & 16 & SN\\
+\bottomrule
+\end{longtable}
+}
+\Needspace{8\baselineskip}
+\subsection{Call costs}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Input tokens} & \textbf{Output tokens} & \textbf{Reported cost (USD)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Input tokens} & \textbf{Output tokens} & \textbf{Reported cost (USD)}\\
+\midrule
+\endhead
+156,530 & 16,640 & 0.00657426\\
+\bottomrule
+\end{longtable}
+}
+All 320 requests have valid responses and billing records, with no unknown charges. There are no results from the official MBTI.
+
+\Needspace{8\baselineskip}
+\section{Conclusion}
+Jev shows high repeat stability under the fixed instruction, English wording and position order, yielding ISTJ under OEJTS rules in every round. SN lies near the boundary and some item choices vary. This finding concerns questionnaire responses and scoring, not a validated measurement of model personality.
+\Needspace{5\baselineskip}
+\section*{References}
+\begin{enumerate}
+\item Eric Jorgenson (2015). Open Extended Jungian Type Scales 1.2. Original items: CC BY-NC-SA 4.0. Questionnaire text is not redistributed here. \url{https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf}
+\end{enumerate}
+\end{document}

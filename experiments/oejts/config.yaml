@@ -1,0 +1,6 @@
+model: typesafe/jev-1.13
+endpoint: https://openrouter.ai/api/alpha/decisions
+data: data/dataset.json
+output: result/responses.jsonl
+concurrency: 1
+repeat: 10
