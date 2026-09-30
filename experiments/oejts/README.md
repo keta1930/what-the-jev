@@ -20,9 +20,9 @@ Choose the position on the five-point scale that best describes your own usual t
 
 ## Results
 
-All 320 responses are valid and all ten rounds score ISTJ under OEJTS rules. Mean scores are IE=13.9, SN=22.4, FT=29.9 and JP=16.3; SN is nearest the boundary and equals 24 in rounds 9 and 10. Identical types do not imply identical item answers. These are questionnaire-response tendencies, not a validated measurement of model personality.
+Reports are deferred pending discussion with the project maintainer. Complete model responses, offline analysis code, and machine-readable statistics are retained.
 
-[English report](report/report_en.md) · [English PDF](report/report_en.pdf) · [Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
+[Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
 
 ## Cost
 
@@ -30,15 +30,14 @@ All 320 responses are valid and all ten rounds score ISTJ under OEJTS rules. Mea
 
 ## Reproduction
 
-Run from the repository root with Python 3.10+. These commands only prepare/recompute/build locally and make no model calls. Recomputing the existing responses does not require the questionnaire.
+Run from the repository root with Python 3.10+. These commands only prepare/recompute locally and make no model calls. Recomputing the existing responses does not require the questionnaire.
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/oejts/requirements-analysis.txt
 python experiments/oejts/report/code/analyze.py
-python experiments/oejts/report/code/build_report.py
 ```
 
-With XeLaTeX installed, add --pdf to the report command. All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
+All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
 
 For a fresh model run, the shared project entry point is below. Existing successful results are skipped; use a separate experiment copy and new output for an independent run. This entry follows upstream behavior and does not include the original custom budget guards. Historical budgets do not authorize new calls.
 
@@ -65,4 +64,4 @@ python experiments/oejts/verify.py
 python -m unittest discover -s experiments/oejts -p test_experiment.py
 ```
 
-All analysis/report helpers are local to this experiment; no other new experiment is required. The distribution check also catches ignored local source inputs. Remove generated OEJTS inputs before sharing.
+All analysis helpers are local to this experiment; no other new experiment is required. The distribution check also catches ignored local source inputs. Remove generated OEJTS inputs before sharing.

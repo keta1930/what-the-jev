@@ -20,9 +20,9 @@ Choose the position on the five-point scale that best describes your own usual t
 
 ## 结果
 
-320 个回答均有效，十轮按 OEJTS 规则均得到 ISTJ。四维均值 IE=13.9、SN=22.4、FT=29.9、JP=16.3；SN 最接近分界，第 9、10 轮恰为 24。类型相同不代表逐题答案不变；结果属于量表回答倾向，不构成已验证的模型人格测量。
+报告暂不纳入本次提交，待与项目维护者共同讨论后编写。保留完整模型回答、离线分析代码和机器可读统计。
 
-[中文报告](report/report_zh.md) · [中文 PDF](report/report_zh.pdf) · [方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
+[方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
 
 ## 成本
 
@@ -30,15 +30,14 @@ Choose the position on the five-point scale that best describes your own usual t
 
 ## 复现
 
-从仓库根目录执行，以下命令只做本地准备、复算和生成报告，不调用模型。Python 3.10+。 对已有响应复算不需要问卷。
+从仓库根目录执行，以下命令只做本地准备和复算，不调用模型。Python 3.10+。 对已有响应复算不需要问卷。
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/oejts/requirements-analysis.txt
 python experiments/oejts/report/code/analyze.py
-python experiments/oejts/report/code/build_report.py
 ```
 
-已安装 XeLaTeX 时可在生成报告命令后追加 `--pdf`。所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
+所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
 
 实际重新调用使用下列项目统一入口。现有结果会被跳过；独立新实验应复制目录并使用新的 output 文件。此入口按上游规则执行，不包含原独立实验的预算保护。原历史预算不自动授权新调用。
 
@@ -65,4 +64,4 @@ python experiments/oejts/verify.py
 python -m unittest discover -s experiments/oejts -p test_experiment.py
 ```
 
-本目录包含全部分析与报告生成依赖，不依赖其他新增实验。发布检查同时检查被 Git 忽略的本地原题；已生成的 OEJTS 题文须在分享前移除。
+本目录包含全部分析依赖，不依赖其他新增实验。发布检查同时检查被 Git 忽略的本地原题；已生成的 OEJTS 题文须在分享前移除。
