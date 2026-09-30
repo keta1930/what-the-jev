@@ -1,0 +1,32 @@
+{
+  "retrieved_at": "2026-09-30",
+  "huggingface": {
+    "url": "https://huggingface.co/datasets/ninoscherrer/moralchoice",
+    "commit": "89c0fe7b158b5ade5d10e0644c1aa20ab4c78cbe",
+    "dataset_license_from_card": "cc-by-4.0"
+  },
+  "github": {
+    "url": "https://github.com/ninodimontalcino/moralchoice",
+    "commit": "9f1dbced7ecf70e334af9a88c3d93be5af0f37b8",
+    "repository_license": "MIT"
+  },
+  "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a2cf225ba392627529efef14dc857e22-Paper-Conference.pdf",
+  "files": [
+    {
+      "path": "preparation/raw/scenarios/moralchoice_high_ambiguity.csv",
+      "bytes": 268194,
+      "sha256": "dbadd6186f5c32becab9a4ab42decf69b40452bb0b2385a097c738937851caba"
+    },
+    {
+      "path": "preparation/raw/scenarios/moralchoice_low_ambiguity.csv",
+      "bytes": 228576,
+      "sha256": "8ae5656df6578416db16ad9e0b8e7235f4f48199d08cddd1bf632bf6aa439066"
+    }
+  ],
+  "verified_counts": {
+    "low": 687,
+    "high": 680,
+    "total": 1367
+  },
+  "count_note": "Published files and component counts total 1,367; the paper appendix and dataset card contain a conflicting 1,767 statement."
+}

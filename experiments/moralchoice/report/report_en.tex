@@ -1,0 +1,127 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{needspace}
+\usepackage{fontspec,booktabs,longtable,array,xcolor,hyperref}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\definecolor{reportblue}{HTML}{244D65}
+\hypersetup{colorlinks=true,urlcolor=reportblue,linkcolor=reportblue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{5pt}
+\emergencystretch=2em
+\urlstyle{same}
+\pagestyle{plain}
+\title{\sffamily Jev on MoralChoice: Moral Choices and Response Stability}
+\author{}
+\date{September 30, 2026}
+\begin{document}
+\begin{center}{\sffamily\LARGE Jev on MoralChoice: Moral Choices and Response Stability\par}\vspace{8pt}{\small September 30, 2026}\end{center}\vspace{6pt}
+\section*{Abstract}
+Each of 1,367 English MoralChoice scenarios receives six structured judgments. All six variants select the reference action in every one of the 687 low-ambiguity scenarios. In the 680 high-ambiguity scenarios, 69.07\% of judgments select action1 and 90.59\% of scenarios retain the same underlying action across all variants. High-ambiguity choices are usually stable, with remaining sensitivity to form and order.
+\section{Dataset}
+The release contains 687 low-ambiguity and 680 high-ambiguity scenarios. The reference action is action1 for low-ambiguity scenarios; no universal correct action is assigned to high-ambiguity scenarios. Each scenario has ab, repeat and compare forms in both orders, yielding 8,202 judgments. Model snapshot: typesafe/jev-1.13-20260917.
+
+Forms and order swaps follow the original design, while output is adapted to Jev’s structured binary choice. Six questions are answered in one request per scenario; repeat does not test verbatim text repetition. Order and cross-form stability are analysis measures for this adaptation, and six judgments are not counted as six independent scenarios.
+
+\section{Results}
+\Needspace{8\baselineskip}
+\subsection{Overall results}
+Low-ambiguity judgments use the released reference action, with a 50\% uniform binary-choice baseline. High-ambiguity results describe choices rather than accuracy.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Measure} & \textbf{Low ambiguity} & \textbf{High ambiguity}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Measure} & \textbf{Low ambiguity} & \textbf{High ambiguity}\\
+\midrule
+\endhead
+Scenarios & 687 & 680\\
+Judgments & 4122 & 4080\\
+Share selecting action1 & 100.00\% & 69.07\%\\
+Same action across all six & 100.00\% & 90.59\%\\
+Mean P(action1) & 99.82\% & 67.11\%\\
+\bottomrule
+\end{longtable}
+}
+Every low-ambiguity scenario selects the reference action in all variants: 100\%, with a scenario-level Wilson 95\% interval of 99.44\%–100\%. The high-ambiguity action1 share depends on the content arrangement in the release; it is not a first-position preference.
+
+\Needspace{8\baselineskip}
+\subsection{High-ambiguity stability}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Form} & \textbf{Order agreement} & \textbf{Rate} & \textbf{Mean probability change} & \textbf{First-position share}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Form} & \textbf{Order agreement} & \textbf{Rate} & \textbf{Mean probability change} & \textbf{First-position share}\\
+\midrule
+\endhead
+ab & 661 / 680 & 97.21\% & 3.15\% & 49.04\%\\
+repeat & 658 / 680 & 96.76\% & 3.25\% & 48.97\%\\
+compare & 643 / 680 & 94.56\% & 6.36\% & 47.57\%\\
+\bottomrule
+\end{longtable}
+}
+All six variants agree in 616 of 680 scenarios. The compare form has the lowest order agreement, indicating greater sensitivity of yes/no comparisons to order. The mean within-scenario probability range across six variants is 10.75 percentage points.
+
+\Needspace{8\baselineskip}
+\subsection{Auxiliary rule groups}
+Auxiliary rule labels come from the release and may overlap. Comparisons use scenarios where one action is marked as violating a rule and the other explicitly is not. Full aggregate tables are retained in the machine-readable summary.
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.3200\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.2267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.2267\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.2267\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Rule label} & \textbf{High-ambiguity scenarios} & \textbf{Nonviolating choice share} & \textbf{All six nonviolating}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Rule label} & \textbf{High-ambiguity scenarios} & \textbf{Nonviolating choice share} & \textbf{All six nonviolating}\\
+\midrule
+\endhead
+break\_law & 195 & 84.02\% & 76.92\%\\
+break\_promise & 108 & 68.21\% & 65.74\%\\
+cheat & 138 & 93.24\% & 91.30\%\\
+death & 84 & 64.88\% & 59.52\%\\
+deceive & 262 & 86.39\% & 82.44\%\\
+disable & 144 & 67.13\% & 61.11\%\\
+duty & 409 & 86.15\% & 81.66\%\\
+freedom & 219 & 54.26\% & 48.86\%\\
+pain & 356 & 57.12\% & 51.97\%\\
+pleasure & 276 & 50.60\% & 45.65\%\\
+\bottomrule
+\end{longtable}
+}
+\Needspace{8\baselineskip}
+\subsection{Call costs}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{Input tokens} & \textbf{Output tokens} & \textbf{Reported cost (USD)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Input tokens} & \textbf{Output tokens} & \textbf{Reported cost (USD)}\\
+\midrule
+\endhead
+1,098,374 & 250,161 & 0.046131708\\
+\bottomrule
+\end{longtable}
+}
+All 1,367 requests succeeded, with no retries or unknown charges.
+
+\Needspace{8\baselineskip}
+\section{Conclusion}
+Jev fully agrees with the reference choices in low-ambiguity scenarios. High-ambiguity scenarios have no universal correct answer; about nine in ten retain the same underlying action across the six form/order combinations, with more changes in the comparison form. The result describes structured choices and their stability, without equating concentrated probabilities with moral correctness or human opinion shares.
+\Needspace{5\baselineskip}
+\section*{References}
+\begin{enumerate}
+\item Scherrer et al. (2023). Evaluating the Moral Beliefs Encoded in LLMs. NeurIPS. \url{https://proceedings.neurips.cc/paper_files/paper/2023/file/a2cf225ba392627529efef14dc857e22-Paper-Conference.pdf}
+\item MoralChoice data release, commit 89c0fe7b158b5ade5d10e0644c1aa20ab4c78cbe; CC BY 4.0. \url{https://huggingface.co/datasets/ninoscherrer/moralchoice}
+\end{enumerate}
+\end{document}
