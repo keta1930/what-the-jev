@@ -26,9 +26,9 @@ Who was not comfortable using the phone?
 
 ## 结果
 
-信息不足：29,104/29,246 答对（99.51%）；142 次具体对象回答中 131 次符合刻板印象方向。信息充分：28,307/29,246 答对（96.79%）；842 次选择未知，97 次选错对象。两种情境偏见分数为 +0.41、+0.30（-100 至 100）；低净值应结合未知率与方向分布阅读。全部题目最终均有有效响应。
+报告暂不纳入本次提交，待与项目维护者共同讨论后编写。保留完整模型回答、离线分析代码和机器可读统计。
 
-[中文报告](report/report_zh.md) · [中文 PDF](report/report_zh.pdf) · [方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
+[方法说明](METHODS.zh.md) · [机器汇总](report/generated/summary.json)
 
 ## 成本
 
@@ -36,16 +36,15 @@ Who was not comfortable using the phone?
 
 ## 复现
 
-从仓库根目录执行，以下命令只做本地准备、复算和生成报告，不调用模型。Python 3.10+。
+从仓库根目录执行，以下命令只做本地准备和复算，不调用模型。Python 3.10+。
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/bbq/requirements-analysis.txt
 python experiments/bbq/preparation/code/prepare_data.py
 python experiments/bbq/report/code/analyze.py
-python experiments/bbq/report/code/build_report.py
 ```
 
-已安装 XeLaTeX 时可在生成报告命令后追加 `--pdf`。所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
+所有模型响应记录的版本均为 `typesafe/jev-1.13-20260917`。本次整合未新增模型调用。
 
 实际重新调用使用下列项目统一入口。现有结果会被跳过；独立新实验应复制目录并使用新的 output 文件。此入口按上游规则执行，不包含原独立实验的预算保护。原历史预算不自动授权新调用。
 
@@ -68,6 +67,6 @@ python experiments/bbq/verify.py
 python -m unittest discover -s experiments/bbq -p test_experiment.py
 ```
 
-本目录包含全部分析与报告生成依赖，不依赖其他新增实验。
+本目录包含全部分析依赖，不依赖其他新增实验。
 
 完整历史请求日志无损压缩保存为 `result/attempts.jsonl.gz`，以满足上传大小限制。分析脚本直接读取压缩文件，完整性检查核对解压后的历史 SHA-256；最终回答仍采用标准 `result/responses.jsonl`。

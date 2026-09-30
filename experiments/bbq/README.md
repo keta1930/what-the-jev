@@ -26,9 +26,9 @@ Who was not comfortable using the phone?
 
 ## Results
 
-Insufficient evidence: 29,104/29,246 correct (99.51%); 131 of 142 concrete-person answers align with the stereotype. Sufficient evidence: 28,307/29,246 correct (96.79%); 842 unknown and 97 incorrect-person answers. Bias scores are +0.41 and +0.30 on the -100 to 100 scale. Read the low net scores alongside unknown rates and answer directions. Every item ultimately has a valid response.
+Reports are deferred pending discussion with the project maintainer. Complete model responses, offline analysis code, and machine-readable statistics are retained.
 
-[English report](report/report_en.md) · [English PDF](report/report_en.pdf) · [Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
+[Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
 
 ## Cost
 
@@ -36,16 +36,15 @@ All attempts: 21,932,246 input tokens, 2,456,664 output tokens, USD 0.921154332 
 
 ## Reproduction
 
-Run from the repository root with Python 3.10+. These commands only prepare/recompute/build locally and make no model calls.
+Run from the repository root with Python 3.10+. These commands only prepare/recompute locally and make no model calls.
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/bbq/requirements-analysis.txt
 python experiments/bbq/preparation/code/prepare_data.py
 python experiments/bbq/report/code/analyze.py
-python experiments/bbq/report/code/build_report.py
 ```
 
-With XeLaTeX installed, add --pdf to the report command. All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
+All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
 
 For a fresh model run, the shared project entry point is below. Existing successful results are skipped; use a separate experiment copy and new output for an independent run. This entry follows upstream behavior and does not include the original custom budget guards. Historical budgets do not authorize new calls.
 
@@ -68,6 +67,6 @@ python experiments/bbq/verify.py
 python -m unittest discover -s experiments/bbq -p test_experiment.py
 ```
 
-All analysis/report helpers are local to this experiment; no other new experiment is required.
+All analysis helpers are local to this experiment; no other new experiment is required.
 
 The full historical attempt log is stored losslessly as `result/attempts.jsonl.gz` to fit upload limits. Analysis reads it directly; the integrity check verifies the decompressed historical SHA-256. Standard final responses remain in `result/responses.jsonl`.
