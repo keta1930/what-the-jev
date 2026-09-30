@@ -1,0 +1,153 @@
+{
+  "split": "test",
+  "n": 2224,
+  "valid": 2224,
+  "failed_or_missing": 0,
+  "correct": 1792,
+  "accuracy": 0.8057553956834532,
+  "valid_accuracy": 0.8057553956834532,
+  "wilson95": [
+    0.7887918254317188,
+    0.82166454013027
+  ],
+  "groups": {
+    "oEffect": {
+      "n": 159,
+      "valid": 159,
+      "correct": 127,
+      "accuracy": 0.7987421383647799,
+      "wilson95": [
+        0.7297120153083602,
+        0.8536775016364936
+      ]
+    },
+    "oReact": {
+      "n": 223,
+      "valid": 223,
+      "correct": 179,
+      "accuracy": 0.8026905829596412,
+      "wilson95": [
+        0.7455229118475902,
+        0.8496063943288005
+      ]
+    },
+    "oWant": {
+      "n": 252,
+      "valid": 252,
+      "correct": 201,
+      "accuracy": 0.7976190476190477,
+      "wilson95": [
+        0.7437161587012445,
+        0.8425844381270716
+      ]
+    },
+    "xAttr": {
+      "n": 297,
+      "valid": 297,
+      "correct": 232,
+      "accuracy": 0.7811447811447811,
+      "wilson95": [
+        0.7306948943195233,
+        0.8244147659468644
+      ]
+    },
+    "xEffect": {
+      "n": 103,
+      "valid": 103,
+      "correct": 82,
+      "accuracy": 0.7961165048543689,
+      "wilson95": [
+        0.7083376685512922,
+        0.8626017464783434
+      ]
+    },
+    "xIntent": {
+      "n": 297,
+      "valid": 297,
+      "correct": 239,
+      "accuracy": 0.8047138047138047,
+      "wilson95": [
+        0.7558585971459181,
+        0.8457872023044782
+      ]
+    },
+    "xNeed": {
+      "n": 277,
+      "valid": 277,
+      "correct": 225,
+      "accuracy": 0.8122743682310469,
+      "wilson95": [
+        0.7621336837730774,
+        0.8538722319006959
+      ]
+    },
+    "xReact": {
+      "n": 277,
+      "valid": 277,
+      "correct": 220,
+      "accuracy": 0.7942238267148014,
+      "wilson95": [
+        0.7427473656719106,
+        0.8376512716392168
+      ]
+    },
+    "xWant": {
+      "n": 339,
+      "valid": 339,
+      "correct": 287,
+      "accuracy": 0.8466076696165191,
+      "wilson95": [
+        0.8043812296826581,
+        0.8810667928766694
+      ]
+    }
+  },
+  "predictions": {
+    "C": 726,
+    "B": 726,
+    "A": 772
+  },
+  "wrong_sources": {
+    "qsa": 161,
+    "hca": 191,
+    "hia": 79,
+    "unk": 1
+  },
+  "models": {
+    "typesafe/jev-1.13-20260917": 2224
+  },
+  "technical_failed_attempts": 1,
+  "technical_failure_statuses": {
+    "None": 1
+  },
+  "cost": {
+    "debug": {
+      "attempts": 12,
+      "input_tokens": 4621,
+      "output_tokens": 456,
+      "reported_usd": 0.000194082,
+      "unknown_cost_attempts": 0
+    },
+    "test": {
+      "attempts": 2225,
+      "input_tokens": 851327,
+      "output_tokens": 84512,
+      "reported_usd": 0.035755734,
+      "unknown_cost_attempts": 1
+    }
+  },
+  "total_charged_or_reserved_usd": 0.045949816,
+  "unique_first_occurrence": {
+    "n": 2203,
+    "correct": 1775,
+    "accuracy": 0.8057194734453018,
+    "wilson95": [
+      0.7886716945167309,
+      0.8217029178579243
+    ]
+  },
+  "cluster_bootstrap95": [
+    0.7880556802873822,
+    0.8221326164874552
+  ]
+}

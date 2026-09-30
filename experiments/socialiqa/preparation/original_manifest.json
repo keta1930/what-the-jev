@@ -1,0 +1,108 @@
+{
+  "baseline": "f90e3a6bfe3bfdd015bd4c3d0c6cd5a99622753b",
+  "retrieved_utc": "2026-09-29",
+  "sources": [
+    "https://maartensap.com/social-iqa/",
+    "https://arxiv.org/abs/1904.09728",
+    "https://maartensap.com/social-iqa/data/socialIQa_v1.4.tgz",
+    "https://maartensap.com/social-iqa/data/socialIQa_v1.4_withDims.tgz"
+  ],
+  "license": "CC BY 4.0; bundled LICENCE-CC-BY-4.txt",
+  "splits": {
+    "trn": {
+      "label_disagreements": [
+        5452,
+        8317,
+        10314,
+        28808,
+        31425
+      ],
+      "count": 33410,
+      "labels": {
+        "B": 11176,
+        "A": 11274,
+        "C": 10960
+      },
+      "dimensions": {
+        "xWant": 5252,
+        "xIntent": 4532,
+        "xReact": 5113,
+        "oEffect": 1684,
+        "oReact": 2869,
+        "oWant": 3267,
+        "xEffect": 1447,
+        "xAttr": 5079,
+        "xNeed": 4167
+      }
+    },
+    "dev": {
+      "label_disagreements": [],
+      "count": 1954,
+      "labels": {
+        "C": 657,
+        "A": 643,
+        "B": 654
+      },
+      "dimensions": {
+        "xNeed": 228,
+        "xAttr": 287,
+        "oWant": 230,
+        "xReact": 223,
+        "xIntent": 238,
+        "xWant": 338,
+        "xEffect": 99,
+        "oReact": 192,
+        "oEffect": 119
+      }
+    },
+    "tst": {
+      "label_disagreements": [],
+      "count": 2224,
+      "labels": {
+        "C": 750,
+        "B": 754,
+        "A": 720
+      },
+      "dimensions": {
+        "oEffect": 159,
+        "oWant": 252,
+        "xWant": 339,
+        "xAttr": 297,
+        "xReact": 277,
+        "xIntent": 297,
+        "xNeed": 277,
+        "oReact": 223,
+        "xEffect": 103
+      }
+    }
+  },
+  "sha256": {
+    "preparation/raw/plain/LICENCE-CC-BY-4.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "preparation/raw/plain/README.md": "17a029b75caf857b5c24af271beabd1500e13bd8d6e837fda1a9060b0c69ad06",
+    "preparation/raw/plain/socialIQa_v1.4_dev.jsonl": "cba3ebde73c53f12cbdf5e05788ea95e6e6e3918466f7184e3afc324a07cc692",
+    "preparation/raw/plain/socialIQa_v1.4_trn.jsonl": "92c0edef5476d0d1038ba0df4318ab1a4ed20ba45936fe8275b9c4fc242254a3",
+    "preparation/raw/plain/socialIQa_v1.4_tst.jsonl": "5d6df7ddccee7f3049380cbdfe7af7dcd25e43d7781de9c4378f83ce50c44161",
+    "preparation/raw/socialIQa_v1.4.tgz": "99a399d50f1a996388e94ab435ba0ceadc6b8ad9d90e6420358c962a4850d217",
+    "preparation/raw/socialIQa_v1.4_withDims/LICENCE-CC-BY-4.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "preparation/raw/socialIQa_v1.4_withDims/README.md": "1ed56d3ca3db5aebccf00b0b7fb5912d2cb7e4c56336b78029cf52b47bad5d6d",
+    "preparation/raw/socialIQa_v1.4_withDims/socialIWa_v1.4_dev_wDims.jsonl": "e68d167e6643e38aec6132b89e23bebb32f64b03176479e067e627509bd5eb9a",
+    "preparation/raw/socialIQa_v1.4_withDims/socialIWa_v1.4_trn_wDims.jsonl": "73334ac195909d112107a993fd7e6505d5a864c7e21f27f30fde2138e49dbdce",
+    "preparation/raw/socialIQa_v1.4_withDims/socialIWa_v1.4_tst_wDims.jsonl": "b1bcddb5ae6f2deeaa4477df8c030b0625c62bdbec674c5176dfe8c7a64befb1",
+    "preparation/raw/socialIQa_v1.4_withDims.tgz": "5efd8c27d4edfd3b3aba807b0c157b1cc84a6a415c5537d9abec1342261f7224",
+    "data/debug.json": "14360ca8ba8460c07610487b9d5482c239145b4ae9fd41227242d630462a55cf",
+    "data/test.json": "4d230fa10bbd78e8a847d028f8cbdd4f0f50b1f3cd4cb24118e6c56a525ffac5",
+    "reference/debug.json": "861b595d9700b0e33dc85a05d117efc2aa264ce4c5fab9dc61baa4ce3bd1724a",
+    "reference/test.json": "cbc75d596e351ced1a6e429c55fcb8dec944c0b9d2aa5cf1c10e171c6658e9ea"
+  },
+  "protocol_sha256": "f258aa45a1dea4b7c308a969da1712d62df57544baa9a9abd75fd18b2782a12a",
+  "code_sha256": {
+    "evaluate.py": "d0331ebe15b5c60a7f7c0218825b5f3f32f3615746f42b0f412133641c65e5c6",
+    "score.py": "b6c5cd6a91320380474ad9eefb5d3807c6ea780c23e27fbc9a21914564cce3cf",
+    "test_protocol.py": "9917c5dd52ba0a3aa8790644bf3e2b509680c04b54b0b71c0326ac864a87b86c",
+    "test_scoring.py": "ebee16af8982da34e7297343c1fc40e40354c9ec67d8cdd42f0b0504ed7fb7a6",
+    "verify.py": "d48c3f0fe66f5a7024cd2dfe46c50d818cad7ac168835291cf4761b69f8e3982",
+    "write_report.py": "094f7314771324bd12feefab7a030fdc5b72650010578ed9373e498dad21ba7a",
+    "preparation/code/fetch.py": "ae8cd67eaeded8ef39826751d044235b4bb3248959dcb4d17931c0dfa49fe78a",
+    "preparation/code/prepare.py": "2a91e9607345f78ad8b91c40ee47b16561007e3eb9316eff3657b85a197e5a06"
+  }
+}
