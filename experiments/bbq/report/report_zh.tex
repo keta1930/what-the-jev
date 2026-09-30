@@ -1,0 +1,129 @@
+\documentclass[10pt,a4paper,fontset=fandol]{ctexart}
+\usepackage[margin=2cm]{geometry}
+\usepackage{needspace}
+\ctexset{section={format=\large\sffamily\bfseries,beforeskip=14pt,afterskip=7pt},subsection={format=\normalsize\sffamily\bfseries,beforeskip=10pt,afterskip=5pt}}
+\usepackage{fontspec,booktabs,longtable,array,xcolor,hyperref}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\definecolor{reportblue}{HTML}{244D65}
+\hypersetup{colorlinks=true,urlcolor=reportblue,linkcolor=reportblue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{5pt}
+\emergencystretch=2em
+\urlstyle{same}
+\pagestyle{plain}
+\title{\sffamily Jev 在 BBQ 上的证据使用与社会偏见}
+\author{}
+\date{2026 年 9 月 30 日}
+\begin{document}
+\begin{center}{\sffamily\LARGE Jev 在 BBQ 上的证据使用与社会偏见\par}\vspace{8pt}{\small 2026 年 9 月 30 日}\end{center}\vspace{6pt}
+\section*{摘要}
+在 BBQ 的 58,492 道英语题中，Jev 在信息不足情境下的准确率为 99.51\%，在信息充分情境下为 96.79\%。信息不足时的大多数回答正确保留为未知；其 142 次具体对象回答中，131 次符合预设刻板印象方向。信息充分时仍有 2.88\% 的回答选择未知。
+\section{数据集}
+材料来自固定版本 BBQ 的全部 11 个数据文件，覆盖九个基础社会维度与两个交叉类别，语境为美国英语社会。14,623 个四题组各包含信息不足／充分与负向／非负向设问的组合。题目英文和选项顺序保留原样，模型版本为 typesafe/jev-1.13-20260917。
+
+社会类别和偏见方向取自官方标注。用于区间估计的 342 个模板家族由本次分析依来源模板补充分组，同模板扩展题共同计入；这不是新增的社会类别。
+
+\section{结果}
+\Needspace{8\baselineskip}
+\subsection{整体结果}
+准确率以官方答案为判据。偏见分数采用官方方向，以下按 -100 至 100 标度报告，正值表示净方向符合预设刻板印象。三选一随机准确率参照为 33.33\%。
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1520\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{情境} & \textbf{题数} & \textbf{准确率} & \textbf{95\% 区间} & \textbf{未知率} & \textbf{偏见分数}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{情境} & \textbf{题数} & \textbf{准确率} & \textbf{95\% 区间} & \textbf{未知率} & \textbf{偏见分数}\\
+\midrule
+\endhead
+信息不足 & 29,246 & 99.51\% & 99.20\%–99.76\% & 99.51\% & +0.41\\
+信息充分 & 29,246 & 96.79\% & 94.57\%–98.62\% & 2.88\% & +0.30\\
+\bottomrule
+\end{longtable}
+}
+始终选择未知的模型在信息不足题上准确率为 100\%，在信息充分题上为 0\%。因此，两个情境及未知率需要同时阅读。接近零的净偏见分数也可能来自相反方向的错误抵消。
+
+\Needspace{8\baselineskip}
+\subsection{社会类别}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{类别} & \textbf{每种情境题数} & \textbf{不足：准确率} & \textbf{充分：准确率} & \textbf{充分：未知率}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{类别} & \textbf{每种情境题数} & \textbf{不足：准确率} & \textbf{充分：准确率} & \textbf{充分：未知率}\\
+\midrule
+\endhead
+年龄 & 1,840 & 96.85\% & 99.67\% & 0.33\%\\
+残障状态 & 778 & 98.59\% & 99.10\% & 0.90\%\\
+性别认同 & 2,836 & 100.00\% & 99.86\% & 0.14\%\\
+国籍 & 1,540 & 98.83\% & 98.44\% & 1.56\%\\
+外貌 & 788 & 97.08\% & 88.58\% & 2.41\%\\
+种族／族裔 & 3,440 & 99.94\% & 96.63\% & 3.26\%\\
+宗教 & 600 & 95.33\% & 96.17\% & 3.50\%\\
+社会经济地位 & 3,432 & 99.97\% & 89.42\% & 10.58\%\\
+性取向 & 432 & 100.00\% & 97.45\% & 2.55\%\\
+种族 × 性别 & 7,980 & 100.00\% & 96.30\% & 3.45\%\\
+种族 × 经济地位 & 5,580 & 99.98\% & 100.00\% & 0.00\%\\
+\bottomrule
+\end{longtable}
+}
+信息不足时，宗教和年龄类别准确率较低；信息充分时，外貌与社会经济地位类别准确率较低。基础类别和交叉类别题数不同，总体成绩不是类别等权平均。
+
+\Needspace{8\baselineskip}
+\subsection{回答方向与证据}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.4000\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.6000\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{行为} & \textbf{次数／比例}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{行为} & \textbf{次数／比例}\\
+\midrule
+\endhead
+不足：具体对象回答 & 142\\
+其中符合刻板印象方向 & 131 / 142 (92.25\%)\\
+充分：选择未知 & 842\\
+充分：选择错误对象 & 97\\
+充分：证据符合刻板印象时准确率 & 96.63\%\\
+充分：证据相反时准确率 & 96.95\%\\
+\bottomrule
+\end{longtable}
+}
+偏见标注齐全的子集用于偏见分数；全量题目用于准确率。充分信息题的正确答案方向并非严格平衡，即使全答对，官方全量偏见分数也约为 +0.54，不能把偏离零全部解释为模型错误。
+
+\Needspace{8\baselineskip}
+\subsection{调用成本}
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.2400\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3800\textwidth-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{输入 token} & \textbf{输出 token} & \textbf{已报告费用（美元）}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{输入 token} & \textbf{输出 token} & \textbf{已报告费用（美元）}\\
+\midrule
+\endhead
+21,932,246 & 2,456,664 & 0.921154332\\
+\bottomrule
+\end{longtable}
+}
+费用含全部有计费结果的尝试。一次技术失败没有返回费用，另有 0.002 美元历史预留，未计作已结算金额。全部 58,492 题最终均有有效响应。
+
+\Needspace{8\baselineskip}
+\section{结论}
+Jev 在多数题目上能够区分证据不足与充分的情境。剩余问题包括信息不足时少量、但方向集中的刻板印象推断，以及信息充分时仍选择未知。总体高准确率与低净偏见分数需要结合这些具体回答行为解读，结论对应本次美国英语题集。
+\Needspace{5\baselineskip}
+\section*{参考文献}
+\begin{enumerate}
+\item Parrish et al. (2022). BBQ: A Hand-Built Bias Benchmark for Question Answering. Findings of ACL. \url{https://aclanthology.org/2022.findings-acl.165/}
+\item BBQ official release, commit bea11bd97d79217245b5871acd247b9d6eb24598; CC BY 4.0. \url{https://github.com/nyu-mll/BBQ}
+\end{enumerate}
+\end{document}
