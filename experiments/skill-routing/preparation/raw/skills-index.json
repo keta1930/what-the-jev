@@ -1,0 +1,758 @@
+[
+  {
+    "source": "anthropics-skills",
+    "name": "academy-guide",
+    "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+    "path": "anthropics-skills/skills/academy-guide/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+    "path": "anthropics-skills/skills/algorithmic-art/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "path": "anthropics-skills/skills/brand-guidelines/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "path": "anthropics-skills/skills/canvas-design/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "claude-api",
+    "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+    "path": "anthropics-skills/skills/claude-api/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "discernment-nudge",
+    "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+    "path": "anthropics-skills/skills/discernment-nudge/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "path": "anthropics-skills/skills/doc-coauthoring/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "docx",
+    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+    "path": "anthropics-skills/skills/docx/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "frontend-design",
+    "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+    "path": "anthropics-skills/skills/frontend-design/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "path": "anthropics-skills/skills/internal-comms/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "path": "anthropics-skills/skills/mcp-builder/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "pdf",
+    "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+    "path": "anthropics-skills/skills/pdf/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "pptx",
+    "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+    "path": "anthropics-skills/skills/pptx/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "skill-creator",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+    "path": "anthropics-skills/skills/skill-creator/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "path": "anthropics-skills/skills/slack-gif-creator/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "path": "anthropics-skills/skills/theme-factory/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "path": "anthropics-skills/skills/web-artifacts-builder/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "webapp-testing",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "path": "anthropics-skills/skills/webapp-testing/SKILL.md"
+  },
+  {
+    "source": "anthropics-skills",
+    "name": "xlsx",
+    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+    "path": "anthropics-skills/skills/xlsx/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-suite",
+    "description": "飞书/Lark 聚合能力入口：管理飞书/Lark 产品能力（<!-- LARK_SUITE_KEYS -->等）。当 doubao.com 及其子域名承载飞书资源时也使用本入口，不要回退到 WebFetch。当用户需求涉及上述飞书业务域时使用。",
+    "path": "larksuite-cli/isolated-skills/lark-suite/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-approval",
+    "description": "飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lark-task。不负责创建审批定义；三方审批定义不走原生提单。",
+    "path": "larksuite-cli/skills/lark-approval/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-apps",
+    "description": "妙搭（Spark/Miaoda）应用开发与托管：应用创建、本地全栈开发、云端生成迭代、创意设计（UI mockup / 可交互原型 / 线框图 / 落地页 / 仪表盘 / 幻灯片 deck / 视觉探索）、AI相关能力和飞书平台能力或者其他外部能力集成、日志/Trace/监控指标/PV/UV 查询、环境变量管理、应用协作者与协作权限设置、应用角色与成员管理、自动化触发器（定时/记录变更/Webhook/飞书审批）。当用户要开发/新建一个系统·工具·平台·应用，或要本地开发 / 云端开发 / 修改 / 部署 / 发布 / 上线 / 拿可分享链接，或用 HTML 做页面·网站·部署到妙搭，或要设计 / design / mockup / prototype / wireframe / 做 PPT / deck / 视觉探索，或提到妙搭/Spark/Miaoda（应用运行时域名形如 *.aiforce.cloud）、应用数据库、应用文件存储、开放 API Key、可见范围、应用协作者/开发权限、应用角色/角色成员、线上日志、接口请求量、错误量、延迟、访问量、环境变量、给妙搭应用配自动化任务/定时触发/审批通过后自动触发时使用。不负责普通云盘文件上传（lark-drive）、飞书文档编辑（lark-doc）、原生幻灯片创建（lark-slides）。",
+    "path": "larksuite-cli/skills/lark-apps/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-attendance",
+    "description": "飞书考勤打卡：查询自己的考勤打卡记录",
+    "path": "larksuite-cli/skills/lark-attendance/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-base",
+    "description": "飞书多维表格（Base）操作：建表、字段、记录、视图、统计、公式/lookup、表单、仪表盘、应用模式（BaseApp/AppMode 页面与组件）、Workspace 目录、workflow、角色权限、模板中心（多维表格模板分类/列表/搜索）；遇到 Base/多维表格/bitable、BaseApp/AppMode、/base/ 或 /app/ 链接时使用。BaseApp 不走 lark-apps；文件导入/导出转 lark-drive，认证/授权转 lark-shared。",
+    "path": "larksuite-cli/skills/lark-base/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-calendar",
+    "description": "飞书日历：管理日历日程和会议室。查看/搜索日程、创建/更新日程、管理参会人、查询忙闲和推荐时段、预定会议室。当用户需要查看日程安排、创建/修改会议、查询/预定会议室时使用。不负责：查询过去的视频会议记录（走 lark-meeting）、待办任务（走 lark-task）。",
+    "path": "larksuite-cli/skills/lark-calendar/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-contact",
+    "description": "飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open_id,或按 open_id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名,以及按关键词搜索当前用户可见的机器人 / 智能体(agent)。当用户提到一个名字要下一步发消息 / 排日程,或拿到 open_id 想查具体信息时使用。不负责部门树遍历、按部门列员工、组织架构图,这类需求走原生 OpenAPI。",
+    "path": "larksuite-cli/skills/lark-contact/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-doc",
+    "description": "飞书云文档（Docx / Wiki）内容操作：读取、创建、编辑文档，插入或下载图片附件，以及操作思维笔记。用户提供文档 URL/token（包括 doubao.com 的 /docx/、/wiki/）时使用；按 URL 路径/token 而非域名路由。文档内嵌资源按读取参考中的统一规则分流。独立评论操作走 lark-drive；随正文读取评论使用 docs +fetch。表格或 Base 内部数据操作不在本 skill。",
+    "path": "larksuite-cli/skills/lark-doc/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-drive",
+    "description": "飞书云空间（云盘/云存储）：管理 Drive 文件和文件夹，包含上传/下载、创建文件夹、复制/移动/删除、查看元数据、查询权限设置、评论/权限/订阅、标题、版本、飞书文档密级标签（secure labels）和本地文件导入。用户需要整理云盘目录、处理云空间资源 URL/token、判断链接类型/真实 token/标题，或导入 Word/Markdown/Excel/CSV/PPTX/.base 为 docx/sheet/bitable/slides 时使用；doubao.com 云空间 URL/token 也按资源路径和 token 路由，不回退 WebFetch。不负责：文档内容编辑（走 lark-doc）、表格/Base 表内数据操作（走 lark-sheets/lark-base）、知识空间节点/成员管理（走 lark-wiki）、原生 Markdown 文件读写/patch/diff（走 lark-markdown）。",
+    "path": "larksuite-cli/skills/lark-drive/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-event",
+    "description": "Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via `lark-cli event consume <EventKey>` (covers IM messages/reactions/chat changes, Approval status changes, Task updates, VC meeting started/joined/ended, Minutes generated, Whiteboard updated, etc.). Use for Lark bots, real-time message processing, long-running subscribers, streaming webhook/push handlers. Supports `--max-events` / `--timeout` bounded runs and a stderr ready-marker contract — designed for AI agents running as subprocesses.",
+    "path": "larksuite-cli/skills/lark-event/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-im",
+    "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复、发送应用内/短信/电话加急、发送和处理交互卡片（Interactive Card）、监听卡片按钮回调（card.action.trigger）。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员、搜索群、创建群聊或话题群、管理标记数据、管理 Feed 置顶（添加/移除/查询置顶会话）、管理标签数据、处理卡片回调时使用。",
+    "path": "larksuite-cli/skills/lark-im/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-mail",
+    "description": "飞书邮箱：Use when user mentions 起草邮件、写邮件、草稿、发送/回复/转发邮件、查阅邮件、看邮件、搜索邮件、邮件文件夹、邮件标签、邮件联系人、监听新邮件、邮件收信规则等；use for mail/email intent only. Do not use for docs/sheets/calendar/auth setup/pure contact lookup/IM chat tasks.",
+    "path": "larksuite-cli/skills/lark-mail/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-markdown",
+    "description": "飞书 Markdown：查看、创建、上传、编辑和比较飞书中的原生 Markdown 文件。当用户要操作飞书 Markdown 文件，或比较其远端版本及本地草稿时使用。纯本地 Markdown 文件操作不触发本 skill。不负责将 Markdown 导入为飞书在线文档，也不负责文件搜索、权限、评论、移动、删除等云空间管理操作。",
+    "path": "larksuite-cli/skills/lark-markdown/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-meeting",
+    "description": "飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。",
+    "path": "larksuite-cli/skills/lark-meeting/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-minutes",
+    "description": "仅当用户或上游配置显式指定 lark-minutes 时使用，相关请求统一交由 lark-meeting 技能处理。",
+    "path": "larksuite-cli/skills/lark-minutes/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-note",
+    "description": "仅当用户或上游配置显式指定 lark-note 时使用，相关请求统一交由 lark-meeting 技能处理。",
+    "path": "larksuite-cli/skills/lark-note/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-okr",
+    "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标、关键结果、对齐关系、量化指标和进展记录。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。不负责：待办任务管理（lark-task）、日程/会议安排（lark-calendar）、绩效评估",
+    "path": "larksuite-cli/skills/lark-okr/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-openapi-explorer",
+    "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。",
+    "path": "larksuite-cli/skills/lark-openapi-explorer/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-shared",
+    "description": "Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain permissions (--domain, including all/docs/drive), missing scopes, revoking authorization, or handling _notice JSON.",
+    "path": "larksuite-cli/skills/lark-shared/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-sheets",
+    "description": "飞书电子表格：创建和操作电子表格。支持工作表与行列结构（增删/合并/尺寸/隐藏/冻结/分组）、单元格读写（值/公式/样式/批注/单元格图片）、区域复制移动排序填充、查找替换、批量更新，图表、透视表、条件格式、筛选器与筛选视图、下拉列表、迷你图、浮动图片等对象的创建与维护，以及公式校验、历史版本回滚、本地 Excel/CSV 与飞书表格的导入导出。当用户需要创建或编辑表格、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity 等）时使用。多维表格（Base/bitable）请改用 lark-base；若用户是想按名称或关键词搜索云空间（云盘/云存储）里的表格文件，请改用 lark-drive 的 drive +search 先定位资源。当用户给出 doubao.com 的 /sheets/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。",
+    "path": "larksuite-cli/skills/lark-sheets/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-skill-maker",
+    "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。",
+    "path": "larksuite-cli/skills/lark-skill-maker/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-slides",
+    "description": "飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。当用户给出 doubao.com 的 /slides/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：云文档内容编辑（走 lark-doc）、云文档里的独立画板对象（走 lark-whiteboard）、上传或下载普通文件（走 lark-drive）。",
+    "path": "larksuite-cli/skills/lark-slides/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-task",
+    "description": "飞书任务：管理任务、清单和任务智能体。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员、上传任务附件、注册或注销任务智能体、更新任务智能体的主页数据、写入智能体任务记录。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务、为任务上传附件文件、注册注销任务智能体、更新智能体主页数据、写入任务记录时使用。",
+    "path": "larksuite-cli/skills/lark-task/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-vc",
+    "description": "仅当用户或上游配置显式指定 lark-vc 时使用，相关请求统一交由 lark-meeting 技能处理。",
+    "path": "larksuite-cli/skills/lark-vc/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-vc-agent",
+    "description": "仅当用户或上游配置显式指定 lark-vc-agent 时使用，相关请求统一交由 lark-meeting 技能处理。",
+    "path": "larksuite-cli/skills/lark-vc-agent/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-whiteboard",
+    "description": "飞书画板：查询和编辑飞书云文档中的画板。支持导出画板为预览图片、导出原始节点结构、使用多种格式更新画板内容。 当用户需要查看画板内容、导出画板图片、编辑画板时使用此 skill。不负责：飞书云文档内容编辑（lark-doc）、文档内嵌电子表格/Base（lark-sheets / lark-base）。",
+    "path": "larksuite-cli/skills/lark-whiteboard/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-wiki",
+    "description": "飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管理空间成员、移动或复制节点时使用。当用户给出 doubao.com 的 /wiki/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：上传文件到知识库节点下（走 lark-drive）、编辑文档/表格/Base 内容（走 lark-doc / lark-sheets / lark-base）。",
+    "path": "larksuite-cli/skills/lark-wiki/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-workflow-meeting-summary",
+    "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
+    "path": "larksuite-cli/skills/lark-workflow-meeting-summary/SKILL.md"
+  },
+  {
+    "source": "larksuite-cli",
+    "name": "lark-workflow-standup-report",
+    "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
+    "path": "larksuite-cli/skills/lark-workflow-standup-report/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "ask-matt",
+    "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+    "path": "mattpocock-skills/skills/engineering/ask-matt/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "code-review",
+    "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+    "path": "mattpocock-skills/skills/engineering/code-review/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "codebase-design",
+    "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+    "path": "mattpocock-skills/skills/engineering/codebase-design/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "diagnosing-bugs",
+    "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+    "path": "mattpocock-skills/skills/engineering/diagnosing-bugs/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "domain-modeling",
+    "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+    "path": "mattpocock-skills/skills/engineering/domain-modeling/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "grill-with-docs",
+    "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+    "path": "mattpocock-skills/skills/engineering/grill-with-docs/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "implement",
+    "description": "Implement a piece of work based on a spec or set of tickets.",
+    "path": "mattpocock-skills/skills/engineering/implement/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "implement-spec",
+    "description": "Implement the result of /to-spec and /to-tickets in code.",
+    "path": "mattpocock-skills/skills/engineering/implement-spec/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "improve-codebase-architecture",
+    "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+    "path": "mattpocock-skills/skills/engineering/improve-codebase-architecture/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "pr",
+    "description": "Use when writing a PR body.",
+    "path": "mattpocock-skills/skills/engineering/pr/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "prototype",
+    "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+    "path": "mattpocock-skills/skills/engineering/prototype/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "research",
+    "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+    "path": "mattpocock-skills/skills/engineering/research/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "retro",
+    "description": "Conduct a retrospective on a coding session.",
+    "path": "mattpocock-skills/skills/engineering/retro/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "setup-matt-pocock-skills",
+    "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "path": "mattpocock-skills/skills/engineering/setup-matt-pocock-skills/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "tdd",
+    "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+    "path": "mattpocock-skills/skills/engineering/tdd/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "to-spec",
+    "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+    "path": "mattpocock-skills/skills/engineering/to-spec/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "to-tickets",
+    "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+    "path": "mattpocock-skills/skills/engineering/to-tickets/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "triage",
+    "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+    "path": "mattpocock-skills/skills/engineering/triage/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "wayfinder",
+    "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+    "path": "mattpocock-skills/skills/engineering/wayfinder/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "wizard",
+    "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+    "path": "mattpocock-skills/skills/engineering/wizard/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "claude-handoff",
+    "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+    "path": "mattpocock-skills/skills/in-progress/claude-handoff/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "loop-me",
+    "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+    "path": "mattpocock-skills/skills/in-progress/loop-me/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "setup-ts-deep-modules",
+    "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+    "path": "mattpocock-skills/skills/in-progress/setup-ts-deep-modules/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "writing-beats",
+    "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+    "path": "mattpocock-skills/skills/in-progress/writing-beats/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "writing-fragments",
+    "description": "Writing, explore: mine raw fragments, no structure yet.",
+    "path": "mattpocock-skills/skills/in-progress/writing-fragments/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "writing-shape",
+    "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+    "path": "mattpocock-skills/skills/in-progress/writing-shape/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "git-guardrails-claude-code",
+    "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+    "path": "mattpocock-skills/skills/misc/git-guardrails-claude-code/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "migrate-to-shoehorn",
+    "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+    "path": "mattpocock-skills/skills/misc/migrate-to-shoehorn/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "scaffold-exercises",
+    "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+    "path": "mattpocock-skills/skills/misc/scaffold-exercises/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "setup-pre-commit",
+    "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+    "path": "mattpocock-skills/skills/misc/setup-pre-commit/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "grill-me",
+    "description": "A relentless interview to sharpen a plan or design.",
+    "path": "mattpocock-skills/skills/productivity/grill-me/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "grilling",
+    "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+    "path": "mattpocock-skills/skills/productivity/grilling/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "handoff",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "path": "mattpocock-skills/skills/productivity/handoff/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "teach",
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "path": "mattpocock-skills/skills/productivity/teach/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "to-questionnaire",
+    "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+    "path": "mattpocock-skills/skills/productivity/to-questionnaire/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "wait-what",
+    "description": "Stop. That last message did not land: re-pitch it.",
+    "path": "mattpocock-skills/skills/productivity/wait-what/SKILL.md"
+  },
+  {
+    "source": "mattpocock-skills",
+    "name": "writing-for-agents",
+    "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+    "path": "mattpocock-skills/skills/productivity/writing-for-agents/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "aspnet-core",
+    "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
+    "path": "openai-skills/skills/.curated/aspnet-core/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "chatgpt-apps",
+    "description": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply Apps SDK metadata or CSP or domain settings, or produce a docs-aligned project scaffold. Prefer a docs-first workflow by invoking the openai-docs skill or OpenAI developer docs MCP tools before generating code.",
+    "path": "openai-skills/skills/.curated/chatgpt-apps/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "cli-creator",
+    "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
+    "path": "openai-skills/skills/.curated/cli-creator/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "cloudflare-deploy",
+    "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
+    "path": "openai-skills/skills/.curated/cloudflare-deploy/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "define-goal",
+    "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
+    "path": "openai-skills/skills/.curated/define-goal/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma",
+    "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
+    "path": "openai-skills/skills/.curated/figma/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-code-connect-components",
+    "description": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wants to establish mappings between Figma designs and code implementations. For canvas writes via `use_figma`, use `figma-use`.",
+    "path": "openai-skills/skills/.curated/figma-code-connect-components/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-create-design-system-rules",
+    "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
+    "path": "openai-skills/skills/.curated/figma-create-design-system-rules/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-create-new-file",
+    "description": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)",
+    "path": "openai-skills/skills/.curated/figma-create-new-file/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-generate-design",
+    "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code'. This is the preferred workflow skill whenever the user wants to build or update a full page, screen, or view in Figma from code or a description. Discovers design system components, variables, and styles via search_design_system, imports them, and assembles screens incrementally section-by-section using design system tokens instead of hardcoded values.",
+    "path": "openai-skills/skills/.curated/figma-generate-design/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-generate-library",
+    "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WHAT ORDER — it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
+    "path": "openai-skills/skills/.curated/figma-generate-library/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-implement-design",
+    "description": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`.",
+    "path": "openai-skills/skills/.curated/figma-implement-design/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "figma-use",
+    "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context — e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
+    "path": "openai-skills/skills/.curated/figma-use/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "gh-address-comments",
+    "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+    "path": "openai-skills/skills/.curated/gh-address-comments/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "gh-fix-ci",
+    "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+    "path": "openai-skills/skills/.curated/gh-fix-ci/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "hatch-pet",
+    "description": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Codex pet workflow, a non-pixel custom pet style, a prospect or company mascot pet, or a full 8x9 animated pet atlas with transparent unused cells, QA contact sheets, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly.",
+    "path": "openai-skills/skills/.curated/hatch-pet/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "jupyter-notebook",
+    "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
+    "path": "openai-skills/skills/.curated/jupyter-notebook/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "linear",
+    "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+    "path": "openai-skills/skills/.curated/linear/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "migrate-to-codex",
+    "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+    "path": "openai-skills/skills/.curated/migrate-to-codex/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "netlify-deploy",
+    "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
+    "path": "openai-skills/skills/.curated/netlify-deploy/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "notion-knowledge-capture",
+    "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+    "path": "openai-skills/skills/.curated/notion-knowledge-capture/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "notion-meeting-intelligence",
+    "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+    "path": "openai-skills/skills/.curated/notion-meeting-intelligence/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "notion-research-documentation",
+    "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+    "path": "openai-skills/skills/.curated/notion-research-documentation/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "notion-spec-to-implementation",
+    "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+    "path": "openai-skills/skills/.curated/notion-spec-to-implementation/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "openai-docs",
+    "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+    "path": "openai-skills/skills/.curated/openai-docs/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "playwright",
+    "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+    "path": "openai-skills/skills/.curated/playwright/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "playwright-interactive",
+    "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+    "path": "openai-skills/skills/.curated/playwright-interactive/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "render-deploy",
+    "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
+    "path": "openai-skills/skills/.curated/render-deploy/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "screenshot",
+    "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+    "path": "openai-skills/skills/.curated/screenshot/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "security-best-practices",
+    "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+    "path": "openai-skills/skills/.curated/security-best-practices/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "security-ownership-map",
+    "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
+    "path": "openai-skills/skills/.curated/security-ownership-map/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "security-threat-model",
+    "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+    "path": "openai-skills/skills/.curated/security-threat-model/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "sentry",
+    "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.",
+    "path": "openai-skills/skills/.curated/sentry/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "speech",
+    "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
+    "path": "openai-skills/skills/.curated/speech/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "transcribe",
+    "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
+    "path": "openai-skills/skills/.curated/transcribe/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "vercel-deploy",
+    "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+    "path": "openai-skills/skills/.curated/vercel-deploy/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "winui-app",
+    "description": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refactoring, planning, troubleshooting, environment-checking, or setting up WinUI 3 XAML, controls, navigation, windowing, theming, accessibility, responsiveness, performance, deployment, or related Windows app design and development work.",
+    "path": "openai-skills/skills/.curated/winui-app/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "yeet",
+    "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
+    "path": "openai-skills/skills/.curated/yeet/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "imagegen",
+    "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+    "path": "openai-skills/skills/.system/imagegen/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "plugin-creator",
+    "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
+    "path": "openai-skills/skills/.system/plugin-creator/SKILL.md"
+  },
+  {
+    "source": "openai-skills",
+    "name": "skill-installer",
+    "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+    "path": "openai-skills/skills/.system/skill-installer/SKILL.md"
+  }
+]
