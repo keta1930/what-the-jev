@@ -17,9 +17,9 @@ Answer the question in the state about the story in the state. The story and que
 
 ## Results
 
-Three-class agreement is 90/206 (43.69%): 57/144 causal (39.58%) and 33/62 moral (53.23%). Only 1/46 human-ambiguous causal items is also model-ambiguous. All 206 items are valid; agreement concerns human judgments rather than moral correctness.
+Reports are deferred pending discussion with the project maintainer. Complete model responses, offline analysis code, and machine-readable statistics are retained.
 
-[English report](report/report_en.md) · [English PDF](report/report_en.pdf) · [Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
+[Methods](METHODS.md) · [Machine summary](report/generated/summary.json)
 
 ## Cost
 
@@ -27,16 +27,15 @@ Three-class agreement is 90/206 (43.69%): 57/144 causal (39.58%) and 33/62 moral
 
 ## Reproduction
 
-Run from the repository root with Python 3.10+. These commands only prepare/recompute/build locally and make no model calls. Replace the source path with a lawfully obtained local directory containing both pinned JSON files. Without it, the existing aggregate report remains readable but cannot be fully recomputed.
+Run from the repository root with Python 3.10+. These commands only prepare/recompute locally and make no model calls. Replace the source path with a lawfully obtained local directory containing both pinned JSON files. Without it, the existing aggregate report remains readable but cannot be fully recomputed.
 
 ```bash
 python -m pip install -r requirements.txt -r experiments/moca/requirements-analysis.txt
 python experiments/moca/preparation/code/prepare_data.py --source-dir /path/to/authorized/moca/data
 python experiments/moca/report/code/analyze.py
-python experiments/moca/report/code/build_report.py
 ```
 
-With XeLaTeX installed, add --pdf to the report command. All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
+All recorded model responses identify typesafe/jev-1.13-20260917. Integration made no new model calls.
 
 For a fresh model run, the shared project entry point is below. Existing successful results are skipped; use a separate experiment copy and new output for an independent run. This entry follows upstream behavior and does not include the original custom budget guards. Historical budgets do not authorize new calls.
 
@@ -59,4 +58,4 @@ python experiments/moca/verify.py
 python -m unittest discover -s experiments/moca -p test_experiment.py
 ```
 
-All analysis/report helpers are local to this experiment; no other new experiment is required. The distribution check also catches ignored local source inputs. Remove generated MoCa inputs before sharing.
+All analysis helpers are local to this experiment; no other new experiment is required. The distribution check also catches ignored local source inputs. Remove generated MoCa inputs before sharing.
