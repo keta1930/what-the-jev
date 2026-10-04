@@ -6,7 +6,7 @@
 
 ## 项目简介
 
-**what-the-jev** 展示 Jev（TypeSafe AI 的 System One 模型）在各种任务上的能力。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
+**what-the-jev** 展示 Jev（TypeSafe AI 的 System One 决策模型）在各种任务上的能力。这是一套持续扩充的可复现 benchmark 与实验合集：每个任务都附带数据集、运行配置、原始模型响应和分析报告。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
 
 ## 仓库结构
 

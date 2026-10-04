@@ -6,7 +6,7 @@
 
 ## Introduction
 
-**what-the-jev** showcases what Jev (TypeSafe AI's "System One" model) can do across a wide range of tasks. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
+**what-the-jev** showcases what Jev (TypeSafe AI's "System One" decision model) can do across a wide range of tasks. It is a growing collection of reproducible benchmarks and experiments: every task ships with its dataset, run configuration, raw model responses, and analysis reports. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
 
 ## Repository Structure
 
