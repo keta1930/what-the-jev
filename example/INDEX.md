@@ -2,7 +2,7 @@
 
 *English | [简体中文](INDEX_ZH.md)*
 
-Seven small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
+Eight small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
 
 ## 1. Historical Knowledge
 
@@ -28,3 +28,7 @@ Seven small-sample examples, grouped by the ability they probe. Each description
 ## 6. Security
 
 1. [injection-guard](injection-guard/README.md) — Tests whether Jev can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations.
+
+## 7. Paper Reading
+
+1. [paper-qa](paper-qa/README.md) — Tests whether Jev can answer questions about a research paper from only part of its text.

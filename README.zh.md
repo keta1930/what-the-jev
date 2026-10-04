@@ -19,6 +19,7 @@ what-the-jev/
 │   ├── pixel-recognition/  【图像识别】测试JEV模型能否仅凭像素数值识别图像内容。
 │   ├── ethics-dilemmas/    【伦理决策】测试JEV模型在经典伦理困境中的行为可接受性判断。
 │   ├── injection-guard/    【安全】测试JEV模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。
+│   ├── paper-qa/           【论文阅读】测试JEV模型能否根据论文的部分内容回答关于该论文的问题。
 │   └── ticket-triage/      【业务决策】测试JEV模型对客服工单的分类、退款诉求与紧急程度判断。
 ├── experiments/            专业级实验
 └── docs/jev/               【AGENT】JEV 知识库
