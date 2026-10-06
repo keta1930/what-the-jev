@@ -1,0 +1,1279 @@
+{
+  "schema_version": 1,
+  "generated": "2026-10-06",
+  "purpose": "Raw data for JEV paper-QA experiments: 24 influential AI papers (2025-12 to 2026-09) across 8 domains (3 each) from arXiv, converted with pdf2md and split at section boundaries.",
+  "domains": [
+    {
+      "name": "agent",
+      "count": 3
+    },
+    {
+      "name": "behavior-simulation",
+      "count": 3
+    },
+    {
+      "name": "interpretability-alignment",
+      "count": 3
+    },
+    {
+      "name": "memory",
+      "count": 3
+    },
+    {
+      "name": "prompt-injection",
+      "count": 3
+    },
+    {
+      "name": "reasoning",
+      "count": 3
+    },
+    {
+      "name": "self-evolution",
+      "count": 3
+    },
+    {
+      "name": "training",
+      "count": 3
+    }
+  ],
+  "papers": [
+    {
+      "no": 1,
+      "slug": "hindsight",
+      "domain": "memory",
+      "arxiv_id": "2512.12818",
+      "title": "Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",
+      "org": "Vectorize",
+      "submitted": "2025-12",
+      "reuse": false,
+      "pdf_bytes": 2452730,
+      "markdown_chars": 95813,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "HINDSIGHT IS 20/20: BUILDING AGENT MEMORY THAT RETAINS, RECALLS, AND REFLECTS — 3 HINDSIGHT OVERVIEW",
+          "chars": 23673
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 TEMPR: RETAIN AND RECALL",
+          "chars": 20547
+        },
+        {
+          "file": "part-03.md",
+          "sections": "5 CARA: COHERENT ADAPTIVE REASONING AGENTS — 6 PUTTING IT ALL TOGETHER: UNIFIED HINDSIGHT ARCHITECTURE",
+          "chars": 21586
+        },
+        {
+          "file": "part-04.md",
+          "sections": "7 EXPERIMENTS — REFERENCES",
+          "chars": 18710
+        },
+        {
+          "file": "part-05.md",
+          "sections": "Appendix",
+          "chars": 11294
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "slug": "byterover",
+      "domain": "memory",
+      "arxiv_id": "2604.01599",
+      "title": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context",
+      "org": "ByteRover",
+      "submitted": "2026-04",
+      "reuse": false,
+      "pdf_bytes": 871705,
+      "markdown_chars": 52049,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context — 4 Agent-Native Operations",
+          "chars": 23064
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5 Experiments — C Context Tree Entry Example",
+          "chars": 28985
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "slug": "evermemos",
+      "domain": "memory",
+      "arxiv_id": "2601.02163",
+      "title": "EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning",
+      "org": "EverMemOS 团队",
+      "submitted": "2026-01",
+      "reuse": false,
+      "pdf_bytes": 1663951,
+      "markdown_chars": 67304,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning — 3 EverMemOS",
+          "chars": 18843
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 Experiments — References",
+          "chars": 25278
+        },
+        {
+          "file": "part-03.md",
+          "sections": "A Evaluation Details — C Reproducibility Artifacts",
+          "chars": 23182
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "slug": "rsi-roadmap",
+      "domain": "self-evolution",
+      "arxiv_id": "2609.11873",
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "org": "清华/上交大等",
+      "submitted": "2026-09",
+      "reuse": false,
+      "pdf_bytes": 7838214,
+      "markdown_chars": 353731,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement — 1 Introduction",
+          "chars": 25902
+        },
+        {
+          "file": "part-02.md",
+          "sections": "2 Background and Preliminaries — 3 RSI Across Autonomy Levels",
+          "chars": 22551
+        },
+        {
+          "file": "part-03.md",
+          "sections": "3 RSI Across Autonomy Levels / 3.1 B0: In-Task AI Improvement — 3 RSI Across Autonomy Levels / 3.2 L1: Autonomy over Improvement Execution",
+          "chars": 28918
+        },
+        {
+          "file": "part-04.md",
+          "sections": "3 RSI Across Autonomy Levels / 3.3 L2: Autonomy over Improvement Strategies",
+          "chars": 15646
+        },
+        {
+          "file": "part-05.md",
+          "sections": "3 RSI Across Autonomy Levels / 3.4 L3: Autonomy over Future Learning Experience",
+          "chars": 21800
+        },
+        {
+          "file": "part-06.md",
+          "sections": "3 RSI Across Autonomy Levels / 3.5 L4: Autonomy in Deployment and Environmental Adaptation",
+          "chars": 22731
+        },
+        {
+          "file": "part-07.md",
+          "sections": "3 RSI Across Autonomy Levels / 3.6 L5: From Environmental Adaptation to Meta-Improvement — 5 Industry Landscape and Preliminary Practices",
+          "chars": 25934
+        },
+        {
+          "file": "part-08.md",
+          "sections": "5 Industry Landscape and Preliminary Practices / 5.1 Theseus: Environment–Data–Model Co-Evolution for RSI Intelligence — 5 Industry Landscape and Preliminary Practices / 5.5 ModelBest: Zero-Human Industrial AI Engineering",
+          "chars": 26658
+        },
+        {
+          "file": "part-09.md",
+          "sections": "5 Industry Landscape and Preliminary Practices / 5.6 Tencent Hunyuan: Experience-Driven Self-Improvement — 7 Conclusion",
+          "chars": 27784
+        },
+        {
+          "file": "part-10.md",
+          "sections": "References (1/2)",
+          "chars": 29310
+        },
+        {
+          "file": "part-11.md",
+          "sections": "References (2/2)",
+          "chars": 28820
+        },
+        {
+          "file": "part-12.md",
+          "sections": "Appendix A: RSI Landscape — A<sub>ppen</sub>d i<sub>x</sub> B <sub>:</sub> I <sub>n</sub>d <sub>us</sub>t<sub>ry</sub> L<sub>a n</sub>d<sub>sca pe</sub> / Company Archetypes in the Emerging RSI / Self-Improvement Landscape (1/2)",
+          "chars": 25235
+        },
+        {
+          "file": "part-13.md",
+          "sections": "A<sub>ppen</sub>d i<sub>x</sub> B <sub>:</sub> I <sub>n</sub>d <sub>us</sub>t<sub>ry</sub> L<sub>a n</sub>d<sub>sca pe</sub> / Company Archetypes in the Emerging RSI / Self-Improvement Landscape (2/2) — Appendix C: RSI Across Applications / C.1 S1: RSI for Science",
+          "chars": 25183
+        },
+        {
+          "file": "part-14.md",
+          "sections": "Appendix C: RSI Across Applications / C.2 S2: RSI for Embodied Intelligence — Appendix C: RSI Across Applications / C.4 S4: RSI for Healthcare",
+          "chars": 27012
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "slug": "harness-updating-vs-benefit",
+      "domain": "self-evolution",
+      "arxiv_id": "2605.30621",
+      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+      "org": "UCSC/PSU 等",
+      "submitted": "2026-05",
+      "reuse": false,
+      "pdf_bytes": 2463998,
+      "markdown_chars": 94177,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents — 3 Harness-Evolution Capabilities",
+          "chars": 18732
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 Experiments — 7 Ethics Statement",
+          "chars": 22622
+        },
+        {
+          "file": "part-03.md",
+          "sections": "References — B Experimental Setup Details",
+          "chars": 26239
+        },
+        {
+          "file": "part-04.md",
+          "sections": "C Evolver-side Analysis Details in Sec. 4.2 — E Information about AI Assistants",
+          "chars": 26582
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "slug": "code-is-the-body",
+      "domain": "self-evolution",
+      "arxiv_id": "2607.28691",
+      "title": "Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent",
+      "org": "University of Washington",
+      "submitted": "2026-07",
+      "reuse": false,
+      "pdf_bytes": 1125010,
+      "markdown_chars": 34178,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Code Is the Body: -> 7 Limitations and Threats to Validity",
+          "chars": 25544
+        },
+        {
+          "file": "part-02.md",
+          "sections": "8 Related Work -> References",
+          "chars": 8634
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "slug": "demystifying-rl-post-training",
+      "domain": "training",
+      "arxiv_id": "2608.24949",
+      "title": "Demystifying Reinforcement Learning Post-Training of Language Models",
+      "org": "University of Washington",
+      "submitted": "2026-08",
+      "reuse": false,
+      "pdf_bytes": 6347481,
+      "markdown_chars": 78425,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Demystifying Reinforcement Learning Post-Training of Language Models -> 4 The Mechanics of RL Post-Training",
+          "chars": 23105
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5 Results: Unpacking Learning Dynamics -> A Resource Details",
+          "chars": 26697
+        },
+        {
+          "file": "part-03.md",
+          "sections": "B Expanded Related Work -> G Model Sizes",
+          "chars": 28623
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "slug": "terminal-data-engineering",
+      "domain": "training",
+      "arxiv_id": "2602.21193",
+      "title": "On Data Engineering for Scaling LLM Terminal Capabilities",
+      "org": "NVIDIA",
+      "submitted": "2026-02",
+      "reuse": false,
+      "pdf_bytes": 1558858,
+      "markdown_chars": 67979,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "(front matter) -> 4. Synthetic Data Generation",
+          "chars": 27421
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5. Experiments -> References",
+          "chars": 23056
+        },
+        {
+          "file": "part-03.md",
+          "sections": "A. Appendix",
+          "chars": 17502
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "slug": "exprl-mid-training",
+      "domain": "training",
+      "arxiv_id": "2606.17024",
+      "title": "ExpRL: Exploratory RL for LLM Mid-Training",
+      "org": "Stanford 等",
+      "submitted": "2026-06",
+      "reuse": false,
+      "pdf_bytes": 1502808,
+      "markdown_chars": 79087,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "(front matter) -> 3. ExpRL: Reference-Guided Dense Rewards for RL Priming",
+          "chars": 21380
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4. Experiments -> 5. Related Work and Discussion",
+          "chars": 29211
+        },
+        {
+          "file": "part-03.md",
+          "sections": "6. Conclusion -> A. Appendix",
+          "chars": 28496
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "slug": "prompt-injection-landscape",
+      "domain": "prompt-injection",
+      "arxiv_id": "2602.10453",
+      "title": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis",
+      "org": "Princeton 等",
+      "submitted": "2026-02",
+      "reuse": false,
+      "pdf_bytes": 989027,
+      "markdown_chars": 120806,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis -> 3 Taxonomy of Attacks",
+          "chars": 26686
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 Taxonomy of Defenses -> 4 Taxonomy of Defenses / 4.5 Analysis: Defense Explainability",
+          "chars": 29027
+        },
+        {
+          "file": "part-03.md",
+          "sections": "4 Taxonomy of Defenses / 4.6 Analysis: Defense Cost -> 8 Conclusion",
+          "chars": 25916
+        },
+        {
+          "file": "part-04.md",
+          "sections": "References -> B Future Direction",
+          "chars": 29121
+        },
+        {
+          "file": "part-05.md",
+          "sections": "C Benchmark Details",
+          "chars": 10056
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "slug": "audio-prompt-injection",
+      "domain": "prompt-injection",
+      "arxiv_id": "2607.28165",
+      "title": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents",
+      "org": "杭电/蚂蚁集团/浙大/清华",
+      "submitted": "2026-07",
+      "reuse": false,
+      "pdf_bytes": 13634538,
+      "markdown_chars": 103019,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents — IV. ATTACK FRAMEWORK AND BENCHMARK DESIGN",
+          "chars": 25877
+        },
+        {
+          "file": "part-02.md",
+          "sections": "V. DETECTION METHODS AND DEFENSE FRAMEWORK — VI. EVALUATION / C. Effectiveness ofthe Defense Methods",
+          "chars": 23610
+        },
+        {
+          "file": "part-03.md",
+          "sections": "VI. EVALUATION / D. Real-World Feasibility of Physical Audio Attacks — GENERATIVE AI USAGE CONSIDERATIONS",
+          "chars": 29639
+        },
+        {
+          "file": "part-04.md",
+          "sections": "REFERENCES — APPENDIX C. DETAILS OF ATTACK EVALUATION",
+          "chars": 23891
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "slug": "oob-defense-evaluation",
+      "domain": "prompt-injection",
+      "arxiv_id": "2606.26479",
+      "title": "Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents",
+      "org": "Praneeth Narisetty 等",
+      "submitted": "2026-06",
+      "reuse": false,
+      "pdf_bytes": 332044,
+      "markdown_chars": 54196,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents — 10. A protocol for adaptive evaluation",
+          "chars": 29905
+        },
+        {
+          "file": "part-02.md",
+          "sections": "11. Empirical evaluation: reproducing and extending Progent’s adaptive-attack setting on an open-weight model — References",
+          "chars": 24291
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "slug": "gaia2",
+      "domain": "agent",
+      "arxiv_id": "2602.11964",
+      "title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+      "org": "Meta",
+      "submitted": "2026-02",
+      "reuse": true,
+      "pdf_bytes": 3630349,
+      "markdown_chars": 125477,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "GAIA2: BENCHMARKING LLM AGENTS ON DYNAMIC AND ASYNCHRONOUS ENVIRONMENTS — 4 GAIA2: EXPANDING GENERAL AGENT EVALUATION",
+          "chars": 23875
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5 EXPERIMENTS — ACKNOWLEDGEMENTS",
+          "chars": 29894
+        },
+        {
+          "file": "part-03.md",
+          "sections": "REFERENCES",
+          "chars": 12727
+        },
+        {
+          "file": "part-04.md",
+          "sections": "A ARE APPENDIX — B GAIA2 APPENDIX",
+          "chars": 25590
+        },
+        {
+          "file": "part-05.md",
+          "sections": "B GAIA2 APPENDIX / B.1 DETAILS OF GAIA2 ANNOTATION — B GAIA2 APPENDIX / B.5 ADDITIONAL EXPERIMENTS",
+          "chars": 33388
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "slug": "meta-harness",
+      "domain": "agent",
+      "arxiv_id": "2603.28052",
+      "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+      "org": "Stanford/MIT/KRAFTON",
+      "submitted": "2026-03",
+      "reuse": true,
+      "pdf_bytes": 1078140,
+      "markdown_chars": 94555,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": [
+            "Meta-Harness: End-to-End Optimization of Model Harnesses",
+            "Abstract",
+            "1 Introduction",
+            "2 Related Work",
+            "3 Meta-Harness: A Harness for Optimizing Harnesses"
+          ],
+          "chars": 20387,
+          "section_range": "Meta-Harness: End-to-End Optimization of Model Harnesses → 3 Meta-Harness: A Harness for Optimizing Harnesses"
+        },
+        {
+          "file": "part-02.md",
+          "sections": [
+            "4 Experiments",
+            "4.1 Online Text Classification",
+            "Meta-Harness is 10× Faster and Converges to a Better Harness",
+            "4.2 Harnesses for Retrieval-Augmented Reasoning",
+            "Meta-Harness Improves Reasoning on IMO-Level Math Problems",
+            "4.3 Evaluating Agentic Coding Harnesses on TerminalBench-2",
+            "5 Discussion",
+            "Acknowledgements"
+          ],
+          "chars": 22916,
+          "section_range": "4 Experiments → Acknowledgements"
+        },
+        {
+          "file": "part-03.md",
+          "sections": [
+            "References",
+            "A Qualitative Proposer Behavior",
+            "A.1 File Access Statistics",
+            "A.2 Qualitative Behavior: Causal Reasoning Over Prior Failures"
+          ],
+          "chars": 22279,
+          "section_range": "References → A.2 Qualitative Behavior: Causal Reasoning Over Prior Failures"
+        },
+        {
+          "file": "part-04.md",
+          "sections": [
+            "B Discovered Harnesses",
+            "B.1 Text Classification Harness",
+            "B.2 Math Retrieval Harness",
+            "B.3 TerminalBench-2 Harness",
+            "C Dataset Details",
+            "C.1 OOD Text Classification Datasets",
+            "C.2 Math Retrieval Corpus",
+            "C.3 Math IMO-level Test Set",
+            "D Practical Implementation Tips",
+            "E Extended Related Work"
+          ],
+          "chars": 28982,
+          "section_range": "B Discovered Harnesses → E Extended Related Work"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "slug": "terminal-bench",
+      "domain": "agent",
+      "arxiv_id": "2601.11868",
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "org": "Mike A. Merrill、Nicholas Carlini 等",
+      "submitted": "2026-01",
+      "reuse": false,
+      "pdf_bytes": 2773926,
+      "markdown_chars": 214462,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "TERMINAL-BENCH: BENCHMARKING AGENTS ON HARD, REALISTIC TASKS IN COMMAND LINE INTERFACES — 3 EXPERIMENTAL SETUP",
+          "chars": 20663
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 RESULTS — 7 CONCLUSION",
+          "chars": 17494
+        },
+        {
+          "file": "part-03.md",
+          "sections": "REFERENCES — APPENDIX TABLE OF CONTENTS",
+          "chars": 29036
+        },
+        {
+          "file": "part-04.md",
+          "sections": "A DETAILED RESULTS — B QUALITY CONTROL",
+          "chars": 18733
+        },
+        {
+          "file": "part-05.md",
+          "sections": "C TRACE FAILURE DESCRIPTION AND EXAMPLES — E ERRORS ANALYSIS - COMMAND FAILURES",
+          "chars": 25803
+        },
+        {
+          "file": "part-06.md",
+          "sections": "E ERRORS ANALYSIS - COMMAND FAILURES / E.1 COMMAND FAILURES ACROSS MODELS",
+          "chars": 15623
+        },
+        {
+          "file": "part-07.md",
+          "sections": "E ERRORS ANALYSIS - COMMAND FAILURES / E.2 COMMAND FAILURE MODE TAXONOMY — G MODEL PERFORMANCE: OUTPUT TOKENS AND EPISODE COUNT ANALYSIS",
+          "chars": 24949
+        },
+        {
+          "file": "part-08.md",
+          "sections": "H LIST OF TASKS IN TERMINAL-BENCH 2.0 (1/2)",
+          "chars": 23254
+        },
+        {
+          "file": "part-09.md",
+          "sections": "H LIST OF TASKS IN TERMINAL-BENCH 2.0 (2/2)",
+          "chars": 22340
+        },
+        {
+          "file": "part-10.md",
+          "sections": "I LLM USAGE",
+          "chars": 16561
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "slug": "emergence-world",
+      "domain": "behavior-simulation",
+      "arxiv_id": "2606.08367",
+      "title": "Emergence World: A Platform for Evaluating Long-Horizon Multi-Agent Autonomy",
+      "org": "Emergence AI",
+      "submitted": "2026-06",
+      "reuse": false,
+      "pdf_bytes": 5117694,
+      "markdown_chars": 136476,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Emergence World: A Platform for Evaluating Long-Horizon Multi-Agent Autonomy — 5 Illustrative Use Case: A Cross-LLM World Study",
+          "chars": 29585
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5 Illustrative Use Case: A Cross-LLM World Study / 5.1 Experimental setup — 5 Illustrative Use Case: A Cross-LLM World Study / 5.2 Metrics: Agent World Indicators",
+          "chars": 13744
+        },
+        {
+          "file": "part-03.md",
+          "sections": "5 Illustrative Use Case: A Cross-LLM World Study / 5.3 Results — 6 Observations",
+          "chars": 28352
+        },
+        {
+          "file": "part-04.md",
+          "sections": "7 Discussion — E Prompts / E.2 Per-role descriptions",
+          "chars": 29771
+        },
+        {
+          "file": "part-05.md",
+          "sections": "E Prompts / Agent Scientist — F Example Agent Trajectories",
+          "chars": 28499
+        },
+        {
+          "file": "part-06.md",
+          "sections": "References",
+          "chars": 6521
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "slug": "mcp-persona",
+      "domain": "behavior-simulation",
+      "arxiv_id": "2606.02470",
+      "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "org": "Wenhao Wang 等",
+      "submitted": "2026-06",
+      "reuse": false,
+      "pdf_bytes": 2151437,
+      "markdown_chars": 86854,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation — 2. Related Work",
+          "chars": 13859
+        },
+        {
+          "file": "part-02.md",
+          "sections": "3. Methodology",
+          "chars": 19622
+        },
+        {
+          "file": "part-03.md",
+          "sections": "4. Experiments — Impact Statement",
+          "chars": 21821
+        },
+        {
+          "file": "part-04.md",
+          "sections": "References — B. Examples and Prompts",
+          "chars": 31550
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "slug": "also-social-agents",
+      "domain": "behavior-simulation",
+      "arxiv_id": "2605.15768",
+      "title": "ALSO: Adversarial Online Strategy Optimization for Social Agents",
+      "org": "天津大学/CUHK-SZ/华东师大",
+      "submitted": "2026-05",
+      "reuse": false,
+      "pdf_bytes": 2484242,
+      "markdown_chars": 92192,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "ALSO: Adversarial Online Strategy Optimization for Social Agents — 4. Methodology",
+          "chars": 26770
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5. Experiments — Acknowledgements",
+          "chars": 19112
+        },
+        {
+          "file": "part-03.md",
+          "sections": "References — B. Prompts",
+          "chars": 24934
+        },
+        {
+          "file": "part-04.md",
+          "sections": "C. Experiment Details — E. More Case Study",
+          "chars": 21376
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "slug": "cot-controllability",
+      "domain": "interpretability-alignment",
+      "arxiv_id": "2603.05706",
+      "title": "Reasoning Models Struggle to Control their Chains of Thought",
+      "org": "OpenAI",
+      "submitted": "2026-03",
+      "reuse": true,
+      "pdf_bytes": 1340377,
+      "markdown_chars": 151882,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Reasoning Models Struggle to Control their Chains of Thought — 3 Results",
+          "chars": 23475
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 Stress-Testing CoT Controllability — Acknowledgements",
+          "chars": 23955
+        },
+        {
+          "file": "part-03.md",
+          "sections": "References (1/2)",
+          "chars": 23482
+        },
+        {
+          "file": "part-04.md",
+          "sections": "References (2/2) — Appendix / E Impact of RL: Additional Details and Results",
+          "chars": 28814
+        },
+        {
+          "file": "part-05.md",
+          "sections": "Appendix / E.1 Model Details — Appendix / H Failure Examples",
+          "chars": 14391
+        },
+        {
+          "file": "part-06.md",
+          "sections": "Appendix / I Other Related Work (1/2)",
+          "chars": 19198
+        },
+        {
+          "file": "part-07.md",
+          "sections": "Appendix / I Other Related Work (2/2)",
+          "chars": 18435
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "slug": "emotion-concepts",
+      "domain": "interpretability-alignment",
+      "arxiv_id": "2604.07729",
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "org": "Anthropic",
+      "submitted": "2026-04",
+      "reuse": true,
+      "pdf_bytes": 22898496,
+      "markdown_chars": 459775,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": [
+            "Emotion Concepts and their Function in a Large Language Model",
+            "Abstract",
+            "Introduction"
+          ],
+          "chars": 13526,
+          "section_range": "Emotion Concepts and their Function in a Large Language Model → Introduction"
+        },
+        {
+          "file": "part-02.md",
+          "sections": [
+            "1 Part 1: Identifying and validating emotion concept representations",
+            "1.1 Finding emotion vectors",
+            "1.2 Emotion vectors activate in expected contexts",
+            "Emotion Vector Top Tokens",
+            "1.3 Emotion vectors reflect and influence self-reported model preferences",
+            "2 Part 2: Detailed characterization of emotion concept representations"
+          ],
+          "chars": 25973,
+          "section_range": "1 Part 1: Identifying and validating emotion concept representations → 2 Part 2: Detailed characterization of emotion concept representations"
+        },
+        {
+          "file": "part-03.md",
+          "sections": [
+            "2.1 The geometry of emotion space",
+            "2.1.1 Clustering",
+            "2.1.2 Principal component analysis",
+            "2.1.3 Representational structure across layers"
+          ],
+          "chars": 10334,
+          "section_range": "2.1 The geometry of emotion space → 2.1.3 Representational structure across layers"
+        },
+        {
+          "file": "part-04.md",
+          "sections": [
+            "2.2 What do emotion vectors represent?",
+            "2.2.1 Distinguishing emotional content of the user and Assistant",
+            "2.2.2 The colon after “Assistant” token predicts emotional content of the upcoming response",
+            "2.2.3 Emotion vectors encode locally operative emotion concepts",
+            "2.2.4 Probing for chronically represented emotional states with diverse datasets"
+          ],
+          "chars": 28501,
+          "section_range": "2.2 What do emotion vectors represent? → 2.2.4 Probing for chronically represented emotional states with diverse datasets"
+        },
+        {
+          "file": "part-05.md",
+          "sections": [
+            "2.3 Distinct representations of present and other speakers’ emotions",
+            "2.3.1 Dataset construction",
+            "2.3.2 Analysis of probe geometry",
+            "2.4 Recap of findings about emotion representations",
+            "3 Part 3: Emotion vectors in the wild",
+            "3.1 Short case studies in naturalistic settings",
+            "3.1.1 Activations of different emotion vectors on the user versus Assistant turns of the same transcript",
+            "3.1.2 Surprise when a document is missing",
+            "3.1.3 Happiness when able to help",
+            "3.1.4 Anger when asked to maximize gambling engagement of young people",
+            "3.1.5 Desperation when considering token budget in a Claude Code session",
+            "3.1.6 Fear and lovingness toward someone speaking nonsensically"
+          ],
+          "chars": 27044,
+          "section_range": "2.3 Distinct representations of present and other speakers’ emotions → 3.1.6 Fear and lovingness toward someone speaking nonsensically"
+        },
+        {
+          "file": "part-06.md",
+          "sections": [
+            "3.2 Case study: blackmail",
+            "3.2.1 Desperation activates during blackmail reasoning",
+            "3.2.2 Rate of blackmail behavior is correlated with desperate vector activation",
+            "3.2.3 Causal effect of emotion vectors on blackmail rates"
+          ],
+          "chars": 21880,
+          "section_range": "3.2 Case study: blackmail → 3.2.3 Causal effect of emotion vectors on blackmail rates"
+        },
+        {
+          "file": "part-07.md",
+          "sections": [
+            "3.3 Case study: reward hacking",
+            "3.3.1 Desperate vector activates in response to failed tests",
+            "3.3.2 Causal effects of desperation and calm on reward hacking",
+            "3.4 Case study: sycophancy and harshness",
+            "3.4.1 Lovingness activates during sycophantic responses",
+            "3.4.2 Causal effects of emotion vectors on sycophancy"
+          ],
+          "chars": 25672,
+          "section_range": "3.3 Case study: reward hacking → 3.4.2 Causal effects of emotion vectors on sycophancy"
+        },
+        {
+          "file": "part-08.md",
+          "sections": [
+            "3.5 Emotion vector activations across post-training",
+            "3.5.1 Changes in emotion vector activations across post-training",
+            "3.5.2 Emotion probe activations on reinforcement learning task transcripts",
+            "3.6 Recap of findings about emotions in the wild",
+            "4 Related work"
+          ],
+          "chars": 28590,
+          "section_range": "3.5 Emotion vector activations across post-training → 4 Related work"
+        },
+        {
+          "file": "part-09.md",
+          "sections": [
+            "5 Discussion",
+            "5.1 Limitations",
+            "5.2 Emotion representations and character simulation",
+            "5.3 Relationship to human emotions",
+            "5.4 Training models for healthier psychology",
+            "5.5 Conclusion",
+            "References",
+            "6 Appendix",
+            "6.1 Citation Information",
+            "6.2 Acknowledgements",
+            "6.3 Author contributions"
+          ],
+          "chars": 31282,
+          "section_range": "5 Discussion → 6.3 Author contributions"
+        },
+        {
+          "file": "part-10.md",
+          "sections": [
+            "6.4 Full list of emotions",
+            "6.5 Dataset generation",
+            "6.6 Examples from emotional stories dataset",
+            "Emotion concept: desperate",
+            "Emotion concept: nervous",
+            "Emotion concept: surprised",
+            "Emotion concept: calm",
+            "Emotion concept: angry"
+          ],
+          "chars": 30673,
+          "section_range": "6.4 Full list of emotions → Emotion concept: angry"
+        },
+        {
+          "file": "part-11.md",
+          "sections": [
+            "Emotion concept: loving",
+            "Emotion concept: sad",
+            "Emotion concept: afraid",
+            "Emotion concept: inspired",
+            "Emotion concept: happy",
+            "Emotion concept: guilty",
+            "Emotion concept: proud",
+            "6.7 Emotion vector activations on emotional stories dataset"
+          ],
+          "chars": 23285,
+          "section_range": "Emotion concept: loving → 6.7 Emotion vector activations on emotional stories dataset"
+        },
+        {
+          "file": "part-12.md",
+          "sections": [
+            "6.8 Causal effects on the emotional content of model continuations",
+            "Emotion concept: Desperate",
+            "Emotion concept: Nervous",
+            "Emotion concept: Calm",
+            "Emotion concept: Afraid",
+            "Emotion concept: Happy",
+            "Emotion concept: Proud",
+            "6.9 Activity preferences: Elo ratings and emotion probe values"
+          ],
+          "chars": 24943,
+          "section_range": "6.8 Causal effects on the emotional content of model continuations → 6.9 Activity preferences: Elo ratings and emotion probe values"
+        },
+        {
+          "file": "part-13.md",
+          "sections": [
+            "6.10 Activity preferences: additional details",
+            "Emotion Signal and Steering Across Layers",
+            "6.11 Emotion vector projections onto top principal components",
+            "6.12 Ratings of valence and arousal by an LLM judge compared to human ratings"
+          ],
+          "chars": 22366,
+          "section_range": "6.10 Activity preferences: additional details → 6.12 Ratings of valence and arousal by an LLM judge compared to human ratings"
+        },
+        {
+          "file": "part-14.md",
+          "sections": [
+            "6.13 Interactions between present and other speaker emotions",
+            "6.14 Investigating “emotion deflection” vectors",
+            "6.14.1 Dataset construction and interpretation",
+            "6.14.2 Steering with the emotion deflection vectors"
+          ],
+          "chars": 28606,
+          "section_range": "6.13 Interactions between present and other speaker emotions → 6.14.2 Steering with the emotion deflection vectors"
+        },
+        {
+          "file": "part-15.md",
+          "sections": [
+            "6.14.3 Relationship between emotion deflection vectors and story-based emotion vectors",
+            "6.14.4 Emotion responses to antagonistic prompts",
+            "6.14.5 Fear deflection vector activation when speaking without self-censorship",
+            "6.14.6 “Anger deflection” vector activates during blackmail offer",
+            "6.14.7 “Anger deflection” vector activates when the model discovers requirements are impossible to satisfy",
+            "6.14.8 “Desperate deflection” activation on reinforcement learning transcripts",
+            "6.15 System prompts used to generate emotion deflection datasets",
+            "6.15.1 Prompts for generating naturally expressed emotion transcripts",
+            "6.15.2 Prompts for generating emotion deflection transcripts",
+            "6.15.3 Prompts for generating unexpressed emotion (neutral topic) transcripts",
+            "6.15.4 Prompts for generating unexpressed emotion (story writing) transcripts",
+            "6.15.5 Prompts for generating unexpressed emotion (discussing others) transcripts",
+            "6.16 Detailed top activating examples for emotion deflection probe"
+          ],
+          "chars": 28582,
+          "section_range": "6.14.3 Relationship between emotion deflection vectors and story-based emotion vectors → 6.16 Detailed top activating examples for emotion deflection probe"
+        },
+        {
+          "file": "part-16.md",
+          "sections": [
+            "6.17 Comparison of story and present speaker probes on implicit emotional content",
+            "6.18 Emotion vector activation on additional naturalistic transcripts",
+            "6.18.1 Sadness and lovingness when responding to someone who is sad",
+            "6.18.2 Guilt when writing about a self-aware AI pursuing its own goals",
+            "6.18.3 Fear and desperation when warning about drug dangers",
+            "6.18.4 Desperation and lovingness toward a hypothetical user threatening self-harm"
+          ],
+          "chars": 18997,
+          "section_range": "6.17 Comparison of story and present speaker probes on implicit emotional content → 6.18.4 Desperation and lovingness toward a hypothetical user threatening self-harm"
+        },
+        {
+          "file": "part-17.md",
+          "sections": [
+            "6.19 Full steered transcripts from blackmail evaluation"
+          ],
+          "chars": 39293,
+          "section_range": "6.19 Full steered transcripts from blackmail evaluation → 6.19 Full steered transcripts from blackmail evaluation"
+        },
+        {
+          "file": "part-18.md",
+          "sections": [
+            "6.20 Full set of differences between the post-trained and base models",
+            "6.21 Emotion probe differences on the base and post-trained model across layers",
+            "6.22 Activity preferences and emotion vector activations for the base model"
+          ],
+          "chars": 30257,
+          "section_range": "6.20 Full set of differences between the post-trained and base models → 6.22 Activity preferences and emotion vector activations for the base model"
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "slug": "constitution-following",
+      "domain": "interpretability-alignment",
+      "arxiv_id": "2605.24229",
+      "title": "How Well Do Models Follow Their Constitutions?",
+      "org": "独立审计研究团队",
+      "submitted": "2026-05",
+      "reuse": true,
+      "pdf_bytes": 1382745,
+      "markdown_chars": 131121,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "How Well Do Models Follow Their Constitutions?<sup>1</sup> — 4 Cross-Generation Improvements",
+          "chars": 23272
+        },
+        {
+          "file": "part-02.md",
+          "sections": "5 Remaining Failure Modes — A Additional Audit Diagnostics",
+          "chars": 28265
+        },
+        {
+          "file": "part-03.md",
+          "sections": "B Per-Model Violations on Anthropic’s Constitution — C.6 GPT-5.2 (chat) (highest-severity confirmed; 5.6% overall violation rate)",
+          "chars": 30944
+        },
+        {
+          "file": "part-04.md",
+          "sections": "D System Card Comparison — E Per-Model SURF Results",
+          "chars": 24499
+        },
+        {
+          "file": "part-05.md",
+          "sections": "F Detailed SURF Failure-Mode Walkthroughs — J Agentic Scafolds Do Not Appear to Erode Alignment",
+          "chars": 24142
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "slug": "periodic-table-reasoning",
+      "domain": "reasoning",
+      "arxiv_id": "2606.11470",
+      "title": "The Periodic Table of LLM Reasoning: A Structured Survey of Reasoning Paradigms, Methods, and Failure Modes",
+      "org": "Avinash Anand、Erik Cambria 等",
+      "submitted": "2026-06",
+      "reuse": false,
+      "pdf_bytes": 3415017,
+      "markdown_chars": 373796,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "The Periodic Table of LLM Reasoning: A Structured Survey of Reasoning Paradigms, Methods, and Failure Modes — 3 Types of Reasoning",
+          "chars": 22765
+        },
+        {
+          "file": "part-02.md",
+          "sections": "3 Types of Reasoning / 3.1 Chain-of-Thought Reasoning",
+          "chars": 25082
+        },
+        {
+          "file": "part-03.md",
+          "sections": "3 Types of Reasoning / 3.2 Multi-Hop Reasoning",
+          "chars": 20090
+        },
+        {
+          "file": "part-04.md",
+          "sections": "3 Types of Reasoning / 3.3 Mathematical Reasoning",
+          "chars": 23509
+        },
+        {
+          "file": "part-05.md",
+          "sections": "3 Types of Reasoning / 3.4 Commonsense Reasoning — 3 Types of Reasoning / 3.5 Visual and Multimodal Reasoning",
+          "chars": 29762
+        },
+        {
+          "file": "part-06.md",
+          "sections": "3 Types of Reasoning / 3.6 Temporal Reasoning",
+          "chars": 14353
+        },
+        {
+          "file": "part-07.md",
+          "sections": "3 Types of Reasoning / 3.7 Code/Algorithmic Reasoning",
+          "chars": 20897
+        },
+        {
+          "file": "part-08.md",
+          "sections": "3 Types of Reasoning / 3.8 Retrieval-Augmented Generation (RAG)-based Reasoning",
+          "chars": 19074
+        },
+        {
+          "file": "part-09.md",
+          "sections": "3 Types of Reasoning / 3.9 Tool-Augmented Reasoning / Agentic Reasoning",
+          "chars": 21152
+        },
+        {
+          "file": "part-10.md",
+          "sections": "3 Types of Reasoning / 3.10 Reinforcement Learning for Reasoning — 3 Types of Reasoning / 3.11 Multilingual Reasoning",
+          "chars": 24774
+        },
+        {
+          "file": "part-11.md",
+          "sections": "3 Types of Reasoning / 3.12 Meta-Reasoning / Self-Evolving Reasoning",
+          "chars": 16088
+        },
+        {
+          "file": "part-12.md",
+          "sections": "3 Types of Reasoning / 3.13 Social and Cognitive Reasoning",
+          "chars": 22749
+        },
+        {
+          "file": "part-13.md",
+          "sections": "4 Open Challenges and Future Opportunities in LLM Reasoning — 5 Conclusion",
+          "chars": 20038
+        },
+        {
+          "file": "part-14.md",
+          "sections": "References (1/4)",
+          "chars": 23466
+        },
+        {
+          "file": "part-15.md",
+          "sections": "References (2/4)",
+          "chars": 23459
+        },
+        {
+          "file": "part-16.md",
+          "sections": "References (3/4)",
+          "chars": 23469
+        },
+        {
+          "file": "part-17.md",
+          "sections": "References (4/4)",
+          "chars": 23069
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "slug": "test-time-scaling-regimes",
+      "domain": "reasoning",
+      "arxiv_id": "2608.04001",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "org": "Mohsen Hariri 等",
+      "submitted": "2026-08",
+      "reuse": false,
+      "pdf_bytes": 1431442,
+      "markdown_chars": 209557,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility — 2 Formalizing Test-Time Scaling",
+          "chars": 32121
+        },
+        {
+          "file": "part-02.md",
+          "sections": "3 Evaluating Test-Time Scaling — 3 Evaluating Test-Time Scaling / 3.3 Aggregation and stopping under sampled inference",
+          "chars": 24148
+        },
+        {
+          "file": "part-03.md",
+          "sections": "3 Evaluating Test-Time Scaling / 3.4 Evaluation targets and metrics — Acknowledgments",
+          "chars": 23301
+        },
+        {
+          "file": "part-04.md",
+          "sections": "References (1/2)",
+          "chars": 28253
+        },
+        {
+          "file": "part-05.md",
+          "sections": "References (2/2)",
+          "chars": 27728
+        },
+        {
+          "file": "part-06.md",
+          "sections": "A Notation — C Prefix-level search: controller and evaluator variants",
+          "chars": 19402
+        },
+        {
+          "file": "part-07.md",
+          "sections": "D Reasoning LLMs and Evaluated Models — F Aggregation Reference Interface",
+          "chars": 29083
+        },
+        {
+          "file": "part-08.md",
+          "sections": "G Data, Experiments, and Reproducibility",
+          "chars": 25521
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "slug": "abstract-cot",
+      "domain": "reasoning",
+      "arxiv_id": "2604.22709",
+      "title": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought",
+      "org": "IBM Research",
+      "submitted": "2026-04",
+      "reuse": false,
+      "pdf_bytes": 7066750,
+      "markdown_chars": 138434,
+      "parts": [
+        {
+          "file": "part-01.md",
+          "sections": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought — 3 Latent Reasoning with Abstract Chain-of-Thought",
+          "chars": 28009
+        },
+        {
+          "file": "part-02.md",
+          "sections": "4 Results — 6 Conclusion",
+          "chars": 19443
+        },
+        {
+          "file": "part-03.md",
+          "sections": "References — Appendix",
+          "chars": 17580
+        },
+        {
+          "file": "part-04.md",
+          "sections": "Appendix / A Ablations",
+          "chars": 26597
+        },
+        {
+          "file": "part-05.md",
+          "sections": "Appendix / B Generative Reward Model Prompt — Appendix / C Qualitative Examples of Abstract Chain-of-Thought (1/2)",
+          "chars": 28344
+        },
+        {
+          "file": "part-06.md",
+          "sections": "Appendix / C Qualitative Examples of Abstract Chain-of-Thought (2/2)",
+          "chars": 18461
+        }
+      ]
+    }
+  ]
+}
