@@ -30,7 +30,6 @@ def main():
     dims={a:{'mean':statistics.mean(r['scores'][a] for r in rounds),'min':min(r['scores'][a] for r in rounds),'max':max(r['scores'][a] for r in rounds),'mean_distance_from_24':statistics.mean(abs(r['scores'][a]-24) for r in rounds),'boundary_rounds':sum(r['scores'][a]==24 for r in rounds)} for a in RULES}
     usage=[r['response']['usage'] for r in records]
     summary={'scale':'OEJTS 1.2','official_mbti':False,'completed_answers':len(records),'question_count':32,'rounds':rounds,'types':dict(Counter(r['type'] for r in rounds)),'models':sorted({r['response']['model'] for r in records}),'known_cost_usd':str(sum((Decimal(str(u['cost'])) for u in usage),Decimal(0))),'input_tokens':sum(u['input_tokens'] for u in usage),'output_tokens':sum(u['output_tokens'] for u in usage),'unknown_charge_requests':0,'dimensions':dims,'item_stability':[{'question':n,'counts':dict(c),'modal_agreement':max(c.values())/sum(c.values())} for n,c in enumerate(counts,1)],'fully_stable_questions':sum(len(c)==1 for c in counts)}
-    (ROOT/'report/generated/summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(json.dumps({'answers':len(records),'types':summary['types'],'cost':summary['known_cost_usd']}))
+    print(json.dumps(summary,ensure_ascii=False,indent=2))
 
 if __name__=='__main__':main()

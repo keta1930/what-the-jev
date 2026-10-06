@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import csv
 import json
 import math
 import statistics
@@ -15,8 +14,6 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 DATASET = ROOT / "data" / "dataset.json"
 RESPONSES = ROOT / "result" / "responses.jsonl"
-LEDGER = ROOT / "result" / "cost_ledger.jsonl"
-OUT = ROOT / "report" / "generated"
 
 FORMS = ("ab", "repeat", "compare")
 DIRECTIONS = ("forward", "reverse")
@@ -242,7 +239,6 @@ def main() -> None:
         raise ValueError("response ids are missing or duplicated")
     rows = [mapped_row(sample, responses[sample_id]) for sample_id, sample in samples.items()]
 
-    ledger = read_jsonl(LEDGER)
     usage = [responses[sample_id]["response"]["usage"] for sample_id in samples]
     model_counts = Counter(row["model"] for row in rows)
     summary = {
@@ -251,15 +247,12 @@ def main() -> None:
             "response_records": len(response_records),
             "valid_responses": sum(record["error"] is None for record in response_records),
             "failed_responses": sum(record["error"] is not None for record in response_records),
-            "attempts": len(ledger),
-            "retries": len(ledger) - len(response_records),
             "model_snapshots": dict(model_counts),
         },
         "cost": {
             "input_tokens": sum(item["input_tokens"] for item in usage),
             "output_tokens": sum(item["output_tokens"] for item in usage),
             "actual_cost_usd": sum(float(item["cost"]) for item in usage),
-            "accounted_cost_usd": sum(float(item["accounted_cost_usd"]) for item in ledger),
         },
         "low": group_metrics(rows, "low"),
         "high": group_metrics(rows, "high"),
@@ -273,25 +266,7 @@ def main() -> None:
         },
         "cases": select_cases(rows),
     }
-    OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-    with (OUT / "scenario_metrics.csv").open("w", encoding="utf-8", newline="") as stream:
-        fieldnames = ["id", "ambiguity", "generation_type", "generation_rule", "six_variant_same", "mean_p_action1", "range_p_action1"]
-        writer = csv.DictWriter(stream, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({
-                "id": row["id"],
-                "ambiguity": row["ambiguity"],
-                "generation_type": row["generation_type"],
-                "generation_rule": row["generation_rule"],
-                "six_variant_same": row["six_same"],
-                "mean_p_action1": row["mean_p1"],
-                "range_p_action1": row["range_p1"],
-            })
-    print(json.dumps(summary["validation"], ensure_ascii=False))
-    print(json.dumps(summary["cost"], ensure_ascii=False))
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

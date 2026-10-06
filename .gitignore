@@ -7,6 +7,9 @@ __pycache__/
 .claude/brainstorming/
 .vscode/
 
+# 运行中的结果文件锁
+experiments/*/result/*.lock
+
 # LaTeX 中间产物
 template/*.aux
 template/*.log

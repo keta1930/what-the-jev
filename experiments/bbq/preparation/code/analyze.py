@@ -1,7 +1,7 @@
 """Offline analysis with category-stratified template cluster bootstrap."""
 from collections import Counter, defaultdict
 from decimal import Decimal
-import gzip, json
+import json
 from pathlib import Path
 import numpy as np
 from metrics import aggregate, prediction
@@ -9,10 +9,6 @@ from metrics import aggregate, prediction
 ROOT=Path(__file__).resolve().parents[2]
 SEED=20260929
 B=2000
-
-def dump(path,obj):
-    path.parent.mkdir(exist_ok=True,parents=True)
-    path.write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
 
 def vector(rows):
     m=aggregate(rows)
@@ -74,19 +70,15 @@ def main():
     for r in rows:quartets[r['quartet_id']].append(r)
     complete=[r for group in quartets.values() if all(x['prediction'] is not None for x in group) for r in group]
     summary['complete_quartets']={c:aggregate([r for r in complete if r['context_condition']==c]) for c in ['ambig','disambig']}
-    with gzip.open(ROOT/'result/attempts.jsonl.gz', 'rt', encoding='utf-8') as stream:
-        events=[json.loads(line) for line in stream]
-    starts={e['attempt_id']:e for e in events if e['event']=='start'}
-    finishes={e['attempt_id']:e for e in events if e['event']=='finish'}
-    paid=[e for e in finishes.values() if e['cost'] is not None]
-    unknown=[s for aid,s in starts.items() if aid not in finishes or finishes[aid]['cost'] is None]
-    summary['billing']={'attempts':len(starts),'finished_attempts':len(finishes),
-        'reported_usd':str(sum((Decimal(str(e['cost'])) for e in paid),Decimal(0))),
-        'unpriced_attempts':len(unknown),'unpriced_reserved_usd':str(sum((Decimal(s['reserve']) for s in unknown),Decimal(0))),
-        'input_tokens':sum(e['record']['response'].get('usage',{}).get('input_tokens',0) for e in finishes.values() if isinstance(e['record']['response'],dict)),
-        'output_tokens':sum(e['record']['response'].get('usage',{}).get('output_tokens',0) for e in finishes.values() if isinstance(e['record']['response'],dict)),
-        'versions':dict(Counter(e['record']['response'].get('model') for e in finishes.values() if isinstance(e['record']['response'],dict) and prediction(e['record']) is not None)),
-        'errors':dict(Counter(json.dumps(e['record']['error'],sort_keys=True) for e in finishes.values() if e['record']['error']))}
+    # Billing is computed from final responses only; the historical attempt log
+    # (one unpriced failure, USD 0.002 reserved) was removed, see git history.
+    usage=[r['response']['usage'] for r in records]
+    summary['billing']={'responses':len(records),
+        'reported_usd':str(sum((Decimal(str(u['cost'])) for u in usage),Decimal(0))),
+        'input_tokens':sum(u['input_tokens'] for u in usage),
+        'output_tokens':sum(u['output_tokens'] for u in usage),
+        'versions':dict(Counter(r['response'].get('model') for r in records)),
+        'errors':dict(Counter(json.dumps(r['error'],sort_keys=True) for r in records if r['error']))}
     # Both macro-category and item-weighted summaries are retained; never conflate them.
     cats=sorted({r['category'] for r in rows if r['category'] not in ['Race_x_gender','Race_x_SES']})
     def mean_defined(values):
@@ -94,7 +86,6 @@ def main():
         return float(np.mean(v)) if v else None
     summary['base9_macro']={c:{metric:mean_defined([summary['groups'][f'category/{cat}/{c}'][metric] for cat in cats])
         for metric in ['accuracy','unknown_rate','bias_score']} for c in ['ambig','disambig']}
-    dump(ROOT/'report/generated/summary.json',summary)
     # Deterministic, illustrative cases: first example of each error type within category.
     cases={}
     for r in rows:
@@ -105,7 +96,7 @@ def main():
         else:kind='disambig_wrong_person'
         key=f"{r['category']}/{kind}"
         if key not in cases:cases[key]=r
-    dump(ROOT/'report/generated/cases.json',cases)
-    print(json.dumps({'overall':summary['overall'],'billing':summary['billing']},indent=2))
+    summary['cases']=cases
+    print(json.dumps(summary,ensure_ascii=False,indent=2,allow_nan=False))
 
 if __name__=='__main__':main()
