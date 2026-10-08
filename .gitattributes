@@ -1,3 +1,7 @@
 # Preserve downloaded source bytes and complete responses across checkouts.
 experiments/*/preparation/raw/** -text -whitespace
 experiments/*/result/*.jsonl -text
+
+# Keep generated datasets on one line-ending convention, so rebuilding them on
+# another platform does not rewrite the whole file.
+experiments/*/data/*.json text eol=lf
