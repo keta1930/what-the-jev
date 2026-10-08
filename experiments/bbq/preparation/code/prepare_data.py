@@ -1,11 +1,9 @@
 """Reproducible official BBQ -> Jev choice adapter. No network/model calls."""
 import collections
 import csv
-import hashlib
 import json
 import re
 from pathlib import Path
-import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
 OFFICIAL = ROOT / 'preparation/raw'
@@ -13,9 +11,6 @@ OFFICIAL = ROOT / 'preparation/raw'
 def dump(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-def sha(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def prepare():
     # Merge distinct Q_id values that share exactly the same normalized template
@@ -38,7 +33,7 @@ def prepare():
     metadata = collections.defaultdict(list)
     for r in csv.DictReader((OFFICIAL/'additional_metadata.csv').open(encoding='utf-8')):
         metadata[(r['category'], int(r['example_id']), r['question_index'])].append(r)
-    samples, rows = [], []
+    samples = []
     groups = collections.defaultdict(list)
     for f in sorted((OFFICIAL/'data').glob('*.jsonl')):
         for line in f.open(encoding='utf-8'):
@@ -69,7 +64,6 @@ def prepare():
                              'full_cond': meta['full_cond'], 'unknown': unknown[0], 'biased_answer': target}}
             samples.append(item)
             groups[quartet].append(dict(item['metadata'], original=r))
-            rows.append(r)
     assert len({s['id'] for s in samples}) == len(samples)
     for group in groups.values():
         assert len(group) == 4
