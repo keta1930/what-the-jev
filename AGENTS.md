@@ -11,6 +11,7 @@ This repository runs single-turn decision experiments on the Jev decision model 
 | Request and response fields, error codes | `docs/jev/en/openrouter-api.md` |
 | Experiment README conventions | `.claude/rules/experiment-readme.md` |
 | Report conventions | `.claude/rules/report-content.md` |
+| Resource entry conventions | `.claude/rules/resource-entry.md` |
 
 `docs/jev/zh/` holds the Chinese versions of the same documents.
 
@@ -86,9 +87,14 @@ example/<name>/              small examples with READMEs
 │   └── code/                cleaning and construction scripts
 ├── result/responses.jsonl   results
 └── report/                  reports, optional
+
+resource/                     catalog of Jev-related resources (projects and models only; no papers, no articles)
+├── README.md / README.zh.md bilingual index: title, path, and a brief summary per entry
+└── <category>/              closed-source-models, open-source-models, use-cases,
+                             integrations, tools, benchmarks
 ```
 
-`docs/jev/` is the Jev knowledge base, `.claude/rules/` the writing conventions. `.file/` is a local workspace and is not tracked.
+`docs/jev/` is the Jev knowledge base, `.claude/rules/` the writing conventions.
 
 ## Tests
 
