@@ -9,11 +9,17 @@ This repository runs single-turn decision experiments on the Jev decision model 
 | What Jev is, how it answers, capability boundaries, pricing | `docs/jev/en/what-is-jev.md` |
 | Question design, reading answers, thresholds | `docs/jev/en/using-jev.md` |
 | Request and response fields, error codes | `docs/jev/en/openrouter-api.md` |
+
+`docs/jev/zh/` holds the Chinese versions of the same documents.
+
+## Rules
+
+| Content | Location |
+| --- | --- |
 | Experiment README conventions | `.claude/rules/experiment-readme.md` |
 | Report conventions | `.claude/rules/report-content.md` |
 | Resource entry conventions | `.claude/rules/resource-entry.md` |
-
-`docs/jev/zh/` holds the Chinese versions of the same documents.
+| Code comment, wording, and wording-pass conventions | `.claude/rules/code-style.md` |
 
 ## Code Architecture
 
