@@ -83,10 +83,10 @@ def main():
     missing = [pid for pid in prompts if pid not in groups]
     short = [pid for pid, t in groups.items() if len(t) != G]
     if missing or short:
-        raise SystemExit(f"数据不齐：缺组 {missing}；条数不是 {G} 的组 {short}")
+        raise SystemExit(f"incomplete data: missing groups {missing}; groups not of size {G}: {short}")
     unjudged = [pid for pid in prompts if pid not in choices]
     if unjudged:
-        raise SystemExit(f"LLM 判官结果缺失 {len(unjudged)} 组：{unjudged[:5]}")
+        raise SystemExit(f"judge results missing for {len(unjudged)} prompts: {unjudged[:5]}")
 
     for out_name, responses_in_criteria in LAYOUTS:
         samples = [
@@ -99,7 +99,7 @@ def main():
             json.dumps({"schema_version": 1, "samples": samples}, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        print(f"{len(samples)} 条样本 -> {out.relative_to(ROOT)}")
+        print(f"{len(samples)} samples -> {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

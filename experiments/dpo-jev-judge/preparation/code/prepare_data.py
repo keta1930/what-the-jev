@@ -74,7 +74,7 @@ def main():
     standard = STANDARD.read_text(encoding="utf-8").strip()
     pairs = load_pairs(PAIRS)
     if not pairs:
-        raise SystemExit("没有读到偏好对")
+        raise SystemExit("no preference pairs were read")
 
     rng = random.Random(SEED)
     samples = {name: [] for name, _ in LAYOUTS}
@@ -89,7 +89,7 @@ def main():
     for name, _ in LAYOUTS:
         out = ROOT / name
         write_dataset(out, samples[name])
-        print(f"{len(samples[name])} 条样本 -> {out.relative_to(ROOT)}")
+        print(f"{len(samples[name])} samples -> {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

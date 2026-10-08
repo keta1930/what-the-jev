@@ -157,19 +157,19 @@ def append(path, rec):
 def main():
     """Judge the pending prompts and write the results."""
     ap = argparse.ArgumentParser()
-    ap.add_argument("--standard", default=str(DEFAULT_STANDARD), help="评判标准文件，与 JEV 用同一份")
+    ap.add_argument("--standard", default=str(DEFAULT_STANDARD), help="judging standard file, the same one JEV uses")
     ap.add_argument("--prompts", default=str(DATA_DIR / "prompts.jsonl"))
     ap.add_argument("--rollouts", default=str(DATA_DIR / "rollouts.jsonl"))
-    ap.add_argument("--out", default=str(RESULT_FILE), help="判好的结果")
-    ap.add_argument("--response", action="store_true", help="另存判官原始响应，默认不存")
-    ap.add_argument("--log", action="store_true", help="另存日志到文件，默认只打 stdout")
+    ap.add_argument("--out", default=str(RESULT_FILE), help="judged results")
+    ap.add_argument("--response", action="store_true", help="also save the raw judge responses (off by default)")
+    ap.add_argument("--log", action="store_true", help="also write the log to a file (stdout only by default)")
     ap.add_argument("--model", default="deepseek-flash")
     ap.add_argument("--base-url", default="https://api.deepseek.com")
     ap.add_argument("--reasoning-effort", default="max", choices=["low", "high", "max"])
-    ap.add_argument("--max-tokens", type=int, default=393216, help="服务端上限 384K，开到顶以免思维链被截断")
+    ap.add_argument("--max-tokens", type=int, default=393216, help="the server caps at 384K; run at the cap so the reasoning is not truncated")
     ap.add_argument("--concurrency", type=int, default=50)
     ap.add_argument("--retries", type=int, default=3)
-    ap.add_argument("--limit", type=int, default=None, help="只判前 N 组（小样验证用）")
+    ap.add_argument("--limit", type=int, default=None, help="judge only the first N groups (for a small-sample check)")
     args = ap.parse_args()
 
     out_path = Path(args.out)
@@ -182,7 +182,7 @@ def main():
 
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        logger.error("DEEPSEEK_API_KEY 未设置")
+        logger.error("DEEPSEEK_API_KEY is not set")
         sys.exit(2)
 
     std_text = Path(args.standard).read_text(encoding="utf-8").strip()

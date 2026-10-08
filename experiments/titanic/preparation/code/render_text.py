@@ -115,8 +115,8 @@ def main() -> None:
     dataset = load_dataset(SOURCE_PATH)
     samples = [render_sample(sample) for sample in dataset['samples']]
     write_json(TARGET_PATH, {'schema_version': dataset['schema_version'], 'samples': samples})
-    print(f'输入 {SOURCE_PATH}：{len(dataset["samples"])} 条')
-    print(f'输出 {TARGET_PATH}：{len(samples)} 条')
+    print(f'input {SOURCE_PATH}: {len(dataset["samples"])} samples')
+    print(f'output {TARGET_PATH}: {len(samples)} samples')
     print(f'\n{samples[0]["input"]["state"]}')
 
 

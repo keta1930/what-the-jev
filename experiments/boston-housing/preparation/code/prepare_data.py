@@ -134,7 +134,7 @@ def sample_pairs(
         while count < PAIRS_PER_BUCKET:
             attempts += 1
             if attempts > 100000:
-                raise ValueError(f'价差档 {bucket} 抽样 {attempts} 次仍未凑足 {PAIRS_PER_BUCKET} 对')
+                raise ValueError(f'gap bucket {bucket}: {attempts} draws without reaching {PAIRS_PER_BUCKET} pairs')
             i, j = rng.sample(range(len(medvs)), 2)
             key = frozenset((i, j))
             if key in used:
@@ -200,17 +200,17 @@ def main() -> None:
     original = fetch_raw()
     rows = parse_rows(original.decode('utf-8'))
     if len(rows) != EXPECTED_ROWS:
-        raise ValueError(f'预期 {EXPECTED_ROWS} 条，实际 {len(rows)} 条')
+        raise ValueError(f'expected {EXPECTED_ROWS} rows, got {len(rows)}')
     RAW_PATH.parent.mkdir(parents=True, exist_ok=True)
     RAW_PATH.write_bytes(original)
-    print(f'源数据 {len(rows)} 条：{RAW_PATH}')
+    print(f'source rows {len(rows)}: {RAW_PATH}')
 
     score_dataset = {
         'schema_version': 1,
         'samples': [build_score_sample(row, i) for i, row in enumerate(rows, 1)],
     }
     write_json(DATA_DIR / 'dataset.numeric.json', score_dataset)
-    print(f'score 数据集 {len(score_dataset["samples"])} 条：{DATA_DIR / "dataset.numeric.json"}')
+    print(f'score dataset {len(score_dataset["samples"])} samples: {DATA_DIR / "dataset.numeric.json"}')
 
     medvs = [float(row['medv']) for row in rows]
     pairs = sample_pairs(medvs)
@@ -223,7 +223,7 @@ def main() -> None:
         ],
     }
     write_json(DATA_DIR / 'dataset.pairwise.json', pair_dataset)
-    print(f'pairwise 数据集 {len(pair_dataset["samples"])} 条：{DATA_DIR / "dataset.pairwise.json"}')
+    print(f'pairwise dataset {len(pair_dataset["samples"])} samples: {DATA_DIR / "dataset.pairwise.json"}')
 
 
 if __name__ == '__main__':

@@ -40,9 +40,9 @@ def build() -> list[dict]:
         records = sorted(bank[slug], key=lambda r: r['id'])
         expected_ids = [f'{slug}-{i:02d}' for i in range(1, EXPECTED_PER_PAPER + 1)]
         if [r['id'] for r in records] != expected_ids:
-            raise ValueError(f'{slug}: 题目源 id 不完整 {[r["id"] for r in records]}')
+            raise ValueError(f'{slug}: incomplete question source ids {[r["id"] for r in records]}')
         if any(r['type'] != 'noul' for r in records):
-            raise ValueError(f'{slug}: 存在非 noul 题目')
+            raise ValueError(f'{slug}: question type is not noul')
         for rec in records:
             excerpt = (CHUNKS / slug / rec['source_part']).read_text(encoding='utf-8')
             samples.append({
@@ -68,9 +68,9 @@ def build() -> list[dict]:
             })
     ids = [s['id'] for s in samples]
     if len(ids) != len(set(ids)):
-        raise ValueError('样本 ID 重复')
+        raise ValueError('duplicate sample ids')
     if len(samples) != EXPECTED_TOTAL:
-        raise ValueError(f'样本总数 {len(samples)} != {EXPECTED_TOTAL}')
+        raise ValueError(f'sample total {len(samples)} != {EXPECTED_TOTAL}')
     DATASET_PATH.write_text(
         json.dumps({'schema_version': 1, 'samples': samples}, ensure_ascii=False, indent=2) + '\n',
         encoding='utf-8',
@@ -80,5 +80,5 @@ def build() -> list[dict]:
 
 if __name__ == '__main__':
     result = build()
-    print(f'已写出 {DATASET_PATH.relative_to(REPO_ROOT)}')
-    print(f'样本 {len(result)} 条，全部 noul')
+    print(f'wrote {DATASET_PATH.relative_to(REPO_ROOT)}')
+    print(f'{len(result)} samples, all noul')

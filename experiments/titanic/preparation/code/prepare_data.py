@@ -109,13 +109,13 @@ def main() -> None:
     original = fetch_raw()
     rows = parse_rows(original.decode('utf-8'))
     if len(rows) != EXPECTED_ROWS:
-        raise ValueError(f'预期 {EXPECTED_ROWS} 条，实际 {len(rows)} 条')
+        raise ValueError(f'expected {EXPECTED_ROWS} rows, got {len(rows)}')
     dataset = build_dataset(rows)
     RAW_PATH.parent.mkdir(parents=True, exist_ok=True)
     RAW_PATH.write_bytes(original)
     write_json(DATASET_PATH, dataset)
-    print(f'源数据 {len(rows)} 条：{RAW_PATH}')
-    print(f'数据集 {len(dataset["samples"])} 条：{DATASET_PATH}')
+    print(f'source rows {len(rows)}: {RAW_PATH}')
+    print(f'dataset {len(dataset["samples"])} samples: {DATASET_PATH}')
 
 
 if __name__ == '__main__':

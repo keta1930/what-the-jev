@@ -51,7 +51,7 @@ def main():
 
     missing = [pid for pid in prompts if pid not in groups or pid not in winners]
     if missing:
-        raise SystemExit(f"源数据不齐，缺组或缺标注 {len(missing)} 条：{missing[:5]}")
+        raise SystemExit(f"source data incomplete: {len(missing)} prompts lack a group or a label: {missing[:5]}")
 
     rng = random.Random(SEED)
     records = []
@@ -78,7 +78,7 @@ def main():
     lines = [json.dumps(meta, ensure_ascii=False)] + [json.dumps(r, ensure_ascii=False) for r in records]
     PAIRS.parent.mkdir(parents=True, exist_ok=True)
     PAIRS.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"{len(records)} 对偏好 -> {PAIRS.relative_to(ROOT)}")
+    print(f"{len(records)} preference pairs -> {PAIRS.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

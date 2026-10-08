@@ -16,10 +16,10 @@ def fetch_leaderboard() -> list[dict[str, Any]]:
     with urlopen(URL, timeout=60) as response:
         data = json.load(response)
     if not isinstance(data, list) or not data:
-        raise ValueError(f'leaderboard 响应异常：{type(data).__name__}')
+        raise ValueError(f'unexpected leaderboard response: {type(data).__name__}')
     bad = [index for index, row in enumerate(data) if not EXPECTED_FIELDS <= set(row)]
     if bad:
-        raise ValueError(f'第 {bad[:3]} 条记录缺少必填字段')
+        raise ValueError(f'records {bad[:3]} lack required fields')
     return data
 
 
@@ -35,7 +35,7 @@ def main() -> None:
     """Fetch the leaderboard and overwrite the latest snapshot."""
     rows = fetch_leaderboard()
     write_json(RAW_PATH, rows)
-    print(f'leaderboard {len(rows)} 条：{RAW_PATH}')
+    print(f'leaderboard entries {len(rows)}: {RAW_PATH}')
 
 
 if __name__ == '__main__':

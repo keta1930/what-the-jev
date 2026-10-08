@@ -69,33 +69,33 @@ def check(name: str, ok: bool, detail: str = '') -> bool:
 def main() -> int:
     """Run the checks and return the exit code."""
     dataset = json.loads(DATASET_PATH.read_text(encoding='utf-8'))
-    check('顶层键恰为 schema_version/samples', set(dataset) == {'schema_version', 'samples'})
+    check('top-level keys are exactly schema_version/samples', set(dataset) == {'schema_version', 'samples'})
     check('schema_version == 1', dataset.get('schema_version') == 1)
     samples = dataset.get('samples', [])
-    check('样本数 == 480', len(samples) == 480, f'n={len(samples)}')
+    check('sample count == 480', len(samples) == 480, f'n={len(samples)}')
 
     source = [json.loads(line) for line in QUESTIONS_PATH.read_text(encoding='utf-8').splitlines() if line.strip()]
-    check('题源 questions-480.jsonl 行数 == 480', len(source) == 480, f'n={len(source)}')
+    check('question source row count == 480', len(source) == 480, f'n={len(source)}')
     row_bad = [str(r.get('id')) for r in source if set(r) != ROW_KEYS]
-    check('题源行字段形状', not row_bad, f'bad={row_bad}')
+    check('question source row fields', not row_bad, f'bad={row_bad}')
     row_ids = [r.get('id') for r in source]
-    check('题源 id 唯一', len(set(row_ids)) == len(row_ids))
+    check('question source ids are unique', len(set(row_ids)) == len(row_ids))
 
     per_paper: dict[str, list[int]] = {}
     for r in source:
         stat = per_paper.setdefault(r.get('paper'), [0, 0])
         stat[0 if r.get('noul') else 1] += 1
     per_bad = [f'{p}:{t}/{f}' for p, (t, f) in per_paper.items() if (t, f) != (10, 10)]
-    check('每篇题源 10 正 + 10 负', not per_bad, f'bad={per_bad}')
+    check('each paper has 10 true + 10 false in the source', not per_bad, f'bad={per_bad}')
 
     ids = [s.get('id') for s in samples]
-    check('id 唯一', len(set(ids)) == len(ids))
-    check('id 顺序与题源一致', ids == row_ids)
-    check('id 格式 <slug>-NN', all(i.rsplit('-', 1)[-1].isdigit() for i in ids))
+    check('ids are unique', len(set(ids)) == len(ids))
+    check('id order matches the source', ids == row_ids)
+    check('id format is <slug>-NN', all(i.rsplit('-', 1)[-1].isdigit() for i in ids))
 
     true_n = sum(1 for s in samples if s.get('reference', {}).get('use_fast_path', {}).get('noul') is True)
     false_n = sum(1 for s in samples if s.get('reference', {}).get('use_fast_path', {}).get('noul') is False)
-    check('noul=true 240 条 + noul=false 240 条', true_n == 240 and false_n == 240, f'true={true_n} false={false_n}')
+    check('noul=true 240 + noul=false 240', true_n == 240 and false_n == 240, f'true={true_n} false={false_n}')
 
     shape_bad: list[str] = []
     state_bad: list[str] = []
@@ -162,20 +162,20 @@ def main() -> int:
         if meta.get('paper') != q.get('paper') or meta.get('arxiv_id') != q.get('arxiv_id'):
             meta_bad.append(sid)
 
-    check('样本顶层键形状', not shape_bad, f'bad={shape_bad}')
-    check('input.state 只有 prompt 一个键', not state_bad, f'bad={state_bad}')
-    check('instructions 与脚本常量逐字一致（480 条）', not tmpl_bad, f'bad={tmpl_bad}')
+    check('sample top-level keys', not shape_bad, f'bad={shape_bad}')
+    check('input.state has only the prompt key', not state_bad, f'bad={state_bad}')
+    check('instructions match the script constant (480 samples)', not tmpl_bad, f'bad={tmpl_bad}')
     check(
-        'criteria 键恰 true/false（字符串）、与脚本常量逐字一致（480 条）',
+        'criteria keys are exactly the strings true/false and match the script constant (480 samples)',
         not crit_bad,
         f'bad={crit_bad}',
     )
-    check('criteria 480 条全同', crit_forms == {json.dumps(CRITERIA, ensure_ascii=False, sort_keys=True)})
-    check('reference 形状正确且等于题源标签', not ref_bad, f'bad={ref_bad}')
-    check('metadata 键形状与 paper/arxiv_id 正确', not meta_bad, f'bad={meta_bad}')
-    check('正样本 origin 正确（来源三键）', not origin_bad, f'bad={origin_bad}')
-    check('负样本 category 合法（六类）', not cat_bad, f'bad={cat_bad}')
-    check('负样本 why_llm 非空', not why_bad, f'bad={why_bad}')
+    check('criteria identical across all 480 samples', crit_forms == {json.dumps(CRITERIA, ensure_ascii=False, sort_keys=True)})
+    check('reference shape is correct and equals the source label', not ref_bad, f'bad={ref_bad}')
+    check('metadata keys and paper/arxiv_id are correct', not meta_bad, f'bad={meta_bad}')
+    check('positive samples have a valid origin', not origin_bad, f'bad={origin_bad}')
+    check('negative samples have a valid category', not cat_bad, f'bad={cat_bad}')
+    check('negative samples have a non-empty why_llm', not why_bad, f'bad={why_bad}')
 
     if not (shape_bad or state_bad or ref_bad or meta_bad):
         per_paper_bad = []
@@ -184,7 +184,7 @@ def main() -> int:
             act_f = sum(1 for s in samples if s['metadata'].get('paper') == paper and not s['reference']['use_fast_path']['noul'])
             if (act_t, act_f) != (tt, ff):
                 per_paper_bad.append(f'{paper}:{act_t}/{act_f}!= {tt}/{ff}')
-        check('每篇 true/false 计数与题源一致', not per_paper_bad, f'bad={per_paper_bad}')
+        check('per-paper true/false counts match the source', not per_paper_bad, f'bad={per_paper_bad}')
 
         mismatch = []
         for s, q in zip(samples, source):
@@ -198,21 +198,21 @@ def main() -> int:
                 or s['metadata'] != want_meta
             ):
                 mismatch.append(s['id'])
-        check('与 questions-480.jsonl 逐字段一致（480 条）', not mismatch, f'bad={mismatch}')
+        check('fields match questions-480.jsonl (480 samples)', not mismatch, f'bad={mismatch}')
 
         prompts = [s['input']['state']['prompt'] for s in samples]
-        check('prompt 全库唯一（精确）', len(set(prompts)) == len(prompts))
+        check('prompts are globally unique', len(set(prompts)) == len(prompts))
         cjk_rows = [s['id'] for s in samples if CJK.search(s['input']['state']['prompt'])]
-        check('prompt 无中文/全角字符', not cjk_rows, f'bad={cjk_rows}')
+        check('prompts contain no CJK or full-width characters', not cjk_rows, f'bad={cjk_rows}')
         q_rows = [s['id'] for s in samples if not s['input']['state']['prompt'].endswith('?')]
-        check('prompt 以 "?" 结尾', not q_rows, f'bad={q_rows}')
+        check('prompts end with "?"', not q_rows, f'bad={q_rows}')
     else:
-        check('每篇配额、题源一致性与 prompt 文本检查', False, '上游形状检查未通过，跳过')
+        check('per-paper quota, source consistency and prompt text checks', False, 'skipped: the upstream shape checks failed')
 
     from decision_models.data import load_dataset
 
     loaded = load_dataset(DATASET_PATH)
-    check('仓库 loader（decision_models.data.load_dataset）加载通过', len(loaded) == 480, f'loaded={len(loaded)}')
+    check('repo loader (decision_models.data.load_dataset) accepts the dataset', len(loaded) == 480, f'loaded={len(loaded)}')
 
     with tempfile.TemporaryDirectory() as tmp:
         rebuilt = Path(tmp) / 'dataset.json'
@@ -223,7 +223,7 @@ def main() -> int:
             text=True,
         )
         ok = proc.returncode == 0 and rebuilt.read_bytes() == DATASET_PATH.read_bytes()
-        check('临时目录重跑 build 后与 data/dataset.json 逐字节一致', ok, proc.stderr.strip()[:200])
+        check('a rebuild in a temp dir matches data/dataset.json byte for byte', ok, proc.stderr.strip()[:200])
 
     md5 = hashlib.md5(DATASET_PATH.read_bytes()).hexdigest()
     cat_counts: dict[str, int] = {}
@@ -232,16 +232,16 @@ def main() -> int:
             c = s['metadata']['category']
             cat_counts[c] = cat_counts.get(c, 0) + 1
 
-    print(f'数据集：{DATASET_PATH}')
-    print(f'样本 {len(samples)} 条：noul=true {true_n} / noul=false {false_n}；论文 {len(per_paper)} 篇，每篇 10 正 + 10 负')
-    print(f'负样本 category 分布：{dict(sorted(cat_counts.items()))}')
-    print(f'md5 {md5}；字节 {DATASET_PATH.stat().st_size}')
+    print(f'dataset: {DATASET_PATH}')
+    print(f'{len(samples)} samples: noul=true {true_n} / noul=false {false_n}; {len(per_paper)} papers, 10 true + 10 false each')
+    print(f'negative sample categories: {dict(sorted(cat_counts.items()))}')
+    print(f'md5 {md5}; bytes {DATASET_PATH.stat().st_size}')
     print()
     print('\n'.join(lines))
     if failures:
-        print(f'\n结论：FAIL（{len(failures)} 项未通过）')
+        print(f'\nresult: FAIL ({len(failures)} checks failed)')
         return 1
-    print(f'\n结论：PASS（{len(lines)} 项检查全部通过）')
+    print(f'\nresult: PASS ({len(lines)} checks passed)')
     return 0
 
 

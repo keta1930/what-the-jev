@@ -184,8 +184,8 @@ def main() -> None:
     for s in samples:
         sizes.setdefault(s['metadata']['n_options'], 0)
         sizes[s['metadata']['n_options']] += 1
-    print(f'数据集 {len(samples)} 条：{DATASET_PATH}')
-    print('选项数分布:', dict(sorted(sizes.items())))
+    print(f'dataset {len(samples)} samples: {DATASET_PATH}')
+    print('option counts:', dict(sorted(sizes.items())))
 
 
 if __name__ == '__main__':

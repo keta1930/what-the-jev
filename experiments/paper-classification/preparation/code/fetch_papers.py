@@ -129,7 +129,7 @@ def fetch_all(client, start: date, end: date) -> dict[str, dict]:
                     continue
                 kept += 1
                 found[aid] = to_record(group, paper)
-            print(f'  {query}: {len(results)} 命中，保留 {kept}')
+            print(f'  {query}: {len(results)} hits, {kept} kept')
     return found
 
 

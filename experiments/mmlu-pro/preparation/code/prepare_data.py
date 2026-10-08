@@ -47,12 +47,12 @@ def check_rows(rows: list[dict[str, Any]]) -> None:
     for index, row in enumerate(rows):
         count = len(row['options'])
         if not 2 <= count <= len(LETTERS):
-            raise ValueError(f'第 {index} 条选项数量异常：{count}')
+            raise ValueError(f'row {index}: unexpected option count {count}')
         if not 0 <= row['answer_index'] < count:
-            raise ValueError(f'第 {index} 条答案下标越界：{row["answer_index"]}')
+            raise ValueError(f'row {index}: answer index out of range: {row["answer_index"]}')
         if LETTERS[row['answer_index']] != row['answer']:
             raise ValueError(
-                f'第 {index} 条答案字母与下标不一致：'
+                f'row {index}: answer letter and index disagree: '
                 f'{row["answer"]} != {LETTERS[row["answer_index"]]}'
             )
 
@@ -97,13 +97,13 @@ def main() -> None:
     """Download the source data and write the snapshot and dataset."""
     rows = fetch_rows()
     if len(rows) != EXPECTED_ROWS:
-        raise ValueError(f'预期 {EXPECTED_ROWS} 条，实际 {len(rows)} 条')
+        raise ValueError(f'expected {EXPECTED_ROWS} rows, got {len(rows)}')
     check_rows(rows)
     dataset = build_dataset(rows)
     write_json(RAW_PATH, rows)
     write_json(DATASET_PATH, dataset)
-    print(f'源数据 {len(rows)} 条：{RAW_PATH}')
-    print(f'数据集 {len(dataset["samples"])} 条：{DATASET_PATH}')
+    print(f'source rows {len(rows)}: {RAW_PATH}')
+    print(f'dataset {len(dataset["samples"])} samples: {DATASET_PATH}')
 
 
 if __name__ == '__main__':

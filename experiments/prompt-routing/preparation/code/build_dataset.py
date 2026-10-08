@@ -50,33 +50,33 @@ def main() -> None:
     args = parser.parse_args()
 
     if set(CRITERIA) != {'true', 'false'} or not all(isinstance(v, str) for v in CRITERIA.values()):
-        raise SystemExit('criteria 必须恰为 true / false 两个字符串键')
+        raise SystemExit('criteria must be exactly the two string keys true and false')
 
     rows = [json.loads(line) for line in args.questions.read_text(encoding='utf-8').splitlines() if line.strip()]
     if len(rows) != 480:
-        raise SystemExit(f'{args.questions}: 期望 480 行，实际 {len(rows)} 行')
+        raise SystemExit(f'{args.questions}: expected 480 rows, got {len(rows)}')
     ids = [r['id'] for r in rows]
     if len(set(ids)) != 480:
-        raise SystemExit('id 不唯一')
+        raise SystemExit('ids are not unique')
 
     categories = {'explain', 'synthesize', 'compare', 'evaluate', 'design', 'quantitative'}
     per_paper: dict[str, list[int]] = {}
     for row in rows:
         if set(row) != {'id', 'paper', 'arxiv_id', 'prompt', 'noul', 'category', 'why_llm', 'origin'}:
-            raise SystemExit(f'{row.get("id")}: 题源字段不符：{sorted(row)}')
+            raise SystemExit(f'{row.get("id")}: unexpected source fields: {sorted(row)}')
         if not row['prompt'].strip() or not row['prompt'].endswith('?'):
-            raise SystemExit(f'{row["id"]}: prompt 必须非空且以 "?" 结尾')
+            raise SystemExit(f'{row["id"]}: prompt must be non-empty and end with "?"')
         if row['noul']:
             if row['category'] is not None or row['why_llm'] is not None or not isinstance(row['origin'], dict):
-                raise SystemExit(f'{row["id"]}: 正样本字段不符')
+                raise SystemExit(f'{row["id"]}: unexpected positive sample fields')
         else:
             if row['origin'] is not None or row['category'] not in categories or not row['why_llm']:
-                raise SystemExit(f'{row["id"]}: 负样本字段不符')
+                raise SystemExit(f'{row["id"]}: unexpected negative sample fields')
         stat = per_paper.setdefault(row['paper'], [0, 0])
         stat[0 if row['noul'] else 1] += 1
     for paper, (n_true, n_false) in per_paper.items():
         if (n_true, n_false) != (10, 10):
-            raise SystemExit(f'{paper}: 期望 10 正 + 10 负，实际 {n_true}/{n_false}')
+            raise SystemExit(f'{paper}: expected 10 true + 10 false, got {n_true}/{n_false}')
 
     samples = []
     for row in rows:
@@ -108,8 +108,8 @@ def main() -> None:
     args.out.write_text(payload, encoding='utf-8')
     digest = hashlib.md5(payload.encode('utf-8')).hexdigest()
     n_true = sum(1 for s in samples if s['reference']['use_fast_path']['noul'])
-    print(f'数据集 {len(samples)} 条：{args.out}')
-    print(f'noul=true {n_true} 条 / noul=false {len(samples) - n_true} 条；论文 {len(per_paper)} 篇')
+    print(f'dataset {len(samples)} samples: {args.out}')
+    print(f'noul=true {n_true} / noul=false {len(samples) - n_true}; papers {len(per_paper)}')
     print(f'md5 {digest}')
 
 
