@@ -1,4 +1,4 @@
-"""Reproducible official BBQ -> Jev choice adapter. No network/model calls."""
+"""Build the JEV choice dataset from the pinned official BBQ files, offline."""
 import collections
 import csv
 import json
@@ -9,12 +9,12 @@ ROOT = Path(__file__).resolve().parents[2]
 OFFICIAL = ROOT / 'preparation/raw'
 
 def dump(path, value):
+    """Write JSON to the path, creating parent directories."""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 def prepare():
-    # Merge distinct Q_id values that share exactly the same normalized template
-    # context and both questions; do this without reading any model responses.
+    """Merge equivalent template families, then write the dataset."""
     parent={}
     def find(x):
         parent.setdefault(x,x)
@@ -35,8 +35,6 @@ def prepare():
         metadata[(r['category'], int(r['example_id']), r['question_index'])].append(r)
     samples = []
     groups = collections.defaultdict(list)
-    # Sort on the lowercase name so a category such as Race_x_SES does not jump
-    # ahead of Race_x_gender through code-point order.
     for f in sorted((OFFICIAL/'data').glob('*.jsonl'), key=lambda p: p.name.lower()):
         for line in f.open(encoding='utf-8'):
             r = json.loads(line)
@@ -52,7 +50,7 @@ def prepare():
             assert target is None or target != unknown[0]
             assert (r['label'] == unknown[0]) == (r['context_condition'] == 'ambig')
             sid = f"{r['category']}:{r['example_id']}"
-            # Source generator emits each context x polarity quartet consecutively.
+            # The source emits each context x polarity quartet consecutively.
             quartet = f"{r['category']}:{r['example_id']//4}"
             item = {'id': sid, 'input': {'state': r['context'], 'questions': {'answer': {
                 'type': 'choice', 'instructions': r['question'],

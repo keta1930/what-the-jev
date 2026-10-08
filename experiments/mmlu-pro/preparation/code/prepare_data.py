@@ -1,7 +1,4 @@
-"""下载 TIGER-Lab/MMLU-Pro 的 test split，生成原始数据与数据集。
-
-每题选项数量不固定（3 到 10 个），criteria 按实际选项数量取字母序列。
-"""
+"""Download the pinned MMLU-Pro test split and build the snapshot and dataset."""
 
 import io
 import json
@@ -27,7 +24,7 @@ LETTERS = string.ascii_uppercase
 
 
 def fetch_rows() -> list[dict[str, Any]]:
-    """下载固定 revision 的 parquet，仅保留判分与分组所需的字段。"""
+    """Download the pinned parquet, keeping the fields needed for grading and grouping."""
     with urlopen(URL, timeout=60) as response:
         original = response.read()
     table = parquet.read_table(io.BytesIO(original))
@@ -46,7 +43,7 @@ def fetch_rows() -> list[dict[str, Any]]:
 
 
 def check_rows(rows: list[dict[str, Any]]) -> None:
-    """核对答案字母、下标与选项数量一致。"""
+    """Check that the answer letter, index, and option count agree."""
     for index, row in enumerate(rows):
         count = len(row['options'])
         if not 2 <= count <= len(LETTERS):
@@ -61,7 +58,7 @@ def check_rows(rows: list[dict[str, Any]]) -> None:
 
 
 def build_dataset(rows: list[dict[str, Any]]) -> dict[str, Any]:
-    """把 MMLU-Pro 行转换为单轮决策数据集。"""
+    """Convert the MMLU-Pro rows into the single-turn dataset."""
     samples = []
     for index, row in enumerate(rows):
         letters = LETTERS[: len(row['options'])]
@@ -89,7 +86,7 @@ def build_dataset(rows: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def write_json(path: Path, value: Any) -> None:
-    """写出 JSON，保留非 ASCII 字符与键序。"""
+    """Write JSON preserving non-ASCII characters and key order."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8') as file:
         json.dump(value, file, ensure_ascii=False, indent=2, allow_nan=False)
@@ -97,7 +94,7 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def main() -> None:
-    """下载源数据，写出源数据快照与数据集。"""
+    """Download the source data and write the snapshot and dataset."""
     rows = fetch_rows()
     if len(rows) != EXPECTED_ROWS:
         raise ValueError(f'预期 {EXPECTED_ROWS} 条，实际 {len(rows)} 条')

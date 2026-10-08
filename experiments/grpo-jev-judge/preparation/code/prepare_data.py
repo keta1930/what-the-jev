@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-"""生成 JEV 考卷：题目进 state，八条思考放 state（基线）或 criteria（变体），判据整段进 instructions，LLM 判官的选择进 reference。"""
+"""Build the JEV exam datasets from the prompts, rollouts, and judge choices."""
 
 import json
 from pathlib import Path
@@ -19,7 +18,7 @@ QUESTION = "winner_overall"
 
 
 def load_prompts(path):
-    """读提示词文件，返回 {prompt_id: 题目正文}。"""
+    """Return {prompt_id: prompt text}."""
     prompts = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.strip():
@@ -29,7 +28,7 @@ def load_prompts(path):
 
 
 def load_groups(path):
-    """读 rollout 文件，返回 {prompt_id: [按 sample_idx 排好的思维链]}；meta 行跳过。"""
+    """Return {prompt_id: thinkings ordered by sample_idx}."""
     groups = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -41,7 +40,7 @@ def load_groups(path):
 
 
 def load_choices(path):
-    """读 LLM 判官结果，返回 {prompt_id: 选中的选项键}。"""
+    """Return {prompt_id: winning option key}."""
     choices = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.strip():
@@ -52,7 +51,7 @@ def load_choices(path):
 
 
 def build_sample(pid, prompt_text, thinkings, standard, choice, responses_in_criteria):
-    """一条考卷：题目进 state，判据进 instructions，reference 放判官的选择；思考正文按 variant 落在 state 或 criteria。"""
+    """Build one exam sample for the given layout, with the judge's choice as reference."""
     keys = [f"R{i + 1}" for i in range(len(thinkings))]
     if responses_in_criteria:
         state, criteria = {"prompt": prompt_text}, dict(zip(keys, thinkings))
@@ -75,6 +74,7 @@ def build_sample(pid, prompt_text, thinkings, standard, choice, responses_in_cri
 
 
 def main():
+    """Write both exam datasets from the rollouts and judge choices."""
     standard = STANDARD.read_text(encoding="utf-8").strip()
     prompts = load_prompts(RAW / "prompts.jsonl")
     groups = load_groups(RAW / "rollouts.jsonl")

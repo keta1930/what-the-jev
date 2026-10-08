@@ -1,19 +1,4 @@
-"""校验 prompt-routing 数据集：形状、标签、题源一致性、构建确定性。
-
-用法（仓库根目录）：
-    python experiments/prompt-routing/preparation/code/validate_dataset.py
-
-检查项：
-  1. 480 条（240 正 + 240 负）；id 唯一且为 <slug>-NN，顺序与题源一致；
-  2. data/dataset.json 与 questions-480.jsonl 逐字段一致；每篇 10 正 + 10 负；
-  3. 每题恰 1 道 use_fast_path 题，type=noul，instructions 与 criteria 和脚本常量逐字一致且 480 条全同；
-  4. input.state 只有 prompt 一个键；reference 形状正确且等于题源标签；
-  5. metadata 形状：正样本 paper/arxiv_id/origin（来源三键：experiment / sample_id / question_name）；
-     负样本 paper/arxiv_id/category/why_llm（category 合法、why_llm 非空）；
-  6. prompt 全库唯一、无中文/全角字符、以 "?" 结尾；
-  7. 仓库 loader（decision_models.data.load_dataset）加载通过；
-  8. 临时目录重跑 build_dataset.py，与 data/dataset.json 逐字节一致。
-"""
+"""Validate the prompt-routing dataset: shape, labels, source, and build determinism."""
 
 import hashlib
 import json
@@ -73,6 +58,7 @@ lines: list[str] = []
 
 
 def check(name: str, ok: bool, detail: str = '') -> bool:
+    """Record one check and return its result."""
     line = f"[{'PASS' if ok else 'FAIL'}] {name}" + (f' -- {detail}' if detail else '')
     lines.append(line)
     if not ok:
@@ -81,6 +67,7 @@ def check(name: str, ok: bool, detail: str = '') -> bool:
 
 
 def main() -> int:
+    """Run the checks and return the exit code."""
     dataset = json.loads(DATASET_PATH.read_text(encoding='utf-8'))
     check('顶层键恰为 schema_version/samples', set(dataset) == {'schema_version', 'samples'})
     check('schema_version == 1', dataset.get('schema_version') == 1)

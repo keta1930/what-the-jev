@@ -1,7 +1,4 @@
-"""下载固定版本的 GSM8K 测试集，生成原始数据与单轮决策数据集。
-
-GSM8K 全集约 8.5k 条，分为 7473 条训练集与 1319 条测试集；本实验只用测试集。
-"""
+"""Download the pinned GSM8K test split and build the snapshot and dataset."""
 
 import json
 import random
@@ -23,7 +20,7 @@ INSTRUCTIONS = (
 
 
 def fetch_rows() -> list[dict[str, Any]]:
-    """下载固定 revision 的测试集，仅提取题面与最终答案。"""
+    """Download the pinned test split and extract the question and final answer."""
     with urlopen(URL, timeout=60) as response:
         content = response.read()
     rows = []
@@ -35,14 +32,14 @@ def fetch_rows() -> list[dict[str, Any]]:
 
 
 def format_number(value: float) -> str:
-    """整数不保留小数点，其余原样输出。"""
+    """Write integral values without a decimal point, others as they are."""
     if value == int(value):
         return str(int(value))
     return f'{value:g}'
 
 
 def distractors(answer: float, rng: random.Random) -> list[float]:
-    """从标准答案的邻近扰动中取三个互不相同的候选。"""
+    """Return three distinct disturbed values taken near the answer."""
     candidates = [
         answer + 1,
         answer - 1,
@@ -73,7 +70,7 @@ def distractors(answer: float, rng: random.Random) -> list[float]:
 
 
 def build_dataset(rows: list[dict[str, Any]]) -> dict[str, Any]:
-    """逐题生成四个数值选项：标准答案加三个扰动干扰项，种子取样本 id 保证可复现。"""
+    """Build one sample per question with the answer and three distractor options."""
     samples = []
     for index, row in enumerate(rows):
         sample_id = f'gsm8k-{index + 1:04d}'
@@ -107,7 +104,7 @@ def build_dataset(rows: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def write_json(path: Path, value: Any) -> None:
-    """写出 JSON，保留非 ASCII 字符与键序。"""
+    """Write JSON preserving non-ASCII characters and key order."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8') as file:
         json.dump(value, file, ensure_ascii=False, indent=2, allow_nan=False)
@@ -115,7 +112,7 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def main() -> None:
-    """下载源数据，写出源数据快照与数据集。"""
+    """Download the source data and write the snapshot and dataset."""
     rows = fetch_rows()
     if len(rows) != EXPECTED_ROWS:
         raise ValueError(f'预期 {EXPECTED_ROWS} 条，实际 {len(rows)} 条')

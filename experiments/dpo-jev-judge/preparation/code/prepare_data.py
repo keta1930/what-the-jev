@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-"""生成 JEV 考卷：一对思考随机分派到 A、B 两个位置，按两种布局各出一份；LLM 判官偏好的一条进 reference。"""
+"""Build the JEV exam papers: each pair is laid out twice, once per criteria layout."""
 
 import json
 import random
@@ -21,7 +20,7 @@ OPTIONS = ("A", "B")
 
 
 def load_pairs(path):
-    """读偏好对，返回 [(prompt_id, 题目, chosen_idx, rejected_idx, chosen, rejected)]；meta 行跳过。"""
+    """Return the pairs as (id, prompt, chosen index and text, rejected index and text)."""
     pairs = []
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -34,7 +33,7 @@ def load_pairs(path):
 
 
 def build_sample(pid, prompt_text, texts, indices, answer, standard, responses_in_criteria):
-    """一条考卷：两条思考落在 A、B，判据进 instructions，reference 指向 LLM 判官偏好的位置。"""
+    """Build one exam sample for the given layout, with the judge's preference as reference."""
     responses = dict(zip(OPTIONS, texts))
     if responses_in_criteria:
         state, criteria = {"prompt": prompt_text}, responses
@@ -62,7 +61,7 @@ def build_sample(pid, prompt_text, texts, indices, answer, standard, responses_i
 
 
 def write_dataset(path, samples):
-    """写出数据集，两份布局各一份。"""
+    """Write one dataset file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps({"schema_version": 1, "samples": samples}, ensure_ascii=False, indent=2) + "\n",
@@ -71,6 +70,7 @@ def write_dataset(path, samples):
 
 
 def main():
+    """Write both exam datasets from the selected pairs."""
     standard = STANDARD.read_text(encoding="utf-8").strip()
     pairs = load_pairs(PAIRS)
     if not pairs:

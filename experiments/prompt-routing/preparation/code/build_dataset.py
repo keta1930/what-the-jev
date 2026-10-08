@@ -1,14 +1,4 @@
-"""由 preparation/raw/questions-480.jsonl 生成 prompt-routing 数据集（480 条 = 240 true + 240 false）。
-
-questions-480.jsonl 即最终题集：每篇 10 条正样本（判 true）+ 10 条负样本（判 false）。行形状
-{id, paper, arxiv_id, prompt, noul, category, why_llm, origin}：正样本 origin 为来源三键
-（experiment / sample_id / question_name），负样本 category（explain / synthesize / compare /
-evaluate / design / quantitative 六类）与 why_llm 非空、origin 为 null。
-
-instructions / criteria 为全库统一的判定题文本，以本脚本常量为冻结来源；每道题 type=noul，
-reference 即路由标签（true = 交给决策模型快答，false = 交给 LLM 深推理）。
-用法：`python3 build_dataset.py`（默认写 data/dataset.json；同输入重跑输出逐字节一致）。
-"""
+"""Build the prompt-routing dataset from preparation/raw/questions-480.jsonl."""
 
 import argparse
 import hashlib
@@ -53,6 +43,7 @@ CRITERIA = json.loads(CRITERIA_TEXT)
 
 
 def main() -> None:
+    """Validate the question source and write the dataset."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--questions', type=Path, default=QUESTIONS_PATH)
     parser.add_argument('--out', type=Path, default=DATASET_PATH)

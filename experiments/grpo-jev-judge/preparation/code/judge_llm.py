@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-"""LLM as a judge."""
+"""Judge each prompt's eight rollouts with an LLM and write the winner and rewards."""
 
 import argparse
 import json
@@ -26,7 +25,7 @@ WINNER_REWARD = 1.0
 
 
 def setup_logging(log_path=None):
-    """日志默认只到 stdout；给了路径再另存一份。"""
+    """Return a logger writing to stdout and, when given, to a file as well."""
     logger = logging.getLogger("judge-llm")
     logger.setLevel(logging.INFO)
     fmt = logging.Formatter("%(asctime)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
@@ -40,7 +39,7 @@ def setup_logging(log_path=None):
 
 
 def load_prompts(path):
-    """读提示词文件，返回 {prompt_id: (type, 题目正文)}。"""
+    """Return {prompt_id: (type, prompt text)}."""
     prompts = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -51,7 +50,7 @@ def load_prompts(path):
 
 
 def load_groups(path):
-    """读 rollout 文件，返回 {prompt_id: [按 sample_idx 排好的思维链]}；meta 行跳过。"""
+    """Return {prompt_id: thinkings ordered by sample_idx}."""
     groups = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -64,7 +63,7 @@ def load_groups(path):
 
 
 def load_state(out_path, keys):
-    """读已有输出，返回（已判好的 prompt_id, 保留行, 原始行数）；失败与残行剔除。"""
+    """Return judged ids, kept lines, and the raw line count, dropping failures and partial lines."""
     raw_lines = []
     if out_path.exists():
         raw_lines = [l for l in out_path.read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -81,7 +80,7 @@ def load_state(out_path, keys):
 
 
 def build_messages(std_text, prompt_text, thinkings):
-    """判官输入：system 放标准，user 放题目与八条思考，并声明回答形态。"""
+    """Build the judge messages: standard as system, prompt and thinkings as user."""
     blocks = "\n\n".join(f"responses.R{i + 1}:\n{t}" for i, t in enumerate(thinkings))
     options = "、".join(f'"{k}"' for k in [f"R{i}" for i in range(1, len(thinkings) + 1)])
     example = '{"answer": "<选项>"}'
@@ -95,7 +94,7 @@ def build_messages(std_text, prompt_text, thinkings):
 
 
 def parse_answer(text, n):
-    """取回答里的 answer：先按整段、代码块、首个 {...} 依次试 JSON，再退回正则找 R<N>。"""
+    """Return the R<N> answer found in the text, or None."""
     keys = {f"R{i}" for i in range(1, n + 1)}
     if not text:
         return None
@@ -126,7 +125,7 @@ def parse_answer(text, n):
 
 
 def judge_one(client, args, messages):
-    """调用一次判官，返回（原始响应, 回答正文, usage）或（None, None, 错误信息）。"""
+    """Call the judge once, returning the raw response, the text, and the usage."""
     for attempt in range(1, args.retries + 1):
         try:
             resp = client.chat.completions.create(
@@ -148,7 +147,7 @@ def judge_one(client, args, messages):
 
 
 def append(path, rec):
-    """追加一条记录并落盘。"""
+    """Append one record and flush it to disk."""
     with path.open("a", encoding="utf-8") as f:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
         f.flush()
@@ -156,6 +155,7 @@ def append(path, rec):
 
 
 def main():
+    """Judge the pending prompts and write the results."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--standard", default=str(DEFAULT_STANDARD), help="评判标准文件，与 JEV 用同一份")
     ap.add_argument("--prompts", default=str(DATA_DIR / "prompts.jsonl"))

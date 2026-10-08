@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-"""从 grpo-jev-judge 的数据里取偏好对：LLM 判官选中的那条为 chosen，其余七条中随机取一条为 rejected。"""
+"""Select preference pairs from the grpo-jev-judge judge results."""
 
 import json
 import random
@@ -12,7 +11,7 @@ SEED = 20261008
 
 
 def load_prompts(path):
-    """读提示词文件，返回 {prompt_id: 题目正文}。"""
+    """Return {prompt_id: prompt text}."""
     prompts = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.strip():
@@ -22,7 +21,7 @@ def load_prompts(path):
 
 
 def load_groups(path):
-    """读 rollout 文件，返回 {prompt_id: [按 sample_idx 排好的思维链]}；meta 行跳过。"""
+    """Return {prompt_id: thinkings ordered by sample_idx}."""
     groups = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -34,7 +33,7 @@ def load_groups(path):
 
 
 def load_winners(path):
-    """读 LLM 判官结果，返回 {prompt_id: 选中的 sample_idx}。"""
+    """Return {prompt_id: winning sample_idx}."""
     winners = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.strip():
@@ -45,6 +44,7 @@ def load_winners(path):
 
 
 def main():
+    """Write the preference pairs drawn from the judge results."""
     prompts = load_prompts(SOURCE / "prompts.jsonl")
     groups = load_groups(SOURCE / "rollouts.jsonl")
     winners = load_winners(SOURCE / "llm-judge-result.jsonl")

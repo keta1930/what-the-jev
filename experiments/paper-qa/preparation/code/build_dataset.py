@@ -1,8 +1,4 @@
-"""由 raw/questions-240.jsonl、raw/papers.json 与 raw/chunks/ 组装 data/dataset.json。
-
-输入：raw/questions-240.jsonl（240 条 noul 主题题）、raw/papers.json、raw/chunks/<slug>/part-XX.md。
-输出：data/dataset.json。用法：python build_dataset.py
-"""
+"""Assemble data/dataset.json from the raw questions, papers, and chunks."""
 
 import json
 from pathlib import Path
@@ -20,12 +16,12 @@ EXPECTED_TOTAL = 240
 
 
 def load_papers() -> list[dict]:
-    """按 papers.json 的论文顺序返回论文条目。"""
+    """Return the paper entries in snapshot order."""
     return json.loads(PAPERS_PATH.read_text(encoding='utf-8'))['papers']
 
 
 def load_bank() -> dict[str, list[dict]]:
-    """读取题目源，按论文分组。"""
+    """Read the question source and group it by paper."""
     bank: dict[str, list[dict]] = {}
     for line in QUESTIONS_PATH.read_text(encoding='utf-8').splitlines():
         if not line.strip():
@@ -36,7 +32,7 @@ def load_bank() -> dict[str, list[dict]]:
 
 
 def build() -> list[dict]:
-    """组装全量数据集并写出，返回样本列表。"""
+    """Assemble the full dataset, write it, and return the samples."""
     samples: list[dict] = []
     bank = load_bank()
     for paper in load_papers():

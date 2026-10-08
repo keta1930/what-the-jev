@@ -1,9 +1,4 @@
-"""下载 Hugging Face MMLU-Pro leaderboard 聚合结果，保存为最新快照。
-
-数据源是 Hub 的聚合接口，由各模型仓库的 .eval_results/ 与社区 PR 汇总而成，
-内容随时间变化、无法固定 revision。固定写到 leaderboard-latest.json，重跑即
-覆盖，始终只保留最新一份；历史版本由 git 记录。
-"""
+"""Download the Hugging Face MMLU-Pro leaderboard snapshot, overwriting the previous one."""
 
 import json
 from pathlib import Path
@@ -17,7 +12,7 @@ EXPECTED_FIELDS = {'modelId', 'value'}
 
 
 def fetch_leaderboard() -> list[dict[str, Any]]:
-    """下载 leaderboard 聚合 JSON，核对基本结构。"""
+    """Download the leaderboard JSON and check its basic shape."""
     with urlopen(URL, timeout=60) as response:
         data = json.load(response)
     if not isinstance(data, list) or not data:
@@ -29,7 +24,7 @@ def fetch_leaderboard() -> list[dict[str, Any]]:
 
 
 def write_json(path: Path, value: Any) -> None:
-    """写出 JSON，保留非 ASCII 字符与键序。"""
+    """Write JSON preserving non-ASCII characters and key order."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8') as file:
         json.dump(value, file, ensure_ascii=False, indent=2, allow_nan=False)
@@ -37,7 +32,7 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def main() -> None:
-    """下载并覆盖写出最新快照。"""
+    """Fetch the leaderboard and overwrite the latest snapshot."""
     rows = fetch_leaderboard()
     write_json(RAW_PATH, rows)
     print(f'leaderboard {len(rows)} 条：{RAW_PATH}')

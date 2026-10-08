@@ -1,12 +1,4 @@
-"""由 prompts-200.jsonl 与 skills-index.json 构造 skill 路由决策数据集。
-
-每条样本一个 choice 问题，选出与 task 最匹配的 skill 或 skill 组合：
-- 单标签与空标签样本的候选是全量 126 个 skill 加 none，共 127 项；
-- 多标签样本的正确项是集合，候选数每题从 5-15 随机抽取；混淆集合分三个
-  难度层级混合：难（漏/换/多一个相近成员）、中（成员替换为随机 skill）、
-  易（随机 skill 组合）。种子取 pair id，同一对 formal/casual 候选项一致。
-所有样本都含 none 选项。
-"""
+"""Build the skill routing dataset from prompts-500.jsonl and skills-index.json."""
 
 import json
 import random
@@ -48,22 +40,22 @@ NONE_TEXT = (
 
 
 def tokens(text: str) -> set[str]:
-    """小写词元集合，用于重叠度比较。"""
+    """Return the lowercase token set of a text."""
     return set(re.findall(r'[a-z0-9]+', text.lower()))
 
 
 def similarity(task_tokens: set[str], skill: dict[str, Any]) -> int:
-    """task 与 skill 名称加 description 的词重叠数。"""
+    """Return the word overlap between the task and the skill name plus description."""
     return len(task_tokens & tokens(skill['name'] + ' ' + skill['description']))
 
 
 def set_key(members: list[str]) -> str:
-    """集合选项的键：成员名按字典序拼接。"""
+    """Return the option key for a set: member names sorted and joined."""
     return ' + '.join(sorted(members))
 
 
 def option_text(members: list[str], desc_by_name: dict[str, str]) -> str:
-    """集合选项的描述：各成员名加其 description。"""
+    """Return the option description: each member name with its description."""
     return '\n'.join(f'{name}: {desc_by_name[name]}' for name in sorted(members))
 
 
@@ -72,7 +64,7 @@ def pick_distractors(
     index: list[dict[str, Any]],
     desc_by_name: dict[str, str],
 ) -> list[str]:
-    """按 task 词重叠度选非 ground truth 的混淆 skill，同来源优先补足。"""
+    """Return the non-gold skills ranked by word overlap with the task."""
     gold = set(prompt['skills'])
     task_tokens = tokens(prompt['task'])
     scored = sorted(
@@ -88,7 +80,7 @@ def build_options(
     desc_by_name: dict[str, str],
     rng: random.Random,
 ) -> dict[str, str]:
-    """构造 criteria：单标签与空标签用全量 skill 加 none；多标签用 5-15 个分难度混合的集合选项。"""
+    """Build the criteria for one prompt: all skills for single or empty labels, mixed sets otherwise."""
     gold = prompt['skills']
     options: dict[str, str] = {}
 
@@ -101,27 +93,24 @@ def build_options(
         similar = pick_distractors(prompt, index, desc_by_name)
         pool = [s['name'] for s in index if s['name'] not in gold]
 
-        # 难：漏一个成员、成员换成语义相近 skill、多一个相近成员
         hard: list[list[str]] = []
         for member in gold_sorted:
             hard.append([m for m in gold_sorted if m != member])
         for member in gold_sorted:
             hard.append(sorted([similar[0] if m == member else m for m in gold_sorted]))
         hard.append(sorted(gold_sorted + [similar[0]]))
-        # 中：随机成员替换为随机 skill
         medium: list[list[str]] = []
         for _ in range(MAX_OPTIONS):
             swapped = gold_sorted.copy()
             swapped[rng.randrange(len(swapped))] = rng.choice(pool)
             medium.append(sorted(swapped))
-        # 易：随机 skill 组合
         easy: list[list[str]] = []
         for _ in range(MAX_OPTIONS):
             easy.append(sorted(rng.sample(pool, rng.choice([2, 3]))))
 
-        target = rng.randint(MIN_OPTIONS, MAX_OPTIONS) - 1  # 预留 none 一席
+        target = rng.randint(MIN_OPTIONS, MAX_OPTIONS) - 1  # Reserve one slot for none
         options[set_key(gold_sorted)] = option_text(gold_sorted, desc_by_name)
-        # 三层按梯队轮转填充，直到达到目标候选数
+        # Fill round-robin across the three tiers until the target count is reached
         tiers = [hard, medium, easy]
         while len(options) < target and any(tiers):
             for tier in tiers:
@@ -140,13 +129,13 @@ def build_options(
 
 
 def main() -> None:
-    """读提示词与 skill 索引，写出数据集。"""
+    """Read the prompts and skill index and write the dataset."""
     index = json.loads(INDEX_PATH.read_text(encoding='utf-8'))
     desc_by_name = {s['name']: s['description'] for s in index}
     prompts = [json.loads(line) for line in PROMPTS_PATH.open(encoding='utf-8')]
 
     samples = []
-    # 同一 pair（formal/casual）共用 formal 版本构造候选项，保证对照组选项一致
+    # Both members of a pair share the options built from the formal version
     criteria_by_pair: dict[str, dict[str, str]] = {}
     for prompt in prompts:
         pair_id = prompt['id'].removesuffix('-casual')
@@ -159,7 +148,6 @@ def main() -> None:
         answer = NONE_KEY if not gold else (gold[0] if len(gold) == 1 else set_key(gold))
         instructions = INSTRUCTIONS_SET if len(gold) > 1 else INSTRUCTIONS_SINGLE
         assert answer in criteria, prompt['id']
-        # 歧义样本允许答案不唯一：acceptable 列出评分时同样算对的其他选项
         acceptable = []
         for alt in prompt.get('acceptable', []):
             key = NONE_KEY if not alt else (alt[0] if len(alt) == 1 else set_key(alt))

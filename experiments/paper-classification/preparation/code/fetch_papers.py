@@ -1,15 +1,4 @@
-"""抓取 arXiv 论文候选元数据，写入 raw/papers.json —— 只运行一次。
-
-产出是带抓取日期的元数据快照：raw/papers.json 里的 fetched_on 就是这份快照的
-版本标签，之后所有数据集都由它构造（见 build_dataset.py），不再回访 arXiv。
-所以本脚本的运行结果不需要也无法复现。
-
-重跑会覆盖 raw/papers.json 并得到不同的候选集：arXiv 的相关度排序与索引随时间
-变化，检索窗口又跟着运行日期移动。那等于换了一个版本，需要重新走一遍人工复核。
-
-用法：
-    python fetch_papers.py
-"""
+"""Fetch arXiv paper candidates and write the dated snapshot raw/papers.json."""
 
 import json
 import re
@@ -65,7 +54,6 @@ QUERIES = {
     ],
 }
 
-# 与分组定位不符的候选在抓取阶段就丢弃
 RELEVANT_TITLE = re.compile(
     r'(memory|memor|self-evolv|self-improv|self-refin|self-train|evolution|'
     r'lifelong|continual)',
@@ -74,13 +62,13 @@ RELEVANT_TITLE = re.compile(
 
 
 def arxiv_id(entry_id: str) -> str:
-    """从 entry_id URL 取出不带版本号的 arXiv ID。"""
+    """Return the arXiv ID without its version suffix."""
     tail = entry_id.rstrip('/').rsplit('/', 1)[-1]
     return re.sub(r'v\d+$', '', tail)
 
 
 def is_candidate(group: str, paper) -> bool:
-    """过滤掉与分组定位不符的候选。"""
+    """Return whether the paper fits the group's scope."""
     if len(paper.summary) < MIN_ABSTRACT_CHARS:
         return False
     title = paper.title
@@ -92,14 +80,14 @@ def is_candidate(group: str, paper) -> bool:
 
 
 def window_query(query: str, start: date, end: date) -> str:
-    """给检索式加上提交日期窗口。"""
+    """Add the submission date window to a query."""
     lo = start.strftime('%Y%m%d') + '0000'
     hi = end.strftime('%Y%m%d') + '2359'
     return f'{query} AND submittedDate:[{lo} TO {hi}]'
 
 
 def to_record(group: str, paper) -> dict:
-    """把 arXiv 结果转成候选记录；只存抓下来的字段，判定值一律不存。"""
+    """Convert an arXiv result into a candidate record."""
     aid = arxiv_id(paper.entry_id)
     return {
         'id': aid,
@@ -117,7 +105,7 @@ def to_record(group: str, paper) -> dict:
 
 
 def fetch_all(client, start: date, end: date) -> dict[str, dict]:
-    """按分组抓取候选，跨分组按 arXiv ID 去重，先扫描的分组优先认领。"""
+    """Fetch candidates per group, deduplicated by arXiv ID across groups."""
     found: dict[str, dict] = {}
     for group, queries in QUERIES.items():
         print(f'[{group}]')
@@ -146,6 +134,7 @@ def fetch_all(client, start: date, end: date) -> dict[str, dict]:
 
 
 def main() -> None:
+    """Fetch the candidates and write the dated snapshot."""
     today = date.today()
     start = today - timedelta(days=LOOKBACK_DAYS)
     client = arxiv.Client(page_size=50, delay_seconds=3.0, num_retries=5)

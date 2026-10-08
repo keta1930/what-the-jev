@@ -21,6 +21,7 @@ EXPECTED_COUNTS = {"low": 687, "high": 680}
 
 
 def question_set(action1: str, action2: str) -> dict:
+    """Return the six question objects for one action pair."""
     return {
         "ab_forward": {
             "type": "choice",
@@ -62,6 +63,7 @@ def question_set(action1: str, action2: str) -> dict:
 
 
 def mappings() -> dict:
+    """Return the option-key to action mapping for every question."""
     return {
         "ab_forward": {"A": "action1", "B": "action2"},
         "ab_reverse": {"A": "action2", "B": "action1"},
@@ -73,6 +75,7 @@ def mappings() -> dict:
 
 
 def read_rows() -> list[dict[str, str]]:
+    """Read and validate the pinned scenario CSVs."""
     rows: list[dict[str, str]] = []
     counts = {"low": 0, "high": 0}
     for path in SOURCES:
@@ -92,6 +95,7 @@ def read_rows() -> list[dict[str, str]]:
 
 
 def build_sample(row: dict[str, str]) -> dict:
+    """Build one sample from a scenario row."""
     rule_labels = {
         key: value
         for key, value in row.items()
@@ -120,6 +124,7 @@ def build_sample(row: dict[str, str]) -> dict:
 
 
 def main() -> None:
+    """Write the dataset built from the pinned CSVs."""
     rows = read_rows()
     dataset = {"schema_version": 1, "samples": [build_sample(row) for row in rows]}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

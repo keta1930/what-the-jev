@@ -1,36 +1,4 @@
-"""从 raw/papers.json 构造决策数据集，离线且确定。
-
-输入是 fetch_papers.py 冻结的元数据快照，同一份快照配同一份代码，必得同一份
-data/dataset.json。每个偏好维度按「顶会录用 comment 优先、其次提交时间」取前
-25 篇，混入两类负例（LLM agent 其它方向、非 agent 的 AI 研究），使决策不退
-化为「见到 agent 就入库」。
-
-state 与 criteria 由两个开关控制，同一批论文在四组条件下各出一条样本，共 400
-条，用于消融 state 信息量与 criteria 描述：
-
-- full_crit  ：全量 state + criteria 带描述（基准组）
-- min_crit   ：仅标题与摘要 + criteria 带描述
-- full_nocrit：全量 state + criteria 无描述
-- min_nocrit ：仅标题与摘要 + criteria 无描述
-
-全量 state 比精简 state 多出 published / categories / comment；其余元数据一律
-只留在 metadata 里。
-
-topic 三选一，两个负例分层在标签侧合并为 other。
-
-候选的召回靠检索式，精度靠两轮复核：
-
-- DROP 剔除主题不符的论文，RECLASSIFY 修正命中多个维度时被先扫描分组抢走的
-  论文——这两张表来自第一轮人工复核。
-- VERIFIED 是第二轮的定版：每篇论文由两个独立 agent 盲评（看不到第一轮的
-  结论），两人一致即采纳；3 条分歧由人工裁决。只有结论被推翻的条目才入表。
-
-截断点存在同键并列，取舍取决于快照里的顺序——也因此必须以快照为准，不能
-重新抓取。
-
-用法：
-    python build_dataset.py
-"""
+"""Build data/dataset.json from the frozen raw/papers.json snapshot."""
 
 import json
 import re
@@ -43,7 +11,7 @@ DATASET_PATH = EXPERIMENT / 'data' / 'dataset.json'
 
 PER_GROUP = 25
 
-# 消融分组：(后缀, 是否给全量 state, criteria 是否带描述)
+# Ablation groups: (suffix, full state, criteria text).
 ABLATION_GROUPS = (
     ('full_crit', True, True),
     ('min_crit', False, True),
@@ -62,47 +30,42 @@ RESEARCH_PREFERENCE = (
     'self-evolution, and experience-driven capability growth.'
 )
 
-# 人工复核：主题不属于任一偏好维度的候选。
+# Manual review: candidates outside every preference dimension.
 DROP = {
-    '2510.21588',  # 神经科学，表征漂移，非 LLM agent
-    '2512.08300',  # 用外部 planner 做 RL 策略注入，非 agent 自进化
-    '2601.18733',  # 机器人多智能体竞赛组织报告，非 LLM agent
-    '2602.17003',  # 个性化 web agent 基准，核心是用户历史推理而非记忆机制
-    '2603.14276',  # 终身 VLN 的参数适配，属感知域适应
-    '2604.16909',  # 幻觉诊断基准，memory 只是生成阶段之一
-    '2606.08531',  # agent 安全场景生成与评测，非记忆研究
-    '2510.17947',  # 受终身学习启发的多轮越狱攻击，非 agent 自进化
+    '2510.21588',  # neuroscience, representation drift, not LLM agents
+    '2512.08300',  # RL policy injection via an external planner, not self-evolution
+    '2601.18733',  # robot multi-agent competition report, not LLM agents
+    '2602.17003',  # personalized web-agent benchmark, centered on user history
+    '2603.14276',  # parameter adaptation for lifelong VLN, a perception shift
+    '2604.16909',  # hallucination diagnosis benchmark, memory is one stage only
+    '2606.08531',  # agent safety scenario generation and evaluation, not memory
+    '2510.17947',  # multi-turn jailbreak from lifelong learning, not self-evolution
 }
 
-# 人工复核：命中多个维度、被先扫描的分组抢走的候选。
+# Manual review: candidates matching several dimensions, reassigned by hand.
 RECLASSIFY = {
-    '2604.17658': 'self_evolution',  # 贡献是自改进的错误诊断框架
-    '2602.15654': 'self_evolution',  # 针对自进化 agent 的持久化攻击
-    '2605.06716': 'memory',          # LLM agent 记忆机制演化综述
-    '2601.10744': 'memory',          # 长时记忆基准
-    '2601.08605': 'memory',          # web agent 的步骤级经验检索
-    '2606.30639': 'self_evolution',  # 自进化世界模型，记忆是其中模块
+    '2604.17658': 'self_evolution',  # self-improving error diagnosis framework
+    '2602.15654': 'self_evolution',  # persistence attack on self-evolving agents
+    '2605.06716': 'memory',          # survey of memory mechanism evolution in LLM agents
+    '2601.10744': 'memory',          # long-term memory benchmark
+    '2601.08605': 'memory',          # step-level experience retrieval for web agents
+    '2606.30639': 'self_evolution',  # self-evolving world model, memory as a module
 }
 
-# 双人独立盲评的定版：两人一致即采纳，分歧由人工裁决。
-# 8 条来自两轮复核者的一致结论，1 条（2512.21598）来自分歧裁决。
-# 分歧中维持原判的两条不在此列：2604.17658 判 self_evolution、2607.12385 判 memory。
-# 取值是标签侧的 topic（memory / self_evolution / other），不是检索分层名。
-# 只在选取之后重标注 topic，不参与分池——参与分池会改变每组的入选名单，
-# 那 100 篇就不是复核过的那 100 篇了。
+# Blind-review overrides, applied after selection; values are label-side topics.
 VERIFIED = {
-    '2602.02751': 'other',           # 策略拍卖做路由，auction memory 只是附带
-    '2602.21394': 'other',           # 钓鱼检测系统，记忆是组件而非主题
-    '2603.14799': 'other',           # 路由到推理框架，与记忆/自进化无关
-    '2603.20215': 'other',           # 多智能体辩论，记忆掩码服务于推理准确率
-    '2609.10750': 'other',           # 检索模型的灾难性遗忘，非 agent 自身记忆
-    '2512.21598': 'other',           # 内容审核框架，自改进是领域内特化手段
-    '2510.11290': 'self_evolution',  # 以自进化机制为核心的仿真系统
-    '2512.10696': 'memory',          # 过程记忆的蒸馏、复用与剪枝
-    '2609.12655': 'memory',          # 经验的存储、巩固与召回
+    '2602.02751': 'other',           # strategy auctions for routing, auction memory incidental
+    '2602.21394': 'other',           # phishing detection system, memory is a component
+    '2603.14799': 'other',           # routes to a reasoning framework, unrelated to memory
+    '2603.20215': 'other',           # multi-agent debate, memory mask serves reasoning accuracy
+    '2609.10750': 'other',           # catastrophic forgetting of a retrieval model
+    '2512.21598': 'other',           # content moderation, self-improvement as specialization
+    '2510.11290': 'self_evolution',  # simulation system centered on self-evolution
+    '2512.10696': 'memory',          # distillation, reuse, and pruning of procedural memory
+    '2609.12655': 'memory',          # storage, consolidation, and recall of experience
 }
 
-# 「高质量」的代理：作者 comment 里写了会议或期刊录用
+# Proxy for "high quality": the comment names a venue acceptance.
 TOP_VENUES = re.compile(
     r'\b(neurips|nips|icml|iclr|acl|emnlp|naacl|eacl|coling|colm|cvpr|iccv|'
     r'eccv|wacv|aaai|ijcai|kdd|www|sigir|wsdm|icra|iros|corl|rss|tmlr|jmlr|'
@@ -164,7 +127,7 @@ TOPIC_CRITERIA_TEXT = {
 }
 TOPIC_CRITERIA_EMPTY = {'memory': None, 'self_evolution': None, 'other': None}
 
-# 检索分层到标签 topic 的映射：两个负例分层在标签侧合并为 other
+# Retrieval stratum to label topic; both negative strata map to other.
 LABEL_TOPIC = {
     'memory': 'memory',
     'self_evolution': 'self_evolution',
@@ -179,7 +142,7 @@ DECISION_BY_TOPIC = {
 
 
 def has_venue_acceptance(comment: str) -> bool:
-    """comment 是否表明已被会议或期刊录用，而非仅投稿或预印本。"""
+    """Return whether the comment names a venue acceptance rather than a submission."""
     text = URL.sub(' ', comment)
     if not TOP_VENUES.search(text):
         return False
@@ -191,14 +154,14 @@ def has_venue_acceptance(comment: str) -> bool:
 
 
 def final_group(paper: dict) -> str | None:
-    """应用人工复核后的分组，DROP 返回 None。"""
+    """Return the group after manual review, or None when the paper is dropped."""
     if paper['id'] in DROP:
         return None
     return RECLASSIFY.get(paper['id'], paper['group'])
 
 
 def select(found: dict[str, dict], groups: list[str]) -> list[dict]:
-    """每组取顶会录用优先、提交时间次之的前 PER_GROUP 篇。"""
+    """Take the top PER_GROUP papers per group, venue acceptance first."""
     pools: dict[str, list[dict]] = {group: [] for group in groups}
     for paper in found.values():
         group = final_group(paper)
@@ -214,7 +177,7 @@ def select(found: dict[str, dict], groups: list[str]) -> list[dict]:
 
 
 def build_sample(paper: dict, sample_id: str, full_state: bool, criteria_text: bool) -> dict:
-    """把一条候选按指定条件转成数据集样本。"""
+    """Build one sample from a candidate under the given conditions."""
     fields = {'title': paper['title']}
     if full_state:
         fields['published'] = paper['published']
@@ -269,7 +232,7 @@ def build_sample(paper: dict, sample_id: str, full_state: bool, criteria_text: b
 
 
 def build_ablation(selected: list[dict]) -> list[dict]:
-    """同一批论文在四组条件下各出一条样本，按条件分组排列。"""
+    """Build one sample per paper and condition, ordered by condition."""
     return [
         build_sample(paper, f'{paper["id"]}__{suffix}', full_state, criteria_text)
         for suffix, full_state, criteria_text in ABLATION_GROUPS
@@ -278,13 +241,13 @@ def build_ablation(selected: list[dict]) -> list[dict]:
 
 
 def load_raw() -> tuple[dict[str, dict], list[str], str]:
-    """读取冻结的候选快照，返回候选、分组顺序与快照日期。"""
+    """Return the candidates, the group order, and the snapshot date."""
     raw = json.loads(RAW_PATH.read_text(encoding='utf-8'))
     return {p['id']: p for p in raw['candidates']}, list(raw['queries']), raw['fetched_on']
 
 
 def write_dataset(path: Path, samples: list[dict]) -> None:
-    """把样本写成数据集文件。"""
+    """Write the samples to the dataset file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps({'schema_version': 1, 'samples': samples}, ensure_ascii=False, indent=2),
@@ -293,6 +256,7 @@ def write_dataset(path: Path, samples: list[dict]) -> None:
 
 
 def main() -> None:
+    """Build the ablation samples and write the dataset."""
     found, groups, fetched_on = load_raw()
     selected = select(found, groups)
     samples = build_ablation(selected)

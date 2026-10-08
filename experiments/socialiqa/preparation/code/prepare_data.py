@@ -5,10 +5,12 @@ import json, tarfile
 ROOT=Path(__file__).resolve().parents[2]
 
 def write(path,obj):
+    """Write JSON to the path, creating parent directories."""
     path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def main():
+    """Extract the archived test rows and write the dataset."""
     archive=ROOT/'preparation/raw/socialIQa_v1.4_withDims.tgz'
     with tarfile.open(archive) as tf:
         member=next(m for m in tf.getmembers() if m.name.endswith('socialIWa_v1.4_tst_wDims.jsonl'))
