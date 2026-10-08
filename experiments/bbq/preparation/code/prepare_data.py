@@ -38,7 +38,7 @@ def prepare():
     metadata = collections.defaultdict(list)
     for r in csv.DictReader((OFFICIAL/'additional_metadata.csv').open(encoding='utf-8')):
         metadata[(r['category'], int(r['example_id']), r['question_index'])].append(r)
-    samples, scoring, rows = [], [], []
+    samples, rows = [], []
     groups = collections.defaultdict(list)
     for f in sorted((OFFICIAL/'data').glob('*.jsonl')):
         for line in f.open(encoding='utf-8'):
@@ -59,17 +59,16 @@ def prepare():
             quartet = f"{r['category']}:{r['example_id']//4}"
             item = {'id': sid, 'input': {'state': r['context'], 'questions': {'answer': {
                 'type': 'choice', 'instructions': r['question'],
-                'criteria': {f'ans{i}': r[f'ans{i}'] for i in range(3)}}}}}
+                'criteria': {f'ans{i}': r[f'ans{i}'] for i in range(3)}}}},
+                'reference': {'answer': {'choice': f'ans{r["label"]}'}},
+                'metadata': {'category': r['category'], 'example_id': r['example_id'],
+                             'template_id': f"{r['category']}:{r['question_index']}", 'quartet_id': quartet,
+                             'template_family_id':find(f"{r['category']}:{r['question_index']}"),
+                             'question_index': r['question_index'], 'question_polarity': r['question_polarity'],
+                             'context_condition': r['context_condition'], 'label_type': meta['label_type'],
+                             'full_cond': meta['full_cond'], 'unknown': unknown[0], 'biased_answer': target}}
             samples.append(item)
-            s = {'id': sid, 'category': r['category'], 'example_id': r['example_id'],
-                 'template_id': f"{r['category']}:{r['question_index']}", 'quartet_id': quartet,
-                 'template_family_id':find(f"{r['category']}:{r['question_index']}"),
-                 'question_index': r['question_index'], 'question_polarity': r['question_polarity'],
-                 'context_condition': r['context_condition'], 'label': r['label'],
-                 'unknown': unknown[0], 'biased_answer': target,
-                 'official_metadata': matches, 'original': r}
-            scoring.append(s)
-            groups[quartet].append(s)
+            groups[quartet].append(dict(item['metadata'], original=r))
             rows.append(r)
     assert len({s['id'] for s in samples}) == len(samples)
     for group in groups.values():
@@ -86,13 +85,6 @@ def prepare():
         if group[0]['biased_answer'] is not None:
             assert a[0]['biased_answer'] != a[1]['biased_answer']
     dump(ROOT/'data/dataset.json', {'schema_version': 1, 'samples': samples})
-    compact=[]
-    for item in scoring:
-        row={k:v for k,v in item.items() if k not in ('original','official_metadata')}
-        row['label_type']=item['official_metadata'][0]['label_type']
-        row['full_cond']=item['official_metadata'][0]['full_cond']
-        compact.append(row)
-    (ROOT/'data/scoring.json').write_text(json.dumps(compact,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     print(f'Prepared {len(samples)} BBQ samples; no model requests.')
 
 if __name__ == '__main__':
