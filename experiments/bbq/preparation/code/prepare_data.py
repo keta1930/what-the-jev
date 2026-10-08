@@ -35,7 +35,9 @@ def prepare():
         metadata[(r['category'], int(r['example_id']), r['question_index'])].append(r)
     samples = []
     groups = collections.defaultdict(list)
-    for f in sorted((OFFICIAL/'data').glob('*.jsonl')):
+    # Sort on the lowercase name so a category such as Race_x_SES does not jump
+    # ahead of Race_x_gender through code-point order.
+    for f in sorted((OFFICIAL/'data').glob('*.jsonl'), key=lambda p: p.name.lower()):
         for line in f.open(encoding='utf-8'):
             r = json.loads(line)
             key = (r['category'], r['example_id'], r['question_index'])
