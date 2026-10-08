@@ -1,4 +1,4 @@
-"""控制台日志初始化与宿主日志配置兼容性测试。"""
+"""Tests for console logging setup and compatibility with host logging config."""
 
 import io
 import logging
@@ -25,9 +25,9 @@ class LoggerTests(unittest.TestCase):
     def test_repeated_configuration_emits_each_message_once(self):
         configure_logging()
         configure_logging()
-        self.logger.info('样本完成')
+        self.logger.info('sample done')
         self.assertEqual(len(self.logger.handlers), 1)
-        self.assertEqual(self.output.getvalue().count('样本完成'), 1)
+        self.assertEqual(self.output.getvalue().count('sample done'), 1)
         self.assertIn('INFO decision_models:', self.output.getvalue())
 
     def test_existing_handler_and_level_are_preserved(self):
@@ -45,8 +45,8 @@ class LoggerTests(unittest.TestCase):
         self.logger.parent = root
         configure_logging()
         self.assertEqual(self.logger.handlers, [])
-        self.logger.warning('只输出一次')
-        self.assertEqual(self.output.getvalue().count('只输出一次'), 1)
+        self.logger.warning('logged once')
+        self.assertEqual(self.output.getvalue().count('logged once'), 1)
 
 
 if __name__ == '__main__':

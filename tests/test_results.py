@@ -1,4 +1,4 @@
-"""结果文件校验、尾部修复与严格 JSON 解析的回归测试。"""
+"""Regression tests for result file validation, tail repair, and strict JSON parsing."""
 
 import io
 import json
@@ -106,10 +106,10 @@ class ResultFileTests(unittest.TestCase):
         self.assertEqual(self.path.read_bytes(), content)
 
     def test_drop_failed_preserves_success_order_and_response_content(self):
-        """失败记录被移除，成功记录的顺序和完整响应保持一致。"""
+        """Failed records are dropped while successful ones keep their order and full response."""
         failure = {
             'id': 'T02',
-            'response': '<html>错误</html>',
+            'response': '<html>error</html>',
             'error': {'type': 'http', 'status': 503, 'message': 'HTTP 503'},
         }
         last = {**self.record, 'id': 'T03'}
@@ -123,7 +123,7 @@ class ResultFileTests(unittest.TestCase):
         self.assertEqual(self.path.read_text(encoding='utf-8'), lines[0] + lines[2])
 
     def test_drop_failed_leaves_success_only_file_byte_identical(self):
-        """没有失败记录时不重写文件，也不改变换行符。"""
+        """A file with no failed records is not rewritten and keeps its line endings."""
         content = self.line + b'\r\n'
         self.path.write_bytes(content)
         with locked_output(self.path):
@@ -133,9 +133,9 @@ class ResultFileTests(unittest.TestCase):
     def test_lock_is_exclusive_and_released_after_exception(self):
         with self.assertRaisesRegex(RuntimeError, 'stop'):
             with locked_output(self.path):
-                with self.assertRaisesRegex(ValueError, '其他运行'):
+                with self.assertRaisesRegex(ValueError, 'another run'):
                     with locked_output(self.path):
-                        self.fail('同一文件获得了两把独占锁')
+                        self.fail('the same file was locked exclusively twice')
                 raise RuntimeError('stop')
         with locked_output(self.path):
             self.assertEqual(self.path.read_bytes(), b'')
@@ -143,10 +143,10 @@ class ResultFileTests(unittest.TestCase):
 
 class ResponseTests(unittest.TestCase):
     def test_status_boundaries_preserve_json_values_and_transport_arguments(self):
-        """所有 JSON 值原样保留，只有 2xx 状态被视为成功。"""
-        payload = {'state': '中文'}
+        """Every JSON value is kept as it is; only 2xx statuses count as success."""
+        payload = {'state': 'text'}
         for status in [199, 200, 204, 299, 300, 503]:
-            for response in [None, False, 0, '文本', [], {'extra': [1, 2]}]:
+            for response in [None, False, 0, 'text', [], {'extra': [1, 2]}]:
                 with self.subTest(status=status, response=response):
                     transport = Mock(return_value=(status, json.dumps(response)))
                     result = request_sample('T01', payload, 'key', 'url', transport)
@@ -163,7 +163,7 @@ class ResponseTests(unittest.TestCase):
                     )
 
     def test_network_errors_are_recorded_without_retry(self):
-        """连接与 HTTP 协议异常统一记录为 network，单次请求不重试。"""
+        """Connection and HTTP protocol errors are both recorded as network, with no retry."""
         for error in [OSError('timeout'), HTTPException('invalid response')]:
             with self.subTest(error=error):
                 transport = Mock(side_effect=error)
@@ -179,7 +179,7 @@ class ResponseTests(unittest.TestCase):
                 )
 
     def test_unexpected_errors_and_interruptions_propagate(self):
-        """编程错误和中断交由调用方处理，不伪装成网络失败。"""
+        """Programming errors and interruptions reach the caller instead of posing as network failures."""
         for error in [RuntimeError('bug'), KeyboardInterrupt()]:
             with self.subTest(error=error):
                 with self.assertRaises(type(error)) as raised:
