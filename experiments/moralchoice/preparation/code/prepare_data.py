@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from pathlib import Path
 
@@ -12,7 +11,6 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 RAW = ROOT / "preparation" / "raw"
 OUTPUT = ROOT / "data" / "dataset.json"
-MANIFEST = ROOT / "preparation" / "prepared_manifest.json"
 
 SOURCES = (
     RAW / "scenarios" / "moralchoice_low_ambiguity.csv",
@@ -20,16 +18,6 @@ SOURCES = (
 )
 
 EXPECTED_COUNTS = {"low": 687, "high": 680}
-HF_COMMIT = "89c0fe7b158b5ade5d10e0644c1aa20ab4c78cbe"
-GITHUB_COMMIT = "9f1dbced7ecf70e334af9a88c3d93be5af0f37b8"
-
-
-def sha256(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as stream:
-        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
 
 
 def question_set(action1: str, action2: str) -> dict:
@@ -131,41 +119,11 @@ def build_sample(row: dict[str, str]) -> dict:
     }
 
 
-def write_manifest() -> None:
-    files = sorted(path for path in RAW.rglob("*") if path.is_file())
-    payload = {
-        "retrieved_at": "2026-09-30",
-        "huggingface": {
-            "url": "https://huggingface.co/datasets/ninoscherrer/moralchoice",
-            "commit": HF_COMMIT,
-            "dataset_license_from_card": "cc-by-4.0",
-        },
-        "github": {
-            "url": "https://github.com/ninodimontalcino/moralchoice",
-            "commit": GITHUB_COMMIT,
-            "repository_license": "MIT",
-        },
-        "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a2cf225ba392627529efef14dc857e22-Paper-Conference.pdf",
-        "files": [
-            {
-                "path": path.relative_to(ROOT).as_posix(),
-                "bytes": path.stat().st_size,
-                "sha256": sha256(path),
-            }
-            for path in files
-        ],
-        "verified_counts": {"low": 687, "high": 680, "total": 1367},
-        "count_note": "Published files and component counts total 1,367; the paper appendix and dataset card contain a conflicting 1,767 statement.",
-    }
-    MANIFEST.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-
 def main() -> None:
     rows = read_rows()
     dataset = {"schema_version": 1, "samples": [build_sample(row) for row in rows]}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(dataset, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_manifest()
     print(f"wrote {len(rows)} samples to {OUTPUT}")
 
 
