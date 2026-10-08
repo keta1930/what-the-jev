@@ -1,4 +1,4 @@
-"""实验运行编排、动态并发调度、进度显示与结果汇总。"""
+"""Run orchestration, dynamic concurrency, progress display, and summary logging."""
 
 import logging
 import os
@@ -29,13 +29,13 @@ logger = logging.getLogger(__name__)
 
 
 def run(config_path: str | Path, transport: Transport = predict) -> Path | list[Path]:
-    """校验输入并请求尚未记录的样本；多数据逐对运行，repeat 大于 1 时逐轮运行。"""
+    """Validate the input and request the unrecorded samples, per data file and per round."""
     path = Path(config_path).resolve()
-    logger.info('加载配置文件: %s', path)
+    logger.info('loading config: %s', path)
     config = load_config(path)
     api_key = os.environ.get('OPENROUTER_API_KEY', '').strip()
     if not api_key:
-        raise ValueError('需要设置 OPENROUTER_API_KEY。')
+        raise ValueError('OPENROUTER_API_KEY must be set.')
     datas = [config['data']] if isinstance(config['data'], str) else config['data']
     configured = config['output']
     outputs = [configured] if isinstance(configured, str) else configured
@@ -43,16 +43,16 @@ def run(config_path: str | Path, transport: Transport = predict) -> Path | list[
     results: list[Path] = []
     for data_index, data_name in enumerate(datas):
         samples = load_dataset(path.parent / data_name)
-        # output 已按 data 顺序再按轮次展开：单 data 时全部轮次属于它
+        # output paths are expanded by data order then by round, so each data takes a slice
         if len(datas) == 1:
             names = outputs
         else:
             names = outputs[data_index * repeat : (data_index + 1) * repeat]
         if len(datas) > 1:
-            logger.info('数据 %d/%d：%s', data_index + 1, len(datas), data_name)
+            logger.info('data %d/%d: %s', data_index + 1, len(datas), data_name)
         for index, name in enumerate(names, start=1):
             if len(names) > 1:
-                logger.info('轮次 %d/%d', index, len(names))
+                logger.info('round %d/%d', index, len(names))
             output = (path.parent / name).resolve()
             results.append(_run_once(samples, config, api_key, transport, output))
     return results[0] if isinstance(configured, str) else results
@@ -65,7 +65,7 @@ def _run_once(
     transport: Transport,
     output: Path,
 ) -> Path:
-    """对单个结果文件执行一轮完整运行，返回结果路径。"""
+    """Run one full round against a single result file and return its path."""
     output.parent.mkdir(parents=True, exist_ok=True)
     with locked_output(output):
         pending = _pending_samples(samples, output)
@@ -73,24 +73,24 @@ def _run_once(
         completed, failed = 0, 0
         if pending:
             completed, failed = _process(pending, config, api_key, transport, output)
-    logger.info('结果：%s', output)
-    logger.info('汇总：完成 %d，失败 %d，跳过 %d', completed, failed, skipped)
+    logger.info('results: %s', output)
+    logger.info('summary: %d completed, %d failed, %d skipped', completed, failed, skipped)
     return output
 
 
 def _pending_samples(
     samples: list[dict[str, Any]], output: Path
 ) -> list[dict[str, Any]]:
-    """校验历史、清理失败记录并筛选待请求样本；调用方须持有输出文件锁。"""
+    """Validate history, drop failed records, and select the samples to request; the caller holds the lock."""
     recorded = load_recorded_ids(output)
     requeued = drop_failed(output)
     if requeued:
-        logger.info('重试：清理失败记录 %d 条，重新排队', len(requeued))
+        logger.info('retry: dropped %d failed records and requeued them', len(requeued))
     recorded -= requeued
     pending = [sample for sample in samples if sample['id'] not in recorded]
     if recorded:
         logger.info(
-            '续跑：已有 %d 条记录，跳过 %d 条，待请求 %d 条',
+            'resume: %d already recorded, %d skipped, %d to request',
             len(recorded),
             len(samples) - len(pending),
             len(pending),
@@ -105,7 +105,7 @@ def _process(
     transport: Transport,
     output: Path,
 ) -> tuple[int, int]:
-    """按完成顺序写入结果；并发上限成功加一、失败减半，中断时停止提交并收尾。"""
+    """Write results as they finish, adjusting the limit, and stop submitting cleanly on interruption."""
     completed, failed = 0, 0
     ceiling = min(MAX_CONCURRENCY, len(samples))
     limit = min(config['concurrency'], ceiling)
@@ -114,7 +114,7 @@ def _process(
     remaining = iter(samples)
     finished: Queue[Future[dict[str, Any]]] = Queue()
     pending: set[Future[dict[str, Any]]] = set()
-    bar = tqdm(total=len(samples), unit='条', disable=None)
+    bar = tqdm(total=len(samples), unit='samples', disable=None)
 
     with output.open('a', encoding='utf-8') as file:
         pool = ThreadPoolExecutor(max_workers=ceiling)
@@ -122,7 +122,7 @@ def _process(
         current: Future[dict[str, Any]] | None = None
 
         def submit_next() -> bool:
-            """有剩余样本时提交一个并登记完成通知；样本耗尽返回 False。"""
+            """Submit one more sample and register its completion; return False once samples run out."""
             sample = next(remaining, None)
             if sample is None:
                 return False
@@ -138,7 +138,7 @@ def _process(
             return True
 
         def refill() -> None:
-            """按当前并发上限补足在途请求。"""
+            """Top up the in-flight requests to the current concurrency limit."""
             while len(pending) < limit and submit_next():
                 pass
 
@@ -158,14 +158,14 @@ def _process(
                 _report_progress(bar, result, failed, limit)
                 refill()
         except BaseException:
-            logger.warning('运行中断，停止提交并等待在途请求结束')
+            logger.warning('run interrupted: stopping submissions and waiting for in-flight requests')
             for future in pending:
                 future.cancel()
             pool.shutdown(wait=True, cancel_futures=True)
             if writable:
                 _save_finished(file, finished, pending, current)
             else:
-                logger.error('结果写入未完成，停止追加以保留可恢复的文件尾部')
+                logger.error('result write unfinished: stopping appends to keep the file tail resumable')
             raise
         finally:
             pool.shutdown(wait=True, cancel_futures=True)
@@ -176,31 +176,31 @@ def _process(
 def _report_progress(
     bar: tqdm, result: dict[str, Any], failed: int, limit: int
 ) -> None:
-    """根据进度条显示状态记录样本日志，并更新完成进度和统计。"""
+    """Log one sample according to the bar's display mode, then update progress and stats."""
     error = result['error']
     if error is None:
         if bar.disable:
-            logger.info('%s: 完成', result['id'])
+            logger.info('%s: completed', result['id'])
     else:
         logger.warning(
-            '%s: 失败，类型=%s，HTTP 状态=%s',
+            '%s: failed, type=%s, HTTP status=%s',
             result['id'],
             error['type'],
             error.get('status', '-'),
         )
     bar.update(1)
-    bar.set_postfix({'失败': failed, '并发': limit})
+    bar.set_postfix({'failed': failed, 'concurrency': limit})
 
 
 def _adjust_limit(limit: int, ceiling: int, success: bool) -> int:
-    """AIMD 调整并发上限：成功加一爬升，失败减半退让，夹在 1 与 ceiling 之间。"""
+    """Adjust the limit by AIMD: one more on success, halved on failure, kept between 1 and ceiling."""
     if success:
         return min(ceiling, limit + 1)
     return max(1, limit // 2)
 
 
 def _save_result(file: TextIO, result: dict[str, Any]) -> bool:
-    """持久化一条结果并返回是否成功；进度与日志由调用方更新。"""
+    """Persist one result and return whether it succeeded; the caller updates progress and logs."""
     write_result(file, result)
     return result['error'] is None
 
@@ -211,7 +211,7 @@ def _save_finished(
     pending: set[Future[dict[str, Any]]],
     current: Future[dict[str, Any]] | None = None,
 ) -> None:
-    """线程池停止后保存剩余结果，清理失败不遮蔽原始异常。"""
+    """Save the remaining results once the pool stops, without masking the original exception."""
     while pending:
         if current is not None:
             future, current = current, None
@@ -219,7 +219,7 @@ def _save_finished(
             try:
                 future = finished.get_nowait()
             except Empty:
-                # 中断可能发生在完成通知出队与赋值之间。
+                # The interrupt can land between dequeuing a completion and assigning it.
                 future = next(iter(pending))
         if future not in pending:
             continue
@@ -227,12 +227,12 @@ def _save_finished(
         if future.cancelled():
             continue
         if future.exception() is not None:
-            logger.error('在途请求异常退出，未获得可记录的结果')
+            logger.error('an in-flight request exited with an exception and produced no recordable result')
             continue
         try:
             _save_result(file, future.result())
         except Exception:
-            logger.exception('保存剩余结果失败，停止追加')
+            logger.exception('failed to save the remaining results; stopping appends')
             break
 
 
@@ -242,7 +242,7 @@ def _request(
     api_key: str,
     transport: Transport,
 ) -> dict[str, Any]:
-    """构造单轮请求；worker 仅负责请求，不接触结果文件。"""
+    """Build one single-turn request; workers only request and never touch the result file."""
     payload = {'model': config['model'], **sample['input']}
     return request_sample(
         sample['id'],

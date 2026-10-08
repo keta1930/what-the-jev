@@ -1,4 +1,4 @@
-"""JSONL 结果持久化、历史记录校验及续跑文件保护。"""
+"""JSONL result persistence, history validation, and resume-file protection."""
 
 import fcntl
 import json
@@ -22,11 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 def drop_failed(path: Path) -> set[str]:
-    """删除失败记录并返回重新排队的样本 ID；调用方须持有输出文件锁。
-
-    上一次运行留下的失败记录在下一次运行时重新请求；本次运行内产生的
-    失败记录仍保留在结果里，留待下次运行处理。
-    """
+    """Drop failed records and return their ids for requeueing; the caller must hold the output lock."""
     if not path.exists():
         return set()
     kept: list[str] = []
@@ -44,19 +40,19 @@ def drop_failed(path: Path) -> set[str]:
 
 
 def write_result(file: TextIO, result: dict[str, Any]) -> None:
-    """每完成一条就写入并刷新，保留已完成请求。"""
+    """Write and flush each finished result so completed requests survive."""
     file.write(json.dumps(result, ensure_ascii=False, allow_nan=False) + '\n')
     file.flush()
 
 
 @contextmanager
 def locked_output(path: Path) -> Iterator[None]:
-    """独占结果文件，锁覆盖历史扫描、尾部修复和追加写入。"""
+    """Hold the output file exclusively across history scan, tail repair, and appends."""
     with path.open('a+b') as file:
         try:
             fcntl.flock(file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
         except BlockingIOError as exc:
-            raise ValueError(f'结果文件正被其他运行使用：{path}') from exc
+            raise ValueError(f'result file is in use by another run: {path}') from exc
         try:
             yield
         finally:
@@ -64,7 +60,7 @@ def locked_output(path: Path) -> Iterator[None]:
 
 
 def load_recorded_ids(path: Path) -> set[str]:
-    """校验历史记录并修复末尾残行；调用方须持有输出文件锁。"""
+    """Validate the recorded history and repair the trailing partial line; the caller holds the output lock."""
     if not path.exists():
         return set()
     validator = load_validator(SCHEMA)
@@ -72,17 +68,17 @@ def load_recorded_ids(path: Path) -> set[str]:
         recorded, truncate_at, needs_newline = _scan_records(file, validator)
         if truncate_at is not None:
             file.truncate(truncate_at)
-            logger.warning('已截断结果文件末尾残行：%s', path)
+            logger.warning('truncated the partial trailing line of the result file: %s', path)
         elif needs_newline:
             file.write(b'\n')
-            logger.info('已补齐结果文件末尾换行：%s', path)
+            logger.info('added the missing trailing newline to the result file: %s', path)
     return recorded
 
 
 def _scan_records(
     file: BinaryIO, validator: Draft202012Validator
 ) -> tuple[set[str], int | None, bool]:
-    """逐行校验记录，返回已记录 ID 和待执行的尾部修复信息。"""
+    """Validate each line, returning the recorded ids and any tail repair still to do."""
     recorded: set[str] = set()
     offset = 0
     needs_newline = False
@@ -92,7 +88,7 @@ def _scan_records(
             return recorded, offset, False
         sample_id = record['id']
         if sample_id in recorded:
-            raise ValueError(f'结果文件第 {number} 行重复样本 ID：{sample_id}')
+            raise ValueError(f'duplicate sample id on line {number} of the result file: {sample_id}')
         recorded.add(sample_id)
         offset += len(raw)
         needs_newline = not raw.endswith(b'\n')
@@ -102,9 +98,9 @@ def _scan_records(
 def _parse_record(
     raw: bytes, number: int, validator: Draft202012Validator
 ) -> dict[str, Any] | None:
-    """解码并校验单行记录，仅在未换行的末尾残行可修复时返回 None。"""
+    """Decode and validate one line, returning None only for a repairable unterminated tail."""
     terminated = raw.endswith(b'\n')
-    label = f'结果文件第 {number} 行格式错误'
+    label = f'malformed line {number} of the result file'
     try:
         record = loads(raw.decode('utf-8'))
     except UnicodeDecodeError as exc:
@@ -114,19 +110,19 @@ def _parse_record(
             and exc.end == len(raw)
         ):
             return None
-        raise ValueError(f'{label}：无效 UTF-8') from exc
+        raise ValueError(f'{label}: invalid UTF-8') from exc
     except json.JSONDecodeError as exc:
         if not terminated and _is_truncated_json(exc):
             return None
-        raise ValueError(f'{label}：无效 JSON') from exc
+        raise ValueError(f'{label}: invalid JSON') from exc
     except ValueError as exc:
-        raise ValueError(f'{label}：{exc}') from exc
+        raise ValueError(f'{label}: {exc}') from exc
     validate(record, validator, label)
     return record
 
 
 def _is_truncated_json(error: json.JSONDecodeError) -> bool:
-    """识别记录末尾尚未写完的 JSON token，拒绝明确的语法损坏。"""
+    """Recognize an unfinished trailing JSON token, rejecting clear syntax damage."""
     text = error.doc.rstrip()
     if not text.lstrip().startswith('{'):
         return False

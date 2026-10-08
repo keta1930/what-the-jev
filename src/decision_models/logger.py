@@ -1,4 +1,4 @@
-"""命令行日志初始化；库调用沿用宿主程序的 logging 配置。"""
+"""Console logging setup for CLI runs; library use keeps the host's logging config."""
 
 import logging
 import sys
@@ -7,7 +7,7 @@ LOG_FORMAT = '%(asctime)s %(levelname)s %(name)s: %(message)s'
 
 
 def configure_logging(level: int = logging.INFO) -> None:
-    """为独立运行配置控制台日志，保留已有 handler 和日志级别。"""
+    """Configure console logging for a standalone run, keeping existing handlers and level."""
     logger = logging.getLogger('decision_models')
     if logger.hasHandlers():
         return

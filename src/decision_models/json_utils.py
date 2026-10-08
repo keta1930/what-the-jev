@@ -1,4 +1,4 @@
-"""JSON 数值、字段唯一性与 schema 校验。"""
+"""JSON numbers, key uniqueness, and schema validation."""
 
 import json
 import math
@@ -14,30 +14,30 @@ JSONValue: TypeAlias = (
 
 
 def reject_constant(value: str) -> NoReturn:
-    """拒绝 JSON 标准之外的 NaN 和 Infinity。"""
-    raise ValueError(f'非法 JSON 数值：{value}')
+    """Reject NaN and Infinity, which JSON does not define."""
+    raise ValueError(f'illegal JSON number: {value}')
 
 
 def unique_keys(pairs: Iterable[tuple[str, Any]]) -> dict[str, Any]:
-    """拒绝重复字段，避免静默丢失输入。"""
+    """Reject duplicate keys instead of silently dropping input."""
     result = {}
     for key, value in pairs:
         if key in result:
-            raise ValueError(f'重复 JSON 字段：{key}')
+            raise ValueError(f'duplicate JSON key: {key}')
         result[key] = value
     return result
 
 
 def _finite_float(value: str) -> float:
-    """解析可用有限浮点数表示的 JSON 数值。"""
+    """Parse a JSON number that fits a finite float."""
     number = float(value)
     if not math.isfinite(number):
-        raise ValueError(f'JSON 数值超出浮点范围：{value}')
+        raise ValueError(f'JSON number out of float range: {value}')
     return number
 
 
 def loads(text: str) -> Any:
-    """解析 JSON，拒绝重复字段和无法安全序列化的数值。"""
+    """Parse JSON, rejecting duplicate keys and numbers that cannot round-trip safely."""
     return json.loads(
         text,
         parse_constant=reject_constant,
@@ -47,12 +47,12 @@ def loads(text: str) -> Any:
 
 
 def load_validator(path: Path) -> Draft202012Validator:
-    """从本地 schema 创建校验器。"""
+    """Build a validator from the local schema file."""
     return Draft202012Validator(loads(path.read_text(encoding='utf-8')))
 
 
 def validate(data: Any, validator: Draft202012Validator, label: str) -> None:
-    """校验数据并在首个错误中包含字段位置。"""
+    """Validate the data and name the failing field location in the first error."""
     error = next(validator.iter_errors(data), None)
     if error is not None:
         location = '.'.join(str(part) for part in error.absolute_path) or '$'

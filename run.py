@@ -1,4 +1,4 @@
-"""通过配置路径启动单轮决策实验。"""
+"""Start a single-turn decision experiment from a config path."""
 
 import sys
 from pathlib import Path
@@ -14,9 +14,9 @@ CONFIG = ROOT / 'example/ticket-triage/config.yaml'
 
 
 def main() -> None:
-    """直接改 CONFIG，或提供一个实验配置路径。"""
+    """Use CONFIG as it stands, or pass one experiment config path."""
     if len(sys.argv) > 2:
-        raise SystemExit('用法：python run.py [config.yaml]')
+        raise SystemExit('usage: python run.py [config.yaml]')
     configure_logging()
     run(sys.argv[1] if len(sys.argv) == 2 else CONFIG)
 

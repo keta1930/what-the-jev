@@ -1,4 +1,4 @@
-"""最终输入数据的读取与校验。"""
+"""Reading and validating the final input data."""
 
 from pathlib import Path
 from typing import Any
@@ -11,12 +11,12 @@ SCHEMA = Path(__file__).resolve().parents[2] / 'schema/dataset.schema.json'
 
 
 def load_dataset(path: str | Path) -> list[dict[str, Any]]:
-    """校验完整数据集后返回样本，不读取原始材料。"""
+    """Validate the whole dataset and return its samples, without reading the source material."""
     data = loads(Path(path).read_text(encoding='utf-8'))
-    validate(data, load_validator(SCHEMA), '数据格式错误')
+    validate(data, load_validator(SCHEMA), 'invalid dataset format')
     ids = set()
     for sample in data['samples']:
         if sample['id'] in ids:
-            raise ValueError(f'重复样本 ID：{sample["id"]}')
+            raise ValueError(f'duplicate sample id: {sample["id"]}')
         ids.add(sample['id'])
     return data['samples']

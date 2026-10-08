@@ -1,4 +1,4 @@
-"""HTTP JSON 请求、完整响应读取与请求结果封装。"""
+"""HTTP JSON requests, full response reading, and request result wrapping."""
 
 import json
 from collections.abc import Callable
@@ -16,7 +16,7 @@ Transport: TypeAlias = Callable[[dict[str, JSONValue], str, str], tuple[int, str
 def predict(
     payload: dict[str, JSONValue], api_key: str, endpoint: str
 ) -> tuple[int, str]:
-    """发送 JSON 请求，返回 HTTP 状态码与完整响应文本。"""
+    """Send a JSON request and return the HTTP status code and the full response text."""
     data = json.dumps(payload, ensure_ascii=False).encode('utf-8')
     request = Request(
         endpoint,
@@ -43,7 +43,7 @@ def request_sample(
     endpoint: str,
     transport: Transport,
 ) -> dict[str, Any]:
-    """完整保留响应，不解析业务答案，不重试。"""
+    """Keep the full response without parsing business answers and without retrying."""
     result: dict[str, Any] = {
         'id': sample_id,
         'response': None,
@@ -58,7 +58,7 @@ def request_sample(
     try:
         result['response'] = loads(text)
     except ValueError:
-        result['error'] = {'type': 'invalid_json', 'message': '响应不是有效 JSON'}
+        result['error'] = {'type': 'invalid_json', 'message': 'response is not valid JSON'}
     if not 200 <= status < 300:
         result['error'] = {
             'type': 'http',
