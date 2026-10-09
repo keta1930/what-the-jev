@@ -282,12 +282,19 @@ def main():
     err_conf = sorted(answer(r)['confidence'] for r in errors)
     print(f'errors {len(errors)}, confidence median {err_conf[len(err_conf) // 2]:.2f}, '
           f'share ≥0.85: {100 * sum(c >= 0.85 for c in err_conf) / len(errors):.1f}%')
-    bad_sum = [r for r in ok if abs(sum(answer(r)['probabilities'].values()) - 1) > 1e-6]
-    bad_argmax = [r for r in ok if answer(r)['choice'] != max(answer(r)['probabilities'],
-                                                             key=answer(r)['probabilities'].get)]
-    print(f'probability sum != 1: {len(bad_sum)}; choice != argmax: {len(bad_argmax)}; '
-          f'total flawed {len(bad_sum) + len(bad_argmax)} '
-          f'({100 * (len(bad_sum) + len(bad_argmax)) / n:.3f}%)')
+    bad_sum = {r['id'] for r in ok if abs(sum(answer(r)['probabilities'].values()) - 1) > 1e-6}
+    below_max, tied_max = set(), set()
+    for r in ok:
+        probabilities = answer(r)['probabilities']
+        top = max(probabilities.values())
+        if probabilities[answer(r)['choice']] < top - 1e-12:
+            below_max.add(r['id'])
+        elif sum(abs(value - top) <= 1e-12 for value in probabilities.values()) > 1:
+            tied_max.add(r['id'])
+    flawed = bad_sum | below_max
+    print(f'probability sum != 1: {len(bad_sum)}; choice strictly below max: {len(below_max)}; '
+          f'choice tied at max (not a flaw): {len(tied_max)}; '
+          f'flawed records {len(flawed)} ({100 * len(flawed) / n:.3f}%)')
 
     print('--- usage ---')
     input_tokens = sum(r['response']['usage']['input_tokens'] for r in ok)
