@@ -40,6 +40,8 @@ what-the-jev/
 
 轻量级示例的完整索引见 [example/INDEX.zh.md](example/INDEX.zh.md)。
 
+实验的完整索引见 [experiments/INDEX.zh.md](experiments/INDEX.zh.md)。
+
 资源库的完整索引见 [resource/README.zh.md](resource/README.zh.md)。
 
 ## 欢迎贡献

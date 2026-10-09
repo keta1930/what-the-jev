@@ -40,6 +40,8 @@ what-the-jev/
 
 See [example/INDEX.md](example/INDEX.md) for the full index of lightweight examples.
 
+See [experiments/INDEX.md](experiments/INDEX.md) for the full index of experiments.
+
 See [resource/README.md](resource/README.md) for the full index of the resource catalog.
 
 ## Contributing
