@@ -32,6 +32,9 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | Jev (TypeSafe AI) | [closed-source-models/jev.md](closed-source-models/jev.md) | TypeSafe AI's closed-source System One decision model returning typed answers with calibrated probabilities. |
 | OpenAI Decisions API (GPT-6 Luna) | [closed-source-models/openai-decisions-api.md](closed-source-models/openai-decisions-api.md) | OpenAI's public-beta typed decisions API with a single gpt-6-luna model and text-plus-image states. |
 | Liquid d1 (Liquid AI) | [closed-source-models/liquid-d1.md](closed-source-models/liquid-d1.md) | Liquid AI's TypeSafe SDK-compatible decision model family with three hosted variants covering text, image, and audio. |
+| Solar Decide (Upstage) | [closed-source-models/solar-decide.md](closed-source-models/solar-decide.md) | Upstage's System One decision model on Solar Mini 4, with a 512K context, Korean support, and free output tokens. |
+| Hanzo Kai | [closed-source-models/hanzo-kai.md](closed-source-models/hanzo-kai.md) | Hanzo's closed decision model returning four typed answer kinds, supporting multi-decision runs and replay, with free output. |
+| Span-01 (Respan) | [closed-source-models/span-01.md](closed-source-models/span-01.md) | Respan's behavior classifier that returns present, absent, and not_observable probabilities in a single forward pass. |
 
 ## Open-Source Models
 
@@ -47,6 +50,13 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | Clef / Clef-flash (Cloudflare) | [open-source-models/clef.md](open-source-models/clef.md) | Cloudflare decision models at 27B and 9B with image input, 64K context, and Jev API compatibility. |
 | Tev1 (Together AI) | [open-source-models/tev1.md](open-source-models/tev1.md) | Open Qwen3.5 4B/0.8B LoRA decision weights supporting choice-type only, with a $17 training walkthrough. |
 | Prometheus / Prometheus-Eval | [open-source-models/prometheus-eval.md](open-source-models/prometheus-eval.md) | KAIST-led open-weight judge model family outputting scores and written judgments, not typed calibrated probabilities. |
+| Nimble (Bespoke Labs) | [open-source-models/nimble.md](open-source-models/nimble.md) | Bespoke Labs' open Jev alternative: a Qwen3.5-9B one-step typed text decision model with public data and recipe. |
+| OpenJev (razorback16) | [open-source-models/openjev-razorback16.md](open-source-models/openjev-razorback16.md) | razorback16's open System One decision server; several unrelated projects share the OpenJev name. |
+| Lev (Interfaze AI) | [open-source-models/lev.md](open-source-models/lev.md) | Interfaze AI's System One decision model plus the levbench evaluation harness; adoption is early. |
+| Julia-1 (Supersonic Labs) | [open-source-models/julia-1.md](open-source-models/julia-1.md) | Supersonic Labs' 144.3M-parameter compact decision model that runs on CPU and in the browser. |
+| Jebadiah (Frontier Infra) | [open-source-models/jebadiah.md](open-source-models/jebadiah.md) | Frontier Infra's System One-style decision model with a full training, data, and evaluation pipeline. |
+| Rune 26B-A4B (Invergent) | [open-source-models/rune-26b-a4b.md](open-source-models/rune-26b-a4b.md) | Invergent's multimodal decision model reading text and images and returning probabilities in one pass. |
+| NeoHorse-Jev-4B (TokenRhythm) | [open-source-models/neohorse-jev.md](open-source-models/neohorse-jev.md) | TokenRhythm's prefill-only decision model for agent routing, tool selection, and scoring. |
 
 ## Use Cases
 
@@ -63,6 +73,9 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | DeepEval (confident-ai) | [use-cases/deepeval.md](use-cases/deepeval.md) | Pytest-style LLM evaluation framework whose JevEval metric delegates scoring to Jev for calibrated probabilities. |
 | Semantic Router (aurelio-labs) | [use-cases/semantic-router.md](use-cases/semantic-router.md) | Pre-Jev decision layer routing via encoder similarity in tens of milliseconds; currently being rewritten for 1.x. |
 | RouteLLM (lm-sys) | [use-cases/routellm.md](use-cases/routellm.md) | Framework routing traffic between strong and weak models by difficulty; 85% cost savings officially self-reported. |
+| Jev Trader (jarrodwatts) | [use-cases/jev-trader.md](use-cases/jev-trader.md) | An experimental Monad trading bot that asks Jev for one buy-or-sell decision per block. |
+| QuantDinger (OpenByteInc) | [use-cases/quantdinger.md](use-cases/quantdinger.md) | An open-source AI trading OS with Jev as one optional pre-trade decision gate. |
+| Hermes Jev Skills (kerpopule) | [use-cases/hermes-jev-skills.md](use-cases/hermes-jev-skills.md) | Eleven Jev-powered agent skills for Hermes, Claude Code, and Codex. |
 
 ## Integrations
 
@@ -76,6 +89,10 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | LangChain langchain-typesafe | [integrations/langchain.md](integrations/langchain.md) | LangChain's Jev-as-judge benchmark: five trace classes each judged 100 times on accuracy, variance, cost, latency. |
 | Spring AI TypeSafe | [integrations/spring-ai-typesafe.md](integrations/spring-ai-typesafe.md) | Spring AI community integration: TypeSafeClient with Jev judge, guardrail, and evaluator adapters. |
 | LEAPERone Decisions API | [integrations/leaperone.md](integrations/leaperone.md) | OpenRouter-compatible gateway passing Jev decision requests through; Chinese docs only. |
+| Microsoft Agent Framework | [integrations/microsoft-agent-framework.md](integrations/microsoft-agent-framework.md) | Official alpha package adapting TypeSafe System One models to Microsoft Agent Framework Python. |
+| DSPy TypeSafe Integration | [integrations/dspy.md](integrations/dspy.md) | Experimental Jev/TypeSafe integration in DSPy 3.4.0 with decision types and the ReAnchor calibrator. |
+| Mastra Classifier | [integrations/mastra.md](integrations/mastra.md) | Mastra's Classifier primitive for typed classification with decision models. |
+| No-Code Integrations (Zapier / Make / n8n) | [integrations/nocode-integrations.md](integrations/nocode-integrations.md) | Official TypeSafe/Jev integrations on the no-code platforms Zapier, Make, and n8n. |
 
 ## Tools
 
@@ -90,6 +107,8 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | llama.cpp | [tools/llama-cpp.md](tools/llama-cpp.md) | llama-server exposes /v1/systemone since 2026-10-02, with five pre-converted decision-model GGUFs under ggml-org. |
 | SGLang | [tools/sglang.md](tools/sglang.md) | SGLang turns any chat model into a decision model via /v1/decisions and /v1/systemone; probabilities are uncalibrated. |
 | Ollama | [tools/ollama.md](tools/ollama.md) | Ollama 0.35+ serves Jev-style decision models locally on /v1/systemone, starting with nimble and tev1 models. |
+| Ollaya (ollaya-dev) | [tools/ollaya.md](tools/ollaya.md) | Local runtime for decision models, Ollama-style; serves TypeSafe's /v1/systemone wire format, written in Rust. |
+| Swama (Trans-N-ai) | [tools/swama.md](tools/swama.md) | Local AI runtime for Apple Silicon Macs, serving OpenAI-compatible and SystemOne decision endpoints. |
 
 ## Benchmarks
 
@@ -100,3 +119,7 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | JevBench (Benchmark Heaven) | [benchmarks/jevbench.md](benchmarks/jevbench.md) | Benchmark Heaven's leaderboard for Jev-class decision models; four-axis geometric-mean score, cite with version. |
 | Decision Index | [benchmarks/decision-index.md](benchmarks/decision-index.md) | Benchmark for typed decision engines with a full reproduction kit and a public-private mixed suite. |
 | evals.typesafe.ai | [benchmarks/evals-typesafe.md](benchmarks/evals-typesafe.md) | TypeSafe's official workflow-evals site; figures are vendor-reported, workflow code is open-sourced. |
+| classifier-benchmark (jabr) | [benchmarks/classifier-benchmark.md](benchmarks/classifier-benchmark.md) | A head-to-head benchmark for choice, noul, and score classification models, with two hash-locked suites. |
+| S1MB | [benchmarks/s1mb.md](benchmarks/s1mb.md) | A leaderboard comparing Jev and open decision models across more than 100 benchmarks. |
+| jev-rerank-bench (anessbelbati) | [benchmarks/jev-rerank-bench.md](benchmarks/jev-rerank-bench.md) | A 14-dataset study of Jev as a reranker against Cohere, ZeroEntropy, and open models. |
+| jev-sec-bench (Gaurav-Gosain) | [benchmarks/jev-sec-bench.md](benchmarks/jev-sec-bench.md) | A blind security benchmark testing Jev on prompt injection and vulnerable-code detection. |

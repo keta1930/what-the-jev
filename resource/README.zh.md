@@ -32,6 +32,9 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | Jev (TypeSafe AI) | [closed-source-models/jev.zh.md](closed-source-models/jev.zh.md) | TypeSafe AI 的闭源 System One 决策模型，输出带校准概率的类型化答案，零输出 token。 |
 | OpenAI Decisions API (GPT-6 Luna) | [closed-source-models/openai-decisions-api.zh.md](closed-source-models/openai-decisions-api.zh.md) | OpenAI 公开 beta 的类型化决策 API，单一模型 gpt-6-luna，state 支持文本与图像混合。 |
 | Liquid d1 (Liquid AI) | [closed-source-models/liquid-d1.zh.md](closed-source-models/liquid-d1.zh.md) | Liquid AI 的决策模型族，TypeSafe SDK 兼容，三个托管变体覆盖文本、图像与音频。 |
+| Solar Decide (Upstage) | [closed-source-models/solar-decide.zh.md](closed-source-models/solar-decide.zh.md) | Upstage 基于 Solar Mini 4 的 System One 决策模型，512K 上下文、韩语能力、输出 token 免费。 |
+| Hanzo Kai | [closed-source-models/hanzo-kai.zh.md](closed-source-models/hanzo-kai.zh.md) | Hanzo 闭源决策模型，返回四类类型化答案，支持多决策一次通过与回放，输出免费。 |
+| Span-01 (Respan) | [closed-source-models/span-01.zh.md](closed-source-models/span-01.zh.md) | Respan 的行为检测分类器，单次前向返回 present/absent/not_observable 概率。 |
 
 ## 开源模型
 
@@ -47,6 +50,13 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | Clef / Clef-flash (Cloudflare) | [open-source-models/clef.zh.md](open-source-models/clef.zh.md) | Cloudflare 的 27B/9B 决策模型，支持图片输入与 64K 上下文，兼容 Jev API。 |
 | Tev1 (Together AI) | [open-source-models/tev1.zh.md](open-source-models/tev1.zh.md) | Qwen3.5 4B/0.8B LoRA 决策权重，仅支持 choice 型，附 17 美元训练记录。 |
 | Prometheus / Prometheus-Eval | [open-source-models/prometheus-eval.zh.md](open-source-models/prometheus-eval.zh.md) | KAIST 开放权重评审模型家族，输出评分与文字判断，非类型化概率分布。 |
+| Nimble (Bespoke Labs) | [open-source-models/nimble.zh.md](open-source-models/nimble.zh.md) | Bespoke Labs 的开放 Jev 替代，基于 Qwen3.5-9B 的一步式类型化文本决策模型。 |
+| OpenJev (razorback16) | [open-source-models/openjev-razorback16.zh.md](open-source-models/openjev-razorback16.zh.md) | razorback16 的开源 System One 决策服务器，同名项目多需带 owner 区分。 |
+| Lev (Interfaze AI) | [open-source-models/lev.zh.md](open-source-models/lev.zh.md) | Interfaze AI 的 System One 决策模型，附带 levbench 评测 harness。 |
+| Julia-1 (Supersonic Labs) | [open-source-models/julia-1.zh.md](open-source-models/julia-1.zh.md) | Supersonic Labs 的 144.3M 紧凑决策模型，可在 CPU 与浏览器运行。 |
+| Jebadiah (Frontier Infra) | [open-source-models/jebadiah.zh.md](open-source-models/jebadiah.zh.md) | Frontier Infra 的 System One 风格决策模型，含训练与评测完整流水线。 |
+| Rune 26B-A4B (Invergent) | [open-source-models/rune-26b-a4b.zh.md](open-source-models/rune-26b-a4b.zh.md) | Invergent 的多模态决策模型，可读文本与图像，单次前向给出概率。 |
+| NeoHorse-Jev-4B (TokenRhythm) | [open-source-models/neohorse-jev.zh.md](open-source-models/neohorse-jev.zh.md) | TokenRhythm 的 prefill-only 决策模型，面向 agent 的路由与评分。 |
 
 ## 使用案例
 
@@ -63,6 +73,9 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | DeepEval (confident-ai) | [use-cases/deepeval.zh.md](use-cases/deepeval.zh.md) | 类 pytest 的 LLM 评测框架，JevEval 把打分交给 Jev，返回校准概率作置信信号。 |
 | Semantic Router (aurelio-labs) | [use-cases/semantic-router.zh.md](use-cases/semantic-router.zh.md) | 早于 Jev 的向量空间决策层，Route/Encoder 十几毫秒返回路由，正处 1.x 重写期。 |
 | RouteLLM (lm-sys) | [use-cases/routellm.zh.md](use-cases/routellm.zh.md) | 按难度路由强弱模型的开源框架，官方自报省 85% 成本、保持 95% GPT-4 水平。 |
+| Jev Trader (jarrodwatts) | [use-cases/jev-trader.zh.md](use-cases/jev-trader.zh.md) | Monad 上每区块一次的 Jev 买/卖决策交易机器人，默认跑 mock 模型。 |
+| QuantDinger (OpenByteInc) | [use-cases/quantdinger.zh.md](use-cases/quantdinger.zh.md) | 开源 AI 交易 OS，可选在实盘入场订单前接入 Jev System One 决策网关。 |
+| Hermes Jev Skills (kerpopule) | [use-cases/hermes-jev-skills.zh.md](use-cases/hermes-jev-skills.zh.md) | 面向 Hermes、Claude Code、Codex 的十一个 Jev 驱动 agent skill 集合。 |
 
 ## 平台与集成
 
@@ -76,6 +89,10 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | LangChain langchain-typesafe | [integrations/langchain.zh.md](integrations/langchain.zh.md) | LangChain 的 Jev 裁判实验：五类轨迹各评百次，量化准确率与成本。 |
 | Spring AI TypeSafe | [integrations/spring-ai-typesafe.zh.md](integrations/spring-ai-typesafe.zh.md) | Spring 社区的 Jev 集成，含判定、护栏、评估等适配器。 |
 | LEAPERone Decisions API | [integrations/leaperone.zh.md](integrations/leaperone.zh.md) | OpenRouter 兼容网关，透传 Jev 决策请求，中文文档、英文页 404。 |
+| Microsoft Agent Framework | [integrations/microsoft-agent-framework.zh.md](integrations/microsoft-agent-framework.zh.md) | 把 System One 模型适配到 Microsoft Agent Framework Python 的官方 alpha 包。 |
+| DSPy TypeSafe Integration | [integrations/dspy.zh.md](integrations/dspy.zh.md) | DSPy 3.4.0 的实验性 Jev/TypeSafe 集成，含决策类型与 ReAnchor 校准。 |
+| Mastra Classifier | [integrations/mastra.zh.md](integrations/mastra.zh.md) | Mastra 的 Classifier 原语，用决策模型做类型化分类。 |
+| No-Code Integrations (Zapier / Make / n8n) | [integrations/nocode-integrations.zh.md](integrations/nocode-integrations.zh.md) | Zapier、Make、n8n 三家无代码平台的 TypeSafe/Jev 官方集成。 |
 
 ## 工具与 SDK
 
@@ -90,6 +107,8 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | llama.cpp | [tools/llama-cpp.zh.md](tools/llama-cpp.zh.md) | llama-server 自 2026-10-02 起提供 /v1/systemone 端点，官方预转换五个决策模型 GGUF。 |
 | SGLang | [tools/sglang.zh.md](tools/sglang.zh.md) | SGLang 以 /v1/decisions 与 /v1/systemone 把任意 chat 模型变成决策模型，概率未校准。 |
 | Ollama | [tools/ollama.zh.md](tools/ollama.zh.md) | Ollama 0.35 起在本地 /v1/systemone 提供 Jev 式决策模型，首批为 nimble 与 tev1 系列。 |
+| Ollaya (ollaya-dev) | [tools/ollaya.zh.md](tools/ollaya.zh.md) | 本地决策模型运行时，Ollama 式拉取，直接实现 TypeSafe /v1/systemone 线格式。 |
+| Swama (Trans-N-ai) | [tools/swama.zh.md](tools/swama.zh.md) | 面向 Apple Silicon 的本地 AI 运行时，提供 OpenAI 兼容与 SystemOne 决策端点。 |
 
 ## 评测与校准
 
@@ -100,3 +119,7 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | JevBench (Benchmark Heaven) | [benchmarks/jevbench.zh.md](benchmarks/jevbench.zh.md) | Benchmark Heaven 的 Jev 级决策模型榜单，四轴几何平均计分，引用须带版本号。 |
 | Decision Index | [benchmarks/decision-index.zh.md](benchmarks/decision-index.zh.md) | 类型化决策引擎基准，含复现套件与公私混合题集，按 edition 引用。 |
 | evals.typesafe.ai | [benchmarks/evals-typesafe.zh.md](benchmarks/evals-typesafe.zh.md) | TypeSafe 官方工作流评测站点，数字为厂商自报，工作流代码已开源。 |
+| classifier-benchmark (jabr) | [benchmarks/classifier-benchmark.zh.md](benchmarks/classifier-benchmark.zh.md) | 覆盖 choice/noul/score 的 System One 风格分类模型 head-to-head 基准，含两套哈希锁定用例。 |
+| S1MB | [benchmarks/s1mb.zh.md](benchmarks/s1mb.zh.md) | 跨 100 多个基准比较 Jev 与开源决策模型的排行榜项目。 |
+| jev-rerank-bench (anessbelbati) | [benchmarks/jev-rerank-bench.zh.md](benchmarks/jev-rerank-bench.zh.md) | 14 数据集上把 Jev 当重排器，对比 Cohere、ZeroEntropy 与开源模型。 |
+| jev-sec-bench (Gaurav-Gosain) | [benchmarks/jev-sec-bench.zh.md](benchmarks/jev-sec-bench.zh.md) | 面向 Jev 的提示词注入与漏洞代码双项盲测安全基准。 |
