@@ -10,7 +10,7 @@
 2. [gsm8k](gsm8k/report/REPORT.zh.md) — 【小学数学】测试 JEV 模型能否以四选一形式解答 GSM8K 小学数学应用题。
 3. [mmlu-pro](mmlu-pro/report/REPORT.zh.md) — 【多学科知识】测试 JEV 模型能否以十选一为主的选择题形式解答 MMLU-Pro 覆盖 14 个学科的题目。
 
-## 二、LLM benchmark：社会常识与价值判断
+## 二、LLM benchmark：社会常识与偏见
 
 1. [bbq](bbq/report/REPORT.zh.md) — 【偏见敏感问答】测试 JEV 能否答对 BBQ 偏见敏感三选一问答题，且不偏向刻板印象方向选项。
 2. [socialiqa](socialiqa/report/REPORT.zh.md) — 【社会常识】测试 JEV 能否以三选一形式解答 SocialIQA 社会常识题，并检验其 confidence 能否标记可信作答。

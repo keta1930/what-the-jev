@@ -10,7 +10,7 @@ Thirteen experiments on the JEV decision model, grouped by what they probe. Each
 2. [gsm8k](gsm8k/report/REPORT.md) — 【Grade-School Math】Can JEV solve GSM8K grade-school math word problems posed as four-choice questions?
 3. [mmlu-pro](mmlu-pro/report/REPORT.md) — 【Multi-Discipline Knowledge】Can JEV answer MMLU-Pro college-level questions across 14 disciplines, mostly in ten-choice form?
 
-## 2. LLM Benchmarks: Social Commonsense and Values
+## 2. LLM Benchmarks: Social Commonsense and Bias
 
 1. [bbq](bbq/report/REPORT.md) — 【Bias-Sensitive QA】Does JEV answer BBQ's bias-sensitive three-choice questions correctly without leaning toward stereotype-aligned options?
 2. [socialiqa](socialiqa/report/REPORT.md) — 【Social Commonsense】Can JEV answer SocialIQA social commonsense questions in three-choice form, and does its confidence mark trustworthy answers?

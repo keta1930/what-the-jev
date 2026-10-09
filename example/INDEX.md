@@ -1,6 +1,6 @@
 # Examples
 
-*English | [简体中文](INDEX_ZH.md)*
+*English | [简体中文](INDEX.zh.md)*
 
 Eight small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
 
