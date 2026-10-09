@@ -48,7 +48,7 @@ LABELS = {
         'random': '随机选择 12.5%',
         'pos_xlabel': '选项位置',
         'pos_ylabel': '题数',
-        'judge': 'LLM 判官所选',
+        'judge': 'LLM 裁判所选',
         'jev': 'JEV 所选',
     },
 }

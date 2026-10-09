@@ -73,7 +73,7 @@ def main():
         "source": "experiments/grpo-jev-judge/preparation/raw/{prompts,rollouts,llm-judge-result}.jsonl",
         "seed": SEED,
         "groups": len(records),
-        "rule": "chosen = LLM 判官选中的那条，rejected = 其余七条中随机一条",
+        "rule": "chosen = LLM 裁判选中的那条，rejected = 其余七条中随机一条",
     }
     lines = [json.dumps(meta, ensure_ascii=False)] + [json.dumps(r, ensure_ascii=False) for r in records]
     PAIRS.parent.mkdir(parents=True, exist_ok=True)

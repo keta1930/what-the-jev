@@ -136,8 +136,8 @@ summary: 【场景标签】一句话摘要
 | paper-qa | 系统组件 | 准确率 | domain 8 个 | noul 输出值 | 系统位置 |
 | prompt-routing | 系统组件 | 准确率，正负例分列 | 正负例、负例 category 6 类 | noul 输出值 | 系统位置 |
 | paper-classification | 系统组件、消融 | decision 与 topic 准确率 | condition 2×2 | confidence | criteria 消融对比、系统位置 |
-| dpo-jev-judge | 消融 | 与 LLM 判官一致率 | 题型（id 前缀，需声明） | confidence | 双布局对比 |
-| grpo-jev-judge | 消融 | 与判官命中率（随机基线 12.5%） | 题型（id 前缀，需声明）、选项位置 | confidence | 双布局对比、顺序偏差 |
+| dpo-jev-judge | 消融 | 与 LLM 裁判一致率 | 题型（id 前缀，需声明） | confidence | 双布局对比 |
+| grpo-jev-judge | 消融 | 与裁判命中率（随机基线 12.5%） | 题型（id 前缀，需声明）、选项位置 | confidence | 双布局对比、顺序偏差 |
 | skill-routing | 单实验 | 严格准确率与含 acceptable 准确率 | n_gold、style、id 前缀组 | confidence | 大规模选项空间；相关资料列 skill 来源仓库 |
 
 新实验按相近类型套用上表；新增实验或实验设计变更后更新本表。

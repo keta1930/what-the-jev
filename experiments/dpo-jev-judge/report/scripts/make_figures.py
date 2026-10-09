@@ -40,7 +40,7 @@ LABELS = {
     'zh': {
         'xlabel': '作答的 confidence',
         'answers': '对数',
-        'agree': '与判官一致率（%）',
+        'agree': '与裁判一致率（%）',
         'random': '随机选择 50%',
     },
 }
