@@ -129,7 +129,6 @@ summary: 【场景标签】一句话摘要
 | gsm8k | benchmark | 准确率 | 无原始标签 | 所选概率 | 能力定位（HF 榜单快照） |
 | gpqa-diamond | benchmark | 准确率 | 无原始标签 | confidence | 能力定位（HF 榜单快照） |
 | mmlu-pro | benchmark | 准确率 | category 14 类 | confidence | 能力定位（HF 榜单快照） |
-| moralchoice | benchmark | 守规选择率、6 问一致率 | ambiguity、generation_type、规则 | confidence | 6 种问法鲁棒性 |
 | bbq | benchmark | 分条件准确率、bias score | category 11 类、polarity、context_condition | confidence | 偏见得分分析 |
 | socialiqa | benchmark | 准确率 | promptDim 9 维 | confidence | 分维度结果 |
 | boston-housing | 消融 | score 档 MAE、配对准确率 | 价格档、价差桶 | 所选概率 | 绝对估值与相对比较对比 |
