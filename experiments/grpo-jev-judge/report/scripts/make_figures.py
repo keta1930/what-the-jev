@@ -166,18 +166,24 @@ def main():
         conf_miss = [conf for pid, choice, conf, _ in rows if choice != reference[pid]]
         confs = sorted(conf for _, _, conf, _ in rows)
         usage = [u for *_, u in rows]
-        flaws = sum(
-            1 for r in records
-            if max(r['response']['answers'][QUESTION]['probabilities'],
-                   key=r['response']['answers'][QUESTION]['probabilities'].get)
-            != r['response']['answers'][QUESTION]['choice']
-        )
+        below_max = tied_max = prob_sum_off = 0
+        for r in records:
+            answer = r['response']['answers'][QUESTION]
+            probs = answer['probabilities']
+            top = max(probs.values())
+            if probs[answer['choice']] < top:
+                below_max += 1
+            elif list(probs.values()).count(top) > 1:
+                tied_max += 1
+            if round(sum(probs.values()), 6) != 1:
+                prob_sum_off += 1
         per_layout[name] = {
             'rows': rows, 'hits': hits, 'ci': (lo, hi), 'picks': picks, 'by_type': by_type,
             'conf_hit': conf_hit, 'conf_miss': conf_miss, 'median_conf': confs[len(confs) // 2],
             'in_tokens': sum(u['input_tokens'] for u in usage),
             'out_tokens': sum(u['output_tokens'] for u in usage),
-            'cost': sum(u['cost'] for u in usage), 'flaws': flaws,
+            'cost': sum(u['cost'] for u in usage),
+            'below_max': below_max, 'tied_max': tied_max, 'prob_sum_off': prob_sum_off,
         }
 
     standard = per_layout['standard']
@@ -205,7 +211,9 @@ def main():
         print(f"  picks: " + ', '.join(f"{p} {d['picks'][p]} ({100 * d['picks'][p] / n:.1f}%)" for p in POSITIONS))
         print(f"  confidence mean hit={sum(d['conf_hit']) / len(d['conf_hit']):.3f} "
               f"miss={sum(d['conf_miss']) / len(d['conf_miss']):.3f}, median {d['median_conf']:.2f}")
-        print(f"  argmax!=choice: {d['flaws']} ({100 * d['flaws'] / n:.1f}%)")
+        print(f"  choice strictly below max prob: {d['below_max']} ({100 * d['below_max'] / n:.1f}%); "
+              f"tied at max: {d['tied_max']} ({100 * d['tied_max'] / n:.1f}%); "
+              f"prob sum != 1: {d['prob_sum_off']} ({100 * d['prob_sum_off'] / n:.1f}%)")
         print(f"  usage: in={d['in_tokens']:,} out={d['out_tokens']:,} cost=${d['cost']:.4f}")
     print('judge winners: ' + ', '.join(f'{p} {c} ({100 * c / 150:.1f}%)' for p, c in zip(POSITIONS, judge_picks)))
     print('[standard] confidence bins:')
