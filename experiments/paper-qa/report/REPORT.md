@@ -8,19 +8,19 @@ summary: "【Paper QA】Can JEV, as the fast path of a paper-QA system, judge wh
 
 ## Abstract
 
-This experiment measures the fast path of a paper-QA system: given a statement about a collected paper, JEV judges from a single paper excerpt whether the excerpt supports it. The test set holds 240 such yes/no questions over 24 arXiv papers (10 per paper) spanning 8 AI domains. JEV answered 239 of 240 correctly: an accuracy of 99.58% (95% CI 97.68–99.93%) against a 50% random level. The noul output value separates right from wrong: 233 answers sit at the extremes below 0.1 or above 0.9, and the only answer near the midpoint is the only error. The run consumed 1,591,354 input tokens and 6,364 output tokens, costing $0.0668 in total. The fast path answers reliably enough to serve production directly, and the output value marks exactly which rare answers to escalate.
+This experiment measures the fast path of a paper-QA system. Some questions about a paper need only a yes or a no; for those, JEV reads a single relevant excerpt and returns a verdict, without the full read an LLM would need. The test set holds 240 such yes/no questions over 24 arXiv papers (10 per paper) across 8 AI domains. JEV answered 239 of 240 correctly: an accuracy of 99.58% (95% CI 97.68–99.93%) against a 50% random level. The noul output value separates right from wrong: 233 answers sit at the extremes below 0.1 or above 0.9, and the only answer near the midpoint is the only error. The run consumed 1,591,354 input tokens and 6,364 output tokens, costing $0.0668 in total. The fast path answers reliably enough to use directly, and rare answers whose output value sits near the midpoint can be escalated.
 
 ## 1 Purpose
 
-A paper-QA system answers user questions about the papers in a personal library; one design routes each incoming question either to JEV as the fast path or to an LLM as the slow path. This experiment measures the fast path itself: of the questions routed to JEV, how many does it answer correctly? The questions take the form the fast path actually receives — judging whether a paper excerpt supports a given statement.
+A paper-QA system answers questions about the papers in a personal library. The usual flow is that a person asks a question and an LLM reads the paper before answering from the text. Many questions, however, are simple, such as a yes/no question or a rating, and for those a faster model can give the conclusion on its own. One design therefore adds a router that sends each question either to the JEV fast path or to the LLM slow path. This experiment asks whether a fast model like JEV can answer directly from the question: for a yes/no question it returns the probability of yes, so the reader gets both the answer and the model's certainty at once. The experiment assumes retrieval already works: once a question arrives, the system gathers the most relevant excerpt and passes it to JEV. How that excerpt is gathered is outside its scope. This report measures the fast path alone: of the questions routed to JEV, how many does it answer correctly? The questions take the form the fast path actually receives: judging whether one paper excerpt supports a given statement.
 
 ## 2 Dataset
 
-The dataset holds 240 questions built from 24 arXiv papers on AI topics, submitted between December 2025 and September 2026. The papers cover 8 domains with 3 papers each — agent, behavior-simulation, interpretability-alignment, memory, prompt-injection, reasoning, self-evolution, and training — and each paper carries 10 questions.
+The dataset holds 240 questions built from 24 arXiv papers on AI topics, submitted between December 2025 and September 2026. The papers cover 8 domains with 3 papers each: agent, behavior-simulation, interpretability-alignment, memory, prompt-injection, reasoning, self-evolution, and training. Each paper carries 10 questions.
 
-Each sample's state is one excerpt of the paper: a Markdown segment split at section boundaries, 8.6–33.4 KB long. The question is a noul yes/no judgment: does this excerpt support the given statement? The reference answer is a boolean. Overall 121 statements are supported and 119 refuted, and every paper carries at least three of each kind, so always giving the same answer scores about 50% — the random level of this format.
+Each sample's state is one excerpt of the paper: a Markdown segment split at section boundaries, 8,651–33,441 bytes long. The question is a noul yes/no judgment: does this excerpt support the given statement? The reference answer is a boolean. Overall 121 statements are supported and 119 refuted, so the two classes are close in number, and always giving the same answer scores about 50% overall, the random level of this format. Every paper carries at least three statements of each kind, though the counts differ.
 
-The domain grouping used below is taken from the paper list assembled during data preparation; it is not an original label of the samples.
+The domain grouping used below comes from the paper list assembled during data preparation; it is not an original label of the samples.
 
 ## 3 A Minimal Example
 
@@ -51,7 +51,7 @@ The model's output (key fields only):
 }
 ```
 
-JEV returned 0.99, a firm yes — matching the reference answer: the excerpt does state that the observation network stores preference-neutral summaries.
+JEV returned 0.99, a clear yes, which matches the reference answer: the excerpt does state that the observation network stores preference-neutral summaries.
 
 ## 4 Results
 
@@ -61,7 +61,7 @@ All 240 questions received a valid answer; no call failed. Judged against the re
 
 ### By domain
 
-Accuracy is uniform across the eight domains (Figure 1): seven domains are flawless, and the only miss falls in training. At the paper level, 23 of the 24 papers are answered without error.
+Accuracy is uniform across the eight domains (Figure 1): seven domains have no error, and the only miss falls in training. At the paper level, 23 of the 24 papers are answered without error.
 
 ![Accuracy by domain](fig/en/domain-accuracy.png)
 
@@ -69,7 +69,7 @@ Figure 1: accuracy is uniform across the eight domains; the only miss falls in t
 
 ### Confidence and accuracy
 
-Beyond correctness, the answer carries a single aggregable quantity — the noul output value itself — so this section uses it as the second measurement: the closer it sits to 0 or 1, the more decisive the answer. Answers concentrate at the two extremes, and every answer outside the 0.4–0.6 band is correct (Figure 2):
+Each answer also carries one quantity that can be aggregated: the noul output value. The closer that value sits to 0 or 1, the more decisive the answer, so this section uses it as the second measurement. Answers concentrate at the two extremes, and every answer outside the 0.4–0.6 band is correct (Figure 2):
 
 | noul output value | Answers | Share | Accuracy |
 | --- | ---: | ---: | ---: |
@@ -85,7 +85,7 @@ Figure 2: answers cluster at the two extremes of the output value, and the only 
 
 ### Behavior
 
-Decisive answers dominate: 233 of 240 (97.1%) land below 0.1 or above 0.9. The two classes never mix: the output value is at least 0.91 for every supported statement and at most 0.22 for every refuted one — with a single exception at 0.52, which is also the only error.
+Decisive answers dominate: 233 of 240 (97.1%) land below 0.1 or above 0.9. The two classes do not overlap: every supported statement scores at least 0.91, and every refuted one, apart from the single error at 0.52, scores at most 0.22.
 
 ### Cost
 
@@ -93,20 +93,13 @@ The run consumed 1,591,354 input tokens and 6,364 output tokens, for a total cos
 
 ### System position
 
-This experiment is one of three that measure a paper-QA system built around JEV. At the entry of the system, routing decides for each user question whether the JEV fast path can answer it or whether it must go to the LLM slow path; the fast path then answers the questions routed to it; and the paper library itself is maintained by deciding whether a new paper belongs in the library and under which topic. The three parts are measured separately: routing in `experiments/prompt-routing/report/REPORT.md`, the fast path in this report, and library maintenance in `experiments/paper-classification/report/REPORT.md`.
+This experiment is one of three that measure a paper-QA system built around JEV. At the entry, routing decides for each reader question whether the JEV fast path can answer it or whether it must go to the LLM slow path. The fast path then answers the questions routed to it. Library maintenance decides whether a new paper belongs in the library and which topic it gets. Each part is measured separately: routing in `experiments/prompt-routing/report/REPORT.md`, the fast path in this report, and library maintenance in `experiments/paper-classification/report/REPORT.md`.
 
 The 240 questions answered here are the same questions that serve as the 240 positive examples in prompt-routing, with identical ids and question text. The paper-classification corpus was crawled independently.
 
 ## 5 Conclusion
 
-As the fast path of a paper-QA system, JEV judges yes/no statements over paper excerpts at production-level reliability: one miss out of 240 questions, uniform across domains. Just as useful, the output value grades its own answers — every decisive answer was correct, and the only midpoint answer was the only error — so the system can pass decisive answers straight through and escalate the rare hesitant ones to the slow path.
-
-## 6 Insights
-
-1. The fast path can ship directly: questions routed to JEV are answered reliably enough that no review layer is needed behind it.
-2. The noul output value is a ready-made escalation switch: midpoint answers are rare and errors hide among them, so escalating only those to the slow path adds almost no load.
-3. Asking needs no retrieval or evidence-extraction step first: handing JEV a raw paper excerpt works directly, and reliability does not vary across domains.
-4. When building a yes/no question bank, balance supported and refuted statements within each paper, so a model cannot score by always giving the same answer.
+As the fast path of a paper-QA system, JEV judges yes/no statements over paper excerpts reliably enough to use directly: one miss out of 240 questions, uniform across domains. The output value can serve as an escalation cue: decisive answers are all correct, and the only answer near the midpoint is the only error. The system can therefore pass decisive answers straight through and escalate the rare hesitant ones to the slow path.
 
 ## Related Resources
 
