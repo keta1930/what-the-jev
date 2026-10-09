@@ -60,22 +60,32 @@ def main():
           f'({100 * errors_low / (total - correct):.2f}%)')
 
     bad_sum = 0
-    bad_argmax = 0
+    below_max = 0
+    tied_at_max = 0
+    float_noise = 0
     input_tokens = output_tokens = 0
     cost = 0.0
     for r in records:
         answer = r['response']['answers']['answer']
-        if abs(sum(answer['probabilities'].values()) - 1) > SUM_TOLERANCE:
+        probabilities = answer['probabilities']
+        if abs(sum(probabilities.values()) - 1) > SUM_TOLERANCE:
             bad_sum += 1
-        top = max(answer['probabilities'].items(), key=lambda item: item[1])
-        if top[0] != answer['choice']:
-            bad_argmax += 1
+        top = max(probabilities.values())
+        chosen = probabilities[answer['choice']]
+        if chosen < top - SUM_TOLERANCE:
+            below_max += 1
+        elif chosen < top:
+            float_noise += 1
+        elif sum(value == top for value in probabilities.values()) > 1:
+            tied_at_max += 1
         usage = r['response']['usage']
         input_tokens += usage['input_tokens']
         output_tokens += usage['output_tokens']
         cost += usage['cost']
     print(f'probabilities sum != 1: {bad_sum} ({100 * bad_sum / total:.2f}%)')
-    print(f'choice != argmax: {bad_argmax} ({100 * bad_argmax / total:.2f}%)')
+    print(f'choice strictly below max: {below_max} ({100 * below_max / total:.2f}%)')
+    print(f'choice tied at max: {tied_at_max} ({100 * tied_at_max / total:.2f}%)')
+    print(f'choice below max by float noise only: {float_noise} ({100 * float_noise / total:.2f}%)')
     print(f'usage: input {input_tokens:,}, output {output_tokens:,}, cost ${cost:.4f}')
 
     leaderboard = json.loads((ROOT / 'preparation' / 'raw' / 'leaderboard-latest.json').read_text())
