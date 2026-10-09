@@ -1,6 +1,7 @@
 """Rebuild the report figures and stats from the dataset and responses."""
 
 import json
+import statistics
 from collections import Counter
 from pathlib import Path
 
@@ -75,6 +76,20 @@ def answers_of(records):
     ]
 
 
+def flaw_counts(records):
+    """Return how often the chosen option falls below the top probability, and how often it ties at the top."""
+    strict = tied = 0
+    for r in records:
+        answer = r['response']['answers'][QUESTION]
+        probabilities, choice = answer['probabilities'], answer['choice']
+        top = max(probabilities.values())
+        if probabilities[choice] < top:
+            strict += 1
+        elif list(probabilities.values()).count(top) > 1:
+            tied += 1
+    return strict, tied
+
+
 def bin_stats(rows, reference):
     """Return (count, agreement) per confidence bin."""
     stats = []
@@ -138,19 +153,15 @@ def main():
         conf_disagree = [conf for pid, choice, conf, _ in rows if choice != reference[pid]]
         confs = sorted(conf for _, _, conf, _ in rows)
         usage = [u for *_, u in rows]
-        flaws = sum(
-            1 for r in records
-            if max(r['response']['answers'][QUESTION]['probabilities'],
-                   key=r['response']['answers'][QUESTION]['probabilities'].get)
-            != r['response']['answers'][QUESTION]['choice']
-        )
+        strict_flaws, tied_at_top = flaw_counts(records)
         per_layout[name] = {
             'rows': rows, 'agree': agree, 'ci': (lo, hi), 'picks': picks, 'by_type': by_type,
             'by_position': by_position, 'conf_agree': conf_agree, 'conf_disagree': conf_disagree,
-            'median_conf': confs[len(confs) // 2],
+            'median_conf': statistics.median(confs),
             'in_tokens': sum(u['input_tokens'] for u in usage),
             'out_tokens': sum(u['output_tokens'] for u in usage),
-            'cost': sum(u['cost'] for u in usage), 'flaws': flaws,
+            'cost': sum(u['cost'] for u in usage),
+            'strict_flaws': strict_flaws, 'tied_at_top': tied_at_top,
         }
 
     standard = per_layout['standard']
@@ -176,7 +187,7 @@ def main():
             f"{pos} {k}/{m} ({100 * k / m:.1f}%)" for pos, (m, k) in d['by_position'].items()))
         print(f"  confidence mean agree={sum(d['conf_agree']) / len(d['conf_agree']):.3f} "
               f"disagree={sum(d['conf_disagree']) / len(d['conf_disagree']):.3f}, median {d['median_conf']:.2f}")
-        print(f"  argmax!=choice: {d['flaws']}")
+        print(f"  flaws: chosen below top {d['strict_flaws']}, chosen tied at top {d['tied_at_top']}")
         print(f"  usage: in={d['in_tokens']:,} out={d['out_tokens']:,} cost=${d['cost']:.4f}")
     print('[standard] confidence bins:')
     for (lo, hi, label), (count, agree) in zip(BINS, stats):
