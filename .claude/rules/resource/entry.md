@@ -1,11 +1,11 @@
-# resource 条目
+# 条目
 
 `resource/` 下的新增与更新按本文件执行。参考实现：`resource/open-source-models/kev.md` 与 `kev.zh.md`。
 
 ## 新增条目
 
 1. 判定收录：只收项目与模型，不收论文与文章。优先收录成熟、可验证、资料完整的项目；成熟度不足的项目经确认后收录，现状（MVP、实验性）如实写入【适用】。
-2. 归入目录：closed-source-models、open-source-models、use-cases、integrations、tools、benchmarks。新增分类时先建目录，并同步两份 README 的分类表与 AGENTS.md 的目录清单。
+2. 归入目录：closed-source-models、open-source-models、use-cases、integrations、tools、benchmarks。新增分类时先建目录，并同步两份 README 的分类表。
 3. 创建文件对：`<slug>.md`（英文）与 `<slug>.zh.md`（中文）。slug 在 `resource/` 内唯一，小写连字符；与已收录项目同名时加所有者前缀区分。
 4. 写 frontmatter：`title` 与正文 H1 一致；`updated` 为本次修订日期。
 5. 写正文：四段依次为【定位】【功能】【特点】【适用】，英文对应 **Positioning** / **What it does** / **Characteristics** / **When to use**，标签后不加冒号。中文 350-500 字，英文 250-350 词。

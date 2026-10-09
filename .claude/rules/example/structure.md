@@ -1,6 +1,6 @@
-# 示例结构
+# 结构
 
-`example/<name>/` 的骨架与新增流程。README 的内容与措辞按 `example-readme.md`，运行配置的字段含义按 `AGENTS.md`，代码措辞按 `code-style.md`。
+`example/<name>/` 的骨架与新增流程。README 的内容与措辞按 `.claude/rules/example/report.md`，运行配置的字段含义按 `AGENTS.md`，代码措辞按 `.claude/rules/code/style.md`。
 
 ## 定位
 
@@ -55,7 +55,7 @@ output:
 1. 建目录，写 `config.yaml`。
 2. 写 `data/dataset.json`，再写结构相同、题干为中文的 `data/dataset_zh.json`。
 3. 运行 `run.py`，生成 `result/responses.jsonl` 与 `result/responses_zh.jsonl`。
-4. 写 `README.md` 与 `README.zh.md`，按 `example-readme.md`。
+4. 写 `README.md` 与 `README.zh.md`，按 `.claude/rules/example/report.md`。
 5. 更新 `example/INDEX.md` 与 `example/INDEX.zh.md`：插入对应分组，组内编号顺延；条目为不带标签的一句话，英文索引只链 `.md`，中文索引只链 `.zh.md`。
 6. 更新根 `README.md` 与 `README.zh.md` 的仓库结构树：在 `example/` 下加一行，后接场景标签与一句话简介；英文用方括号标签，中文用【】标签。
 
@@ -78,4 +78,4 @@ python run.py example/<name>/config.yaml
 - `data` 与 `output` 不是各两条、顺序不对应，或路径不是相对本目录？
 - 结果文件未提交，或 README 数字不是核自结果文件？
 - `example/` 两份索引未同步，或根 README 结构树未加行？
-- 有内容违 `example-readme.md` 或 `code-style.md`？
+- 有内容违 `.claude/rules/example/report.md` 或 `.claude/rules/code/style.md`？

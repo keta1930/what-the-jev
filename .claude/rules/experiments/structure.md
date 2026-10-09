@@ -1,6 +1,6 @@
-# 实验结构
+# 结构
 
-`experiments/<name>/` 的骨架与新增流程。报告的内容与结构按 `report-content.md`，运行配置的字段含义按 `AGENTS.md`，代码措辞按 `code-style.md`。
+`experiments/<name>/` 的骨架与新增流程。报告的内容与结构按 `.claude/rules/experiments/report.md`，运行配置的字段含义按 `AGENTS.md`，代码措辞按 `.claude/rules/code/style.md`。
 
 ## 定位
 
@@ -19,7 +19,7 @@ experiments/<name>/
 └── report/        双语报告与配图
 ```
 
-目录名小写连字符，在 `experiments/` 内唯一。`preparation/` 与 `report/` 按需取用；报告目录内部的组成按 `report-content.md`。
+目录名小写连字符，在 `experiments/` 内唯一。`preparation/` 与 `report/` 按需取用；报告目录内部的组成按 `.claude/rules/experiments/report.md`。
 
 ## 变体（消融）
 
@@ -53,7 +53,7 @@ output: result/responses.jsonl
 2. 写 `config.yaml`。
 3. 运行 `run.py`，生成 `result/responses.jsonl`。
 4. 写 `report/scripts/`，产出报告配图。
-5. 写报告，按 `report-content.md`。
+5. 写报告，按 `.claude/rules/experiments/report.md`。
 6. 更新 `experiments/INDEX.md` 与 `experiments/INDEX.zh.md`：插入对应分组，组内编号顺延；条目为不带标签的一句话，链到该实验的报告，英文索引链英文报告，中文索引链中文报告。
 7. 更新根 `README.md` 与 `README.zh.md` 的仓库结构树：在 `experiments/` 下加一行，后接场景标签与一句话简介；英文用方括号标签，中文用【】标签。
 
@@ -76,4 +76,4 @@ python run.py experiments/<name>/config.yaml
 - 结果文件未提交，或 `data/` 可由 `preparation/code/` 从 `raw/` 重新产出而不一致？
 - 报告缺中文版本，或有配图无法由 `report/scripts/` 重新生成？
 - `experiments/` 两份索引未同步，或根 README 结构树未加行？
-- 有内容违 `report-content.md` 或 `code-style.md`？
+- 有内容违 `.claude/rules/experiments/report.md` 或 `.claude/rules/code/style.md`？

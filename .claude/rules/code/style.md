@@ -1,4 +1,4 @@
-# Code Style
+# Style
 
 Comments and wording in this repository's Python code (`src/`, `tests/`, `run.py`, and the scripts under `experiments/` and `example/`) follow this file. Reference implementations: `src/decision_models/runner.py`, `tests/test_results.py`.
 

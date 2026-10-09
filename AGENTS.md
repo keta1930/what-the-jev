@@ -16,12 +16,12 @@ What this project is and how it is laid out is in `README.md`. This file covers 
 
 | Content | Location |
 | --- | --- |
-| Example structure and the process for adding one | `.claude/rules/example-structure.md` |
-| Experiment structure and the process for adding one | `.claude/rules/experiment-structure.md` |
-| Example README conventions | `.claude/rules/example-readme.md` |
-| Report conventions | `.claude/rules/report-content.md` |
-| Resource entry conventions | `.claude/rules/resource-entry.md` |
-| Code comment, wording, and wording-pass conventions | `.claude/rules/code-style.md` |
+| Example structure and the process for adding one | `.claude/rules/example/structure.md` |
+| Experiment structure and the process for adding one | `.claude/rules/experiments/structure.md` |
+| Example README conventions | `.claude/rules/example/report.md` |
+| Experiment report conventions | `.claude/rules/experiments/report.md` |
+| Resource entry conventions | `.claude/rules/resource/entry.md` |
+| Code comment, wording, and wording-pass conventions | `.claude/rules/code/style.md` |
 
 ## Code Architecture
 

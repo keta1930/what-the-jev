@@ -1,4 +1,4 @@
-# 示例 README
+# 报告
 
 `example/<name>/` 下的 `README.md` 按本文件写作。参考实现：`example/ticket-triage/README.md`。
 
