@@ -4,6 +4,22 @@
 
 读者没有读过数据集，也不会打开数据文件。README 要让他读完后知道：实验问模型什么、模型答了什么、代价多少、怎么重跑。
 
+## Frontmatter
+
+`README.md` 与 `README.zh.md` 各自以 YAML frontmatter 开头，三个字段缺一不可：
+
+```yaml
+---
+title: 示例标题
+date: YYYY-MM-DD
+summary: 正文第一句
+---
+```
+
+- `title` 写示例标题，与正文 H1 的文本相同。
+- `date` 写最近修改日期，新建与每次修改都写当日。
+- `summary` 写本实验测什么的一句话，与正文第一句的文本相同，用该文件的语言。
+
 ## 结构
 
 按此顺序成文，无内容的节省略。
@@ -35,3 +51,4 @@
 - 给了算式、推算过程或单价？
 - 数值未经 `result/responses.jsonl` 核对，或概括超出样本支撑？
 - 出现「你」「我们」或口语词？
+- 缺 frontmatter 字段，或 title 与 H1、summary 与正文第一句不一致？
