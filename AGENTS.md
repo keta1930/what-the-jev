@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository runs single-turn decision experiments on the Jev decision model with the `decision-models` framework: given a dataset, it requests each sample one at a time, saves the complete responses, and writes reports from them.
+What this project is and how it is laid out is in `README.md`. This file covers how to work in the repository: the framework and its modules, configuration, running, data and result formats, tests, and the conventions to follow.
 
 ## Knowledge Sources
 
@@ -82,20 +82,6 @@ python run.py experiments/<name>/config.yaml
 The request body sent to `endpoint` merges `model` with the sample's `input`; `id`, `reference`, and `metadata` are not sent.
 
 `result/*.jsonl` (`schema/result.schema.json`): one `{"id": ..., "response": ..., "error": ...}` object per line. `response` is the complete JSON returned by `endpoint`, unmodified; `error` is `null` or `{"type": ..., "message": ...}`, where `type` is `network`, `http`, or `invalid_json`, and `http` additionally carries `status`.
-
-## Directory Conventions
-
-```
-example/<name>/               lightweight examples
-experiments/<name>/           formal experiments
-
-resource/                     catalog of Jev-related resources (projects and models only; no papers, no articles)
-├── README.md / README.zh.md bilingual index: title, path, and a brief summary per entry
-└── <category>/              closed-source-models, open-source-models, use-cases,
-                             integrations, tools, benchmarks
-```
-
-`docs/jev/` is the Jev knowledge base, `.claude/rules/` the writing conventions.
 
 ## Tests
 
