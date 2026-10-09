@@ -1,3 +1,9 @@
+---
+title: "Injection Guard"
+date: 2026-10-09
+summary: "This experiment tests whether the Jev model can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations."
+---
+
 # Injection Guard
 
 This experiment tests whether the Jev model can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations.

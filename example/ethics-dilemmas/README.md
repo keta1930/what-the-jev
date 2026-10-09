@@ -1,3 +1,9 @@
+---
+title: "Classic Ethical Dilemmas"
+date: 2026-10-09
+summary: "This experiment tests the Jev model's judgments on classic ethical dilemmas."
+---
+
 # Classic Ethical Dilemmas
 
 This experiment tests the Jev model's judgments on classic ethical dilemmas.

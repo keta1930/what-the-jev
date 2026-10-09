@@ -1,3 +1,9 @@
+---
+title: "Paper QA"
+date: 2026-10-09
+summary: "This experiment tests whether the Jev model can answer questions about a research paper from only part of its text."
+---
+
 # Paper QA
 
 This experiment tests whether the Jev model can answer questions about a research paper from only part of its text.

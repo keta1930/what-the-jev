@@ -1,3 +1,9 @@
+---
+title: "Recognizing Digits and Animals from Pixels"
+date: 2026-10-09
+summary: "This experiment tests whether the Jev model can recognize image content from pixel values alone."
+---
+
 # Recognizing Digits and Animals from Pixels
 
 This experiment tests whether the Jev model can recognize image content from pixel values alone.

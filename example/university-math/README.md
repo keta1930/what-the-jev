@@ -1,3 +1,9 @@
+---
+title: "University Math Multiple Choice"
+date: 2026-10-09
+summary: "This experiment tests the Jev model's ability to answer university-level computational math problems."
+---
+
 # University Math Multiple Choice
 
 This experiment tests the Jev model's ability to answer university-level computational math problems.

@@ -1,3 +1,9 @@
+---
+title: "Ticket Triage"
+date: 2026-10-09
+summary: "This experiment tests the Jev model's judgment on customer support tickets."
+---
+
 # Ticket Triage
 
 This experiment tests the Jev model's judgment on customer support tickets.

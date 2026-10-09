@@ -1,3 +1,9 @@
+---
+title: "Math Word Problems"
+date: 2026-10-09
+summary: "This experiment tests the Jev model's ability to answer elementary arithmetic word problems."
+---
+
 # Math Word Problems
 
 This experiment tests the Jev model's ability to answer elementary arithmetic word problems.
