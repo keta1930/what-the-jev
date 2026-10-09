@@ -8,19 +8,19 @@ summary: "【Prompt Routing】Can JEV decide from the question text alone whethe
 
 ## Abstract
 
-This experiment tests whether JEV can route a reader's question to the right answerer before any retrieval happens. The setting is a paper-QA system with two paths: a fast path where JEV answers from fetched material, and a slow path where an LLM reads the paper and writes a full answer; the router sees only the question text. The dataset holds 480 questions over 24 research papers: 240 that belong on the fast path and 240 that belong on the slow path, the latter spanning six categories of text-demanding questions. JEV routed 476 of 480 correctly (99.2%, 95% CI 97.9–99.7%) against a 50% random level. Fast-path questions were never misrouted; the only weak spot is quantitative questions (89.2%), and every miss carries a low-confidence mark. The run consumed 452,494 input tokens and 10,560 output tokens, costing $0.0190. JEV is reliable enough to serve as the entry router directly, and its confidence output guards the one category where it slips.
+This experiment tests whether JEV can route a reader's question to the right answerer before any retrieval happens. The setting is a paper-QA system with two paths: a fast path where JEV answers from fetched material, and a slow path where an LLM reads the paper and writes a full answer. The router sees only the question text. The dataset holds 480 questions over 24 research papers: 240 that belong on the fast path and 240 on the slow path. The slow-path questions fall into six categories, each demanding a written answer. JEV routed 476 of 480 correctly (99.2%, 95% CI 97.9–99.7%) against a random baseline of 50%. Fast-path questions were never misrouted. The only category with lower accuracy is quantitative questions (89.2%), and every miss carries a low-confidence mark. The run consumed 452,494 input tokens and 10,560 output tokens, costing $0.0190. JEV is reliable enough to serve as the entry router directly, and its confidence output identifies the misses in that category.
 
 ## 1 Purpose
 
-A paper-QA system with two answerers must decide, the moment a question arrives, who takes it: the decision model, which is fast and cheap but returns only conclusions, or an LLM, which is slower and costlier but can explain, assess, and compute. This experiment tests whether JEV can make that routing call on its own — and make it early, from the question text alone, before any paper content is fetched. A wrong call either wastes the slow path or, worse, hands the fast path a question it cannot answer well.
+A paper-QA system with two answerers must decide, the moment a question arrives, which answerer should handle it: the decision model, which is fast and cheap but returns only conclusions, or an LLM, which is slower and costlier but can explain, assess, and compute. This experiment tests whether JEV can make that decision on its own, early, from the question text alone, before the system fetches any paper content. A wrong decision either wastes an expensive full-paper read or, worse, sends the fast path a question it cannot answer well.
 
 ## 2 Dataset
 
-The questions are built over a library of 24 arXiv research papers on LLM agents, the same library the sibling experiments use (links in Related Resources). Each paper contributes 20 questions — 10 fast-path and 10 slow-path — 480 in total.
+The questions are built over a library of 24 arXiv research papers on LLM agents, the same library paper-qa uses (links in Related Resources). Each paper contributes 20 questions, 10 fast-path and 10 slow-path, 480 in total.
 
-The 240 fast-path questions are the paper-qa experiment's question set, with the same ids and question text: yes/no questions that JEV answers from a fetched paper excerpt. The 240 slow-path questions were written for this experiment; each demands an answer the decision model cannot give, in one of six categories: explain (52) asks why or how something works; evaluate (42) asks how well or how reliable; compare (42) asks for a contrast; synthesize (38) asks to combine several parts of the paper into one account; quantitative (37) asks for a new value worked out from numbers the paper reports; design (29) asks how the system would have to change. Every slow-path question carries its category label in the sample metadata.
+The 240 fast-path questions are the paper-qa experiment's question set, with the same ids and question text: yes/no questions that JEV answers from a fetched paper excerpt. The 240 slow-path questions were written for this experiment. Each falls into one of six categories and demands an answer the decision model cannot give. Explain questions (52) ask why or how something works; evaluate questions (42) ask how effective or how reliable something is; compare questions (42) ask how one thing differs from another; synthesize questions (38) ask for several parts of the paper to be combined into one account; quantitative questions (37) ask for a new value worked out from numbers the paper reports; design questions (29) ask how the system would have to change. Every slow-path question carries its category label in the sample metadata.
 
-Routing happens before retrieval, so a sample's state holds only the question text — no paper content. The two classes are balanced, making 50% the random reference.
+Routing happens before retrieval, so a sample's state contains only the question text — no paper content. The two classes are balanced, making 50% the random baseline.
 
 ## 3 A Minimal Example
 
@@ -59,11 +59,11 @@ JEV returned 0.94 for routing to the fast path, matching the reference: this yes
 
 ### Overall
 
-All 480 questions received a valid answer; no call failed. Judged against the reference label each sample carries, 476 routings are correct: an accuracy of 99.2%, with a 95% confidence interval of 97.9–99.7%. Random routing over the balanced classes scores 50%.
+All 480 questions received a valid answer; no call failed. Judged against the reference label each sample carries, 476 routings are correct: an accuracy of 99.2%, with a 95% confidence interval of 97.9–99.7%. Random routing over the balanced classes yields 50%.
 
 ### By group
 
-Fast-path questions are never turned away; among the slow-path categories, only quantitative questions fall below 100% (Figure 1):
+No fast-path question is routed to the slow path; among the slow-path categories, only quantitative questions fall below 100% (Figure 1):
 
 | Group | Questions | Correct | Accuracy |
 | --- | ---: | ---: | ---: |
@@ -80,11 +80,11 @@ Fast-path questions are never turned away; among the slow-path categories, only 
 
 Figure 1: quantitative questions are the only group below 100%; the dashed line marks the 50% random level.
 
-All four misses are quantitative questions sent to the fast path, with output values between 0.50 and 0.57 — the model barely leaned toward yes on them.
+All four misses are quantitative questions sent to the fast path, with output values between 0.50 and 0.57: one falls exactly at the midpoint, and the rest lean only slightly toward yes.
 
 ### Confidence and accuracy
 
-The noul output value p is the probability of "route to the fast path"; below, confidence means max(p, 1 − p), the probability on the side the model leans to. Every band above 0.6 is flawless, and the errors sit exclusively in the lowest band (Figure 2):
+The noul output value p is the probability of "route to the fast path"; confidence here means max(p, 1 − p), the probability of the side the model favors. Errors occur only in the lowest band; every other band is entirely correct (Figure 2):
 
 | Confidence | Answers | Share | Accuracy |
 | --- | ---: | ---: | ---: |
@@ -100,7 +100,7 @@ Figure 2: 92.3% of answers sit above 0.8 confidence and are all correct; every e
 
 ### Behavior
 
-Routing outputs are near-binary: correct fast-path routings all carry p of at least 0.60, and correct slow-path routings all carry p of at most 0.39. Only five answers (1.0%) land in the 0.4–0.6 band, and four of them are the quantitative misses — uncertain output and wrong routing coincide.
+Routing outputs are almost binary: correct fast-path routings all have p of at least 0.60, and correct slow-path routings all have p of at most 0.39. Only five answers (1.0%) fall in the 0.4–0.6 band, and four of them are the quantitative misses.
 
 ### Cost
 
@@ -108,18 +108,11 @@ The run consumed 452,494 input tokens and 10,560 output tokens, for a total cost
 
 ### System position
 
-This experiment is one component of a three-part paper-QA system built around JEV. [paper-classification](../../paper-classification/report/REPORT.md) manages the paper library: given the reader's research preference, it decides which arXiv papers enter the library and tags each with a topic. prompt-routing (this experiment) is the entry router: when the reader asks a question, it decides from the question text alone whether the fast path can take it. [paper-qa](../../paper-qa/report/REPORT.md) is the fast path itself: retrieval fetches the relevant excerpt and JEV answers from it. Questions routed to the slow path are answered by an LLM, which is not part of these experiments. The three components share the same 24-paper library, and this experiment's 240 fast-path questions are paper-qa's 240 questions with the same ids.
+This experiment is one of three that measure a paper-QA system built around JEV. [paper-classification](../../paper-classification/report/REPORT.md) manages the paper library: given the reader's research preference, it decides which arXiv papers enter the library and tags each with a topic. prompt-routing (this experiment) is the entry router: when the reader asks a question, it decides from the question text alone whether the fast path can take it. [paper-qa](../../paper-qa/report/REPORT.md) is the fast path itself: retrieval fetches the relevant excerpt and JEV answers from it. Questions routed to the slow path are answered by an LLM, which is not part of these experiments. This experiment and paper-qa share the same 24-paper library, and this experiment's 240 fast-path questions are paper-qa's 240 questions with the same ids; the paper-classification corpus was crawled independently.
 
 ## 5 Conclusion
 
-From the question text alone, JEV routes reader questions almost flawlessly: 99.2% on a balanced set, with fast-path questions never turned away. The single weak zone is questions that ask for a new value computed from reported numbers — and those misses all carry low-confidence marks, so gating low-confidence routings to the slow path catches exactly the cases that would leak onto the fast path. JEV can serve as the entry router directly, with its confidence output as the built-in guardrail.
-
-## 6 Insights
-
-1. Routing needs no paper content: the question text alone is enough for JEV, so the router can sit before retrieval and reserve the slow path's full-paper read for questions that truly need it.
-2. Questions that ask to work out a new value from reported numbers are the router's weak zone; give that category its own guardrail — a keyword check or a second look — instead of trusting the routing call.
-3. The weak zone announces itself: misrouted questions all carry low-confidence marks, so sending low-confidence routing decisions to the slow path catches every error without disturbing the rest.
-4. Routing errors go one way only: slow-path questions may leak into the fast path, never the reverse, so the guardrail only needs to recheck decisions that say "fast path".
+From the question text alone, JEV routes the questions in this experiment almost without error: 99.2% on the balanced set, and all 240 fast-path questions land on the fast path. The single category with lower accuracy is quantitative questions, which ask for a new value worked out from the numbers a paper reports. Those misses all fall in the lowest confidence band, so sending that band to the slow path covers every miss in this experiment. JEV can serve as the entry router directly, with its confidence output to flag the routings worth rechecking.
 
 ## Related Resources
 
