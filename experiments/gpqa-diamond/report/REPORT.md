@@ -1,7 +1,7 @@
 ---
 title: "GPQA Diamond Graduate-Level Science: JEV as a Four-Choice Solver"
 date: 2026-10-09
-summary: "【Graduate-Level Science】Can JEV answer GPQA Diamond graduate-level science questions in four-choice form?"
+summary: "Explore JEV's performance on GPQA Diamond graduate-level science questions."
 ---
 
 # GPQA Diamond Graduate-Level Science: JEV as a Four-Choice Solver

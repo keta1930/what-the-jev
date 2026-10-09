@@ -1,7 +1,7 @@
 ---
 title: "MMLU-Pro Multi-Discipline Questions: JEV as a Ten-Choice Solver"
 date: 2026-10-09
-summary: "【Multi-Discipline Knowledge】Can JEV answer MMLU-Pro college-level questions across 14 disciplines, mostly in ten-choice form?"
+summary: "Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines."
 ---
 
 # MMLU-Pro Multi-Discipline Questions: JEV as a Ten-Choice Solver

@@ -1,7 +1,7 @@
 ---
 title: "Prompt Routing for a Paper-QA System: JEV as the Entry Router"
 date: 2026-10-09
-summary: "【Prompt Routing】Can JEV decide from the question text alone whether a reader's question should go to the JEV fast path or the LLM slow path?"
+summary: "Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path."
 ---
 
 # Prompt Routing for a Paper-QA System: JEV as the Entry Router

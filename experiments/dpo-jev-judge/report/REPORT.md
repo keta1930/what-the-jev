@@ -1,7 +1,7 @@
 ---
 title: "Judging DPO Preference Pairs: JEV Picking the Better of Two Thinking Traces"
 date: 2026-10-09
-summary: "【Judge Agreement】Can JEV pick the better of two thinking traces, matching an LLM judge's preference?"
+summary: "Explore JEV's performance on preference annotation for DPO training data."
 ---
 
 # Judging DPO Preference Pairs: JEV Picking the Better of Two Thinking Traces

@@ -1,7 +1,7 @@
 ---
 title: "SocialIQA Social Commonsense: JEV as a Three-Choice Judge"
 date: 2026-10-09
-summary: "【Social Commonsense】Can JEV answer SocialIQA social commonsense questions in three-choice form, and does its confidence mark trustworthy answers?"
+summary: "Explore JEV's performance on SocialIQA social commonsense questions."
 ---
 
 # SocialIQA Social Commonsense: JEV as a Three-Choice Judge

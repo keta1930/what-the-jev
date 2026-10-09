@@ -1,7 +1,7 @@
 ---
 title: "DPO 偏好对判优：JEV 二选一并对照 LLM 裁判"
 date: 2026-10-09
-summary: "【裁判一致性】测试 JEV 能否在两条同题思考中选出与 LLM 裁判偏好相同的一条。"
+summary: "探索 JEV 在 DPO 训练数据偏好标注上的表现。"
 ---
 
 # DPO 偏好对判优：JEV 二选一并对照 LLM 裁判

@@ -1,7 +1,7 @@
 ---
 title: "Skill Routing: Picking the Right Skills from a 126-Skill Catalog"
 date: 2026-10-09
-summary: "【Skill Routing】Can JEV route user tasks to the right skill, skill set, or none, among 126 real agent skills?"
+summary: "Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills."
 ---
 
 # Skill Routing: Picking the Right Skills from a 126-Skill Catalog

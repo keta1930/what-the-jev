@@ -1,7 +1,7 @@
 ---
 title: "Boston Housing: JEV Absolute Valuation vs Relative Comparison"
 date: 2026-10-09
-summary: "【Housing Prices】Tests whether JEV can place Boston suburb housing prices on an absolute scale (price-band scoring) versus order them relatively (pairwise comparison)."
+summary: "Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs."
 ---
 
 # Boston Housing: JEV Absolute Valuation vs Relative Comparison

@@ -1,7 +1,7 @@
 ---
 title: "BBQ Bias-Sensitive QA: JEV's Three-Choice Accuracy and Bias Score"
 date: 2026-10-09
-summary: "【Bias-Sensitive QA】Does JEV answer BBQ's bias-sensitive three-choice questions correctly without leaning toward stereotype-aligned options?"
+summary: "Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes."
 ---
 
 # BBQ Bias-Sensitive QA: JEV's Three-Choice Accuracy and Bias Score

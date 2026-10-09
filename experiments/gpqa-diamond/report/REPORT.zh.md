@@ -1,7 +1,7 @@
 ---
 title: "GPQA Diamond 研究生级科学题：JEV 四选一作答评估"
 date: 2026-10-09
-summary: "【研究生级科学题】测试 JEV 模型能否以四选一形式解答 GPQA Diamond 研究生级科学题。"
+summary: "探索 JEV 在 GPQA Diamond 研究生级科学题上的表现。"
 ---
 
 # GPQA Diamond 研究生级科学题：JEV 四选一作答评估

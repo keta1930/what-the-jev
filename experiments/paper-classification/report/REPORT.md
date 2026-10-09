@@ -1,7 +1,7 @@
 ---
 title: "Paper Library Management: JEV Decides Which Papers to Collect and Where They Belong"
 date: 2026-10-09
-summary: "【Paper Library Management】Can JEV decide whether an arXiv paper belongs in a personal research library and which topic of the research preference it falls under?"
+summary: "Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under."
 ---
 
 # Paper Library Management: JEV Decides Which Papers to Collect and Where They Belong

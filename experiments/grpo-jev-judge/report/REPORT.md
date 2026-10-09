@@ -1,7 +1,7 @@
 ---
 title: "Judging GRPO Rollouts: JEV Picking the Best of Eight Thinking Traces"
 date: 2026-10-09
-summary: "【Judge Agreement】Can JEV pick the same best thinking trace as an LLM judge among eight rollouts of one open-ended reasoning question?"
+summary: "Explore JEV's performance on GRPO trajectory reward assignment."
 ---
 
 # Judging GRPO Rollouts: JEV Picking the Best of Eight Thinking Traces

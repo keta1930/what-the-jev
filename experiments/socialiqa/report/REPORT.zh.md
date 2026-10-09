@@ -1,7 +1,7 @@
 ---
 title: "SocialIQA 社会常识：JEV 三选一作答评估"
 date: 2026-10-09
-summary: "【社会常识】测试 JEV 能否以三选一形式解答 SocialIQA 社会常识题，并检验其 confidence 能否标记可信作答。"
+summary: "探索 JEV 在 SocialIQA 社会常识题上的表现。"
 ---
 
 # SocialIQA 社会常识：JEV 三选一作答评估

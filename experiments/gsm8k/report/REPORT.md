@@ -1,7 +1,7 @@
 ---
 title: "GSM8K Grade-School Math: JEV as a Four-Choice Solver"
 date: 2026-10-09
-summary: "【Grade-School Math】Can JEV solve GSM8K grade-school math word problems posed as four-choice questions?"
+summary: "Explore JEV's performance on GSM8K grade-school math word problems."
 ---
 
 # GSM8K Grade-School Math: JEV as a Four-Choice Solver

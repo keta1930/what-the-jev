@@ -1,7 +1,7 @@
 ---
 title: "GRPO Rollout 判优：JEV 八选一并对照 LLM 裁判"
 date: 2026-10-09
-summary: "【裁判一致性】测试 JEV 能否在同一题目的八条思考中选出与 LLM 裁判相同的最优者。"
+summary: "探索 JEV 在 GRPO 轨迹奖励分配上的表现。"
 ---
 
 # GRPO Rollout 判优：JEV 八选一并对照 LLM 裁判

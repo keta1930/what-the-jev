@@ -1,7 +1,7 @@
 ---
 title: "Paper QA Fast Path: JEV Judges Statements over Paper Excerpts"
 date: 2026-10-09
-summary: "【Paper QA】Can JEV, as the fast path of a paper-QA system, judge whether a paper excerpt supports a statement?"
+summary: "Explore whether JEV can answer questions about a paper based on its own text."
 ---
 
 # Paper QA Fast Path: JEV Judges Statements over Paper Excerpts

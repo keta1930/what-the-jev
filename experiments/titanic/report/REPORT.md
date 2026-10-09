@@ -1,7 +1,7 @@
 ---
 title: "Titanic Survival: JEV as a Binary Classifier over Fields and Prose"
 date: 2026-10-09
-summary: "【Binary Classification】Can JEV judge whether a Titanic passenger survived, and does rendering the record as prose instead of structured fields change accuracy, cost, or confidence behavior?"
+summary: "Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text."
 ---
 
 # Titanic Survival: JEV as a Binary Classifier over Fields and Prose
