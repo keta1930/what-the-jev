@@ -216,11 +216,17 @@ def main():
 
     bad_sum = sum(1 for r in ok
                   if abs(sum(r['response']['answers']['skill']['probabilities'].values()) - 1) > 1e-6)
-    not_argmax = sum(1 for r in ok
-                     if max(r['response']['answers']['skill']['probabilities'],
-                            key=r['response']['answers']['skill']['probabilities'].get)
-                     != r['response']['answers']['skill']['choice'])
-    print(f'  prob sum != 1: {bad_sum}, choice != argmax: {not_argmax}')
+    below_max = tied_max = 0
+    for record in ok:
+        answer = record['response']['answers']['skill']
+        probabilities = answer['probabilities']
+        top = max(probabilities.values())
+        if probabilities[answer['choice']] < top:
+            below_max += 1
+        elif list(probabilities.values()).count(top) > 1:
+            tied_max += 1
+    print(f'  prob sum != 1: {bad_sum}, choice below max: {below_max}, '
+          f'choice tied at max: {tied_max}')
 
     big = [(s, l) for (s, l, _), r in zip(rows, ok) if samples[r['id']]['metadata']['n_options'] == 127]
     small = [(s, l) for (s, l, _), r in zip(rows, ok) if samples[r['id']]['metadata']['n_options'] != 127]
