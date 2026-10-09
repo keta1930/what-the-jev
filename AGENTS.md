@@ -16,7 +16,9 @@ This repository runs single-turn decision experiments on the Jev decision model 
 
 | Content | Location |
 | --- | --- |
-| Experiment README conventions | `.claude/rules/experiment-readme.md` |
+| Example structure and the process for adding one | `.claude/rules/example-structure.md` |
+| Experiment structure and the process for adding one | `.claude/rules/experiment-structure.md` |
+| Example README conventions | `.claude/rules/example-readme.md` |
 | Report conventions | `.claude/rules/report-content.md` |
 | Resource entry conventions | `.claude/rules/resource-entry.md` |
 | Code comment, wording, and wording-pass conventions | `.claude/rules/code-style.md` |
@@ -84,15 +86,8 @@ The request body sent to `endpoint` merges `model` with the sample's `input`; `i
 ## Directory Conventions
 
 ```
-experiments/<name>/          formal experiments
-example/<name>/              small examples with READMEs
-├── config.yaml              run configuration
-├── data/dataset.json        samples sent to the model
-├── preparation/             raw data and preparation scripts, optional
-│   ├── raw/                 downloaded raw data
-│   └── code/                cleaning and construction scripts
-├── result/responses.jsonl   results
-└── report/                  reports, optional
+example/<name>/               lightweight examples
+experiments/<name>/           formal experiments
 
 resource/                     catalog of Jev-related resources (projects and models only; no papers, no articles)
 ├── README.md / README.zh.md bilingual index: title, path, and a brief summary per entry
