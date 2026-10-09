@@ -87,6 +87,9 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | jev-reranker (hotchpotch) | [tools/jev-reranker.md](tools/jev-reranker.md) | Python library by hotchpotch using Jev for RAG candidate reranking and relevance filtering with threshold-friendly scores. |
 | building-with-typesafe-jev (aaddrick) | [tools/building-with-typesafe-jev.md](tools/building-with-typesafe-jev.md) | Unofficial agent skill by aaddrick teaching Jev question design; self-reported evaluation gain of 0.65 to 0.96. |
 | openrouter-decisions Skill (OpenRouterTeam) | [tools/openrouter-decisions-skill.md](tools/openrouter-decisions-skill.md) | Official OpenRouter skill teaching agents to delegate judgment and computation to decision models via a seven-step method. |
+| llama.cpp | [tools/llama-cpp.md](tools/llama-cpp.md) | llama-server exposes /v1/systemone since 2026-10-02, with five pre-converted decision-model GGUFs under ggml-org. |
+| SGLang | [tools/sglang.md](tools/sglang.md) | SGLang turns any chat model into a decision model via /v1/decisions and /v1/systemone; probabilities are uncalibrated. |
+| Ollama | [tools/ollama.md](tools/ollama.md) | Ollama 0.35+ serves Jev-style decision models locally on /v1/systemone, starting with nimble and tev1 models. |
 
 ## Benchmarks
 

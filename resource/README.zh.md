@@ -87,6 +87,9 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | jev-reranker (hotchpotch) | [tools/jev-reranker.zh.md](tools/jev-reranker.zh.md) | hotchpotch 的 Python 库，用 Jev 做 RAG 候选重排与相关性过滤，输出可按阈值切分的分数。 |
 | building-with-typesafe-jev (aaddrick) | [tools/building-with-typesafe-jev.zh.md](tools/building-with-typesafe-jev.zh.md) | aaddrick 的非官方代理 Skill，教代理设计 Jev 问题与阈值，自报评测 0.65 升至 0.96。 |
 | openrouter-decisions Skill (OpenRouterTeam) | [tools/openrouter-decisions-skill.zh.md](tools/openrouter-decisions-skill.zh.md) | OpenRouter 官方技能，教代理把判断与计算交给决策模型，含七步拆解法与阈值探测流程。 |
+| llama.cpp | [tools/llama-cpp.zh.md](tools/llama-cpp.zh.md) | llama-server 自 2026-10-02 起提供 /v1/systemone 端点，官方预转换五个决策模型 GGUF。 |
+| SGLang | [tools/sglang.zh.md](tools/sglang.zh.md) | SGLang 以 /v1/decisions 与 /v1/systemone 把任意 chat 模型变成决策模型，概率未校准。 |
+| Ollama | [tools/ollama.zh.md](tools/ollama.zh.md) | Ollama 0.35 起在本地 /v1/systemone 提供 Jev 式决策模型，首批为 nimble 与 tev1 系列。 |
 
 ## 评测与校准
 
