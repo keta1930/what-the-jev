@@ -257,16 +257,23 @@ def main():
         print(f'papers with identical {q} across conditions: {same}/{len(by_paper)}')
 
     # Output quirks: probability sums and choice-probability agreement.
+    # A choice below the top is a mismatch; one tied for the top is not.
     bad_sum = 0
-    mismatch = 0
+    below_top = 0
+    tied_top = 0
     for r in ok:
         for q in QUESTIONS:
             answer = r['response']['answers'][q]
-            if abs(sum(answer['probabilities'].values()) - 1) > 1e-6:
+            probabilities = answer['probabilities']
+            if abs(sum(probabilities.values()) - 1) > 1e-6:
                 bad_sum += 1
-            if max(answer['probabilities'], key=answer['probabilities'].get) != answer['choice']:
-                mismatch += 1
-    print(f'probability sums != 1: {bad_sum}/800; choice != top probability: {mismatch}/800')
+            top = max(probabilities.values())
+            if probabilities[answer['choice']] < top:
+                below_top += 1
+            elif sum(1 for value in probabilities.values() if value == top) > 1:
+                tied_top += 1
+    print(f'probability sums != 1: {bad_sum}/800; chosen below top probability: {below_top}/800;'
+          f' chosen tied for top: {tied_top}/800')
 
     # Token and cost totals.
     tokens_in = sum(r['response']['usage']['input_tokens'] for r in ok)
