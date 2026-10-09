@@ -8,23 +8,23 @@ summary: "【Graduate-Level Science】Can JEV answer GPQA Diamond graduate-level
 
 ## Abstract
 
-This experiment tests whether JEV can answer graduate-level science questions. The setting is the GPQA Diamond subset: 198 expert-written questions in biology, physics, and chemistry, each posed as a four-choice question. JEV answered 75.76% correctly (95% CI 69.33–81.20%), far above the 25% random level. The confidence JEV reports with each answer tracks accuracy: answers at confidence ≥0.85 are 95.45% correct, and even answers below 0.6 still reach 60.61%. The full run consumed 109,394 input tokens and 8,910 output tokens, costing $0.0046 in total. We conclude that JEV answers graduate-level science questions at a usable level in a single pass, and that its confidence output separates trustworthy answers from ones that need review.
+This experiment tests whether JEV can answer graduate-level science questions. The setting is the GPQA Diamond subset: 198 expert-written questions in biology, physics, and chemistry, each posed as a four-choice question. JEV answered 75.76% correctly (95% CI 69.33–81.20%), far above the 25% random level. The confidence JEV gives with each answer rises with accuracy: answers at confidence ≥0.85 are 95.45% correct, and even answers below 0.6 still reach 60.61%. The full run consumed 109,394 input tokens and 8,910 output tokens, costing $0.0046 in total. JEV therefore answers graduate-level science questions at a usable level in a single pass, and its confidence separates trustworthy answers from ones that need review.
 
 ## 1 Purpose
 
-This experiment asks one question: can JEV answer graduate-level science questions on its own? GPQA is the standard benchmark for this ability — its questions are written by domain experts and stay hard even with web access — which is why we chose its Diamond subset. The four-choice format adds a second check: JEV reports a confidence with each answer, and we test whether that confidence tells us when an answer can be trusted.
+This experiment asks one question: can JEV answer graduate-level science questions on its own? GPQA is the standard benchmark for this ability. Domain experts wrote its questions, and the questions remain hard even with web access, so we use its Diamond subset. JEV gives a confidence with each answer, and we also test whether that confidence indicates when an answer can be trusted.
 
 ## 2 Dataset
 
-GPQA is a benchmark of graduate-level multiple-choice questions in biology, physics, and chemistry, written and validated by domain experts; Diamond is its curated core subset. We use all 198 Diamond questions from the idavidrein/gpqa repository, at a pinned revision.
+GPQA is a benchmark of graduate-level multiple-choice questions in biology, physics, and chemistry that domain experts wrote and checked; Diamond is its curated core subset. We use all 198 Diamond questions from the idavidrein/gpqa repository, at a pinned revision.
 
-Each question is posed as a single-choice question with its four original options, reshuffled under a fixed seed; the reference answer is the letter of the correct option. Random guessing over four options scores 25%, the floor of this format.
+Each question is posed as a single choice among its four original options, shuffled by a fixed seed. The reference answer is the letter of the correct option. Guessing among the four options scores 25%, the floor of this format.
 
 The dataset carries no difficulty or subject labels, so results are reported overall and by confidence, not by dimension.
 
 ## 3 A Minimal Example
 
-This section shows one real question from the dataset with its complete input and output. The input sent to the model (the model field is omitted):
+This section shows one real question from the dataset, with the full input and output. The input sent to the model (the model field is omitted):
 
 ```json
 {
@@ -66,11 +66,11 @@ JEV chose A, the correct answer.
 
 ### Overall
 
-All 198 questions received a valid answer; no call failed. Judged against the reference answers provided by the dataset, 150 answers are correct: an accuracy of 75.76%, with a 95% confidence interval of 69.33–81.20%. Random guessing over four options scores 25%.
+All 198 questions received a valid answer, and no call failed. Against the dataset's reference answers, 150 answers are correct: an accuracy of 75.76%, with a 95% confidence interval of 69.33–81.20%. Guessing among the four options scores 25%.
 
 ### Confidence and accuracy
 
-JEV reports a confidence with every answer. Accuracy rises with the confidence band (Figure 1):
+JEV gives a confidence with every answer. Accuracy rises with the confidence band (Figure 1):
 
 | Confidence | Answers | Share | Accuracy |
 | --- | ---: | ---: | ---: |
@@ -84,7 +84,7 @@ Figure 1: half of the answers fall in the lowest band, yet even that band stays 
 
 ### Behavior
 
-Five answers (2.5%) carry minor output blemishes: in 2 (1.0%) the four option probabilities sum to 0.99 instead of 1; in 3 (1.5%) the two highest probabilities tie, and the choice field takes one of the tied options. All three tie cases sit in the lowest confidence band.
+Only a few answers carry an output flaw: in 2 answers (1.0%) the four option probabilities sum to 0.99 instead of 1. The chosen option is always one of the most probable. In 3 answers (1.5%) the top two probabilities tie, and `choice` takes one of the tied options rather than a lower-ranked one. All three tie cases fall in the lowest confidence band.
 
 ### Cost
 
@@ -92,22 +92,15 @@ The run consumed 109,394 input tokens and 8,910 output tokens, for a total cost 
 
 ### Benchmark positioning
 
-A public leaderboard fixes JEV's relative position. The Hugging Face GPQA leaderboard snapshot holds 111 entries; its Diamond results without tool use — 50 results from 43 models — span 18.69 to 94.44 with a median of 81.06. These entries answer in free form, many with long reasoning budgets or repeated voting, while JEV answers each question in a single pass; the answer formats differ, so this comparison is a magnitude reference only. JEV's 75.76 ranks 31st among the 50 (Figure 2).
+A public leaderboard fixes JEV's relative position. The Hugging Face GPQA leaderboard snapshot holds 111 entries. Of these, 50 results from 43 models are Diamond results without tool use, spanning 18.69 to 94.44 with a median of 81.06. These entries answer in free form, many with long reasoning budgets or repeated voting, while JEV answers each question a single time. The answer formats differ, so this comparison serves as a rough level only. JEV's score of 75.76 ranks 31st among the 50 (Figure 2).
 
 ![JEV's position on the GPQA leaderboard](fig/en/leaderboard-position.png)
 
-Figure 2: JEV's single-pass score lands in the lower middle of the board, at the level of open models in the 30–120B parameter range.
+Figure 2: JEV's single-pass score falls in the lower middle of the board, at the level of open models in the 30–120B parameter range.
 
 ## 5 Conclusion
 
-JEV answers about three quarters of graduate-level science questions correctly in a single four-choice pass, far above the random level. The confidence output is what makes this usable: high-confidence answers are almost always right, and even the lowest-confidence answers stay well above guessing. Accepting high-confidence answers and routing the rest to review turns one cheap call into a dependable answering stage at this difficulty.
-
-## 6 Insights
-
-1. JEV answers graduate-level science questions at a usable level on its own and can serve as a first-pass solver at this difficulty.
-2. Confidence works as a trust switch even on hard questions: accept high-confidence answers directly, route low-confidence ones to review.
-3. Low confidence does not mean wrong — correct answers still outnumber errors in the lowest band — so low-confidence answers deserve review, not discard.
-4. When the top two options tie, the choice between them is a guess, but such answers carry rock-bottom confidence, so a confidence filter catches them too.
+JEV answers about three quarters of graduate-level science questions correctly in one four-choice pass, far above the random level. The confidence output is what makes this usable: high-confidence answers are almost always correct, and even the lowest-confidence answers stay well above guessing. Accepting high-confidence answers and routing the rest to review turns one cheap call per question into a dependable answering stage at this difficulty.
 
 ## Related Resources
 
