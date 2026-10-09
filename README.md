@@ -22,6 +22,19 @@ what-the-jev/
 │   ├── paper-qa/              [Paper Reading] Tests whether Jev can answer questions about a research paper from only part of its text.
 │   └── ticket-triage/         [Business] Tests Jev's classification of customer-support tickets, refund claims, and urgency.
 ├── experiments/               professional-grade experiments
+│   ├── gpqa-diamond/          [Benchmark] Explore JEV's performance on GPQA Diamond graduate-level science questions.
+│   ├── gsm8k/                 [Benchmark] Explore JEV's performance on GSM8K grade-school math word problems.
+│   ├── mmlu-pro/              [Benchmark] Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines.
+│   ├── bbq/                   [Benchmark] Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes.
+│   ├── socialiqa/             [Benchmark] Explore JEV's performance on SocialIQA social commonsense questions, and whether confidence marks trustworthy answers.
+│   ├── paper-classification/  [Paper Classification] Explore JEV's performance on paper library management: deciding, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
+│   ├── paper-qa/              [Paper QA] Explore JEV's performance on paper QA: answering questions from a paper's own text.
+│   ├── prompt-routing/        [Prompt Routing] Explore JEV's performance on prompt routing.
+│   ├── skill-routing/         [Skill Routing] Explore JEV's performance on skill routing.
+│   ├── boston-housing/        [Numeric Regression] Explore JEV's performance on Boston suburb housing price prediction and relative comparison.
+│   ├── titanic/               [Classification Prediction] Explore JEV's performance on Titanic passenger survival prediction, and how structured fields and prose text compare as input.
+│   ├── dpo-jev-judge/         [LLM Training] Explore JEV's performance on preference annotation for DPO training data.
+│   └── grpo-jev-judge/        [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
 ├── resource/                  catalog of Jev-related projects and models
 │   ├── closed-source-models/  [Closed-Source Models] Jev and its proprietary competitors
 │   ├── open-source-models/    [Open-Source Models] open-weight decision models and replicas

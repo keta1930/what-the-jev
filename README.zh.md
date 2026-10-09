@@ -22,6 +22,19 @@ what-the-jev/
 │   ├── paper-qa/              【论文阅读】测试JEV模型能否根据论文的部分内容回答关于该论文的问题。
 │   └── ticket-triage/         【业务决策】测试JEV模型对客服工单的分类、退款诉求与紧急程度判断。
 ├── experiments/               专业级实验
+│   ├── gpqa-diamond/          【benchmark】探索 JEV 在 GPQA Diamond 研究生级科学题上的表现。
+│   ├── gsm8k/                 【benchmark】探索 JEV 在 GSM8K 小学数学应用题上的表现。
+│   ├── mmlu-pro/              【benchmark】探索 JEV 在 MMLU-Pro 覆盖 14 个学科的大学水平题目上的表现。
+│   ├── bbq/                   【benchmark】探索 JEV 在 BBQ 偏见敏感问答题上的表现，以及是否会偏向刻板印象。
+│   ├── socialiqa/             【benchmark】探索 JEV 在 SocialIQA 社会常识题上的表现，并检验 confidence 能否标记可信作答。
+│   ├── paper-classification/  【论文分类】探索 JEV 在论文库管理上的表现：按研究偏好判断一篇 arXiv 论文该不该收入论文库，以及归入哪个主题。
+│   ├── paper-qa/              【论文问答】探索 JEV 在论文问答上的表现：基于原文回答关于该论文的问题。
+│   ├── prompt-routing/        【提示词路由】探索 JEV 在提示词路由上的表现。
+│   ├── skill-routing/         【技能路由】探索 JEV 在技能路由上的表现。
+│   ├── boston-housing/        【数值回归】探索 JEV 在波士顿房价预测与相对高低比较上的表现。
+│   ├── titanic/               【分类预测】探索 JEV 在泰坦尼克号乘客生存预测上的表现，并比较结构化字段与自然语言文本两种输入的影响。
+│   ├── dpo-jev-judge/         【大模型训练】探索 JEV 在 DPO 训练数据偏好标注上的表现。
+│   └── grpo-jev-judge/        【大模型训练】探索 JEV 在 GRPO 轨迹奖励分配上的表现。
 ├── resource/                  Jev 相关项目与模型的收录清单
 │   ├── closed-source-models/  【闭源模型】Jev 本体与闭源竞品
 │   ├── open-source-models/    【开源模型】开放权重决策模型与复刻
