@@ -294,13 +294,20 @@ def main():
     print(f'  consistent n={len(stable)} mean conf {sum(stable) / len(stable):.4f}; '
           f'inconsistent n={len(unstable)} mean conf {sum(unstable) / len(unstable):.4f}')
 
-    # Behavior: answers whose choice is not the argmax of probabilities.
-    mismatch = sum(1 for r in ok for q in QUESTIONS
-                   if max(r['response']['answers'][q]['probabilities'],
-                          key=r['response']['answers'][q]['probabilities'].get)
-                   != r['response']['answers'][q]['choice'])
-    print(f'choice != argmax: {mismatch}/{len(ok) * 6} '
-          f'({100 * mismatch / (len(ok) * 6):.2f}%)')
+    # Behavior: chosen option below the top probability, vs chosen option tied at the top.
+    below = tied = 0
+    for r in ok:
+        for q in QUESTIONS:
+            answer = r['response']['answers'][q]
+            probs = answer['probabilities']
+            top = max(probs.values())
+            if probs[answer['choice']] < top:
+                below += 1
+            elif list(probs.values()).count(top) > 1:
+                tied += 1
+    total = len(ok) * len(QUESTIONS)
+    print(f'choice below top probability: {below}/{total} ({100 * below / total:.2f}%); '
+          f'choice tied at top: {tied}/{total} ({100 * tied / total:.2f}%)')
 
     for lang in LABELS:
         if lang == 'zh':
