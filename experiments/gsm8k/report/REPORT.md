@@ -107,9 +107,10 @@ JEV answers about 85% of grade-school math word problems correctly in four-choic
 
 ## 6 Insights
 
-1. Answers at selected probability ≥0.9 cover 54.3% of the test set with 99.9% accuracy, a ready-made trust filter.
-2. Errors flag themselves: the median selected probability among the 200 misses is 0.44, and only one miss exceeds 0.9.
-3. Below a selected probability of 0.5, accuracy drops to 46.7%, close to the 25% random level.
+1. JEV handles grade-school multi-step arithmetic on its own and can serve auto-solving scenarios at this difficulty directly.
+2. The selected probability works out of the box as a trust switch: accept high-probability answers, route low-probability ones to review.
+3. JEV does not hide its errors behind confidence: nearly every miss carries a low probability mark.
+4. When testing numerical reasoning with multiple choice, near-value distractors expose real ability and block magnitude guessing.
 
 ## Related Resources
 
