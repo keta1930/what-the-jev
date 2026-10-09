@@ -174,8 +174,12 @@ def main():
         dim_stats.append((dim, len(sub), 100 * sum(sub) / len(sub)))
 
     bad_sum = [row for row in rows if abs(sum(row['probabilities'].values()) - 1) > 1e-6]
-    bad_argmax = [row for row in rows
-                  if max(row['probabilities'], key=row['probabilities'].get) != row['choice']]
+    below_max = [row for row in rows
+                 if row['probabilities'][row['choice']] < max(row['probabilities'].values()) - 1e-9]
+    tied_top = [row for row in rows
+                if row['probabilities'][row['choice']] >= max(row['probabilities'].values()) - 1e-9
+                and sum(1 for value in row['probabilities'].values()
+                        if value >= max(row['probabilities'].values()) - 1e-9) > 1]
     input_tokens = sum(row['usage']['input_tokens'] for row in rows)
     output_tokens = sum(row['usage']['output_tokens'] for row in rows)
     cost = sum(row['usage']['cost'] for row in rows)
@@ -195,7 +199,8 @@ def main():
         print(f'  confidence {label:9s} n={count:4d} share={100 * count / n:5.1f}% accuracy {bin_accuracy:.2f}%')
     for dim, count, dim_accuracy in sorted(dim_stats, key=lambda entry: -entry[2]):
         print(f'  {dim:8s} n={count:4d} accuracy {dim_accuracy:.2f}%')
-    print(f'blemishes: prob sum != 1: {len(bad_sum)}, choice != argmax: {len(bad_argmax)}')
+    print(f'blemishes: prob sum != 1: {len(bad_sum)}, '
+          f'choice below max: {len(below_max)}, top prob tied: {len(tied_top)}')
     print(f'usage: input {input_tokens:,} output {output_tokens:,} cost ${cost:.4f}')
     print(f'figures written to {FIG_DIR}')
 

@@ -8,19 +8,19 @@ summary: "【Social Commonsense】Can JEV answer SocialIQA social commonsense qu
 
 ## Abstract
 
-This experiment tests whether JEV can answer questions about everyday social situations. The setting is the full SocialIQA test split: 2,224 questions, each with a short social scenario and three candidate answers. JEV answered 80.58% correctly (95% CI 78.93–82.22%), far above the 33.3% random level, and nearly uniformly across the nine ATOMIC question dimensions (78.11–84.66%). The confidence JEV reports is calibrated and actionable: its mean (0.803) matches actual accuracy, the 61.2% of answers at confidence ≥0.85 are 93.24% correct, and answers below 0.6 drop to 50.96%. The full run consumed 851,327 input tokens and 84,512 output tokens, costing $0.0358 in total. We conclude that JEV handles social commonsense reliably across question types, and that its confidence output can be used directly to route answers.
+This experiment tests whether JEV can answer questions about everyday social situations. The setting is the full SocialIQA test split: 2,224 questions, each with a short social scenario and three candidate answers. JEV answered 80.58% correctly (95% CI 78.93–82.22%), far above the 33.3% random level, with accuracy nearly uniform across the nine ATOMIC question dimensions (78.11–84.66%). The confidence JEV reports is reliable: its mean (0.803) matches the actual accuracy, answers at confidence ≥0.85 make up 61.2% of the set and are 93.24% correct, and answers below 0.6 fall to 50.96%. The full run consumed 851,327 input tokens and 84,512 output tokens, costing $0.0358 in total. We conclude that JEV performs consistently across social commonsense question types, and that its confidence can indicate which answers are reliable.
 
 ## 1 Purpose
 
-This experiment asks whether JEV can reason about everyday social situations: what people intend, need, and feel, and what happens to them next. SocialIQA is the standard benchmark for this kind of social commonsense, which is why we chose it. The three-choice format adds a second check: JEV reports a confidence with each answer, and we test whether that confidence tells us when an answer can be trusted.
+This experiment asks whether JEV can reason about everyday social situations: what people intend, need, and feel, and what happens to them next. SocialIQA is the standard benchmark for this kind of social commonsense, which is why we chose it. The three-choice format adds a second check: JEV reports a confidence with each answer, and we test whether that confidence indicates when an answer is reliable.
 
 ## 2 Dataset
 
-SocialIQA is an English benchmark for commonsense reasoning about social situations. Each item gives a short context describing an everyday social event, asks a question about it, and offers three candidate answers. We use the official SocialIQA v1.4 release with dimension annotations, pinned as an archive in `preparation/raw/`: its full test split of 2,224 questions.
+SocialIQA is an English benchmark for commonsense reasoning about social situations. Each item gives a short context describing an everyday social event, asks a question about it, and offers three candidate answers. We use the official SocialIQA v1.4 release with dimension annotations, archived in `preparation/raw/`, and take its full test split of 2,224 questions.
 
-Each question is posed to JEV as a single-choice question over the dataset's three options, kept in their original order. Correct answers are spread near-evenly over the three positions (720 A, 754 B, 750 C), so position guessing gains nothing.
+Each question is posed to JEV as a single-choice question over the dataset's three options, kept in their original order. Correct answers are spread near-evenly over the three positions (720 A, 754 B, 750 C), so guessing by position offers no advantage.
 
-The release annotates each question with the ATOMIC dimension it probes; these labels ship with the dataset. Six dimensions ask about the central person: why they acted (xIntent), what they needed beforehand (xNeed), how to describe them (xAttr), how they feel afterward (xReact), what happens to them (xEffect), and what they want to do next (xWant). Three ask about the other people involved: how they feel (oReact), what happens to them (oEffect), and what they want to do next (oWant).
+The release annotates each question with the ATOMIC dimension it probes; these labels come from the dataset. Six dimensions ask about the central person: why they acted (xIntent), what they needed beforehand (xNeed), how to describe them (xAttr), how they feel afterward (xReact), what happens to them (xEffect), and what they want to do next (xWant). Three ask about the other people involved: how they feel (oReact), what happens to them (oEffect), and what they want to do next (oWant).
 
 ## 3 A Minimal Example
 
@@ -72,7 +72,7 @@ All 2,224 questions received a valid answer; no call failed. Judged against the 
 
 ### Confidence and accuracy
 
-JEV reports a confidence with each answer (the confidence field, below). Its mean over all answers is 0.803, almost exactly the actual accuracy. Accuracy rises steadily with confidence (Figure 1):
+JEV reports a confidence value with each answer. The mean confidence over all answers is 0.803, almost exactly the actual accuracy. Accuracy rises steadily with confidence (Figure 1):
 
 | Confidence | Answers | Share | Accuracy |
 | --- | ---: | ---: | ---: |
@@ -82,11 +82,11 @@ JEV reports a confidence with each answer (the confidence field, below). Its mea
 
 ![Accuracy by confidence](fig/en/confidence-accuracy.png)
 
-Figure 1: most answers sit at high confidence, and accuracy rises steadily with it; the dashed line marks the 33.3% random level.
+Figure 1: most answers cluster at high confidence, and accuracy rises steadily with confidence; the dashed line marks the 33.3% random level.
 
 ### Behavior
 
-Eight answers (0.36%) are internally inconsistent: three carry option probabilities that do not sum to 1, and five select an option other than the highest-probability one. No answer does both; the remaining 2,216 answers are consistent.
+Three answers (0.13%) carry option probabilities that sum to 0.99 rather than 1. In eight answers (0.36%) two options tie for the highest probability, and the selected option is one of the two; no answer selects an option below the highest probability. The two sets do not overlap, and 2,213 answers show neither.
 
 ### Cost
 
@@ -110,18 +110,11 @@ Accuracy is nearly uniform across the nine ATOMIC dimensions (Figure 2):
 
 ![Accuracy by ATOMIC dimension](fig/en/dimension-accuracy.png)
 
-Figure 2: every dimension lands in a narrow band around the overall 80.58%; questions about what the person wants next rank highest, descriptions of the person lowest.
+Figure 2: all nine dimensions land in a narrow band of 78.11–84.66%, with no dimension clearly behind.
 
 ## 5 Conclusion
 
-JEV answers about four in five social commonsense questions correctly, and does so uniformly across all nine question types — there is no weak dimension. The practically useful property is the confidence: calibrated on average, and sharp enough to separate near-certain answers from coin-flips. Accepting only answers at confidence ≥0.85 keeps more than 60% of the questions at above 93% accuracy, and the rest can go to review.
-
-## 6 Insights
-
-1. JEV's social commonsense is even across all nine ATOMIC question types, so social-understanding applications can treat it as one general skill instead of patching individual question types.
-2. On this task JEV's confidence needs no calibration: its average matches actual accuracy, so a confidence value can be read directly as expected correctness and used as a routing threshold out of the box.
-3. Questions about what a person wants next are the easiest for JEV and attribute-description questions the hardest, so review budgets in social-inference pipelines should cover description-type questions first.
-4. A small share of answers are not self-consistent — the chosen option is not always the highest-probability one — so downstream code should recompute the choice from the probabilities instead of trusting the choice field.
+JEV answers about four in five social commonsense questions correctly, and it does about as well on one question type as another; no dimension lags behind. What is most useful here is the confidence: on average it matches the actual accuracy, and it separates near-certain answers from less accurate ones. Accepting only answers at confidence ≥0.85 keeps more than 60% of the questions at above 93% accuracy; the remaining answers stay well above the random level, so they should go to review rather than be discarded.
 
 ## Related Resources
 
