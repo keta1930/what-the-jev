@@ -21,7 +21,7 @@
 2. [paper-qa](paper-qa/report/REPORT.zh.md) — 【论文问答】测试 JEV 作为论文问答系统的快路径，判断论文片段是否支持某陈述的准确率。
 3. [prompt-routing](prompt-routing/report/REPORT.zh.md) — 【入口路由】测试 JEV 能否仅凭提问文本，判断读者的提问该走 JEV 快路径还是 LLM 慢路径。
 
-## 四、数值与分类判断
+## 四、经典机器学习预测：回归与分类
 
 1. [boston-housing](boston-housing/report/REPORT.zh.md) — 【房价估计】测试 JEV 能否把波士顿社区房价钉在绝对刻度上（价格档评分），以及能否可靠地排出相对高低（两两比较）。
 2. [titanic](titanic/report/REPORT.zh.md) — 【二分类】测试 JEV 能否根据乘客记录判断泰坦尼克号乘客是否生还，并对比结构化字段与自然语言文本两种输入表示的准确率、成本与置信行为。

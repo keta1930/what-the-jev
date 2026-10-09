@@ -21,7 +21,7 @@ Thirteen experiments on the JEV decision model, grouped by what they probe. Each
 2. [paper-qa](paper-qa/report/REPORT.md) — 【Paper QA】Can JEV, as the fast path of a paper-QA system, judge whether a paper excerpt supports a statement?
 3. [prompt-routing](prompt-routing/report/REPORT.md) — 【Prompt Routing】Can JEV decide from the question text alone whether a reader's question should go to the JEV fast path or the LLM slow path?
 
-## 4. Numeric and Categorical Judgment
+## 4. Classical Machine Learning Prediction: Regression and Classification
 
 1. [boston-housing](boston-housing/report/REPORT.md) — 【Housing Prices】Tests whether JEV can place Boston suburb housing prices on an absolute scale (price-band scoring) versus order them relatively (pairwise comparison).
 2. [titanic](titanic/report/REPORT.md) — 【Binary Classification】Can JEV judge whether a Titanic passenger survived, and does rendering the record as prose instead of structured fields change accuracy, cost, or confidence behavior?
