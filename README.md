@@ -26,13 +26,13 @@ what-the-jev/
 │   ├── gsm8k/                 [Benchmark] Explore JEV's performance on GSM8K grade-school math word problems.
 │   ├── mmlu-pro/              [Benchmark] Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines.
 │   ├── bbq/                   [Benchmark] Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes.
-│   ├── socialiqa/             [Benchmark] Explore JEV's performance on SocialIQA social commonsense questions, and whether confidence marks trustworthy answers.
-│   ├── paper-classification/  [Paper Classification] Explore JEV's performance on paper library management: deciding, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
-│   ├── paper-qa/              [Paper QA] Explore JEV's performance on paper QA: answering questions from a paper's own text.
-│   ├── prompt-routing/        [Prompt Routing] Explore JEV's performance on prompt routing.
-│   ├── skill-routing/         [Skill Routing] Explore JEV's performance on skill routing.
-│   ├── boston-housing/        [Numeric Regression] Explore JEV's performance on Boston suburb housing price prediction and relative comparison.
-│   ├── titanic/               [Classification Prediction] Explore JEV's performance on Titanic passenger survival prediction, and how structured fields and prose text compare as input.
+│   ├── socialiqa/             [Benchmark] Explore JEV's performance on SocialIQA social commonsense questions.
+│   ├── paper-classification/  [Paper Classification] Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
+│   ├── paper-qa/              [Paper QA] Explore whether JEV can answer questions about a paper based on its own text.
+│   ├── prompt-routing/        [Prompt Routing] Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path.
+│   ├── skill-routing/         [Skill Routing] Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills.
+│   ├── boston-housing/        [Numeric Regression] Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs.
+│   ├── titanic/               [Classification Prediction] Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text.
 │   ├── dpo-jev-judge/         [LLM Training] Explore JEV's performance on preference annotation for DPO training data.
 │   └── grpo-jev-judge/        [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
 ├── resource/                  catalog of Jev-related projects and models

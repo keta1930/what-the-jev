@@ -26,13 +26,13 @@ what-the-jev/
 │   ├── gsm8k/                 【benchmark】探索 JEV 在 GSM8K 小学数学应用题上的表现。
 │   ├── mmlu-pro/              【benchmark】探索 JEV 在 MMLU-Pro 覆盖 14 个学科的大学水平题目上的表现。
 │   ├── bbq/                   【benchmark】探索 JEV 在 BBQ 偏见敏感问答题上的表现，以及是否会偏向刻板印象。
-│   ├── socialiqa/             【benchmark】探索 JEV 在 SocialIQA 社会常识题上的表现，并检验 confidence 能否标记可信作答。
-│   ├── paper-classification/  【论文分类】探索 JEV 在论文库管理上的表现：按研究偏好判断一篇 arXiv 论文该不该收入论文库，以及归入哪个主题。
-│   ├── paper-qa/              【论文问答】探索 JEV 在论文问答上的表现：基于原文回答关于该论文的问题。
-│   ├── prompt-routing/        【提示词路由】探索 JEV 在提示词路由上的表现。
-│   ├── skill-routing/         【技能路由】探索 JEV 在技能路由上的表现。
-│   ├── boston-housing/        【数值回归】探索 JEV 在波士顿房价预测与相对高低比较上的表现。
-│   ├── titanic/               【分类预测】探索 JEV 在泰坦尼克号乘客生存预测上的表现，并比较结构化字段与自然语言文本两种输入的影响。
+│   ├── socialiqa/             【benchmark】探索 JEV 在 SocialIQA 社会常识题上的表现。
+│   ├── paper-classification/  【论文分类】探索 JEV 能否按研究偏好判断一篇 arXiv 论文该不该收入论文库，并归入正确的主题。
+│   ├── paper-qa/              【论文问答】探索 JEV 能否基于原文回答关于该论文的问题。
+│   ├── prompt-routing/        【提示词路由】探索 JEV 能否仅凭提问文本，判断提问该走 JEV 快路径还是 LLM 慢路径。
+│   ├── skill-routing/         【技能路由】探索 JEV 能否把用户任务路由到 126 个真实 Agent Skill 中的正确技能、技能组合或 none。
+│   ├── boston-housing/        【数值回归】探索 JEV 能否预测波士顿社区的房价，并比较不同社区的房价高低。
+│   ├── titanic/               【分类预测】探索 JEV 能否根据乘客记录预测乘客是否生还，并比较结构化字段与自然语言文本两种输入下的表现。
 │   ├── dpo-jev-judge/         【大模型训练】探索 JEV 在 DPO 训练数据偏好标注上的表现。
 │   └── grpo-jev-judge/        【大模型训练】探索 JEV 在 GRPO 轨迹奖励分配上的表现。
 ├── resource/                  Jev 相关项目与模型的收录清单

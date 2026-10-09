@@ -13,18 +13,18 @@ Thirteen experiments on the JEV decision model, grouped by what they probe. Each
 ## 2. LLM Benchmarks: Social Commonsense and Bias
 
 1. [bbq](bbq/report/REPORT.md) — Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes.
-2. [socialiqa](socialiqa/report/REPORT.md) — Explore JEV's performance on SocialIQA social commonsense questions, and whether confidence marks trustworthy answers.
+2. [socialiqa](socialiqa/report/REPORT.md) — Explore JEV's performance on SocialIQA social commonsense questions.
 
 ## 3. Paper QA System
 
-1. [paper-classification](paper-classification/report/REPORT.md) — Explore JEV's performance on paper library management: deciding, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
-2. [paper-qa](paper-qa/report/REPORT.md) — Explore JEV's performance on paper QA: answering questions from a paper's own text.
-3. [prompt-routing](prompt-routing/report/REPORT.md) — Explore JEV's performance on prompt routing.
+1. [paper-classification](paper-classification/report/REPORT.md) — Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
+2. [paper-qa](paper-qa/report/REPORT.md) — Explore whether JEV can answer questions about a paper based on its own text.
+3. [prompt-routing](prompt-routing/report/REPORT.md) — Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path.
 
 ## 4. Classical Machine Learning Prediction: Regression and Classification
 
-1. [boston-housing](boston-housing/report/REPORT.md) — Explore JEV's performance on Boston suburb housing price prediction and relative comparison.
-2. [titanic](titanic/report/REPORT.md) — Explore JEV's performance on Titanic passenger survival prediction, and how structured fields and prose text compare as input.
+1. [boston-housing](boston-housing/report/REPORT.md) — Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs.
+2. [titanic](titanic/report/REPORT.md) — Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text.
 
 ## 5. LLM Post-Training Annotation
 
@@ -33,4 +33,4 @@ Thirteen experiments on the JEV decision model, grouped by what they probe. Each
 
 ## 6. Skill Routing
 
-1. [skill-routing](skill-routing/report/REPORT.md) — Explore JEV's performance on skill routing.
+1. [skill-routing](skill-routing/report/REPORT.md) — Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills.
