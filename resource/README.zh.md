@@ -1,6 +1,6 @@
 ---
 title: "Jev 资源库"
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 # Jev 资源库
@@ -41,6 +41,7 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | 标题 | 路径 | 简介 |
 | --- | --- | --- |
 | Laya (ConvAI Innovations) | [open-source-models/laya.zh.md](open-source-models/laya.zh.md) | 多语言非自回归决策引擎，单次前向输出类型化决策与校准置信度，覆盖 100+ 语言。 |
+| chinese-laya (yanqiangmiffy) | [open-source-models/chinese-laya.zh.md](open-source-models/chinese-laya.zh.md) | Laya 多语言 checkpoint 的中文微调复现，含机译数据划分与作者自报测试结果。 |
 | Kev (Jared Palmer) | [open-source-models/kev.zh.md](open-source-models/kev.zh.md) | 基于 Qwen 的小型决策模型家族，可自训自部署，三类问题相互隔离并输出校准概率。 |
 | decider (Mapika) | [open-source-models/mapika-decider.zh.md](open-source-models/mapika-decider.zh.md) | Mapika 的 Apache-2.0 决策模型家族，0.8B 至 35B 多变体，训练配方公开。 |
 | JevK5 (allebee) | [open-source-models/jevk5.zh.md](open-source-models/jevk5.zh.md) | 蒸馏 LoRA 加选项字母 logit 读取的开源决策模型，JevBench v1.4 开源第一。 |
@@ -57,6 +58,7 @@ Jev 相关模型、项目、工具与评测的收录清单。除本仓库的实�
 | Jebadiah (Frontier Infra) | [open-source-models/jebadiah.zh.md](open-source-models/jebadiah.zh.md) | Frontier Infra 的 System One 风格决策模型，含训练与评测完整流水线。 |
 | Rune 26B-A4B (Invergent) | [open-source-models/rune-26b-a4b.zh.md](open-source-models/rune-26b-a4b.zh.md) | Invergent 的多模态决策模型，可读文本与图像，单次前向给出概率。 |
 | NeoHorse-Jev-4B (TokenRhythm) | [open-source-models/neohorse-jev.zh.md](open-source-models/neohorse-jev.zh.md) | TokenRhythm 的 prefill-only 决策模型，面向 agent 的路由与评分。 |
+| StartLux-Decision (StartLux Labs) | [open-source-models/startlux-decision.zh.md](open-source-models/startlux-decision.zh.md) | 0.8B 至 35B-A3B 的类型化决策模型家族，可读文本、JSON 与图像，权重限非商业使用。 |
 
 ## 使用案例
 

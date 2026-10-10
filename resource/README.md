@@ -1,6 +1,6 @@
 ---
 title: "Jev Resources"
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 # Jev Resources
@@ -41,6 +41,7 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | Title | Path | Summary |
 | --- | --- | --- |
 | Laya (ConvAI Innovations) | [open-source-models/laya.md](open-source-models/laya.md) | Multilingual non-autoregressive decision engine returning typed decisions with calibrated confidence in one forward pass across 100+ languages. |
+| chinese-laya (yanqiangmiffy) | [open-source-models/chinese-laya.md](open-source-models/chinese-laya.md) | Chinese fine-tune of Laya's multilingual checkpoint, with machine-translated data splits and author-reported test results. |
 | Kev (Jared Palmer) | [open-source-models/kev.md](open-source-models/kev.md) | Small Qwen-based decision model family for self-training and local deployment, with three isolated question types and calibrated probabilities. |
 | decider (Mapika) | [open-source-models/mapika-decider.md](open-source-models/mapika-decider.md) | Mapika's Apache-2.0 decision model family spanning 0.8B to 35B variants, with the training recipe published in full. |
 | JevK5 (allebee) | [open-source-models/jevk5.md](open-source-models/jevk5.md) | Open decision model pairing distilled Qwen3.5 LoRA with option-letter logit readout; ranked first among open-source models on JevBench v1.4. |
@@ -57,6 +58,7 @@ Each entry is a pair of files: `<slug>.md` (English) and `<slug>.zh.md` (Chinese
 | Jebadiah (Frontier Infra) | [open-source-models/jebadiah.md](open-source-models/jebadiah.md) | Frontier Infra's System One-style decision model with a full training, data, and evaluation pipeline. |
 | Rune 26B-A4B (Invergent) | [open-source-models/rune-26b-a4b.md](open-source-models/rune-26b-a4b.md) | Invergent's multimodal decision model reading text and images and returning probabilities in one pass. |
 | NeoHorse-Jev-4B (TokenRhythm) | [open-source-models/neohorse-jev.md](open-source-models/neohorse-jev.md) | TokenRhythm's prefill-only decision model for agent routing, tool selection, and scoring. |
+| StartLux-Decision (StartLux Labs) | [open-source-models/startlux-decision.md](open-source-models/startlux-decision.md) | Typed decision family from 0.8B to 35B-A3B reading text, JSON, and images, with non-commercial weights. |
 
 ## Use Cases
 
