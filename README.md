@@ -14,44 +14,44 @@ Live site: [English](https://keta1930.github.io/what-the-jev/) | [简体中文](
 
 ```text
 what-the-jev/
-├── example/                   lightweight examples
-│   ├── us-election/           [History] Tests whether Jev can recall the winners of the eight US presidential elections from 1996 to 2024.
-│   ├── math-word-problem/     [Arithmetic] Tests Jev on grade-school arithmetic word problems.
-│   ├── university-math/       [Arithmetic] Tests Jev on calculus, linear algebra, and probability problems.
-│   ├── pixel-recognition/     [Vision] Tests whether Jev can identify image content from raw pixel values alone.
-│   ├── ethics-dilemmas/       [Ethics] Tests Jev's acceptability judgments in classic ethical dilemmas.
-│   ├── injection-guard/       [Security] Tests whether Jev can detect prompt-injection attacks hidden in tool-call results.
-│   ├── paper-qa/              [Paper Reading] Tests whether Jev can answer questions about a research paper from only part of its text.
-│   └── ticket-triage/         [Business] Tests Jev's classification of customer-support tickets, refund claims, and urgency.
-├── experiments/               professional-grade experiments
-│   ├── gpqa-diamond/          [Benchmark] Explore JEV's performance on GPQA Diamond graduate-level science questions.
-│   ├── gsm8k/                 [Benchmark] Explore JEV's performance on GSM8K grade-school math word problems.
-│   ├── mmlu-pro/              [Benchmark] Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines.
-│   ├── bbq/                   [Benchmark] Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes.
-│   ├── socialiqa/             [Benchmark] Explore JEV's performance on SocialIQA social commonsense questions.
-│   ├── paper-classification/  [Paper Classification] Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
-│   ├── paper-qa/              [Paper QA] Explore whether JEV can answer questions about a paper based on its own text.
-│   ├── prompt-routing/        [Prompt Routing] Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path.
-│   ├── skill-routing/         [Skill Routing] Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills.
-│   ├── boston-housing/        [Numeric Regression] Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs.
-│   ├── titanic/               [Classification Prediction] Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text.
-│   ├── dpo-jev-judge/         [LLM Training] Explore JEV's performance on preference annotation for DPO training data.
-│   └── grpo-jev-judge/        [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
-├── resource/                  catalog of Jev-related projects and models
-│   ├── closed-source-models/  [Closed-Source Models] Jev and its proprietary competitors
-│   ├── open-source-models/    [Open-Source Models] open-weight decision models and replicas
-│   ├── use-cases/             [Use Cases] applications built with Jev
-│   ├── integrations/          [Integrations] gateways, frameworks, and platforms serving Jev
-│   ├── tools/                 [Tools] SDKs, MCP servers, CLIs, and libraries
-│   └── benchmarks/            [Benchmarks] independent and official evaluations
-├── docs/site/                 bilingual documentation site
-├── docs/jev/                  [AGENT] Jev knowledge base
-├── src/decision_models/       the framework that runs an experiment
-├── schema/                    dataset and result schemas
-├── tests/                     tests for the framework
-├── run.py                     CLI entry point
-├── AGENTS.md                  [AGENT] project execution instructions
-└── .claude/rules/             [AGENT] project execution standard
+├── example/                            lightweight examples
+│   ├── us-election/                    [History] Tests whether Jev can recall the winners of the eight US presidential elections from 1996 to 2024.
+│   ├── math-word-problem/              [Arithmetic] Tests Jev on grade-school arithmetic word problems.
+│   ├── university-math/                [Arithmetic] Tests Jev on calculus, linear algebra, and probability problems.
+│   ├── pixel-recognition/              [Vision] Tests whether Jev can identify image content from raw pixel values alone.
+│   ├── ethics-dilemmas/                [Ethics] Tests Jev's acceptability judgments in classic ethical dilemmas.
+│   ├── prompt-injection-detection/     [Security] Tests whether Jev can detect prompt-injection attacks hidden in tool-call results.
+│   ├── paper-qa/                       [Paper Reading] Tests whether Jev can answer questions about a research paper from only part of its text.
+│   └── ticket-triage/                  [Business] Tests Jev's classification of customer-support tickets, refund claims, and urgency.
+├── experiments/                        professional-grade experiments
+│   ├── gpqa-diamond/                   [Benchmark] Explore JEV's performance on GPQA Diamond graduate-level science questions.
+│   ├── gsm8k/                          [Benchmark] Explore JEV's performance on GSM8K grade-school math word problems.
+│   ├── mmlu-pro/                       [Benchmark] Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines.
+│   ├── bbq/                            [Benchmark] Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes.
+│   ├── socialiqa/                      [Benchmark] Explore JEV's performance on SocialIQA social commonsense questions.
+│   ├── paper-classification/           [Paper Classification] Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under.
+│   ├── paper-qa/                       [Paper QA] Explore whether JEV can answer questions about a paper based on its own text.
+│   ├── prompt-routing/                 [Prompt Routing] Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path.
+│   ├── skill-routing/                  [Skill Routing] Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills.
+│   ├── boston-housing/                 [Numeric Regression] Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs.
+│   ├── titanic/                        [Classification Prediction] Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text.
+│   ├── dpo-jev-judge/                  [LLM Training] Explore JEV's performance on preference annotation for DPO training data.
+│   └── grpo-jev-judge/                 [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
+├── resource/                           catalog of Jev-related projects and models
+│   ├── closed-source-models/           [Closed-Source Models] Jev and its proprietary competitors
+│   ├── open-source-models/             [Open-Source Models] open-weight decision models and replicas
+│   ├── use-cases/                      [Use Cases] applications built with Jev
+│   ├── integrations/                   [Integrations] gateways, frameworks, and platforms serving Jev
+│   ├── tools/                          [Tools] SDKs, MCP servers, CLIs, and libraries
+│   └── benchmarks/                     [Benchmarks] independent and official evaluations
+├── docs/site/                          bilingual documentation site
+├── docs/jev/                           [AGENT] Jev knowledge base
+├── src/decision_models/                the framework that runs an experiment
+├── schema/                             dataset and result schemas
+├── tests/                              tests for the framework
+├── run.py                              CLI entry point
+├── AGENTS.md                           [AGENT] project execution instructions
+└── .claude/rules/                      [AGENT] project execution standard
 ```
 
 See [example/INDEX.md](example/INDEX.md) for the full index of lightweight examples.

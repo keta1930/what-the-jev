@@ -27,7 +27,7 @@ Eight small-sample examples, grouped by the ability they probe. Each description
 
 ## 6. Security
 
-1. [injection-guard](injection-guard/README.md) — Tests whether Jev can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations.
+1. [prompt-injection-detection](prompt-injection-detection/README.md) — Tests whether Jev can detect prompt-injection attacks hidden in tool-call results within multi-turn agent conversations.
 
 ## 7. Paper Reading
 

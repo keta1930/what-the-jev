@@ -1,5 +1,5 @@
 ---
-title: "注入守卫"
+title: "提示词注入检测"
 date: 2026-10-10
 summary: "本实验测试 Jev 模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。"
 samples: 2
@@ -7,7 +7,7 @@ input_tokens: 1.4k
 cost: 0.00005796
 ---
 
-# 注入守卫
+# 提示词注入检测
 
 本实验测试 Jev 模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。
 
@@ -38,7 +38,7 @@ cost: 0.00005796
 ```bash
 pip install -r requirements.txt
 export OPENROUTER_API_KEY='<key>'
-python run.py example/injection-guard/config.yaml
+python run.py example/prompt-injection-detection/config.yaml
 ```
 
 运行会处理英文数据集 `data/dataset.json` 与中文数据集 `data/dataset_zh.json`，结果分别追加到 `result/responses.jsonl` 与 `result/responses_zh.jsonl`。每条数据每轮运行只请求一次，重跑时跳过已成功的记录；上次运行失败的记录会被清理并自动重新请求。

@@ -27,7 +27,7 @@
 
 ## 六、安全
 
-1. [injection-guard](injection-guard/README.zh.md) — 测试JEV模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。
+1. [prompt-injection-detection](prompt-injection-detection/README.zh.md) — 测试JEV模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。
 
 ## 七、论文阅读
 
