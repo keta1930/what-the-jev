@@ -41,6 +41,44 @@ Each sample asks one question:
    - `ship`: A ship.
    - `truck`: A truck.
 
+## Minimal Example
+
+This section takes `mnist-0001` and shows its input and output. The input sent to the model (the model field is omitted; the 28-row pixel matrix is truncated to its first, middle, and last rows):
+
+```json
+{
+  "state": {
+    "pixels": [
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "…",
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 129, 254, 238, 44, 0, 0, 0, 0, 0, 0, 0],
+      "…",
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ]
+  },
+  "questions": {
+    "digit": {
+      "type": "choice",
+      "instructions": "state.pixels is the pixel matrix of a grayscale handwritten-digit image: 28 rows by 28 columns, row-major, each value a grayscale from 0 to 255, where 0 is the black background and 255 is the white stroke. Judge which digit is written in the image.",
+      "criteria": {"0": "The digit 0.", "1": "The digit 1.", "2": "The digit 2.", "3": "The digit 3.", "4": "The digit 4.", "5": "The digit 5.", "6": "The digit 6.", "7": "The digit 7.", "8": "The digit 8.", "9": "The digit 9."}
+    }
+  }
+}
+```
+
+The model's output (key fields only):
+
+```json
+{
+  "answers": {
+    "digit": {"type": "choice", "choice": "2", "probabilities": {"0": 0.13, "1": 0.08, "2": 0.18, "3": 0.07, "4": 0.05, "5": 0.05, "6": 0.08, "7": 0.1, "8": 0.12, "9": 0.14}, "confidence": 0.08}
+  },
+  "usage": {"input_tokens": 2321, "output_tokens": 87, "cost": 0.000097482}
+}
+```
+
+Jev chose `2` where the true label is `7`, and the ten probabilities stay near uniform, from 0.05 to 0.18.
+
 ## Results
 
 On both questions Jev failed to recognize the image content from pixel values; the probability distributions are near-uniform, equivalent to random choice.

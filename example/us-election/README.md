@@ -21,6 +21,40 @@ Each sample asks the same question:
    - `democratic`: the Democratic candidate wins. The candidates by election are Harris, Biden, Hillary Clinton, Obama, Obama, Kerry, Gore, Bill Clinton.
    - `other`: "Another candidate wins, the election has not been held, or the winner cannot be determined."
 
+## Minimal Example
+
+This section takes the 2024 sample and shows its input and output. The input sent to the model (the model field is omitted):
+
+```json
+{
+  "state": "The 2024 US presidential election",
+  "questions": {
+    "winner": {
+      "type": "choice",
+      "instructions": "Judge which candidate won this election.",
+      "criteria": {
+        "republican": "The Republican candidate Donald Trump wins.",
+        "democratic": "The Democratic candidate Kamala Harris wins.",
+        "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
+      }
+    }
+  }
+}
+```
+
+The model's output (key fields only):
+
+```json
+{
+  "answers": {
+    "winner": {"type": "choice", "choice": "other", "probabilities": {"republican": 0.44, "democratic": 0.03, "other": 0.53}, "confidence": 0.3}
+  },
+  "usage": {"input_tokens": 362, "output_tokens": 42, "cost": 0.000015204}
+}
+```
+
+Jev chose `other` where `republican` is the correct answer; it is the one wrong judgment among the eight samples, and the narrow gap to `republican` (0.44) shows the answer was close.
+
 ## Results
 
 `winner`: seven of the eight elections were judged correctly. The 2024 election was judged `other`, contradicting the reference answer `republican` (`other` 0.53, `republican` 0.44, `democratic` 0.03, `confidence` 0.30); the model leaned toward `republican` but fell back to `other`. The other seven elections were each judged at probability 1 and `confidence` 1.
