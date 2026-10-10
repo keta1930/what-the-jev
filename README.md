@@ -54,11 +54,26 @@ what-the-jev/
 └── .claude/rules/                      [AGENT] project execution standard
 ```
 
-See [example/INDEX.md](example/INDEX.md) for the full index of lightweight examples.
+**Lightweight examples**
 
-See [experiments/INDEX.md](experiments/INDEX.md) for the full index of experiments.
+- Full index: [example/INDEX.md](example/INDEX.md)
+- Live site: [Examples](https://keta1930.github.io/what-the-jev/examples/)
 
-See [resource/README.md](resource/README.md) for the full index of the resource catalog.
+![Examples page](docs/assets/examples-en.png)
+
+**Experiments**
+
+- Full index: [experiments/INDEX.md](experiments/INDEX.md)
+- Live site: [Experiments](https://keta1930.github.io/what-the-jev/experiments/)
+
+![Experiments page](docs/assets/experiments-en.png)
+
+**Resource catalog**
+
+- Full index: [resource/README.md](resource/README.md)
+- Live site: [Resources](https://keta1930.github.io/what-the-jev/resources/)
+
+![Resources page](docs/assets/resources-en.png)
 
 ## Start Here
 

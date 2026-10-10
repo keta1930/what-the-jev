@@ -54,11 +54,26 @@ what-the-jev/
 └── .claude/rules/                      【AGENT】项目执行规范
 ```
 
-轻量级示例的完整索引见 [example/INDEX.zh.md](example/INDEX.zh.md)。
+**轻量级示例**
 
-实验的完整索引见 [experiments/INDEX.zh.md](experiments/INDEX.zh.md)。
+- 完整索引：[example/INDEX.zh.md](example/INDEX.zh.md)
+- 在线站点：[示例页](https://keta1930.github.io/what-the-jev/zh/examples/)
 
-资源库的完整索引见 [resource/README.zh.md](resource/README.zh.md)。
+![示例页](docs/assets/examples-zh.png)
+
+**实验**
+
+- 完整索引：[experiments/INDEX.zh.md](experiments/INDEX.zh.md)
+- 在线站点：[实验页](https://keta1930.github.io/what-the-jev/zh/experiments/)
+
+![实验页](docs/assets/experiments-zh.png)
+
+**资源库**
+
+- 完整索引：[resource/README.zh.md](resource/README.zh.md)
+- 在线站点：[资源页](https://keta1930.github.io/what-the-jev/zh/resources/)
+
+![资源页](docs/assets/resources-zh.png)
 
 ## 从这里开始
 
