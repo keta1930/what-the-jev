@@ -4,6 +4,8 @@
 
 *[English](README.md) | 简体中文*
 
+在线站点：[English](https://keta1930.github.io/what-the-jev/) | [简体中文](https://keta1930.github.io/what-the-jev/zh/)。
+
 ## 项目简介
 
 **what-the-jev** 展示 Jev（TypeSafe AI 的 System One 决策模型）在各种任务上的能力。这是一套持续扩充的可复现 benchmark 与实验合集：每个任务都附带数据集、运行配置、原始模型响应和分析报告。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
@@ -42,6 +44,7 @@ what-the-jev/
 │   ├── integrations/          【平台与集成】提供 Jev 接入的网关与框架
 │   ├── tools/                 【工具与 SDK】使用 Jev 的 SDK、MCP 服务器与 CLI
 │   └── benchmarks/            【评测与校准】Jev 及其替代品的独立与官方评测
+├── docs/site/                 中英文文档站点
 ├── docs/jev/                  【AGENT】JEV 知识库
 ├── src/decision_models/       运行实验的框架
 ├── schema/                    数据集与结果的 schema
@@ -64,6 +67,16 @@ what-the-jev/
 我们非常欢迎任何贡献，包括代码、纠错、提供实验或示例、添加资源等。
 
 期待您的 PR。
+
+本地预览文档修改需要 Node.js 24 和 npm：
+
+```bash
+cd docs/site
+npm ci
+npm run dev
+```
+
+打开 <http://localhost:20242>（英文）或 <http://localhost:20242/zh>（中文）。编辑仓库中的 Markdown 源文件，站点会自动更新。提交 PR 前，在 `docs/site` 中运行 `npm test`、`npm run check` 和 `npm run build`；静态构建产物导出到 `out/`。站点开发详情见 [docs/site/README.md](docs/site/README.md)。推送到 `master` 会通过 [GitHub Actions](.github/workflows/pages.yml) 自动发布站点。
 
 ## Citation
 

@@ -4,6 +4,8 @@
 
 *English | [简体中文](README.zh.md)*
 
+Live site: [English](https://keta1930.github.io/what-the-jev/) | [简体中文](https://keta1930.github.io/what-the-jev/zh/).
+
 ## Introduction
 
 **what-the-jev** showcases what Jev (TypeSafe AI's "System One" decision model) can do across a wide range of tasks. It is a growing collection of reproducible benchmarks and experiments: every task ships with its dataset, run configuration, raw model responses, and analysis reports. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
@@ -42,6 +44,7 @@ what-the-jev/
 │   ├── integrations/          [Integrations] gateways, frameworks, and platforms serving Jev
 │   ├── tools/                 [Tools] SDKs, MCP servers, CLIs, and libraries
 │   └── benchmarks/            [Benchmarks] independent and official evaluations
+├── docs/site/                 bilingual documentation site
 ├── docs/jev/                  [AGENT] Jev knowledge base
 ├── src/decision_models/       the framework that runs an experiment
 ├── schema/                    dataset and result schemas
@@ -64,6 +67,16 @@ Our goal is a decision-model community built entirely in the open-source spirit,
 Any contribution is welcome: code, corrections, experiments or examples, resource entries, and more.
 
 We look forward to your pull request.
+
+To preview documentation changes locally, use Node.js 24 and npm:
+
+```bash
+cd docs/site
+npm ci
+npm run dev
+```
+
+Open <http://localhost:20242> (English) or <http://localhost:20242/zh> (Chinese). Edit the repository Markdown sources; the site updates automatically. Before opening a PR, run `npm test`, `npm run check`, and `npm run build` from `docs/site`; the static build is exported to `out/`. See [docs/site/README.md](docs/site/README.md) for site development details. Pushes to `master` automatically publish the site through [GitHub Actions](.github/workflows/pages.yml).
 
 ## Citation
 
