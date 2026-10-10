@@ -62,7 +62,7 @@ See [resource/README.md](resource/README.md) for the full index of the resource 
 
 ## Start Here
 
-Ask your agent to clone this project: <https://github.com/keta1930/what-the-jev.git>, then copy any of the prompts below to start exploring or running experiments.
+You can ask your agent to clone this project with `git clone --depth 1 https://github.com/keta1930/what-the-jev.git`, then copy any of the prompts below to start exploring or running experiments.
 
 **Explore what Jev can do**
 

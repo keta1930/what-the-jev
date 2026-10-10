@@ -62,7 +62,7 @@ what-the-jev/
 
 ## 从这里开始
 
-让您的 AGENT clone 本项目：<https://github.com/keta1930/what-the-jev.git>，复制下面任一提示词，开始探索或运行实验。
+您可以让AGENT克隆本项目：`git clone --depth 1 https://github.com/keta1930/what-the-jev.git`，复制下面任一提示词，开始探索或运行实验。
 
 **了解 Jev 能做什么**
 
