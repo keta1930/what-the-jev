@@ -6,7 +6,7 @@ import { TableOfContents } from "./toc";
 import { notFound } from "next/navigation";
 import { DocsBody } from "fumadocs-ui/layouts/docs/page";
 import {
-  documents,
+  pageIds,
   entries,
   getDocument,
   labels,
@@ -16,7 +16,27 @@ import {
   formatDate,
   type Locale,
 } from "@/lib/content";
+import { pageStructuredData } from "@/lib/metadata";
 export function SitePage({
+  slug = [],
+  locale,
+}: {
+  slug?: string[];
+  locale: Locale;
+}) {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(pageStructuredData(slug, locale)).replace(/</g, "\\u003c"),
+        }}
+      />
+      <PageContent slug={slug} locale={locale} />
+    </>
+  );
+}
+function PageContent({
   slug = [],
   locale,
 }: {
@@ -190,11 +210,5 @@ export function SitePage({
   );
 }
 export function pageParams(locale: Locale) {
-  const paths = new Set([
-    "",
-    ...sections,
-    ...documents.filter((doc) => doc.locale === locale).map((doc) => doc.id),
-    ...entries("resources", locale).map((doc) => `resources/${doc.category}`),
-  ]);
-  return [...paths].map((path) => ({ slug: path ? path.split("/") : [] }));
+  return pageIds(locale).map((path) => ({ slug: path ? path.split("/") : [] }));
 }

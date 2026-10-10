@@ -1,4 +1,5 @@
 import data from "../../.generated/content.json";
+import { sections } from "./ui";
 
 export type Locale = "en" | "zh";
 export type Heading = { id: string; title: string; depth: number };
@@ -42,6 +43,14 @@ export function entries(kind: string, locale: Locale) {
         a.order - b.order ||
         a.id.localeCompare(b.id),
     );
+}
+export function pageIds(locale: Locale) {
+  return [...new Set([
+    "",
+    ...sections,
+    ...documents.filter((doc) => doc.locale === locale).map((doc) => doc.id),
+    ...entries("resources", locale).map((doc) => `resources/${doc.category}`),
+  ])];
 }
 export function formatDate(date: string, locale: Locale) {
   return new Intl.DateTimeFormat(locale === "zh" ? "zh-CN" : "en", {
