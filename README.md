@@ -10,6 +10,16 @@ Live site: [English](https://keta1930.github.io/what-the-jev/) | [简体中文](
 
 **what-the-jev** showcases what Jev (TypeSafe AI's "System One" decision model) can do across a wide range of tasks. This project provides a stable Jev experimentation framework for running tasks at scale with reproducible results. We use this framework to conduct experiments and provide reproducible results and analysis reports. [`example/`](example/) offers lightweight examples to help you get started, [`experiments/`](experiments/) provides complete experiments across different tasks with accompanying analysis reports, and [`resource/`](resource/) catalogs Jev-related models, tools, and applications. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
 
+## Selected Findings
+
+- **Choosing agent skills:** Jev matched the intended answer in **488 of 500 prompts (97.6%)** across 250 formal/casual task pairs, using a catalog of 126 skills. Multi-skill tasks chose from prepared candidate sets. [Read the skill-routing experiment](experiments/skill-routing/report/REPORT.md).
+- **Answering science questions:** Jev answered **150 of 198 GPQA Diamond questions correctly (75.76%)** in the published multiple-choice run. [Read the benchmark report](experiments/gpqa-diamond/report/REPORT.md).
+- **Comparing versus predicting prices:** Boston Housing pairwise comparisons reached **88.2%**, while rounding numeric scores to price bands matched only **9.7%**. Task design changed the result substantially. [Read the experiment and its limits](experiments/boston-housing/report/REPORT.md).
+
+The reports explain the datasets, scoring methods, costs, and limitations. You can inspect the published results for free; rerunning Jev requires an OpenRouter API key and incurs API charges.
+
+If this research is useful to you, **star the repository** to keep it in your saved projects as we add more experiments.
+
 ## Repository Structure
 
 ```text

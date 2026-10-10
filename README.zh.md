@@ -10,6 +10,16 @@
 
 **what-the-jev** 展示 Jev（TypeSafe AI 的 System One 决策模型）在各种任务上的能力。本项目提供一套稳定的 Jev 实验框架，支持大规模、可复现的任务运行。我们基于这套框架开展实验并提供可复现的结果与分析报告。其中，[`example/`](example/) 提供便于上手的轻量级示例，[`experiments/`](experiments/) 提供覆盖不同任务的完整实验及配套分析报告，[`resource/`](resource/) 整理 Jev 相关模型、工具与应用资源。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
 
+## 一些实验发现
+
+- **为 Agent 选择技能：** 在包含 126 个技能的实验中，Jev 在 250 对正式与口语任务组成的 **500 条提示中答对 488 条（97.6%）**。多技能任务从预先构造的候选组合中选择。[查看技能路由实验](experiments/skill-routing/report/REPORT.zh.md)。
+- **回答科学问题：** 在已公开的选择题运行中，Jev 在 **198 道 GPQA Diamond 题目里答对 150 道（75.76%）**。[查看基准测试报告](experiments/gpqa-diamond/report/REPORT.zh.md)。
+- **比较价格与预测价格：** 波士顿房价的成对比较准确率为 **88.2%**，而将数值分数取整为价格档位的匹配率只有 **9.7%**。任务设计显著影响结果。[查看实验及其局限](experiments/boston-housing/report/REPORT.zh.md)。
+
+报告说明了数据集、评分方法、费用与局限。公开结果可免费查看；重新调用 Jev 需要 OpenRouter API Key，并产生 API 费用。
+
+如果这些研究对您有帮助，欢迎 **为仓库点一个 Star**，方便收藏这个持续更新的实验项目。
+
 ## 仓库结构
 
 ```text
