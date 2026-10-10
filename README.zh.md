@@ -8,7 +8,7 @@
 
 ## 项目简介
 
-**what-the-jev** 展示 Jev（TypeSafe AI 的 System One 决策模型）在各种任务上的能力。这是一套持续扩充的可复现 benchmark 与实验合集：每个任务都附带数据集、运行配置、原始模型响应和分析报告。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
+**what-the-jev** 展示 Jev（TypeSafe AI 的 System One 决策模型）在各种任务上的能力。本项目提供一套稳定的 Jev 实验框架，支持大规模、可复现的任务运行。我们基于这套框架开展实验并提供可复现的结果与分析报告。其中，[`example/`](example/) 提供便于上手的轻量级示例，[`experiments/`](experiments/) 提供覆盖不同任务的完整实验及配套分析报告，[`resource/`](resource/) 整理 Jev 相关模型、工具与应用资源。如果你刚接触或想深入探索 Jev，本项目是一个不错的起点。
 
 ## 仓库结构
 
@@ -59,6 +59,30 @@ what-the-jev/
 实验的完整索引见 [experiments/INDEX.zh.md](experiments/INDEX.zh.md)。
 
 资源库的完整索引见 [resource/README.zh.md](resource/README.zh.md)。
+
+## 从这里开始
+
+让您的 AGENT clone 本项目：<https://github.com/keta1930/what-the-jev.git>，复制下面任一提示词，开始探索或运行实验。
+
+**了解 Jev 能做什么**
+
+```text
+介绍这个项目已经探索了 Jev 的哪些能力、发现了哪些局限，并推荐三个适合入门的示例或实验。
+```
+
+**跑通第一个示例**
+
+```text
+帮我运行 example/ticket-triage 工单分诊示例。检查运行环境和 API 配置，告诉我需要补充什么；运行完成后，解释模型的回答、结果文件和调用费用。
+```
+
+**验证自己的任务**
+
+```text
+我想用 Jev 完成：[描述你的任务]。
+
+寻找仓库中可参考的示例、实验和资源。使用现有框架，按仓库规范设计一个实验，先用少量样本验证，并提供可复现的实验与分析报告，说明效果、费用和局限。
+```
 
 ## 欢迎贡献
 

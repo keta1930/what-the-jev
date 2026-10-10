@@ -8,7 +8,7 @@ Live site: [English](https://keta1930.github.io/what-the-jev/) | [简体中文](
 
 ## Introduction
 
-**what-the-jev** showcases what Jev (TypeSafe AI's "System One" decision model) can do across a wide range of tasks. It is a growing collection of reproducible benchmarks and experiments: every task ships with its dataset, run configuration, raw model responses, and analysis reports. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
+**what-the-jev** showcases what Jev (TypeSafe AI's "System One" decision model) can do across a wide range of tasks. This project provides a stable Jev experimentation framework for running tasks at scale with reproducible results. We use this framework to conduct experiments and provide reproducible results and analysis reports. [`example/`](example/) offers lightweight examples to help you get started, [`experiments/`](experiments/) provides complete experiments across different tasks with accompanying analysis reports, and [`resource/`](resource/) catalogs Jev-related models, tools, and applications. Whether you are new to Jev or want to explore it in depth, this project is a good place to start.
 
 ## Repository Structure
 
@@ -59,6 +59,30 @@ See [example/INDEX.md](example/INDEX.md) for the full index of lightweight examp
 See [experiments/INDEX.md](experiments/INDEX.md) for the full index of experiments.
 
 See [resource/README.md](resource/README.md) for the full index of the resource catalog.
+
+## Start Here
+
+Ask your agent to clone this project: <https://github.com/keta1930/what-the-jev.git>, then copy any of the prompts below to start exploring or running experiments.
+
+**Explore what Jev can do**
+
+```text
+Explain which Jev capabilities this project has explored and what limitations it has found. Recommend three examples or experiments suitable for getting started.
+```
+
+**Run your first example**
+
+```text
+Help me run the ticket-triage example in example/ticket-triage. Check the runtime environment and API configuration, and tell me what I need to provide. After the run, explain the model's answers, result files, and API costs.
+```
+
+**Evaluate your own task**
+
+```text
+I want to use Jev to: [describe your task].
+
+Find relevant examples, experiments, and resources in this repository. Use the existing framework to design an experiment following the repository conventions. Validate it with a small number of samples first, then provide a reproducible experiment and an analysis report explaining its effectiveness, costs, and limitations.
+```
 
 ## Contributing
 
