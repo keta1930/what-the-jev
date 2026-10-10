@@ -95,6 +95,8 @@ I want to use Jev to: [describe your task].
 Find relevant examples, experiments, and resources in this repository. Use the existing framework to design an experiment following the repository conventions. Validate it with a small number of samples first, then provide a reproducible experiment and an analysis report explaining its effectiveness, costs, and limitations.
 ```
 
+Experiment results are saved as JSONL. To make them easier to read in VS Code, the project author also provides [JSONL Native Reader](https://github.com/keta1930/jsonl-native-reader), an extension that displays JSONL as a formatted JSON array. Search for **JSONL Native Reader** in the VS Code Extensions Marketplace.
+
 ## Roadmap
 
 We will continue exploring applications of decision models and improving the experimentation framework and interactive experience:

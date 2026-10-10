@@ -95,6 +95,8 @@ what-the-jev/
 寻找仓库中可参考的示例、实验和资源。使用现有框架，按仓库规范设计一个实验，先用少量样本验证，并提供可复现的实验与分析报告，说明效果、费用和局限。
 ```
 
+实验结果以 JSONL 格式保存。为了方便在 VS Code 中阅读，项目作者还提供了 [JSONL Native Reader](https://github.com/keta1930/jsonl-native-reader) 插件，可将 JSONL 展示为格式化的 JSON 数组。VS Code 插件市场搜索名称：**JSONL Native Reader**。
+
 ## 路线图
 
 我们将持续拓展决策模型的应用场景，并完善实验框架与交互体验：
