@@ -6,19 +6,23 @@
 
 ## Frontmatter
 
-`README.md` 与 `README.zh.md` 各自以 YAML frontmatter 开头，三个字段缺一不可：
+`README.md` 与 `README.zh.md` 各自以 YAML frontmatter 开头，六个字段缺一不可：
 
 ```yaml
 ---
 title: 示例标题
 date: YYYY-MM-DD
 summary: 正文第一句
+samples: 样本数
+input_tokens: 输入token数
+cost: 费用
 ---
 ```
 
 - `title` 写示例标题，与正文 H1 的文本相同。
 - `date` 写最近修改日期，新建与每次修改都写当日。
 - `summary` 写本示例测什么的一句话，与正文第一句的文本相同。
+- `samples`、`input_tokens`、`cost` 写本文件对应语言那份结果的样本数、输入 token 总数（k 为单位，保留一位小数）与总费用（美元）；英文 README 取 `responses.jsonl`，中文 README 取 `responses_zh.jsonl`，数值核自各响应的 `usage` 字段。
 
 ## 结构
 

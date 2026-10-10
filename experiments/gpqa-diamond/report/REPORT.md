@@ -1,7 +1,10 @@
 ---
 title: "GPQA Diamond Graduate-Level Science: JEV as a Four-Choice Solver"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore JEV's performance on GPQA Diamond graduate-level science questions."
+samples: 198
+input_tokens: 109.4k
+cost: 0.004594548
 ---
 
 # GPQA Diamond Graduate-Level Science: JEV as a Four-Choice Solver

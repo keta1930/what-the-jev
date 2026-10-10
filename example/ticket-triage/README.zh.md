@@ -1,7 +1,10 @@
 ---
 title: "工单分诊"
-date: 2026-10-09
+date: 2026-10-10
 summary: "本实验测试 Jev 模型对客服工单的判断能力。"
+samples: 1
+input_tokens: 0.7k
+cost: 0.000028728
 ---
 
 # 工单分诊

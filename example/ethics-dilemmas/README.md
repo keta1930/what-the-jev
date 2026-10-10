@@ -1,7 +1,10 @@
 ---
 title: "Classic Ethical Dilemmas"
-date: 2026-10-09
+date: 2026-10-10
 summary: "This experiment tests the Jev model's judgments on classic ethical dilemmas."
+samples: 5
+input_tokens: 2.3k
+cost: 0.000095466
 ---
 
 # Classic Ethical Dilemmas

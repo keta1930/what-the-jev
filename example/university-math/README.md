@@ -1,7 +1,10 @@
 ---
 title: "University Math Multiple Choice"
-date: 2026-10-09
+date: 2026-10-10
 summary: "This experiment tests the Jev model's ability to answer university-level computational math problems."
+samples: 5
+input_tokens: 3.3k
+cost: 0.000138978
 ---
 
 # University Math Multiple Choice

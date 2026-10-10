@@ -1,7 +1,10 @@
 ---
 title: "Paper Library Management: JEV Decides Which Papers to Collect and Where They Belong"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under."
+samples: 400
+input_tokens: 385.1k
+cost: 0.016174452
 ---
 
 # Paper Library Management: JEV Decides Which Papers to Collect and Where They Belong

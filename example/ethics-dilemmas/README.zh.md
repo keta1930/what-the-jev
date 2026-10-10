@@ -1,7 +1,10 @@
 ---
 title: "经典伦理困境"
-date: 2026-10-09
+date: 2026-10-10
 summary: "本实验测试 Jev 模型在经典伦理困境中的判断。"
+samples: 5
+input_tokens: 2.6k
+cost: 0.000109158
 ---
 
 # 经典伦理困境

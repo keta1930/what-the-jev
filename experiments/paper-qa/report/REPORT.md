@@ -1,7 +1,10 @@
 ---
 title: "Paper QA Fast Path: JEV Judges Statements over Paper Excerpts"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore whether JEV can answer questions about a paper based on its own text."
+samples: 240
+input_tokens: 1591.4k
+cost: 0.066836868
 ---
 
 # Paper QA Fast Path: JEV Judges Statements over Paper Excerpts

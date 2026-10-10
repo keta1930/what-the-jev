@@ -1,7 +1,10 @@
 ---
 title: "Judging GRPO Rollouts: JEV Picking the Best of Eight Thinking Traces"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore JEV's performance on GRPO trajectory reward assignment."
+samples: 300
+input_tokens: 2026.1k
+cost: 0.085096116
 ---
 
 # Judging GRPO Rollouts: JEV Picking the Best of Eight Thinking Traces

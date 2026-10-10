@@ -1,7 +1,10 @@
 ---
 title: "SocialIQA Social Commonsense: JEV as a Three-Choice Judge"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore JEV's performance on SocialIQA social commonsense questions."
+samples: 2224
+input_tokens: 851.3k
+cost: 0.035755734
 ---
 
 # SocialIQA Social Commonsense: JEV as a Three-Choice Judge

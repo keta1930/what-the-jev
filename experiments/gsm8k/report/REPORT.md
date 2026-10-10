@@ -1,7 +1,10 @@
 ---
 title: "GSM8K Grade-School Math: JEV as a Four-Choice Solver"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore JEV's performance on GSM8K grade-school math word problems."
+samples: 1319
+input_tokens: 597.4k
+cost: 0.025092774
 ---
 
 # GSM8K Grade-School Math: JEV as a Four-Choice Solver

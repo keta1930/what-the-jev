@@ -1,7 +1,10 @@
 ---
 title: "Ticket Triage"
-date: 2026-10-09
+date: 2026-10-10
 summary: "This experiment tests the Jev model's judgment on customer support tickets."
+samples: 1
+input_tokens: 0.6k
+cost: 0.000025872
 ---
 
 # Ticket Triage

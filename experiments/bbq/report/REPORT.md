@@ -1,7 +1,10 @@
 ---
 title: "BBQ Bias-Sensitive QA: JEV's Three-Choice Accuracy and Bias Score"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes."
+samples: 58492
+input_tokens: 21932.2k
+cost: 0.921154332
 ---
 
 # BBQ Bias-Sensitive QA: JEV's Three-Choice Accuracy and Bias Score

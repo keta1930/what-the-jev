@@ -1,7 +1,10 @@
 ---
 title: "Skill Routing: Picking the Right Skills from a 126-Skill Catalog"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills."
+samples: 500
+input_tokens: 5107.4k
+cost: 0.214509582
 ---
 
 # Skill Routing: Picking the Right Skills from a 126-Skill Catalog

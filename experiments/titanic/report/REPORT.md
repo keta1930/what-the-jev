@@ -1,7 +1,10 @@
 ---
 title: "Titanic Survival: JEV as a Binary Classifier over Fields and Prose"
-date: 2026-10-09
+date: 2026-10-10
 summary: "Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text."
+samples: 1782
+input_tokens: 962.4k
+cost: 0.040420086
 ---
 
 # Titanic Survival: JEV as a Binary Classifier over Fields and Prose

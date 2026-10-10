@@ -1,7 +1,10 @@
 ---
 title: "Math Word Problems"
-date: 2026-10-09
+date: 2026-10-10
 summary: "This experiment tests the Jev model's ability to answer elementary arithmetic word problems."
+samples: 2
+input_tokens: 1.5k
+cost: 0.000063924
 ---
 
 # Math Word Problems

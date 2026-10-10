@@ -1,7 +1,10 @@
 ---
 title: "Paper QA"
-date: 2026-10-09
+date: 2026-10-10
 summary: "This experiment tests whether the Jev model can answer questions about a research paper from only part of its text."
+samples: 3
+input_tokens: 19.6k
+cost: 0.000821772
 ---
 
 # Paper QA

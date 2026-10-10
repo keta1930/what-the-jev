@@ -1,7 +1,10 @@
 ---
 title: "GPQA Diamond 研究生级科学题：JEV 四选一作答评估"
-date: 2026-10-09
+date: 2026-10-10
 summary: "探索 JEV 在 GPQA Diamond 研究生级科学题上的表现。"
+samples: 198
+input_tokens: 109.4k
+cost: 0.004594548
 ---
 
 # GPQA Diamond 研究生级科学题：JEV 四选一作答评估

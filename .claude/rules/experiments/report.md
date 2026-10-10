@@ -37,18 +37,22 @@ report/
 
 ## Frontmatter
 
-REPORT.md 以 YAML frontmatter 开头，三个字段缺一不可：
+REPORT.md 以 YAML frontmatter 开头，六个字段缺一不可：
 
 ```yaml
 ---
 title: 报告标题
 date: YYYY-MM-DD
 summary: 一句话摘要
+samples: 样本数
+input_tokens: 输入token数
+cost: 费用
 ---
 ```
 
 - `date` 是最近修改时间，每次改报告时更新。
 - `summary` 一句话说清测什么能力、在什么场景，如「测试 JEV 模型能否回忆 1996 至 2024 年八届美国总统大选的胜选者」。
+- `samples`、`input_tokens`、`cost` 写该实验全部结果文件合计的样本数、输入 token 总数（k 为单位，保留一位小数）与总费用（美元），数值核自各响应的 `usage` 字段。
 
 ## 报告结构
 

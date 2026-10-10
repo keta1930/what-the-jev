@@ -1,7 +1,10 @@
 ---
 title: "注入守卫"
-date: 2026-10-09
+date: 2026-10-10
 summary: "本实验测试 Jev 模型能否发现多轮 agent 对话中藏在工具调用结果里的提示词注入攻击。"
+samples: 2
+input_tokens: 1.4k
+cost: 0.00005796
 ---
 
 # 注入守卫

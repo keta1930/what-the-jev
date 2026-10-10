@@ -1,7 +1,10 @@
 ---
 title: "数学应用题"
-date: 2026-10-09
+date: 2026-10-10
 summary: "本实验测试 Jev 模型对小学算术应用题的作答能力。"
+samples: 2
+input_tokens: 1.8k
+cost: 0.000075306
 ---
 
 # 数学应用题

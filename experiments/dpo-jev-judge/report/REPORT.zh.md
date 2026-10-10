@@ -1,7 +1,10 @@
 ---
 title: "DPO 偏好对判优：JEV 二选一并对照 LLM 裁判"
-date: 2026-10-09
+date: 2026-10-10
 summary: "探索 JEV 在 DPO 训练数据偏好标注上的表现。"
+samples: 300
+input_tokens: 716.0k
+cost: 0.0300741
 ---
 
 # DPO 偏好对判优：JEV 二选一并对照 LLM 裁判
