@@ -68,16 +68,6 @@ Any contribution is welcome: code, corrections, experiments or examples, resourc
 
 We look forward to your pull request.
 
-To preview documentation changes locally, use Node.js 24 and npm:
-
-```bash
-cd docs/site
-npm ci
-npm run dev
-```
-
-Open <http://localhost:20242> (English) or <http://localhost:20242/zh> (Chinese). Edit the repository Markdown sources; the site updates automatically. Before opening a PR, run `npm test`, `npm run check`, and `npm run build` from `docs/site`; the static build is exported to `out/`. See [docs/site/README.md](docs/site/README.md) for site development details. Pushes to `master` automatically publish the site through [GitHub Actions](.github/workflows/pages.yml).
-
 ## Citation
 
 If you use this repository, please cite it:

@@ -68,16 +68,6 @@ what-the-jev/
 
 期待您的 PR。
 
-本地预览文档修改需要 Node.js 24 和 npm：
-
-```bash
-cd docs/site
-npm ci
-npm run dev
-```
-
-打开 <http://localhost:20242>（英文）或 <http://localhost:20242/zh>（中文）。编辑仓库中的 Markdown 源文件，站点会自动更新。提交 PR 前，在 `docs/site` 中运行 `npm test`、`npm run check` 和 `npm run build`；静态构建产物导出到 `out/`。站点开发详情见 [docs/site/README.md](docs/site/README.md)。推送到 `master` 会通过 [GitHub Actions](.github/workflows/pages.yml) 自动发布站点。
-
 ## Citation
 
 引用本仓库：
