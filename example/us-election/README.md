@@ -1,5 +1,5 @@
 ---
-title: "US Presidential Election Results"
+title: "US Presidential Election"
 date: 2026-10-10
 summary: "This experiment tests whether the Jev model knows the outcomes of the eight US presidential elections from 1996 to 2024."
 samples: 8
@@ -7,7 +7,7 @@ input_tokens: 2.9k
 cost: 0.000121632
 ---
 
-# US Presidential Election Results
+# US Presidential Election
 
 This experiment tests whether the Jev model knows the outcomes of the eight US presidential elections from 1996 to 2024.
 

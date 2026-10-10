@@ -1,5 +1,5 @@
 ---
-title: "Judging DPO Preference Pairs: JEV Picking the Better of Two Thinking Traces"
+title: "DPO Preference Annotation"
 date: 2026-10-10
 summary: "Explore JEV's performance on preference annotation for DPO training data."
 samples: 300
@@ -7,7 +7,7 @@ input_tokens: 716.0k
 cost: 0.0300741
 ---
 
-# Judging DPO Preference Pairs: JEV Picking the Better of Two Thinking Traces
+# DPO Preference Annotation
 
 ## Abstract
 

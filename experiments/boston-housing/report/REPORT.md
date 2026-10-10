@@ -1,5 +1,5 @@
 ---
-title: "Boston Housing: JEV Absolute Valuation vs Relative Comparison"
+title: "Boston Housing: Prediction and Comparison"
 date: 2026-10-10
 summary: "Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs."
 samples: 1106
@@ -7,7 +7,7 @@ input_tokens: 1026.2k
 cost: 0.043098972
 ---
 
-# Boston Housing: JEV Absolute Valuation vs Relative Comparison
+# Boston Housing: Prediction and Comparison
 
 ## Abstract
 

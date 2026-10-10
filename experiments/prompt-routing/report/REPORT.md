@@ -1,5 +1,5 @@
 ---
-title: "Prompt Routing for a Paper-QA System: JEV as the Entry Router"
+title: "Prompt Routing"
 date: 2026-10-10
 summary: "Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path."
 samples: 480
@@ -7,7 +7,7 @@ input_tokens: 452.5k
 cost: 0.019004748
 ---
 
-# Prompt Routing for a Paper-QA System: JEV as the Entry Router
+# Prompt Routing
 
 ## Abstract
 

@@ -1,5 +1,5 @@
 ---
-title: "MMLU-Pro Multi-Discipline Questions: JEV as a Ten-Choice Solver"
+title: "MMLU-Pro Multi-Discipline Questions"
 date: 2026-10-10
 summary: "Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines."
 samples: 12032
@@ -7,7 +7,7 @@ input_tokens: 6650.7k
 cost: 0.279330744
 ---
 
-# MMLU-Pro Multi-Discipline Questions: JEV as a Ten-Choice Solver
+# MMLU-Pro Multi-Discipline Questions
 
 ## Abstract
 

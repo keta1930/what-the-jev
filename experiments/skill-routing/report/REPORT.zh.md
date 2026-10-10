@@ -1,5 +1,5 @@
 ---
-title: "技能路由：从 126 个技能的目录中选出正确技能"
+title: "skill路由"
 date: 2026-10-10
 summary: "探索 JEV 能否把用户任务路由到 126 个真实 Agent Skill 中的正确技能、技能组合或 none。"
 samples: 500
@@ -7,7 +7,7 @@ input_tokens: 5107.4k
 cost: 0.214509582
 ---
 
-# 技能路由：从 126 个技能的目录中选出正确技能
+# skill路由
 
 ## 摘要
 

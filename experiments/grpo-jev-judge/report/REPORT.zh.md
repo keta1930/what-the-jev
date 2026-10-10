@@ -1,5 +1,5 @@
 ---
-title: "GRPO Rollout 判优：JEV 八选一并对照 LLM 裁判"
+title: "GRPO 奖励分配"
 date: 2026-10-10
 summary: "探索 JEV 在 GRPO 轨迹奖励分配上的表现。"
 samples: 300
@@ -7,7 +7,7 @@ input_tokens: 2026.1k
 cost: 0.085096116
 ---
 
-# GRPO Rollout 判优：JEV 八选一并对照 LLM 裁判
+# GRPO 奖励分配
 
 ## 摘要
 

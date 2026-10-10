@@ -1,5 +1,5 @@
 ---
-title: "SocialIQA 社会常识：JEV 三选一作答评估"
+title: "SocialIQA 社会常识"
 date: 2026-10-10
 summary: "探索 JEV 在 SocialIQA 社会常识题上的表现。"
 samples: 2224
@@ -7,7 +7,7 @@ input_tokens: 851.3k
 cost: 0.035755734
 ---
 
-# SocialIQA 社会常识：JEV 三选一作答评估
+# SocialIQA 社会常识
 
 ## 摘要
 

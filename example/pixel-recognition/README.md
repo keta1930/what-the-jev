@@ -1,5 +1,5 @@
 ---
-title: "Recognizing Digits and Animals from Pixels"
+title: "Pixel Recognition"
 date: 2026-10-10
 summary: "This experiment tests whether the Jev model can recognize image content from pixel values alone."
 samples: 2
@@ -7,7 +7,7 @@ input_tokens: 13.9k
 cost: 0.000585228
 ---
 
-# Recognizing Digits and Animals from Pixels
+# Pixel Recognition
 
 This experiment tests whether the Jev model can recognize image content from pixel values alone.
 

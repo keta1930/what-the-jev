@@ -1,5 +1,5 @@
 ---
-title: "MMLU-Pro 多学科知识问答：JEV 十选一作答评估"
+title: "MMLU-Pro 多学科知识问答"
 date: 2026-10-10
 summary: "探索 JEV 在 MMLU-Pro 覆盖 14 个学科的大学水平题目上的表现。"
 samples: 12032
@@ -7,7 +7,7 @@ input_tokens: 6650.7k
 cost: 0.279330744
 ---
 
-# MMLU-Pro 多学科知识问答：JEV 十选一作答评估
+# MMLU-Pro 多学科知识问答
 
 ## 摘要
 
