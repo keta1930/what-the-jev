@@ -79,25 +79,32 @@ what-the-jev/
 
 You can ask your agent to clone this project with `git clone --depth 1 https://github.com/keta1930/what-the-jev.git`, then copy any of the prompts below to start exploring or running experiments.
 
-**Explore what Jev can do**
-
 ```text
+1. Explore what Jev can do
+
 Explain which Jev capabilities this project has explored and what limitations it has found. Recommend three examples or experiments suitable for getting started.
-```
 
-**Run your first example**
+2. Run your first example
 
-```text
 Help me run the ticket-triage example in example/ticket-triage. Check the runtime environment and API configuration, and tell me what I need to provide. After the run, explain the model's answers, result files, and API costs.
-```
 
-**Evaluate your own task**
+3. Evaluate your own task
 
-```text
 I want to use Jev to: [describe your task].
 
 Find relevant examples, experiments, and resources in this repository. Use the existing framework to design an experiment following the repository conventions. Validate it with a small number of samples first, then provide a reproducible experiment and an analysis report explaining its effectiveness, costs, and limitations.
 ```
+
+## Roadmap
+
+We will continue exploring applications of decision models and improving the experimentation framework and interactive experience:
+
+- **Expand examples and experiments**: Add more work to `example/` and `experiments/`, exploring decision models in research and commercial settings with reproducible experiments, results, and analysis reports.
+- **Develop interactive games**: Build experiments in `game/`, each with its own frontend and support for replaying the experiment, making the decision process easier to follow and more engaging to play. This section has not yet been implemented.
+- **Keep the resource catalog current**: Maintain `resource/` with decision-model-related models, tools, integrations, applications, and evaluations.
+- **Strengthen the experiment infrastructure**: Improve model integration and registration so more open-source decision models can run experiments within the same framework for reproduction, analysis, and comparison.
+
+Track specific tasks and progress in [Roadmap Issue #7](https://github.com/keta1930/what-the-jev/issues/7). Discussion and contributions are welcome.
 
 ## Contributing
 
