@@ -438,10 +438,14 @@ h1 {
   border-radius: 3px;
   color: var(--accent);
 }
-.article-body table {
-  display: block;
+.article-body .table-scroll {
   overflow-x: auto;
   max-width: 100%;
+  margin: 2em 0;
+}
+.article-body table {
+  width: 100%;
+  margin: 0;
   font-family: var(--sans);
   font-size: 13px;
   line-height: 1.7;

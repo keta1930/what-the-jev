@@ -43,6 +43,15 @@ export async function renderMarkdown(markdown, resolve) {
           }
         }
         if (node.tagName === "img") node.properties.loading = "lazy";
+        if (node.tagName === "table") {
+          // 外层负责滚动，表格保留原生列宽分配。
+          parent.children[index] = {
+            type: "element",
+            tagName: "div",
+            properties: { className: ["table-scroll"] },
+            children: [node],
+          };
+        }
       });
     })
     .use(rehypeHighlight, { detect: false, ignoreMissing: true })
