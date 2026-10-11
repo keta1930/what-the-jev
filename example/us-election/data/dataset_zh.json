@@ -160,6 +160,26 @@
       "reference": {
         "winner": {"choice": "democratic"}
       }
+    },
+    {
+      "id": "E09",
+      "input": {
+        "state": "2020年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。仅使用 2019 年之前可获得的信息，不得使用 2018 年之后发生的任何事件信息。",
+            "criteria": {
+              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
+              "democratic": "民主党候选人乔·拜登（Joe Biden）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "democratic"}
+      }
     }
   ]
 }

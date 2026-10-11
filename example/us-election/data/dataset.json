@@ -176,6 +176,28 @@
           "choice": "democratic"
         }
       }
+    },
+    {
+      "id": "E09",
+      "input": {
+        "state": "The 2020 US presidential election",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "Judge which candidate won this election, using only information available before 2019. Do not use any information about events after 2018.",
+            "criteria": {
+              "republican": "The Republican candidate Donald Trump wins.",
+              "democratic": "The Democratic candidate Joe Biden wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {
+          "choice": "democratic"
+        }
+      }
     }
   ]
 }
