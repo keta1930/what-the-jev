@@ -1,6 +1,6 @@
 ---
 title: "GRPO Reward Assignment"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on GRPO trajectory reward assignment."
 samples: 300
 input_tokens: 2026.1k
@@ -8,10 +8,6 @@ cost: 0.085096116
 ---
 
 # GRPO Reward Assignment
-
-## Abstract
-
-This experiment tests whether JEV can identify the best thinking trace the way an LLM judge does. The setting is 150 open-ended reasoning questions, each with eight thinking traces sampled from the same model. A DeepSeek LLM judge has picked one winner per question, and JEV must pick the same trace out of eight. JEV matched the judge on 45.3% of the questions (95% CI 37.6–53.3%). That is well above the 12.5% random level, but JEV still misses more than half. Its picks lean toward the first positions: 34.0% fall on R1, while R8 is picked only 7 times. JEV's confidence sorts the answers but never becomes reliable: the mean is 0.377 on hits against 0.285 on misses. Moving the candidate texts into the criteria yields 42.0%. The standard-layout run consumed 1,020,099 input tokens and 12,750 output tokens, costing $0.0428. JEV picks the best of eight better than chance, but the position bias is clear, and it is not yet able to replace the judge and produce labels.
 
 ## 1 Purpose
 

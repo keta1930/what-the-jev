@@ -1,6 +1,6 @@
 ---
 title: "Skill Routing"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills."
 samples: 500
 input_tokens: 5107.4k
@@ -8,10 +8,6 @@ cost: 0.214509582
 ---
 
 # Skill Routing
-
-## Abstract
-
-This experiment tests whether JEV can route a user task to the right entry in a skill catalog. The setting is 500 tasks over 126 real agent skills from four public repositories; the correct answer is one skill, a set of two or three skills, or none. Judged strictly, JEV routed 97.60% of tasks correctly (95% CI 95.85–98.62%), far above the roughly 0.8% random baseline on the 127-option tasks; counting the acceptable alternatives the dataset marks, accuracy reaches 98.60%. Confidence separates trustworthy answers from the rest: the 68.4% of answers at confidence ≥0.99 are all correct, and errors concentrate at lower confidence. The run consumed 5,107,371 input tokens and 541,609 output tokens, costing $0.2145 in total. We conclude that JEV can serve directly as a skill router at this catalog scale, and that its confidence output identifies which answers require review.
 
 ## 1 Purpose
 

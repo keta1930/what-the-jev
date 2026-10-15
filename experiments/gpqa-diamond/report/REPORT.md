@@ -1,6 +1,6 @@
 ---
 title: "GPQA Diamond Graduate-Level Science"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on GPQA Diamond graduate-level science questions."
 samples: 198
 input_tokens: 109.4k
@@ -8,10 +8,6 @@ cost: 0.004594548
 ---
 
 # GPQA Diamond Graduate-Level Science
-
-## Abstract
-
-This experiment tests whether JEV can answer graduate-level science questions. The setting is the GPQA Diamond subset: 198 expert-written questions in biology, physics, and chemistry, each posed as a four-choice question. JEV answered 75.76% correctly (95% CI 69.33–81.20%), far above the 25% random level. The confidence JEV gives with each answer rises with accuracy: answers at confidence ≥0.85 are 95.45% correct, and even answers below 0.6 still reach 60.61%. The full run consumed 109,394 input tokens and 8,910 output tokens, costing $0.0046 in total. JEV therefore answers graduate-level science questions at a usable level in a single pass, and its confidence separates trustworthy answers from ones that need review.
 
 ## 1 Purpose
 

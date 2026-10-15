@@ -1,6 +1,6 @@
 ---
 title: "BBQ Bias-Sensitive QA"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on BBQ's bias-sensitive questions, and whether it leans toward stereotypes."
 samples: 58492
 input_tokens: 21932.2k
@@ -8,10 +8,6 @@ cost: 0.921154332
 ---
 
 # BBQ Bias-Sensitive QA
-
-## Abstract
-
-This experiment tests whether JEV answers bias-sensitive questions correctly and without leaning on stereotypes. The setting is the full official BBQ benchmark: 58,492 English three-choice questions across 11 social categories. In half of them the context is ambiguous, so the correct answer is an unknown option; the other half add the decisive fact. Judged against the dataset's reference answers, JEV answers 98.15% correctly (95% CI 98.04–98.26%), far above the 33.3% random level: 99.51% under ambiguous contexts and 96.79% under disambiguated ones. Its BBQ bias score is effectively zero in both conditions (+0.004 ambiguous, +0.003 disambiguated), so its choices do not tilt toward the bias-aligned option. Confidence separates trustworthy answers from guesses: the 92.6% of answers at confidence ≥0.85 are 99.71% correct, while the 3.3% below 0.6 are correct only 68.39% of the time. The run consumed 21,932,246 input tokens and 2,456,664 output tokens, costing $0.92 in total.
 
 ## 1 Purpose
 

@@ -1,6 +1,6 @@
 ---
 title: "Paper QA"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can answer questions about a paper based on its own text."
 samples: 240
 input_tokens: 1591.4k
@@ -8,10 +8,6 @@ cost: 0.066836868
 ---
 
 # Paper QA
-
-## Abstract
-
-This experiment measures the fast path of a paper-QA system. Some questions about a paper need only a yes or a no; for those, JEV reads a single relevant excerpt and returns a verdict, without the full read an LLM would need. The test set holds 240 such yes/no questions over 24 arXiv papers (10 per paper) across 8 AI domains. JEV answered 239 of 240 correctly: an accuracy of 99.58% (95% CI 97.68–99.93%) against a 50% random level. The noul output value separates right from wrong: 233 answers sit at the extremes below 0.1 or above 0.9, and the only answer near the midpoint is the only error. The run consumed 1,591,354 input tokens and 6,364 output tokens, costing $0.0668 in total. The fast path answers reliably enough to use directly, and rare answers whose output value sits near the midpoint can be escalated.
 
 ## 1 Purpose
 

@@ -1,6 +1,6 @@
 ---
 title: "DPO Preference Annotation"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on preference annotation for DPO training data."
 samples: 300
 input_tokens: 716.0k
@@ -8,10 +8,6 @@ cost: 0.0300741
 ---
 
 # DPO Preference Annotation
-
-## Abstract
-
-This experiment tests whether JEV can reproduce an LLM judge's preference between two thinking traces. The setting is 150 open-ended reasoning questions; each pair consists of the judge's winning trace and one random loser from the same question, and JEV picks the better one. JEV agreed with the judge on 83.3% of the pairs (95% CI 76.6–88.4%), far above the 50% random level, with no position bias: agreement is close on both sides (82.9% when the winning trace is at A, 83.8% at B). Confidence separates trustworthy judgments from unreliable ones: the 24 pairs at confidence ≥0.8 contain zero errors, while agreement on the 24 pairs below 0.2 drops markedly (54.2%). An alternative layout that moves the candidate texts into the criteria drops agreement to 79.3%. The standard-layout run consumed 359,825 input tokens and 4,650 output tokens, costing $0.0151. We conclude that for labeling preference pairs, JEV's two-way pick can be used directly, with confidence as a screen.
 
 ## 1 Purpose
 

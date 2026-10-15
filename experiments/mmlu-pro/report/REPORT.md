@@ -1,6 +1,6 @@
 ---
 title: "MMLU-Pro Multi-Discipline Questions"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on MMLU-Pro college-level questions across 14 disciplines."
 samples: 12032
 input_tokens: 6650.7k
@@ -8,10 +8,6 @@ cost: 0.279330744
 ---
 
 # MMLU-Pro Multi-Discipline Questions
-
-## Abstract
-
-This experiment asks whether JEV can answer college-level questions from many disciplines. The setting is the full MMLU-Pro test split: 12,032 questions in 14 categories, each answered as a single choice, mostly among ten options. JEV answered 82.57% correctly (95% CI 81.89–83.25%), well above the roughly 10% random-guessing level. Accuracy moves with the category, from 91.35% in biology down to 76.20% in law. The confidence JEV puts on each answer follows accuracy: the 61.1% of answers at confidence ≥0.85 are 94.15% correct, while the low-confidence tier holds 61.0% of all errors. The run used 6,650,732 input tokens and 1,002,474 output tokens, at a total cost of $0.2793. We conclude that JEV answers multi-discipline knowledge questions reliably, and that its confidence separates trustworthy answers from ones that need review.
 
 ## 1 Purpose
 

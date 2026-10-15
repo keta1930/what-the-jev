@@ -1,6 +1,6 @@
 ---
 title: "SocialIQA Social Commonsense"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on SocialIQA social commonsense questions."
 samples: 2224
 input_tokens: 851.3k
@@ -8,10 +8,6 @@ cost: 0.035755734
 ---
 
 # SocialIQA Social Commonsense
-
-## Abstract
-
-This experiment tests whether JEV can answer questions about everyday social situations. The setting is the full SocialIQA test split: 2,224 questions, each with a short social scenario and three candidate answers. JEV answered 80.58% correctly (95% CI 78.93–82.22%), far above the 33.3% random level, with accuracy nearly uniform across the nine ATOMIC question dimensions (78.11–84.66%). The confidence JEV reports is reliable: its mean (0.803) matches the actual accuracy, answers at confidence ≥0.85 make up 61.2% of the set and are 93.24% correct, and answers below 0.6 fall to 50.96%. The full run consumed 851,327 input tokens and 84,512 output tokens, costing $0.0358 in total. We conclude that JEV performs consistently across social commonsense question types, and that its confidence can indicate which answers are reliable.
 
 ## 1 Purpose
 

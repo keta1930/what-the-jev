@@ -1,6 +1,6 @@
 ---
 title: "Paper Classification"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can decide, based on a research preference, whether an arXiv paper belongs in a paper library, and which topic it falls under."
 samples: 400
 input_tokens: 385.1k
@@ -8,10 +8,6 @@ cost: 0.016174452
 ---
 
 # Paper Classification
-
-## Abstract
-
-This experiment tests whether JEV can run the intake of a personal paper library: given one arXiv paper, decide whether to collect it and which topic it belongs to. The setting is 100 recent arXiv papers, each judged under four combinations of material completeness and criteria definition. That gives 400 samples, each with two three-choice questions. JEV answers the decision question correctly on 93.75% of samples (95% CI 91.38–96.12%) and the topic question on 92.50% (89.92–95.08%), far above the 33.3% random level. Written criteria matter more than fuller material: defined criteria lift accuracy by 3.5–5 percentage points, while a fuller paper record changes accuracy by at most 0.5 points. Errors run in one direction: all 25 misjudgments admit a paper that should be skipped, and none of the 176 papers that belong is missed; the unsure option is never used. Confidence separates trustworthy answers: the 81.5% of answers above 0.9 confidence are 97.24% correct. The run consumed 385,106 input tokens and 31,088 output tokens, costing $0.0162. We conclude that JEV is fit for first-pass library intake, with low-confidence judgments routed to review.
 
 ## 1 Purpose
 

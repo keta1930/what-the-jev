@@ -1,6 +1,6 @@
 ---
 title: "Titanic Survival"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text."
 samples: 1782
 input_tokens: 962.4k
@@ -8,10 +8,6 @@ cost: 0.040420086
 ---
 
 # Titanic Survival
-
-## Abstract
-
-This experiment tests whether JEV can judge who survived the Titanic disaster from passenger records, and whether the input representation matters. The setting is the Kaggle Titanic training set: 891 passengers, each judged twice, once from a structured field record (fields) and once from a natural-language rendering of the same record (text). Against the recorded outcomes, fields scores 72.39% (95% CI 69.46–75.33%) and text 71.38% (95% CI 68.41–74.35%), both well above the 50% random level and the 61.62% always-died baseline. Under both forms, accuracy rises monotonically with the probability assigned to the chosen option; this experiment is a two-way choice, so confidence maps one-to-one onto the selected probability (confidence equals twice the selected probability minus one) and the two carry the same information. Under text the values sit lower overall: 81.6% of the confidence scores fall below 0.5, corresponding to a selected probability below about 0.75. The text form uses 29.6% fewer input tokens (397,495 against 564,888) and costs $0.0167, against $0.0237 for fields. The results show that JEV scores well above the simple baselines on this binary classification, that the input form is a cost choice rather than an accuracy choice, and that answers can be filtered by either the selected probability or confidence.
 
 ## 1 Purpose
 

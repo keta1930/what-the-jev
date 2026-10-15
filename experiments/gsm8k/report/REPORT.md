@@ -1,6 +1,6 @@
 ---
 title: "GSM8K Grade-School Math Word Problems"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore JEV's performance on GSM8K grade-school math word problems."
 samples: 1319
 input_tokens: 597.4k
@@ -8,10 +8,6 @@ cost: 0.025092774
 ---
 
 # GSM8K Grade-School Math Word Problems
-
-## Abstract
-
-This experiment tests whether JEV can solve grade-school math word problems. The setting is the full GSM8K test split: 1,319 problems, each posed as a four-choice question. JEV answered 84.84% correctly (95% CI 82.90–86.77%), well above the 25% random level. The probability JEV puts on the option it picks tracks accuracy: answers at probability ≥0.9 are almost all correct, and errors are concentrated at the low end. The full run consumed 597,447 input tokens and 67,848 output tokens, costing $0.0251 in total. We conclude that JEV solves grade-school math reliably in four-choice form, and that the probability it reports can be used directly to filter trustworthy answers.
 
 ## 1 Purpose
 

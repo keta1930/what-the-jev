@@ -1,6 +1,6 @@
 ---
 title: "Boston Housing: Prediction and Comparison"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs."
 samples: 1106
 input_tokens: 1026.2k
@@ -8,10 +8,6 @@ cost: 0.043098972
 ---
 
 # Boston Housing: Prediction and Comparison
-
-## Abstract
-
-This experiment tests whether JEV can estimate housing prices, and how much the answer depends on the task form. The setting is the classic Boston housing dataset: the same 506 suburb records are posed in two task forms. The numeric task asks which of ten price bands a suburb's median home value falls into. The pairwise task poses 600 pairs and asks which suburb of each pair is pricier. In the numeric task, the rounded score hits the true band only 9.7% of the time, at the 10% random level; reading the top-probability band reaches 31.4%, with a mean absolute error of 2.0 bands (about $4,000). In the pairwise task, accuracy is 88.2% against the 50% random level, and answers at selected probability ≥0.9 (75.0% of all) are 96.0% accurate. The two runs consumed about 1.03 million input tokens and cost $0.0431 in total. We conclude that JEV orders housing prices reliably but cannot place them on an absolute scale.
 
 ## 1 Purpose
 

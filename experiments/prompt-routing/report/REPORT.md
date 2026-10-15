@@ -1,6 +1,6 @@
 ---
 title: "Prompt Routing"
-date: 2026-10-10
+date: 2026-10-15
 summary: "Explore whether JEV can decide from the question text alone whether a question in paper QA goes to the JEV fast path or the LLM slow path."
 samples: 480
 input_tokens: 452.5k
@@ -8,10 +8,6 @@ cost: 0.019004748
 ---
 
 # Prompt Routing
-
-## Abstract
-
-This experiment tests whether JEV can route a reader's question to the right answerer before any retrieval happens. The setting is a paper-QA system with two paths: a fast path where JEV answers from fetched material, and a slow path where an LLM reads the paper and writes a full answer. The router sees only the question text. The dataset holds 480 questions over 24 research papers: 240 that belong on the fast path and 240 on the slow path. The slow-path questions fall into six categories, each demanding a written answer. JEV routed 476 of 480 correctly (99.2%, 95% CI 97.9–99.7%) against a random baseline of 50%. Fast-path questions were never misrouted. The only category with lower accuracy is quantitative questions (89.2%), and every miss carries a low-confidence mark. The run consumed 452,494 input tokens and 10,560 output tokens, costing $0.0190. JEV is reliable enough to serve as the entry router directly, and its confidence output identifies the misses in that category.
 
 ## 1 Purpose
 
