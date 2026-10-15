@@ -13,6 +13,7 @@ from matplotlib import font_manager
 from matplotlib.lines import Line2D
 from matplotlib.ticker import PercentFormatter
 import numpy as np
+from scipy.interpolate import PchipInterpolator
 
 EXPERIMENT = Path(__file__).resolve().parents[2]
 REPORT = EXPERIMENT / 'report'
@@ -81,7 +82,7 @@ def observations():
                     threshold_answer = True if p > 0.5 else False if p < 0.5 else None
                     prediction = threshold_answer if model == 'jev' else answer['answer']
                     row.update(correct=prediction == gold if prediction is not None else False,
-                               prediction=prediction, probability_true=p, tie=p == 0.5,
+                               prediction=prediction, truth=gold, probability_true=p, tie=p == 0.5,
                                probability_correct=threshold_answer == gold if threshold_answer is not None else False,
                                conflict=threshold_answer is not None and prediction != threshold_answer)
                 rows.append(row)
@@ -172,6 +173,7 @@ def change_points(rows, repetitions):
 
 def metrics(rows, responses, repetitions):
     output = {'overall': {}, 'monthly': {}, 'periods': {}, 'usage': {},
+              'jev_confidence_over_time': confidence_over_time(rows),
               'change_points': change_points(rows, repetitions),
               'resampling': {'seed': 20261015, 'repetitions': repetitions,
                              'unit': 'fact, paired languages, sampled within each month'}}
@@ -196,6 +198,141 @@ def metrics(rows, responses, repetitions):
                                   'cost_usd': str(sum(Decimal(str(usage['cost'])) for usage in usages)),
                                   'models': dict(Counter(response['model'] for response in responses[model]))}
     return output
+
+
+def confidence_over_time(rows):
+    choices = [row for row in rows if row['model'] == 'jev' and row['kind'] == 'choice']
+
+    def aggregate(batch):
+        groups = {'all': batch,
+                  'correct': [row for row in batch if row['correct']],
+                  'wrong': [row for row in batch if not row['correct'] and not row['unknown']],
+                  'unknown': [row for row in batch if row['unknown']]}
+        return {name: {'n': len(group),
+                       'mean': average([row['confidence'] for row in group]),
+                       'median': float(np.median([row['confidence'] for row in group])) if group else None,
+                       'below_half': sum(row['confidence'] < 0.5 for row in group),
+                       'at_least_eight_tenths': sum(row['confidence'] >= 0.8 for row in group)}
+                for name, group in groups.items()}
+
+    output = {}
+    for language in ('pooled', *LANGUAGES):
+        subset = [row for row in choices if language == 'pooled' or row['language'] == language]
+        output[language] = {
+            'monthly': {month: aggregate([row for row in subset if row['month'] == month]) for month in MONTHS},
+            'periods': {label: aggregate([row for row in subset if start <= row['month'] <= end])
+                        for label, start, end in (
+                            ('through_2025_01', '2023-01', '2025-01'),
+                            ('from_2025_02', '2025-02', '2026-06'),
+                            ('2025_02_03', '2025-02', '2025-03'),
+                            ('from_2025_04', '2025-04', '2026-06'))}}
+    return output
+
+
+def draw_confidence(data, language='zh'):
+    chinese = language == 'zh'
+    if chinese:
+        names = {font.name for font in font_manager.fontManager.ttflist}
+        family = next((name for name in ('Noto Sans CJK SC', 'Noto Sans CJK JP', 'WenQuanYi Zen Hei')
+                       if name in names), None)
+        if family is None:
+            raise ValueError('Chinese plots require a CJK font, such as Noto Sans CJK')
+    else:
+        family = 'DejaVu Sans'
+    labels = {
+        'title': 'JEV 后期答对更少，答对时的置信程度也更低',
+        'subtitle': '按新闻月份统计 · 中英文合计 · 每月 20 次选择题作答，对应 10 个事实',
+        'top': 'A  每月平均 confidence：答对与“不知道”分开统计',
+        'correct_mean': '答对题目的平均 confidence',
+        'unknown_mean': '回答“不知道”时的平均 confidence',
+        'cut': '准确率转折：2025 年 1—2 月',
+        'bottom': 'B  每月作答数量：后期每月只有少数题目答对',
+        'correct': '答对', 'wrong': '选错具体答案', 'unknown': '不知道',
+        'count': '作答次数',
+        'footer': '上图只连接有该类作答的连续月份；没有答对题目的月份留空。下图数字为转折后各月答对次数。',
+    } if chinese else {
+        'title': 'JEV answers fewer later questions correctly, with lower confidence',
+        'subtitle': 'By news month · Chinese and English pooled · 20 choice responses per month, covering 10 facts',
+        'top': 'A  Monthly mean confidence: correct and unknown responses separately',
+        'correct_mean': 'Mean confidence on correct answers',
+        'unknown_mean': 'Mean confidence on unknown responses',
+        'cut': 'Accuracy split: January–February 2025',
+        'bottom': 'B  Monthly response counts: few correct answers in later months',
+        'correct': 'Correct', 'wrong': 'Incorrect concrete answer', 'unknown': 'Unknown',
+        'count': 'Responses',
+        'footer': 'Lines connect consecutive observed months; empty groups are left blank. Labels below show correct counts after the split.',
+    }
+    monthly = data['jev_confidence_over_time']['pooled']['monthly']
+    cut = data['change_points']['jev.correct']['pooled']['k'] - 0.5
+    palette = {'correct': COLORS['jev'], 'wrong': '#D69252', 'unknown': '#778A99'}
+    with plt.rc_context({'font.family': family, 'font.size': 11, 'axes.unicode_minus': False,
+                         'axes.spines.top': False, 'axes.spines.right': False,
+                         'axes.spines.left': False, 'axes.edgecolor': '#CBD5DC',
+                         'text.color': '#192B39', 'axes.labelcolor': '#364B5A',
+                         'xtick.color': '#526572', 'ytick.color': '#526572'}):
+        fig, axes = plt.subplots(2, 1, figsize=(14.8, 9.3), sharex=True,
+                                 gridspec_kw={'height_ratios': [1.6, 1]})
+        fig.subplots_adjust(left=0.075, right=0.97, top=0.78, bottom=0.16, hspace=0.38)
+        fig.text(0.075, 0.955, labels['title'],
+                 fontsize=23 if chinese else 22, weight='bold', va='top')
+        fig.text(0.075, 0.906, labels['subtitle'],
+                 fontsize=11, color='#526572', va='top')
+        top, bottom = axes
+        top.set_title(labels['top'],
+                      loc='left', fontsize=13, weight='bold', pad=16)
+        for group, label in (('correct', labels['correct_mean']),
+                             ('unknown', labels['unknown_mean'])):
+            values = np.array([monthly[month][group]['mean']
+                               if monthly[month][group]['n'] else np.nan for month in MONTHS])
+            valid = np.flatnonzero(np.isfinite(values))
+            # Connect only consecutive observed months; an empty group has no mean.
+            segments = np.split(valid, np.flatnonzero(np.diff(valid) > 1) + 1)
+            for segment in segments:
+                if len(segment) >= 2:
+                    positions = np.linspace(segment[0], segment[-1], (len(segment) - 1) * 24 + 1)
+                    curve = PchipInterpolator(segment, values[segment])(positions)
+                    top.plot(positions, curve, color=palette[group], linewidth=2)
+            top.plot(range(42), values, linestyle='none', marker='o' if group == 'correct' else 'D',
+                     markersize=4.5, markeredgecolor='white', markeredgewidth=0.7,
+                     color=palette[group], label=label, zorder=3)
+        top.set_ylim(-0.035, 1.06)
+        top.set_yticks([0, 0.25, 0.5, 0.75, 1])
+        top.set_ylabel('confidence')
+        fig.legend(*top.get_legend_handles_labels(), loc='upper left', bbox_to_anchor=(0.068, 0.863),
+                   frameon=False, ncol=2, columnspacing=2.5)
+        top.text(cut + 0.4, 1.025, labels['cut'],
+                 transform=top.get_xaxis_transform(), color=COLORS['jev'], fontsize=10)
+        bottom.set_title(labels['bottom'],
+                         loc='left', fontsize=13, weight='bold', pad=16)
+        base = np.zeros(42)
+        for group, label in (('correct', labels['correct']), ('wrong', labels['wrong']), ('unknown', labels['unknown'])):
+            counts = np.array([monthly[month][group]['n'] for month in MONTHS])
+            bottom.bar(range(42), counts, bottom=base, width=0.72,
+                       color='#CCD6DE' if group == 'unknown' else palette[group], label=label)
+            base += counts
+        for index, month in enumerate(MONTHS):
+            n = monthly[month]['correct']['n']
+            if index > cut:
+                bottom.text(index, n + 0.35, str(n), fontsize=8.5, ha='center', color=COLORS['jev'])
+        bottom.set_ylim(0, 22)
+        bottom.set_yticks([0, 5, 10, 15, 20])
+        bottom.set_ylabel(labels['count'])
+        bottom.legend(loc='upper left', bbox_to_anchor=(0, -0.24), frameon=False, ncol=3, fontsize=10)
+        for ax in axes:
+            ax.axvline(cut, color=COLORS['jev'], linestyle=(0, (5, 3)), linewidth=1.3, alpha=0.8)
+            ax.set_xlim(-0.8, 41.8)
+            ax.set_axisbelow(True)
+            ax.grid(axis='y', color='#E5EAF0', linewidth=0.8)
+            ax.tick_params(axis='both', length=0, pad=7)
+            ticks = [0, 6, 12, 18, 24, 30, 36, 41]
+            ax.set_xticks(ticks, [MONTHS[index] for index in ticks])
+            ax.tick_params(axis='x', labelbottom=True)
+        fig.text(0.075, 0.045, labels['footer'],
+                 fontsize=10, color='#526572')
+        output = REPORT / 'fig' / language / 'confidence.png'
+        output.parent.mkdir(parents=True, exist_ok=True)
+        fig.savefig(output, dpi=220, facecolor='white', metadata={'Software': 'knowledge-cutoff/report/scripts/analyze.py'})
+        plt.close(fig)
 
 
 def draw(data, language, metric):
@@ -229,16 +366,17 @@ def draw(data, language, metric):
                          'xtick.color': '#526572', 'ytick.color': '#526572'}):
         fig, axes = plt.subplots(2, 1, figsize=(14.8, 9.3), sharex=True, sharey=True)
         fig.patch.set_facecolor('#FFFFFF')
-        fig.subplots_adjust(left=0.075, right=0.97, top=0.79, bottom=0.15, hspace=0.38)
-        fig.text(0.075, 0.955, titles[(chinese, accuracy)], fontsize=23 if chinese else 22,
+        left = 0.105
+        fig.subplots_adjust(left=left, right=0.97, top=0.79, bottom=0.15, hspace=0.38)
+        fig.text(left, 0.955, titles[(chinese, accuracy)], fontsize=23 if chinese else 22,
                  weight='bold', ha='left', va='top')
-        fig.text(0.075, 0.906, subtitle, fontsize=11, color='#526572', va='top')
+        fig.text(left, 0.906, subtitle, fontsize=11, color='#526572', va='top')
         handles = [Line2D([0], [0], color=COLORS[model], marker='o' if model == 'jev' else 'D',
                           linewidth=2.2, markersize=5, label=NAMES[model]) for model in MODELS]
         if accuracy:
             handles.append(Line2D([0], [0], color='#89959F', linestyle=(0, (4, 3)), linewidth=1.2,
                                   label='按实际选项数均匀猜测' if chinese else 'Uniform concrete-choice baseline'))
-        fig.legend(handles=handles, loc='upper left', bbox_to_anchor=(0.068, 0.865),
+        fig.legend(handles=handles, loc='upper left', bbox_to_anchor=(left - 0.007, 0.865),
                    frameon=False, ncol=len(handles), columnspacing=2.2)
         for ax, questions_language, letter in zip(axes, LANGUAGES, ('A', 'B')):
             ax.set_facecolor('#FFFFFF')
@@ -262,7 +400,11 @@ def draw(data, language, metric):
                 ax.plot(range(42), baseline, color='#89959F', linewidth=1.2, linestyle=(0, (4, 3)), zorder=1)
             for model in MODELS:
                 values = [data['monthly'][f'{model}.{questions_language}'][month][metric] for month in MONTHS]
+                positions = np.linspace(0, len(MONTHS) - 1, (len(MONTHS) - 1) * 24 + 1)
+                curve = PchipInterpolator(np.arange(len(MONTHS)), values)(positions)
+                ax.plot(positions, curve, color=COLORS[model], linewidth=2, zorder=3)
                 ax.plot(range(42), values, color=COLORS[model], linewidth=2,
+                        linestyle='none',
                         marker='o' if model == 'jev' else 'D', markersize=4.1,
                         markeredgewidth=0.8, markeredgecolor='white', zorder=3)
             ax.set_ylim(-0.045, 1.055)
@@ -273,7 +415,8 @@ def draw(data, language, metric):
             ax.set_axisbelow(True)
             ax.tick_params(axis='both', length=0, pad=7)
             ax.set_ylabel(('选择题正确率' if accuracy else '“不知道”比例') if chinese else (
-                'Choice accuracy' if accuracy else 'Unknown rate'), labelpad=12)
+                'Choice accuracy' if accuracy else 'Unknown rate'), rotation=0, ha='right', va='bottom')
+            ax.yaxis.set_label_coords(-0.008, 1.008)
             ticks = [0, 6, 12, 18, 24, 30, 36, 41]
             ax.set_xticks(ticks, [MONTHS[index] for index in ticks])
             ax.tick_params(axis='x', labelbottom=True)
@@ -281,16 +424,16 @@ def draw(data, language, metric):
             footers = [
                 '紫色窄带：GPT 官方截止月份（2024-06-01）；青色虚线：JEV 合并最佳断点。',
                 '青色浅带：复采样频率 ≥5% 的候选所涉月份，不是训练截止日期的置信区间。',
-                '每种语言每月 n=10；两种语言对应同一批事实。' + (' 灰虚线按当月候选数计算，猜测时不选择“不知道”。' if accuracy else ''),
+                '点为原始月度值，曲线为保形插值；每种语言每月 n=10，两种语言对应同一批事实。' + (' 灰虚线按当月候选数计算，猜测时不选择“不知道”。' if accuracy else ''),
             ]
         else:
             footers = [
                 'Purple band: official GPT cutoff month (2024-06-01). Teal dashed line: best pooled JEV split.',
                 'Teal band: months preceding splits selected in ≥5% of conditional resamples; not a training-cutoff confidence interval.',
-                'n=10 per language/month; both languages test the same facts.' + (' Gray baseline: uniform guessing over concrete options only.' if accuracy else ''),
+                'Points: monthly rates; curves: shape-preserving interpolation. n=10/language/month; same facts.' + (' Gray: uniform concrete-choice baseline.' if accuracy else ''),
             ]
         for index, footer in enumerate(footers):
-            fig.text(0.075, 0.087 - index * 0.025, footer, fontsize=9.8, color='#526572')
+            fig.text(left, 0.087 - index * 0.025, footer, fontsize=9.8, color='#526572')
         output = REPORT / 'fig' / language / ('monthly-accuracy.png' if accuracy else 'monthly-unknown.png')
         output.parent.mkdir(parents=True, exist_ok=True)
         fig.savefig(output, dpi=220, facecolor=fig.get_facecolor(), metadata={'Software': 'knowledge-cutoff/report/scripts/analyze.py'})
@@ -298,7 +441,7 @@ def draw(data, language, metric):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Recompute the saved experiment statistics and its two bilingual figures.')
+    parser = argparse.ArgumentParser(description='Recompute the saved statistics and bilingual monthly accuracy, unknown-rate, and confidence figures.')
     parser.add_argument('--bootstrap', type=int, default=2000, help='Conditional within-month fact resamples; default 2000')
     args = parser.parse_args()
     if args.bootstrap < 1:
@@ -308,6 +451,7 @@ def main():
     for language in LANGUAGES:
         for metric in ('choice_accuracy', 'unknown_rate'):
             draw(data, language, metric)
+        draw_confidence(data, language)
     print(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False))
 
 
