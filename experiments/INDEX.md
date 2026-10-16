@@ -2,7 +2,7 @@
 
 *English | [简体中文](INDEX.zh.md)*
 
-Thirteen experiments on the JEV decision model, grouped by what they probe. Each entry links to its report.
+Fourteen experiments on the JEV decision model, grouped by what they probe. Each entry links to its report.
 
 ## 1. LLM Benchmarks: Academic Ability
 
@@ -34,3 +34,7 @@ Thirteen experiments on the JEV decision model, grouped by what they probe. Each
 ## 6. Skill Routing
 
 1. [skill-routing](skill-routing/report/REPORT.md) — Explore whether JEV can route user tasks to the right skill, skill set, or none, among 126 real agent skills.
+
+## 7. Knowledge Cutoff
+
+1. [knowledge-cutoff](knowledge-cutoff/report/REPORT.md) — Estimate JEV's knowledge cutoff date, using GPT-4.1-mini's known cutoff to check the method.

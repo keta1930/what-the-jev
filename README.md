@@ -42,7 +42,8 @@ what-the-jev/
 │   ├── boston-housing/                 [Numeric Regression] Explore whether JEV can predict Boston suburb housing prices, and compare price levels across suburbs.
 │   ├── titanic/                        [Classification Prediction] Explore whether JEV can predict whether a Titanic passenger survived from the passenger record, and compare structured fields with prose text.
 │   ├── dpo-jev-judge/                  [LLM Training] Explore JEV's performance on preference annotation for DPO training data.
-│   └── grpo-jev-judge/                 [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
+│   ├── grpo-jev-judge/                 [LLM Training] Explore JEV's performance on GRPO trajectory reward assignment.
+│   └── knowledge-cutoff/               [Knowledge Cutoff] Estimate JEV's knowledge cutoff date.
 ├── resource/                           catalog of Jev-related projects and models
 │   ├── closed-source-models/           [Closed-Source Models] Jev and its proprietary competitors
 │   ├── open-source-models/             [Open-Source Models] open-weight decision models and replicas

@@ -2,7 +2,7 @@
 
 *[English](INDEX.md) | 简体中文*
 
-十三个实验，按考察对象分组；每条链接到该实验的报告。
+十四个实验，按考察对象分组；每条链接到该实验的报告。
 
 ## 一、LLM benchmark：学科能力
 
@@ -34,3 +34,7 @@
 ## 六、技能路由
 
 1. [skill-routing](skill-routing/report/REPORT.zh.md) — 探索 JEV 能否把用户任务路由到 126 个真实 Agent Skill 中的正确技能、技能组合或 none。
+
+## 七、知识截止日期
+
+1. [knowledge-cutoff](knowledge-cutoff/report/REPORT.zh.md) — 估计 JEV 的知识截止日期，并用已知截止日期的 GPT-4.1-mini 检验估计方法。

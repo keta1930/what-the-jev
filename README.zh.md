@@ -42,7 +42,8 @@ what-the-jev/
 │   ├── boston-housing/                 【数值回归】探索 JEV 能否预测波士顿社区的房价，并比较不同社区的房价高低。
 │   ├── titanic/                        【分类预测】探索 JEV 能否根据乘客记录预测乘客是否生还，并比较结构化字段与自然语言文本两种输入下的表现。
 │   ├── dpo-jev-judge/                  【大模型训练】探索 JEV 在 DPO 训练数据偏好标注上的表现。
-│   └── grpo-jev-judge/                 【大模型训练】探索 JEV 在 GRPO 轨迹奖励分配上的表现。
+│   ├── grpo-jev-judge/                 【大模型训练】探索 JEV 在 GRPO 轨迹奖励分配上的表现。
+│   └── knowledge-cutoff/               【知识截止日期】估计 JEV 的知识截止日期。
 ├── resource/                           Jev 相关项目与模型的收录清单
 │   ├── closed-source-models/           【闭源模型】Jev 本体与闭源竞品
 │   ├── open-source-models/             【开源模型】开放权重决策模型与复刻
