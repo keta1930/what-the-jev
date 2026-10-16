@@ -40,7 +40,12 @@ def indexed(rows, label):
     return result
 
 
-def observations():
+def observations(jev_version='1.13'):
+    result_variants = {
+        '1.13': ('', 'typesafe/jev-1.13-20260917'),
+        '1.14': ('.jev-1.14', 'typesafe/jev-1.14-20261014'),
+    }
+    suffix, expected_model = result_variants[jev_version]
     llm = indexed(read_jsonl(EXPERIMENT / 'preparation/raw/responses.gpt-4.1-mini.jsonl'), 'LLM')
     prompts = read_jsonl(EXPERIMENT / 'preparation/raw/prompts.gpt-4.1-mini.jsonl')
     prompt_index = {f'{row["language"]}:{row["id"]}': row for row in prompts}
@@ -49,7 +54,7 @@ def observations():
     rows, responses = [], {'jev': [], 'llm': []}
     for language in LANGUAGES:
         samples = json.loads((EXPERIMENT / f'data/dataset.{language}.json').read_text())['samples']
-        jev = indexed(read_jsonl(EXPERIMENT / f'result/responses.mixed.{language}.jsonl'), language)
+        jev = indexed(read_jsonl(EXPERIMENT / f'result/responses.mixed{suffix}.{language}.jsonl'), language)
         if len(samples) != 840 or len(jev) != 840 or set(jev) != {sample['id'] for sample in samples}:
             raise ValueError(f'{language}: dataset/result IDs do not match 840 samples')
         for sample in samples:
@@ -62,7 +67,7 @@ def observations():
                 response = (jev[sample['id']] if model == 'jev' else llm[key])['response']
                 responses[model].append(response)
                 if model == 'jev':
-                    if response['model'] != 'typesafe/jev-1.13-20260917' or response['provider'] != 'TypeSafe':
+                    if response['model'] != expected_model or response['provider'] != 'TypeSafe':
                         raise ValueError('unexpected JEV model or provider')
                     answer = response['answers']['answer']
                 else:
@@ -443,9 +448,15 @@ def draw(data, language, metric):
 def main():
     parser = argparse.ArgumentParser(description='Recompute the saved statistics and bilingual monthly accuracy, unknown-rate, and confidence figures.')
     parser.add_argument('--bootstrap', type=int, default=2000, help='Conditional within-month fact resamples; default 2000')
+    parser.add_argument('--compare-versions', action='store_true',
+                        help='Print JEV 1.13 and 1.14 statistics without regenerating report figures')
     args = parser.parse_args()
     if args.bootstrap < 1:
         parser.error('--bootstrap must be positive')
+    if args.compare_versions:
+        data = {version: metrics(*observations(version), args.bootstrap) for version in ('1.13', '1.14')}
+        print(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False))
+        return
     rows, responses = observations()
     data = metrics(rows, responses, args.bootstrap)
     for language in LANGUAGES:
