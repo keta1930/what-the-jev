@@ -1,10 +1,10 @@
 ---
 title: "JEV Knowledge Cutoff Estimate"
-date: 2026-10-15
-summary: "JEV's estimated knowledge cutoff is early 2025, with both accuracy and abstention placing the main transition between January and February."
-samples: 1680
-input_tokens: 630.7k
-cost: 0.026487636
+date: 2026-10-16
+summary: "JEV 1.13 and 1.14 both have an estimated knowledge cutoff of early 2025, with pooled accuracy and abstention placing the main transition between January and February."
+samples: 3360
+input_tokens: 1261.3k
+cost: 0.052975272
 ---
 
 # JEV Knowledge Cutoff Estimate
@@ -25,7 +25,7 @@ Question design serves the cutoff estimate: stories should be prominent, answers
 
 Multiple-choice questions offer concrete answers and an “unknown” option. True/false questions state a fact about the same story; each month has five true statements and five with a key detail changed to make them false. Questions are answered independently, without news sources, reference answers, or responses to other questions. The language versions cover the same facts, so there are still only ten independent facts per month.
 
-The JEV version tested is `typesafe/jev-1.13-20260917`.
+The example, figures, and stability analysis below use `typesafe/jev-1.13-20260917`. JEV 1.14 answers the same questions in a separate evaluation, reported at the end of the results section.
 
 ## 3 Minimal Example
 
@@ -98,13 +98,17 @@ Confidence on correct answers starts declining in late 2024, before the sharp dr
 
 Restricting the analysis to questions with four concrete options leaves both JEV change points between January and February 2025. Analyzing each language separately also leaves the Chinese results unchanged. English accuracy shifts the boundary to February–March, while English abstention still places it between January and February.
 
+### JEV 1.14: the cutoff estimate remains early 2025
+
+On the same 1,680 Chinese and English questions, JEV 1.14 (`typesafe/jev-1.14-20261014`) has pooled accuracy and abstention change points **between January and February 2025**, matching 1.13. For news from April 2025 onward, its multiple-choice accuracy is 6.7% and its abstention rate is 92.3%, providing no clear evidence of a later knowledge cutoff. Estimates by language and on the subset with four concrete options place the transitions between January and April. **Early 2025** therefore remains the best-supported estimate for the new version, rather than a specific month.
+
 ### Call cost
 
-JEV completes 1,680 responses, using **630,658 input tokens** and **59,332 output tokens**. The total cost recorded in successful responses is **USD 0.026487636**.
+JEV 1.13 and 1.14 each complete 1,680 responses, each using **630,658 input tokens** and **59,332 output tokens**, with **USD 0.026487636** recorded in successful responses. Across both versions, the total is **3,360 responses** at a cost of **USD 0.052975272**.
 
 ## 5 Conclusion
 
-**JEV's estimated knowledge cutoff is early 2025, with the main transition between January and February.** Falling accuracy and rising abstention both point to this period. Lower confidence on correct answers to later questions provides supporting evidence. GPT-4.1-mini shows a transition near its known cutoff month, providing a control for the method.
+**JEV 1.13 and 1.14 both have an estimated knowledge cutoff of early 2025, with the main transition in pooled responses between January and February.** Falling accuracy and rising abstention both point to this period. Lower confidence on 1.13's correct answers to later questions provides supporting evidence. GPT-4.1-mini shows a transition near its known cutoff month, providing a control for the method.
 
 ## Related Resources
 
