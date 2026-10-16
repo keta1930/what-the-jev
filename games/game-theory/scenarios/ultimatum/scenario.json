@@ -1,0 +1,19 @@
+{
+  "rule_version": "1",
+  "scenario": "ultimatum",
+  "rules": "Divide 10. The proposer offers the responder 0, 2, 5, 8 or 10. Acceptance pays responder the offer and proposer the remainder. Rejection pays both 0. P1 proposes on odd rounds, P2 on even rounds.",
+  "legal_actions": {
+    "proposal": [
+      "offer_0",
+      "offer_2",
+      "offer_5",
+      "offer_8",
+      "offer_10"
+    ],
+    "response": [
+      "accept",
+      "reject"
+    ]
+  },
+  "objective": "Maximize your own cumulative payoff over the entire match."
+}
