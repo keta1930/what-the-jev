@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "单轮决策数据集",
+  "type": "object",
+  "required": ["schema_version", "samples"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": 1},
+    "samples": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "input"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "\\S"},
+          "input": {
+            "type": "object",
+            "required": ["state", "questions"],
+            "additionalProperties": false,
+            "properties": {
+              "state": {"type": ["string", "object", "array"]},
+              "questions": {
+                "type": "object",
+                "minProperties": 1,
+                "propertyNames": {"pattern": "\\S"},
+                "additionalProperties": {
+                  "type": "object",
+                  "required": ["type"],
+                  "properties": {"type": {"type": "string", "pattern": "\\S"}},
+                  "if": {"properties": {"type": {"const": "choice"}}},
+                  "then": {
+                    "required": ["instructions", "criteria"],
+                    "properties": {
+                      "instructions": {"type": ["string", "object", "array"]},
+                      "criteria": {
+                        "type": "object",
+                        "minProperties": 1,
+                        "propertyNames": {"pattern": "\\S"},
+                        "additionalProperties": {"type": ["string", "object", "array", "null"]}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "reference": {},
+          "metadata": {"type": "object"}
+        }
+      }
+    }
+  }
+}

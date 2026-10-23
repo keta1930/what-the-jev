@@ -1,0 +1,10 @@
+{
+  "rule_version": "1",
+  "scenario": "public-goods",
+  "rules": "Each player receives 10 each round and contributes all 10 or keeps all 10. Multiply total contributions by 1.6 and divide equally among all players. Payoff is kept amount plus pool share. No wealth constraint across rounds.",
+  "legal_actions": [
+    "contribute",
+    "keep"
+  ],
+  "objective": "Maximize your own cumulative payoff over the entire match."
+}

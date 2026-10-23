@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "单条决策结果（JSONL 每行）",
+  "type": "object",
+  "required": ["id", "response", "error"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "\\S"},
+    "response": {},
+    "error": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "required": ["type", "message"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"enum": ["network", "http", "invalid_json"]},
+            "message": {"type": "string"},
+            "status": {"type": "integer"}
+          }
+        }
+      ]
+    }
+  }
+}
