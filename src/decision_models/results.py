@@ -47,7 +47,7 @@ def write_result(file: TextIO, result: dict[str, Any]) -> None:
 
 @contextmanager
 def locked_output(path: Path) -> Iterator[None]:
-    """Hold the output file exclusively across history scan, tail repair, and appends."""
+    """Hold the output file exclusively across history scan, tail repair, and appends; raise ValueError when another run holds the lock."""
     with path.open('a+b') as file:
         try:
             fcntl.flock(file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)

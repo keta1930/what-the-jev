@@ -87,20 +87,17 @@ class SingleTurnTests(unittest.TestCase):
         return (self.root / 'results.jsonl').read_bytes()
 
     def read_records(self, name):
-        """Read every record of the named result file."""
         return [
             json.loads(line)
             for line in (self.root / name).read_text(encoding='utf-8').splitlines()
         ]
 
     def set_concurrency(self, value):
-        """Rewrite the concurrency field in the config."""
         config = yaml.safe_load(self.config.read_text(encoding='utf-8'))
         config['concurrency'] = value
         self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
 
     def set_repeat(self, value):
-        """Rewrite the repeat field in the config."""
         config = yaml.safe_load(self.config.read_text(encoding='utf-8'))
         config['repeat'] = value
         self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
@@ -179,7 +176,6 @@ class SingleTurnTests(unittest.TestCase):
         self.assertIsNone(rows[3]['error'])
 
     def test_existing_result_is_resumed_not_overwritten(self):
-        """Recorded samples are not requested again; only missing ones are appended, keeping existing lines byte-identical."""
         self.save([self.sample, {**self.sample, 'id': 'T02'}])
         self.set_concurrency(1)
         first = {'id': 'T01', 'response': self.response, 'error': None}
@@ -198,7 +194,6 @@ class SingleTurnTests(unittest.TestCase):
         self.assertEqual([row['id'] for row in self.records()], ['T01', 'T02'])
 
     def test_recorded_failures_are_requeued_on_resume(self):
-        """Failures from a previous run are dropped and requested again; on success no failed line remains."""
         self.save([self.sample, {**self.sample, 'id': 'T02'}])
         failure = {
             'id': 'T01',
@@ -214,7 +209,6 @@ class SingleTurnTests(unittest.TestCase):
         self.assertTrue(all(row['error'] is None for row in self.records()))
 
     def test_resume_discards_trailing_fragment(self):
-        """The partial trailing line is dropped, its sample requested again, and the file stays a full record stream."""
         self.save([self.sample, {**self.sample, 'id': 'T02'}])
         self.set_concurrency(1)
         first = {'id': 'T01', 'response': self.response, 'error': None}
@@ -227,7 +221,6 @@ class SingleTurnTests(unittest.TestCase):
         self.assertEqual([row['id'] for row in self.records()], ['T01', 'T02'])
 
     def test_resume_mixed_history_retries_failures_once_and_keeps_successes(self):
-        """Resume repairs the fragment and requeues failed samples, keeping successes without retrying this run's failures."""
         self.save([{**self.sample, 'id': name} for name in ['T01', 'T02', 'T03']])
         self.set_concurrency(1)
         success = {'id': 'T01', 'response': self.response, 'error': None}
@@ -253,7 +246,6 @@ class SingleTurnTests(unittest.TestCase):
         self.assertIn('summary: 0 completed, 2 failed, 1 skipped', '\n'.join(logs.output))
 
     def test_progress_and_sample_logs_follow_display_mode(self):
-        """A running progress bar omits success logs; failure logs and the summary are always printed."""
         for disabled in [False, True]:
             for status in [200, 503]:
                 with self.subTest(disabled=disabled, status=status):
@@ -275,7 +267,6 @@ class SingleTurnTests(unittest.TestCase):
                     bar.close.assert_called_once()
 
     def test_resume_with_every_sample_recorded_sends_nothing(self):
-        """With every sample already recorded nothing is requested and the file is untouched."""
         self.set_concurrency(1)
         row = {'id': 'T01', 'response': self.response, 'error': None}
         output = self.root / 'results.jsonl'
@@ -505,7 +496,6 @@ transport.assert_not_called()
             Draft202012Validator(schema).validate(row)
 
     def test_default_concurrency_starts_at_four_and_grows_on_success(self):
-        """Without a configured concurrency the initial in-flight count is 4, then AIMD raises it on success."""
         self.save([{**self.sample, 'id': f'S{i:02d}'} for i in range(8)])
         state = {'active': 0, 'peak': 0, 'calls': 0}
         lock = threading.Lock()
@@ -526,7 +516,6 @@ transport.assert_not_called()
         self.assertEqual(len(self.records()), 8)
 
     def test_concurrency_halves_after_failures(self):
-        """A failure halves the limit, lowering the in-flight count after the first wave."""
         self.save([{**self.sample, 'id': f'S{i:02d}'} for i in range(8)])
         self.set_concurrency(4)
         lock = threading.Lock()
@@ -554,14 +543,12 @@ transport.assert_not_called()
         self.assertTrue(all(row['error'] for row in self.records()))
 
     def test_adjust_limit_aimd(self):
-        """The limit gains one on success and halves on failure, clamped between 1 and the global ceiling."""
         self.assertEqual(_adjust_limit(4, 16, True), 5)
         self.assertEqual(_adjust_limit(16, 16, True), 16)
         self.assertEqual(_adjust_limit(4, 16, False), 2)
         self.assertEqual(_adjust_limit(1, 16, False), 1)
 
     def test_concurrency_is_validated(self):
-        """Concurrency accepts only integers from 1 to 16; invalid values abort before any request."""
         for value in [0, 17, -1, True, '4', 1.5, [4]]:
             with self.subTest(invalid=value):
                 self.set_concurrency(value)
@@ -580,7 +567,6 @@ transport.assert_not_called()
                 )
 
     def test_repeat_runs_write_separate_files(self):
-        """With repeat 2 the run makes two rounds, each written to its own file."""
         self.save([self.sample, {**self.sample, 'id': 'T02'}])
         self.set_concurrency(1)
         self.set_repeat(2)
@@ -597,7 +583,6 @@ transport.assert_not_called()
         self.assertFalse((self.root / 'results.jsonl').exists())
 
     def test_repeat_resume_is_tracked_per_file(self):
-        """Each round resumes on its own: recorded rounds are not requested again, missing ones start fresh."""
         self.set_repeat(2)
         record = {'id': 'T01', 'response': self.response, 'error': None}
         first = self.root / 'results_1.jsonl'
@@ -611,7 +596,6 @@ transport.assert_not_called()
         self.assertEqual(self.read_records('results_2.jsonl'), [record])
 
     def test_multiple_data_files_map_to_matching_outputs(self):
-        """List data pairs one-to-one with list output, each dataset writing its own result file."""
         other = {**self.sample, 'id': 'E01'}
         (self.root / 'data2.json').write_text(
             json.dumps({'schema_version': 1, 'samples': [other]}),
@@ -635,7 +619,6 @@ transport.assert_not_called()
         )
 
     def test_multiple_data_with_repeat_expands_each_output(self):
-        """With several data files and repeat together, each output expands per round."""
         other = {**self.sample, 'id': 'E01'}
         (self.root / 'data2.json').write_text(
             json.dumps({'schema_version': 1, 'samples': [other]}),
@@ -657,7 +640,6 @@ transport.assert_not_called()
         self.assertEqual(self.transport.call_count, 4)
 
     def test_multiple_data_requires_matching_outputs(self):
-        """With several data files, output must be a list of the same length without repeats."""
         (self.root / 'data2.json').write_text(
             json.dumps({'schema_version': 1, 'samples': [self.sample]}),
             encoding='utf-8',
@@ -679,7 +661,6 @@ transport.assert_not_called()
         self.transport.assert_not_called()
 
     def test_data_field_is_validated(self):
-        """data must be one non-empty string or a list of non-empty strings."""
         base = yaml.safe_load(self.config.read_text(encoding='utf-8'))
         for value in [[], ['data.json', ''], [1], {}, None]:
             with self.subTest(invalid=value):
@@ -694,7 +675,6 @@ transport.assert_not_called()
         self.assertEqual(output, self.root / 'results.jsonl')
 
     def test_repeat_is_validated(self):
-        """repeat accepts only integers of at least 1; a value of 1 matches the default single run."""
         for value in [0, -1, True, '2', 1.5, [2]]:
             with self.subTest(invalid=value):
                 self.set_repeat(value)
@@ -712,7 +692,6 @@ transport.assert_not_called()
         )
 
     def test_concurrent_writes_stay_complete(self):
-        """Under concurrency every line stays complete and ids are neither duplicated nor lost."""
         names = [f'S{i:03d}' for i in range(100)]
         self.save([{**self.sample, 'id': name} for name in names])
         self.set_concurrency(8)
@@ -730,7 +709,6 @@ transport.assert_not_called()
         self.assertTrue(all(row['error'] is None for row in rows))
 
     def test_concurrent_failures_do_not_break_other_records(self):
-        """Under concurrency a failed sample is still recorded and the other records are unaffected."""
         names = [f'S{i:02d}' for i in range(20)]
         self.save([{**self.sample, 'id': name} for name in names])
         self.set_concurrency(4)

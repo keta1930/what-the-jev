@@ -16,7 +16,7 @@ Transport: TypeAlias = Callable[[dict[str, JSONValue], str, str], tuple[int, str
 def predict(
     payload: dict[str, JSONValue], api_key: str, endpoint: str
 ) -> tuple[int, str]:
-    """Send a JSON request and return the HTTP status code and the full response text."""
+    """Send a JSON request and return the HTTP status code and full response text; HTTP errors are returned, network and protocol errors propagate."""
     data = json.dumps(payload, ensure_ascii=False).encode('utf-8')
     request = Request(
         endpoint,

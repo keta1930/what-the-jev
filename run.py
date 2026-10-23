@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT / 'src') not in sys.path:
     sys.path.insert(0, str(ROOT / 'src'))
 
+# The src path is inserted above, so the package imports must stay below it.
 from decision_models.logger import configure_logging  # noqa: E402
 from decision_models.runner import run  # noqa: E402
 

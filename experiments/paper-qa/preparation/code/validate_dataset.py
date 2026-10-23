@@ -7,6 +7,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(REPO_ROOT / 'src'))
 
+# The src path is inserted above, so the package imports must stay below it.
 from decision_models.data import load_dataset  # noqa: E402
 from decision_models.json_utils import (  # noqa: E402
     load_validator,

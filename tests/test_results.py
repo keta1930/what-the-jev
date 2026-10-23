@@ -106,7 +106,6 @@ class ResultFileTests(unittest.TestCase):
         self.assertEqual(self.path.read_bytes(), content)
 
     def test_drop_failed_preserves_success_order_and_response_content(self):
-        """Failed records are dropped while successful ones keep their order and full response."""
         failure = {
             'id': 'T02',
             'response': '<html>error</html>',
@@ -123,7 +122,6 @@ class ResultFileTests(unittest.TestCase):
         self.assertEqual(self.path.read_text(encoding='utf-8'), lines[0] + lines[2])
 
     def test_drop_failed_leaves_success_only_file_byte_identical(self):
-        """A file with no failed records is not rewritten and keeps its line endings."""
         content = self.line + b'\r\n'
         self.path.write_bytes(content)
         with locked_output(self.path):
@@ -143,7 +141,6 @@ class ResultFileTests(unittest.TestCase):
 
 class ResponseTests(unittest.TestCase):
     def test_status_boundaries_preserve_json_values_and_transport_arguments(self):
-        """Every JSON value is kept as it is; only 2xx statuses count as success."""
         payload = {'state': 'text'}
         for status in [199, 200, 204, 299, 300, 503]:
             for response in [None, False, 0, 'text', [], {'extra': [1, 2]}]:
@@ -163,7 +160,6 @@ class ResponseTests(unittest.TestCase):
                     )
 
     def test_network_errors_are_recorded_without_retry(self):
-        """Connection and HTTP protocol errors are both recorded as network, with no retry."""
         for error in [OSError('timeout'), HTTPException('invalid response')]:
             with self.subTest(error=error):
                 transport = Mock(side_effect=error)
@@ -179,7 +175,6 @@ class ResponseTests(unittest.TestCase):
                 )
 
     def test_unexpected_errors_and_interruptions_propagate(self):
-        """Programming errors and interruptions reach the caller instead of posing as network failures."""
         for error in [RuntimeError('bug'), KeyboardInterrupt()]:
             with self.subTest(error=error):
                 with self.assertRaises(type(error)) as raised:
