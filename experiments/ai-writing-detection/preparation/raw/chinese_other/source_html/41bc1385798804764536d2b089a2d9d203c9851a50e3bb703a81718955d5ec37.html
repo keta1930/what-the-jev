@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《华盖集续编》小引 - 可阅文学网</title>
+    <meta name="keywords" content="华盖集续编,小引,全文阅读,章节,可阅文学">
+    <meta name="description" content="还不满一整年，所写的杂感的分量，已有去年一年的那么多了。秋来住在海边，目前只见云水，听到的多是风涛声，几乎和社会隔绝。如果环境没有改变，大概今年不见得再有什么废话了罢。灯下无事">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11061/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11061/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11061/10001">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11061">华盖集续编</a><span id="top_chaptername" style="float: right">小引</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　还不满一整年，所写的杂感的分量，已有去年一年的那么多了。秋来住在海边，目前只见云水，听到的多是风涛声，几乎和社会隔绝。如果环境没有改变，大概今年不见得再有什么废话了罢。灯下无事，便将旧稿编集起来；还豫备付印，以供给要看我的杂感的主顾们。<br><br>　　这里面所讲的仍然并没有宇宙的奥义和人生的真谛。不过是，将我所遇到的，所想到的，所要说的，一任它怎样浅薄，怎样偏激，有时便都用笔写了下来。说得自夸一点，就如悲喜时节的歌哭一般，那时无非借此来释愤抒情，现在更不想和谁去抢夺所谓公理或正义。你要那样，我偏要这样是有的；偏不遵命，偏不磕头是有的；偏要在庄严高尚的假面上拨它一拨也是有的，此外却毫无什么大举。名副其实，“杂感”而已。<br><br>　　从一月以来的，大略都在内了；只删去了一篇<i class="iconfont icon-zhushi" data-content="指《大衍发微》，后收入《而已集》作附录。"></i>。那是因为其中开列着许多人，未曾，也不易遍征同意，所以不好擅自发表。<br><br>　　书名呢？年月是改了，情形却依旧，就还叫《<a class="c_book_link" target="_blank" href="/book/11059" contenteditable="false">华盖集</a>》。然而年月究竟是改了，因此只得添上两个字：“续编”。<br><br><p class="wt">一九二六年十月十四日，鲁迅记于厦门。</p></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11061/10002">Next Chapter</a></div>
+        <div class="pre_chapter"><a style="color: #d4d4d4;">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="33" data-goods-name="【山姆正品】海盐苏打饼干黄油酵母脂肪咸味薄脆休闲追剧解馋零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3842796940232360060&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_f2950c1e0f69cf5028643ec147bc5a03_sx_39695_www800-800"
+                         alt="【山姆正品】海盐苏打饼干黄油酵母脂肪咸味薄脆休闲追剧解馋零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】海盐苏打饼干黄油酵母脂肪咸味薄脆休闲追剧解馋零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>10.66</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11061/10001">小引</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二六年</span>
+                </p>
+                <li>
+                    <a href="/book/11061/10002">杂论管闲事·做学问·灰色等</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10003">有趣的消息</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10004">学界的三魂</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10005">古书与白话</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10006">一点比喻</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10007">不是信</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10008">我还不能“带住”</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10009">送灶日漫笔</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10010">谈皇帝</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10011">无花的蔷薇</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10012">无花的蔷薇之二</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10013">“死地”</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10014">可惨与可笑</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10015">记念刘和珍君</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10016">空谈</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10017">如此“讨赤”</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10018">无花的蔷薇之三</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10019">新的蔷薇</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10020">再来一次</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10021">为半农题记《何典》后，作</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10022">马上日记</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10023">马上支日记</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10024">马上日记之二</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10025">记“发薪”</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10026">记谈话</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10027">上海通信</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>华盖集续编的续编</span>
+                </p>
+                <li>
+                    <a href="/book/11061/10028">厦门通信</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10029">厦门通信（二）</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10030">《阿Q正传》的成因</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10031">关于《三藏取经记》等</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10032">所谓“思想界先驱者”鲁迅启事</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10033">厦门通信（三）</a>
+                </li>
+                <li>
+                    <a href="/book/11061/10034">海上通信</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af0229747c8a4a6e_6e892fdc15674b809c7cbccf8a3486c3";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

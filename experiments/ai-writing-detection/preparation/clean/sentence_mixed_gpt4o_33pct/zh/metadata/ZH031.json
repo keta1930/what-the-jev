@@ -1,0 +1,933 @@
+{
+  "source_id": "ZH031",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "af0dea3241cfbe234beaff2bf079721332ed52e6f6a04bd8cae6151ea721c4ef",
+  "ai_article_sha256": "6da18ea6436f38f4b12e85914588c51c7dd6d4048841bc7ab0a54dfc968919b8",
+  "mixed_article_sha256": "84e97dbf9e490077ddfe0b01616a4513617c17087424e0f1adfa960af9b09f47",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 57,
+  "alignment_unit_count": 57,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 62,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.33871,
+  "selected_alignment_score_min": 0.434121,
+  "selected_alignment_score_median": 0.593591,
+  "selected_alignment_score_max": 0.757778,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在过去的二年里，有两桩事仿佛已在我的生活中占据了地位：一桩是夏天必作几首旧诗，另一桩是冬天必患头晕。",
+      "output_sha256": "0bdc59d41693c41def9c40b2107436f7b6a237b53795b813411bf47c8273c948",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0bdc59d41693c41def9c40b2107436f7b6a237b53795b813411bf47c8273c948",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "把这两件事略加说明，似乎颇足以帮助记述二年来生活的概况，所以就不惜浪费笔墨来说上几句了。",
+      "output_sha256": "cc76ffb12ea6b854858afc39ca78b372654713f403ccfe4b1e7eb86d6aa11e31",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "cc76ffb12ea6b854858afc39ca78b372654713f403ccfe4b1e7eb86d6aa11e31",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "首先，谈谈写旧诗。",
+      "output_sha256": "5df5bd297da3f06bee990ff7664e6d7e30d6b90d361ae854f3012616b0b41246",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.434121,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "e6275cd9cc61c4967bfc7aa9a7a65a00f402e41e48518d8b09570c5d2cbe7e50"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "5df5bd297da3f06bee990ff7664e6d7e30d6b90d361ae854f3012616b0b41246",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "对于旧诗，我并没有花费太多心思，通常只有在极其闲暇的时刻才会动笔。",
+      "output_sha256": "d908d83d3c31f75ada08f6db46d20bf40be8d566ef200e8144aa869619162a0d",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.478908,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "1bab9d8cead3ff17d7b4ca502dd466def2cc51a92ace83fd565ad1533c790675"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "d908d83d3c31f75ada08f6db46d20bf40be8d566ef200e8144aa869619162a0d",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "所谓“极闲在”者，是把游山玩水的时候也除外，因为在山水之间游耍，腿脚要动，眼睛要看，心中要欣赏，虽然没有冗屑缠绕，到底不像北窗高卧那样连梦也懒得作。",
+      "output_sha256": "66d02b977742ae93c39163fb0739d27b0bc1d34a846d1ca1240d499cff06299a",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "66d02b977742ae93c39163fb0739d27b0bc1d34a846d1ca1240d499cff06299a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "况且，名山大川与古迹名胜，已经被古人谀赞过不知多少次，添上自己一首半首不甚像样子的诗，只是献丑而已，大可以不必多此一举。",
+      "output_sha256": "d86ee33d0a0644be4fb6a349a52064729aecc6e62dad888ca7695fd7fd99ba9d",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "d86ee33d0a0644be4fb6a349a52064729aecc6e62dad888ca7695fd7fd99ba9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "等到我真有感触，诗兴大发时，通常会写几行白话诗，尽管未必能表达前人未曾道出的情感，至少在形式和语言上不会拘泥于旧套，写在纸上或泥壁上也多少别有一番趣味。",
+      "output_sha256": "5133b63133b3a5e4ba15b3579240c68f9084380cde67a5a76eb3dc62155691a3",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.512993,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "08c86c875bb7bf8cac80e5407aef033e1f2d8a566fd8bcbc19ce289f00c1460a"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "5133b63133b3a5e4ba15b3579240c68f9084380cde67a5a76eb3dc62155691a3",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这样的连在山水之间都不大作旧诗，手与心便无法不越来越钝涩，渐渐的仿佛把平仄也分不清楚了似的。",
+      "output_sha256": "5a69cb7e4ac1207b394abc3f94bb5bae4941a85c4aee4d5ea21371fc617b007b",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "5a69cb7e4ac1207b394abc3f94bb5bae4941a85c4aee4d5ea21371fc617b007b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "可是，在过去的二年中，我似乎添了个“旧诗季节”。",
+      "output_sha256": "d59f546b2ca076b250e97542fd934d988201674c19c08453386c7d8d1057c0db",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "d59f546b2ca076b250e97542fd934d988201674c19c08453386c7d8d1057c0db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这是在夏天。",
+      "output_sha256": "c1a9beae899d45c0e449ffd2fcbeffded21e52f441762529b892ea633a3434dc",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "c1a9beae899d45c0e449ffd2fcbeffded21e52f441762529b892ea633a3434dc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "两年来，身体总是不断出现问题，不知何时就抛锚；所以一入夏便逃到乡间去住，以避开城市的喧嚣，尽量养心。",
+      "output_sha256": "b45fae3aeb5f7fb917dee3312aaf210423c298ea29a7112f4e8234d9be36a026",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.668402,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "5eb72181b574e43159b56ac4d1b7df75411bc2ca88a234a6c070a4b3c3106c07"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "b45fae3aeb5f7fb917dee3312aaf210423c298ea29a7112f4e8234d9be36a026",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "四川的乡村，与北方的村庄不同，不是成片的二三百户，而是三五家人，连个卖酒的小店都难找。",
+      "output_sha256": "02ce3cbf75e7a7bde40d66ed16b6da8ade5cf26a1c61ab0f4834c51683d434ee",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.589902,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "27530afaf85ad8531387a734af6d227e636b9e0af538fbae2e5fbd2d5b68c6a8"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "02ce3cbf75e7a7bde40d66ed16b6da8ade5cf26a1c61ab0f4834c51683d434ee",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "要赶集才能买到花生米，而集市往往在十里之外。",
+      "output_sha256": "822ec982d1e86d685ee8638dc6e3226c27386c8e822155f442644ee4ef9178f3",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.597242,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "50939cb5e9090c0f87e521a6af69854c34881ee71aca42ca2f44d29f41e5a9ae"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "822ec982d1e86d685ee8638dc6e3226c27386c8e822155f442644ee4ef9178f3",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "要看朋友，也往往须走十里八里。",
+      "output_sha256": "0a84136c9119c45f567cb5916f48d78e91827302def62714a806e0956c78fb7e",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "0a84136c9119c45f567cb5916f48d78e91827302def62714a806e0956c78fb7e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "农家男女都有他们自己的工作与生活，可是外人插不进手去：看他们插秧，放牛，拔草，种菜，说笑，只是“看”着而已。",
+      "output_sha256": "be58bcf7fe2a710fec8029e4ee6c749c7d271a7d42dd7daa02bca2f8e8784ffe",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "be58bcf7fe2a710fec8029e4ee6c749c7d271a7d42dd7daa02bca2f8e8784ffe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "有时候，从朝至夕没地方去说一句话！",
+      "output_sha256": "a541fb6778969cb3f0818c7083f7209640dc40096cf9bcbecde02d9debd9e80d",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "a541fb6778969cb3f0818c7083f7209640dc40096cf9bcbecde02d9debd9e80d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "按说，在这个环境下，就应当埋头写作，足不出户了。",
+      "output_sha256": "e066e1c0553b1a5bc95ce1bf7e6f0ff8fd0ee067eaa61efd580196e32d25d3e1",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "e066e1c0553b1a5bc95ce1bf7e6f0ff8fd0ee067eaa61efd580196e32d25d3e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但是不行。",
+      "output_sha256": "9f98a03a38f0f74caebdcc93447fd015081fa3cfae0d5faf9d5a75c7d8630239",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "9f98a03a38f0f74caebdcc93447fd015081fa3cfae0d5faf9d5a75c7d8630239",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我是来养心，不是来拼命。",
+      "output_sha256": "d060eb449ea29f74dd127cf9da4fa575e3a2472e08a8a3fe98479855de00e0d7",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "d060eb449ea29f74dd127cf9da4fa575e3a2472e08a8a3fe98479855de00e0d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "即使天天要干活，也必须有个一定的限制，一天只写，比如说，一千字；不敢贪多。",
+      "output_sha256": "8db64dc666abb28721a96ecdcc2f4527084afbe3209d468ba567399f7fcb1e41",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "8db64dc666abb28721a96ecdcc2f4527084afbe3209d468ba567399f7fcb1e41",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "写完这一千字或五百字，便心无旁骛，只等日落就寝。",
+      "output_sha256": "83614a10bfb6802aea66633ab4a460d145ce497c91b90b7d32b718cd39cb5f66",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.757778,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "bea0f9d299d385f8998e84f05b8ae180a31789acf538b3be0b3a85e5ce8663f8"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "83614a10bfb6802aea66633ab4a460d145ce497c91b90b7d32b718cd39cb5f66",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "到晚间，连个鬼也看不见。",
+      "output_sha256": "459ba1d706d3bbbb90696ac8668c246bd30bdb6f530904a374ef56a3ea77bf2d",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "459ba1d706d3bbbb90696ac8668c246bd30bdb6f530904a374ef56a3ea77bf2d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "在这个季节，我的确是“极其”闲暇了。",
+      "output_sha256": "303c6c97eee8e9bd731220788b04f8794ae5b4291e40817919273e0be2f7e340",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.642582,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "d57a77dafffd9ba1275934388bb8fab3601725d6a902d028612722128ae6c842"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "303c6c97eee8e9bd731220788b04f8794ae5b4291e40817919273e0be2f7e340",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "人是奇怪的动物，太忙不好，太闲也不好。",
+      "output_sha256": "bb9bbf1608a8371446b53906233c9d4f726a289d80fc77688c3e541d82310cbd",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.701937,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "a3e972a829ec970ffebb3c77ddcf51659dbe3fcdf8dfd9d8af0c87df6341c651"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "bb9bbf1608a8371446b53906233c9d4f726a289d80fc77688c3e541d82310cbd",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "当我完全无事可做时，身体虽然闲着，脑袋却无法像石头一样安静。",
+      "output_sha256": "e874820bb68dec1f5c9d306dd6340afc0a957fff7ad4366372ea9e2e93ef6322",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.64263,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "c7c017036c988272a6a13b21251f0f81698155b7b37e945762b7fab4c975565e"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "e874820bb68dec1f5c9d306dd6340afc0a957fff7ad4366372ea9e2e93ef6322",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "眼前的山水竹树与草舍茅亭都好像逼着我说些什么；在我还没有任何具体的表示的时候，我的口中已然哼哼起来。",
+      "output_sha256": "ff28f4272f69c7942a517fa66c73ce67d7d0b951816e101922f863b62d3afede",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "ff28f4272f69c7942a517fa66c73ce67d7d0b951816e101922f863b62d3afede",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "哼的不是歌曲或文章，而是一种有腔无字的诗。",
+      "output_sha256": "414b8e8c23ef45547a5cd8bbd9f06adb14b39e115031d5d013232038cf5685af",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "414b8e8c23ef45547a5cd8bbd9f06adb14b39e115031d5d013232038cf5685af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我无法停下，哼着哼着便不由自主地想些词句，把那空洞的腔调填补起来；结果便成了诗，旧诗。",
+      "output_sha256": "0a368a5ecf16d86aee7bc3dc04094b9d395f66a470d4e5248ad0ea787086eae5",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.708521,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "dd09f3f738d8ca542f52c4d14a7b7daf33da9f8da19bcac6a800d829982282b6"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "0a368a5ecf16d86aee7bc3dc04094b9d395f66a470d4e5248ad0ea787086eae5",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "去年的夏天，我作了十几首，有些相当不错，也有些完全不成样子。",
+      "output_sha256": "a779ca8ec5f04192e03fa081c3d4e9dcf224ccdfc95362c3276f3ea15da7151d",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.570064,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "41ec8bc0314ca08f4b9cfb17c16e75afae5f78bf2f7fe9b5b2570f4a2113c139"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "a779ca8ec5f04192e03fa081c3d4e9dcf224ccdfc95362c3276f3ea15da7151d",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "今年夏天，又写了十几首，几乎没有一首像样的。",
+      "output_sha256": "b8eab0dcabc18f3a292746b29f8390e22a802798034e9cd4e382691c3d9d719e",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.704414,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "748fce1ce80cc27d3ff4f5c6a208d315340605501b60aee9f827eafc5617db5d"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "b8eab0dcabc18f3a292746b29f8390e22a802798034e9cd4e382691c3d9d719e",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我只是在那儿哼，哼出字来便写在纸上，不会皱眉推敲，因为这本就是一时兴起，足够自己随意玩乐，故无须用力去琢磨。",
+      "output_sha256": "90d4f23125f3283454ebcd135bf8b85799e4c3150a5817db7580765873b0db88",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.56555,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "e1f792cd7e87490b73531766c2e8e337cd45ba518a4e4419c9ef82e3b1568a8a"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "90d4f23125f3283454ebcd135bf8b85799e4c3150a5817db7580765873b0db88",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "兹将村居四首写录出来，并无“此为样本”的意思，不过是多少也算生活上的一点微痕而已：",
+      "output_sha256": "3a794e36389a05535f618f88e1220596dea3f6b7b8e4f446734404b17b22faae",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "3a794e36389a05535f618f88e1220596dea3f6b7b8e4f446734404b17b22faae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "茅屋风来夏似秋，日长竹影引清幽。",
+      "output_sha256": "a623e6b8d420240b7398767b141574fa00ceda54e26ccaf66b0e7b988cbf8754",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "a623e6b8d420240b7398767b141574fa00ceda54e26ccaf66b0e7b988cbf8754",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "山前林木层层隐，雨后溪沟处处流。",
+      "output_sha256": "78a4474f627f9fd99f0bb238c67df3c04a115c0b5c672de074ba6e6537933c89",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "78a4474f627f9fd99f0bb238c67df3c04a115c0b5c672de074ba6e6537933c89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "偶得新诗书细字，每赊村酒润闲愁；",
+      "output_sha256": "4da7765fb25c3f11ab7cacfda82a8e898021a6793d6e274c9add3c425bc14fb2",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "4da7765fb25c3f11ab7cacfda82a8e898021a6793d6e274c9add3c425bc14fb2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "中年喜静非全懒，坐待鹃声午夜收。",
+      "output_sha256": "3fad36d12f174e60bb8dc6327980445477953b558c671d3a1e529efa09b2a10a",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "3fad36d12f174e60bb8dc6327980445477953b558c671d3a1e529efa09b2a10a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "半老无官诚快事，文章为命酒为魂。",
+      "output_sha256": "cfce3d141567e96f532d67fd66797b8af1387ba6bcaf127dabf68510ea1296df",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "cfce3d141567e96f532d67fd66797b8af1387ba6bcaf127dabf68510ea1296df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "深情每祝花长好，浅醉唯知诗至尊！",
+      "output_sha256": "b7bdacb0d1822230204a25432516f98677af1db3e6afedc7c1a653a732e05a89",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "b7bdacb0d1822230204a25432516f98677af1db3e6afedc7c1a653a732e05a89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "送雨风来吟柳岸，借书人去掩柴门。",
+      "output_sha256": "9eebd49836178ca540e1f4b01ca48c14aeaec0c77aadcf5306d2a3386abed5e3",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "9eebd49836178ca540e1f4b01ca48c14aeaec0c77aadcf5306d2a3386abed5e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "庄生蝴蝶原游戏，茅屋孤灯照梦痕。",
+      "output_sha256": "25345d9d9ea059dba8d93b9f7695be0359348f0bf35052ec3695758b288774e6",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "25345d9d9ea059dba8d93b9f7695be0359348f0bf35052ec3695758b288774e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "中年无望返青春，且作江湖流浪人；",
+      "output_sha256": "74bfdb7c3ebbeca58be4f2a89bebaf21f5e4767badbfb8e0e9e1581f93861a72",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "74bfdb7c3ebbeca58be4f2a89bebaf21f5e4767badbfb8e0e9e1581f93861a72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "贫未亏心眉不锁，钱多买酒友相亲。",
+      "output_sha256": "c480a7a3df4b40fc68d17b7e7c5d573cd331661e0b16174af78a286f4696597a",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "c480a7a3df4b40fc68d17b7e7c5d573cd331661e0b16174af78a286f4696597a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "文惊俗子千铢贵，诗写幽情半日新，",
+      "output_sha256": "79abf0c60618e38a98070b7639d0b26366d97caa1781d72f9864f1929eaccc4e",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "79abf0c60618e38a98070b7639d0b26366d97caa1781d72f9864f1929eaccc4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "若许太平鱼米贱，乾坤为宅置闲身。",
+      "output_sha256": "6f55598290bb4d8f228fd207e4ec3a8b5fde352b26437e464ccf29d187cadb2c",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "6f55598290bb4d8f228fd207e4ec3a8b5fde352b26437e464ccf29d187cadb2c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "历世于今五九年，愿尝死味懒修仙。",
+      "output_sha256": "5aea6c7ec57a1dc0911fbdd3927092f6a1b409410d00edbaf4759b60f541c58a",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "5aea6c7ec57a1dc0911fbdd3927092f6a1b409410d00edbaf4759b60f541c58a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "一张苦脸唾犹笑，半老白痴醉且眠。",
+      "output_sha256": "9e0d1c7816c11ddb2cd923f5692b699e5a79da3fbf9d7c22426445952c2646d3",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "9e0d1c7816c11ddb2cd923f5692b699e5a79da3fbf9d7c22426445952c2646d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "每到艰危诗入蜀，略知离乱命由天；",
+      "output_sha256": "c7685295776ce55e9db45c6bb51302adecb64265880c968c0ea7c56bc2b31f71",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "c7685295776ce55e9db45c6bb51302adecb64265880c968c0ea7c56bc2b31f71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "若应啼泪须加罪，敢盼来生代杜鹃。",
+      "output_sha256": "3e7b527eef7fc9fa6a9f85577f313f790a029cd9934e66ab86b87b3b4893f467",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "3e7b527eef7fc9fa6a9f85577f313f790a029cd9934e66ab86b87b3b4893f467",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "夏天，可以住在有竹林的乡村，喝上几杯白酒，写几句旧诗，怎么说也算是过得去。",
+      "output_sha256": "7eddc750003a81bc34efb32ed8fbb3598b96862618e982d37d9f0613c345c86d",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.587709,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "33a266a78d39a0b6b65c30c22e71851dd80d7e810a35fcace823801b1f1531d4"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "7eddc750003a81bc34efb32ed8fbb3598b96862618e982d37d9f0613c345c86d",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "一到冬天，在过去的两年里，可就不这么乐观了。",
+      "output_sha256": "0c2a5f3f46be3666ee03f688ac384d174defc142e04ffc9bae65674a9cb2a755",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "0c2a5f3f46be3666ee03f688ac384d174defc142e04ffc9bae65674a9cb2a755",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "冬天，我总住在城里。",
+      "output_sha256": "30636cb9d654299f3e3a0c2eddb537238d2bd4e5fa1e89a6c94cef9244ebf7c8",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "30636cb9d654299f3e3a0c2eddb537238d2bd4e5fa1e89a6c94cef9244ebf7c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "人多，空气坏，饮食欠佳，一面要写文卖钱，一面还要办理大家委托的事情；于是，由忙而疲，由疲而病；平价米的一些养份显然是不够支持这部原本不强健的身体的。",
+      "output_sha256": "b24dc08560defa9e12eeaddecb63012e87e4b5a77f4d7b133e263ad894e76f0c",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "b24dc08560defa9e12eeaddecb63012e87e4b5a77f4d7b133e263ad894e76f0c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "一旦生病，所有事情都得搁置；只好以吃药与静卧代替写作与奔走。",
+      "output_sha256": "e3505fa64db377fbc3be014b42cdd88cbe9f571dc274d5c021a49c93058b8954",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.593591,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "dd2f971a0ccb709a6c65bad1d0a1fef146bb7e3e830b1d4ba4bd2e641813e5ae"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "e3505fa64db377fbc3be014b42cdd88cbe9f571dc274d5c021a49c93058b8954",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "用不着着急生气呀，病魔是立意要折磨人的，并不怕我们向他恫吓与示威啊。",
+      "output_sha256": "bf7e00bc37ddac49a1c64d339719fea3be73111f7e5b515e29082e34c522cc58",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "bf7e00bc37ddac49a1c64d339719fea3be73111f7e5b515e29082e34c522cc58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "病，客观来说，会让人有更多养气的时间。",
+      "output_sha256": "8cc070ffd2dc0a238f420464e9931af30953431f086fec3c58b6187b3df2fda1",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.585235,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "5e0f14b728de59e3e55a6a985f190ea8b790b68612f66e36aeff2404d3e0fa99"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "8cc070ffd2dc0a238f420464e9931af30953431f086fec3c58b6187b3df2fda1",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "它通过折磨、痛苦来挑动人，压迫你；千万别生气，别动肝火，这样一来，病情反而可能加重，甚至带走你的生命。",
+      "output_sha256": "5501c79eedd31fe77c21f5e77effa0e1fce4906e72444599f569fd86cc44d619",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.616539,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "86135c9b1a32d5720a6a3fa31c1867c46831c23794c79ff5ecf7ffec05ffbf0c"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "5501c79eedd31fe77c21f5e77effa0e1fce4906e72444599f569fd86cc44d619",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "最好的办法是不抵抗，逆来顺受，让它无可奈何。",
+      "output_sha256": "549fe8ee5e8f518efb956fd167d8c65c004ac84c3608c2c052dbca5b6f8a46a6",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.600542,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "f9fcfdb9c8d3a1cb5193bbc5506b978605feb61c1fffb320f076981f23bc25d0"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "549fe8ee5e8f518efb956fd167d8c65c004ac84c3608c2c052dbca5b6f8a46a6",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "等它羞愧而退，你就赢了。",
+      "output_sha256": "bd50f9e6442c2dbd3142014a036a1b2989380f24f05bee44e962fd77fd3115aa",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.470455,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "7b5238656905e305c68a198340a3505dc590099e3fa267842506ad4820954fb9"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "bd50f9e6442c2dbd3142014a036a1b2989380f24f05bee44e962fd77fd3115aa",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "就是这样，我总是慢慢的把病魔敷衍走；大半已是春天了。",
+      "output_sha256": "bde8e5d52d15790b309f5a79e1bb5d7d278ede8b2d5d54be6346ec0d6435bb3f",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "bde8e5d52d15790b309f5a79e1bb5d7d278ede8b2d5d54be6346ec0d6435bb3f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "春残夏到，我便又下了乡，留着神，试着步，天天写一点点文章；闲来无事便哼一半首诗。",
+      "output_sha256": "a393009dbface3e613ebf3c03c1109192c5a140b8f4d22495d5c2043a91af70f",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "a393009dbface3e613ebf3c03c1109192c5a140b8f4d22495d5c2043a91af70f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "诗不高明，因为作者在贫血之余，不敢放胆为之也。",
+      "output_sha256": "72e9eee81f0ad25b7204bde5036e2baffcb87016564263a4e3edfd11d9b6b4ca",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "72e9eee81f0ad25b7204bde5036e2baffcb87016564263a4e3edfd11d9b6b4ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "于是便以“旧诗与贫血”为名作篇。",
+      "output_sha256": "607039fe98b509fded7421da35f1b869a77d781511503bb186b78f09e1d6bc59",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.590734,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "13cfc019a1f19190d60e20349a127fc436183e969b56cf3621dbb51f33515c5e"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "607039fe98b509fded7421da35f1b869a77d781511503bb186b78f09e1d6bc59",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    }
+  ]
+}

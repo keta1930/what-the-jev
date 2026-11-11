@@ -1,0 +1,827 @@
+{
+  "source_id": "ZH016",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "88da4785de2f8bac109920632177312fde8034fada18dc7253408e03811e2c54",
+  "ai_article_sha256": "87e4a93e009f03da5a55e4a2e31dcea6cc6b43c3780b368b90edaf2b6315f3de",
+  "mixed_article_sha256": "a71740a9c803b42007a5aa641bfca0d513e9c592be18cc0e6d6755dfbbe7c613",
+  "human_source_sentence_count": 56,
+  "ai_source_sentence_count": 55,
+  "alignment_unit_count": 55,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 55,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.327273,
+  "selected_alignment_score_min": 0.376848,
+  "selected_alignment_score_median": 0.537878,
+  "selected_alignment_score_max": 0.820235,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "前几天，中国作家协会主席团扩大会议决定了：今后应加强会员的政治道德教育，对作家道德堕落现象进行坚决斗争，并开除道德堕落的会员孔厥的会籍。",
+      "output_sha256": "5ac69d12289fabfd4a2e170853474ae722548712d05acf1446ad0d18afc830bd",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "5ac69d12289fabfd4a2e170853474ae722548712d05acf1446ad0d18afc830bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我出席了这个会议，我支持这个决定。",
+      "output_sha256": "8e5270a317af3a83efe164acb42499017faa7293e09b8c7f678b40356b688e54",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "8e5270a317af3a83efe164acb42499017faa7293e09b8c7f678b40356b688e54",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "现在，我想再发表一些看法。",
+      "output_sha256": "bcc3d0fa5c0d431690965bacbb9b830713406aba4b04ff511c3219cefc51f880",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.42197,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "df9487b6ebd5252ba6f11e29d1aaefb7b28042249d0df87ebd0c3c5f018570cb"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "bcc3d0fa5c0d431690965bacbb9b830713406aba4b04ff511c3219cefc51f880",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "首先我要提到作家的劳动纪律问题。",
+      "output_sha256": "abef4d7681d4a372f6f4f442961645b33193dcefb43a8b4ae02c7d412b7c73db",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "abef4d7681d4a372f6f4f442961645b33193dcefb43a8b4ae02c7d412b7c73db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这可以由两方面来说：一方面，我觉得作家协会应当特别注意会员的劳动纪律。",
+      "output_sha256": "d20ba002310ba8843d84bed83bce34341c7b4354c6fd8b88a0ff7d77413f3ec7",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "d20ba002310ba8843d84bed83bce34341c7b4354c6fd8b88a0ff7d77413f3ec7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我们都知道我们的文学创作远远落在人民需要的后边，其原因之一是某些作家长期或短期地怠工。",
+      "output_sha256": "77e45362433c9762ec24c3bc38dc03b0a2dd8adae473252174ed49c9580bb234",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "77e45362433c9762ec24c3bc38dc03b0a2dd8adae473252174ed49c9580bb234",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "怠工的理由有很多，作家协会如果不及时监督，就难免会让人觉得默许了这些理由，从而使得怠工似乎成了作家的权利。",
+      "output_sha256": "9fcd3431872541c253ff74aa7e8a8f21af4ae467e71d5268cd7607c0c8c58ae9",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.521,
+      "human_sentence_indices": [
+        7,
+        8
+      ],
+      "human_sha256": [
+        "f07ba609d7c1fcb0418dd3defd7014ffa539ee782c16f0796253446385198c72",
+        "3db02e49d0ed932b04d75c3937e55d3dd32646e2f90c9f164b1a7c8a4888a4fe"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "9fcd3431872541c253ff74aa7e8a8f21af4ae467e71d5268cd7607c0c8c58ae9",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这不像话！",
+      "output_sha256": "79a3e5dc4eafda9651a1a1c1d826a61fcd08d29f4dc39941433ae98421c34748",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "79a3e5dc4eafda9651a1a1c1d826a61fcd08d29f4dc39941433ae98421c34748",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "一个作家的生活与工作就是创作，责无旁贷。",
+      "output_sha256": "e77cab4bf25e077278114132b091d83ff627be48a9296a825d8608c58ec98c9a",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "e77cab4bf25e077278114132b091d83ff627be48a9296a825d8608c58ec98c9a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "怠工是无可原谅的！",
+      "output_sha256": "9d7d5726a1afd2ca745d255a9c87df54c68056a73901a6d065a715acf50c208c",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "9d7d5726a1afd2ca745d255a9c87df54c68056a73901a6d065a715acf50c208c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "如果我们允许作家怠工，那么工人和农民也可以随意怠工，这就意味着大家都可以不积极投入到社会主义建设中；这样合理吗？",
+      "output_sha256": "ffb3faf2fd20478700797b3828b7f2a3ee445e880651b7b8090a6625474c0681",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.525793,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "53a81fcb6a831bfbcb6ddc6bd258ce28ef50e6d3d23bdb4941b27ccfbd83eef9"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "ffb3faf2fd20478700797b3828b7f2a3ee445e880651b7b8090a6625474c0681",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "首先承认这不像话的应当是作家，因为作家不是有些聪明的人么？",
+      "output_sha256": "230c765b13e5b5b557cc7300a9acd9943ce617a448aa469b8428ddd95201156a",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "230c765b13e5b5b557cc7300a9acd9943ce617a448aa469b8428ddd95201156a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "另一方面，作家必须经常地创作，正和工人和农民必须经常地劳动一样。",
+      "output_sha256": "9efd65eb69d213d6b606dfce463d5af110dab1d14da75180c28c8cc68d643fde",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "9efd65eb69d213d6b606dfce463d5af110dab1d14da75180c28c8cc68d643fde",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "都是劳动，我看不出为什么写出一篇文章就一定比别种劳动的结果有什么特别值得骄傲的地方。",
+      "output_sha256": "f65ac1c264b58fe85c85d0cfb04f19a04ef017a432413eaa48961d62d54d46ab",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "f65ac1c264b58fe85c85d0cfb04f19a04ef017a432413eaa48961d62d54d46ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "没有人耕种、收获，许多作家也会面临饥饿；这难道不是事实吗？",
+      "output_sha256": "dd4af487a9fdf304a5905da6cb1a49765d0dd7d5a92e743d1f1d6c6bb2369b0e",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.591,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "e9e5f703a56ea0d8ca9934ca193faca500b1d1cb2eae58ea11f58373bc9dd8c5"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "dd4af487a9fdf304a5905da6cb1a49765d0dd7d5a92e743d1f1d6c6bb2369b0e",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "然而，个别作家却显得极为自负。",
+      "output_sha256": "d52e02ef1897927b3a5a29e030e2771c7419bab3d98a681f96a8c08bd463adc1",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.390734,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "339aade2a79e7910ea6093619cfb3cec3741be95007127176c89bed441f5ce2e"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "d52e02ef1897927b3a5a29e030e2771c7419bab3d98a681f96a8c08bd463adc1",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他们发表了一篇东西，便目空一切，自居超人，可以为所欲为，似乎连国法也可以不放在眼里。",
+      "output_sha256": "6ee6846693f8d9ec7a63ef962354b07cd1043e6b705aebf6cdc1262c6f250798",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "6ee6846693f8d9ec7a63ef962354b07cd1043e6b705aebf6cdc1262c6f250798",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "究竟是谁赋予他们这种特权呢？",
+      "output_sha256": "6ced54b15fcc709c48ba47d4dfd4faa46d9d89b0affd1947694efef9bfb95e82",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.58087,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "d6fbe573f8732ac142d522fa2daf75d01126856ca5e0a1e11a42ea458f76bba7"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "6ced54b15fcc709c48ba47d4dfd4faa46d9d89b0affd1947694efef9bfb95e82",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我们的宪法上没有这样的条文！",
+      "output_sha256": "f53a19e280135639552b2b823a31c352aabbdf15890b08f95c144db28ea07b18",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "f53a19e280135639552b2b823a31c352aabbdf15890b08f95c144db28ea07b18",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "难道在自己的岗位上做出成绩不是理所当然的吗？",
+      "output_sha256": "6732380d4725edfc511b290fb8f552843cfb26df2c1c6353fbf9c28d45efbccb",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.739477,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "aad9b340ee5d2e4c5e544dfeab37aec175fe2da14793fdc23f33265cd0b590e7"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "6732380d4725edfc511b290fb8f552843cfb26df2c1c6353fbf9c28d45efbccb",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "难道一位劳动模范就因为获得了称号，就可以随心所欲吗？",
+      "output_sha256": "482595634208108ba49ccbb524339674ee3946135f65ef6f3ec0fe4a3dd54820",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.480358,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "3cc0604ac7eae2c1d286eab065a435b5d0f92fc1dc66aa429efcb4ea6cae275e"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "482595634208108ba49ccbb524339674ee3946135f65ef6f3ec0fe4a3dd54820",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这是什么逻辑呢？",
+      "output_sha256": "e266ac5e31c528deaded699d019b172edb62c8958dcbba1aad9e42a05d65ea76",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "e266ac5e31c528deaded699d019b172edb62c8958dcbba1aad9e42a05d65ea76",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "即使我们找出许多理由，证明我们的工作的确与众不同，我们也不过应当更加自尊自重，写了一篇再写一篇，而且一篇比一篇写得更好，经常克服自己的和工作上的缺点与困难。",
+      "output_sha256": "d0ac9ef32f09fa203de6cfae8e62d437e39db073401a84eac20dc214803ae769",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "d0ac9ef32f09fa203de6cfae8e62d437e39db073401a84eac20dc214803ae769",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这才是我们应有的骄傲。",
+      "output_sha256": "a8375932a15720b053e40e320e37b674ae31b6660e648c636e37357348600a10",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "a8375932a15720b053e40e320e37b674ae31b6660e648c636e37357348600a10",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "至于“狂骄”，那就只能和“无知”联缀在一起，没有别的任何好处。",
+      "output_sha256": "c74680ff8d3ff395c3cf15d6100c3cf668c9ed4ed8832b4aae1de9e8344f05c7",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "c74680ff8d3ff395c3cf15d6100c3cf668c9ed4ed8832b4aae1de9e8344f05c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "自负与无知只会摧毁自己；如果这有任何好处，古代圣贤为何从未倡导过？",
+      "output_sha256": "9481d018203fcd99ac10e08f97466972b5439fc544cfdb6acf0721aa0e8690f0",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.376848,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "bd7794bfc7f311d8fd82ea01a3805f5383c6349e18bd0ae2e384ef04dbf13235"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "9481d018203fcd99ac10e08f97466972b5439fc544cfdb6acf0721aa0e8690f0",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "狂骄无知来自名利双收的资产阶级思想。",
+      "output_sha256": "b432fd1aba2a5b3f64222918f615446050001f3ac671297b018ee693f208d688",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "b432fd1aba2a5b3f64222918f615446050001f3ac671297b018ee693f208d688",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "有这思想作怪，一旦果然名利双收，便会得意忘形，任意胡为，像孔厥那样。",
+      "output_sha256": "1c2b9986d990c3fd682e1f40190487d7a0bebf1c8b2d3d3f604f223458ee33b2",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "1c2b9986d990c3fd682e1f40190487d7a0bebf1c8b2d3d3f604f223458ee33b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这种思想必须彻底根除！",
+      "output_sha256": "1b4498c43c737decab10793e73901280c45d51dbeb6cceb8b011914a84a82a6b",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.555,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "9aaac54a5c95487222cbba18ef716b8b2d67a63d74c3d403279ef168cf0fd722"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "1b4498c43c737decab10793e73901280c45d51dbeb6cceb8b011914a84a82a6b",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "现在，我对个别作家的道德堕落现象说几句话。",
+      "output_sha256": "21c8693f7576c78eef5d144e07d7fa95421d8f40305ae5f6f792c96f6e8d51c1",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "21c8693f7576c78eef5d144e07d7fa95421d8f40305ae5f6f792c96f6e8d51c1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我敢说，中国作家今天所受到的党与政府的关怀，和人民的敬爱，是史无前例的。",
+      "output_sha256": "b56528c2754bc417841fda941004ec3e9dd77e831b5edd56000dce154f9fe246",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "b56528c2754bc417841fda941004ec3e9dd77e831b5edd56000dce154f9fe246",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "在这样的优待下，我们必须努力清除“文人无行”这一丑陋的标签，绝不能留下任何痕迹。",
+      "output_sha256": "219654b83bc1de03ec97843fb9d114198b1cd085a19bd8c9d4e8f41a75278a51",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.499953,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "7a0a69f57c1f7b7e096f1e33ac8bce1f7d449e056fc472cacfb4be976ed1ec58"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "219654b83bc1de03ec97843fb9d114198b1cd085a19bd8c9d4e8f41a75278a51",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "文人必须有行！",
+      "output_sha256": "8249b62dace4aa0abfb2fc7cf4208284ca3ad73c8cdf03931bb00f2174c9babe",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "8249b62dace4aa0abfb2fc7cf4208284ca3ad73c8cdf03931bb00f2174c9babe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "否则何以对人民，对自己呢？",
+      "output_sha256": "69f35089d10d8cfe120b8ad119ee1ab43e300e0fc25524dcf4e37fdc72002d40",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "69f35089d10d8cfe120b8ad119ee1ab43e300e0fc25524dcf4e37fdc72002d40",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我们生活在社会主义建设中，我们起码要堂堂正正地作个有社会主义道德品质的人。",
+      "output_sha256": "9be45c3af3ed15bd7e438e045b6c349ebf3fcb1b21d775ea0c6b62c36c099e7e",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "9be45c3af3ed15bd7e438e045b6c349ebf3fcb1b21d775ea0c6b62c36c099e7e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "有了这个基本条件，我们才能作个尽职的作家，去以社会主义的道德品质教育新人。",
+      "output_sha256": "777c58994957ed3960ca1c3a1c101202cc170fa2628d0d639319aa4048032186",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "777c58994957ed3960ca1c3a1c101202cc170fa2628d0d639319aa4048032186",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "任何有才华但无德的人，即使是作家，也不应逍遥法外。",
+      "output_sha256": "a26e7bac584580784aa1c3d3a4f978033a2cb88bce36df3a1beef92b7a39a008",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.582246,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "fb64cee8cf7d0d9a98f6ac4c48155ea15cb87caec2e89eeaec276e47a7968a33"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "a26e7bac584580784aa1c3d3a4f978033a2cb88bce36df3a1beef92b7a39a008",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "今天的一个作家是属于社会的，社会敬爱他，也会检举他。",
+      "output_sha256": "38afc419fef2df5b1615173a34496dd367bb9cc64afecadf9a984ed2f81fd6c0",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "38afc419fef2df5b1615173a34496dd367bb9cc64afecadf9a984ed2f81fd6c0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "为了维护文艺队伍的纯洁，作家协会有权开除那些道德堕落的会员。",
+      "output_sha256": "466c0297416281c7b665ba77ade65e7fd5f357074fdff84ce1cfcb1adb08dcea",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.751747,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "faabd6105f8aaa2fa499b84a7402418e354072ffac61d25efbd827c6e9c22e85"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "466c0297416281c7b665ba77ade65e7fd5f357074fdff84ce1cfcb1adb08dcea",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "而孔厥的会籍已经被开除；如果他的行为危害他人，破坏社会秩序，法律也有权惩罚他。",
+      "output_sha256": "34546126e666668ee2f1d98411f102bf3c9ce39f248858ed797e890f99454b1b",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.531843,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "18f6352915b6a42535a249069ad0aab2c1fb4c52775ca0f481367d4996e367db"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "34546126e666668ee2f1d98411f102bf3c9ce39f248858ed797e890f99454b1b",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "“人类灵魂的工程师”这一崇高称号，并非随便可以自称，去诱惑和欺骗年轻人。",
+      "output_sha256": "32bc52a4b2bd88a6d09a72d4ad0ff30083483df0f296b9eeab9c55dafc621b41",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.535237,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "dc655e3f1494ffd775efa9faff1d48b9615aa195ee19861f07a38db78a090f58"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "32bc52a4b2bd88a6d09a72d4ad0ff30083483df0f296b9eeab9c55dafc621b41",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "骗子本人就根本没有灵魂。",
+      "output_sha256": "681857ebd6ae46eddfbe47618c4a3c608593cb332780304bd7c396d4f26ff0dd",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "681857ebd6ae46eddfbe47618c4a3c608593cb332780304bd7c396d4f26ff0dd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "在此，我也想诚恳地对有志于文学创作的年轻人说一声：绝不可从名利的角度出发去追求成为作家。",
+      "output_sha256": "d0d509b07a0f92967fada31aafc668dabf15d11bc278157f96fb48c54a093f4b",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.54052,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "e94a18f0ef4570b0b04553a039f14c9e27da1f73d0a382dcaadb9e54ca953023"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "d0d509b07a0f92967fada31aafc668dabf15d11bc278157f96fb48c54a093f4b",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "那根本不对头，必定没有好结果。",
+      "output_sha256": "9217349abbdac2c33f972363db4d908cec28b9b6df40497389719a622876542a",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "9217349abbdac2c33f972363db4d908cec28b9b6df40497389719a622876542a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "学习文艺，正如学习科学、技术，都是为了给人民服务。",
+      "output_sha256": "f4a1f45acef21a3aad8692e047e82f1738cbd02f124fe38dce703f5a639f8130",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "f4a1f45acef21a3aad8692e047e82f1738cbd02f124fe38dce703f5a639f8130",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "为了发财享名才去作某件事，根本与社会主义思想不相容。",
+      "output_sha256": "901f3d5e52bbff8e9741ac4a229d5b81e2a73c11fbe4998365b06b91987b6303",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "901f3d5e52bbff8e9741ac4a229d5b81e2a73c11fbe4998365b06b91987b6303",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "假若那么作了，就必然会千方百计地去找“邪门”，以期如愿以偿，名利双收；结果是身败名裂，受到社会的制裁。",
+      "output_sha256": "8520b5c1a24c15e663f11a80defbfabf8bce051fab1c2feb4f974a946e6545e7",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "8520b5c1a24c15e663f11a80defbfabf8bce051fab1c2feb4f974a946e6545e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "一个作家，正如一个先进的工人，他必是光明磊落，富有忘我的精神，进行创造性的劳动，在社会主义建设的共同事业中走在大家的前面，得到光荣。",
+      "output_sha256": "478578d11a2654f2a5dd66ae9ca9f6b3603a450d71d0f0a907ed2f7f6e2165a0",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "478578d11a2654f2a5dd66ae9ca9f6b3603a450d71d0f0a907ed2f7f6e2165a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "他必定不是个鸡肠鼠目，只盯着个人的小便宜的人。",
+      "output_sha256": "a546fc20742663d38337821ad011360faf414cbc0fbba9b1815ce3fdd94b623b",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "a546fc20742663d38337821ad011360faf414cbc0fbba9b1815ce3fdd94b623b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "诗怎样崇高美丽，诗人的品质也必怎样崇高美丽。",
+      "output_sha256": "addf9b40360ee24efc0ae35eeeb9efe92ada67e815540f75ef30a35ed6969f55",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "addf9b40360ee24efc0ae35eeeb9efe92ada67e815540f75ef30a35ed6969f55",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "诗歌是诗人全心全意的创作，而不是在一万元、两万元的小算盘上打出来的！",
+      "output_sha256": "a61af13429d76475379b7dd7e88c278d6a78da300eeb1d074acafda2b8860ef7",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.820235,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "717c203b420e79b95c9f2f5d7070c25de7cbbd459ff2f386a8812bd5adb75c02"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "a61af13429d76475379b7dd7e88c278d6a78da300eeb1d074acafda2b8860ef7",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "我认为，工业和农业生产线上的模范人物，国防线上英勇的战士，皆具备真正诗人的品质。",
+      "output_sha256": "e745d45fea7268b813274a1d1c5f99099e50055f151482399692a47c652b6876",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.705435,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "09fc7917b361606f9f37cd6fcaaf18bb13b53bb11c3b79077979833b2025f6c2"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "e745d45fea7268b813274a1d1c5f99099e50055f151482399692a47c652b6876",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "他们的事业也是诗的创造。",
+      "output_sha256": "478802a1dec582a4ec24c7521701495d54f57f9ce9767430ba59dff6fd8c0ca2",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "478802a1dec582a4ec24c7521701495d54f57f9ce9767430ba59dff6fd8c0ca2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "作家呢，不应当只是这些劳动英雄与卫国战士的创造事业的记录者，而是要用他们自己的深识远见、热情的劳动与艺术的修养，创造出反映与歌颂新人新事的真实作品，来教育人民。",
+      "output_sha256": "c8f17bbc5663f6f3c879556e96a7d9fe989f6601af807e77afc4909c96ffd613",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "c8f17bbc5663f6f3c879556e96a7d9fe989f6601af807e77afc4909c96ffd613",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "一个不想参加革命斗争，不热爱人民，不想为人民服务，而只图得些小便宜的人，在思想与感情上根本与社会主义建设中的新人新事不能起共鸣，又怎能够创作出文学作品呢？",
+      "output_sha256": "6ea248acce36d53314838110c239b3ce9fb0ab206862331a2fa1dcf29de16502",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "6ea248acce36d53314838110c239b3ce9fb0ab206862331a2fa1dcf29de16502",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

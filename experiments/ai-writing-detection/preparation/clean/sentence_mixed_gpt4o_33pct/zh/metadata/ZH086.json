@@ -1,0 +1,889 @@
+{
+  "source_id": "ZH086",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "04bec9a21c95f0bc82718dfe3df2fd53c6473418d8993d3074df320b557a40bd",
+  "ai_article_sha256": "4ba932806d8d56edd26dd2ece762beef8a2cf1f0f6febaa54db76bb3cbdaca9a",
+  "mixed_article_sha256": "fc8d53ab89aa6e7f204896672003c32097ad0e534fae988e407a800a191b6652",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 58,
+  "alignment_unit_count": 58,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 59,
+  "selected_ai_sentence_count": 20,
+  "actual_ai_sentence_ratio": 0.338983,
+  "selected_alignment_score_min": 0.38,
+  "selected_alignment_score_median": 0.645879,
+  "selected_alignment_score_max": 0.820909,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "在第十期中，我读到了曹聚仁先生的《闲话扬州》，感觉比那本广为人知的书要有趣多了。",
+      "output_sha256": "e3f21724865b05a811b262d555e55976c18d6db20b867e1a8b6635302272e4d2",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.620238,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "5b4c01292355bdba34c15a55b5e99d68b8c1e669c182afea125e0af9d3dcbe67"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "e3f21724865b05a811b262d555e55976c18d6db20b867e1a8b6635302272e4d2",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "不过那本书将扬州说得太坏，曹先生又未免说得太好；也不是说得太好，他没有去过那里，所说的只是从诗赋中，历史上得来的印象。",
+      "output_sha256": "d63f6f699578d17e23e4ffd1612008db0f629608010cd40da7991615d42a70ca",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "d63f6f699578d17e23e4ffd1612008db0f629608010cd40da7991615d42a70ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "这些自然也是扬州的一部分，但那已是过去，如今的扬州已无法再给我们那种美好的幻想。",
+      "output_sha256": "59784a3e317dc78fe66255e41ad80ae81d543cedeca7a50ef84c55c53d352b61",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.603174,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "dad8d13436c5b7ba81b6661dc8f7766ea7238b71828511967effce91d355c1eb"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "59784a3e317dc78fe66255e41ad80ae81d543cedeca7a50ef84c55c53d352b61",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我七岁时便来到扬州，一待就是十三年，直到离开去读书。",
+      "output_sha256": "f0e14ae8c316a404fdba339fe975e84dfde369e9b70b8f7fa5e04f31aa73720c",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.455579,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "c42d3047f962ed4eb148d5ace8875ec1d1029d6d3f10648f256a9d1a55874d35"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "f0e14ae8c316a404fdba339fe975e84dfde369e9b70b8f7fa5e04f31aa73720c",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "家里是客籍，父亲又是在外省当差事的时候多，所以与当地贤豪长者并无来往。",
+      "output_sha256": "d90e39a88c6cd5ff99d41a07df167e6a485eb9a0f48a7519031ba7ee05d5ec53",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "d90e39a88c6cd5ff99d41a07df167e6a485eb9a0f48a7519031ba7ee05d5ec53",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "他们的雅事，如访胜，吟诗，赌酒，书画名家，烹调佳味，我那时全没有份，也全不在行。",
+      "output_sha256": "9842da1300d8ab135ee7d8e779f863c571210bb09470e9511649b127a2e1e9a8",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "9842da1300d8ab135ee7d8e779f863c571210bb09470e9511649b127a2e1e9a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "因此虽住了那么多年，并不能做扬州通，是很遗憾的。",
+      "output_sha256": "b64ffd3735f9db2326cc023e4a30099edd1cb350bfd48d222159698b10ab431e",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "b64ffd3735f9db2326cc023e4a30099edd1cb350bfd48d222159698b10ab431e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "记得光复期间，父亲正生病，竟被一个高等流氓凭借军政府的名义敲诈了一笔；还有在中学时期，眼见那些所谓的“甩子团”横行无忌。",
+      "output_sha256": "a6e018a72ea48cf9f6f841dce14abc357f110bafa60988dccac804ee3a9e22a6",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.645259,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "76e7a7c1ea522994284f77f05165bc29ca77461fde396742ec3087dbb6b7dc4a"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "a6e018a72ea48cf9f6f841dce14abc357f110bafa60988dccac804ee3a9e22a6",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“甩子”是扬州方言，有时候指那些“怯”的人，有时候指那些满不在乎的人。",
+      "output_sha256": "79bd7914812cefb05b21a916a1cbc6af127307622eb2ed03f4c3d38281474542",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "79bd7914812cefb05b21a916a1cbc6af127307622eb2ed03f4c3d38281474542",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“甩子团”不用说是后一类；他们多数是绅宦家子弟，仗着家里或者“帮”里的势力，在各公共场所闹标劲，如看戏不买票，起哄等等，也有包揽词讼，调戏妇女的。",
+      "output_sha256": "acd434e2f3c1c105aa6241e073cedfafa3b3f616ee62a93dbe55bc5e5768867f",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "acd434e2f3c1c105aa6241e073cedfafa3b3f616ee62a93dbe55bc5e5768867f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "更可怪的，大乡绅的仆人可以指挥警察区区长，可以大模大样招摇过市这都是民国五六年的事，并非前清君主专制时代。",
+      "output_sha256": "6499e4effccded29c5fad352684e6bcbc0f58bebfd6889e4bcda87bf3b607a6d",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "6499e4effccded29c5fad352684e6bcbc0f58bebfd6889e4bcda87bf3b607a6d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "自己当时血气方刚，看了一肚子气；可是人微言轻，也只好让那口气憋着罢了。",
+      "output_sha256": "9a5b69d160aa7ece4a848036102d3a7908cd0514d410b25a79d93aac82015834",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "9a5b69d160aa7ece4a848036102d3a7908cd0514d410b25a79d93aac82015834",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "从前扬州是个大地方，如曹先生那文所说；现在盐务不行了，简直就算个没“落儿”的小城。",
+      "output_sha256": "18fbe8c3ba7b572909fd6bece56b0142efcb8aa40c26e6462248475740ab527c",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "18fbe8c3ba7b572909fd6bece56b0142efcb8aa40c26e6462248475740ab527c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "可是一般人还忘其所以地耍气派，自以为美，几乎不知天多高地多厚。",
+      "output_sha256": "b910c624acca070db1e75ba4349f2333c8249ca6af6f11713226fefb24a3bc0f",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "b910c624acca070db1e75ba4349f2333c8249ca6af6f11713226fefb24a3bc0f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这真是所谓的“夜郎自大”。",
+      "output_sha256": "808a32acc91ee8315735e9b3ee7ffd82aa252b4758e1b48ed0203b78101cc7d5",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.820909,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "36dc1118c32f17b72b38cc6dd59d6d1694fb018c8d200d7ca2203d3e05ca2696"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "808a32acc91ee8315735e9b3ee7ffd82aa252b4758e1b48ed0203b78101cc7d5",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "扬州人有“扬虚子”的名字；这个“虚子”有两种意思，一是大惊小怪，二是以少报多，总而言之，不离乎虚张声势的毛病。",
+      "output_sha256": "d989511a871d1f32a932e6471e2d82988e4b629fd6ab4f82535882be8c54936f",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "d989511a871d1f32a932e6471e2d82988e4b629fd6ab4f82535882be8c54936f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他们还有个“扬盘”的名字，譬如东西买贵了，人家可以笑话你是“扬盘”；又如店家价钱要的太贵，你可以诘问他，“把我当扬盘看么？”",
+      "output_sha256": "7064d22868bd1fb3935fd0ba6a324f92449d4136d576f3ef1bf8b2c7677242e5",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "7064d22868bd1fb3935fd0ba6a324f92449d4136d576f3ef1bf8b2c7677242e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "盘是用来展示给别人看的，正好形容那些爱耍派头的扬州人。",
+      "output_sha256": "d15cbbb657431375c740ed2a7ed148e3f22cb63b9db4ffb9e8e6462d0afc8ef6",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.657674,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "6f36f583903555805d247a1793555325399717613006a947d1bae1893ae02b0e"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "d15cbbb657431375c740ed2a7ed148e3f22cb63b9db4ffb9e8e6462d0afc8ef6",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "此外，还有所谓“商派”，嘲笑那些模仿盐商奢侈生活的人，简直是气派中的气派。",
+      "output_sha256": "2bdff21ea9da287b58cb9d271a7507e66d7e3c57536a935cded7a3d61f2997d7",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.663522,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "7c3de3ce6b84b1196553b5a458a1671d380f4a06d63933f30f13b1950c8e79fe"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "2bdff21ea9da287b58cb9d271a7507e66d7e3c57536a935cded7a3d61f2997d7",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但是这里只就一般情形说，刻苦诚笃的君子自然也有；我所敬爱的朋友中，便不缺乏扬州人。",
+      "output_sha256": "55738116170b40995db068aeb6b4fdc3dbef0057a89d90313a7239e81cac805a",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "55738116170b40995db068aeb6b4fdc3dbef0057a89d90313a7239e81cac805a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "提起扬州这地名，许多人想到的是出女人的地方。",
+      "output_sha256": "b96cfed20eb51a6ec84d35cd4b127392c84f8aca1059a174b728be2caaf87526",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "b96cfed20eb51a6ec84d35cd4b127392c84f8aca1059a174b728be2caaf87526",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "然而我长大到现在，从未在街上见过一个出色的女孩，或许那时候女性也不常外出吧？",
+      "output_sha256": "d1302ca6d817060e58a9f6889fbb0094d2032ef323d01fcb889b79e11cece770",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.567222,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "f1b9d435dfde7fb8fa2c73ebe2f5a6bf8bb19cd91e4b5f77983188e2c8849aad"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "d1302ca6d817060e58a9f6889fbb0094d2032ef323d01fcb889b79e11cece770",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不过从前人所谓“出女人”，实在指姨太太与妓女而言；那个“出”字就和出羊毛，出苹果的“出”字一样。",
+      "output_sha256": "124359fe47ec49dae5a37224d5d70024b0d91aa6fea166906c62bcf01ccac4a8",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "124359fe47ec49dae5a37224d5d70024b0d91aa6fea166906c62bcf01ccac4a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "《陶庵梦忆》里有“扬州瘦马”一节，就记的这类事；但是我毫无所知。",
+      "output_sha256": "98e552011d4490ca761821ce40eb579d3ced6037d2bd89d70c916e3e68f3d9b6",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "98e552011d4490ca761821ce40eb579d3ced6037d2bd89d70c916e3e68f3d9b6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不过纳妾与狎妓的风气渐渐衰了，“出女人”那句话怕迟早会失掉意义的吧。",
+      "output_sha256": "d43e9c43d2203148a7f2936e4e342019ef762835261b0fa3cb0bd0a9e7225d9f",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "d43e9c43d2203148a7f2936e4e342019ef762835261b0fa3cb0bd0a9e7225d9f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "还有很多人认为，扬州是个美食之地。",
+      "output_sha256": "7f148832bb60e02f26fbad6b337847404b7122225c83b33f7c3c5b3c16a6b364",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.471,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "a5881bc8e1daf16848f60705c9f5f1db1305d4404764a90ce45ba4b5155349e1"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "7f148832bb60e02f26fbad6b337847404b7122225c83b33f7c3c5b3c16a6b364",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这一点绝对没有错。",
+      "output_sha256": "c56c33ec16ea54b4280b46a2e29093b4853cbdd49eed1610937b2737d397316d",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.38,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "bcdfe4afef4847f2b591e38eae3ce25c8ec9eb16fdfeba2a8ae271dd441363ac"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "c56c33ec16ea54b4280b46a2e29093b4853cbdd49eed1610937b2737d397316d",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "北平寻常提到江苏菜，总想着是甜甜的腻腻的。",
+      "output_sha256": "9c098d03b9f54cc012cbcbddd8a478027e908c2f0d012a32233d6edbce1c358d",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "9c098d03b9f54cc012cbcbddd8a478027e908c2f0d012a32233d6edbce1c358d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "然而如今有了淮扬菜，才发现江苏菜也有不甜的；但他们仍然认为油重，与山东菜的清淡不同。",
+      "output_sha256": "f130b6b1efd35f64035a42817a35aa3b5df954450387a66efda69d5f0906783f",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.668687,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "c63a604c9bab299f5f2971523678f7a286738bb3a410762f9becf0ce062c3506"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "f130b6b1efd35f64035a42817a35aa3b5df954450387a66efda69d5f0906783f",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "其实真正油重的是镇江菜，上桌子常教你腻得无可奈何。",
+      "output_sha256": "d6c5fc091e9d535c19a066c8c9306ad2c397c0fd4530569fdc2ad02e0c9e8990",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "d6c5fc091e9d535c19a066c8c9306ad2c397c0fd4530569fdc2ad02e0c9e8990",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "扬州菜若是让盐商家的厨子做起来，虽不到山东菜的清淡，却也滋润，利落，决不腻嘴腻舌。",
+      "output_sha256": "170db5a15f963b60a55f0f7838eb8c566b444c707127f1788fe9d66331ea2116",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "170db5a15f963b60a55f0f7838eb8c566b444c707127f1788fe9d66331ea2116",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "不但味道鲜美，颜色也清丽悦目。",
+      "output_sha256": "225c8bc84889122d7185e1a0b37d0ad75feecb2cb29621d1d540677ec7e46989",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "225c8bc84889122d7185e1a0b37d0ad75feecb2cb29621d1d540677ec7e46989",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "扬州又以面馆著名。",
+      "output_sha256": "986dbec1d6acf99377bb726b9eb11d5bb6c70ec9884b9f7c7aaa09e04890c5ff",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "986dbec1d6acf99377bb726b9eb11d5bb6c70ec9884b9f7c7aaa09e04890c5ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "好在汤味醇美，是所谓白汤，由种种出汤的东西如鸡鸭鱼肉等熬成，好在它的厚，和啖熊掌一般。",
+      "output_sha256": "0f896a64a8b00fd096932edbacfacc98db937461bb1b0f8568a91a6b4ae449ae",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "0f896a64a8b00fd096932edbacfacc98db937461bb1b0f8568a91a6b4ae449ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "还有清汤，单是鸡汤，倒不算特别。",
+      "output_sha256": "033262617a7767f5a5d433df69e8fef6d897a4d2a5faab35479eca7d64a5db90",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.510022,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "bbe059d732a603fda39e37cee50d68909504e3a1975800ff5a85b1c88b61269e"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "033262617a7767f5a5d433df69e8fef6d897a4d2a5faab35479eca7d64a5db90",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "内行的人吃面要“大煮”；普通将面挑在碗里，浇上汤，“大煮”是将面在汤里煮一会，更能入味些。",
+      "output_sha256": "8d75e3fda822639f576b3f7530dad7a598c9c6314e317e23595e6c4d610ff1ac",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "8d75e3fda822639f576b3f7530dad7a598c9c6314e317e23595e6c4d610ff1ac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "扬州最为人知的便是茶馆；早晚去都是满座。",
+      "output_sha256": "f48fa78c98721e93317f64d91e01d9037b315c189c268480e75f12dc98cae214",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.574925,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "5b071e8eb1ec3cea9413e4a2ae6092468faade7840496a0b9e81e77835a9ea2f"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "f48fa78c98721e93317f64d91e01d9037b315c189c268480e75f12dc98cae214",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "吃的花样最多。",
+      "output_sha256": "369be48a42a13528823efd90a86fbbe0308a76bfce54ff208f006c8f8ea7c6c6",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "369be48a42a13528823efd90a86fbbe0308a76bfce54ff208f006c8f8ea7c6c6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "坐定了沏上茶，便有卖零碎的来兜揽，手臂上挽着一个黯淡的柳条筐，筐子里摆满了一些小蒲包分放着瓜子花生炒盐豆之类。",
+      "output_sha256": "6efb5a5d41a7b55d8d58a832ab894c22cffc1706c69b6a82d6eff8e27e137fae",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "6efb5a5d41a7b55d8d58a832ab894c22cffc1706c69b6a82d6eff8e27e137fae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "还有卖炒白果的，担子上锅里爆着白果，铲子的声音响个不停。",
+      "output_sha256": "6cd6139050df767842c5167040fc6b3c90736dfa491639b444983fbf49493279",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.6465,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "785071ab338d0589e061f8ee1851bfde7b701d9ab6bf008cdab389a6767268d5"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "6cd6139050df767842c5167040fc6b3c90736dfa491639b444983fbf49493279",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "得先告诉他，才会为你炒。",
+      "output_sha256": "e5f979294de86485bc443de031ce095981821d56be9fed03fe085ad500647946",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.747584,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "97e639dffa941844d4b4e8c6ca08351b8dc56e6d6dccc549beb3b5b34a923c7a"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "e5f979294de86485bc443de031ce095981821d56be9fed03fe085ad500647946",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "炒得壳子爆了，露出黄亮的仁儿，铲在铁丝罩里送过来，又热又香。",
+      "output_sha256": "dcc4e8fd05e6ac10e77eedaf907b6d64e3e3668f39f144aa3c5b6e1fa720a1fd",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "dcc4e8fd05e6ac10e77eedaf907b6d64e3e3668f39f144aa3c5b6e1fa720a1fd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "还有卖五香牛肉的，让他抓一些，摊在干荷叶上；叫茶房拿点好麻酱油来，拌上慢慢地吃，也可向卖零碎的买些白酒扬州普通都喝白酒喝着。",
+      "output_sha256": "ad4f36197df0217632e4079c87861ba19be1ad4de64588165b6f57cf1a551638",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "ad4f36197df0217632e4079c87861ba19be1ad4de64588165b6f57cf1a551638",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "这才叫茶房烫干丝。",
+      "output_sha256": "6931b92a123aa027c48b07af81bc863b10ef3665b0f213487c422bf3bbef5554",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "6931b92a123aa027c48b07af81bc863b10ef3665b0f213487c422bf3bbef5554",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "北平现在的干丝，都是所谓煮干丝；那是很浓的，作为菜肴很好，但当点心却未必合适。",
+      "output_sha256": "d2359a151ab1e03f4ce4d55f81881aab22338a8612ea48bccfffc524e415d211",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.764276,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "d2757b26c30fb104a57de9211cf2fc6df6095c8e329b5cdd6aab8f402f5feada"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "d2359a151ab1e03f4ce4d55f81881aab22338a8612ea48bccfffc524e415d211",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "烫干丝先将一大块方的白豆腐干飞快地切成薄片，再切为细丝，放在小碗里，用开水一浇，干丝便熟了；逼去了水，抟成圆锥似的，再倒上麻酱油，搁一撮虾米和干笋丝在尖儿，就成。",
+      "output_sha256": "8850c4ecd799dff65e9be4e09520ef8b56c4cdbadb7e97bbe6a7d9719910eb50",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "8850c4ecd799dff65e9be4e09520ef8b56c4cdbadb7e97bbe6a7d9719910eb50",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "说时迟，那时快，刚瞧着在切豆腐干，一眨眼已端来了。",
+      "output_sha256": "b9d0d7cd050d411c40601a09d0b961c40006f1b3ec6515de195771806f4e3462",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "b9d0d7cd050d411c40601a09d0b961c40006f1b3ec6515de195771806f4e3462",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "烫干丝就是清得好，不妨碍你吃别的。",
+      "output_sha256": "eb3c6839c71c637e4f6d3e374f13455278b66e25adcbdeabd4396b89b618519a",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "eb3c6839c71c637e4f6d3e374f13455278b66e25adcbdeabd4396b89b618519a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "接着该点小笼点心。",
+      "output_sha256": "294f6b417d776f6d4f71026c8d244e857bb0f88ea10c57147ab1681d12f77b0e",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.785417,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "4bed728a6a76ff9a4cc79f5d8c513bfa90f50ff574abd61aeb077f473c20f7e2"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "294f6b417d776f6d4f71026c8d244e857bb0f88ea10c57147ab1681d12f77b0e",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "北平淮扬馆子出卖的汤包，诚哉是好，在扬州却少见；那实在是淮阴的名产，扬州不该掠美。",
+      "output_sha256": "c0d3693eaa7853839b3dc53c8b830b525e371b9e8f2e62901b4f460c40c2c86b",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "c0d3693eaa7853839b3dc53c8b830b525e371b9e8f2e62901b4f460c40c2c86b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "扬州的小笼点心，肉馅儿的，蟹肉馅儿的，笋肉馅儿的且不用说，最可口的是菜包子菜烧卖，还有干菜包子。",
+      "output_sha256": "76b17e424f1b9d8c64581e0fde3a25b6b92b1941758d2381f951455c9c40dfd7",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "76b17e424f1b9d8c64581e0fde3a25b6b92b1941758d2381f951455c9c40dfd7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "菜选用最嫩的剁成泥，加入一点糖和油，蒸出来白生生的，热腾腾的，吃上一口立刻化开，留下一丝余味。",
+      "output_sha256": "1aeb4a91da41c7acbd32a300bc38eb09b743ad0a1aa1f1a2014e4e3caff57228",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.647234,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "cd5f75ce67d4b77da03338a5b78fb20b745468baccb2a7dcfe6375ae0efa7c54"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "1aeb4a91da41c7acbd32a300bc38eb09b743ad0a1aa1f1a2014e4e3caff57228",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "干菜也是切碎，也是加一点儿糖和油，燥湿恰到好处；细细地咬嚼，可以嚼出一点橄榄般的回味来。",
+      "output_sha256": "d5845b1a8a1922feeb16e7b703368c11d2780248603bd29e1977d796ce9efa7f",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "d5845b1a8a1922feeb16e7b703368c11d2780248603bd29e1977d796ce9efa7f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "这么着每样吃点儿也并不太多。",
+      "output_sha256": "608a7200b918a4fe34d06f4e27ffa83973b13502a22d636ebd3dd3b29664591e",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "608a7200b918a4fe34d06f4e27ffa83973b13502a22d636ebd3dd3b29664591e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "要是有饭局，还尽可以从容地去。",
+      "output_sha256": "d63307bf1575b739af31559955cdc61e45cd3566b86a104d90a7746b24ddbdba",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "d63307bf1575b739af31559955cdc61e45cd3566b86a104d90a7746b24ddbdba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "然而，只有老资格的茶客才能如此有分寸；偶尔来一趟茶馆的本地人和外地人，往往忍不住狼吞虎咽，结果捧着肚子走出。",
+      "output_sha256": "c286a81b8218ec873d860fdab14c217ae9dfb78e37f5aaf474688079eddb7966",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.68417,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "89436f72cdb8bc0a939649964a95223e490dcb962449eacb50802c11091e9466"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "c286a81b8218ec873d860fdab14c217ae9dfb78e37f5aaf474688079eddb7966",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "扬州游览以水为主，依船而行，之前已有文记述此处，这里就不再赘述。",
+      "output_sha256": "d002f226d724d0e23b38267ed1b84dfa8509d8047a7eafddba91893353709444",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.533224,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "483a33018ae922203d4ffd6b0bef1dde29630a8c6cad1fb1d8053e924ac65393"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "d002f226d724d0e23b38267ed1b84dfa8509d8047a7eafddba91893353709444",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "城里城外古迹很多，如“文选楼”，“天保城”，“雷塘”，“二十四桥”等，却很少人留意；大家常去的只是史可法的“梅花岭”罢了。",
+      "output_sha256": "5326e12ac98e8bbb52c2ac8cf805b7c40ed1ff1b2c91184bde4c99801d94d18f",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "5326e12ac98e8bbb52c2ac8cf805b7c40ed1ff1b2c91184bde4c99801d94d18f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "倘若有相当的假期，邀上两三个人去寻幽访古倒有意思；自然，得带点花生米，五香牛肉，白酒。",
+      "output_sha256": "2d81e3d5a3279d7b7fe99f10ca42ee44664163ca0e657d5904f249801240da40",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "2d81e3d5a3279d7b7fe99f10ca42ee44664163ca0e657d5904f249801240da40",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

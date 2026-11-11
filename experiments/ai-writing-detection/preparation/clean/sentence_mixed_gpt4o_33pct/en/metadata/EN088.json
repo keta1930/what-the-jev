@@ -1,0 +1,1189 @@
+{
+  "source_id": "EN088",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "246c252f5d97ced8eb329096666043758a516c95514e4f69e9a6f32349e9800e",
+  "ai_article_sha256": "11dee3975e43f78afdb7b539400e96d830974d5c868091dff3a06c4876d784f2",
+  "mixed_article_sha256": "0cde7675aef72825296355322f4376de425a9c2e078c07e0b2547841f56c1bd4",
+  "human_source_sentence_count": 77,
+  "ai_source_sentence_count": 76,
+  "alignment_unit_count": 73,
+  "selected_alignment_unit_count": 25,
+  "mixed_sentence_count": 79,
+  "selected_ai_sentence_count": 27,
+  "actual_ai_sentence_ratio": 0.341772,
+  "selected_alignment_score_min": 0.278333,
+  "selected_alignment_score_median": 0.498216,
+  "selected_alignment_score_max": 0.796548,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A friend of mine who is intimate enough with me to guess my secrets, said to me quizzingly the other day: \"Do you know 'Alpha of the Plough?'\"",
+      "output_sha256": "82e2cc900c24b902bb2c1961eece7da9a8a83a3797e2fd2f8b2a1804629df5c3",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "82e2cc900c24b902bb2c1961eece7da9a8a83a3797e2fd2f8b2a1804629df5c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "\"I have never seen the man,\" I said promptly and unblushingly.",
+      "output_sha256": "64e1dbd677c4777dc74158aacae470a221a85b5894acc0965621ef227a3c8974",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "64e1dbd677c4777dc74158aacae470a221a85b5894acc0965621ef227a3c8974",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He laughed and I laughed.",
+      "output_sha256": "4988695aec305d1d1b8201673be0286f4be12dadc2e4615a7cd9cfaf79ed1a3d",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "4988695aec305d1d1b8201673be0286f4be12dadc2e4615a7cd9cfaf79ed1a3d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Never at all?\" he pressed.",
+      "output_sha256": "8bb8061d936fa9c8aaeb0bf731daa7d084ae5c503010a650135bb314d986a21f",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.42,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "8d660a9e1bc0d8660522f63be72a8c46d249c41cfbd2b13a8b5b2a4cb6996604"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "8bb8061d936fa9c8aaeb0bf731daa7d084ae5c503010a650135bb314d986a21f",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Never,\" I said.",
+      "output_sha256": "b006bf87b92d31ef92a66674d232e2f7c73a59b7a6eb91a25294d03288d97669",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "b006bf87b92d31ef92a66674d232e2f7c73a59b7a6eb91a25294d03288d97669",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"What's more, I never shall see him.\"",
+      "output_sha256": "5f045d4a72ee1ee87de3c502e41ea7ed33784a43cc07327dece1a6918e492893",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "5f045d4a72ee1ee87de3c502e41ea7ed33784a43cc07327dece1a6918e492893",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "\"What, not in the looking-glass?\" said he.",
+      "output_sha256": "e52672d99fe3d6f950159d737b5c7123b3897ad27ec9b609e4eb20a235778f5c",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "e52672d99fe3d6f950159d737b5c7123b3897ad27ec9b609e4eb20a235778f5c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "\"That’s not really 'Alpha of the Plough,'\" I countered.",
+      "output_sha256": "7b1df376b10f2b1ee4098fdcb77cee6b8b69b638708960da7e5b012df87432f9",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.606139,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "9cab723c67550fbd93925eb1bd428038a163afb43c1e53aeb1f650a0790b2432"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "7b1df376b10f2b1ee4098fdcb77cee6b8b69b638708960da7e5b012df87432f9",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "\"That is only his counterfeit.",
+      "output_sha256": "4a373e074226ee649b7b1c87af5b50a75895fbdf361052675d709eac7c0a2271",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "4a373e074226ee649b7b1c87af5b50a75895fbdf361052675d709eac7c0a2271",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It may be a good counterfeit, but it's not the man.",
+      "output_sha256": "7465b3f80c837fb77ec89ed44d647b4742681d5091afd810027fdea3b3abc923",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "7465b3f80c837fb77ec89ed44d647b4742681d5091afd810027fdea3b3abc923",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The man I shall never see.",
+      "output_sha256": "87b6a7689f0ca089b586882218178650c5ea4b54ea26e81fa3c145c7195a6b8a",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "87b6a7689f0ca089b586882218178650c5ea4b54ea26e81fa3c145c7195a6b8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I can perceive fragments of him—his hands, feet, and arms.",
+      "output_sha256": "5dd6514a1b0774f60b9d116daa4c846471cf184fb8e3a474dbfb08ce395221dd",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.615256,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "ab3fe57935911cf3204649f196d6dac48426e3704f5d188ffcf2fcb830a0acd5"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "5dd6514a1b0774f60b9d116daa4c846471cf184fb8e3a474dbfb08ce395221dd",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "By closing one eye, I can deduce the outline of his nose.",
+      "output_sha256": "fc73ab925f0b01d4078ae4d7b05de6f9464a7f149c03800d2680e479b09aac7b",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.642058,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "07709179069d00b0ca51c58680ef6af97172846f01bba1f88340890a0c726132"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "fc73ab925f0b01d4078ae4d7b05de6f9464a7f149c03800d2680e479b09aac7b",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "If I push out my upper lip, I might notice he has a moustache.",
+      "output_sha256": "d592f8c4a9eb96f176336c5509affc322419a2d26d457d571478df5cee2df921",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.472874,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "28a8949a1b669c131a10f81879411d61e4f74ddff89cf425df5b00c1a0786f33"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "d592f8c4a9eb96f176336c5509affc322419a2d26d457d571478df5cee2df921",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But his face, as a whole, is hidden from me.",
+      "output_sha256": "888496c4ff86261ed135eedd38fda79c12f04d2e109ab33d7856b4dea0656709",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "888496c4ff86261ed135eedd38fda79c12f04d2e109ab33d7856b4dea0656709",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I cannot tell you even with the help of the counterfeit what impression he makes on the beholder.",
+      "output_sha256": "51f24d2a0e4a4b32d1294698d70a83c203843398cd648a2fcd38ed71b5809c6e",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "51f24d2a0e4a4b32d1294698d70a83c203843398cd648a2fcd38ed71b5809c6e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Now,\" I paused to assess my friend thoughtfully, \"I can gauge what you are like.",
+      "output_sha256": "2554eaa5c50f26c906f9c2b70e2623cafc7883720501f1f963bf2137fa292128",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.584505,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "9bdc882e1c344428b6c3cafa9f3e5e9c2ad83a73a9dcee52fa1c50f093151a1e"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "2554eaa5c50f26c906f9c2b70e2623cafc7883720501f1f963bf2137fa292128",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I take you all in at one glance.",
+      "output_sha256": "091a8d6b957f4ea2a43bee8602062122744f9217577c082033d5d1ccb18a119c",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "091a8d6b957f4ea2a43bee8602062122744f9217577c082033d5d1ccb18a119c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "You can take me in at a glance.",
+      "output_sha256": "6614d4ea5fc3c9e2db059a43b5482bcd99d44d6090861da33d1351284de27e14",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "6614d4ea5fc3c9e2db059a43b5482bcd99d44d6090861da33d1351284de27e14",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The only person we can none of us take in at a glance is the person we should most like to see.\"",
+      "output_sha256": "0da1f7185a29b6fd45b814e6b4f961685a0a731f50f13d6addd4b4bcdfc2c0e4",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "0da1f7185a29b6fd45b814e6b4f961685a0a731f50f13d6addd4b4bcdfc2c0e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "\"It's a mercy,\" said he.",
+      "output_sha256": "55a130be114b403ce87de286d1374a4f125ff268064ccbf26d9ff7184a8d724a",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "55a130be114b403ce87de286d1374a4f125ff268064ccbf26d9ff7184a8d724a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "I’m not entirely convinced he was correct.",
+      "output_sha256": "089fab03fe205d93027cfcc4a8277a8c04c35366731b08697d34e978662408f7",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.38,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "7e71c43265627b72664dfb39b43997a867a108ed373bada81867cd53c9b4d487"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "089fab03fe205d93027cfcc4a8277a8c04c35366731b08697d34e978662408f7",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "In this intricate world, there are compelling arguments on both sides.",
+      "output_sha256": "8c501d40e124352d0dcdd9c4f7c41e9dd6bd7c99e4ea666ef87026d29fac78f0",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.438226,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "b8d5fd1c95110c009e39aa583a905cfcec8d1ed595b4c70977c954b6b000c1a1"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "8c501d40e124352d0dcdd9c4f7c41e9dd6bd7c99e4ea666ef87026d29fac78f0",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It is lucky for some of us undoubtedly that we are condemned to be eternal strangers to ourselves, and that not merely to our physical selves.",
+      "output_sha256": "f79a82d05a6cad7be2a61c3b058245bc36d937dd407bcd13b994d5d4bd8f0d1a",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "f79a82d05a6cad7be2a61c3b058245bc36d937dd407bcd13b994d5d4bd8f0d1a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "We lack even the awareness of our own voices.",
+      "output_sha256": "6a9c2b633e71403118ebd8be5aaea815336508e99b15a6861b43a1febb4552be",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.641136,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "d64ccd11daf9aeef1eefb5b9c18cef52f395ad1bc3244ad9e8197205e64ee82b"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "6a9c2b633e71403118ebd8be5aaea815336508e99b15a6861b43a1febb4552be",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Mr. Pemberton-Billing has never heard the most sepulchral voice in the House of Commons, and Lord Charles Beresford does not know how a foghorn sounds when it becomes articulate.",
+      "output_sha256": "74024cdc053492ba227ba98e0b90e17b95832d5b6b42cf9399afe0935c4ad32f",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "74024cdc053492ba227ba98e0b90e17b95832d5b6b42cf9399afe0935c4ad32f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I have no idea, and you have no idea, what sort of impression our manner makes on others.",
+      "output_sha256": "a20887651bf5e5f5400ee01882e5fcc7feba57879df5e8dd279a77c00dd4c0bd",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "a20887651bf5e5f5400ee01882e5fcc7feba57879df5e8dd279a77c00dd4c0bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "If we had, how stricken some of us would be!",
+      "output_sha256": "4e75ef82a8b689792695060ac1ca67fd1efab57d5a288b47ad21a41e4b12af91",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "4e75ef82a8b689792695060ac1ca67fd1efab57d5a288b47ad21a41e4b12af91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "We should hardly survive the revelation.",
+      "output_sha256": "9de4071313edd240e38fc6d22a473af2f0af55687c24591066e6cf235e8cc15a",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "9de4071313edd240e38fc6d22a473af2f0af55687c24591066e6cf235e8cc15a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "We should be sorry we had ever been born.",
+      "output_sha256": "b45ce8e50fe2eddff9a32665909088c190d33845ef509c7831b4d5863baffc50",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "b45ce8e50fe2eddff9a32665909088c190d33845ef509c7831b4d5863baffc50",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Consider, for instance, the distinguished politician Mr. Sutherland Bangs, M.P., encountering himself at a dinner party one evening.",
+      "output_sha256": "6afbc914e98c799527f12febc9ee956b6efa39e77183560c822d63f9f99d2300",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.687895,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "ab6a40dd56929aebef6854cebd1362c24ca1ace92693495562e1be55ab25f538"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "6afbc914e98c799527f12febc9ee956b6efa39e77183560c822d63f9f99d2300",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Mr. Sutherland Bangs cherishes a comfortable vision of himself as a handsome, engaging fellow, with a gift for talk, a breezy manner, a stylish presence, and an elegant accent.",
+      "output_sha256": "f7be349baa661ce5df92a0aaa6d4599356d4187c971be5242d62734addd6ccbf",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "f7be349baa661ce5df92a0aaa6d4599356d4187c971be5242d62734addd6ccbf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "And seated beside himself at dinner he would discover that he was a pretentious bore, that his talk was windy commonplace, his breezy manner an offence, his fine accent an unpleasant affectation.",
+      "output_sha256": "f7253a83cc0281b869d0524450d0e6891e38bffa04dfa32f7c066f0b53bf8456",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "f7253a83cc0281b869d0524450d0e6891e38bffa04dfa32f7c066f0b53bf8456",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "He would say that he would never want to see that fellow again.",
+      "output_sha256": "802a68d2d5dfdac600851bc64204889faacc9a182f1329b4a39414ff728bb4ff",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "802a68d2d5dfdac600851bc64204889faacc9a182f1329b4a39414ff728bb4ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "And, realising that that was Mr. Sutherland Bangs as he appears to the world, he would return home as humble and abject as Mr. Tom Lofty in The Good-Natured Man was when his imposture was found out.",
+      "output_sha256": "b14ef5fccc021d12f09348c3ba4fe7603da66f6fd454009a192fbb4a33756992",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "b14ef5fccc021d12f09348c3ba4fe7603da66f6fd454009a192fbb4a33756992",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "\"You ought to have your head stuck in a pillory,\" Mr. Croaker admonished Mr. Lofty.",
+      "output_sha256": "73916e949b73d5340d6335e9fa04d38fecf39577183197c9563318fc9f477736",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.796548,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "b13d71da88da9ef0ec6ac3a9b03184c9733d3121072aa096015630736fd637b3"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "73916e949b73d5340d6335e9fa04d38fecf39577183197c9563318fc9f477736",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "\"Stick it where you will,\" said Mr. Lofty, \"for by the lord, it cuts a poor figure where it sticks at present.\"",
+      "output_sha256": "7ade6b9f36d09e1a2451c74427f4bfc955419ec3565bd7154cdb8928d2e6a9e5",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "7ade6b9f36d09e1a2451c74427f4bfc955419ec3565bd7154cdb8928d2e6a9e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Mr. Sutherland Bangs would certainly resonate with that sentiment.",
+      "output_sha256": "d393a6c65025c12f4561b5d080dd118be0a2d50cb56c9777a7c5b0bfc7a09f6f",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.620139,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "98842c18d1e2f8bf59069a5986ded1741373bf7446a17449ff6ebd58ac5e4138"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "d393a6c65025c12f4561b5d080dd118be0a2d50cb56c9777a7c5b0bfc7a09f6f",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Yet, while encountering our true selves might bring some of us profound surprise and even discomfort, it would also serve many of us a beneficial purpose.",
+      "output_sha256": "64d76b81683c15c4fbd0fd22fd2d1557b086814fa26ecdb479433ca1f8fd0ed2",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.43107,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "dd5332b442e6e06917f646d1be31cf667b27a40bd08a04dfa529c11c44671e91"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "64d76b81683c15c4fbd0fd22fd2d1557b086814fa26ecdb479433ca1f8fd0ed2",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Burns put the case quite clearly in his familiar lines:",
+      "output_sha256": "339ea8f181bdb2bf97d7258dfaf0677ebee20c0f2e5a64b83711a660dc8ad5fa",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "339ea8f181bdb2bf97d7258dfaf0677ebee20c0f2e5a64b83711a660dc8ad5fa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "O wad some pow'r the giftie gie us To see oursels as others see us: It wad frae monie a blunder free us An' foolish notion.",
+      "output_sha256": "d59f1c2d53102a6ca3f9fd6e75b871dccd47b6356b08feaab157c380a38b440e",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "d59f1c2d53102a6ca3f9fd6e75b871dccd47b6356b08feaab157c380a38b440e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "We should all make discoveries to our advantage as well as our discomfiture.",
+      "output_sha256": "7cc641142033eb28b1070c49ea6ce71cd41ca6307dfb87743464ddd5961b2b9f",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "7cc641142033eb28b1070c49ea6ce71cd41ca6307dfb87743464ddd5961b2b9f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "You, sir, might find that the talent for argument on which you pride yourself is to me only irritating wrong-headedness, and I might find that the bright wit that I fancy I flash around makes you feel tired.",
+      "output_sha256": "7b8ee66c30dea537c636f6cfc3a8ec78ce1473f4699e7356a1e8767f42f0ed1c",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "7b8ee66c30dea537c636f6cfc3a8ec78ce1473f4699e7356a1e8767f42f0ed1c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Jones might find his eyeglass falling from his eye, realizing it serves only to make him look foolish.",
+      "output_sha256": "51fe66121ad1a0fa8d21deb1a34c92bc63723b23ffcb56888e3a377bfdbc50fa",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.500564,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "ad41312a3219012530b36b0c4e26119f9c79a43507bac7a6b197b9a6bf5babaf"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "51fe66121ad1a0fa8d21deb1a34c92bc63723b23ffcb56888e3a377bfdbc50fa",
+      "ai_unit_sentence_indices": [
+        42,
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Brown would confront the unattractiveness of his cant, and Robinson would regret his bullying nature and prickly demeanor.",
+      "output_sha256": "03fabff34c0589e42700589dffc87c41448c71aee61f72f68daf7ff65f54a9ef",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.500564,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "ad41312a3219012530b36b0c4e26119f9c79a43507bac7a6b197b9a6bf5babaf"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "03fabff34c0589e42700589dffc87c41448c71aee61f72f68daf7ff65f54a9ef",
+      "ai_unit_sentence_indices": [
+        42,
+        43
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "It would do us all good to get this objective view of ourselves.",
+      "output_sha256": "ad7efdeb8f3a4df758c03e060599cdc0c5fc42b2768daea11891fb45ad46bfe0",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "ad7efdeb8f3a4df758c03e060599cdc0c5fc42b2768daea11891fb45ad46bfe0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "However, this view isn’t necessarily the definitive or complete perspective.",
+      "output_sha256": "6069c14aff8608acdb74d64b9dd0065f0baa8100c5fd36dc1df887a6d3b37ad0",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.465747,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "f30368975a838644cd76fac40159227e14fd6856daddda176733f426357db0f3"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "6069c14aff8608acdb74d64b9dd0065f0baa8100c5fd36dc1df887a6d3b37ad0",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "You remember that ingenious fancy of Holmes' about John and Thomas.",
+      "output_sha256": "89856822a6d15f7d226efc21bb33faf3b9b66929a888c200b3f8fdaf373a4728",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "89856822a6d15f7d226efc21bb33faf3b9b66929a888c200b3f8fdaf373a4728",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "When they converse and struggle to connect, Holmes observes that it’s hardly surprising, considering that six identities are involved in the dialogue.",
+      "output_sha256": "415edbd76678b2aedc87d1632c2b9822328c1347a302052572c5ed66a7180dd8",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.291485,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "cd3e594f57ec1aa0886919b5ed8800387fc27b9571710194d7ad245e0659aaf3"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "415edbd76678b2aedc87d1632c2b9822328c1347a302052572c5ed66a7180dd8",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "\"Six!\" you might exclaim, surprised.",
+      "output_sha256": "48a519561e41dfca0bee23fbd8894447cb498b0df6d4a1674428f6f963643cff",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.42316,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "a9d4199764278fc3ed83297d9da117f9581e6b2dfad442a0cd7ba83d5d8ad715"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "48a519561e41dfca0bee23fbd8894447cb498b0df6d4a1674428f6f963643cff",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Yes, six, says he.",
+      "output_sha256": "869d42e83cea6a682061a3130767439cc71ed344c592d8e82ad5da47452bbb0c",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "869d42e83cea6a682061a3130767439cc71ed344c592d8e82ad5da47452bbb0c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "There is John's ideal John—that is, John as he appears to himself; Thomas's ideal John—that is, John as Thomas sees him; and the real John, known only to his Maker.",
+      "output_sha256": "db3e461a30126d93eb198744aa111e939bc8cdb44546dc9bdeb9f5cdba639343",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "db3e461a30126d93eb198744aa111e939bc8cdb44546dc9bdeb9f5cdba639343",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "And so with Thomas, there are three of him engaged in the talk also.",
+      "output_sha256": "4edb73146be42d2f7910a795a01656588c47e9d3a48335c62043b496457731fd",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "4edb73146be42d2f7910a795a01656588c47e9d3a48335c62043b496457731fd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Now John's ideal John is not a bit like Thomas's ideal John, and neither of them is like the real John, and so it comes about that John and Thomas—that is, you and I—get at cross purposes.",
+      "output_sha256": "5600f6e311aabb2a73fc54bca71e75bba636c0ae4bd95a163aabd345e0b06dbc",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "5600f6e311aabb2a73fc54bca71e75bba636c0ae4bd95a163aabd345e0b06dbc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "If I (John) could have your (Thomas's) glimpse of myself, my appearance, my manner, my conduct, and so on, it would serve as a valuable corrective.",
+      "output_sha256": "ef18b26758d1cc8a96a1b88041f4de98a0c973bd0c82d0227e410310c5440578",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "ef18b26758d1cc8a96a1b88041f4de98a0c973bd0c82d0227e410310c5440578",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "It would give that faculty of self-criticism which most of us lack.",
+      "output_sha256": "612fbaad6b621b1cb445c58ea6da75a26de12e65f698ef1625e42ea0f3ded8f5",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "612fbaad6b621b1cb445c58ea6da75a26de12e65f698ef1625e42ea0f3ded8f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "This ability is simply the skill to observe ourselves from an outsider’s perspective, devoid of bias and interest.",
+      "output_sha256": "523f832b6e2874387d2cd7d54b321b0fd5425a295fc3d7b11e7027a2f1370498",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.278333,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "78e88d3ca8a94560d030527c75085677a68c9d7f54e0f901c5985f8c9fc8ee14"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "523f832b6e2874387d2cd7d54b321b0fd5425a295fc3d7b11e7027a2f1370498",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Few possess this capability, except perhaps in fleeting moments of clarity.",
+      "output_sha256": "9b83f26727b55a7e2566f74a26982243cf16371db9d2a6103928173408f41e2b",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.498216,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "da2804ae0cb920501ba7f751122c2cb865016ba0c5047fe19328994c2ad3adc3"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "9b83f26727b55a7e2566f74a26982243cf16371db9d2a6103928173408f41e2b",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "We cannot even do it in regard to the things we produce.",
+      "output_sha256": "2127c39f33d9e0fefef34fb41a7112eadb4db62e1a883a3ec8519425df765d57",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "2127c39f33d9e0fefef34fb41a7112eadb4db62e1a883a3ec8519425df765d57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "When you paint, write, or craft a joke, you can be certain that you will likely misjudge its quality.",
+      "output_sha256": "3cbb3285810a040f9ac4db5e452a143b0ebe1372f6927b4ac2facb8b798e1ea0",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.402758,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "42d68aa868956e2b0d7959f32df3c14c9b2c71a7dc5e3d1b9b0d7c45d440200f"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "3cbb3285810a040f9ac4db5e452a143b0ebe1372f6927b4ac2facb8b798e1ea0",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "You only see it subjectively as a part of yourself—that is, you don't see it at all.",
+      "output_sha256": "45098c2c03a3c39b0541b16dad4d7a1a5bf791b8be6a04385009309316a03ef3",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "45098c2c03a3c39b0541b16dad4d7a1a5bf791b8be6a04385009309316a03ef3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "Put the thing away for a year, come on it suddenly as a stranger might, and you will perhaps understand why Thomas seemed so cool about it.",
+      "output_sha256": "6992c4f96548afef8dacceb221ee2cec5d5c0da0f87c39e2715359b0f84bd2b5",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "6992c4f96548afef8dacceb221ee2cec5d5c0da0f87c39e2715359b0f84bd2b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "It wasn’t due to jealousy or hostility, as you once assumed; rather, he perceived it clearly while you could not.",
+      "output_sha256": "345ef2e7dcd86a56e75ec277b9fd6f41d5dd0f371eda6f10d5ec752acea559ed",
+      "alignment_unit_index": 59,
+      "alignment_score": 0.385,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "79d0ca7b22b20784706e1e893d2acf2910feb2bb5b2b799addfba8a89241d325"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "345ef2e7dcd86a56e75ec277b9fd6f41d5dd0f371eda6f10d5ec752acea559ed",
+      "ai_unit_sentence_indices": [
+        60
+      ]
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "Even great men have this blindness about their own work.",
+      "output_sha256": "6dc0df58e3f7325d87889e80a0257a3dfaa99f72dcb37ccd7e6237ab0e88c45c",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "6dc0df58e3f7325d87889e80a0257a3dfaa99f72dcb37ccd7e6237ab0e88c45c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "How else can we account for a case like Wordsworth's?",
+      "output_sha256": "f7651b8d7522738768d2873881c475f957c1842a4d5586a7f82b325f8d765eb0",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "f7651b8d7522738768d2873881c475f957c1842a4d5586a7f82b325f8d765eb0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "He stands among the three greatest poets this country has ever produced and was also a discerning critic of poetry.",
+      "output_sha256": "120e01bcc403d21e2a37101367236c25cdafea5bd51156e4e65e8d8d15366f95",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.663172,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "0330165aad02e4ebd98b812287ad9976a5c67b3e6126744301746d60c97d51ae"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "120e01bcc403d21e2a37101367236c25cdafea5bd51156e4e65e8d8d15366f95",
+      "ai_unit_sentence_indices": [
+        63,
+        64
+      ]
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "Yet, he authored more pedestrian prose than any of his contemporaries.",
+      "output_sha256": "9351d01b69322a2ab7ab4d5e2bc8a3f0c9311444959addb1e6281aa585d84154",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.663172,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "0330165aad02e4ebd98b812287ad9976a5c67b3e6126744301746d60c97d51ae"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "9351d01b69322a2ab7ab4d5e2bc8a3f0c9311444959addb1e6281aa585d84154",
+      "ai_unit_sentence_indices": [
+        63,
+        64
+      ]
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "Apparently he didn't know when he was sublime and when he was merely drivelling.",
+      "output_sha256": "094be4706c017508f57cf06beeaf4d2e66a70bed5e36fce533a5dab8e0a85cfe",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "094be4706c017508f57cf06beeaf4d2e66a70bed5e36fce533a5dab8e0a85cfe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "He didn't know because he never got outside the hypnotism of self.",
+      "output_sha256": "1cef5a5d251f577e4fd430e8edfd2736b199c531a6d6da44507cbc354b19b575",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "1cef5a5d251f577e4fd430e8edfd2736b199c531a6d6da44507cbc354b19b575",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "I have sometimes felt angry with that phrase, \"What do they know of England, who only England know?\"",
+      "output_sha256": "fc22e3ef94372692322f5e4d5487316087199a3231d8c6f01ece573fe933eab4",
+      "alignment_unit_index": 65,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "fc22e3ef94372692322f5e4d5487316087199a3231d8c6f01ece573fe933eab4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "It is the watchword of a shallow Imperialism.",
+      "output_sha256": "d52bba279b4021e1ce2be3e481a943cc915c5e68367051b3bcbe3b7b3ef81beb",
+      "alignment_unit_index": 66,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "d52bba279b4021e1ce2be3e481a943cc915c5e68367051b3bcbe3b7b3ef81beb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "But I felt a certain truth in it once.",
+      "output_sha256": "4bf559b6f1fe3c5fc6b5b264ac2d21a6d503ba16461eb37154aafe91e8a2157e",
+      "alignment_unit_index": 67,
+      "alignment_score": null,
+      "source_human_sentence_index": 70,
+      "source_human_sha256": "4bf559b6f1fe3c5fc6b5b264ac2d21a6d503ba16461eb37154aafe91e8a2157e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 73,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "I was alone in the Alps, in an immense solitude of peak and glacier, and as I waited for the return of my guide, who had gone on ahead to prospect, I looked, like Richard, \"towards England.\"",
+      "output_sha256": "855bb94033fe296acb194b3198ebaf05f7f4131039ed10650da4e5a06a3ba909",
+      "alignment_unit_index": 67,
+      "alignment_score": null,
+      "source_human_sentence_index": 71,
+      "source_human_sha256": "855bb94033fe296acb194b3198ebaf05f7f4131039ed10650da4e5a06a3ba909",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 74,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "At that moment, I felt as though I was witnessing it through an imaginative lens, comprehensively and clearly, as I had never done in all my years spent within its borders.",
+      "output_sha256": "d4bdfb7c6e227a5c94b195b3fe8edb0199f37c0e83b66df891b405a3cb6053a1",
+      "alignment_unit_index": 68,
+      "alignment_score": 0.428644,
+      "human_sentence_indices": [
+        72
+      ],
+      "human_sha256": [
+        "9e611a9b108ac4bb12ede0a358a62e400fe0268c355c51dec6a14acffff97a86"
+      ],
+      "source_ai_sentence_index": 71,
+      "source_ai_sha256": "d4bdfb7c6e227a5c94b195b3fe8edb0199f37c0e83b66df891b405a3cb6053a1",
+      "ai_unit_sentence_indices": [
+        71
+      ]
+    },
+    {
+      "sentence_index": 75,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "I saw its green pastures and moorlands, its mountains and its lakes, its cities and its people, its splendours and its squalors as if it was all a vision projected beyond the verge of the horizon.",
+      "output_sha256": "e0a0ee9b687d75ea24a216f8e451c7906049b08cb4347a905510ec9060f92d19",
+      "alignment_unit_index": 69,
+      "alignment_score": null,
+      "source_human_sentence_index": 73,
+      "source_human_sha256": "e0a0ee9b687d75ea24a216f8e451c7906049b08cb4347a905510ec9060f92d19",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 76,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "I saw it with a fresh eye and a new mind, seemed to understand it as I had never understood it before, certainly loved it as I had never loved it before.",
+      "output_sha256": "af46088b58c6bc28b08fc1c69bd7703cb1c211d6e262af33d3293c30c647d32c",
+      "alignment_unit_index": 70,
+      "alignment_score": null,
+      "source_human_sentence_index": 74,
+      "source_human_sha256": "af46088b58c6bc28b08fc1c69bd7703cb1c211d6e262af33d3293c30c647d32c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 77,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "I discovered that in leaving England, I was able to truly see it.",
+      "output_sha256": "e5cef88051c8ec9c9d3d9b9547e5e13cc40e3e3c1bf3d986da2c08631d439b04",
+      "alignment_unit_index": 71,
+      "alignment_score": 0.432832,
+      "human_sentence_indices": [
+        75
+      ],
+      "human_sha256": [
+        "555ae58e492ed0d5ae085432e5968c7ff2310b6a262658e0eb2a18f54cdcd5d4"
+      ],
+      "source_ai_sentence_index": 74,
+      "source_ai_sha256": "e5cef88051c8ec9c9d3d9b9547e5e13cc40e3e3c1bf3d986da2c08631d439b04",
+      "ai_unit_sentence_indices": [
+        74
+      ]
+    },
+    {
+      "sentence_index": 78,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "This is precisely what we need to do with ourselves from time to time.",
+      "output_sha256": "af8f014eaf341c8ab4b172fcbccd600806511cdb92a65d71c33c99c24b1e0a5a",
+      "alignment_unit_index": 72,
+      "alignment_score": 0.614286,
+      "human_sentence_indices": [
+        76
+      ],
+      "human_sha256": [
+        "25cdfff8065b02cd5c1be9e667378a70f7d526f8dfd41b46b36a66645e131594"
+      ],
+      "source_ai_sentence_index": 75,
+      "source_ai_sha256": "af8f014eaf341c8ab4b172fcbccd600806511cdb92a65d71c33c99c24b1e0a5a",
+      "ai_unit_sentence_indices": [
+        75
+      ]
+    },
+    {
+      "sentence_index": 79,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "We need to take a journey from our self-absorbed centre, and see ourselves with a fresh eye and an unprejudiced judgment.",
+      "output_sha256": "0f585bb1dc78d278a20365a33cae4ee306012316e492d75db814c49305a956e7",
+      "alignment_unit_index": 73,
+      "alignment_score": null,
+      "source_human_sentence_index": 77,
+      "source_human_sha256": "0f585bb1dc78d278a20365a33cae4ee306012316e492d75db814c49305a956e7",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

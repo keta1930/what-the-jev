@@ -1,0 +1,51 @@
+{
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0,
+  "datasets": [
+    {
+      "dataset": "article-zh",
+      "expected": 100,
+      "successful": 100,
+      "unresolved_errors": 0,
+      "cost_usd": 0.025692899999999994,
+      "prompt_tokens": 168886,
+      "completion_tokens": 600,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt4omini_baseline_output\\responses.gpt4omini.article-mixed.zh.jsonl"
+    },
+    {
+      "dataset": "article-en",
+      "expected": 100,
+      "successful": 100,
+      "unresolved_errors": 0,
+      "cost_usd": 0.0235998,
+      "prompt_tokens": 154836,
+      "completion_tokens": 624,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt4omini_baseline_output\\responses.gpt4omini.article-mixed.en.jsonl"
+    },
+    {
+      "dataset": "block-zh",
+      "expected": 300,
+      "successful": 300,
+      "unresolved_errors": 0,
+      "cost_usd": 0.031213499999999998,
+      "prompt_tokens": 200890,
+      "completion_tokens": 1800,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt4omini_baseline_output\\responses.gpt4omini.block-mixed.zh.jsonl"
+    },
+    {
+      "dataset": "block-en",
+      "expected": 300,
+      "successful": 300,
+      "unresolved_errors": 0,
+      "cost_usd": 0.028542599999999994,
+      "prompt_tokens": 182836,
+      "completion_tokens": 1862,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt4omini_baseline_output\\responses.gpt4omini.block-mixed.en.jsonl"
+    }
+  ],
+  "total_successful": 800,
+  "total_errors": 0,
+  "total_cost_usd": 0.1090488,
+  "total_prompt_tokens": 707448,
+  "total_completion_tokens": 4886
+}

@@ -1,0 +1,399 @@
+{
+  "source_id": "ZH038",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "8beb8a4a67a509c88ad965dadb24540cef75b6b89fcae24ee030e52e082da037",
+  "ai_article_sha256": "a1999ab067f583a4c5d79b86e512809dd951a1f4cc0dcabe6ff17ad84fe3b7a2",
+  "mixed_article_sha256": "fe8808be52fd5032dbfe2cbd8098b29c419385e315098837413eb1a7a0ff7c42",
+  "human_source_sentence_count": 22,
+  "ai_source_sentence_count": 24,
+  "alignment_unit_count": 21,
+  "selected_alignment_unit_count": 6,
+  "mixed_sentence_count": 25,
+  "selected_ai_sentence_count": 9,
+  "actual_ai_sentence_ratio": 0.36,
+  "selected_alignment_score_min": 0.497447,
+  "selected_alignment_score_median": 0.569507,
+  "selected_alignment_score_max": 0.919592,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "西北風尚未起，蟹也尚未肥美，我心知蘆花仍未泛白。",
+      "output_sha256": "e9dffd19a3ba53c24f76af1f77202abcb643e237a6410718f96c06631a0172eb",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.515098,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "5faa0ce875102bc1f8b28e8d96f4d102c33466b862b8f3382e5ab28e98c09f92"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "e9dffd19a3ba53c24f76af1f77202abcb643e237a6410718f96c06631a0172eb",
+      "ai_unit_sentence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "前兩週，源寧來到西湖，卻表示有些失望，因為湖光山色過於整齊、過於精緻，缺乏韻味。",
+      "output_sha256": "bc35e33a1ad3bf65cde28bbc8d925a2144fb806d8cc29aa5b4a3d13aa4682b23",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.515098,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "5faa0ce875102bc1f8b28e8d96f4d102c33466b862b8f3382e5ab28e98c09f92"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "bc35e33a1ad3bf65cde28bbc8d925a2144fb806d8cc29aa5b4a3d13aa4682b23",
+      "ai_unit_sentence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "他開來的一張節目上，原有西溪的一項；恰巧第二天又下了微雨，秋原和我就主張微雨裏下西溪，好教源寧去嘗一嘗這西湖近旁的野趣。",
+      "output_sha256": "e289b43d68842062f734a302a6ad91daacfe27d8b8b493fe1ce5962d160339b6",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "e289b43d68842062f734a302a6ad91daacfe27d8b8b493fe1ce5962d160339b6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "天色陰霾，濕風吹來，帶著一絲寒意，還有一點清香，那是野草花的氣息。",
+      "output_sha256": "a2749a1d0a8b4aff73d5d92a2ab33af51e6a6f39633d6c4417fd72a61c61d500",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.497447,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "7c8aa088bdfbf87033dac89691809a5784fc4b4df2abd480930f316c4e744b73"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "a2749a1d0a8b4aff73d5d92a2ab33af51e6a6f39633d6c4417fd72a61c61d500",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "車過方井旁邊，自然又下車來，去看了一下那座天主聖教修士們的古墓。",
+      "output_sha256": "08662d785022d6f5e1a01454d28c11ceee2029aa55b0bc25ca7df99c23cd419b",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "08662d785022d6f5e1a01454d28c11ceee2029aa55b0bc25ca7df99c23cd419b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "從墓門望進去，只是黑沉沉，冷冰冰的一個大洞，什麼也看不見，鼻子裏卻聞吸到了一種黴灰的陰氣。",
+      "output_sha256": "0971662b058593ce48c912afd4ce136e0fe3f4a60fdd562123ab5f627222a554",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "0971662b058593ce48c912afd4ce136e0fe3f4a60fdd562123ab5f627222a554",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "把鼻子掀了兩掀，聳了一聳肩膀，大家都說，可惜忘記了帶電筒，但在下意識裏，自然也有一種恐怖，不安，和畏縮的心意，在那裏作惡，直到了花塢的溪旁，走進窗明几淨的靜蓮庵（？）",
+      "output_sha256": "4a5e9ea53d897719d448d7751e401b75b47bcc955c552b6619bb0d3ce21160ab",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "4a5e9ea53d897719d448d7751e401b75b47bcc955c552b6619bb0d3ce21160ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "堂去坐下，喝了兩碗清茶，這一些鬼胎，方纔洗滌了個空空脫脫。",
+      "output_sha256": "32165b8811477440ff909199882fe623ce9ff407b3d74eaf6fe3c60eea815374",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "32165b8811477440ff909199882fe623ce9ff407b3d74eaf6fe3c60eea815374",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "遊西溪，本來是以松木場下船，帶了酒盒行廚，慢慢兒地向西搖去爲正宗。",
+      "output_sha256": "696c28c4b3d05fbebae226ebb6075e02b11678adc407d7b2369412e645c74bfd",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "696c28c4b3d05fbebae226ebb6075e02b11678adc407d7b2369412e645c74bfd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "像我們那麼高坐了汽車，飛鳴而過古蕩，東嶽，一個鐘頭要走百來里路的旅客，終於是難度的俗物，但是俗物也有俗益，你若坐在汽車座裏，引頸而向西向北一望，直到湖州，只見一派空明，遙蓋在淡綠成陰的斜平海上；這中間不見水，不見山，當然也不見人，只是渺渺茫茫，青青綠綠，遠無岸，近亦無田園村落的一個大斜坡；過秦亭山後，一直到留下爲止的那一條沿山大道上的景色，好處就在這裏，尤其是當微雨朦朧，江南草長的春或秋的半中間。",
+      "output_sha256": "e8eff752af3be000c6e57b162e891a9ee7ef1fa0f8777b5f436695514abf775d",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "e8eff752af3be000c6e57b162e891a9ee7ef1fa0f8777b5f436695514abf775d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "從留下下船，迴環曲折，一路向西向北，只在蘆花淺水裏打圈圈；圓橋茅舍，桑樹蓼花，是本地的風光，還不足道；最古怪的，是剩在背後的一帶湖上的青山，不知不覺，忽而又會得移上你的面前來，和你點一點頭，又匆匆的別了。",
+      "output_sha256": "7c80c3dc7def5bb3c32683296a0225cde1f23d6328974c2034cd603003319376",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "7c80c3dc7def5bb3c32683296a0225cde1f23d6328974c2034cd603003319376",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "搖船的少女，也總好算是西溪的一景；一個站在船尾把搖櫓，一個坐在船頭上使槳，身體一伸一俯，一往一來，和櫓聲的咿呀，水波的起落，湊合成一大又圓又曲的進行軟調；遊人到此，自然會想起瘦西湖邊，竹西歌吹的閒情，而源寧昨天在漪園月下老人祠裏求得的那枝靈籤，彷彿是完全的應了，籤詩的語文，是《庸風桑中》章末後的三句，叫作“期我乎桑中，要我乎上宮，送我乎淇之上矣”。",
+      "output_sha256": "ad036ed41807e602f030d0ed619b25ee92e1387f11f7053e98745fa63592088e",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "ad036ed41807e602f030d0ed619b25ee92e1387f11f7053e98745fa63592088e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "之後我們來到了茭蘆庵，上了彈指樓，因為在雨中，帶著水泥的地面，終究感受不到什麼大趣，但在這一天傍晚回到湖濱酒樓時，源寧卻一本正經地說：“今天的西溪，比昨日的西湖要好三倍。”",
+      "output_sha256": "e70fa05b98d9ff315ccab8beffb5d9975f1bc9bf6fa6ab9defefa76f292ae640",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.692004,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "5c146b972e51c9408ff0de83ea7e4d1dd21145dbe8a5106da349f795c93902ed"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "e70fa05b98d9ff315ccab8beffb5d9975f1bc9bf6fa6ab9defefa76f292ae640",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "前天的假日，陽光明媚，微風輕柔，報上也曾提到蘆花盛放的消息。",
+      "output_sha256": "ef99052badec7cffbb3531d0fe939133eec8770ff48ad77efb12e0bc8b7c08e7",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.569507,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "215739e6d9f68e61da7eb8b186d70956a2088d59dd856e79ae791bde685de857"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "ef99052badec7cffbb3531d0fe939133eec8770ff48ad77efb12e0bc8b7c08e7",
+      "ai_unit_sentence_indices": [
+        13,
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "午後斜陽下，老龍夫婦又邀我去西溪，因出發稍晚，我們只在秋雪庵的彈指樓上度過了半日。",
+      "output_sha256": "1fbc1b19a35018589f8305febf844dcf35e9783ed747436ca82c01da08a6f160",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.569507,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "215739e6d9f68e61da7eb8b186d70956a2088d59dd856e79ae791bde685de857"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "1fbc1b19a35018589f8305febf844dcf35e9783ed747436ca82c01da08a6f160",
+      "ai_unit_sentence_indices": [
+        13,
+        14
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "一片斜陽，反照在蘆花淺渚的高頭，花也並未怒放，樹葉也不曾凋落，原不見秋，更不見雪，只是一味的晴明浩蕩，飄飄然，渾渾然，洞貫了我們的腸腑。",
+      "output_sha256": "75ccfc195990f800e8f046a86a36ffb885c7adf320d291fa9d6f83401d9f1445",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "75ccfc195990f800e8f046a86a36ffb885c7adf320d291fa9d6f83401d9f1445",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "老僧無相，燒了面，泡了茶，更送來了酒，末後還拿出了紙和墨。",
+      "output_sha256": "c31424a0f533977b8064a8b17217f00c8af64a3764e218c3640f685a8057e9d9",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "c31424a0f533977b8064a8b17217f00c8af64a3764e218c3640f685a8057e9d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我們看看日影下的北高峯，看看庵旁邊的蘆花蕩，就問無相，花要幾時才能全白？",
+      "output_sha256": "2bc6654533758513ccfa0f848965268442e1ae76e12d7306c9ee679b30a08675",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "2bc6654533758513ccfa0f848965268442e1ae76e12d7306c9ee679b30a08675",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "老僧操着緩慢的楚國口音，微笑着說：“總要到陰曆十月的中間；若有月亮，更爲出色。”",
+      "output_sha256": "356374cca7b68433ae4fc8212c9988d4583dd60c82689535045d88248d81007a",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "356374cca7b68433ae4fc8212c9988d4583dd60c82689535045d88248d81007a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "說完，他還提出一個交換的條件，邀請我們到時再次光臨，他會準備美味的款待，聊作潤筆。",
+      "output_sha256": "0007f8e1f16c55709e701a229d7d1e495572d202b8bf600a491ef62a8108be00",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.597826,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "7579a11eb320a9c4becab2f8f90aae7941ddecb70d3f9af75f18a5000c5430e2"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "0007f8e1f16c55709e701a229d7d1e495572d202b8bf600a491ef62a8108be00",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "不過，今天的字卻是非寫不可。",
+      "output_sha256": "a7c3431fb07dfe3b2a150e95549c24b4cab601e6309ce6f30ae7471ee6e734dc",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.597826,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "7579a11eb320a9c4becab2f8f90aae7941ddecb70d3f9af75f18a5000c5430e2"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "a7c3431fb07dfe3b2a150e95549c24b4cab601e6309ce6f30ae7471ee6e734dc",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "老龍寫下了“一劍橫飛破六合，萬家憔悴哭三吳”的十四個字。",
+      "output_sha256": "539a838d7b10bca6de2919dcc2d03c529adb79b2c933400a2f328c236bfbff3a",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.919592,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "2fd0c5f9990bf44a40f7ec36deb86683242072a95c8a235270ee6930ed9d510e"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "539a838d7b10bca6de2919dcc2d03c529adb79b2c933400a2f328c236bfbff3a",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我也附和着抄了一副不知在哪裏見過的聯語：“春夢有時來枕畔，夕陽依舊上簾鉤。”",
+      "output_sha256": "30fa97733008d8f3fe66dd4f1ec05fe3839fd24aee6ca8b1fe3978a6615412bc",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "30fa97733008d8f3fe66dd4f1ec05fe3839fd24aee6ca8b1fe3978a6615412bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "喝得酒醉醺醺，走下樓來，小河裏起了晚煙，船中間滿載了黑暗，龍婦又逸興遄飛，不知上哪裏去摸出了一枝洞簫來吹着。",
+      "output_sha256": "a436b0aaa21d37e83213df8da21000068076ad148847f044f883ff8a0429047f",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "a436b0aaa21d37e83213df8da21000068076ad148847f044f883ff8a0429047f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“其聲嗚嗚然，如怨如慕，如泣如訴，餘音嫋嫋，不絕如縷”，倒真有點像是七月既望，和東坡在赤壁的夜遊。",
+      "output_sha256": "ffac227ee696200087b1720f2f92e0c15fd4f4c38b9de27e6526b34cac442702",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "ffac227ee696200087b1720f2f92e0c15fd4f4c38b9de27e6526b34cac442702",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

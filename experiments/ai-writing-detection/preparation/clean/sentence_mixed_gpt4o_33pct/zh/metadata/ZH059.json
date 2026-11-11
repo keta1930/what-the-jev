@@ -1,0 +1,959 @@
+{
+  "source_id": "ZH059",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "dcf7c4d2a190649d156c1fc5a9f9c914a8b590dfbea1802e63e53a72128b13f7",
+  "ai_article_sha256": "8ca68b123494c78e47cfe296ea7363d03b42cd6806a9e8ceb0f14dec69163e0b",
+  "mixed_article_sha256": "a281ebcd9f1b6e24a7ac3965c3fe8c0963bf98250e63e1745188073537a613b2",
+  "human_source_sentence_count": 65,
+  "ai_source_sentence_count": 63,
+  "alignment_unit_count": 62,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 64,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.328125,
+  "selected_alignment_score_min": 0.449938,
+  "selected_alignment_score_median": 0.617815,
+  "selected_alignment_score_max": 0.85467,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "到成都来，这是第四次。",
+      "output_sha256": "0eeed157ad3223592df5319cc141692618f49ddeb254c7360cc235198c984cf4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0eeed157ad3223592df5319cc141692618f49ddeb254c7360cc235198c984cf4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "第一次是在四年前，停留了五六天，简单游览了这座城市。",
+      "output_sha256": "033878a59e3542793f246bb2296c61210fa0011a82432087e0a4eb5dc316d797",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.56778,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "69c9450a68d0cac86ca9e8d20aac193f5ca30d02caf4bddc0e6918ba3e183bc9"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "033878a59e3542793f246bb2296c61210fa0011a82432087e0a4eb5dc316d797",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "第二次是在三年前，我随同西北慰劳团北征，路过此处，故仅留二日。",
+      "output_sha256": "0022a46a59c90363e9e2e8a001832ebdfb2cf43d35891a4d3d58c22f460a0a93",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "0022a46a59c90363e9e2e8a001832ebdfb2cf43d35891a4d3d58c22f460a0a93",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "第三次是慰劳归来，过此小住，留四日，见到不少的老朋友。",
+      "output_sha256": "540e6dc7b93d9d8b6faf03493b69416719a0a8f56b87447055ce5ae9cf69e7a4",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "540e6dc7b93d9d8b6faf03493b69416719a0a8f56b87447055ce5ae9cf69e7a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "这一次——第四次——是应冯焕璋先生的邀请，计划游览灌县和青城山，顺便在成都玩几天。",
+      "output_sha256": "f7109659b596807715b018e30805b593072de88b39b15fcc293585c41dc00f22",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.655577,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "adce17f62db5e8d00f5610e8ac10246026c9e292ba2f32f1d121bfcbd090ed85"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "f7109659b596807715b018e30805b593072de88b39b15fcc293585c41dc00f22",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "成都是个可爱的地方。",
+      "output_sha256": "ad2727a0a29d7092c100f5770acc98c36455d62daf2b905b0ccfe32c62ac88c2",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "ad2727a0a29d7092c100f5770acc98c36455d62daf2b905b0ccfe32c62ac88c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "对于我，它特别的可爱，因为：",
+      "output_sha256": "438cd935df831599bcdbf4aa53e30ebc7993b79bb5e5cf5ab630dd0968915f84",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "438cd935df831599bcdbf4aa53e30ebc7993b79bb5e5cf5ab630dd0968915f84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "首先，我是来自北平的人，而成都有许多与北平相似之处，让我稍稍减轻了乡愁。",
+      "output_sha256": "903293e14900f510867db1e2c9ca22af32a48515edd5af0ae1c9f374af002fae",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.639756,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "1d056afca767abee7fcfd06f4a8af7d3419a8d4572fe6cbc9b8a4cd857c49f0d"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "903293e14900f510867db1e2c9ca22af32a48515edd5af0ae1c9f374af002fae",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "到抗战胜利后，我想，我总会再来一次，多住些时候，写一部以成都为背景的小说。",
+      "output_sha256": "1237b17ea9e6fb993b551ab38197b32b4b9c97e02419daa7c8c3a55323b336a9",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "1237b17ea9e6fb993b551ab38197b32b4b9c97e02419daa7c8c3a55323b336a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "在我的心中，此地方好像也都很像人似的，有个性格。",
+      "output_sha256": "7757151f50008900cc9173239c0e127da46b594f8ec5c96ee3ffe4154ceb49de",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "7757151f50008900cc9173239c0e127da46b594f8ec5c96ee3ffe4154ceb49de",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我并不喜欢上海，因为我无法理解它的性格，也说不清它的真实面貌。",
+      "output_sha256": "f6b9b6f72a3bcc87412b2d65a305fec91e52b971755cf2679ecf4c3178e796ce",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.560163,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "ff85b0edea1861e14ed750c42bd419448590169555cd73a292363d6ed6606b38"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "f6b9b6f72a3bcc87412b2d65a305fec91e52b971755cf2679ecf4c3178e796ce",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我不能与我所不明白的人交朋友，也不能描写我所不明白的地方。",
+      "output_sha256": "10423941d2b3c72b0e6f1d85b06b219ca82d3f48687f7c21ae8232d9d4688d84",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "10423941d2b3c72b0e6f1d85b06b219ca82d3f48687f7c21ae8232d9d4688d84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "对于成都，我确实了解不多；然而，我相信我能从它的光辉中写出一些东西。",
+      "output_sha256": "af4cf329b05176dc87ee6d59619720ff37c6c3fc425b3b847f28662d0c3f0b94",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.490912,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "e8fb4203653d98b8f5f9ad0a6947f6e66cff3d7bab27c9b2e6c72179eccb8d19"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "af4cf329b05176dc87ee6d59619720ff37c6c3fc425b3b847f28662d0c3f0b94",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我似乎已看到了它的灵魂，因为它与北平相似。",
+      "output_sha256": "aeca277e7aec058a6983a2e04647582be6490e98553bf13ee27b8502f410a00d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "aeca277e7aec058a6983a2e04647582be6490e98553bf13ee27b8502f410a00d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "（二）我有许多老友在成都。",
+      "output_sha256": "3a80d74ef3efd52dd25d15978aa3d2b9b4c31827b43ab9be11f43b449737f182",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "3a80d74ef3efd52dd25d15978aa3d2b9b4c31827b43ab9be11f43b449737f182",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "有朋友的地方就是好地方。",
+      "output_sha256": "32a94d3526c0637eacfa29d9cbcd0f0673adf1f973c9b74c3dd3c5eb87081ca6",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "32a94d3526c0637eacfa29d9cbcd0f0673adf1f973c9b74c3dd3c5eb87081ca6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这诚然是个人的偏见，可是恐怕谁也免不了这样去想吧。",
+      "output_sha256": "45163422590f5a265d897f414245b9474bec52f8d2d5a40e6ed6b247e7acb9c2",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "45163422590f5a265d897f414245b9474bec52f8d2d5a40e6ed6b247e7acb9c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "况且成都的本身已经是可爱的呢。",
+      "output_sha256": "d587e3153b58d1d78e843497ffe0ac9bda8c94560f68de6665fece9a62188130",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "d587e3153b58d1d78e843497ffe0ac9bda8c94560f68de6665fece9a62188130",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "八年前，我曾在齐鲁大学教过书。",
+      "output_sha256": "3d5514e68d8a71e0b534add53a8b567df8c92958c2138f9fe970829f0bfec509",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "3d5514e68d8a71e0b534add53a8b567df8c92958c2138f9fe970829f0bfec509",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "七七抗战后，我又由青岛移回济南，仍住齐大。",
+      "output_sha256": "13fd5efa068cc0416aab98bd60be87bd604c265f8a8ba9b3402f4d602ef347bc",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "13fd5efa068cc0416aab98bd60be87bd604c265f8a8ba9b3402f4d602ef347bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我从济南流亡出来时，妻儿还留在齐大，生活了一年多。",
+      "output_sha256": "e128b370a3990b65bfff9bbacb6c0b19d759146eb2274f5cfbec580c7656eae0",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.692727,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "1b872b39aeeff09b9d0510cfc2d03c240a4bab9222775ebd09b466030e2aed4e"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "e128b370a3990b65bfff9bbacb6c0b19d759146eb2274f5cfbec580c7656eae0",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "如今，齐大的校舍已被敌军占领，我与朋友们的书籍和物品也被劫掠一空，而今天能在成都会见到共患难的老友，实在是何等的快乐！",
+      "output_sha256": "858683520b6e452fcda63933a484e3d636e0a4967c8197d15e26b5f0509a269b",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.637784,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "3ebeeec9f9a8065c8427e7bec70b9780f08d3508daa3dd9cb06121683ad3c4fb"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "858683520b6e452fcda63933a484e3d636e0a4967c8197d15e26b5f0509a269b",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "衣物，器具，书籍，丢失了，有什么关系！",
+      "output_sha256": "c9c93e8e56f5a8937c9b311ce1d49e61594929c27018ab934707a4c65caeaa68",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "c9c93e8e56f5a8937c9b311ce1d49e61594929c27018ab934707a4c65caeaa68",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我们还有命，还能各守岗位的去忍苦抗敌，这就值得共进一杯酒了！",
+      "output_sha256": "7053e94cd04a4eb7b8c0cab220d4325e5948d373e94c1882260a750c53bd5d33",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "7053e94cd04a4eb7b8c0cab220d4325e5948d373e94c1882260a750c53bd5d33",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "抗战前，我在山东大学也教过书。",
+      "output_sha256": "ca8a81699b15be6acdea19357eb167a42678f43f0a8a0c0b041206e925362fdf",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "ca8a81699b15be6acdea19357eb167a42678f43f0a8a0c0b041206e925362fdf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这次在华西坝，意外遇到几位山大的老朋友，彼此的惊喜之情难以言表。",
+      "output_sha256": "b121f03832de29dd46c9c9ba1e5c314af92bb9424d7c2f82b4732b0584109381",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.533981,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "33fa981f216708435828ed8df36c3421ab3a10bb9624d93b6a5f81460913af8a"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "b121f03832de29dd46c9c9ba1e5c314af92bb9424d7c2f82b4732b0584109381",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "一个人的生命，我以为，是一半儿活在朋友中的。",
+      "output_sha256": "502041802636c1804e65811e323d6a52084f175ed0dc8fe2bcf464c61a96f39f",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "502041802636c1804e65811e323d6a52084f175ed0dc8fe2bcf464c61a96f39f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "如果这句话没有错误，我自然不能不因人与地的关系而更加喜爱成都了。",
+      "output_sha256": "b8af18802fb84aac092c0c2dbb7179e37e73ec044991a66cc8e43a0b000db1f6",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.635147,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "1f679e85a057629825e9619799e3b4564580e75cafbbdf32369f9361bea6c5ef"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "b8af18802fb84aac092c0c2dbb7179e37e73ec044991a66cc8e43a0b000db1f6",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "啊，这里还有几十位文艺界的友人呢！",
+      "output_sha256": "0dfb26ebf7a753a9022cca5e378f5d779c319be200e7c1118db4490071832380",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "0dfb26ebf7a753a9022cca5e378f5d779c319be200e7c1118db4490071832380",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "与我的年纪差不多的，如郭子杰，叶圣陶，陈翔鹤，诸先生，握手的时节，不知为何，不由的就彼此先看看头发——都有不少根白的了，比我年纪轻一点的呢，虽然头发不露痕迹，可是也都显着削瘦，霜鬓瘦脸本是应该引起悲愁的事，但是，为了抗战而受苦，为了气节而不肯折腰，瘦弱衰老不是很自然的结果么？",
+      "output_sha256": "63073f0a9cb457ecc60678b9aa016fbe952309b3fa7806e02857cbfcde6e9bbd",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "63073f0a9cb457ecc60678b9aa016fbe952309b3fa7806e02857cbfcde6e9bbd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这真是悲喜俱来，另有一番滋味了！",
+      "output_sha256": "05eff109b1089b6b3e4f4bdcb80e4e69eaaccb618f64884ba8b493bab462b9d8",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "05eff109b1089b6b3e4f4bdcb80e4e69eaaccb618f64884ba8b493bab462b9d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "（三）我爱成都，因为它有手有口。",
+      "output_sha256": "9ad0d5941cc501a49f76680494c7f16c3444959f9bda01f7e1398274d6e8cb9d",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "9ad0d5941cc501a49f76680494c7f16c3444959f9bda01f7e1398274d6e8cb9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "先说手艺，我并不热衷于古玩，首先是因为不懂，其次是因为没有经济能力。",
+      "output_sha256": "d89b00335f2855da4f408c761892450f7e2c9afcdd533122ae55d58a40c8b975",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.492864,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "1702fece1e4127d64a6cc7887184766b056c41dfa2db72b92666f2754e0ffd74"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "d89b00335f2855da4f408c761892450f7e2c9afcdd533122ae55d58a40c8b975",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我不爱洋玩艺，第一因为它们洋气十足，第二因为没有美金。",
+      "output_sha256": "2ebe2a8f23558da792723e7463a9e746155c76ddae500a60375da30ad0d8f9fe",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "2ebe2a8f23558da792723e7463a9e746155c76ddae500a60375da30ad0d8f9fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "虽不爱古玩与洋东西，但是我喜爱现代的手造的相当美好的小东西。",
+      "output_sha256": "6c6de3709662cd114ee1d2cb84e1140a58b97260149145a8473067aad8538ea8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "6c6de3709662cd114ee1d2cb84e1140a58b97260149145a8473067aad8538ea8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "假若我们今天还能制造一些美好的物件，便是表示了我们民族的爱美性与创造力仍然存在，并不逊于古人。",
+      "output_sha256": "253eb713de31392f09704017f7705c542b6e634a6c6e34f360a7409d346197f5",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "253eb713de31392f09704017f7705c542b6e634a6c6e34f360a7409d346197f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "中华民族在雕刻，图画，建筑，制铜，造瓷……上都有特殊的天才。",
+      "output_sha256": "93ed6cc01b745cd4f24da9bf9fe1732b7e64fafd72a679dc255c3e6c4eed5575",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "93ed6cc01b745cd4f24da9bf9fe1732b7e64fafd72a679dc255c3e6c4eed5575",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这种天才在造几张纸，制两块墨砚，打一张桌子，漆一两个小盒上都随时的表现出来。",
+      "output_sha256": "ad8fdfab83a265b790864d42df30c5b3767502e91da830d964e5d02df5b0acf4",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "ad8fdfab83a265b790864d42df30c5b3767502e91da830d964e5d02df5b0acf4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "美的心灵让他们的双手灵巧，我们不应轻易丢失这颗心。",
+      "output_sha256": "bfdbfbbc4a385890fc8c1ae00e9006f189484996a56cfc50e3fca67dd6ae390b",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.692433,
+      "human_sentence_indices": [
+        39,
+        40
+      ],
+      "human_sha256": [
+        "cfe08e73f01d74c3fd195513ebea0dc4f01316a66c6a2fedc3ad41b304de47e7",
+        "3037210caa7113e9c24741cbf86ef3c72a9291613990a2848b790956a4e746d4"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "bfdbfbbc4a385890fc8c1ae00e9006f189484996a56cfc50e3fca67dd6ae390b",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "因此，我喜爱现代手工制作的美好物品。",
+      "output_sha256": "50eeade7afe7bedacd502fcbcec668d1da898aae5ad5add893fb2580f523d94a",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.581083,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "682e3fbba4b6197f0b6b4df2400bb730c355fd50b15b389e69a76976d333e477"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "50eeade7afe7bedacd502fcbcec668d1da898aae5ad5add893fb2580f523d94a",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "北平有许多这样的好东西，如地毯，珐琅，玩具……但是北平还没有成都这样多。",
+      "output_sha256": "d74744bdd665450d9cc4546e48442b7d6fc57b3a7b80a19cea0dd0306d0d9d93",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "d74744bdd665450d9cc4546e48442b7d6fc57b3a7b80a19cea0dd0306d0d9d93",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "成都保留着我们民族的巧手。",
+      "output_sha256": "86eca294d57c84e5303e561e35f5649ec32d9b36c37c47f5a51a00b5746c995a",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.771429,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "c29dbef9be33d253e3bcdf38ac4e53260290b1580a62abf0e42e90d78a74b2f0"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "86eca294d57c84e5303e561e35f5649ec32d9b36c37c47f5a51a00b5746c995a",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我并不是反对机械化，而是认为在大工业上我们应采用西方的方法，而在小工业上则应保持我们的手工艺。",
+      "output_sha256": "4b014fd67c3c6d2b12a37b4c0dc73079a72915ef92a8071bee7d50d7d166db3d",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.590826,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "b421bdca735bd7517df9e979ee367614b525763841567cda9d43d63c52b0a8f0"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "4b014fd67c3c6d2b12a37b4c0dc73079a72915ef92a8071bee7d50d7d166db3d",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "谁知道这二者有无调谐的可能呢？",
+      "output_sha256": "5f4357193dfac4b5b03d00b9213add4a0c716732e35abb216a739f72cce93485",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "5f4357193dfac4b5b03d00b9213add4a0c716732e35abb216a739f72cce93485",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不过，我想，人类文化的明日，恐怕不是家家造大炮，户户有坦克车，而是要以真理代替武力，以善美代替横暴。",
+      "output_sha256": "a2f05e4ba39dc6ccffeec86eed7da01e76e64e6091e81bb78101485109246042",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "a2f05e4ba39dc6ccffeec86eed7da01e76e64e6091e81bb78101485109246042",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "果然如此，我们便应想一想是否该把我们的心灵也机械化了吧？",
+      "output_sha256": "5227202814a718a34f2944bae8a5a1b3a6c7c622f4c19badebacd66ffb41304f",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "5227202814a718a34f2944bae8a5a1b3a6c7c622f4c19badebacd66ffb41304f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "次说口：成都人多数健谈。",
+      "output_sha256": "81d5a1eff0e9361eb15714db67d2059bef87b3bb66d9f1287a1a7d9a93127958",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "81d5a1eff0e9361eb15714db67d2059bef87b3bb66d9f1287a1a7d9a93127958",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "文化高的地方都如此，因为“有”话可讲，但是，这且不在话下。",
+      "output_sha256": "54644f71fb6bc9b27e4c8a97c712b9312036293dfb25532f04878ece4efb091c",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "54644f71fb6bc9b27e4c8a97c712b9312036293dfb25532f04878ece4efb091c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这次，我听到了川剧、洋琴和竹琴。",
+      "output_sha256": "da61d0af36e230508c6934242d5a56e7f6da7ec6c46ef150becf2bc6d7554702",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.85467,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "e8f72ad74db05e0c78e44322015c6dc2783a47cd8ac63bf404b289798fd0556e"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "da61d0af36e230508c6934242d5a56e7f6da7ec6c46ef150becf2bc6d7554702",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "川剧的复杂与细腻，在重庆时我已领略了一点。",
+      "output_sha256": "5c99c715770ea4e4481be8ef608e00bd023de8e09eaddfcbc855c794916c30b4",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "5c99c715770ea4e4481be8ef608e00bd023de8e09eaddfcbc855c794916c30b4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "到成都，我才听到真好的川剧。",
+      "output_sha256": "a94bf9d7ce7d616295ec261a0ce00afdd23bf306bf433fac4bbe8aad2fcc1239",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "a94bf9d7ce7d616295ec261a0ce00afdd23bf306bf433fac4bbe8aad2fcc1239",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "很佩服贾佩之，萧楷成，周企何诸先生的口。",
+      "output_sha256": "ac0b4c5aff41f6e3a4c8966ebfad5faf86e53c4ba0390b35ea7ea65f229a7762",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "ac0b4c5aff41f6e3a4c8966ebfad5faf86e53c4ba0390b35ea7ea65f229a7762",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我的耳朵不十分笨，连昆曲——听过几次之后——都能哼出一半句来。",
+      "output_sha256": "7864fb5c9d30b487f0e7e8d61ca9ee5bd27eba3dd88266ad8d407503023c9efe",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "7864fb5c9d30b487f0e7e8d61ca9ee5bd27eba3dd88266ad8d407503023c9efe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "可是，已经听过许多次川剧，我依然一句也哼不出。",
+      "output_sha256": "f3a7700d538ff4fdb8e2684ba175d3284d7049080acf54a51533502a0b676e0e",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "f3a7700d538ff4fdb8e2684ba175d3284d7049080acf54a51533502a0b676e0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "它太复杂，在牌子上，在音域上，恐怕它比任何中国的歌剧都复杂的好多。",
+      "output_sha256": "fc99542f9a8b2c0803344b23dd8af23f664935ab9943605a640941d3a4e04afc",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "fc99542f9a8b2c0803344b23dd8af23f664935ab9943605a640941d3a4e04afc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我希望能用心学习几句。",
+      "output_sha256": "af3bb1ce0423c717115580566147fb0879d231602c8f0d4319c3828c5fdfc514",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.730994,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "a3cb055d0d0f2cf307d33a96c642415ab8ae8893904c2b7ad72f0c27791760c8"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "af3bb1ce0423c717115580566147fb0879d231602c8f0d4319c3828c5fdfc514",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "假若我能哼上几句川剧来，我想，大概就可以不怕学不会任何别的歌唱了。",
+      "output_sha256": "3676844b380190ee6c7db531768ddbf1c2a7fab2a9f92e8bc95dd98c94b4e23d",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "3676844b380190ee6c7db531768ddbf1c2a7fab2a9f92e8bc95dd98c94b4e23d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "竹琴本很简单，但在贾树三的口中，它变成极难唱的东西。",
+      "output_sha256": "978e612c9692544adafc965aacc7f9bdd3d47a69cf1ab30fa707bda64cd86d80",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "978e612c9692544adafc965aacc7f9bdd3d47a69cf1ab30fa707bda64cd86d80",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他不轻易放过一个字去，他用气控制着情，他用“抑”逼出“放”，他由细嗓转到粗嗓而没有痕迹。",
+      "output_sha256": "296fdfa2ca0527497d3c8df6c6b42cb14093eb9606c9dee849ae69e403695602",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "296fdfa2ca0527497d3c8df6c6b42cb14093eb9606c9dee849ae69e403695602",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我希望成都的口才，能像它的手艺一样得以传承。",
+      "output_sha256": "fadaadbb6855fe293b2f34e718bf0d47ae64af8efb3593b24872a0ecbb96a9b4",
+      "alignment_unit_index": 58,
+      "alignment_score": 0.588352,
+      "human_sentence_indices": [
+        61
+      ],
+      "human_sha256": [
+        "ef05964cb345e9eb65d17eb93bc344748c0699c8baba085fae975c9a87485fb7"
+      ],
+      "source_ai_sentence_index": 59,
+      "source_ai_sha256": "fadaadbb6855fe293b2f34e718bf0d47ae64af8efb3593b24872a0ecbb96a9b4",
+      "ai_unit_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我们不应拒绝新的音乐，但也不应轻易抹去旧的。",
+      "output_sha256": "3a3722542e4b9d935cf04cc2dc41aaad6e497e44a0a7ebf8fa48544129555f19",
+      "alignment_unit_index": 59,
+      "alignment_score": 0.698654,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "8b14a8713636a6ca424415dba53cc31d25f589d8c38f1939abd52420a8ce0ccd"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "3a3722542e4b9d935cf04cc2dc41aaad6e497e44a0a7ebf8fa48544129555f19",
+      "ai_unit_sentence_indices": [
+        60
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "或许新旧相通，才能诞生出新的、又是民族的艺术作品。",
+      "output_sha256": "fc69f96ed413f2c7c304e461d32dc67e350d02415a48edad79f0b3c501b343ed",
+      "alignment_unit_index": 60,
+      "alignment_score": 0.617815,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "ca3b15852727409fda3f510459c0c17d16505362ae4c2a0cc73cb847ea06bd14"
+      ],
+      "source_ai_sentence_index": 61,
+      "source_ai_sha256": "fc69f96ed413f2c7c304e461d32dc67e350d02415a48edad79f0b3c501b343ed",
+      "ai_unit_sentence_indices": [
+        61
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "还有许多话想说，但我担心说得越多越无理，前面所述的内容或许已经有些模糊了！",
+      "output_sha256": "cd875d5e39512768d686c6dc3c947f0fffdf613dc0aebbe801c58581918cece8",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.449938,
+      "human_sentence_indices": [
+        64
+      ],
+      "human_sha256": [
+        "57a9462e76da9ac948e47e0c0068c2bccefc0b52734312fe514ced6e8e762717"
+      ],
+      "source_ai_sentence_index": 62,
+      "source_ai_sha256": "cd875d5e39512768d686c6dc3c947f0fffdf613dc0aebbe801c58581918cece8",
+      "ai_unit_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "在此，我要特别感谢侯宝璋先生在他的客房中为我安排的行军床，感谢吴先忧先生带我去看戏和洋琴，以及“文协”分会的热情招待，还有朋友们的欢聚与共进酒席！",
+      "output_sha256": "90aa33d5d7161b1f13c645a8381412da520440a1e7906abede56cffa05c22fa2",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.545067,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "ea79819e550c8880c436fae68856ce69530441970d89e0de8bd023e35e90dacc"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "90aa33d5d7161b1f13c645a8381412da520440a1e7906abede56cffa05c22fa2",
+      "ai_unit_sentence_indices": [
+        63
+      ]
+    }
+  ]
+}

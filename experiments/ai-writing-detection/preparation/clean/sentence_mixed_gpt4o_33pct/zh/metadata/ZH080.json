@@ -1,0 +1,777 @@
+{
+  "source_id": "ZH080",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "0c3991ca6d4fa661b455821f55fe2eab1ab479fada4e6a2d60a8785cc388f429",
+  "ai_article_sha256": "7736826815f709ef86364a9572662a2b722e72d0cf9f0e5b7940a7086a1e9ad0",
+  "mixed_article_sha256": "c8721978a3abe1ca117736e4b94444d64706245a49550f1cd3762078575fa179",
+  "human_source_sentence_count": 51,
+  "ai_source_sentence_count": 50,
+  "alignment_unit_count": 50,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 51,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.352941,
+  "selected_alignment_score_min": 0.303437,
+  "selected_alignment_score_median": 0.572626,
+  "selected_alignment_score_max": 0.840115,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在北平呆过的人总该懂得“人话”这个词儿。",
+      "output_sha256": "c4904ae6eb88f10bf28aa0e4b11be5e296b5aea56281822f0d549bf3d648aeb5",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "c4904ae6eb88f10bf28aa0e4b11be5e296b5aea56281822f0d549bf3d648aeb5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "小商贩和洋车夫之间如果起了争执，常常会问这样一句：",
+      "output_sha256": "9f957b3f6441beda8480e7da6e1fa9b8406e9db4f8e174c883b84e21b0e5ce3b",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.459114,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "7c1df55c36ce9c0791a0643e648a375c0113072d9841d169e393df9ffbaa8341"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "9f957b3f6441beda8480e7da6e1fa9b8406e9db4f8e174c883b84e21b0e5ce3b",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "你懂人话不懂？",
+      "output_sha256": "a21df58bff9fd6d6a679fe103318788daa8eef893fcdfb45f16ccf2c06cca79e",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "a21df58bff9fd6d6a679fe103318788daa8eef893fcdfb45f16ccf2c06cca79e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "要不就说：",
+      "output_sha256": "c365fa3789e3549e95e74809366c0b966c0d76fdafd6e4556224cb5fbbb96a88",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "c365fa3789e3549e95e74809366c0b966c0d76fdafd6e4556224cb5fbbb96a88",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "你会说人话吗？",
+      "output_sha256": "6c9b8a3d596d1739dd5e591d1e3137f1183eba8f298d2297f435e3356920d617",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.714011,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "ffb37ba08234b52ddedf4d9119e424613cac143f149fca1570c26d7a9f336f1c"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "6c9b8a3d596d1739dd5e591d1e3137f1183eba8f298d2297f435e3356920d617",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这是一句很重的话，意思并不是问对面的人懂不懂人话，会不会说人话，意思是骂他不懂人话，不会说人话。",
+      "output_sha256": "34b61f8824dbbebe222f03397bf33eb4cb3a59a7ef874a21213dc648ba061d9d",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "34b61f8824dbbebe222f03397bf33eb4cb3a59a7ef874a21213dc648ba061d9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "不懂人话，不会说人话，干脆就是畜生！",
+      "output_sha256": "4f75de518c5631c205fa2de187bb29c64233203986d2143c98d1977d9ca27d68",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "4f75de518c5631c205fa2de187bb29c64233203986d2143c98d1977d9ca27d68",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这种表达方式可以算是间接的侮辱，也算是不带脏字的骂人。",
+      "output_sha256": "b17565f51a23ebb955beac42686ba1d74ab42437e3dde1f2a34910597347ec49",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.303437,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "621781e3c2ce7426b24669729d756b63bfac7f4b89b014e944ba71201227e42f"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "b17565f51a23ebb955beac42686ba1d74ab42437e3dde1f2a34910597347ec49",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "虽然没有使用粗俗的词汇，但这依然是“骂街”的一种方式，因此更有教养的人通常不愿意使用这个词。",
+      "output_sha256": "af63e0223d1d7e54396ab10951da40728651d164e01a325880e954e1d075b8b6",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.30804,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "53d831bc4af7cebbc855b9dc0217cf81aac1a287eca8e10c388d10b6419991ec"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "af63e0223d1d7e54396ab10951da40728651d164e01a325880e954e1d075b8b6",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "在他们生气时，可能会说“不通人性”、“不像人”、“不是人”，或者是“不像话”、“不成话”等等，但就是不愿意提“人话”这个词。",
+      "output_sha256": "cf5e45ae08c2bc3d0ee75343751568ff85beb334875a252529a40fef413ac249",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.714205,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "ea53d4d363a6821b5b996783a4d94fd7700fd29d45248b70d0793cca1d8960cf"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "cf5e45ae08c2bc3d0ee75343751568ff85beb334875a252529a40fef413ac249",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "“不像话”，“不成话”是没道理的意思；“不通人性”，“不像人”，“不是人”还不就是畜生？",
+      "output_sha256": "f8e7ff89b1c850b3d45e7c7ebfc881d0eb7383964d377409b3a81ed73c8677fe",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "f8e7ff89b1c850b3d45e7c7ebfc881d0eb7383964d377409b3a81ed73c8677fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "比起“不懂人话”，“不说人话”来，还少拐了一个弯儿呢。",
+      "output_sha256": "7f9023d9ff49bffa963930ab26a0a9819562b47ef362dacacd0336aa9e62e19a",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "7f9023d9ff49bffa963930ab26a0a9819562b47ef362dacacd0336aa9e62e19a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "可是高尚人士要在人背后才说那些话，当着面大概他们是不说的。",
+      "output_sha256": "23d2c14f11f3932b2cbbaef4708f25a9fb0da3ecf6c5f60c5bc4005589ddc8b7",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "23d2c14f11f3932b2cbbaef4708f25a9fb0da3ecf6c5f60c5bc4005589ddc8b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这就听着火气小，口气轻似的，听惯了这就觉得“不通人性”，“不像人”，“不是人”那几句来得斯文点儿，不像“人话”那么野。",
+      "output_sha256": "dc06795e869126c09e7850287a9be1a0fe4d9f251d57ba10b6f1364045fd8ccf",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "dc06795e869126c09e7850287a9be1a0fe4d9f251d57ba10b6f1364045fd8ccf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "其实，按字面儿说，“人话”倒是个含蓄的词儿。",
+      "output_sha256": "c41d6075608bd2a6f70b74f413a638c6d5dc2900cd94ff231e97e5984d42af94",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "c41d6075608bd2a6f70b74f413a638c6d5dc2900cd94ff231e97e5984d42af94",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "北平人非常讲究规矩，而他们所说的规矩，便是客气。",
+      "output_sha256": "fe713615554188e105e492564e6341153e2b1b0f93dadcfd710c810a7e54cb5e",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.638246,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "f1ed734716a6260671561f69c4f8e7deffd9ccf75dfb0747e04ab06820925c6a"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "fe713615554188e105e492564e6341153e2b1b0f93dadcfd710c810a7e54cb5e",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我们走进一家大点儿的铺子，总有个伙计出来招待，哈哈腰说，“您来啦！”",
+      "output_sha256": "1c62b5a8d6ef33c62ccc0ab0190a522988bcb894217a38666d73909b572abafe",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "1c62b5a8d6ef33c62ccc0ab0190a522988bcb894217a38666d73909b572abafe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "出来的时候，又是个伙计送客，哈哈腰说，“您走啦，不坐会儿啦？”",
+      "output_sha256": "57d7dc7685312c4435df5e4b7cc846f41377cf38a95c20b5e0c2ce2244732bb7",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "57d7dc7685312c4435df5e4b7cc846f41377cf38a95c20b5e0c2ce2244732bb7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这就是规矩。",
+      "output_sha256": "71ae5326d4e93dbe70e446027ab09ae3e3c9f5db34551c2c181f7c17bce595e6",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "71ae5326d4e93dbe70e446027ab09ae3e3c9f5db34551c2c181f7c17bce595e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "洋车夫之间问候时，总是说：“您老爷子好？",
+      "output_sha256": "552bdd809c98e8eaf2c6c2d41cddc6e511aef87ebf5f9ae8b123a711a9ab63df",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.600735,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "f6bbb90d31deaffc304c2e47aa7706aba18f360b2ec0905036012d553781f975"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "552bdd809c98e8eaf2c6c2d41cddc6e511aef87ebf5f9ae8b123a711a9ab63df",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "老太太好？”",
+      "output_sha256": "c6721c2969f4eabb27ee89966908a0966ff6b9bef23368398effaaa3ba3b3110",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "c6721c2969f4eabb27ee89966908a0966ff6b9bef23368398effaaa3ba3b3110",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“您少爷在哪儿上学？”",
+      "output_sha256": "a996a050302034b613a5bb034421945ab633db39dcd62b1718be622c547be692",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "a996a050302034b613a5bb034421945ab633db39dcd62b1718be622c547be692",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "从不说“你爸爸”，“你妈妈”，“你儿子”，可也不会说“令尊”，“令堂”，“令郎”那些个，这也是规矩。",
+      "output_sha256": "7a4147f7b15a0c11ac7d7730a14b0758c3d0204cf0a355664201a36621f46741",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "7a4147f7b15a0c11ac7d7730a14b0758c3d0204cf0a355664201a36621f46741",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "有的人觉得这些都是假仁假义，假声假气，不天真，不自然。",
+      "output_sha256": "14531f08556daa94395075cfbdb38a198d852feb31eafe7691a2471273537836",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "14531f08556daa94395075cfbdb38a198d852feb31eafe7691a2471273537836",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他们说北平人有官气，说这些就是凭据。",
+      "output_sha256": "3b53b60983feadd69f93869d91a1da6f408a6f84ff5eb4c5a5d11a5850680472",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "3b53b60983feadd69f93869d91a1da6f408a6f84ff5eb4c5a5d11a5850680472",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不过天真不容易表现，有时也不便表现。",
+      "output_sha256": "e63b5bd8c083c8980a23812728133f1b5019e7af3bab03e38f363253d18cfef2",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "e63b5bd8c083c8980a23812728133f1b5019e7af3bab03e38f363253d18cfef2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "只有在最亲近的人面前，真诚才有机会流露，真诚有时也可能是任性，并不一定显得可爱。",
+      "output_sha256": "8b652154da89fa9452fcb3638f46fedea98f90cba7ed68e8aadf6d82a5381ed6",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.646025,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "ecaf2d19fa10051b4af28690dabe9a75a752a02cf1ef1395876c938726c4175d"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "8b652154da89fa9452fcb3638f46fedea98f90cba7ed68e8aadf6d82a5381ed6",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "所以得讲规矩。",
+      "output_sha256": "9b79acbd05654fd7d552f299929e6196d27e6510c7a3a3a86ccb8aa38134dfb8",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "9b79acbd05654fd7d552f299929e6196d27e6510c7a3a3a86ccb8aa38134dfb8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "规矩是调节天真的，也就是“礼”，四维之首的“礼”。",
+      "output_sha256": "bfb5da9db81a612b82b9cc49d3b220562d0f9783d69262a07f488c17d43cc15e",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "bfb5da9db81a612b82b9cc49d3b220562d0f9783d69262a07f488c17d43cc15e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "礼需要调节，稍微的做作是确实存在的，但不能说是虚假。",
+      "output_sha256": "7967399e3db9c049634a6e472a71ee692a47c191e7d5ab308ab6d235fe3075c6",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.532771,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "e72dc7bf256607903e718433b0bfbcdf9690ce06e263043861472d3f3c7c156b"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "7967399e3db9c049634a6e472a71ee692a47c191e7d5ab308ab6d235fe3075c6",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "调节和做作的目的在于寻求平衡与自然，这就是所说的“习惯成自然”。",
+      "output_sha256": "941eba4fb8208a95afa729fec3cda948eb5805ae5b8a149e08a2b74529e8001c",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.60471,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "49839bb960cf6510314ed45799778f6020b4dd63c4cd936516f2ddc6c27ca5b7"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "941eba4fb8208a95afa729fec3cda948eb5805ae5b8a149e08a2b74529e8001c",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "规矩和礼，归根结底都是教导人如何为人处世的道理。",
+      "output_sha256": "42da7f9108d48164d56deb95a03603108d48bd14eb08e0c12a8524230e266027",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.41451,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "fd928bf9c4542071b03748c60e834f668b915f0b12042d8d13519f03a3890172"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "42da7f9108d48164d56deb95a03603108d48bd14eb08e0c12a8524230e266027",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我们现在到过许多大城市，回想北平，似乎讲究规矩并不坏，至少我们少碰了许多硬钉子。",
+      "output_sha256": "75d464fe0bcde15575f8ded4d1ce020c4da7c8393b394f01eb56ffca002b3e58",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "75d464fe0bcde15575f8ded4d1ce020c4da7c8393b394f01eb56ffca002b3e58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "讲规矩既是客气，也是人气，北平人所说的那些话，便是他们认为的“人话”。",
+      "output_sha256": "9834fa986c15bcf6206949657902c81879347b0bb85e7d61192146d878a0e0da",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.677972,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "39ed8805f4ad9bea850cdd433a4af551d65da2869dc434c2b0d662fe30d616c0"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "9834fa986c15bcf6206949657902c81879347b0bb85e7d61192146d878a0e0da",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "别处人不用“人话”这个词儿，只说讲理不讲理，雅俗通用。",
+      "output_sha256": "8fc94ac0b4481bda26bbc34ee7ba9e963987e630fa08764e616df93b1d2d904a",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "8fc94ac0b4481bda26bbc34ee7ba9e963987e630fa08764e616df93b1d2d904a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "讲理是讲理性，讲道理。",
+      "output_sha256": "02a19e4b646a6d91b424301a3f5e4130a48dcf556b14a99c629cca5d0c971a21",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "02a19e4b646a6d91b424301a3f5e4130a48dcf556b14a99c629cca5d0c971a21",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "所谓“理性”（这是老名词，重读“理”字，翻译的名词“理性”，重读“性”字）自然是人的理性，所谓道理也就是做人的道理。",
+      "output_sha256": "59f6d7e8e5e68ac7a61553d8ae2c5b73f0af61ee8b059a278ce4051f55bb3f75",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "59f6d7e8e5e68ac7a61553d8ae2c5b73f0af61ee8b059a278ce4051f55bb3f75",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "如今人们常说“合理”，这“理”的涵义比“讲理”的“理”更加宽泛。",
+      "output_sha256": "849e41a09545cd900d722fc4fc31eb6ca397530c22afc011fd41381fecc351c2",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.521617,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "a127ff37f2e019c3b0dbd82ee544bfd17c045ae4263349b6b19599412afa8a2d"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "849e41a09545cd900d722fc4fc31eb6ca397530c22afc011fd41381fecc351c2",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“讲理”当然“合理”，这是常识，似乎用不着检出西哲亚里士多德的大帽子，说“人是理性的动物”。",
+      "output_sha256": "243be8bd6daa785068437c2c9353505bcec1be47805f70a137602a1fdcae2463",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "243be8bd6daa785068437c2c9353505bcec1be47805f70a137602a1fdcae2463",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "可是这句话还是用得着，“讲理”是“理性的动物”的话，可不就是“人话”？",
+      "output_sha256": "7404d9c5618f7729ba7c04ca46dc5acf69ac344d23568545d53628b7cd5f30df",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "7404d9c5618f7729ba7c04ca46dc5acf69ac344d23568545d53628b7cd5f30df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "不过不讲理的人还是不讲理的人，并不明白的包含着“不懂人话”，“不会说人话”所包含着的意思。",
+      "output_sha256": "eb54d1f268791c4d21e1a11d5043627c139c20a98ea9fa4a10fcafc8880c1b27",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "eb54d1f268791c4d21e1a11d5043627c139c20a98ea9fa4a10fcafc8880c1b27",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "讲理未必意味着和平，上海的“讲茶”常常让人心惊。",
+      "output_sha256": "31639b30e4ccdf29a6fc0bc4ee614e21738ebe9f0fb749037d9121d6c05a0c6b",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.544516,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "eda3e1ad02c304f923aa2a7a835d2bfb7c6b9fc2f9783d2c116f416d879f4379"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "31639b30e4ccdf29a6fc0bc4ee614e21738ebe9f0fb749037d9121d6c05a0c6b",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "可是看字面儿，“你讲理不讲理？”",
+      "output_sha256": "5716c73232dc9da847ca0e0e94ffd74284010fdb2e7e567d4183aa70401ba416",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "5716c73232dc9da847ca0e0e94ffd74284010fdb2e7e567d4183aa70401ba416",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "确实比“你懂人话不懂？”",
+      "output_sha256": "54dba09806af8e0685f1b01e60e52c7213c4314e6a4f97d060f6bfab1ac49232",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.805,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "c4d4c3a06ca7a082c83235863ae4d5db88c4ba41d667a8df2526ba9230b2b770"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "54dba09806af8e0685f1b01e60e52c7213c4314e6a4f97d060f6bfab1ac49232",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“你会说人话不会？”",
+      "output_sha256": "83eba120f5fc0bf24179982e9cecfc37814ac5870e9a7902462fdb34e52e6996",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "83eba120f5fc0bf24179982e9cecfc37814ac5870e9a7902462fdb34e52e6996",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "和平点儿。",
+      "output_sha256": "25e7f56d3b6adf65e3321fe050760abdfadf466859285d35f87a64763f1d7bed",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "25e7f56d3b6adf65e3321fe050760abdfadf466859285d35f87a64763f1d7bed",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“不讲理”比“不懂人话”，“不会说人话”多拐了个弯儿，就不至于影响人格了。",
+      "output_sha256": "1a5b03b84d837caec1f193c6490a1ce8985d1644c7ffb45bf177025f1b9894f7",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "1a5b03b84d837caec1f193c6490a1ce8985d1644c7ffb45bf177025f1b9894f7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "所谓做人的道理，大概指的就是恕道，正如孔子所说的“己所不欲，勿施于人”。",
+      "output_sha256": "c6350fd461449d2ef4079f508ee33ecc6a328ff5abf4ea542125f5e020c70ae9",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.840115,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "0779b1bedfc049d2ee67770306b8ee9b5f7a5cfa376b01f1294f3d8956210faf"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "c6350fd461449d2ef4079f508ee33ecc6a328ff5abf4ea542125f5e020c70ae9",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "而“人话”要的也就是恕道。",
+      "output_sha256": "3d6ede4e1c5a2eadb039080c4cefc88730e261a7a60bbb7c5c93455a4161b2ff",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "3d6ede4e1c5a2eadb039080c4cefc88730e261a7a60bbb7c5c93455a4161b2ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "可以说，“理”这个词其实有些模糊，远不如“人话”那样鲜明，如今或许仍然有人觉得需要这样鲜明的词汇。",
+      "output_sha256": "f715c61d652d30ef8400538ca4d5021300db96629a5c717a562ee446ce13fe5f",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.52401,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "378c6d8e614632ac96f125b57c6c55e3325b7d90b398230ec677f8e3b545835d"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "f715c61d652d30ef8400538ca4d5021300db96629a5c717a562ee446ce13fe5f",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "然而，向来的小商贩和洋车夫等将其用得过于鲜明，甚至露骨，反而损害了这个词的本质，真是令人惋惜。",
+      "output_sha256": "995c3c0b3f755cd4b4afa21b7ce874e196c648b4d86d571369cc12fdcf81cc9f",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.510671,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "13948ec2d8e4060131f3684df57e2bbd4e8156439171a12af8e6a34c4c65cc69"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "995c3c0b3f755cd4b4afa21b7ce874e196c648b4d86d571369cc12fdcf81cc9f",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    }
+  ]
+}

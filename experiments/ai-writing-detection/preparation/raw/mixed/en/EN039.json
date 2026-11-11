@@ -1,0 +1,77 @@
+{
+  "source_id": "EN039",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "c0c9b3bee5b6107def29a14a8ca75757d2b6eefe22784a6eb7f8b623c4902a4d",
+    "28b1b2a00028113e284decafb0e2e24f03b9892289ae760d45a77c49794ad526",
+    "ae53172424cc0587adcac06933f4af3180b8715634e6a9096b67b58af8f396e5"
+  ],
+  "source_block_sha256": "c0c9b3bee5b6107def29a14a8ca75757d2b6eefe22784a6eb7f8b623c4902a4d",
+  "ai_block_sha256": "25a49db77fc654e7cd0c56d169e7cb93f625be1c07d210c24c19deee78259db1",
+  "mixed_sha256": "c38156a8e2dcddcbfeb5b2ef7092c46b3202f4bcf6290a8027658eac666d7d18",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 383-573 words, aiming for 478. Use exactly 5 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nI am sitting under tall trees, with a great wind boiling like surf about the tops of them, so that their living load of leaves rocks and roars in something that is at once exultation and agony. I feel, in fact, as if I were actually sitting at the bottom of the sea among mere anchors and ropes, while over my head and over the green twilight of water sounded the everlasting rush of waves and the toil and crash and shipwreck of tremendous ships. The wind tugs at the trees as if it might pluck them root and all out of the earth like tufts of grass. Or, to try yet another desperate figure of speech for this unspeakable energy, the trees are straining and tearing and lashing as if they were a tribe of dragons each tied by the tail.\n\nAs I look at these top-heavy giants tortured by an invisible and violent witchcraft, a phrase comes back into my mind. I remember a little boy of my acquaintance who was once walking in Battersea Park under just such torn skies and tossing trees. He did not like the wind at all; it blew in his face too much; it made him shut his eyes; and it blew off his hat, of which he was very proud. He was, as far as I remember, about four. After complaining repeatedly of the atmospheric unrest, he said at last to his mother, “Well, why don’t you take away the trees, and then it wouldn’t wind.”\n\nNothing could be more intelligent or natural than this mistake. Any one looking for the first time at the trees might fancy that they were indeed vast and titanic fans, which by their mere waving agitated the air around them for miles. Nothing, I say, could be more human and excusable than the belief that it is the trees which make the wind. Indeed, the belief is so human and excusable that it is, as a matter of fact, the belief of about ninety-nine out of a hundred of the philosophers, reformers, sociologists, and politicians of the great age in which we live. My small friend was, in fact, very like the principal modern thinkers; only much nicer.\n\n.....\n\nIn the little apologue or parable which he has thus the honour of inventing, the trees stand for all visible things and the wind for the invisible. The wind is the spirit which bloweth where it listeth; the trees are the material things of the world which are blown where the spirit lists. The wind is philosophy, religion, revolution; the trees are cities and civilisations. We only know that there is a wind because the trees on some distant hill suddenly go mad. We only know that there is a real revolution because all the chimney-pots go mad on the whole skyline of the city."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 743,
+    "completion_tokens": 510,
+    "total_tokens": 1253,
+    "cost": 0.00041745,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00041745,
+      "upstream_inference_prompt_cost": 0.00011145,
+      "upstream_inference_completions_cost": 0.000306
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00041745,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 478,
+    "output_words": 421,
+    "lower_words": 383,
+    "upper_words": 573,
+    "source_paragraphs": 5,
+    "output_paragraphs": 5,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.02877697841726619,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true,
+    "formatting_only": true
+  },
+  "formatting_only": true,
+  "formatting_algorithm": "Adjust only sentence/paragraph-boundary whitespace until the model output has the source block paragraph count; verify the non-whitespace character sequence is unchanged",
+  "model_output_sha256": "2437067210bedc6e795bde2d577ab0577a5501b4d712e6aec82bcc58dc42e2b6",
+  "model_output_path": "raw/mixed/en/EN039.model.txt",
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN039.txt",
+  "mixed_path": "clean/mixed/en/EN039.txt",
+  "response_path": "raw/mixed/en/EN039.response.json"
+}

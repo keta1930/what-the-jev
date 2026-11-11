@@ -1,0 +1,72 @@
+{
+  "source_id": "EN082",
+  "target_position": 1,
+  "attempt": 1,
+  "generated_at_utc": "2026-10-26T12:49:17.203877+00:00",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "http_status": 200,
+  "request_body": {
+    "model": "openai/gpt-4o-mini-2024-07-18",
+    "temperature": 0.7,
+    "top_p": 1,
+    "max_tokens": 2500,
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+      },
+      {
+        "role": "user",
+        "content": "Rewrite the source block in 448-672 words, aiming for 560. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nThe other day, to my great astonishment, I caught a train; it was a train going into the Eastern Counties, and I only just caught it. And while I was running along the train (amid general admiration) I noticed that there were a quite peculiar and unusual number of carriages marked “Engaged.” On five, six, seven, eight, nine carriages was pasted the little notice: at five, six, seven, eight, nine windows were big bland men staring out in the conscious pride of possession. Their bodies seemed more than usually impenetrable, their faces more than usual placid. It could not be the Derby, if only for the minor reasons that it was the opposite direction and the wrong day. It could hardly be the King. It could hardly be the French President. For, though these distinguished persons naturally like to be private for three hours, they are at least public for three minutes. A crowd can gather to see them step into the train; and there was no crowd here, or any police ceremonial.\n\nWho were those awful persons, who occupied more of the train than a bricklayer’s beanfeast, and yet were more fastidious and delicate than the King’s own suite? Who were these that were larger than a mob, yet more mysterious than a monarch? Was it possible that instead of our Royal House visiting the Tsar, he was really visiting us? Or does the House of Lords have a breakfast? I waited and wondered until the train slowed down at some station in the direction of Cambridge. Then the large, impenetrable men got out, and after them got out the distinguished holders of the engaged seats. They were all dressed decorously in one colour; they had neatly cropped hair; and they were chained together.\n\nI looked across the carriage at its only other occupant, and our eyes met. He was a small, tired-looking man, and, as I afterwards learnt, a native of Cambridge; by the look of him, some working tradesman there, such as a journeyman tailor or a small clock-mender. In order to make conversation I said I wondered where the convicts were going. His mouth twitched with the instinctive irony of our poor, and he said: “I don’t s’pose they’re goin’ on an ’oliday at the seaside with little spades and pails.” I was naturally delighted, and, pursuing the same vein of literary invention, I suggested that perhaps dons were taken down to Cambridge chained together like this. And as he lived in Cambridge, and had seen several dons, he was pleased with such a scheme. Then when we had ceased to laugh, we suddenly became quite silent; and the bleak, grey eyes of the little man grew sadder and emptier than an open sea. I knew what he was thinking, because I was thinking the same, because all modern sophists are only sophists, and there is such a thing as mankind. Then at last (and it fell in as exactly as the right last note of a tune one is trying to remember) he said: “Well, I s’pose we ’ave to do it.” And in those three things, his first speech and his silence and his second speech, there were all the three great fundamental facts of the English democracy, its profound sense of humour, its profound sense of pathos, and its profound sense of helplessness."
+      }
+    ]
+  },
+  "response": {
+    "id": "gen-1793018947-P0ju0gYihQaRHxKpx0Ld",
+    "object": "chat.completion",
+    "created": 1793018947,
+    "model": "openai/gpt-4o-mini-2024-07-18",
+    "provider": "OpenAI",
+    "system_fingerprint": "fp_73c5e31c8b",
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "\"Recently, I found myself in a surprising situation: I managed to catch a train heading towards the Eastern Counties at the last moment. As I hurried alongside the train, I was struck by the sight of an unusually high number of carriages marked “Engaged.” In fact, five, six, seven, eight, or even nine carriages bore this sign, and at just as many windows, I could see large, unyielding men gazing out with an unmistakable air of pride. Their bodies appeared particularly solid, and their faces wore a serene expression. It was not the Derby, as it was both the wrong day and heading in the opposite direction. It couldn’t possibly be the King or the French President either, as these notable figures, while they do prefer privacy during their travels, still attract public attention for a few moments. Here, however, there was no throng of onlookers or any ceremonial presence from the police.\n\nI pondered the identity of these peculiar individuals who occupied more of the train than a lively gathering yet seemed to embody a rarefied elegance surpassing even that of the King’s entourage. Who were these figures, larger than a mere crowd yet more enigmatic than royalty? Could it be that instead of our Royal House visiting the Tsar, the Tsar was, in fact, visiting us? Or perhaps the House of Lords had a morning meal to attend? My musings continued until the train came to a halt at a station heading toward Cambridge. At that point, the large, impenetrable men disembarked, followed by those seated in the engaged compartments. They all wore coordinated attire, sported neatly trimmed hair, and were linked together by chains.\n\nAs I glanced across the carriage, my eyes met those of another passenger, a small, weary-looking man who, as I later discovered, hailed from Cambridge. He appeared to be a local tradesman, possibly a journeyman tailor or a clock repairer. In an effort to spark a conversation, I expressed my curiosity about the destination of the convicts. A smirk crossed his face, revealing the irony that often accompanies hardship, and he replied, “I don’t s’pose they’re goin’ on an ’oliday at the seaside with little spades and pails.” I found his wit delightful and, continuing the playful banter, I speculated that perhaps the university dons were being transported to Cambridge in chains as well. Given his familiarity with several dons, he appreciated the jest. However, our laughter soon faded into silence, and I noticed the little man’s bleak, grey eyes grow more sorrowful, reflecting an emptiness akin to the open sea. I understood his thoughts, as they mirrored my own; amidst all our cleverness, we were still mere mortals. Finally, as if concluding a melodic phrase, he remarked, “Well, I s’pose we ’ave to do it.” In this exchange—his initial jest, our ensuing silence, and his final statement—lay the essence of English democracy: a profound sense of humor, an enduring sense of pathos, and an overarching sense of helplessness.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 870,
+      "completion_tokens": 636,
+      "total_tokens": 1506,
+      "cost": 0.0005121,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005121,
+        "upstream_inference_prompt_cost": 0.0001305,
+        "upstream_inference_completions_cost": 0.0003816
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "finish_reason": "stop",
+  "cost_usd": 0.0005121
+}

@@ -1,0 +1,813 @@
+{
+  "source_id": "ZH006",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "084160028e64501783e52f4badf5f89b0600a2df331c641bb4838da7f38d7fc7",
+  "ai_article_sha256": "909d375dfce8ab6b98caa5bc62a13fd2badb8daef37882e4e3a53c07f32135fe",
+  "mixed_article_sha256": "c62ef2a529e4ac95bcfe461a6e9e62c53befeeb3483567e20d6bada785caec00",
+  "human_source_sentence_count": 54,
+  "ai_source_sentence_count": 56,
+  "alignment_unit_count": 53,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.348672,
+  "selected_alignment_score_median": 0.574161,
+  "selected_alignment_score_max": 0.757505,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "大约人们一遇到不大看惯的东西，总不免以为他古怪。",
+      "output_sha256": "6453e96f0d4d1b4d64575296d80f3f81e64a873726ec07c569e94619cb2e10d9",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "6453e96f0d4d1b4d64575296d80f3f81e64a873726ec07c569e94619cb2e10d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我还记得初看见西洋人的时候，就觉得他脸太白，头发太黄，眼珠太淡，鼻梁太高。",
+      "output_sha256": "38ebe5b7be9e4b670f45912740de7775b1e20edc7e5a477ed6fc78a781d62464",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "38ebe5b7be9e4b670f45912740de7775b1e20edc7e5a477ed6fc78a781d62464",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "尽管我无法用清晰的语言表达出具体的理由，但总的来说，我觉得他们的面貌并不应该如此。",
+      "output_sha256": "8112473bf24449fab1e2d8f65c46b08ad6dfd2c6b48f4d8b2976a8565345a603",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.348672,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "ccdc29a9c299c2b6ab025eec4cdd1c412a170d638a4fbdbd657e19cd3647f358"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "8112473bf24449fab1e2d8f65c46b08ad6dfd2c6b48f4d8b2976a8565345a603",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "至于对于中国人的脸，是毫无异议；即使有好丑之别，然而都不错的。",
+      "output_sha256": "c485a96f0d2ee1b3451b262755f440c0ca96e475cef7ce8caff34b242de4ed71",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "c485a96f0d2ee1b3451b262755f440c0ca96e475cef7ce8caff34b242de4ed71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我们的古人，倒似乎并不放松自己中国人的相貌。",
+      "output_sha256": "2988aeb3290495d5d075a1b125ed8b686f51a0235e946bc70b3cc6c6936dca89",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "2988aeb3290495d5d075a1b125ed8b686f51a0235e946bc70b3cc6c6936dca89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "周的孟轲就用眸子来判胸中的正不正，汉朝还有《相人》二十四卷。",
+      "output_sha256": "77aa3c54eae045edf3551168e81d9cb8508120ffbea688c0134d464d8ad6e33d",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "77aa3c54eae045edf3551168e81d9cb8508120ffbea688c0134d464d8ad6e33d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "后来闹这玩艺儿的尤其多；分起来，可以说有两派罢：一是从脸上看出他的智愚贤不肖；一是从脸上看出他过去，现在和将来的荣枯。",
+      "output_sha256": "c091ab814a1b32f76c026e39bf552977280f965ca29d051614b6727d4554740a",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "c091ab814a1b32f76c026e39bf552977280f965ca29d051614b6727d4554740a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "于是天下纷纷，从此多事，许多人就都战战兢兢地研究自己的脸。",
+      "output_sha256": "0aacaefeb19b0f254c4b6bf752ff21d5f0479a08e69d2c40f687f73cbfa73053",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "0aacaefeb19b0f254c4b6bf752ff21d5f0479a08e69d2c40f687f73cbfa73053",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我想，镜子的发明一定与这些人以及小姐们有很大关系。",
+      "output_sha256": "043091fb2e139b9121fdb5e6459608f2cccaeed68cbb59e6acc80985edf8850e",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.587213,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "0a7b61858ff0d78ca221c6c32a06b11f3c8da4ac1ef2b9c85dc7ddd550e799c3"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "043091fb2e139b9121fdb5e6459608f2cccaeed68cbb59e6acc80985edf8850e",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "不过近来前一派已经不大有人讲究，在北京上海这些地方捣鬼的都只是后一派了。",
+      "output_sha256": "1edfd30091e5b702d797756cb323e3ee95572f7b3c042f49ca45ae164c1db9a4",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "1edfd30091e5b702d797756cb323e3ee95572f7b3c042f49ca45ae164c1db9a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我一向只留心西洋人。",
+      "output_sha256": "946364cc99d20769fd6ebacbdcf60fd3f528f80cb3abd4db2d866ffaf428619d",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "946364cc99d20769fd6ebacbdcf60fd3f528f80cb3abd4db2d866ffaf428619d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "留心的结果，又觉得他们的皮肤未免太粗；毫毛有白色的，也不好。",
+      "output_sha256": "98a164cf33abcf0e0fd66e97338f3acbdb446305d93da5bdd507bfadbe9fb6ff",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "98a164cf33abcf0e0fd66e97338f3acbdb446305d93da5bdd507bfadbe9fb6ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "皮肤上常常会出现红点，恐怕就是因为肤色过于苍白，反而不及我们黄种人的肤色更显柔和。",
+      "output_sha256": "5f49edbde8032e348722d8a44cfe2643565be7810b293fe7ddd9b5089a97430f",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.358431,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "c73692ec8e185d0186d2b0789e54de09c7a88f24b64d40e7a3f1717ac15288ef"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "5f49edbde8032e348722d8a44cfe2643565be7810b293fe7ddd9b5089a97430f",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "尤其是那红红的鼻子，有时看起来简直像是即将融化的蜡烛，令人不禁心生惧意，反倒不如黄种人的鼻子显得更为含蓄和安全。",
+      "output_sha256": "5c4680e60e81fe2ca475c7a2b34348c2e8966a261c675fee545193d5216a53e7",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.416335,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "172583a597a145b4e9e0e79ba00f9d4316adceb7a0308f3fa2a3cdc4a4b3f1e3"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "5c4680e60e81fe2ca475c7a2b34348c2e8966a261c675fee545193d5216a53e7",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "总的来说，我还是觉得他们的容貌不应该是这样的。",
+      "output_sha256": "125859417192a2b6548543c9133d8a71eb1366cd4cc3fec855c0b9cc4a9618bc",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.368333,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "e2c4450c19ac5a260f482c00ec9fc190b885f4d439ab3a0b3bd80f9f1e60856f"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "125859417192a2b6548543c9133d8a71eb1366cd4cc3fec855c0b9cc4a9618bc",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "后来，我看见西洋人所画的中国人，才知道他们对于我们的相貌也很不敬。",
+      "output_sha256": "648bfa2bc29b608c67094b8b21b4b3ee258327b238dcadb53aa1b3d4643b887e",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "648bfa2bc29b608c67094b8b21b4b3ee258327b238dcadb53aa1b3d4643b887e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "那似乎是《天方夜谈》或者《安兑生童话》中的插画，现在不很记得清楚了。",
+      "output_sha256": "1ca063d3229aa0ec6006cfbf010e55f517219651d6b7332c375eccd1c45993e3",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "1ca063d3229aa0ec6006cfbf010e55f517219651d6b7332c375eccd1c45993e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "头顶拖着花翎的红缨帽，辫子在空中飘舞，靴子的粉底更是厚重。",
+      "output_sha256": "9ce312d5cfdd27b5aa4a6fc7c1d753a2cb84f66aa297b18810d7658679f4f5bb",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.577427,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "8e4b33e2958054742197696c6ee2d6a677bb8f6acc5f75108ddb3c6f06143816"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "9ce312d5cfdd27b5aa4a6fc7c1d753a2cb84f66aa297b18810d7658679f4f5bb",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "然而，这些都是满洲人给我们带来的影响。",
+      "output_sha256": "a83c41f79c88313120ba0f9355b89ec303785c78567dc11d559a728affd1f67d",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.577941,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "472f6fa39dfd146b074d07c5c2c92bce430701ae44bba1998e2d3498cb2f07f9"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "a83c41f79c88313120ba0f9355b89ec303785c78567dc11d559a728affd1f67d",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "唯有两只斜眼和张开的嘴巴，确实是我们自己的本来模样。",
+      "output_sha256": "8b9f74286c6caaa54d234ae60e6d983910e950d6d501960799f5f3e8b7b58f43",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.488649,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "811dc0fd1527db072b088f3e3074893684406dcb17c1ae187d6c464a3b5efb80"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "8b9f74286c6caaa54d234ae60e6d983910e950d6d501960799f5f3e8b7b58f43",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "但在那时，我觉得这并非完全真实，外国人特意要嘲笑我们，因此在表现上夸张了许多。",
+      "output_sha256": "6cb01aaa044ccf15ccccf11e65e8fa720eeb0d850e69107f5730afe936401501",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.380618,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "2b2ffaa171e50fdeea0869f0f2b44c4fcacc6837c745e27c9dd61756f0bb1710"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "6cb01aaa044ccf15ccccf11e65e8fa720eeb0d850e69107f5730afe936401501",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但此后对于中国一部分人们的相貌，我也逐渐感到一种不满，就是他们每看见不常见的事件或华丽的女人，听到有些醉心的说话的时候，下巴总要慢慢挂下，将嘴张了开来。",
+      "output_sha256": "6ccc33f93a24f1ab89e99023fef5e0e737b993001f62f1a2bd9ca32aef5ebfc3",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "6ccc33f93a24f1ab89e99023fef5e0e737b993001f62f1a2bd9ca32aef5ebfc3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这实在不大雅观；仿佛精神上缺少着一样什么机件。",
+      "output_sha256": "2ee30000c8347e5a6986328e38457e6e45fb3369da65e5962433e2af620772ad",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "2ee30000c8347e5a6986328e38457e6e45fb3369da65e5962433e2af620772ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "据研究人体的学者们说，一头附着在上颚骨上，那一头附着在下颚骨上的“咬筋”，力量是非常之大的。",
+      "output_sha256": "1d09dbe4025ed193b4798e05e3a128e979687c5b880cbdb2c010117fbfb4e153",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "1d09dbe4025ed193b4798e05e3a128e979687c5b880cbdb2c010117fbfb4e153",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我们幼小时候想吃核桃，必须放在门缝里将它的壳夹碎。",
+      "output_sha256": "866851d2dcaf4d2a645beb7b07789093575412a7ddfc86cb21133e267cdedf1d",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "866851d2dcaf4d2a645beb7b07789093575412a7ddfc86cb21133e267cdedf1d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但在成人，只要牙齿好，那咬筋一收缩，便能咬碎一个核桃。",
+      "output_sha256": "f8dfffa0f5f44b9ad0d53676d93ab38504354d0d9d5fd601b046a725ce652b6c",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "f8dfffa0f5f44b9ad0d53676d93ab38504354d0d9d5fd601b046a725ce652b6c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "有着这么大的力量的筋，有时竟不能收住一个并不沉重的自己的下巴，虽然正在看得出神的时候，倒也情有可原，但我总以为究竟不是十分体面的事。",
+      "output_sha256": "079e9a8453b3b99e77f9fdd59992e2404e0b514b6179b135415426feb2b65bdc",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "079e9a8453b3b99e77f9fdd59992e2404e0b514b6179b135415426feb2b65bdc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "日本的长谷川如是颇擅讽刺写作。",
+      "output_sha256": "294a3dbf4551c0093d1b471f17348b96c9785f8d1e11b95c4b44d855a6959085",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.570896,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "1860c8784661fdaaa8e959ef01a725ea15164a78220743113ddc660ed65a5dda"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "294a3dbf4551c0093d1b471f17348b96c9785f8d1e11b95c4b44d855a6959085",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "去年我见过他的一本随笔集，叫作《猫·狗·人》；其中有一篇就说到中国人的脸。",
+      "output_sha256": "ecc1ac456b46ceddcb8119b4102ce54e014f501b36d3f745f3e1680b2f54fe43",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "ecc1ac456b46ceddcb8119b4102ce54e014f501b36d3f745f3e1680b2f54fe43",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "大意是初见中国人时，令人感觉比起日本人或西洋人，脸上总是少了一些东西。",
+      "output_sha256": "e60e8425ff7076b1a1570da406eee21e43938e1d8127aa8a7bcd5c258008f0e5",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.657102,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "86b13dc266a975fa1bc6c5b3482d8e525726ef894455557e3c79068d0e1adeba"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "e60e8425ff7076b1a1570da406eee21e43938e1d8127aa8a7bcd5c258008f0e5",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "久而久之，看惯了，便觉得这样已经尽够，并不缺少东西；倒是看得西洋人之流的脸上，多余着一点什么。",
+      "output_sha256": "17ccef4eec1471f30c16d90707080ac1d0d49ebc42b82633f8c6ea613a2d9292",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "17ccef4eec1471f30c16d90707080ac1d0d49ebc42b82633f8c6ea613a2d9292",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这多余着的东西，他就给它一个不大高妙的名目：兽性。",
+      "output_sha256": "d10ad92c6cb5aec0f1a00f8eef9076bd19a6766060302718aec57ce489f86eea",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "d10ad92c6cb5aec0f1a00f8eef9076bd19a6766060302718aec57ce489f86eea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "中国人的脸上没有这种东西，而那些加上多余东西的人，则成了这样的公式：",
+      "output_sha256": "265b66e530a13bc57fae3626468c53873b02e3a1647707af837c123cd916463d",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.595476,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "14cc0cd33560a06ae64ff17e2a79a79f6953ee57d325d65ee5955500b645746f"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "265b66e530a13bc57fae3626468c53873b02e3a1647707af837c123cd916463d",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "人＋兽性＝西洋人",
+      "output_sha256": "b258e963e8d2f741be3de4a2b9424c72aad1cfdea413760d04aa1f075e6c78f7",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "b258e963e8d2f741be3de4a2b9424c72aad1cfdea413760d04aa1f075e6c78f7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "他借了称赞中国人，贬斥西洋人，来讥刺日本人的目的，这样就达到了，自然不必再说这兽性的不见于中国人的脸上，是本来没有的呢，还是现在已经消除。",
+      "output_sha256": "3f15d1862ae782a1e4b021b7235898d5170f65868af847c597669ca145b83258",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "3f15d1862ae782a1e4b021b7235898d5170f65868af847c597669ca145b83258",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "如果是后来消除的，那么，是渐渐净尽而只剩了人性的呢，还是不过渐渐成了驯顺。",
+      "output_sha256": "df402d18f13378ce18b53e2eb1f261903d0f5d81edd0063bee6b11337ee1eef6",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "df402d18f13378ce18b53e2eb1f261903d0f5d81edd0063bee6b11337ee1eef6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "野牛变为家牛，野猪化为猪，狼变成狗，虽然野性消失，但这对其本身并无益处。",
+      "output_sha256": "0ce6d39ab426a95fd4e4dd9641e353580777ced24588245872d1ce41888ad87b",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.563333,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "4a78c006fa6d83cd0b1dd80039f0c420ceca8ea2e768745978b527de6d76b69f"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "0ce6d39ab426a95fd4e4dd9641e353580777ced24588245872d1ce41888ad87b",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "人不过是人，不再夹杂着别的东西，当然再好没有了。",
+      "output_sha256": "98e9494c70a1b8e906b36aba62e0ddaa937ff659436705916d43b56283480022",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "98e9494c70a1b8e906b36aba62e0ddaa937ff659436705916d43b56283480022",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "倘不得已，我以为还不如带些兽性，如果合于下列的算式倒是不很有趣的：",
+      "output_sha256": "d122c05a6af6d8658fcc28537e8fd8a0b0da5830881c7f51ed410452326eddf4",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "d122c05a6af6d8658fcc28537e8fd8a0b0da5830881c7f51ed410452326eddf4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "人＋家畜性＝某一种人",
+      "output_sha256": "cfcb67f7d5722ea11763f1f5577edee8df6064d1b1811fe8cebb112b94224b40",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "cfcb67f7d5722ea11763f1f5577edee8df6064d1b1811fe8cebb112b94224b40",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "关于中国人的脸上是否真有兽性的疑问，暂且不再讨论。",
+      "output_sha256": "899aed47434969af34caf780071717b5795363dc2b33929f61a36271a6e3b67a",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.620108,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "8b4359e5111ca6e739ac40f802f364b6c35e3f0e0933db5b1c10dd3b47de5045"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "899aed47434969af34caf780071717b5795363dc2b33929f61a36271a6e3b67a",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "我只要说近来却在中国人所理想的古今人的脸上，看见了两种多余。",
+      "output_sha256": "9f8ea8b9b4949897001979defa813a9c3c5a45bc3e395c420b20adbe5be8969b",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "9f8ea8b9b4949897001979defa813a9c3c5a45bc3e395c420b20adbe5be8969b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "一到广州，我觉得比我所从来的厦门丰富得多的，是电影，而且大半是“国片”，有古装的，有时装的。",
+      "output_sha256": "fbef32e81c9faa0bc1bbed956654b82d88afb7a5d2f0110d41abdf38ed3d74de",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "fbef32e81c9faa0bc1bbed956654b82d88afb7a5d2f0110d41abdf38ed3d74de",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "因为电影是“艺术”，所以电影艺术家便将这两种多余加上去了。",
+      "output_sha256": "b5351083b3e221b1b2bddcf9c21e969205671d5ffced4821280227c7dd47e82b",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "b5351083b3e221b1b2bddcf9c21e969205671d5ffced4821280227c7dd47e82b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "古装的电影也可以说是好看，那好看不下于看戏；至少，决不至于有大锣大鼓将人的耳朵震聋。",
+      "output_sha256": "37421ca6179b948efabeba11a2bf4cbfbcba34c25faf80b3967a99e31b184ee0",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "37421ca6179b948efabeba11a2bf4cbfbcba34c25faf80b3967a99e31b184ee0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "在“银幕”上，则有身穿不知何时何代的衣服的人物，缓慢地动作；脸正如古人一般死，因为要显得活，便只好加上些旧式戏子的昏庸。",
+      "output_sha256": "b4f0803d4e4dfbc936378eaf99b4e294659783b85dacfc3d8607c22961504d0f",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "b4f0803d4e4dfbc936378eaf99b4e294659783b85dacfc3d8607c22961504d0f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "时装人物的面孔，若见过清朝光绪年间上海的吴友如的《画报》，便会觉得神态极为相似。",
+      "output_sha256": "37c509898ba89b70da423cb513c7e5594000bdde59313c5965ee1cee32a1f5ac",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.757505,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "ce00ff01fd09337584cda3dd232fe945c88c94564ec45cb8c54f2995eeba7ffb"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "37c509898ba89b70da423cb513c7e5594000bdde59313c5965ee1cee32a1f5ac",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "《画报》中描绘的多是流氓或妓女，面相都带着狡猾。",
+      "output_sha256": "e90a7198e37c85808f7ec97ef0362cd5cf71a72d38d36e39f7420ee61b6d730f",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.460997,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "06dff58514c910a2072b3ef38ad9c5b8d5c1899c2b95004c8dd7c6866bdce8a4"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "e90a7198e37c85808f7ec97ef0362cd5cf71a72d38d36e39f7420ee61b6d730f",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "这种精神似乎至今未变，国产影片中的人物，即便作者想塑造善人杰士，眉宇间也常显露出上海洋场的狡诈。",
+      "output_sha256": "05f0788f47de4538822a84cbbd9c207f1dab81892a1cfd79a86e866942d07d6f",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.669522,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "f99040fb075cc13e6ffc7034d62de54ea387bda8043f86e66a91a15f266c77d7"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "05f0788f47de4538822a84cbbd9c207f1dab81892a1cfd79a86e866942d07d6f",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "可见不如此，是连善人杰士也做不成的。",
+      "output_sha256": "92ece373b598615f57085682f7dacfd1ec91977a121af73f6e613490894a7f26",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "92ece373b598615f57085682f7dacfd1ec91977a121af73f6e613490894a7f26",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "听说，国产影片之所以多，是因为华侨欢迎，能够获利，每一新片到，老的便带了孩子去指点给他们看道：“看哪，我们的祖国的人们是这样的。”",
+      "output_sha256": "3b0cdf8b8dd9fe3d73687f4dd888f336502e9b9b72fb3b5bc46fb802a03eacd3",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "3b0cdf8b8dd9fe3d73687f4dd888f336502e9b9b72fb3b5bc46fb802a03eacd3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "在广州似乎也受欢迎，日夜四场，我常见看客坐得满满。",
+      "output_sha256": "37bfabff1412c6d6385978cc674008e30c1c43adb7f424a600135a850dd336b7",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "37bfabff1412c6d6385978cc674008e30c1c43adb7f424a600135a850dd336b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "广州现在也如上海一样，正在这样地修养他们的趣味。",
+      "output_sha256": "cc51740d2ec4ebe7f76d4e27a55ec22c4d0ffd2998aa5029087d6cd5a76ceb2c",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "cc51740d2ec4ebe7f76d4e27a55ec22c4d0ffd2998aa5029087d6cd5a76ceb2c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "可惜电影一开演，灯光便熄灭，我无法看到人们的下巴。",
+      "output_sha256": "ef0bcd728df4ee46818599ea0a4b70321a53c9cde7425f6e0ebb66b22ad05f1a",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.672433,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "173426a31e1003b4951d64592d330b4ae5de2a3ffa8d20fda6aa818523b8a52a"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "ef0bcd728df4ee46818599ea0a4b70321a53c9cde7425f6e0ebb66b22ad05f1a",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    }
+  ]
+}

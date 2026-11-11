@@ -1,0 +1,865 @@
+{
+  "source_id": "ZH028",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "cbe7b1d156b84d892bbaf38e4a1d79110542798a54680701b83e92c3307158d9",
+  "ai_article_sha256": "9c1992921a94abf8883db83e3a7b1d851a698cf1724a3e657e9cf68a6f5a253b",
+  "mixed_article_sha256": "bb8a890a860f21ba2ad8a6d19ec0dc9017fa9484e26227eab3396606046ed9e2",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 56,
+  "alignment_unit_count": 55,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 57,
+  "selected_ai_sentence_count": 19,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.303779,
+  "selected_alignment_score_median": 0.473476,
+  "selected_alignment_score_max": 0.725365,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "谁能不说话，除了哑子？",
+      "output_sha256": "bebbafe76e51fac78044f34cdb304f72ea517ad5189918d7bfc1439329b69f1b",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "bebbafe76e51fac78044f34cdb304f72ea517ad5189918d7bfc1439329b69f1b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "有的人在某个时刻选择不发声，而有的人在特定地点则选择沉默。",
+      "output_sha256": "2451bf33c07bcfd9b55154d560bed34d7e40f6775d72b7c9fdb2a1e9c7b86a7f",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.361775,
+      "human_sentence_indices": [
+        2,
+        3
+      ],
+      "human_sha256": [
+        "b630bb96adc2caf93c42b8f7800c03a6af42640ee651b1d5a7d672ffa75c2a21",
+        "219df9fd1605c91cada8f6a0c534e5b08d0e8fa3549fdec4ee705524b7d08cac"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "2451bf33c07bcfd9b55154d560bed34d7e40f6775d72b7c9fdb2a1e9c7b86a7f",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "有人跟这些人说，不跟那些人说。",
+      "output_sha256": "5e870bb165515c3b467479af5c74c811547b9a74b3b650d4f0ffc6051ac31d02",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "5e870bb165515c3b467479af5c74c811547b9a74b3b650d4f0ffc6051ac31d02",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "有人话多，有人话少；有人喜欢表达，有人却不愿多言。",
+      "output_sha256": "f111b44da46fcda341f4be8bb9dfcfd230cad9f7c6a1c0fe312614cd9b4d8ade",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.459431,
+      "human_sentence_indices": [
+        5,
+        6
+      ],
+      "human_sha256": [
+        "5a3bc55af1a3c94fd98a18cc0031109dbc9687dc627c0f9863acbd008234ad3b",
+        "48ef253f86a7f9f0de7a77d020314f95cc50bcc3927fccc1908c98a6c299ec80"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "f111b44da46fcda341f4be8bb9dfcfd230cad9f7c6a1c0fe312614cd9b4d8ade",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "即便哑巴无法言语，仍会发出模糊的声音，或用手势来交流。",
+      "output_sha256": "e0220211b97dd95906703e6363c69fc4c470f27a90faab63bb3861bea6001d05",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.35843,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "262509a2c622cae589c4e98ef0543c60699419527d36e773d8a7d498c6115663"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "e0220211b97dd95906703e6363c69fc4c470f27a90faab63bb3861bea6001d05",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "说话并不是一件容易事。",
+      "output_sha256": "f4c1f0e5529e6f39f5723db1f59defeca92458bbb25c180923611dd2bc4716ea",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "f4c1f0e5529e6f39f5723db1f59defeca92458bbb25c180923611dd2bc4716ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "天天说话，不见得就会说话；许多人说了一辈子话，没有说好过几句话。",
+      "output_sha256": "44d9ac34355df8fa0a3b48b401a32581b96f9a90b5e26b1f0e81c929e6e74939",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "44d9ac34355df8fa0a3b48b401a32581b96f9a90b5e26b1f0e81c929e6e74939",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "所谓“辩士的舌锋”、“三寸不烂之舌”等赞词，正是物稀为贵的证据；文人们讲究“吐属”，也是同样的道理。",
+      "output_sha256": "c3632b6cba192169cd5abe3f775fea764d1f75dc1ebbb59bfb824269c45df3f9",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "c3632b6cba192169cd5abe3f775fea764d1f75dc1ebbb59bfb824269c45df3f9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我们并不想做辩士，说客，文人，但是人生不外言动，除了动就只有言，所谓人情世故，一半儿是在说话里。",
+      "output_sha256": "cfb28ddc7e0bd65f93428404012a98d1c0b4d2c9128e289745519cec71db8791",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "cfb28ddc7e0bd65f93428404012a98d1c0b4d2c9128e289745519cec71db8791",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "古文《尚书》里说，“唯口，出好兴戎”，一句话的影响有时是你料不到的，历史和小说上有的是例子。",
+      "output_sha256": "0e6c6ca6606be6556ae6272b2af0a462e09a5e15784de0acb2c1bbc55a98d989",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "0e6c6ca6606be6556ae6272b2af0a462e09a5e15784de0acb2c1bbc55a98d989",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "说话的难度或许不亚于写作，但也绝对不比写作简单。",
+      "output_sha256": "5e700afcf86c1ac3d2f640479b6773d9ded62d0a74ada55b6266015554020db3",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.314285,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "7f675071cb7426c9db04660ecf453a9406b7b6a6b024dfdf944d8bc3738cdc8c"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "5e700afcf86c1ac3d2f640479b6773d9ded62d0a74ada55b6266015554020db3",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "有些人会说话不会作文，但也有些人会作文不会说话。",
+      "output_sha256": "f9a3a9baf63d068b446507a8b8e7902d7f99b5f25cadbe78a5e118f2466c2fc3",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "f9a3a9baf63d068b446507a8b8e7902d7f99b5f25cadbe78a5e118f2466c2fc3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "说话像行云流水，不能够一个字一个字推敲，因而不免有疏漏散漫的地方，不如作文的谨严。",
+      "output_sha256": "e457dbcfe665fec404df7314ca12e04454f9cb9475e5f3b18cf16230c0f513cb",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "e457dbcfe665fec404df7314ca12e04454f9cb9475e5f3b18cf16230c0f513cb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "然而，那种自然流畅的表达，确实是一般文章所无法达到的境界。",
+      "output_sha256": "152a406363b3d75af43e18b49c47c771b50552285e0dda08c785423383cf20c9",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.373829,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "63f8bd3931835aa7f3abfb26728bc68e6585b6aba01d5f58185da8b59075bd63"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "152a406363b3d75af43e18b49c47c771b50552285e0dda08c785423383cf20c9",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "文章有能到这样境界的，简直当以说话论，不再是文章了。",
+      "output_sha256": "d2b0cba6a7db422c243a9d6e84f3ca24fa0dd49dedbf7e2d08b66b1a2c870fbf",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "d2b0cba6a7db422c243a9d6e84f3ca24fa0dd49dedbf7e2d08b66b1a2c870fbf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这种境界的难度可想而知。",
+      "output_sha256": "ca175388661f983ed8b8f422d5ce9d85a9e2b3e6eb59faf782c6f1c40da48c58",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.303779,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "07d10e3f5c81da50a901800a58e755d2c421d9529a57932bd031b077d12ab518"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "ca175388661f983ed8b8f422d5ce9d85a9e2b3e6eb59faf782c6f1c40da48c58",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我们的文章，哲学里虽有“用笔如舌”一个标准，古今有几个人真能“用笔如舌”呢？",
+      "output_sha256": "9c97434c9aa497d25309e0428b5910e40bec90fdd5319340ee3cd6ae59ba541e",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "9c97434c9aa497d25309e0428b5910e40bec90fdd5319340ee3cd6ae59ba541e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "不过文章不甚自然，还可成为功力一派，说话是不行的；说话若也有功力派，你想，那怕真够瞧的！",
+      "output_sha256": "0b52f531f05a2dc63a3ab7f2a35a66546e1e095818e66b6ed88c1a0ac237802d",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "0b52f531f05a2dc63a3ab7f2a35a66546e1e095818e66b6ed88c1a0ac237802d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "说话的方式多种多样，但我难以具体列举。",
+      "output_sha256": "e1f4bc810aa6c2b1e3ad461314235cbeae323b3c194d5ead83a073e19a10d3f7",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.332887,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "552c6679a2b972c7e81c8df67ab66baca19e139b4761efc735e8094fa60e8b0a"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "e1f4bc810aa6c2b1e3ad461314235cbeae323b3c194d5ead83a073e19a10d3f7",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "大致可以分为几类：向公众演说、讲解甚至说书等是一种，会议上发言是一种，公私谈判是一种，法庭上辩护也是一种，向记者谈话则属于另一种。",
+      "output_sha256": "71ed0f99a94e06d3edefa3c977819feefdd68bddffdf4221c5ef509c23a182d1",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.605369,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "fef9143ef9b82bafb8e5b7eb9cb80c980ca9376d6bfa9f4eec9258bb55f300ef"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "71ed0f99a94e06d3edefa3c977819feefdd68bddffdf4221c5ef509c23a182d1",
+      "ai_unit_sentence_indices": [
+        20,
+        21
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这些都可以称为正式表达。",
+      "output_sha256": "2f0c1873a8771f25553e38731d4e18f2937cc253463f619fcb861d3760a36fb1",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.605369,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "fef9143ef9b82bafb8e5b7eb9cb80c980ca9376d6bfa9f4eec9258bb55f300ef"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "2f0c1873a8771f25553e38731d4e18f2937cc253463f619fcb861d3760a36fb1",
+      "ai_unit_sentence_indices": [
+        20,
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "朋友们的闲谈也是一种，可称为非正式的。",
+      "output_sha256": "855c3d66b15da6065d8ab6aa10e51f775ade6b4d2be2ecd014d66742a64e223d",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "855c3d66b15da6065d8ab6aa10e51f775ade6b4d2be2ecd014d66742a64e223d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "正式的并不一定全要拉长了面孔，但是拉长了的时候多。",
+      "output_sha256": "043be3ac704a5722b3106405c01a69cd4a10eba3c659b71eba976667ec0d5694",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "043be3ac704a5722b3106405c01a69cd4a10eba3c659b71eba976667ec0d5694",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这类对话往往是片段化的，有时甚至是提前准备好的。",
+      "output_sha256": "f1adf4bbdffb27700c4af365178ee6064ed72f414bc1b8c5ce38dd5a91536af1",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.473476,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "35993764ca2b585af6098eda8e16a6a2d11791ac971c15975ce9736891fe2177"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "f1adf4bbdffb27700c4af365178ee6064ed72f414bc1b8c5ce38dd5a91536af1",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "只有闲谈，可以上下古今，来一个杂拌儿；说是杂拌儿，自然零零碎碎，成片段的是例外。",
+      "output_sha256": "d4d7b463991b03c4c9d4ba848a6b30cef3e28a2767eb7b7e2022004dd0139939",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "d4d7b463991b03c4c9d4ba848a6b30cef3e28a2767eb7b7e2022004dd0139939",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "闲谈说不上预备，满是将话搭话，随机应变。",
+      "output_sha256": "9504b2c5f6937afef76c85da1dbe219866708222fe184d96cdc1aa1bdc54eba9",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "9504b2c5f6937afef76c85da1dbe219866708222fe184d96cdc1aa1bdc54eba9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "说预备好了再去“闲”谈，那岂不是个大笑话？",
+      "output_sha256": "7db01b889d0fe71f7940b4ff829b88084aecfb3eac1dc3ad331982296996a855",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "7db01b889d0fe71f7940b4ff829b88084aecfb3eac1dc3ad331982296996a855",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这些说话的形式大致都有一些公式，比如闲聊常以“天气”作为开场，这便是一个例子。",
+      "output_sha256": "ff401f7d888b0d807805f7e8ed3775d4a0a2bd1c3b8126cc0f8b0f0fe09cc556",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.4767,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "874e7425318e2ca5b386a775f01f641269495e3c217a8fd08377f7ee1ab564cb"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "ff401f7d888b0d807805f7e8ed3775d4a0a2bd1c3b8126cc0f8b0f0fe09cc556",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "然而，公式总是死板的，无法灵活应对，真正的艺术在于个人的理解与表达。",
+      "output_sha256": "bd2164667c43ca604149127be330898b121ba298e6d3445dd7d07ac472251e5a",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.311939,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "b3bcc1d7bcf9fdb485b83fa99940f0c39f8e2d9e3e527de8dc67e07e54bad8c3"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "bd2164667c43ca604149127be330898b121ba298e6d3445dd7d07ac472251e5a",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "会说的教你眉飞色舞，不会说的教你昏头搭脑，即使是同一个意思，甚至同一句话。",
+      "output_sha256": "311f55c715b34af5324b4cc22dd61fa8a640b97316fb4ecf4bc5e6c5f038533d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "311f55c715b34af5324b4cc22dd61fa8a640b97316fb4ecf4bc5e6c5f038533d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "中国人很早就讲究说话。",
+      "output_sha256": "0fa9737c9825c0ce0355a17a91182662dc92da59df2a6324a463085e6efc94b4",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "0fa9737c9825c0ce0355a17a91182662dc92da59df2a6324a463085e6efc94b4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "《左传》，《国策》，《世说》是我们的三部说话的经典。",
+      "output_sha256": "64afab7c9d7d1c2e851fa6e9fc5e914264dae5be8844e8f6be4df59a72b7d3b1",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "64afab7c9d7d1c2e851fa6e9fc5e914264dae5be8844e8f6be4df59a72b7d3b1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "一是外交辞令，一是纵横家言，一是清谈。",
+      "output_sha256": "1023d7278cfa74877683582847486e5e2834d0bb194ad9cefed48317969eb462",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "1023d7278cfa74877683582847486e5e2834d0bb194ad9cefed48317969eb462",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "你看他们的话多么婉转如意，句句字字打进人心坎里。",
+      "output_sha256": "ce2c544a5b9c5b75cab983d1f59da205cb149da573545877c34b2d33a6e84f30",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "ce2c544a5b9c5b75cab983d1f59da205cb149da573545877c34b2d33a6e84f30",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "还有一部《红楼梦》，里面的对话也极轻松，漂亮。",
+      "output_sha256": "af9e367d048a5eb15b7a1609501306f9fa284110b6635fbfd7e83fac61c29302",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "af9e367d048a5eb15b7a1609501306f9fa284110b6635fbfd7e83fac61c29302",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "此外汉代贾君房号为“语妙天下”，可惜留给我们的只有这一句赞词；明代柳敬亭的说书极有大名，可惜我们也无从领略。",
+      "output_sha256": "5d318524f0e61deca662d8f410e683aff5badf3f1431ddf8353d1ffae17f7715",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "5d318524f0e61deca662d8f410e683aff5badf3f1431ddf8353d1ffae17f7715",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "近年来的新文学，将白话文欧化，从外国文中借用了许多活泼的，精细的表现，同时暗示我们将旧来有些表现重新咬嚼一番。",
+      "output_sha256": "c3a042d7902b8f543ad91085e81ee13ebaa3eab9cf4071ea8c89c0920c9c8404",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "c3a042d7902b8f543ad91085e81ee13ebaa3eab9cf4071ea8c89c0920c9c8404",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这赋予了我们的语言新鲜的风味与力量。",
+      "output_sha256": "9056d6b13fd7a3b481157d46fee88fceb4804e84c92765091040640af0f16ed2",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.585235,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "04438641cad8df23f471faf7f24c6dd8f2b51a519c252b77535070edae6b68cb"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "9056d6b13fd7a3b481157d46fee88fceb4804e84c92765091040640af0f16ed2",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "加以这些年说话的艰难，使一般报纸都变乖巧了，他们知道用侧面的，反面的，夹缝里的表现了。",
+      "output_sha256": "4078b2adda3e25210b563daa55e8e302ec6e204b24027169a6c92a89f88d453a",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "4078b2adda3e25210b563daa55e8e302ec6e204b24027169a6c92a89f88d453a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这对读者是种不可避免的训练；只有敏感的人才能领略那种微妙的表达。",
+      "output_sha256": "5300a91d69d17527375b3a5a4a927b7ce76ae92e538f8fb176669bc2a03fabf6",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.540528,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "461858799ce5fcaeadeac397efb2b60f96e68125040783fbb73680ea00091249"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "5300a91d69d17527375b3a5a4a927b7ce76ae92e538f8fb176669bc2a03fabf6",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这时期说话的艺术确有了相当的进步。",
+      "output_sha256": "4312a5bcf33c9ee0aba5beac0adb0d682f41c1ff1db363b2ce541a9a3953f53a",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "4312a5bcf33c9ee0aba5beac0adb0d682f41c1ff1db363b2ce541a9a3953f53a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "论说话艺术的文字，从前著名的似乎只有韩非的《说难》，那是一篇剖析入微的文字。",
+      "output_sha256": "260c3b05608d00cc0e48c898073d78f0b3b3efcb1effa2a6301c97e1246919e4",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "260c3b05608d00cc0e48c898073d78f0b3b3efcb1effa2a6301c97e1246919e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "而如今，我们已经拥有了不少精致的著作，如鲁迅先生的《立论》，这足以证明我所说的进步。",
+      "output_sha256": "0317db9df645f21d9f3eaa2e253a20b5817cdd3595f5a73534a51b15851184b9",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.609323,
+      "human_sentence_indices": [
+        44,
+        45
+      ],
+      "human_sha256": [
+        "3758e006ac06c5e716b0da1cea420af42630618381cb7c8e25c0175ce54e1833",
+        "13a4bd56f480534b355f86613530a61a381e2a1dd8dc2de4a0ded7e7711966ac"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "0317db9df645f21d9f3eaa2e253a20b5817cdd3595f5a73534a51b15851184b9",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "中国人对待说话的态度，最高境界是“忘言”，但如禅宗所教导“将嘴挂在墙上”，也还是无法避免说话。",
+      "output_sha256": "9d68e39a5ed0a4caf18af48e975790007199b47aa32d614564de8b9f995e4a0e",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.725365,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "90f60f49dd161473dbe2e6a5919bb2f79f3852ce59b68a93c4ecca5931cc9a5e"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "9d68e39a5ed0a4caf18af48e975790007199b47aa32d614564de8b9f995e4a0e",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "其次是慎言，寡言，讷于言。",
+      "output_sha256": "72146d11f28d6613d7ba321ab317c709408afdc87e64b2573e315036329f4f9d",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "72146d11f28d6613d7ba321ab317c709408afdc87e64b2573e315036329f4f9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这三样又有分别：慎言是小心说话，小心说话自然就少说话，少说话少出错儿。",
+      "output_sha256": "375264a07e86ed0064a94e7f7d97db20e05b2016a4126208fc4e1699bc69fff6",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "375264a07e86ed0064a94e7f7d97db20e05b2016a4126208fc4e1699bc69fff6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "寡言则是表达少，是一种深沉或内敛的性格特征。",
+      "output_sha256": "5d431db6bf3018ddf22ec3277c6ba093bb3d45e3a91458008ad94da80176db09",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.610603,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "a45e6904969dc892b6ad3078bed78b2b44be8e4c18d485dfae5dfce96293e84b"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "5d431db6bf3018ddf22ec3277c6ba093bb3d45e3a91458008ad94da80176db09",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "讷于言是说不出话，是一种浑厚诚实的性格或品德。",
+      "output_sha256": "d1523c181ee3e0f4502f94486700d598e4c27e4b93c4dc32b2edb931c3fc7319",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "d1523c181ee3e0f4502f94486700d598e4c27e4b93c4dc32b2edb931c3fc7319",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这两种多半是生成的。",
+      "output_sha256": "cf46dc355f588f2552387717b1e0564ae8cc65fbade38cf5fdf5bb14e9322268",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "cf46dc355f588f2552387717b1e0564ae8cc65fbade38cf5fdf5bb14e9322268",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "第三是修辞或辞令。",
+      "output_sha256": "57cbe3b62074bd3614bf880c42ad56908bcc78183b4bb14a6d1b821fb92249e1",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "57cbe3b62074bd3614bf880c42ad56908bcc78183b4bb14a6d1b821fb92249e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "真诚的君子，其人格的力量能够穿透一切阴暗，无需多言，言语也无需华丽修饰。",
+      "output_sha256": "5fe9b2130bb5ebc60cf4f9ca0983eb8812f9b247dbae14dfafde7404d588461d",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.544643,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "b3a211b68171df68a2099b9c7a460d6bd81921001a9d32a4860f1ff54f35c139"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "5fe9b2130bb5ebc60cf4f9ca0983eb8812f9b247dbae14dfafde7404d588461d",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "若只知修饰，口中花言巧语，内心却空洞无物，那便是所谓的小人；他过于修饰，反而让人心生怀疑。",
+      "output_sha256": "72ed841526aceff2e2f313cbdf7e607f32678912c0228ab7f172a64b09fa170c",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.417308,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "1c5e10a89a839a694459e0834666c308a6ee0bc17d585fd879a8c33f39316cb5"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "72ed841526aceff2e2f313cbdf7e607f32678912c0228ab7f172a64b09fa170c",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他的戏法总有让人揭穿的一日。",
+      "output_sha256": "fdc7ea7fe12e0d1415d2a87922d624bcd571a65936bcbff5c4e7926bfe6b9379",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "fdc7ea7fe12e0d1415d2a87922d624bcd571a65936bcbff5c4e7926bfe6b9379",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我们是介在两者之间的平凡的人，没有那伟大的魄力，可也不至于忘掉自己。",
+      "output_sha256": "fd75194e58a6a27d8066459797852641a3506282e5514fc6ad4a0ee067345aa7",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "fd75194e58a6a27d8066459797852641a3506282e5514fc6ad4a0ee067345aa7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "只是不能无视世故人情，我们看时候，看地方，看人，在礼貌与趣味两个条件之下，修饰我们的说话。",
+      "output_sha256": "745f7e9f0a01b6a1bd1a15bb4044bacff8b401f322bed3554a437c9cb1b2e76e",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "745f7e9f0a01b6a1bd1a15bb4044bacff8b401f322bed3554a437c9cb1b2e76e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这儿没有力，只有机智；真正的力不是修饰所可得的。",
+      "output_sha256": "b5a972d79e875514f98e171154f7681084cab509dd18f72df4942488a00da40a",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "b5a972d79e875514f98e171154f7681084cab509dd18f72df4942488a00da40a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我们所能希望的只是：说得少，说得好。",
+      "output_sha256": "66dcf67721418174214c1019fb7cb36586bd37503e57e1f96d4a362574672c45",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "66dcf67721418174214c1019fb7cb36586bd37503e57e1f96d4a362574672c45",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

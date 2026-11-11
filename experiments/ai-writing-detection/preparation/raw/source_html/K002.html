@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《雨天的书》日记与尺牍 - 可阅文学网</title>
+    <meta name="keywords" content="雨天的书,日记与尺牍,全文阅读,章节,可阅文学">
+    <meta name="description" content="日记与尺牍是文学中特别有趣味的东西，因为比别的文章更鲜明的表出作者的个性。诗文小说戏曲都是做给第三者看的，所以艺术虽然更加精炼，也就多有一点做作的痕迹。信札只是写给第二个人，日">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/700533/20402861">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/700533/20402861">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/700533/20402861">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/700533">雨天的书</a><span id="top_chaptername" style="float: right">日记与尺牍</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　日记与尺牍是文学中特别有趣味的东西，因为比别的文章更鲜明的表出作者的个性。诗文小说戏曲都是做给第三者看的，所以艺术虽然更加精炼，也就多有一点做作的痕迹。信札只是写给第二个人，日记则给自己看的，（写了日记预备将来石印出书的算作例外，）自然是更真实更天然的了。我自己作文觉得都有点做作，因此反动地喜看别人的日记尺牍，感到许多愉快。我不能写日记，更不善写信，自己的真相仿佛在心中隐约觉到，但要写他下来，即使想定是私密的文字，总不免还有做作，—这并非故意如此，实在是修养不足的缘故，然而因此也愈觉得别人的日记尺牍之佳妙，可喜亦可贵了。<br><br>　　中国尺牍向来好的很多，文章与风趣多能兼具，但最佳者还应能显出主人的性格。《全晋文》中录王羲之杂帖，有这两章：<br><br>　　“吾顷无一日佳，衰老之弊日至，夏不得有所啖，而犹有劳务，甚劣劣。”<br><br>　　“不审复何似？永日多少看未？九日当采菊不？至日欲共行也，但不知当晴不耳？”<br><br>　　我觉得这要比“奉橘三百颗”还有意思。日本诗人芭蕉（Bashō）有这样一封向他的门人借钱的信，在寥寥数语中画出一个飘逸的俳人来。<br><br>　　“欲往芳野行脚，希惠借银五钱。此系勒借，容当奉还。唯老夫之事，亦殊难说耳。<br><br>　　去来君　　芭蕉。”<br><br>　　日记又是一种考证的资料。近阅汪辉祖的《病榻梦痕录》上卷，乾隆二十年（1755）项下有这几句话：<br><br>　　“绍兴秋收大歉。次年春夏之交，米价斗三百钱，丐殍载道。”同五十九年（1794）项下又云：<br><br>　　“夏间米一斗钱三百三四十文。往时米价至一百五六十文，即有饿殍，今米常贵而人尚乐生，盖往年专贵在米，今则鱼虾蔬果无一不贵，故小贩村农俱可糊口。”<br><br>　　这都是经济史的好材料，同时也可以看出他精明的性分。日本俳人一茶（Issa）的日记一部分流行于世，最新发见刊行的为《一茶旅日记》，文化元年（1804）十二月中有记事云：<br><br>　　“二十七日阴，买锅。<br><br>　　二十九日雨，买酱。”<br><br>　　十几个字里贫穷之状表现无遗。同年五月项下云，<br><br>　　“七日晴，投水男女二人浮出吾妻桥下。”此外还多同类的记事，年月从略：<br><br>　　“九日晴，南风。妓女花井火刑。”<br><br>　　“二十四日晴。夜，庵前板桥被人窃去。<br><br>　　二十五日雨。所余板桥被窃。”<br><br>　　这些不成章节的文句却含着不少的暗示的力量，我们读了恍忽想见作者的人物及背景，其效力或过于所作的俳句。我喜欢一茶的文集《俺的春天》，但也爱他的日记，虽然除了吟咏以外只是一行半行的纪事，我却觉得他尽有文艺的趣味。<br><br>　　在外国文人的日记尺牍中有一两节关于中国人的文章，也很有意思，抄录于下，博读者之一粲。倘若读者不笑而发怒，那是介绍者的不好，我愿意赔不是，只请不要见怪原作者就好了。<br><br><p class="q c">夏目漱石日记，明治四十二年（1909）</p><br>　　“七月三日<br><br>　　晨六时地震。夜有支那人来，站在栅门前说把这个开了。问是谁，来干什么，答说我你家里的事都听见，姑娘八位，使女三位，三块钱。完全像个疯子。说你走罢也仍不回去，说还不走要交给警察了，答说我是钦差，随出去了。是个荒谬的东西。”<br><br>　　以上据《漱石全集》第十一卷译出，后面是从英译《契诃夫书简集》中抄译的一封信。<br><br><p class="q c">契诃夫与妹书</p><br>　　“一八九〇年六月二十九日，在木拉伏夫轮船上。<br><br>　　我的舱里流星纷飞，——这是有光的甲虫，好像是电气的火光。白昼里野羊游泳过黑龙江。这里的苍蝇很大。我和一个契丹人同舱，名叫宋路理，他屡次告诉我，在契丹为了一点小事就要‘头落地’。昨夜他吸鸦片烟醉了，睡梦中只是讲话，使我不能睡觉。二十七日我在契丹爱珲城近地一走。我似乎渐渐的走进一个怪异的世界里去了。轮船播动，不好写字。<br><br>　　明天我将到伯力了。那契丹人现在起首吟他扇上所写的诗了。”<br><br><p class="wt">（十四年三月）</p></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/700533/37738576">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/700533/15897678">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="27" data-goods-name="【山姆正品】开心果裹腰果仁高膳食纤维混合坚果仁休闲解馋高端零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847496362635690121&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_83d3888864a66a091a0ed34725f3689c_sx_262410_www1000-1000"
+                         alt="【山姆正品】开心果裹腰果仁高膳食纤维混合坚果仁休闲解馋高端零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】开心果裹腰果仁高膳食纤维混合坚果仁休闲解馋高端零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>105.46</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span></span>
+                </p>
+                <li>
+                    <a href="/book/700533/38652044">自序一</a>
+                </li>
+                <li>
+                    <a href="/book/700533/42400642">自序二</a>
+                </li>
+                <li>
+                    <a href="/book/700533/39128657">苦雨</a>
+                </li>
+                <li>
+                    <a href="/book/700533/15897678">鸟声</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/700533/20402861">日记与尺牍</a>
+                </li>
+                <li>
+                    <a href="/book/700533/37738576">唁辞</a>
+                </li>
+                <li>
+                    <a href="/book/700533/54828395">死之默想</a>
+                </li>
+                <li>
+                    <a href="/book/700533/40679226">若子的病</a>
+                </li>
+                <li>
+                    <a href="/book/700533/60530525">若子的死</a>
+                </li>
+                <li>
+                    <a href="/book/700533/12402901">体操</a>
+                </li>
+                <li>
+                    <a href="/book/700533/75023841">怀旧</a>
+                </li>
+                <li>
+                    <a href="/book/700533/44280109">怀旧之二</a>
+                </li>
+                <li>
+                    <a href="/book/700533/83208400">学校生活的一页</a>
+                </li>
+                <li>
+                    <a href="/book/700533/71681331">初恋</a>
+                </li>
+                <li>
+                    <a href="/book/700533/93654044">娱园</a>
+                </li>
+                <li>
+                    <a href="/book/700533/26824850">故乡的野菜</a>
+                </li>
+                <li>
+                    <a href="/book/700533/31332592">北京的茶食</a>
+                </li>
+                <li>
+                    <a href="/book/700533/23272555">喝茶</a>
+                </li>
+                <li>
+                    <a href="/book/700533/63910082">苍蝇</a>
+                </li>
+                <li>
+                    <a href="/book/700533/56702438">破脚骨</a>
+                </li>
+                <li>
+                    <a href="/book/700533/87836166">日本的海贼</a>
+                </li>
+                <li>
+                    <a href="/book/700533/64158847">我们的敌人</a>
+                </li>
+                <li>
+                    <a href="/book/700533/88407935">十字街头的塔</a>
+                </li>
+                <li>
+                    <a href="/book/700533/57233388">上下身</a>
+                </li>
+                <li>
+                    <a href="/book/700533/76245232">黑背心</a>
+                </li>
+                <li>
+                    <a href="/book/700533/66045817">托尔斯泰的事情</a>
+                </li>
+                <li>
+                    <a href="/book/700533/44672856">大人之危害及其他</a>
+                </li>
+                <li>
+                    <a href="/book/700533/23406126">蔼理斯的话</a>
+                </li>
+                <li>
+                    <a href="/book/700533/37888610">生活之艺术</a>
+                </li>
+                <li>
+                    <a href="/book/700533/28666286">笠翁与兼好法师</a>
+                </li>
+                <li>
+                    <a href="/book/700533/16859079">狗抓地毯</a>
+                </li>
+                <li>
+                    <a href="/book/700533/27367934">净观</a>
+                </li>
+                <li>
+                    <a href="/book/700533/86369678">与友人论性道德书</a>
+                </li>
+                <li>
+                    <a href="/book/700533/23602503">与友人论怀乡书</a>
+                </li>
+                <li>
+                    <a href="/book/700533/98575374">与友人论国民文学书</a>
+                </li>
+                <li>
+                    <a href="/book/700533/97865155">教训之无用</a>
+                </li>
+                <li>
+                    <a href="/book/700533/43822784">无谓之感慨</a>
+                </li>
+                <li>
+                    <a href="/book/700533/85489955">日本的人情美</a>
+                </li>
+                <li>
+                    <a href="/book/700533/29089306">我的复古的经验</a>
+                </li>
+                <li>
+                    <a href="/book/700533/23640508">一年的长进</a>
+                </li>
+                <li>
+                    <a href="/book/700533/50961512">元旦试笔</a>
+                </li>
+                <li>
+                    <a href="/book/700533/90136310">沉默</a>
+                </li>
+                <li>
+                    <a href="/book/700533/10650529">山中杂信</a>
+                </li>
+                <li>
+                    <a href="/book/700533/10647241">济南道中</a>
+                </li>
+                <li>
+                    <a href="/book/700533/13351217">济南道中之二</a>
+                </li>
+                <li>
+                    <a href="/book/700533/66936981">济南道中之三</a>
+                </li>
+                <li>
+                    <a href="/book/700533/72994878">文法之趣味</a>
+                </li>
+                <li>
+                    <a href="/book/700533/46241359">神话的辩护</a>
+                </li>
+                <li>
+                    <a href="/book/700533/28653720">续神话的辩护</a>
+                </li>
+                <li>
+                    <a href="/book/700533/40961574">神话的典故</a>
+                </li>
+                <li>
+                    <a href="/book/700533/53935247">舍伦的故事</a>
+                </li>
+                <li>
+                    <a href="/book/700533/87362489">科学小说</a>
+                </li>
+                <li>
+                    <a href="/book/700533/46710911">读纺轮的故事</a>
+                </li>
+                <li>
+                    <a href="/book/700533/52577901">读欲海回狂</a>
+                </li>
+                <li>
+                    <a href="/book/700533/86758817">读京华碧血录</a>
+                </li>
+                <li>
+                    <a href="/book/700533/38938818">两条腿序</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af0049997753bfdf_5968d02a13ba9b0457a9d20bff874147";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

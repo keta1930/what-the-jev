@@ -1,0 +1,76 @@
+{
+  "source_id": "EN017",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "f0c7562b0640166a4e04b0669569752a00b3a6aa3545c6df150cf8fbc438ced9",
+    "4e4846c6fe63b6a463c16218c341f4ad0ade144accf81aeffa4fc5ea88c24c10",
+    "4e415fa2741b658500c4cdc1e34e8248f1fe3415a0fd8dda3513d0d7afd52666"
+  ],
+  "source_block_sha256": "4e4846c6fe63b6a463c16218c341f4ad0ade144accf81aeffa4fc5ea88c24c10",
+  "ai_block_sha256": "fcb678b26aca8e4d29a56f0ccc49dba9030a9d07bb01e67df08274cbae3aed70",
+  "mixed_sha256": "ec50a50dbcacc29d3945bb117d45e5cd48647e9748a11d8b64bc3d131545ad7b",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 333-499 words, aiming for 416. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nTo be behind a bookstall is indeed to see life. The fascination of it struck me suddenly as 1 stood in front of a station bookstall last Monday and wondered who bought the tie-clips. The answer came to me just as I got into my train— Ask the man behind the bookstall. He would know. Yes, and he would know who bought all his papers and books and pamphlets, and to know this is to know something about the people in the world. You cannot tell a man by the lobster he eats, but you can tell something about him by the literature he reads.\n\nFor instance, I once occupied a carriage on an eastern line with, among others, a middle-aged woman. As soon as we left Liverpool Street she produced a bag of shrimps, grasped each individual in turn firmly by the head and tail, and ate him. When she had finished, she emptied the ends out of the window, wiped her hands, and settled down comfortably to her paper. What paper? You'll never guess; I shall have to tell you—The Morning Post. Now doesn't that give you the woman? The shrimps alone, no; the paper alone, no; but the two to-gether. Conceive the holy joy of the bookstall clerk as she and her bag of shrimps— yes, he could have told at once they were shrimps—approached and asked for The Morning Post.\n\nThe day can never be dull to the bookstall clerk. I imagine him assigning in his mind the right paper to each customer. This man will ask for Golfing—wrong, he wants Cage Birds; that one over there wants The Motor—ah, well, The Auto-Car, that's near enough. Soon he would begin to know the different types; he would learn to distinguish between the patrons of The Dancing Times and of The Vote, The Era and The Athenaeum. Delightful surprises would overwhelm him at intervals; as when—a red-letter day in all the great stations—a gentleman in a check waistcoat makes the double purchase of Homer's Penny Stories and The Spectator. On those occasions, and they would be very rare, his faith in human nature would begin to ooze away, until all at once he would tell himself excitedly that the man was obviously an escaped criminal in disguise, rather overdoing the part. After which he would hand over The Winning Post and The Animals' Friend to the pursuing detective in a sort of holy awe. What a life!"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 687,
+    "completion_tokens": 516,
+    "total_tokens": 1203,
+    "cost": 0.00041265,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00041265,
+      "upstream_inference_prompt_cost": 0.00010305,
+      "upstream_inference_completions_cost": 0.0003096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00041265,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 416,
+    "output_words": 427,
+    "lower_words": 333,
+    "upper_words": 499,
+    "source_paragraphs": 3,
+    "output_paragraphs": 3,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.03546099290780142,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "fcb678b26aca8e4d29a56f0ccc49dba9030a9d07bb01e67df08274cbae3aed70",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN017.txt",
+  "mixed_path": "clean/mixed/en/EN017.txt",
+  "response_path": "raw/mixed/en/EN017.response.json"
+}

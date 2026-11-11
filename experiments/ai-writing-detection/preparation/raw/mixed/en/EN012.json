@@ -1,0 +1,72 @@
+{
+  "source_id": "EN012",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "bbe958a951e3926f211d826f939a58231367279feb57fef4ef8e4f5290aa87e3",
+    "5e70df35b3eb4f10498c2c1dffeaf57abdf50b3e7431cd7c56f0ac19d583cece",
+    "9735f53d79fb7343bb913b475212f930a1b499087592dfb2f4eb8e3f7bdfe8f1"
+  ],
+  "source_block_sha256": "5e70df35b3eb4f10498c2c1dffeaf57abdf50b3e7431cd7c56f0ac19d583cece",
+  "ai_block_sha256": "01f4e0701c8dfed7fb992fbe65ff8cc92d085403f0799a9a6c8964626cd2c8ff",
+  "mixed_sha256": "b36a2a9659ea47900dbfd9a43ee6a51c860e91bbeb69b1f8057acfea3ed57fda",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 330-494 words, aiming for 412. Use exactly 2 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nBut perhaps they will not love it. Maybe I am a little above their heads. I remember on one First of January receiving an anonymous postcard wishing me a happy New Year, and suggesting that I should give the compositors a happy New Year also by writing more generously. In those days I got a thousand words upon one sheet 8 in. by 5 in. I adopted the suggestion, but it was a wrench; as it would be for a painter of miniatures forced to spend the rest of his life painting the Town Council of Boffington in the manner of Herkomer. My canvases are bigger now, but they are still impressionistic. \"Pretty, but what is it?\" remains the obvious comment; one steps back a pace and saws the air with the hand; \"You see it better from here, my love,\" one says to one's wife. But if there be one compositor not carried away by the mad rush of life, who in a leisurely hour (the luncheon one, for instance) looks at the beautiful words with the eye of an artist, not of a wage-earner, he, I think, will be satisfied; he will be as glad as I am of my new nib. Does it matter, then, what you who see only the printed word think of it?\n\nA woman, who had studied what she called the science of calligraphy, once offered to tell my character from my handwriting. I prepared a special sample for her; it was full of sentences like \"To be good is to be happy,\" \"Faith is the lode- star of life,\" \"We should always be kind to animals,\" and so on. I wanted her to do her best. She gave the morning to it, and told me at lunch that I was \"synthetic.\" Probably you think that the compositor has failed me here and printed \"synthetic\" when I wrote \"sympathetic.\" In just this way I misunderstood my calligraphist at first, and I looked as sympathetic as I could. However, she repeated \"synthetic,\" so that there could be no mistake. I begged her to tell me more, for I had thought that every letter would reveal a secret, but all she would add was \"and not analytic.\" I went about for the rest of the day saying proudly to myself \"I am synthetic! I am synthetic! I am synthetic!\" and then I would add regretfully, \"Alas, I am not analytic!\" I had no idea what it meant."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 497,
+    "total_tokens": 1183,
+    "cost": 0.0004011,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004011,
+      "upstream_inference_prompt_cost": 0.0001029,
+      "upstream_inference_completions_cost": 0.0002982
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0004011,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 412,
+    "output_words": 396,
+    "lower_words": 330,
+    "upper_words": 494,
+    "source_paragraphs": 2,
+    "output_paragraphs": 2,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.06923076923076923,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN012.txt",
+  "mixed_path": "clean/mixed/en/EN012.txt",
+  "response_path": "raw/mixed/en/EN012.response.json"
+}

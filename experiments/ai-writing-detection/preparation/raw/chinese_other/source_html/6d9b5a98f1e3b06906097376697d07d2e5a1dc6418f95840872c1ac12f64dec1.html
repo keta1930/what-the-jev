@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《热风》三十五 - 可阅文学网</title>
+    <meta name="keywords" content="热风,三十五,全文阅读,章节,可阅文学">
+    <meta name="description" content="从清朝末年，直到现在，常常听人说“保存国粹”这一句话。　　前清末年说这话的人，大约有两种：一是爱国志士，一是出洋游历的大官。他们在这题目的背后，各各藏着别的意思。志士说保存国粹">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11072/10004">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11072/10004">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11072/10004">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11072">热风</a><span id="top_chaptername" style="float: right">三十五</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　从清朝末年，直到现在，常常听人说“保存国粹”这一句话。<br><br>　　前清末年说这话的人，大约有两种：一是爱国志士，一是出洋游历的大官。他们在这题目的背后，各各藏着别的意思。志士说保存国粹，是光复旧物的意思；大官说保存国粹，是教留学生不要去剪辫子的意思。<br><br>　　现在成了民国了。以上所说的两个问题，已经完全消灭。所以我不能知道现在说这话的是那一流人，这话的背后藏着什么意思了。<br><br>　　可是保存国粹的正面意思，我也不懂。<br><br>　　什么叫“国粹”？照字面看来，必是一国独有，他国所无的事物了。换一句话，便是特别的东西。但特别未必定是好，何以应该保存？<br><br>　　譬如一个人，脸上长了一个瘤，额上肿出一颗疮，的确是与众不同，显出他特别的样子，可以算他的“粹”。然而据我看来，还不如将这“粹”割去了，同别人一样的好。<br><br>　　倘说：中国的国粹，特别而且好；又何以现在糟到如此情形，新派摇头，旧派也叹气。<br><br>　　倘说：这便是不能保存国粹的缘故，开了海禁的缘故，所以必须保存。但海禁未开以前，全国都是“国粹”，理应好了；何以春秋战国五胡十六国闹个不休，古人也都叹气。<br><br>　　倘说：这是不学成汤文武周公<i class="iconfont icon-zhushi" data-content="成汤文武周公：成汤，商代的第一个君主。文，即周文王，姬姓，名昌，商末周族领袖，周代尊称为文王。武，即周武王，名发，文王的儿子，周代第一个君主。周公，名旦，武王之弟，成王时曾由他摄政。下文的桀，夏代最后一个君主。纣，商代最后一个君主。"></i>的缘故；何以真正成汤文武周公时代，也先有桀纣暴虐，后有殷顽作乱<i class="iconfont icon-zhushi" data-content="殷顽作乱：周武王灭殷之后，把殷的旧地分为三个部分，分别由他的兄弟管叔、蔡叔、霍叔管领。又封纣的儿子武庚为诸侯，受三叔的监视。武王死后，成王继位，周公监国，三叔与周公不和，武庚遂联合东方的奄、蒲姑等国，起兵反周。周公率兵东征，杀武庚，平定叛乱。这次反抗周朝统治的殷人，被称为“顽民”或“殷顽”。"></i>；后来仍旧弄出春秋战国五胡十六国闹个不休，古人也都叹气。<br><br>　　我有一位朋友说得好：“要我们保存国粹，也须国粹能保存我们。”<br><br>　　保存我们，的确是第一义。只要问他有无保存我们的力量，不管他是否国粹。</div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11072/10005">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/11072/10003">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="28" data-goods-name="【山姆正品】意式番茄黑猪肉酱意面6份速食拌面条西餐意大利面" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847313946633699696&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/png_m_f3e5ae4c65b1c041297fc4cc7a68e6fe_sx_821261_www800-800"
+                         alt="【山姆正品】意式番茄黑猪肉酱意面6份速食拌面条西餐意大利面">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】意式番茄黑猪肉酱意面6份速食拌面条西餐意大利面</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>73.08</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11072/10001">题记</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九一八年</span>
+                </p>
+                <li>
+                    <a href="/book/11072/10002">随感录二十五</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10003">三十三</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/11072/10004">三十五</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10005">三十六</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10006">三十七</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10007">三十八</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九一九年</span>
+                </p>
+                <li>
+                    <a href="/book/11072/10008">随感录三十九</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10009">四十</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10010">四十一</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10011">四十二</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10012">四十三</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10013">四十六</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10014">四十七</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10015">四十八</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10016">四十九</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10017">五十三</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10018">五十四</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10019">五十六 “来了”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10020">五十七 现在的屠杀者</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10021">五十八 人心很古</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10022">五十九 “圣武”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10023">六十一 不满</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10024">六十二 恨恨而死</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10025">六十三 “与幼者”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10026">六十四 有无相通</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10027">六十五 暴君的臣民</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10028">六十六 生命的路</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二一年</span>
+                </p>
+                <li>
+                    <a href="/book/11072/10029">智识即罪恶</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10030">事实胜于雄辩</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二二年</span>
+                </p>
+                <li>
+                    <a href="/book/11072/10031">估《学衡》</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10032">为“俄国歌剧团”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10033">无题</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10034">“以震其艰深”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10035">所谓“国学”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10036">儿歌的“反动”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10037">“一是之学说”</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10038">不懂的音译</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10039">对于批评家的希望</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10040">反对“含泪”的批评家</a>
+                </li>
+                <li>
+                    <a href="/book/11072/10041">即小见大</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二四年</span>
+                </p>
+                <li>
+                    <a href="/book/11072/10042">望勿“纠正”</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af022831cb9523f4_bbf646b03eb450702000ad6a05dc2cbc";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

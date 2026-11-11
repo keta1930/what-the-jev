@@ -1,0 +1,77 @@
+{
+  "source_id": "EN070",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 3,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "afdd2baa94a41297e15a24a6d16b3ae828857e1e204c003deb0b942af6902e68",
+    "1ebf11c6532d26808d1f4eab4df2982a7b1a6e5053818b82800508cf36f5145a",
+    "166d94e5911f75f47cf81e1b934eacee609090f10b650f5eb54c71f7b5fe4b72"
+  ],
+  "source_block_sha256": "166d94e5911f75f47cf81e1b934eacee609090f10b650f5eb54c71f7b5fe4b72",
+  "ai_block_sha256": "c00a8290a133f1262542efc3b258cbbd3b083fa57c6d227ab307e5287d0e0c7c",
+  "mixed_sha256": "1a3d9d2495667ac84869905287e1f8d8401567cd9fa9f6385b039c9d4a3cb725",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 2,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "A previous version failed one or more mechanical checks. Strictly stay within the word range, use exactly 6 paragraphs, retain every detail, and rewrite the prose rather than copying its sentences.\n\nRewrite the source block in 436-654 words, aiming for 545. Use exactly 6 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\n.....\n\nAnd as I came into the cloud of London I met a friend of mine who actually is in a bank, and submitted these suggestions in rhyme to him for use among his colleagues. But he was not very hopeful about the matter. It was not (he assured me) that he underrated the verses, or in any sense lamented their lack of polish. No; it was rather, he felt, an indefinable something in the very atmosphere of the society in which we live that makes it spiritually difficult to sing in banks. And I think he must be right; though the matter is very mysterious. I may observe here that I think there must be some mistake in the calculations of the Socialists. They put down all our distress, not to a moral tone, but to the chaos of private enterprise. Now, banks are private; but post-offices are Socialistic: therefore I naturally expected that the post-office would fall into the collectivist idea of a chorus. Judge of my surprise when the lady in my local post-office (whom I urged to sing) dismissed the idea with far more coldness than the bank clerk had done. She seemed indeed, to be in a considerably greater state of depression than he. Should any one suppose that this was the effect of the verses themselves, it is only fair to say that the specimen verse of the Post-Office Hymn ran thus:\n\n“O’er London our letters are shaken like snow, Our wires o’er the world like the thunderbolts go. The news that may marry a maiden in Sark, Or kill an old lady in Finsbury Park.”\n\nChorus (with a swing of joy and energy):\n\n“Or kill an old lady in Finsbury Park.”\n\nAnd the more I thought about the matter the more painfully certain it seemed that the most important and typical modern things could not be done with a chorus. One could not, for instance, be a great financier and sing; because the essence of being a great financier is that you keep quiet. You could not even in many modern circles be a public man and sing; because in those circles the essence of being a public man is that you do nearly everything in private. Nobody would imagine a chorus of money-lenders. Every one knows the story of the solicitors’ corps of volunteers who, when the Colonel on the battlefield cried “Charge!” all said simultaneously, “Six-and-eightpence.” Men can sing while charging in a military, but hardly in a legal sense. And at the end of my reflections I had really got no further than the sub-conscious feeling of my friend the bank-clerk—that there is something spiritually suffocating about our life; not about our laws merely, but about our life. Bank-clerks are without songs, not because they are poor, but because they are sad. Sailors are much poorer. As I passed homewards I passed a little tin building of some religious sort, which was shaken with shouting as a trumpet is torn with its own tongue. THEY were singing anyhow; and I had for an instant a fancy I had often had before: that with us the super-human is the only place where you can find the human. Human nature is hunted and has fled into sanctuary."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 870,
+    "completion_tokens": 673,
+    "total_tokens": 1543,
+    "cost": 0.0005343,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005343,
+      "upstream_inference_prompt_cost": 0.0001305,
+      "upstream_inference_completions_cost": 0.0004038
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0005343,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 545,
+    "output_words": 547,
+    "lower_words": 436,
+    "upper_words": 654,
+    "source_paragraphs": 6,
+    "output_paragraphs": 6,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.0575139146567718,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true,
+    "formatting_only": true
+  },
+  "formatting_only": true,
+  "formatting_algorithm": "Adjust only sentence/paragraph-boundary whitespace until the model output has the source block paragraph count; verify the non-whitespace character sequence is unchanged",
+  "model_output_sha256": "7c31109ad7682ee48cde92662eaed7e6abf4a342ed24de28ff689533a9d906a5",
+  "model_output_path": "raw/mixed/en/EN070.model.txt",
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN070.txt",
+  "mixed_path": "clean/mixed/en/EN070.txt",
+  "response_path": "raw/mixed/en/EN070.response.json"
+}

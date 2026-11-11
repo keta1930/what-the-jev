@@ -1,0 +1,10 @@
+model: typesafe/jev-1.14
+endpoint: https://openrouter.ai/api/alpha/decisions
+data:
+- data/dataset.sentence-mixed.zh.json
+- data/dataset.sentence-mixed.en.json
+output:
+- result/responses.noul.sentence-mixed.zh.jsonl
+- result/responses.noul.sentence-mixed.en.jsonl
+concurrency: 2
+repeat: 1

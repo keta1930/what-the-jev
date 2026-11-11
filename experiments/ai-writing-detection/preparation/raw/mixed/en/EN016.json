@@ -1,0 +1,76 @@
+{
+  "source_id": "EN016",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "39df73d4f9427840592f7655f507b2b91455ef41f6a97be86ded5bfb0df2a33a",
+    "080daca7e3b3423a87ba7a9a8f5a5349946568fdc639ff1d88b6c788e2669d2d",
+    "7d8ff23231b039e2900a6ac7b4b3a413635cf5302596893ffd16076312e57740"
+  ],
+  "source_block_sha256": "080daca7e3b3423a87ba7a9a8f5a5349946568fdc639ff1d88b6c788e2669d2d",
+  "ai_block_sha256": "43fea4e2db426500a4e5d092613524ba35e1f7461318420f788c48ee6941440d",
+  "mixed_sha256": "2ec7ddce42a6bd2547fe4ed00c14ba17994063e9aa096c9f8ccc545b226d489b",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 250-336 words, aiming for 280. Use exactly 2 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nWho are these spirits? In choosing them it is necessary to avoid the deep-browed argumentative fellows. I do not want Plato or Gibbon or any of the learned brotherhood by my bedside, nor the poets, nor the novelists, nor the dramatists, nor even the professional humorists. These are all capital fellows in their way, but let them stay downstairs. To the intimacy of the bedside I admit only the kindly fellows who come in their dressing-gowns and slippers, so to speak, and sit down and just talk to you as though they had known you ever since you were a little nipper, and your father and your grandfather before you. Of course, there is old Montaigne. What a glorious gossip he is! What strange things he has to tell you, what a noble candour he shows! He turns out his mind as carelessly as a boy turns out his pockets, and gives you the run of his whole estate. You may wander everywhere, and never see a board warning you to keep off the grass or reminding you that you are a trespasser.\n\nAnd Bozzy. Who could do without Bozzy by his bedside—dear, garrulous old Bozzy, most splendid of toadies, most miraculous of reporters? When Bozzy begins to talk to me, and the old Doctor growls \"Sir,\" all the worries and anxieties of life fall magically away, and Dismal Jemmy vanishes like the ghost at cock-crow. I am no longer imprisoned in time and the flesh: I am of the company of the immortals. I share their triumphant aloofness from the play that fills our stage and see its place in the scheme of the unending drama of men."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 536,
+    "completion_tokens": 338,
+    "total_tokens": 874,
+    "cost": 0.0002832,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002832,
+      "upstream_inference_prompt_cost": 8.04e-05,
+      "upstream_inference_completions_cost": 0.0002028
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0002832,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 280,
+    "output_words": 271,
+    "lower_words": 250,
+    "upper_words": 336,
+    "source_paragraphs": 2,
+    "output_paragraphs": 2,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.0,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "43fea4e2db426500a4e5d092613524ba35e1f7461318420f788c48ee6941440d",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN016.txt",
+  "mixed_path": "clean/mixed/en/EN016.txt",
+  "response_path": "raw/mixed/en/EN016.response.json"
+}

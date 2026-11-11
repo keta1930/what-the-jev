@@ -1,0 +1,76 @@
+{
+  "source_id": "EN025",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "4aa71255af8a67a2d60808a344d4cb401da481bfd7c598f195875ada5f3a5489",
+    "7b494812a2484da2f1114e8c60444a7a004d7c7f3fc0979dff66bd1320feaf4e",
+    "9b8fee74ccb40c981c7d79c4a4f2fc7f3776918c7449fa2067a3fb0004b9d303"
+  ],
+  "source_block_sha256": "7b494812a2484da2f1114e8c60444a7a004d7c7f3fc0979dff66bd1320feaf4e",
+  "ai_block_sha256": "5bb7552338ee3aaa9dcce36854227405c65919a471a5e9b4c65f07f1cb9dc0b2",
+  "mixed_sha256": "53e3cce80a885d6d535952373b97638b2ea4e663f033f3ae94f9809b9182b3ad",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 3,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "A previous version failed one or more mechanical checks. Strictly stay within the word range, use exactly 11 paragraphs, retain every detail, and rewrite the prose rather than copying its sentences.\n\nRewrite the source block in 285-427 words, aiming for 356. Use exactly 11 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nA cheerless fellow. Some people find him an intolerable companion. I was talking at dinner in London a few nights ago to a woman who has a house in Sussex, and I found that she had not been there for some time.\n\n\"I used to find the owl endurable,\" said she, \"but since the war I have found him unbearable. He hoots all night and makes me so depressed that I feel that I shall go mad.\"\n\n\"And so you come and listen to the owl in London?\" I said.\n\n\"The owl in London?\" she asked.\n\n\"Yes,\" I said, \"the owl that hoots in Carmelite Street and Printing House Square.\"\n\n\"Ah,\" she said, \"but he is such an absurd owl. Now the owl down in the country is such a solemn creature.\"\n\n\"He says a very foolish thing In such a solemn way,\"\n\nI murmured.\n\n\"Yes, but in the silence and the darkness there doesn't seem any answer to him.\"\n\n\"Madame,\" I said, \"if you will look up at the stars you will find a very complete answer.\"\n\nI confess that I find the owl not only tolerable but stimulating. I like to hear the pessimist really let himself go. It is the nameless and unformed fears of the mind that paralyse, but when my owl comes along and states the position at its blackest I begin to cheer up and feel defiant and combative. Is this the worst that can be said? Then let us see what the best is, and set about accomplishing it. \"The thing is impossible,\" said the pessimist to Cobden. \"Indeed,\" said that great man. \"Then the sooner we set about doing it the better.\" Oh, oh, say I to my owl, all is lost, is it? You wait till the dawn comes, and hear what that little chap in the red waistcoat has to say about it. He's got quite another tale to tell, and it's a much more likely tale than yours. I shall go to bed and leave you to Gummidge in the trees until the sun comes up and tells you what a dismal fraud you are."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 439,
+    "total_tokens": 1093,
+    "cost": 0.0003615,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003615,
+      "upstream_inference_prompt_cost": 9.81e-05,
+      "upstream_inference_completions_cost": 0.0002634
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0003615,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 356,
+    "output_words": 347,
+    "lower_words": 285,
+    "upper_words": 427,
+    "source_paragraphs": 11,
+    "output_paragraphs": 11,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.07580174927113703,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "5bb7552338ee3aaa9dcce36854227405c65919a471a5e9b4c65f07f1cb9dc0b2",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN025.txt",
+  "mixed_path": "clean/mixed/en/EN025.txt",
+  "response_path": "raw/mixed/en/EN025.response.json"
+}

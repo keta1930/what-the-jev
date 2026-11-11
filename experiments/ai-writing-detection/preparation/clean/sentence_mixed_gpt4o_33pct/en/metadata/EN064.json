@@ -1,0 +1,915 @@
+{
+  "source_id": "EN064",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "77206ac1a37c078556bcc4452960cbf982530d5a419323918ae936c58728de9d",
+  "ai_article_sha256": "f9a94574fd1d2539de2a333dbdd3cffd038c92f68e94b4f78837c58249cc9d00",
+  "mixed_article_sha256": "d2ba6bc2687073b5f8b9b3dd7a9811674833c355f02a900f082d0c3301594a05",
+  "human_source_sentence_count": 60,
+  "ai_source_sentence_count": 55,
+  "alignment_unit_count": 53,
+  "selected_alignment_unit_count": 17,
+  "mixed_sentence_count": 60,
+  "selected_ai_sentence_count": 20,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.25335,
+  "selected_alignment_score_median": 0.429948,
+  "selected_alignment_score_max": 0.727273,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I was at dinner at a well-known restaurant the other evening when I became aware that some one sitting alone at a table near by was engaged in an exciting conversation with himself.",
+      "output_sha256": "04c7457f2da3ee6b3a2e8b1ae4df1a9e27b412bb697214d87fc69221dab61968",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "04c7457f2da3ee6b3a2e8b1ae4df1a9e27b412bb697214d87fc69221dab61968",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "His face displayed a range of emotions, predominantly intense anger, as he animatedly spoke, only pausing occasionally to chew his food.",
+      "output_sha256": "80e618d55675a2addc18247e13805e34a0c44a9c5776b713bf3e75fc98c3ae9b",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.266144,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "b3f99f25ba8465e7484a876b6a63b2befae4c96ac1db24656f38d86d1a5d024b"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "80e618d55675a2addc18247e13805e34a0c44a9c5776b713bf3e75fc98c3ae9b",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Many glances were turned covertly upon him, but he seemed wholly unconscious of them, and, so far as I could judge, he was unaware that he was doing anything abnormal.",
+      "output_sha256": "2b47cf0e33836bdb1e45ef7143117c679426b7f4b3587a8fc8e403f36f5ad35c",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "2b47cf0e33836bdb1e45ef7143117c679426b7f4b3587a8fc8e403f36f5ad35c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "In repose his face was that of an ordinary business man, sane and self-controlled, and when he rose to go his agitation was over, and he looked like a man who had won his point.",
+      "output_sha256": "944d1ddd1830f6a4e998cc166b603814827fd4c92a94cd7166b0eeaa8f1dd3b1",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "944d1ddd1830f6a4e998cc166b603814827fd4c92a94cd7166b0eeaa8f1dd3b1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It is probable that this habit of talking to one's self has a less sinister meaning than it superficially suggests.",
+      "output_sha256": "97b2fd90ef5f6ba2045d08f21131cc6600ac7dda25adff1828e186110eb81060",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "97b2fd90ef5f6ba2045d08f21131cc6600ac7dda25adff1828e186110eb81060",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It may be due simply to the energy of one's thought and to a concentration of mind that completely shuts out the external world.",
+      "output_sha256": "3519cd2961ba7f3849b610e4f60ad25524bf61414db610de2dcec0120bd6426c",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "3519cd2961ba7f3849b610e4f60ad25524bf61414db610de2dcec0120bd6426c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "In the incident I observed, it was apparent that the man had mentally detached from his surroundings, absorbed in his thoughts to the point where he neither saw nor heard anything around him.",
+      "output_sha256": "f20b12bb359b58ccb1365a41a29ce99f3aded2980313656050d740930219fd62",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.42311,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "53553947d7c664185b3a0218c64fe11a5e75f7b16cce8657e11fd4ba83932976"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "f20b12bb359b58ccb1365a41a29ce99f3aded2980313656050d740930219fd62",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "He was lost in contemplation, perhaps even engaged in a debate with an imagined opponent, and only returned to reality when he completed his meal and settled his bill.",
+      "output_sha256": "a36140dd5371b94b7b8bb63804b437b1179ba44127f53b8d5adbd11e32dc9414",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.386113,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "e044f43e629a8f5bea9abe768d8c8cf4e86ecceaa58206ca3f0757c3aad380c1"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "a36140dd5371b94b7b8bb63804b437b1179ba44127f53b8d5adbd11e32dc9414",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "He seemed to have transitioned from a different state of awareness, akin to waking from a vivid, chaotic dream.",
+      "output_sha256": "100dc5d6c52e9131c675a3a04f97daf57c9ae452aaa6945af94a338f00598846",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.397531,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "b7e07934299bafd8fe0d898ad7442f46d4df772bba3c47a3a6ed67f7355eda43"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "100dc5d6c52e9131c675a3a04f97daf57c9ae452aaa6945af94a338f00598846",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "It’s clear he had no idea he was vocally expressing his thoughts for a good half-hour, and I suspect that if someone had pointed this out to him, he would have fervently denied it, much like anyone would contest the notion of snoring while asleep.",
+      "output_sha256": "84e8bf4df30d0170829478cd971a51896781176b11bc29d5172c06f343037311",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.25335,
+      "human_sentence_indices": [
+        10,
+        11
+      ],
+      "human_sha256": [
+        "e32ec1871b6cc4a5fcb89075663c83d50906ea3d54044abbe93cc274ebb614cc",
+        "27147f7eaebd0ba9f92f87ccabdcf1ab4279ff46d4a078bfd05b3971a202b84b"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "84e8bf4df30d0170829478cd971a51896781176b11bc29d5172c06f343037311",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He doesn't know.",
+      "output_sha256": "74310ae91a6695fb7ae0e0c7eda4fef94f03c6460af06ab909059ca42120bb3a",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "74310ae91a6695fb7ae0e0c7eda4fef94f03c6460af06ab909059ca42120bb3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And here a dreadful thought assails me.",
+      "output_sha256": "95ca73c7c3a9da728315bf49b7734542add9da4cb96e934b314c24c9a7614ecd",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "95ca73c7c3a9da728315bf49b7734542add9da4cb96e934b314c24c9a7614ecd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "What if I talk to myself, too?",
+      "output_sha256": "5ae34f5e3fe9f5c8ff442100290d6de8a1da91eee034c8cdb2c15120e99f5638",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "5ae34f5e3fe9f5c8ff442100290d6de8a1da91eee034c8cdb2c15120e99f5638",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "What if, like this man, I get so absorbed in the drama of my own mind that I cannot hear my own tongue going nineteen to the dozen?",
+      "output_sha256": "2ce020d32eca08c253a5c41ea42ad5d8f8a85a3febad22af6a1c5705014c347d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "2ce020d32eca08c253a5c41ea42ad5d8f8a85a3febad22af6a1c5705014c347d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It is a disquieting idea.",
+      "output_sha256": "7d2c99bb445f81044ec312d7ea543fac91ebe8acb5135d3b85d948164e9ef355",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "7d2c99bb445f81044ec312d7ea543fac91ebe8acb5135d3b85d948164e9ef355",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "A strong conviction to the contrary, I see, amounts to nothing.",
+      "output_sha256": "c2924032e3c0d0aed71ccebbf219fe6e7edc4f4475f0af12b96fe37989cd7763",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "c2924032e3c0d0aed71ccebbf219fe6e7edc4f4475f0af12b96fe37989cd7763",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "This man, doubtless, had a strong conviction to the contrary—probably expressed an amused interest in any one talking to himself as he passed him in the street.",
+      "output_sha256": "9168e7d564a7d6a1d418ff18c13f9381b86c24b649eb6ede9c48b95b7a7173d9",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "9168e7d564a7d6a1d418ff18c13f9381b86c24b649eb6ede9c48b95b7a7173d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And the fact that my friends have never told me of the failing goes for nothing also.",
+      "output_sha256": "add17c8e995f520fd600c096c1e05cab1fd928a8e7e73afee8a71e2ce0a7fb99",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "add17c8e995f520fd600c096c1e05cab1fd928a8e7e73afee8a71e2ce0a7fb99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "They might think I enjoy talking to myself or, perhaps more likely, they understand that I’m not keen on hearing about my flaws.",
+      "output_sha256": "e29083f7b06433f8a67683b47b5582f0be013367e7cece1872e924bde18ee7b4",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.449065,
+      "human_sentence_indices": [
+        20,
+        21
+      ],
+      "human_sha256": [
+        "7b657ab9a2db3db20325f7865f63339b219a186d649711b932d30d16b828b7af",
+        "38a4d7bfc328badcd917a144e37925fc2fefdfd5996227f10e2cd9bc7defea68"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "e29083f7b06433f8a67683b47b5582f0be013367e7cece1872e924bde18ee7b4",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I must watch myself.",
+      "output_sha256": "56a67f38053d4b94cb32cea10a796cc659ef81ce469f5d57478e609f1dec54b6",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "56a67f38053d4b94cb32cea10a796cc659ef81ce469f5d57478e609f1dec54b6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But, no, that won't do.",
+      "output_sha256": "7a265eac2f1aacd8485768053dd0b675e61e41a65075002f4844634e483de02a",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "7a265eac2f1aacd8485768053dd0b675e61e41a65075002f4844634e483de02a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I might as well say I would watch my dreams and keep them in check.",
+      "output_sha256": "305511c47cd73f0a55057864240f1d65847beaad0c13344b9a100ae0468cb01f",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "305511c47cd73f0a55057864240f1d65847beaad0c13344b9a100ae0468cb01f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "How can the conscious state keep an eye on the unconscious?",
+      "output_sha256": "9a5d94c94931ea3d438d59e147a87669c2b91ca93065a3ba00d3dc915c04264b",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "9a5d94c94931ea3d438d59e147a87669c2b91ca93065a3ba00d3dc915c04264b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "If I’m unaware that I’m speaking, how can I possibly stop?",
+      "output_sha256": "f786fbf7fc881ca6b4b3b15539b20dfbc6bf26cdcb489647141fae8292f3c402",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.40721,
+      "human_sentence_indices": [
+        26,
+        27
+      ],
+      "human_sha256": [
+        "d1eca36dd4ee4f7589e2ba00016fee67ee4be0d52ba21f80016eaad0aa352220",
+        "61ab03a7f80e573f09748e8c9ebdd05cd143f19720d686b1676575d5a3fd3376"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "f786fbf7fc881ca6b4b3b15539b20dfbc6bf26cdcb489647141fae8292f3c402",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Then, a comforting realization struck me.",
+      "output_sha256": "693a229d44c8fffe7fafe9675211aa457c176e54485329f5233f1867924ef26b",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.40721,
+      "human_sentence_indices": [
+        26,
+        27
+      ],
+      "human_sha256": [
+        "d1eca36dd4ee4f7589e2ba00016fee67ee4be0d52ba21f80016eaad0aa352220",
+        "61ab03a7f80e573f09748e8c9ebdd05cd143f19720d686b1676575d5a3fd3376"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "693a229d44c8fffe7fafe9675211aa457c176e54485329f5233f1867924ef26b",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I recall occasions when I have talked to myself, and have been quite conscious of the sound of my voice.",
+      "output_sha256": "9ff69c030e6858fd81f980beb72cbdd300fd805f43557bab0f79ab5cccd41073",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "9ff69c030e6858fd81f980beb72cbdd300fd805f43557bab0f79ab5cccd41073",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "These moments usually occurred while playing golf, where I’d mutter emphatic remarks about the unpredictability of golf clubs or the obstinacy of golf balls.",
+      "output_sha256": "47f92a266ce7c7c1710360fac2da2ecb6ae835afc2f5a966ca8dcc8d512194e5",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.424313,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "b532e8b73676d5b6fb270d6781efdbd64b571d9d354b60fd019f60c69fa980c1"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "47f92a266ce7c7c1710360fac2da2ecb6ae835afc2f5a966ca8dcc8d512194e5",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Those remarks I have heard distinctly, and at the sound of them I have come to myself with a shock, and have even looked round to see whether the lady in the red jacket playing at the next hole was likely to have heard me or (still worse) to have seen me.",
+      "output_sha256": "c5707c51978aa78356dcae5cd4b942419254be97703b0c9a0790caf0f214e344",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "c5707c51978aa78356dcae5cd4b942419254be97703b0c9a0790caf0f214e344",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I think this is evidence conclusive, for the man who talks to himself habitually never hears himself.",
+      "output_sha256": "8c02c94238b1ddf1bcbe58b8376ca33c7119c0a9758dcabadbb433145339dd87",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "8c02c94238b1ddf1bcbe58b8376ca33c7119c0a9758dcabadbb433145339dd87",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "His words are only the echo of his thoughts, and they correspond so perfectly that, like a chord in music, there is no dissonance.",
+      "output_sha256": "e5323259e535a1ed7bea5abafe8a0bc519a9beae52da248547ab63df0dd93720",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "e5323259e535a1ed7bea5abafe8a0bc519a9beae52da248547ab63df0dd93720",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "A similar scenario unfolded when I observed an art student meticulously replicating a painting at the Tate Gallery.",
+      "output_sha256": "72e61aad7b39c2a92e7ea2661d8bee99295749497dbbda66cf12d4c809e52eb3",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.471405,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "9fb0d17e7e4946536b5a8e129e8aabeb6453fc8e1dc63fff1e886d3694c517bf"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "72e61aad7b39c2a92e7ea2661d8bee99295749497dbbda66cf12d4c809e52eb3",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "He would comment aloud to himself, saying, “Ah, a touch more blue,” as he shifted his gaze between the original artwork and his canvas.",
+      "output_sha256": "5020c4a93ee2a52283f4cb1ba9305997d8035272bed101fa384028f00777e987",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.541536,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "3293554edb46e94d2c4cf9478cab0b92a8d6449ec0284067760666c6312f9bea"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "5020c4a93ee2a52283f4cb1ba9305997d8035272bed101fa384028f00777e987",
+      "ai_unit_sentence_indices": [
+        31,
+        32
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "A moment later, he remarked, “Yes, that line needs better drawing.”",
+      "output_sha256": "040d5af9d50522f30f3bf2eb52ae421579192b4547c083f8816826d313b11495",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.541536,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "3293554edb46e94d2c4cf9478cab0b92a8d6449ec0284067760666c6312f9bea"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "040d5af9d50522f30f3bf2eb52ae421579192b4547c083f8816826d313b11495",
+      "ai_unit_sentence_indices": [
+        31,
+        32
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Several people stood by watching his work and smiling at his uttered thoughts.",
+      "output_sha256": "0454c47aa80c5cf6d4487f0e976e1c386b51dab74d54c9cca8903b8eeae5cdd4",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "0454c47aa80c5cf6d4487f0e976e1c386b51dab74d54c9cca8903b8eeae5cdd4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "He alone was unconscious that he had spoken.",
+      "output_sha256": "df5ee166d387ab1b3f87c48d605a924dc250df515a0d3810117993a86a7388e6",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "df5ee166d387ab1b3f87c48d605a924dc250df515a0d3810117993a86a7388e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There are, it is true, cases in which the conscious and unconscious states seem to mingle—in which the intentional word and the unintentional come out almost in the same breath.",
+      "output_sha256": "b6381b21b7760fc75850cf4d0e1822841459fddd171884c6eb1cc70023144727",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "b6381b21b7760fc75850cf4d0e1822841459fddd171884c6eb1cc70023144727",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "A notable example is Thomas Landseer, father of the renowned Sir Edwin.",
+      "output_sha256": "2b957a12ef94684b9127d483655cae2a913212e3afab15194022c696b057b1e9",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.645616,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "7623bd7c1be5a91adcbf15d7cc113ddaf5b8dd60e070b9d57626f1bbae7487f8"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "2b957a12ef94684b9127d483655cae2a913212e3afab15194022c696b057b1e9",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "He was one day visiting an artist, and inspecting his work.",
+      "output_sha256": "88bd156fe409e157876c82028b05ad981c3e8cedcbdeb8c501f3bbcb215a720d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "88bd156fe409e157876c82028b05ad981c3e8cedcbdeb8c501f3bbcb215a720d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "\"Ah, very nice, indeed!\" he said to his friend.",
+      "output_sha256": "c9f3382e5cd969080d58e1c4943e119585965cc0f240f2883da95de142ccb5a2",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "c9f3382e5cd969080d58e1c4943e119585965cc0f240f2883da95de142ccb5a2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "\"Excellent colour; excellent!\"",
+      "output_sha256": "227ace6c608aaeacdefff53d112fa0525e8ece676f0d9fd3d0783d22c3221231",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "227ace6c608aaeacdefff53d112fa0525e8ece676f0d9fd3d0783d22c3221231",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Then, as if lost in his own world, he added, “Poor chap, he thinks he can paint!”",
+      "output_sha256": "53800a1500fa0f8740c50fc3371e973f7fd24d9882073f8f84f890ec19c5d460",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.599076,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "6a435830fc3e627d4e67df3bfba3dce6142db7cd73163d0c29ef226e24900e27"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "53800a1500fa0f8740c50fc3371e973f7fd24d9882073f8f84f890ec19c5d460",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And this instance shows that whether the habit is a mental weakness or only a physical defect it is capable of extremely awkward consequences, as in the case of the banker who was ruined by unwittingly revealing his secrets while walking in the street.",
+      "output_sha256": "23a1c56901e287385f35eeaf2e4406a117646f1dad03ba8374f0c3d9bc3c1e6b",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "23a1c56901e287385f35eeaf2e4406a117646f1dad03ba8374f0c3d9bc3c1e6b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "How is it possible to keep a secret or conduct a bargain if your tongue is uncontrollable?",
+      "output_sha256": "ac5c76c5732a6b781274e690607f525fb7447beec1d829542080e18343bf7d1b",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "ac5c76c5732a6b781274e690607f525fb7447beec1d829542080e18343bf7d1b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "What is the use of Jones explaining to his wife that he has been kept late at the office if his tongue goes on to say, entirely without his knowledge or consent, that had he declared \"no trumps\" in that last hand he would have been in pocket by his evening at the club?",
+      "output_sha256": "928853e7aefb1b2e21e287487be8199a183630da59fb1cf5e094283a2435cfc7",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "928853e7aefb1b2e21e287487be8199a183630da59fb1cf5e094283a2435cfc7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I see horrible visions of domestic complications and public disaster arising from this not uncommon habit.",
+      "output_sha256": "5823069b00a5ab77cf98b763872bdcd1b1042f266f971a383445c5193131dc3f",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "5823069b00a5ab77cf98b763872bdcd1b1042f266f971a383445c5193131dc3f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "And yet might there not be gain also from a universal practice of uttering our thoughts aloud?",
+      "output_sha256": "7ff42c7287b166ba424a3bd7c0050dd5c31e0fba1b101744993b569c390b57bd",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "7ff42c7287b166ba424a3bd7c0050dd5c31e0fba1b101744993b569c390b57bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Imagine a society where no one could harbor secrets from anyone else.",
+      "output_sha256": "801cdf05e9c3cecfee336528acad0589e7473677b3c79e348e5b828eaad30ab0",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.401029,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "3e8b2ecc01b279294d8158d40fd7ffcf60a2815dfb4e5fc8e20826d812dfa9a0"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "801cdf05e9c3cecfee336528acad0589e7473677b3c79e348e5b828eaad30ab0",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I see the Kaiser, after consciously declaring that his only purpose is peace, unconsciously blurting out to the British Ambassador that the ultimatum to Serbia is a \"plant\"—that what Germany means is war, that she proposes to attack Belgium, and so on.",
+      "output_sha256": "c435de0cd90df275ab9b2a60c40efd91faf44d4701f6ccc41916f3676cd86eff",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "c435de0cd90df275ab9b2a60c40efd91faf44d4701f6ccc41916f3676cd86eff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Simultaneously, the British Ambassador, while stating that England has no obligations, absentmindedly adds, “But should there be a war, we will certainly be involved.”",
+      "output_sha256": "07ccf5c23819397dc3206d5661c826df07b44bd0cea1b7f85a40d3c310b009bf",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.435582,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "ead8ee41ede8cb171fee5c8c2827988ca7e263f412c1de8b5d3972a9e7b6a962"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "07ccf5c23819397dc3206d5661c826df07b44bd0cea1b7f85a40d3c310b009bf",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "In the same way Jones, after making Smith a firm offer of £30 for his horse, would say, absentmindedly, \"Of course it would be cheap at £50, and I might spring £55 if he is stiff about it.\"",
+      "output_sha256": "7856905bf74538e81e93085e70f67c9077d92f14e7b7cdd864feeb7b35ce7750",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "7856905bf74538e81e93085e70f67c9077d92f14e7b7cdd864feeb7b35ce7750",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "In such a world, deception would lose its value, and dishonesty would become an ineffective strategy.",
+      "output_sha256": "e8b5b54abfcbb575ef6357bdbc66d888a32dad13cd802eed29991849f13de822",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.485174,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "8953e84911b5438b8c185390e9fd1b20e3bc485b8f9e4bd0a3c93dd4de334f0a"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "e8b5b54abfcbb575ef6357bdbc66d888a32dad13cd802eed29991849f13de822",
+      "ai_unit_sentence_indices": [
+        47,
+        48
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Truth would no longer be buried at the bottom of a well but would instead be readily available at the forefront of everyone’s speech.",
+      "output_sha256": "6f73c289a0c532724307d01006673ca78ec87f3829f6806aa0cea76466f8d880",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.485174,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "8953e84911b5438b8c185390e9fd1b20e3bc485b8f9e4bd0a3c93dd4de334f0a"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "6f73c289a0c532724307d01006673ca78ec87f3829f6806aa0cea76466f8d880",
+      "ai_unit_sentence_indices": [
+        47,
+        48
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "We should have all the rascals in prison and all the dishonest traders in the bankruptcy court.",
+      "output_sha256": "90d240dc1e10a644eec2309cdc7674317c701392cb1eef4c5d0adabe4895f44f",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "90d240dc1e10a644eec2309cdc7674317c701392cb1eef4c5d0adabe4895f44f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Secret diplomacy would no longer play with the lives of men, for there would be no secrets.",
+      "output_sha256": "0e3cb34f4d3526ddec7f7faf8687606320c01df402c84d76c68bdc99e2429988",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "0e3cb34f4d3526ddec7f7faf8687606320c01df402c84d76c68bdc99e2429988",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Those little deceitful cover-ups that ruin so many lives would vanish.",
+      "output_sha256": "ab9bd00c11fed933eeb38d17fb2d755358c18556fecd31c2109472dcdde863d3",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.727273,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "67724d79e37e03b978af997bc0fbf80e68c3eebaf6cb66af719a31772db7a936"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "ab9bd00c11fed933eeb38d17fb2d755358c18556fecd31c2109472dcdde863d3",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "You, sir, who find it so easy to nag at home and so difficult to say the kind thing that you know to be true, would be discovered to your great advantage and to the peace of your household.",
+      "output_sha256": "b9ff2572ba7b850ed27c316b58805ba216ab962611c3e27a61ca1f1677b260ba",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "b9ff2572ba7b850ed27c316b58805ba216ab962611c3e27a61ca1f1677b260ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Indeed, I believe the world could thrive in an environment where our tongues articulated our honest thoughts, regardless of our intentions.",
+      "output_sha256": "b6ed4022618249a7c4d257c0195859e87e0555a9fe0f4609e76aab15c8917d00",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.363291,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "8480c64b6dc5ce87aaac7057b59887dc7c477318e071e9da32f6264d0f481b90"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "b6ed4022618249a7c4d257c0195859e87e0555a9fe0f4609e76aab15c8917d00",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "But what a lot of us would be found out.",
+      "output_sha256": "bb767f2d136d0541392705f980fa0426325cdf67dc5775666a75ed976f90c3c7",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "bb767f2d136d0541392705f980fa0426325cdf67dc5775666a75ed976f90c3c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "My own face crimsons at the thought.",
+      "output_sha256": "04c0b1b0e8459b94f2503c32b5b65315c47557881ab4cf887c055cb3198501c5",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "04c0b1b0e8459b94f2503c32b5b65315c47557881ab4cf887c055cb3198501c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "So, I think, does yours.",
+      "output_sha256": "632e2c2220ca3f4965efa00f99213580c84127f32a07a9a9cb9dbc50df57a672",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "632e2c2220ca3f4965efa00f99213580c84127f32a07a9a9cb9dbc50df57a672",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

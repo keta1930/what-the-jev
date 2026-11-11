@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《华盖集》青年必读书 - 可阅文学网</title>
+    <meta name="keywords" content="华盖集,青年必读书,全文阅读,章节,可阅文学">
+    <meta name="description" content="——应《京报副刊》的征求">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11059/10003">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11059/10003">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11059/10003">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11059">华盖集</a><span id="top_chaptername" style="float: right">青年必读书</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;"><p class="r">——应《京报副刊》<i class="iconfont icon-zhushi" data-content="《京报副刊》：《京报》的一种副刊，孙伏园编辑，1924年12月创刊。《京报》，邵飘萍（振青）创办的报纸，1918年10月创刊于北京，次年8月曾被段祺瑞查封，1920年9月复刊，1926年4月被奉系军阀张作霖查封。"></i>的征求</p><br><img class="k-pic" src="https://img.kepub.net/char/b753570740e007b9.jpeg"></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11059/10004">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/11059/10002">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="38" data-goods-name="【山姆正品】精选临安山核桃仁香酥脆颗粒饱满孕妇即食休闲健康零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847870557450273190&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_521962d16b9285a70270d86c90441c03_sx_245920_www1000-1000"
+                         alt="【山姆正品】精选临安山核桃仁香酥脆颗粒饱满孕妇即食休闲健康零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】精选临安山核桃仁香酥脆颗粒饱满孕妇即食休闲健康零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>122.76</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11059/10001">题记</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二五年</span>
+                </p>
+                <li>
+                    <a href="/book/11059/10002">咬文嚼字（一至二）</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/11059/10003">青年必读书</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10004">忽然想到（一至四）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10005">通讯</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10006">论辩的魂灵</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10007">牺牲谟</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10008">战士和苍蝇</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10009">夏三虫</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10010">忽然想到（五至六）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10011">杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10012">北京通信</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10013">导师</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10014">长城</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10015">忽然想到（七至九）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10016">“碰壁”之后</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10017">并非闲话</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10018">我的“籍”和“系”</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10019">咬文嚼字（三）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10020">忽然想到（十至十一）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10021">补白</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10022">答KS君</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10023">“碰壁”之余</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10024">并非闲话（二）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10025">十四年的“读经”</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10026">评心雕龙</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10027">这个与那个</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10028">并非闲话（三）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10029">我观北大</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10030">碎话</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10031">“公理”的把戏</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10032">这回是“多数”的把戏</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11059/10033">后记</a>
+                    
+                </p>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af0229432584d3a7_9e253ed1d64546505d03fe4a6f83d56b";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

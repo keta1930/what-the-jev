@@ -1,0 +1,851 @@
+{
+  "source_id": "ZH010",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "4744ed8cab98bca771b3c1f71661376bf8ed89119a25579e8e6b623f0d6d813d",
+  "ai_article_sha256": "6bb8656aec89b18bcbc2743176a52937f7d566dee5471e52e8228756cb10d0e2",
+  "mixed_article_sha256": "9913adda9bb588baa926d52654f81c45a4b1d99599603834633d3b32e69a662b",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 55,
+  "alignment_unit_count": 55,
+  "selected_alignment_unit_count": 19,
+  "mixed_sentence_count": 56,
+  "selected_ai_sentence_count": 19,
+  "actual_ai_sentence_ratio": 0.339286,
+  "selected_alignment_score_min": 0.526071,
+  "selected_alignment_score_median": 0.649292,
+  "selected_alignment_score_max": 0.841316,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "池田的袍子非常可笑，那麼厚，那麼圓，那麼胖，而後又穿了一件單的短外套，那外套是工作服的樣式，而且比袍子更寬。",
+      "output_sha256": "a0aedcfc747b8f486b942bf38222eb501f9086c6470d8d9675207718543d0226",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "a0aedcfc747b8f486b942bf38222eb501f9086c6470d8d9675207718543d0226",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "她說：",
+      "output_sha256": "9818d493a437ff0f64fd73b2b9f1b11800d102b935f072b96990066c235e608c",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "9818d493a437ff0f64fd73b2b9f1b11800d102b935f072b96990066c235e608c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“這多麼奇怪！”",
+      "output_sha256": "a23d5adc1560649c00a06aac8d702db41625c039119a6bf3fc0c1c0a52e08379",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "a23d5adc1560649c00a06aac8d702db41625c039119a6bf3fc0c1c0a52e08379",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我回答道：“這根本不算奇怪，最奇怪的是你還搭上那件灰布的棉外套，路上的人看到你的打扮，肯定會搞不清楚你究竟是做什麼的，袍子看上去像是太太小姐，而外套卻又像是軍人。”",
+      "output_sha256": "578926122559adcf7a1640d45d0a79faa34ca3626f82782d1b18410c242d6c06",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.564199,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "1fd8181419ce09aaeb9d73f67367e56019a70447ede2b8503ad3ea99d1e60316"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "578926122559adcf7a1640d45d0a79faa34ca3626f82782d1b18410c242d6c06",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "因爲那棉外套是她借來的，是軍用的衣服。",
+      "output_sha256": "a9d7ee1f27425a13de58527550a37c3958574d1b5b909fcd376ab46b8347f731",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "a9d7ee1f27425a13de58527550a37c3958574d1b5b909fcd376ab46b8347f731",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "她的下身是中國的長棉褲，腳上穿著軟底鞋。",
+      "output_sha256": "1ccbd3ea9d0cd9daa7a05d15a75f77fc6ed2ef4760b8cb40eb8497f3130a9eb8",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.573346,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "7cba70a0369acc4c4883fa562d6788bfdbd4d63de3345f9390b1c622c7c3e6c2"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "1ccbd3ea9d0cd9daa7a05d15a75f77fc6ed2ef4760b8cb40eb8497f3130a9eb8",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "因爲她是日本人，穿了道地的中國衣裳，是有點可笑。",
+      "output_sha256": "1cb5c29c0d6299eb415cc44d7904df90deb9763ab3682875c414635a2372a47f",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "1cb5c29c0d6299eb415cc44d7904df90deb9763ab3682875c414635a2372a47f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "“那就說你是從前線退下來的吧！",
+      "output_sha256": "8597e34b881fcce652fa3cf3c88ed3581e8be97fded4d885faf9c765e71d7748",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.771548,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "598cbbeb010301a87e57526738f9c8e8a0c369779a4039a343a645cf0a2ec8fe"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "8597e34b881fcce652fa3cf3c88ed3581e8be97fded4d885faf9c765e71d7748",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "並且可以說你受了些傷，現在還沒有完全康復，所以才穿這麼寬鬆的衣服。”",
+      "output_sha256": "07b599c7b12cee2109b7039dbb518b247096774963bc708c2af96e4eed0e0802",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.597511,
+      "human_sentence_indices": [
+        9,
+        10
+      ],
+      "human_sha256": [
+        "e5e85cad2f8b0278ca585f9c5a1698b189fbb003a7adb3a71ae0c246b334bb8f",
+        "b0b5f72a247f3654c061bdc4f35b55017688b5121b17c1da1933d059c19f4d60"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "07b599c7b12cee2109b7039dbb518b247096774963bc708c2af96e4eed0e0802",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "她笑了：“是的，是……就說日本兵在這邊用刺刀刺了一個洞……”",
+      "output_sha256": "67bab73cc33eb83ea64867e67c3c62c3069421b360fb2bbd9269b3056d20b10b",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "67bab73cc33eb83ea64867e67c3c62c3069421b360fb2bbd9269b3056d20b10b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "她假裝用刺刀在手腕上刺了一個洞的樣子。",
+      "output_sha256": "d259eb14857747bc5d4f1af5274cd9648480daac748a3b25f6b1a78775ed8132",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "d259eb14857747bc5d4f1af5274cd9648480daac748a3b25f6b1a78775ed8132",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "“刺了一個洞又怎麼樣呢？”",
+      "output_sha256": "112a39db14b181e0049a1483116b2149bf5e2d36f4b4f5f78ecbcc5ff4ffebbe",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.841316,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "afcdc2b75d70235279262efdc1b00d5cf5d8a23a9362023b461e18f3f91c9291"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "112a39db14b181e0049a1483116b2149bf5e2d36f4b4f5f78ecbcc5ff4ffebbe",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "我問。",
+      "output_sha256": "24bb84ec91c6ca1dc3a29f0f2c33a0d724f506c1b313815915888f1374aca0a8",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "24bb84ec91c6ca1dc3a29f0f2c33a0d724f506c1b313815915888f1374aca0a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "“刺了一個洞而後一吹，就把人吹胖啦。”",
+      "output_sha256": "a7840c5c6ef3068d528d07ba352815e47d8dbc574aa31af7f112b05326206d95",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "a7840c5c6ef3068d528d07ba352815e47d8dbc574aa31af7f112b05326206d95",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "她又接著說：“中國老百姓肯定會相信，因為所有壞事和奇怪的事情，日本人都能做得出來。”",
+      "output_sha256": "31f15f6a67024d43240f372c7d3e9a03919aee4b74ab6cbeebec683f6fcd91ad",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.661789,
+      "human_sentence_indices": [
+        16,
+        17
+      ],
+      "human_sha256": [
+        "8365f614910ae1c1409d4dedf5d629766a00319ec9ae9e94ef05c791282cca15",
+        "8e31e0f3101ed2aab4d7714e6c3f59f263f790fe05cef6becf7fc46b28a44805"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "31f15f6a67024d43240f372c7d3e9a03919aee4b74ab6cbeebec683f6fcd91ad",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "就像小孩子說的怪話一樣，她自己也笑，我也笑。",
+      "output_sha256": "d07623fc25535612767f2addda46c7f383d54291a05200f70bef31ca1a07986f",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "d07623fc25535612767f2addda46c7f383d54291a05200f70bef31ca1a07986f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "她笑得連杯子都舉不起來的樣子。",
+      "output_sha256": "3d45f166bc0cb095eca21de8d810984f7c9328561a09fb578ce40bf5393e47c0",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "3d45f166bc0cb095eca21de8d810984f7c9328561a09fb578ce40bf5393e47c0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "我和她是在吃茶。",
+      "output_sha256": "5dfca361c1ec6dea906183f922a315c05db9eccfb4caed8bd2875fe83e10eb52",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "5dfca361c1ec6dea906183f922a315c05db9eccfb4caed8bd2875fe83e10eb52",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "“你覺得奇怪嗎？",
+      "output_sha256": "d77c22ae648b054d60fd74ce423c52027cc0544246c8eddc60ed86ebb5520f4a",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "d77c22ae648b054d60fd74ce423c52027cc0544246c8eddc60ed86ebb5520f4a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "這是沒有的事嗎？",
+      "output_sha256": "07b042b1599ad6fb6ab89be7d8e723db7d8749d222c8389498694bb3d879ecad",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "07b042b1599ad6fb6ab89be7d8e723db7d8749d222c8389498694bb3d879ecad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "我的弟弟就被吹過……”",
+      "output_sha256": "cab2efee9fcab9359b113b8ff0045001d6cbe36011c450c7e8eeadea0c04201f",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "cab2efee9fcab9359b113b8ff0045001d6cbe36011c450c7e8eeadea0c04201f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "她一聽我這話，笑得用了手巾揩着眼睛：",
+      "output_sha256": "5ef1d8206239c04538100d6c1f88ecbacd2a80850e5df3bbb8ffd3638857f206",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "5ef1d8206239c04538100d6c1f88ecbacd2a80850e5df3bbb8ffd3638857f206",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "“怎麼！",
+      "output_sha256": "88910314229c14a25f3d8a4d6be30d56f1044430b146c74114d1a166679c2a64",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "88910314229c14a25f3d8a4d6be30d56f1044430b146c74114d1a166679c2a64",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "怎麼！”",
+      "output_sha256": "f26c704fa15c7cf24a3b9b575e75282748300c05451e965aec994906220021cd",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "f26c704fa15c7cf24a3b9b575e75282748300c05451e965aec994906220021cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "“真的，真被吹過……”我不想繼續這個話題，但她笑得不止，甚至咳嗽了起來。",
+      "output_sha256": "847b7542fa6e21ba3f08b8fa721ab9c821a592716f9771b472aad343b288d2ae",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.526071,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "2276490b402f5551b185332a9aecc7ab80cdc365285de933a5477300c9f3b3c4"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "847b7542fa6e21ba3f08b8fa721ab9c821a592716f9771b472aad343b288d2ae",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "“你聽我告訴你，那是在肚子上，可不是像你說的在手上……用一個一手指長，一分粗的玻璃管，這玻璃管就從肚臍下邊一寸的地方刺進去。",
+      "output_sha256": "3860523cd531303014607df95b968e2acf8cfe61fd8e82c9fd30b6346f66e848",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "3860523cd531303014607df95b968e2acf8cfe61fd8e82c9fd30b6346f66e848",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "玻璃管連著一條好幾尺長的膠皮管，膠皮管的另一端接著一個像茶杯一樣大的漏斗，從那個漏斗裡吹進一壺冷水，最後就死了。”",
+      "output_sha256": "6accf6b484d116e765af74fe21319c2c8f45e0e8e603e5d031ebe938bb1aa5c1",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.740178,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "b72f6f2befd52c8c2dffb4888a0c26ffc7c209c7ff91bb0d96fa1bfa5c710517"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "6accf6b484d116e765af74fe21319c2c8f45e0e8e603e5d031ebe938bb1aa5c1",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "“被吹死啦……”很不容易抑止的大笑，她又開始了。",
+      "output_sha256": "4a88774c92facf2be0d72c97a16548cd4b01d347b4478ab40cd0c432f353fddf",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "4a88774c92facf2be0d72c97a16548cd4b01d347b4478ab40cd0c432f353fddf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "其實是從漏斗裡將冷水灌進去的，因為肚子漸漸鼓起來，乍看之下就像是被氣吹起來的一樣。",
+      "output_sha256": "6e1caf53b280aec75cd3b789eb2e291cca128eeaf08c8712929e28d8fa6d7db9",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.726147,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "578e81be0b9cfb04b5402a1e188497b6e05181a913a0cbea09c1689e7a64a394"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "6e1caf53b280aec75cd3b789eb2e291cca128eeaf08c8712929e28d8fa6d7db9",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "我費了很大工夫給她解說：“我的弟弟患的是黑死病，並且全個縣城都在死亡的恐怖中。",
+      "output_sha256": "c4f43e7c931d27fce0386d002b2ee0005e4805348a106700a01b5e6ef4e1b10c",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "c4f43e7c931d27fce0386d002b2ee0005e4805348a106700a01b5e6ef4e1b10c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "那是一種特別的治法，在醫學上這種灌水法並不存在。”",
+      "output_sha256": "182e6c709fa9ef5c2a89d7d491120ba99d9e082e8c2f453b13b2ff593fbac9e9",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "182e6c709fa9ef5c2a89d7d491120ba99d9e082e8c2f453b13b2ff593fbac9e9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "我又告訴她，我寫《生死場》的時候把這段寫上，魯迅看了都莫明其妙，魯迅先生是研究過醫學的。",
+      "output_sha256": "730424898ae301527c962181fa40232a912d2966651b655f6bb94c923301f2f4",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "730424898ae301527c962181fa40232a912d2966651b655f6bb94c923301f2f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "他說：",
+      "output_sha256": "2b6e3ee52be4e8e53ab8463d0061ceed62bfe28733e661bf84bf2a3e86bead85",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "2b6e3ee52be4e8e53ab8463d0061ceed62bfe28733e661bf84bf2a3e86bead85",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 18,
+      "origin": "ai",
+      "text": "“在醫學上並沒有這樣的治療法。”",
+      "output_sha256": "e437426bdd3e4e1b6aac6805531228ed3717ba7e68f02d4cb33c876d8d717996",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.765615,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "ad55ea1647814f21d0579dd19dbcc986c155402689ac5a1241f49eb1d1aeb46c"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "e437426bdd3e4e1b6aac6805531228ed3717ba7e68f02d4cb33c876d8d717996",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 19,
+      "origin": "ai",
+      "text": "既然如此，我就更加困惑了，魯迅先生的醫學知識是毋庸置疑的，而我弟弟被冷水灌死的事情也是真的。",
+      "output_sha256": "040fadae49c64cb4284beba075a13d8b46874c027fd02897a07bb2b597d36ae6",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.585324,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "2d03744c9f3026d355929f36305f1d49799dae8df21e08dbd43d48e4f4d654ff"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "040fadae49c64cb4284beba075a13d8b46874c027fd02897a07bb2b597d36ae6",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "我又告訴池田，說那醫生是天主教堂的醫生，是英國人。",
+      "output_sha256": "2519ae01fa174ba64392b2292da98d36caa1ad052e6b42bedceda94aae841c16",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "2519ae01fa174ba64392b2292da98d36caa1ad052e6b42bedceda94aae841c16",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "“你認為外國人可靠，這可不對，中國實際上是殖民地，他們來中國進行實驗，你想肚子灌冷水，怎麼能行？",
+      "output_sha256": "323c98dfa7b2ecde003e78da61bee4739163f1d161f5fffac31cdd78a89b1cfd",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.618853,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "8b38494da1591ee8255397b033315e6ecb0fec56ce9effeba2b7df0ab3238fe5"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "323c98dfa7b2ecde003e78da61bee4739163f1d161f5fffac31cdd78a89b1cfd",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "除了槍炮之外，帝國主義者還做著老百姓看不見的事情……他們把中國人當作實驗室裡的動物。",
+      "output_sha256": "dd2133e3ecdee354fdc4f3e60c009c41ac8bd7c625ddeff4ff3ca36ec41feb5e",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.583095,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "3e9f3a974d87dfa404bd55a08aa3fed7ec960e9f08455361a4306ffd4c95e497"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "dd2133e3ecdee354fdc4f3e60c009c41ac8bd7c625ddeff4ff3ca36ec41feb5e",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "三百個人通通用一樣方法治療，其中死了一百五，活了一百五，或是活了一百死了二百，也或者通通死掉啦！",
+      "output_sha256": "545f5ebaa4776154c601fb8474d13f4543127fc53310979eddb3aaa1411730b7",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "545f5ebaa4776154c601fb8474d13f4543127fc53310979eddb3aaa1411730b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "他們根本不在乎，將中國人視作動物……在他們自己的國家隨便進行實驗是絕對不可能的！”",
+      "output_sha256": "87a084c99a5bfa9743377cd319aaa555d383443fcd741a96e3be44aa7eb16140",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.565455,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "0b186ed08a4378905a3e9b7038a7b8c5f7e97c597516fc3235f6bc84ae604fe5"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "87a084c99a5bfa9743377cd319aaa555d383443fcd741a96e3be44aa7eb16140",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "我想，這也許吧！",
+      "output_sha256": "7509323ae43416ab00f8881badcacfe3d22c6eda278768e337f24f9b67781657",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "7509323ae43416ab00f8881badcacfe3d22c6eda278768e337f24f9b67781657",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "我的弟弟或者就是被試驗死的。",
+      "output_sha256": "c39e40838b6a69c4f9b58bb8612b98c667ea7b9942fc22beb6540b6eef71327e",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "c39e40838b6a69c4f9b58bb8612b98c667ea7b9942fc22beb6540b6eef71327e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "她的話，相信是相信了，因爲她不懂得醫學，所以我相信得並不十分確切。",
+      "output_sha256": "97fe49e7ec1fe2319930849e4cadec959365f42c55b2a46acb8d1ae1b8a920e1",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "97fe49e7ec1fe2319930849e4cadec959365f42c55b2a46acb8d1ae1b8a920e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "“我告訴過你，我的父親是軍醫，他到滿洲去的時候，關於他在中國治病，寫了很多日記。",
+      "output_sha256": "7f89923caf9f8b32a5f52ebaabdadc978b18d470ee9b4f0497b6da50a598dfb3",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "7f89923caf9f8b32a5f52ebaabdadc978b18d470ee9b4f0497b6da50a598dfb3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 23,
+      "origin": "ai",
+      "text": "上面有德文，我學德文時就讀過他的日記，裡面寫著關於黑死病的事情，去滿洲試藥、試方法。”",
+      "output_sha256": "d5c99e064d2b0517971400b008539876e9dac8b11f62a7d8a376d70c555fe0ae",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.537267,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "cde1265b6ad610522991e9cd8a551383df6159b14c8bda85cba2b3618ff89c2e"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "d5c99e064d2b0517971400b008539876e9dac8b11f62a7d8a376d70c555fe0ae",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "“你想！",
+      "output_sha256": "ea4affd227afddf36239219376379222494eb5726fb08cafda5bd9cdc1ff6d52",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "ea4affd227afddf36239219376379222494eb5726fb08cafda5bd9cdc1ff6d52",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "這不是真的嗎？",
+      "output_sha256": "cd8eb7367fa2ed4a0dba0d74b56cb00771582aee110cd0e9941f62c9ca19dcf1",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "cd8eb7367fa2ed4a0dba0d74b56cb00771582aee110cd0e9941f62c9ca19dcf1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 24,
+      "origin": "ai",
+      "text": "還有，我父親的朋友每天都來我們家打麻將，他說：在中國治病很省事，因為中國人有很多他們從未用過的藥，只要給他們一點藥，無論什麼病都能好，給他們一點牙粉，頭痛也能好，肚子痛也能好……”",
+      "output_sha256": "2a73494b9d362539cef5686f4d2d2ddf7ad64dcfe894a94d4719cedb4d1aca69",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.677614,
+      "human_sentence_indices": [
+        50,
+        51
+      ],
+      "human_sha256": [
+        "d37e49055e99cae2743312b30ad24575d2716763d6a52b4de1b9cd509fb5d577",
+        "e9c1ef183987f5bfa34bfc9a55eea6dddb10108aaec42dd44267ea42c1161ea8"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "2a73494b9d362539cef5686f4d2d2ddf7ad64dcfe894a94d4719cedb4d1aca69",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "這真是奇事，我從未聽說過，中國人真的常常吃牙粉嗎？",
+      "output_sha256": "3e5554805deb49bcadf0ef94904b7de7494c1ea3b323c0907584ddd088ac74f4",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.729231,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "5de344a7f233fefe7d4c211697b79092610a87fe7e1a8c23ad8a7ece5cd1273d"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "3e5554805deb49bcadf0ef94904b7de7494c1ea3b323c0907584ddd088ac74f4",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "接著談到吃人肉的話題，日本兵殺害老百姓或士兵，然後用火烤著吃的故事，報紙上經常見到。",
+      "output_sha256": "4561425453696ca4f69cda0f8e30d52b9a7bbbde89c2dea0df69f7a71122cef5",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.649292,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "1de36a5ba9384b422129a9e15e8e46a96c0887cc6937577e1e06d94ef934e226"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "4561425453696ca4f69cda0f8e30d52b9a7bbbde89c2dea0df69f7a71122cef5",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "這個我也相信。",
+      "output_sha256": "734a683ad8f4971784a1915f0f6560065a058b779478cf670130f62e1b647cc8",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "734a683ad8f4971784a1915f0f6560065a058b779478cf670130f62e1b647cc8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "池田說：“日本兵吃女人的肉是有可能的，他們把中國女人姦污後，用刺刀殺死，看到女人的肉白皙而美味，於是就切下一塊來，這一定是幾個人在開玩笑，用火烤著吃，因為他們今天活著，明天卻不知會如何，未來何時能回家也無法預測，這是一種變態心理……一般老百姓大概不會被吃，他們的肉很髒，皮膚也是黑的……而且每天都要殺很多……”",
+      "output_sha256": "2195f22734b5fb57f9693bd90eb63d3d8a7a138a668d7ab1bb3457c8065da854",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.673247,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "092fa9259c582e684a359fc397e0dcd4b7add2eb98fa01a954dce966cec897d1"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "2195f22734b5fb57f9693bd90eb63d3d8a7a138a668d7ab1bb3457c8065da854",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "關於日本兵吃人肉的故事，我也相信了。",
+      "output_sha256": "50ad528baae1bd68d3c338cad826781c8dc8dd211831ecab43df13d17ebbfdea",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "50ad528baae1bd68d3c338cad826781c8dc8dd211831ecab43df13d17ebbfdea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "就像中國人相信外國醫生比中國醫生好一樣。",
+      "output_sha256": "c425995e0ccb78f6ebb47af1060363dd949a44b3c7998da64275d7d3457fddf4",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "c425995e0ccb78f6ebb47af1060363dd949a44b3c7998da64275d7d3457fddf4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 28,
+      "origin": "human",
+      "text": "池田是生在帝國主義的家庭裏，所以她懂得他們比我們懂得的更多。",
+      "output_sha256": "c0cd793831f3285da32c8d82d6b0eccfca4f870fc1f1c471cc4badd7e32d8d8d",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "c0cd793831f3285da32c8d82d6b0eccfca4f870fc1f1c471cc4badd7e32d8d8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 28,
+      "origin": "human",
+      "text": "我們一走出那個吃茶店，玻璃窗子前面坐着的兩個小孩，正在唱着：“殺掉鬼子們的頭……”其實鬼子真正厲害的地方他們還不知道呢！",
+      "output_sha256": "ffaff41eb31f2eadb9a066f592a1f6dba6dd209c73e88970c737b4cd84bed247",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "ffaff41eb31f2eadb9a066f592a1f6dba6dd209c73e88970c737b4cd84bed247",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "source_id": "EN051",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "841d58606ec1327ceae3cfc3520534977289413902583571aea056c210deff14",
+  "ai_article_sha256": "dbd61e02217faa3f2563a4783017c7a8519484fc44087deefb70536cb1e57b06",
+  "mixed_article_sha256": "78b50e37674e7888ec6add2587dcfcad95824930c8eb8744b979c048e38ec726",
+  "human_source_sentence_count": 57,
+  "ai_source_sentence_count": 47,
+  "alignment_unit_count": 50,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.268338,
+  "selected_alignment_score_median": 0.415681,
+  "selected_alignment_score_max": 0.572044,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The end of the article which I write is always cut off, and, unfortunately, I belong to that lower class of animals in whom the tail is important.",
+      "output_sha256": "0d7cde209451e1936a3ca442ef7ce6e2734e70071f2477ce6dd3a2f512589bc6",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0d7cde209451e1936a3ca442ef7ce6e2734e70071f2477ce6dd3a2f512589bc6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is not anybody’s fault but my own; it arises from the fact that I take such a long time to get to the point.",
+      "output_sha256": "ecd28d4557f9b86c703e32323276d7c2b562488c3534f19a3292cbc89283961f",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "ecd28d4557f9b86c703e32323276d7c2b562488c3534f19a3292cbc89283961f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Recently, someone justifiably pointed out that I am ill-suited for writing prefaces, and they were correct; I invariably end up composing a preface to the preface, which leads to my untimely interruption.",
+      "output_sha256": "1c26926901bbb0f78fce29a9a9d7aae37d4fd5706abe29c15d00675280425bb7",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.312181,
+      "human_sentence_indices": [
+        3,
+        4
+      ],
+      "human_sha256": [
+        "ab8abf25f2004a4e55a6701f0651e62e9e78b3866bc277b4e2eae0261295009c",
+        "9544491260e75229abbfe4c7300247ca996c3f2594b98ccbac046c655368e9aa"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "1c26926901bbb0f78fce29a9a9d7aae37d4fd5706abe29c15d00675280425bb7",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "In the previous piece I authored, I expressed support for three specific principles: first, the legal ramifications for the dissemination of intentionally false information; second, a differentiation in the reporting of immoral acts, distinguishing between those transgressions that any sane individual can recognize within themselves and those they would do better to overlook; and third, a strong advocacy for the requirement of authorship in the majority of published articles.",
+      "output_sha256": "75a87fcae19a476f3ba4aec8bd8730146c7fb1489c2df2482f37cb5d3b5e885f",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.471155,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "ec617f4809fc1c12c10d39a59b96b0735c8593569e4bdb6dbb6c78ed526ca4f7"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "75a87fcae19a476f3ba4aec8bd8730146c7fb1489c2df2482f37cb5d3b5e885f",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "It was at this juncture that my writing was abruptly halted—not because of spatial constraints, but rather due to my own disregard for them.",
+      "output_sha256": "8e69cb013dc15686bc271d3a2271a51d6281bb5e1c61aa7fb78eb9ec0373b062",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.44303,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "a62077c2a519f49b416096342540433fe8ca6194c55eb3d558299e64ec3db077"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "8e69cb013dc15686bc271d3a2271a51d6281bb5e1c61aa7fb78eb9ec0373b062",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "In any case, there is something more that ought to be said.",
+      "output_sha256": "beb20d9dd2cf1f8f4030f0659cb9698d9d42935cd716c22092bcd2fc1c5749ef",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "beb20d9dd2cf1f8f4030f0659cb9698d9d42935cd716c22092bcd2fc1c5749ef",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It would be an exaggeration to say that I hope some day to see an anonymous article counted as dishonourable as an anonymous letter.",
+      "output_sha256": "7ab2eb68041685047797278082f35811738771551c100038e6aef840de749c12",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "7ab2eb68041685047797278082f35811738771551c100038e6aef840de749c12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "For the foreseeable future, the concept of a leading article that encapsulates the editorial stance of a publication must remain valid; we have all penned such articles and should not disparage anyone for doing so.",
+      "output_sha256": "7f9e1b8cca754aeebf9ac6d72bae0628723e88a810e4a6aae8005e81a000db71",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.46592,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "72eb354cbbb4f5dbb3c6bb242bb244e9c67791972560b6d32c5a906b2573bd3a"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "7f9e1b8cca754aeebf9ac6d72bae0628723e88a810e4a6aae8005e81a000db71",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "However, I firmly believe that anonymity in writing should come with a valid justification, much like that of a leading article.",
+      "output_sha256": "59195dfc2e36ddf11a66879f660ae687a0f1b26d90636455c18e4cc87765c497",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.385714,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "775133038edc4753f7f5bc3e0972782f946f7139125393daa85756a2169a2d6c"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "59195dfc2e36ddf11a66879f660ae687a0f1b26d90636455c18e4cc87765c497",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Writing anonymously ought to be the exception; writing a signed article ought to be the rule.",
+      "output_sha256": "a9249bece2d2656271cdb988bb5618be0e239ac8cd8ff490e886451e19f5b475",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "a9249bece2d2656271cdb988bb5618be0e239ac8cd8ff490e886451e19f5b475",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And anonymity ought to be not only an exception, but an accidental exception; a man ought always to be ready to say what anonymous article he had written.",
+      "output_sha256": "6371eb7ae26d6be3bc5f043743134a8476eed610ded10ee7c76f7d3f7380b0a6",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "6371eb7ae26d6be3bc5f043743134a8476eed610ded10ee7c76f7d3f7380b0a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "The journalistic custom of treating the origins of articles as a closely guarded secret is merely a facet of the larger conspiracy that places journalists in a position reminiscent of dubious organizations like Jesuits or Freemasons.",
+      "output_sha256": "af868ffc12524d8d5c6205f4fb4646dc515ee7d2c8bc648b72b61cc8951fbd12",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.452839,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "2b94df23ac60e38406b450170a28ee53c9eafdf8cbf85e7854a7c7f6e920332b"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "af868ffc12524d8d5c6205f4fb4646dc515ee7d2c8bc648b72b61cc8951fbd12",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "As has often been said, anonymity would be all very well if one could for a moment imagine that it was established from good motives.",
+      "output_sha256": "01f83565d39be1044530fd45f31399c7e95db8b8b353bf35ff2f9f4c263a9cf3",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "01f83565d39be1044530fd45f31399c7e95db8b8b353bf35ff2f9f4c263a9cf3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Suppose, for instance, that we were all quite certain that the men on the Thunderer newspaper were a band of brave young idealists who were so eager to overthrow Socialism, Municipal and National, that they did not care to which of them especially was given the glory of striking it down.",
+      "output_sha256": "1c42143d0e984a494c9d7e59dbf3cf7ac40f7e198a52e8f36c507a65831ce256",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "1c42143d0e984a494c9d7e59dbf3cf7ac40f7e198a52e8f36c507a65831ce256",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Unfortunately, however, we do not believe this.",
+      "output_sha256": "7f5a1e3cfbe4699c6077658f4c779028c19da13485272651ba0ccb119abcfd53",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "7f5a1e3cfbe4699c6077658f4c779028c19da13485272651ba0ccb119abcfd53",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "What we believe, or, rather, what we know, is that the attack on Socialism in the Thunderer arises from a chaos of inconsistent and mostly evil motives, any one of which would lose simply by being named.",
+      "output_sha256": "18efe8ff349006276f1ad28f34453f95e2ea4e66a912b63a4e321f1aa711aa2a",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "18efe8ff349006276f1ad28f34453f95e2ea4e66a912b63a4e321f1aa711aa2a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "A jerry-builder whose houses have been condemned writes anonymously and becomes the Thunderer .",
+      "output_sha256": "dbee4deb9584895a9b0afe642b242f626674bcca271b655cf6d31696d628f8f3",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "dbee4deb9584895a9b0afe642b242f626674bcca271b655cf6d31696d628f8f3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "A Socialist who has quarrelled with the other Socialists writes anonymously, and he becomes the Thunderer .",
+      "output_sha256": "d0de19b3e70009dba2dc55212e84ed07c1ead0a6bc22b73c9e1b2d86019d65d8",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "d0de19b3e70009dba2dc55212e84ed07c1ead0a6bc22b73c9e1b2d86019d65d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Both a monopolist who has lost their grip and a demagogue without followers can pen their grievances under the veil of anonymity.",
+      "output_sha256": "7550eb4d08efe42d1b6209dec61e3a63f6e9aae6bcd04e1038774a2861035ff5",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.453986,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "b5e969da912c14435133260695b57d2b95da46e80c98db518d20d7e96b56fb98"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "7550eb4d08efe42d1b6209dec61e3a63f6e9aae6bcd04e1038774a2861035ff5",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "It is quite true that there is a young and beautiful fanaticism in which men do not care to reveal their names.",
+      "output_sha256": "da0b3051681620c513e5ae810b5c9cc7d565104fb797af36f33d929b4c58f3ff",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "da0b3051681620c513e5ae810b5c9cc7d565104fb797af36f33d929b4c58f3ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But there is a more elderly and a much more common excitement in which men do not dare to reveal them.",
+      "output_sha256": "f14a72b7cbb4a42606ec7426041fe2fa2fbf2771c0ff5c87d3ea987c680db724",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "f14a72b7cbb4a42606ec7426041fe2fa2fbf2771c0ff5c87d3ea987c680db724",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Then there is another rule for making journalism honest on which I should like to insist absolutely.",
+      "output_sha256": "2ba818f2f07ea53cea9fd6d798fd93a5a20eeb4426fc15062d9d7462dd582903",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "2ba818f2f07ea53cea9fd6d798fd93a5a20eeb4426fc15062d9d7462dd582903",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I should like it to be a fixed thing that the name of the proprietor as well as the editor should be printed upon every paper.",
+      "output_sha256": "e865bac0d57b73c6cc8662489b997ea1ea8c4072eb29dfcfaeac9ba42488c105",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "e865bac0d57b73c6cc8662489b997ea1ea8c4072eb29dfcfaeac9ba42488c105",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "If the paper is owned by shareholders, let there be a list of shareholders.",
+      "output_sha256": "dbfe046b97b1f994d2600d7c005182c3d59419498ccbd31179783a25bc7400c1",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "dbfe046b97b1f994d2600d7c005182c3d59419498ccbd31179783a25bc7400c1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "If (as is far more common in this singularly undemocratic age) it is owned by one man, let that one man’s name be printed on the paper, if possible in large red letters.",
+      "output_sha256": "7634c7a13dbfa2729b169d39fb99fb769950e0e330e4377b8bdc74bbb99cd232",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "7634c7a13dbfa2729b169d39fb99fb769950e0e330e4377b8bdc74bbb99cd232",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Then, if there are any obvious interests being served, we shall know that they are being served.",
+      "output_sha256": "7876190f44c7430fb4ba7cdb5625d08c741c64fd93ae5c6a9a36054b3c0ff01a",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "7876190f44c7430fb4ba7cdb5625d08c741c64fd93ae5c6a9a36054b3c0ff01a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "My friends in Manchester are in a terrible state of excitement about the power of brewers and the dangers of admitting them to public office.",
+      "output_sha256": "c1c984225da320aeb74c4feff479717f20ca46db0017c744226a3f9059c87050",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "c1c984225da320aeb74c4feff479717f20ca46db0017c744226a3f9059c87050",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "But at least, if a man has controlled politics through beer, people generally know it: the subject of beer is too fascinating for any one to miss such personal peculiarities.",
+      "output_sha256": "c0c42037605550f0ecaf7699baff6d16f3232a61eebff76f0ee8f4859df1a75f",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "c0c42037605550f0ecaf7699baff6d16f3232a61eebff76f0ee8f4859df1a75f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "In contrast, an individual may wield substantial power through journalism, and the average citizen remains blissfully unaware of this control.",
+      "output_sha256": "7206ed4f8d7fcba5b6ba5e9c57217164f9fced2e737f075491e66393962be2c9",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.368414,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "55d3c52c79e02d87e7a18f101ddc6ef60777f55301f794628ebe8058c44824ec"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "7206ed4f8d7fcba5b6ba5e9c57217164f9fced2e737f075491e66393962be2c9",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Time and again, we have witnessed a Mr. Robinson suddenly elevated to the peerage in the Birthday Honours list, often without any evident rationale.",
+      "output_sha256": "2b89720d3eec1eab424093000ddbba261eb4aeec629d31165d9bd039b43f4fb8",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.572044,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "f9c16eaf383de401a6d84a89d3e4bd9f7b4f8290ca78615c2030517f8e557ac6"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "2b89720d3eec1eab424093000ddbba261eb4aeec629d31165d9bd039b43f4fb8",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Even the society columns, which we peruse with great interest, offer little insight beyond labeling him a sportsman, a benevolent landlord, or an enthusiast for badger breeding.",
+      "output_sha256": "29046dbc896c890b36e756995d11c1bbe1b9f01599e739bf287acfa9916f4a66",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.452055,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "b00bc1c1a2922d9ae112113d6aa58f99e842f2dbb6c98621c02a1764253e4c76"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "29046dbc896c890b36e756995d11c1bbe1b9f01599e739bf287acfa9916f4a66",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "I would prefer that Mr. Robinson's name be familiar to the British populace before such an elevation, allowing them to appreciate the public service for which they owe him gratitude.",
+      "output_sha256": "38853f22988bc76332a48a2b966a577b2b4c667c9713d9aa9d5067560622a00a",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.482198,
+      "human_sentence_indices": [
+        33,
+        34
+      ],
+      "human_sha256": [
+        "c5d3ded87746f31923afe13a2ceddd009fbe539e7accf2a92510645edecf9dc7",
+        "420f9337ad21575981bb06b6b3a4bb7111ded096b67dcfa00af608423246daef"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "38853f22988bc76332a48a2b966a577b2b4c667c9713d9aa9d5067560622a00a",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I should like them to have seen the name already on the outside of that organ of public opinion called Tootsie’s Tips , or The Boy Blackmailer , or Nosey Knows , that bright little financial paper which did so much for the Empire and which so narrowly escaped a criminal prosecution.",
+      "output_sha256": "ff4a6d4965b409cc123c1366ee229a7ec1b22c6f6706b0fef71f8483b2913dff",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "ff4a6d4965b409cc123c1366ee229a7ec1b22c6f6706b0fef71f8483b2913dff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "If they had seen it thus, they would estimate more truly and tenderly the full value of the statement in the Society paper that he is a true gentleman and a sound Churchman.",
+      "output_sha256": "dece537f532275cb7e61a4cff4017067c9b1c94d23e28c7bac9f0872e58a70bc",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "dece537f532275cb7e61a4cff4017067c9b1c94d23e28c7bac9f0872e58a70bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Finally, it should be practically imposed by custom (it so happens that it could not possibly be imposed by law) that letters of definite and practical complaint should be necessarily inserted by any editor in any paper.",
+      "output_sha256": "ce256c36338de9f0fb03a57d0ad3eae5b29f2b606e08979ea7437693d6f4a806",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "ce256c36338de9f0fb03a57d0ad3eae5b29f2b606e08979ea7437693d6f4a806",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "There has been an alarming trend of editors becoming far too lax in this regard.",
+      "output_sha256": "f69180a5d44e35a8e083f0a59ebc24923a8688f73af5a05c1e721e1ac459e2bf",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.388333,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "5060686abcc0864f4aec3321a29aebe7b0b3cabb2704a0351066cf16ea9b7ac2"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "f69180a5d44e35a8e083f0a59ebc24923a8688f73af5a05c1e721e1ac459e2bf",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The old editor used dimly to regard himself as an unofficial public servant for the transmitting of public news.",
+      "output_sha256": "bf13e7413f037eb5466f3167d33cb1e6b36fa56a0c34fda54f83fbe8c9dc9567",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "bf13e7413f037eb5466f3167d33cb1e6b36fa56a0c34fda54f83fbe8c9dc9567",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "If an editor chose to suppress content, it was expected that they would have a compelling reason, such as the material being defamatory or indecent.",
+      "output_sha256": "f036e337c5302607f1f9f440bebcc677686169dd7c4ad93f9d1a4897c390da11",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.452909,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "946474fde18a19bf67a2cd6246a3ec9bf1545c9e4de6923a1645a6565407042e"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "f036e337c5302607f1f9f440bebcc677686169dd7c4ad93f9d1a4897c390da11",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "In contrast, today's editors often view themselves as creative artists who can curate and censor information with the same casualness as a poet or caricaturist.",
+      "output_sha256": "ba9b955868de8bebc9d473fcd361e35b05fecc2a4b63a403b3cfcd69267b9647",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.351037,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "71268afc50223b535fa09c5e0cf89724c3a5f810bf261c4f56d271a11224993c"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "ba9b955868de8bebc9d473fcd361e35b05fecc2a4b63a403b3cfcd69267b9647",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "He “makes up” the paper as man “makes up” a fairy tale, he considers his newspaper solely as a work of art, meant to give pleasure, not to give news.",
+      "output_sha256": "3576097a0927114dba2b5bae416571dc61b25c102a4cd0d34d2fe68488b88732",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "3576097a0927114dba2b5bae416571dc61b25c102a4cd0d34d2fe68488b88732",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "He puts in this one letter because he thinks it clever.",
+      "output_sha256": "8dab950e15e375f3378366a42c1d2a2dfcf44d60c4d3f2f3297c7625edcc4c80",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "8dab950e15e375f3378366a42c1d2a2dfcf44d60c4d3f2f3297c7625edcc4c80",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "He puts in these three or four letters because he thinks them silly.",
+      "output_sha256": "3dc62a34c38c0c5f01f7243cf0619c67ff5f2dd9469e9938cfb4c8484185aa0a",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "3dc62a34c38c0c5f01f7243cf0619c67ff5f2dd9469e9938cfb4c8484185aa0a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The suppression of an article may occur if they perceive it as incorrect, while a more concerning piece might be withheld because they deem it appropriate.",
+      "output_sha256": "b081169ab70b279fbd11cc0587ebc68fe5d3c86857bf1f00ed3f84287657ac09",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.268338,
+      "human_sentence_indices": [
+        45,
+        46
+      ],
+      "human_sha256": [
+        "4208313e5f8e66c40ef5888eac7f44009699fd3b797e632b799e86238d365e68",
+        "d09faa2412c1e9fdcfb153321f1d27c6c1a91240e0218b6b523d8e0f77d858e5"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "b081169ab70b279fbd11cc0587ebc68fe5d3c86857bf1f00ed3f84287657ac09",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The old idea that he is simply a mode of the expression of the public, an “organ” of opinion, seems to have entirely vanished from his mind.",
+      "output_sha256": "d2aed88fe27b69383585a24edb0b831ea8cce4c6decde9c55f0bae3788d0f307",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "d2aed88fe27b69383585a24edb0b831ea8cce4c6decde9c55f0bae3788d0f307",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "In contemporary times, the editor is not just the medium; they are also the performer manipulating that medium.",
+      "output_sha256": "50976674f4d874c0c552357c458927dd934260f8919db19eed5c1a4f8523da11",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.359678,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "f2164e41e117a6b5ddc3547596a69174b74dd2ca070c048c62f966e07f6d48f3"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "50976674f4d874c0c552357c458927dd934260f8919db19eed5c1a4f8523da11",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "For in all our modern movements we move away from Democracy.",
+      "output_sha256": "5df867104eb5e0940e2d44e9414b115b7116b8b36c005b24ce43dbb51d7fa81e",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "5df867104eb5e0940e2d44e9414b115b7116b8b36c005b24ce43dbb51d7fa81e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "This is the whole danger of our time.",
+      "output_sha256": "e6d33af261b1a7210369c67ee89e2dbbd573ed41c35950aeae9ab11af32a02ba",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "e6d33af261b1a7210369c67ee89e2dbbd573ed41c35950aeae9ab11af32a02ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "There is a difference between the oppression which has been too common in the past and the oppression which seems only too probable in the future.",
+      "output_sha256": "d70019ed2c0819a1e4e8347638eb98af35f8c20183c1d80bd0d6179a6f47f6a0",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "d70019ed2c0819a1e4e8347638eb98af35f8c20183c1d80bd0d6179a6f47f6a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Oppression in the past, has commonly been an individual matter.",
+      "output_sha256": "273a9b18c635377d4b77e0337a3caf7b30ec68e969a6b24e750939cdb783df8b",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "273a9b18c635377d4b77e0337a3caf7b30ec68e969a6b24e750939cdb783df8b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The oppressors were as simple as the oppressed, and as lonely.",
+      "output_sha256": "48c9f9cb558e76350ab0d324e0755d1de8cd83d558b31e6a3d5912e1e8d8bc3d",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "48c9f9cb558e76350ab0d324e0755d1de8cd83d558b31e6a3d5912e1e8d8bc3d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The aristocrat sometimes hated his inferiors; he always hated his equals.",
+      "output_sha256": "a536698964fb13e95c0e01b558f3230e7f6c0caef3e91f3bf74b8cd2b781e10d",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "a536698964fb13e95c0e01b558f3230e7f6c0caef3e91f3bf74b8cd2b781e10d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The plutocrat was an individualist.",
+      "output_sha256": "8345fac043462ddec5c28c0b62fc1b05a00f7bb84a2bfdfb96a7d119b2c62ce1",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "8345fac043462ddec5c28c0b62fc1b05a00f7bb84a2bfdfb96a7d119b2c62ce1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "However, in our current age, even capitalists have adopted a façade of Socialism.",
+      "output_sha256": "9151fe246282dcda65774d2dc9e1cdf341602220382d7aaedd3330ba313d35d9",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.344231,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "ce1a14c111a5525f9a29f9c45b3e3b1107d407a928e6a2ff4d7d924ad81492fb"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "9151fe246282dcda65774d2dc9e1cdf341602220382d7aaedd3330ba313d35d9",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "They now possess the advantage of scientific advancement and collective organization, enabling them to potentially establish a tyranny far greater than anything previously experienced.",
+      "output_sha256": "7347ef644d66c78e735eeae4e32e22ca9f1d8d29987ac591a17ba0f1ebbec6aa",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.3476,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "bd535fd0a2e85cb497423f98e099bbdf9cdf683355ade464db47c1917ea2e160"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "7347ef644d66c78e735eeae4e32e22ca9f1d8d29987ac591a17ba0f1ebbec6aa",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    }
+  ]
+}

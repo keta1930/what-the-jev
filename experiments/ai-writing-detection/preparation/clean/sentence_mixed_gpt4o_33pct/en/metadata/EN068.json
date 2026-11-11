@@ -1,0 +1,817 @@
+{
+  "source_id": "EN068",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "d0aae3be5067257c8dd9cbc63e3cd422833cb1819fc54b7aa314fd314c5cadfb",
+  "ai_article_sha256": "23fbc7c5dda994e37b8018a916ad27edfb3b173a0dfb2f6c6a861084daa04577",
+  "mixed_article_sha256": "7f8b76b0afdf5b5fbdf5d75589dd5e28da73a3b0879e56ea6ecdf8ae3795d17c",
+  "human_source_sentence_count": 54,
+  "ai_source_sentence_count": 50,
+  "alignment_unit_count": 48,
+  "selected_alignment_unit_count": 17,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.29437,
+  "selected_alignment_score_median": 0.392235,
+  "selected_alignment_score_max": 0.522121,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "As I was perusing an American journal, I stumbled upon a curious statement that compared the act of drinking beer from porcelain to the absurdity of giving Nietzsche a friendly slap on the back.",
+      "output_sha256": "e3c1d860a191282f5e8a454c6f7fc57e7a74c1c26f58e029713ecad4b55127e4",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.459189,
+      "human_sentence_indices": [
+        1,
+        2
+      ],
+      "human_sha256": [
+        "c7ba1abbf9ade7cd4d79b4f38f26606c6918b739ced1a2875d62704bdceec7f2",
+        "f347da3c9eead3e6563b15b6f340f4b556adad3f52f933015bd6e3acf398c7d8"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "e3c1d860a191282f5e8a454c6f7fc57e7a74c1c26f58e029713ecad4b55127e4",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The phrase amused me, and set me idly wondering why you don't drink beer out of porcelain.",
+      "output_sha256": "6c781398e409571aed6e24d397f60c393bc90c60d4d3bafd1ac06d27e0638461",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "6c781398e409571aed6e24d397f60c393bc90c60d4d3bafd1ac06d27e0638461",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "You drink it (assuming that you drink it at all) with great enjoyment out of a thick earthenware mug or a pewter pot or a vessel of glass, but out of china, never.",
+      "output_sha256": "188660d93e032b49737154367058c120a33e0d08c004da76f789fa8a56cf860b",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "188660d93e032b49737154367058c120a33e0d08c004da76f789fa8a56cf860b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "If someone were to offer you a drink in a porcelain cup, the experience would feel diminished, as if the essence of the beverage had been compromised.",
+      "output_sha256": "900584a898c09d28cf4f8d400daf9bfc642ec9878800d4cb5efbf689aa9735a6",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.34009,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "dadca0816df2836394400eaee28d1ba29dc2c5116da9699162c68777b93bbe39"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "900584a898c09d28cf4f8d400daf9bfc642ec9878800d4cb5efbf689aa9735a6",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Conversely, if you were to be served tea from a pewter container, it would evoke a similar sense of degradation.",
+      "output_sha256": "e0942c56313afe96aa165583ac1baa8daf8f2571c28faad849f533d3aec87c1f",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.34009,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "dadca0816df2836394400eaee28d1ba29dc2c5116da9699162c68777b93bbe39"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "e0942c56313afe96aa165583ac1baa8daf8f2571c28faad849f533d3aec87c1f",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The explanation that the one drink is coarse and the other fine does not meet the case.",
+      "output_sha256": "359e6c8b5af0e268f4c9a4a2f149bfd977910c0e7a3440c2bc51bc20b38f7e71",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "359e6c8b5af0e268f4c9a4a2f149bfd977910c0e7a3440c2bc51bc20b38f7e71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "People drink beer out of glass, and the finer the glass the better they like it.",
+      "output_sha256": "72f07fa7c056141a4931025d5e8d78fe8782f0d8577aee7ac9ecd0e79db085b5",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "72f07fa7c056141a4931025d5e8d78fe8782f0d8577aee7ac9ecd0e79db085b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But there is something fundamentally discordant between beer and porcelain.",
+      "output_sha256": "27f7d7f35aa4f4c06394a9b855fa032d52066a0c4dde0a88bcb5befca9b4c2eb",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "27f7d7f35aa4f4c06394a9b855fa032d52066a0c4dde0a88bcb5befca9b4c2eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It is not, I imagine, that porcelain actually affects the taste or quality of the liquor.",
+      "output_sha256": "f71d308893ec2a883198bd5bf3d241b005705797d0e8ab072072f23fd15c9cdc",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "f71d308893ec2a883198bd5bf3d241b005705797d0e8ab072072f23fd15c9cdc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Instead, it’s a matter of an unspoken sense of appropriateness that is violated by such a pairing.",
+      "output_sha256": "5e9b89e71c5004da50af420eb940d53041477960d3e691d44bcca9f8bd281ffc",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.29437,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "cc488a513181a55ed13ecbf49b20c626cfd9d439e42128db3813812c39487b75"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "5e9b89e71c5004da50af420eb940d53041477960d3e691d44bcca9f8bd281ffc",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The harmony of things is jangled.",
+      "output_sha256": "c7bfc125c2d03fc1b8c1a0855407185954049dadf2c79091d97d9a2a707f8735",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "c7bfc125c2d03fc1b8c1a0855407185954049dadf2c79091d97d9a2a707f8735",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Touch and taste are no longer in sympathy, and we are conscious of a jar to some remote and inexplicable fibre of our being.",
+      "output_sha256": "74e3309efc311aa1b0a50915023e0a75e0f6df1e4329b2f6b7bf6da116207595",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "74e3309efc311aa1b0a50915023e0a75e0f6df1e4329b2f6b7bf6da116207595",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It is in the realm of the palate that we get the miracle of these affinities and antipathies in their most elementary shape.",
+      "output_sha256": "d1b015a144d0ae5396f74e6e91765c97ae2e17d0743b9feee6d32649d21ee929",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "d1b015a144d0ae5396f74e6e91765c97ae2e17d0743b9feee6d32649d21ee929",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Who, for example, was the first to determine that the seemingly incompatible combination of mutton and red-currant jelly creates a delightful gastronomic experience?",
+      "output_sha256": "5665456b2eaacfde25ed8749f25db904ab4a8ba817ae2652018852f9ebe28d3a",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.471245,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "928da88c845439e27fb162b2fbad68c547024f46845a72c3391ad3b5d27ec362"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "5665456b2eaacfde25ed8749f25db904ab4a8ba817ae2652018852f9ebe28d3a",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "By what stroke of inspiration or luck did some unknown cook first see that apple sauce was just the thing to make roast pork sublime?",
+      "output_sha256": "15ace0f490da45b76e6d5d69b1c652ff794f0cdb4805362574a4509d70f30e22",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "15ace0f490da45b76e6d5d69b1c652ff794f0cdb4805362574a4509d70f30e22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Who was the Prometheus who brought to earth the tidings that a clove was the lover for whom the apple pudding had pined through all the ages?",
+      "output_sha256": "9b617044a622a51b9aa8ca180b296ec7646797c9bb80d6e7383b9c60ea444803",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "9b617044a622a51b9aa8ca180b296ec7646797c9bb80d6e7383b9c60ea444803",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Seen in the large, this world is just an inexhaustible mine of materials out of which that singular adventurer, man, is eternally bringing to light new revelations of harmony.",
+      "output_sha256": "eb71f959af0e52eff785f212b39fc2f0fee70f168a99295bea05afca396cce4d",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "eb71f959af0e52eff785f212b39fc2f0fee70f168a99295bea05afca396cce4d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Musicians harness the vibrations of the air, uncovering the principles of musical concord, and from that understanding, the profound mystery of song emerges.",
+      "output_sha256": "6b957f2643204a3ae6893bd90e7c8e79edf771a5eb7edda55018e6e6a19e0ea9",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.504189,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "fe59657a707c250c431b170e371213862726d5c1a4134e160fdf73d004dd74a2"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "6b957f2643204a3ae6893bd90e7c8e79edf771a5eb7edda55018e6e6a19e0ea9",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Poets take words, weaving their rhythms into harmonious expressions of thought.",
+      "output_sha256": "bd3f1c254efd81ee925023f3711e817019d69fe8b17a49509a14ae4bb2042116",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.345128,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "5417bce7b3d9e540c3ed996ab941917f5226f21ca47d35d6f278578a34f3afce"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "bd3f1c254efd81ee925023f3711e817019d69fe8b17a49509a14ae4bb2042116",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Scientists observe the fall of an apple and glimpse a universe in symphonic motion, leaving the mind in a state of awe.",
+      "output_sha256": "601b0b49bb5f6218f2522a0979ac17a7fbfd6984f53c22932784dceb61980d85",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.367185,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "d383bcd5aede98fd41cf117e262ab76a4a5c38f1fdf96a8b42d3fc6591423cfb"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "601b0b49bb5f6218f2522a0979ac17a7fbfd6984f53c22932784dceb61980d85",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Chefs transform the humble pig and the apple into a lyrical experience for the dinner table.",
+      "output_sha256": "2db8ae3ebd45575f8d2a0224a0ec4dfdc7a2c6d94aeea0d079418547827d1699",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.368262,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "6b72c217a9a2d8a8783d211aee3697f3a7eb8a6375cdbb8555d89761368bd31b"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "2db8ae3ebd45575f8d2a0224a0ec4dfdc7a2c6d94aeea0d079418547827d1699",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The Great Adventure, in short, is just this passionate pursuit of the soul of harmony in things, great and small, spiritual and material.",
+      "output_sha256": "64c699e7040d988d83b5b2e610ca1248f59e0f201d370de317cb27380507772f",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "64c699e7040d988d83b5b2e610ca1248f59e0f201d370de317cb27380507772f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "We are all in the quest and our captains are those who lead us to the highest peaks of revelation—Bach fashioning that immortal Concerto for Two Violins that takes us out like unsullied children into fields of asphodel; Wordsworth looking out over Tintern Abbey and capturing for us that",
+      "output_sha256": "578bbf85fdfb63647d50995578cff86525be80b1a1b39b651980c63f55a2d0a8",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "578bbf85fdfb63647d50995578cff86525be80b1a1b39b651980c63f55a2d0a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Sense sublime Of something far more deeply interfused, Whose dwelling is the light of setting suns, And the round ocean and the living air, And the blue sky and in the mind of man;",
+      "output_sha256": "6d1d719eb74393c5c78e4ace3578d9749a5e2bff6958b809c0952f95f50b427b",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "6d1d719eb74393c5c78e4ace3578d9749a5e2bff6958b809c0952f95f50b427b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Botticelli weaving the magic lines of the Madonna of the Magnificat into a harmony that, once deeply felt, seems to dwell in the heart for ever.",
+      "output_sha256": "3bf88edeb9bb4e017d2aef5885fa5471de8b7eeffb07ddab8978d0c4f56627d9",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "3bf88edeb9bb4e017d2aef5885fa5471de8b7eeffb07ddab8978d0c4f56627d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "And you and I, though we are not captains in the adventure, all have our glimpses—glorious moments when the mind sings in tune with circumstance, when the beauty of the world, or the sense of fellowship with men or the anthem of incommunicable things seems to open out the vision of something that we would fain possess and are meant to possess.",
+      "output_sha256": "b6693e6ea558dba721302eaa95dfd4b0c378130f9e20aaa9fcd927e57306429a",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "b6693e6ea558dba721302eaa95dfd4b0c378130f9e20aaa9fcd927e57306429a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "\"A mirage,\" you say, being a cynical person—\"a mirage just to keep us going through the desert—a sort of carrot held before the nose of that donkey, man.\"",
+      "output_sha256": "5f99aa8d65ccf14628801771e2a8351a6783207fe91fdb1f5922595d98fa1af6",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "5f99aa8d65ccf14628801771e2a8351a6783207fe91fdb1f5922595d98fa1af6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Yet, looking at the current state of the world, it’s difficult to argue that if harmony is indeed the ultimate goal of our collective endeavor, humanity should perhaps abandon the mission.",
+      "output_sha256": "d89a7fe2ed8f20170984d6f4d8516c1d57e3699ef9a2c2e9e13bedd0e09ed987",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.383593,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "3b71b130e10284d0d8a7a2eea3a150d8019832a3d7aebab0ba17f33704c38ec2"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "d89a7fe2ed8f20170984d6f4d8516c1d57e3699ef9a2c2e9e13bedd0e09ed987",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "In the light of the events in which we live, man is not merely the most discordant creature on earth: he is also the most ferocious animal that exists.",
+      "output_sha256": "e8bdd8cdec8fd6898993c4645f40bf07a2e99956f00a1902dcbd35face8bb02e",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "e8bdd8cdec8fd6898993c4645f40bf07a2e99956f00a1902dcbd35face8bb02e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Dryden’s famous lines, which once rang with optimism, now sound like bitter satire:",
+      "output_sha256": "6cc006b313c54094de2bb204089ff23e5bfe921a367941f00d596b60e76f7536",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.38,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "33aac52cfc9f78c685f830085de5ff6881fb18f2094493dbbd2a4d9b7864d06f"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "6cc006b313c54094de2bb204089ff23e5bfe921a367941f00d596b60e76f7536",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "From harmony, from heavenly harmony.",
+      "output_sha256": "f0d3721cd8a371b665ca4205dc4d9c79157c51cc7071c5b7c5d0a3f82289e8a8",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "f0d3721cd8a371b665ca4205dc4d9c79157c51cc7071c5b7c5d0a3f82289e8a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "This universal frame began; From harmony to harmony, through all the compass of the notes it ran, The diapason closing full in man.",
+      "output_sha256": "85f839940a6b70b398bd64c8117b406e8d7422d289f7d91b2d77b735b941f7cd",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "85f839940a6b70b398bd64c8117b406e8d7422d289f7d91b2d77b735b941f7cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "If Dryden were to observe Europe today, he might discover a significant flaw in his lofty ode.",
+      "output_sha256": "1ea7b4efc87ed38c7a074b0fb6982068c5bf6464d74fd5e5373aef8da8a160ec",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.45061,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "d34e4502a705ed802752020ec8a771ccfbd83f30d59834125e8cf326de9b7bf7"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "1ea7b4efc87ed38c7a074b0fb6982068c5bf6464d74fd5e5373aef8da8a160ec",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "But the story of man is a long story, and we cannot see its drift from any episode, however vast and catastrophic.",
+      "output_sha256": "0f3f7abced90edb8d34a94ec00e76beb232ca465331cc0d43646689352a36d40",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "0f3f7abced90edb8d34a94ec00e76beb232ca465331cc0d43646689352a36d40",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "We are still only in the turbulent childhood of our career, and frightful as our excesses are, there is a motive behind them that makes them profoundly different from the wars of old.",
+      "output_sha256": "c4b28d865e39392e43ba62507253d6b60290a9a660d3b9ce7be587e90c0c3af7",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "c4b28d865e39392e43ba62507253d6b60290a9a660d3b9ce7be587e90c0c3af7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "That motive is the idea of human liberty, the sanctity of public law, the right of every nation, small or great, to live its life free from the terrorism of force.",
+      "output_sha256": "b5d0cda2d29cc32af80ab04daa6366de708fabdc6ad62fa785d78f39b0af91e0",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "b5d0cda2d29cc32af80ab04daa6366de708fabdc6ad62fa785d78f39b0af91e0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "In ancient or medieval times, could one have found a war fought for such a grand idea?",
+      "output_sha256": "3a1e89637acf1da7a0773532943884a237bce33b8c008af4a93291d5476f5a66",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.474603,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "9c13c4aa05b59fe82e8780f5a85acb4af80e60c6fba1cd245fa10e726fc0bc92"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "3a1e89637acf1da7a0773532943884a237bce33b8c008af4a93291d5476f5a66",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Despotism then had it all its own way.",
+      "output_sha256": "2f096cb7e6087c412320889b85c5ffe1b56059554f9b515cd74f5395bda042a6",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "2f096cb7e6087c412320889b85c5ffe1b56059554f9b515cd74f5395bda042a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Even the Peace of Rome was only the peace of universal subjugation, not the peace of universal liberty based on law which the world is fighting to establish to-day.",
+      "output_sha256": "125b5cd2484b9488be1c9838d2ad753cfa7f1a56f646400fc0e04164d5b2dd8a",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "125b5cd2484b9488be1c9838d2ad753cfa7f1a56f646400fc0e04164d5b2dd8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Never before has embattled democracy challenged the principle of tyranny for the possession of the world….",
+      "output_sha256": "cdc4fa71a1eb317ae7e79438630c37500e3cbf9549672217df303b276c72fb12",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "cdc4fa71a1eb317ae7e79438630c37500e3cbf9549672217df303b276c72fb12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "I can almost hear your thoughts as you consider the Allies.",
+      "output_sha256": "5878198f135d52f21bb821848fc1d043c928a70f551b8d4e277faaa4ba2632c0",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.367821,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "30f3b75523082217988f53a5eb5b91844118aef001bd88e6d31011a5de1e97ad"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "5878198f135d52f21bb821848fc1d043c928a70f551b8d4e277faaa4ba2632c0",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Liberty!",
+      "output_sha256": "e95ba5d3725c6860304816e5dad06bd2e50e26ebb9fe976d12bd5898f31ed044",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "e95ba5d3725c6860304816e5dad06bd2e50e26ebb9fe976d12bd5898f31ed044",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Does Russia stand for liberty?",
+      "output_sha256": "c86f0987df9db1da08be1f6c674d5043305dc654f8ec597575b6dd8ef563e351",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "c86f0987df9db1da08be1f6c674d5043305dc654f8ec597575b6dd8ef563e351",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Yes, in the circumstances of to-day, even Russia stands for liberty, for do not forget that this is not a war of the Russian bureaucracy, but a war sustained by the passion of the Russian people.",
+      "output_sha256": "bdc187a76d512bf7b3228bd0d18870084a342baeb475968706d61675baaef706",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "bdc187a76d512bf7b3228bd0d18870084a342baeb475968706d61675baaef706",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "And, Russia apart or Russia included, who can doubt that the cause of human freedom is in our hands, and the cause of ancient tyranny is in the hands of our enemy?",
+      "output_sha256": "63187cc9ed0690881f8c698317e2d9d2365e35e4b3407cd6cf55f2f2ab6e0ab3",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "63187cc9ed0690881f8c698317e2d9d2365e35e4b3407cd6cf55f2f2ab6e0ab3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Might we not glimpse in the chaos of war the twilight of those old gods—those deities of blood and iron that have subjugated humanity throughout its history?",
+      "output_sha256": "6bc90e3e9fd27ef3bb1caa70076c28b32662a2cc24793f557fabecd5994521b7",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.455238,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "d26d5886aa0b92936bf00f44591be4bb5df03d3d5c2d7df6bcdf2e30649e72e9"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "6bc90e3e9fd27ef3bb1caa70076c28b32662a2cc24793f557fabecd5994521b7",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "May we not see even in the midst of this discord and carnage, this hell of death and destruction, the new birth of humanity—the promise of a world set free?",
+      "output_sha256": "385e445578d2fcd0eef574ee2eafea57d4e6b2fe68db1c278c36d9b29d5c0d7f",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "385e445578d2fcd0eef574ee2eafea57d4e6b2fe68db1c278c36d9b29d5c0d7f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Perhaps in that distant time when the tragedy of to-day is only an old chapter in the story of the human race it will be seen that Dryden, after all, was not guilty of a grim jest, but that this mighty discord was the announcement of that final harmony for which all that is best in us yearns.",
+      "output_sha256": "540bdf23f0d59c66617e9298ad786e3bda7312b6e7439f4742b07fb176d66b3b",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "540bdf23f0d59c66617e9298ad786e3bda7312b6e7439f4742b07fb176d66b3b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "It may seem a hard vision to cherish to-day.",
+      "output_sha256": "7c0a38f20d0e17669b08bf62a3e3e712cafd097568259c3ac42f1bd940255a5e",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "7c0a38f20d0e17669b08bf62a3e3e712cafd097568259c3ac42f1bd940255a5e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "But we must cherish it, or accept the hideous alternative that this is, after all, in very truth the madhouse of the universe.",
+      "output_sha256": "312569c929f4e6d6441b6fa5393ee0eae51c6a20210934c3f8af5e706ad02576",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "312569c929f4e6d6441b6fa5393ee0eae51c6a20210934c3f8af5e706ad02576",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "Can you accept that notion?",
+      "output_sha256": "a6ba1d43c6dbfb448e49c7f7acab675804f6e38569bfe51b2b784f93ea7e5366",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.522121,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "19775ea97b33b955d62eea203297c4652d042e9c9909323c9048a3b6bf03b999"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "a6ba1d43c6dbfb448e49c7f7acab675804f6e38569bfe51b2b784f93ea7e5366",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "Is it worth living under such a belief?",
+      "output_sha256": "96be7a29825ff1c331d1da89fcbc2bcb3d2e501b594e240b5352ba5411adbbbb",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.411601,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "942889a33dd77e6565c5e7607c99af9e2e8f648df132329bee6fde574ac2dbc2"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "96be7a29825ff1c331d1da89fcbc2bcb3d2e501b594e240b5352ba5411adbbbb",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "If not, then we must rally behind the former vision, each contributing in our small or significant ways to ensure it prevails.",
+      "output_sha256": "14df5058390555ac060d107817898c48660c82e42ad5525471d1f51a6859b44e",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.400877,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "25a65ab09cead13411ae0a73bedb0df86c2ce0b8a12378a3bbbbfb367ecac9d4"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "14df5058390555ac060d107817898c48660c82e42ad5525471d1f51a6859b44e",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "I have wandered somewhat far from the question of the beer and the porcelain, and yet I think you will find that the sequence is not lacking, and that the little window commands a large landscape.",
+      "output_sha256": "0c0c2eaebfe7c4254b11fc1ba64234a697f8a5017b6812a794e0c31ba1046e69",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "0c0c2eaebfe7c4254b11fc1ba64234a697f8a5017b6812a794e0c31ba1046e69",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《华盖集》这个与那个 - 可阅文学网</title>
+    <meta name="keywords" content="华盖集,这个与那个,全文阅读,章节,可阅文学">
+    <meta name="description" content="一 读经与读史　　一个阔人说要读经，嗡的一阵一群狭人也说要读经。岂但“读”而已矣哉，据说还可以“救国”哩。“学而时习之，不亦说乎？”那也许是确凿的罢，然而甲午战败了，—……">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11059/10027">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11059/10027">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11059/10027">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11059">华盖集</a><span id="top_chaptername" style="float: right">这个与那个</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;"><p class="sub-title">一 读经与读史</p><br>　　一个阔人说要读经，嗡的一阵一群狭人也说要读经。岂但“读”而已矣哉，据说还可以“救国”哩。“学而时习之，不亦说乎？”<i class="iconfont icon-zhushi" data-content="“学而时习之，不亦说乎”：语出《论语·学而》。孔子语，“说”同“悦”。"></i>那也许是确凿的罢，然而甲午战败了，—……</div>
+            <!-- 付费墙 -->
+            <div class="paywall">
+                <div class="paywall-mask"></div>
+                <div class="paywall-content">
+                    <div class="paywall-icon"><i class="iconfont icon-lock"></i></div>
+                    <div class="paywall-title">本章为付费内容</div>
+                    <div class="paywall-price">
+                        <span>3</span>珍珠（￥<span>0.30</span>）即可解锁
+                    </div>
+                    
+                    <div class="paywall-actions">
+                        <button class="paywall-btn paywall-subscribe-btn"
+                                data-content-id="af022967867518fe" data-book-no="11059"
+                                data-chapter-no="10027" data-beike-cost="3"
+                                data-user-pearl="0">订阅本章</button>
+                        <a href="/vip.html" class="paywall-btn paywall-vip-btn">开通VIP免费阅读</a>
+                    </div>
+                    <div class="paywall-app-promo">
+    <div class="paywall-divider" aria-hidden="true"></div>
+    <div class="paywall-app-promo-inner">
+        <div class="paywall-app-promo-copy">
+            <span class="paywall-app-promo-badge">App 限免</span>
+            <p class="paywall-app-promo-title">下载 App 即可免费阅读</p>
+            <p class="paywall-app-promo-desc">
+                本内容在
+                <a href="/app/download?from=paywall" target="_blank" rel="noopener" class="paywall-app-promo-inline-link">可阅文学 App</a>
+                上限免开放，无需订阅或开通 VIP，扫码安装后在 App 内打开即可阅读。
+            </p>
+        </div>
+        <div class="paywall-app-promo-qr-wrap">
+            <div id="paywall-app-qrcode" class="paywall-app-qrcode" aria-label="扫码下载可阅文学 App"></div>
+            <div class="paywall-app-promo-caption">
+                <strong>手机扫码下载</strong>
+                <span>微信或相机扫一扫</span>
+                <a href="/app/download?from=paywall" class="paywall-app-promo-link">查看下载页</a>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11059/10028">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/11059/10026">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="42" data-goods-name="【山姆正品】进口盐焗开心果果仁大颗粒无漂白酥脆坚果解馋年货" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847319751231668615&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_4e68d8f016593b25f9dd6a1f5cc1bacd_sx_337776_www1000-1000"
+                         alt="【山姆正品】进口盐焗开心果果仁大颗粒无漂白酥脆坚果解馋年货">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】进口盐焗开心果果仁大颗粒无漂白酥脆坚果解馋年货</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>151.86</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11059/10001">题记</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二五年</span>
+                </p>
+                <li>
+                    <a href="/book/11059/10002">咬文嚼字（一至二）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10003">青年必读书</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10004">忽然想到（一至四）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10005">通讯</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10006">论辩的魂灵</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10007">牺牲谟</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10008">战士和苍蝇</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10009">夏三虫</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10010">忽然想到（五至六）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10011">杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10012">北京通信</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10013">导师</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10014">长城</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10015">忽然想到（七至九）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10016">“碰壁”之后</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10017">并非闲话</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10018">我的“籍”和“系”</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10019">咬文嚼字（三）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10020">忽然想到（十至十一）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10021">补白</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10022">答KS君</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10023">“碰壁”之余</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10024">并非闲话（二）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10025">十四年的“读经”</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10026">评心雕龙</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/11059/10027">这个与那个</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10028">并非闲话（三）</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10029">我观北大</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10030">碎话</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10031">“公理”的把戏</a>
+                </li>
+                <li>
+                    <a href="/book/11059/10032">这回是“多数”的把戏</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11059/10033">后记</a>
+                    
+                </p>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af022967867518fe_7ce1b243a53d8588fc3439d4e619679c";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = true;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.querySelector('.paywall-subscribe-btn');
+    if (!btn) return;
+
+    function showToast(msg, duration) {
+        var t = document.getElementById('subscribe-toast');
+        t.textContent = msg;
+        t.style.display = 'block';
+        setTimeout(function() { t.style.display = 'none'; }, duration || 2000);
+    }
+
+    var pollTimer = null;
+    function stopPoll() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+
+    document.getElementById('pay-modal-close').addEventListener('click', function() {
+        document.getElementById('pay-modal').style.display = 'none';
+        stopPoll();
+    });
+
+    function showPayModal(data) {
+        var modal = document.getElementById('pay-modal');
+        document.getElementById('pay-modal-amount').textContent = '支付金额：￥' + data.moneyToPay;
+        var qrDiv = document.getElementById('pay-modal-qr');
+        qrDiv.innerHTML = '<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + encodeURIComponent(data.qrCodeUrl) + '" width="200" height="200" alt="支付二维码">';
+        document.getElementById('pay-modal-status').textContent = '等待扫码支付...';
+        modal.style.display = 'block';
+
+        stopPoll();
+        pollTimer = setInterval(function() {
+            var xhr2 = new XMLHttpRequest();
+            xhr2.open('GET', '/vip/queryOrderStatus?orderNo=' + encodeURIComponent(data.orderNo), true);
+            xhr2.onreadystatechange = function() {
+                if (xhr2.readyState !== 4 || xhr2.status !== 200) return;
+                try {
+                    var r = JSON.parse(xhr2.responseText);
+                    if (r.code === 0 && r.data) {
+                        if (r.data.status === 1) {
+                            stopPoll();
+                            modal.style.display = 'none';
+                            showToast('支付成功，正在解锁...', 1500);
+                            setTimeout(function() { window.location.reload(); }, 1500);
+                        } else if (r.data.status === 2 || r.data.status === 3) {
+                            stopPoll();
+                            document.getElementById('pay-modal-status').textContent = '支付失败或已取消';
+                        }
+                    }
+                } catch(e) {}
+            };
+            xhr2.send();
+        }, 3000);
+    }
+
+    function showConfirmAndSubscribe(el) {
+        var beikeCost = parseInt(el.getAttribute('data-beike-cost'));
+        var userPearl = parseInt(el.getAttribute('data-user-pearl') || '0');
+        var enough = userPearl >= beikeCost;
+        var bodyHtml = '';
+
+        if (enough) {
+            bodyHtml = '<div style="margin-bottom:8px;">本章价格：<b>' + beikeCost + ' 珍珠</b></div>'
+                + '<div style="margin-bottom:8px;">当前余额：<b style="color:#00bfa5;">' + userPearl + ' 珍珠</b></div>'
+                + '<div style="color:#888;font-size:13px;">订阅后余额：' + (userPearl - beikeCost) + ' 珍珠</div>';
+            document.getElementById('confirm-ok').textContent = '确认订阅';
+            document.getElementById('confirm-ok').style.background = '#1e88e5';
+        } else {
+            var shortfall = beikeCost - userPearl;
+            var moneyToPay = (shortfall / 10).toFixed(2);
+            bodyHtml = '<div style="margin-bottom:8px;">本章价格：<b>' + beikeCost + ' 珍珠</b></div>'
+                + '<div style="margin-bottom:8px;">当前余额：<b style="color:#f44336;">' + userPearl + ' 珍珠</b></div>'
+                + '<div style="margin-bottom:8px;color:#f57c00;">不足 <b>' + shortfall + '</b> 珍珠，需微信支付 <b>￥' + moneyToPay + '</b></div>'
+                + '<div style="color:#888;font-size:13px;">将先扣除余额 ' + userPearl + ' 珍珠，差额通过微信支付</div>';
+            document.getElementById('confirm-ok').textContent = '确认支付';
+            document.getElementById('confirm-ok').style.background = '#ff8f00';
+        }
+
+        document.getElementById('confirm-modal-body').innerHTML = bodyHtml;
+        document.getElementById('confirm-modal').style.display = 'block';
+
+        var okBtn = document.getElementById('confirm-ok');
+        var cancelBtn = document.getElementById('confirm-cancel');
+        var newOk = okBtn.cloneNode(true);
+        var newCancel = cancelBtn.cloneNode(true);
+        okBtn.parentNode.replaceChild(newOk, okBtn);
+        cancelBtn.parentNode.replaceChild(newCancel, cancelBtn);
+
+        newCancel.addEventListener('click', function() {
+            document.getElementById('confirm-modal').style.display = 'none';
+        });
+
+        newOk.addEventListener('click', function() {
+            document.getElementById('confirm-modal').style.display = 'none';
+            doSubscribe(el);
+        });
+    }
+
+    function doSubscribe(el) {
+        el.disabled = true;
+        el.textContent = '处理中...';
+
+        var data = 'contentId=' + encodeURIComponent(el.getAttribute('data-content-id'))
+            + '&bookNo=' + encodeURIComponent(el.getAttribute('data-book-no'))
+            + '&chapterNo=' + encodeURIComponent(el.getAttribute('data-chapter-no'))
+            + '&beikeCost=' + encodeURIComponent(el.getAttribute('data-beike-cost'));
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/chapter/subscribe', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState !== 4) return;
+            el.disabled = false;
+            el.textContent = '订阅本章';
+            if (xhr.status === 200) {
+                var result = JSON.parse(xhr.responseText);
+                if (result.code === 0) {
+                    if (result.data && result.data.needPayment) {
+                        showPayModal(result.data);
+                    } else {
+                        showToast('订阅成功', 1500);
+                        setTimeout(function() { window.location.reload(); }, 1500);
+                    }
+                } else {
+                    showToast(result.msg || '订阅失败', 2500);
+                }
+            } else {
+                showToast('网络错误，请重试', 2500);
+            }
+        };
+        xhr.send(data);
+    }
+
+    btn.addEventListener('click', function() {
+        if (userId === 0) { window.location.href = '/login.html'; return; }
+        showConfirmAndSubscribe(this);
+    });
+});
+</script>
+<script defer src="/js/common/paywall_app_qr.js?v=3"></script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

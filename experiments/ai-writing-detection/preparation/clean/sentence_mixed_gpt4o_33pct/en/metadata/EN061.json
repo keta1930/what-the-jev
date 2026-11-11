@@ -1,0 +1,775 @@
+{
+  "source_id": "EN061",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "6320fd62cd22574c90af8a26c9bfa4086df63b0056f56f0a4d6eee0c99fd96b5",
+  "ai_article_sha256": "44bfc8925bd1cb0f24f0ed9987911b4970d69fff2bceb0f4fdc66640f0489e4a",
+  "mixed_article_sha256": "24df58eb27c7425fcd2f62754807628f3db7ca4b8addab047bbf4f51ea0d541a",
+  "human_source_sentence_count": 50,
+  "ai_source_sentence_count": 51,
+  "alignment_unit_count": 48,
+  "selected_alignment_unit_count": 15,
+  "mixed_sentence_count": 51,
+  "selected_ai_sentence_count": 17,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.278571,
+  "selected_alignment_score_median": 0.371504,
+  "selected_alignment_score_max": 0.674176,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I have just read a serious column on the prospects for next year.",
+      "output_sha256": "2f28e16d53c1448ec89fb0ea461d0c5025101b61f7d3730a251602bc1406ed8b",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "2f28e16d53c1448ec89fb0ea461d0c5025101b61f7d3730a251602bc1406ed8b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "This article consisted of contributions from experts in the various branches of industry (including one from a meteorological expert who, I need hardly tell you, forecasted a wet summer) and ended with a general summing up of the year by Old Moore or one of the minor prophets.",
+      "output_sha256": "4f2f1b7be666dfccff332187836bf92ad82a0d3804b3ca5d980431897681ff1f",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "4f2f1b7be666dfccff332187836bf92ad82a0d3804b3ca5d980431897681ff1f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Regrettably, Old Moore’s musings did not resonate with me.",
+      "output_sha256": "306e96564a54eec7a7fd09cfcfad65b8aaaa402734ac8ed15b6a37401006eac9",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.33307,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "b1188ec323479403a6d1286aacfa58a47ec18b2be055b836a5ed3e009755d35a"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "306e96564a54eec7a7fd09cfcfad65b8aaaa402734ac8ed15b6a37401006eac9",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "I wish I could embrace astrology, but I find myself unable to do so.",
+      "output_sha256": "57877241bf5027e75ad259591d597c4c42d13737f40213811769c81d2785eee6",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.342857,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "a3d49799bf64306f7f6df4fde9f429911b57ba41a27c0e4a30d390f85be7666b"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "57877241bf5027e75ad259591d597c4c42d13737f40213811769c81d2785eee6",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The notion that celestial bodies align in specific formations to guide figures like Zadkiel in predicting the future seems unfathomably grand.",
+      "output_sha256": "bb2a5fe70564d332682423816f7e8b805ebb56694a8975920837c11f2938a056",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.367469,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "2446e60863a4c0d32bb45b55dd464f770c7ed692775a52b18b98772103c02d34"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "bb2a5fe70564d332682423816f7e8b805ebb56694a8975920837c11f2938a056",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The thought of a star diverting its course by millions of miles simply to signify a “scandalous divorce in high society” is just too much to take seriously.",
+      "output_sha256": "67dbf3f5820eb3cd41629f738daa37aa91950967cdc863d91674461fdd711ffa",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.367469,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "2446e60863a4c0d32bb45b55dd464f770c7ed692775a52b18b98772103c02d34"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "67dbf3f5820eb3cd41629f738daa37aa91950967cdc863d91674461fdd711ffa",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "But, candidly, I do not believe the stars bother.",
+      "output_sha256": "986f4d706c638af541ae46004e0f218831358830c23c956c892833f0ac70eae4",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "986f4d706c638af541ae46004e0f218831358830c23c956c892833f0ac70eae4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "What the stars are for, what they are like when you get there, I do not know; but a starry night would not be so beautiful if it were simply meant as a warning to some unpleasant financier that Kaffirs were going up.",
+      "output_sha256": "ccab709c2b9440c83b75f38319526aa9b641d67f6f26c13d0f38ed2b044ca6c8",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "ccab709c2b9440c83b75f38319526aa9b641d67f6f26c13d0f38ed2b044ca6c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The ordinary man looks at the heavens and thinks what an insignificant atom he is beneath them; the believer in astrology looks up and realizes afresh his overwhelming importance.",
+      "output_sha256": "31b7b5ad64f0275a9112058d15a228b8b0323c1c1c5876fe924f2957fe282dcd",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "31b7b5ad64f0275a9112058d15a228b8b0323c1c1c5876fe924f2957fe282dcd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Perhaps, after all, I am glad I do not believe.",
+      "output_sha256": "d857e1277acd4b0cda2216953135ba2ee383cf254f9da348c3c1fff1149ed26c",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "d857e1277acd4b0cda2216953135ba2ee383cf254f9da348c3c1fff1149ed26c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Life must be a very tricky thing for the superstitious.",
+      "output_sha256": "eec3007674fe96371b921fd4841be38261174a4ddb54fe5177bae778ec0d64b8",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "eec3007674fe96371b921fd4841be38261174a4ddb54fe5177bae778ec0d64b8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "At dinner a night or two ago I happened to say that I had never been in danger of drowning.",
+      "output_sha256": "e7f7ff5f49299b4cdb0aed0022e10cd7a212e3c10580a6a8a64b2b2c3924a4cf",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "e7f7ff5f49299b4cdb0aed0022e10cd7a212e3c10580a6a8a64b2b2c3924a4cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I am not sure now that it was true, but I still think that it was harmless.",
+      "output_sha256": "40e7e508c13579775e8b18856e99a5f643d3b00d1722b1b11164f16578b8a089",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "40e7e508c13579775e8b18856e99a5f643d3b00d1722b1b11164f16578b8a089",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Before I could elaborate on my point (whatever it was), I was abruptly instructed to touch wood.",
+      "output_sha256": "7259a1f4b92aa01b44db7558b9bb3599dd3899729e364bda0f563604cd07ec4d",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.58609,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "dd5fa1693ddf70d5616ec5268e7e5aa060b1d78b024a481365b1a79c5310ac3c"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "7259a1f4b92aa01b44db7558b9bb3599dd3899729e364bda0f563604cd07ec4d",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I argued that both my feet were planted firmly on polished oak and my elbows rested on polished mahogany—one of those good habits that seem to stem from instinct.",
+      "output_sha256": "8ef57a6bc04156b38170ad21f321939f2fd9e47462c8b3b83be92f3d4be1cdcc",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.473386,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "73c82729d5d3b28d6f7cecfce7c9ed3f43c197e585813e22fd795f354836e1a4"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "8ef57a6bc04156b38170ad21f321939f2fd9e47462c8b3b83be92f3d4be1cdcc",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "However, because one must not argue at dinner I tapped the table two or three times… and now I suppose I am immune.",
+      "output_sha256": "f33a61bb33ccfe0cc37be019acd5c03fc9fd7b394c2b637de2c7460dcc493f45",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "f33a61bb33ccfe0cc37be019acd5c03fc9fd7b394c2b637de2c7460dcc493f45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "At the same time I should like to know exactly whom I have appeased.",
+      "output_sha256": "7abe107dd33319b2b1aac714c7caa0e7951541fd0d285b28b4a1781e223635d2",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "7abe107dd33319b2b1aac714c7caa0e7951541fd0d285b28b4a1781e223635d2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "For this must be the idea of the wood-touching superstition, that a malignant spirit dogs one's conversational footsteps, listening eagerly for the complacent word.",
+      "output_sha256": "a12dd9ab277ff978ec452eae70d6ad386340938c94c41d457acd9dbace63c0fd",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "a12dd9ab277ff978ec452eae70d6ad386340938c94c41d457acd9dbace63c0fd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"I have never had the mumps,\" you say airily.",
+      "output_sha256": "9d4f972f4633260e971237a66abbfc47307446766eb761177b77a9fef58f97b2",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "9d4f972f4633260e971237a66abbfc47307446766eb761177b77a9fef58f97b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Ha, ha!\" says the spirit, \"haven't you?",
+      "output_sha256": "54ace106393acb7c15718470f5afd67d865eaffc9b5af8597819d1218d8cc3a4",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "54ace106393acb7c15718470f5afd67d865eaffc9b5af8597819d1218d8cc3a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Just you wait till next Tuesday, my boy.\"",
+      "output_sha256": "f6c0379d5bf1b52f1538f2f2123eafe2b7ddcdd09758e61d97b4ae6e65755ef4",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "f6c0379d5bf1b52f1538f2f2123eafe2b7ddcdd09758e61d97b4ae6e65755ef4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Unconsciously we are crediting Fate with our own human weaknesses.",
+      "output_sha256": "cd5e42599b61b08f7b481e8a14b8ef9bf65c1467f189ed337bd32279901db192",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "cd5e42599b61b08f7b481e8a14b8ef9bf65c1467f189ed337bd32279901db192",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "If a man standing on the edge of a pond said aloud, \"I have never fallen into a pond in my life,\" and we happened to be just behind him, the temptation to push him in would be irresistible.",
+      "output_sha256": "ac885db0fbcf77d86464ddab8c368550b677c16028547553f12fe254fa91ec31",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "ac885db0fbcf77d86464ddab8c368550b677c16028547553f12fe254fa91ec31",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Irresistible, that is by us; but it is charitable to assume that Providence can control itself by now.",
+      "output_sha256": "370579478f17c8385103f66a2857fa8428924825ac9bbdf6a85ce26d96f002dc",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "370579478f17c8385103f66a2857fa8428924825ac9bbdf6a85ce26d96f002dc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Of course, nobody really thinks that our good or evil spirits have any particular feeling about wood, that they like it stroked; nobody, I suppose, not even the most superstitious, really thinks that Fate is especially touchy in the matter of salt and ladders.",
+      "output_sha256": "2f8bf800e9f1f978bff3050792195d7577c4b4be64499ddfb5ace63039f804bd",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "2f8bf800e9f1f978bff3050792195d7577c4b4be64499ddfb5ace63039f804bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Likewise, many who toss spilled salt over their shoulders are not superstitious at all but merely displaying a readiness for social situations—a trait often associated with good manners.",
+      "output_sha256": "fd638d9239f404a610e42d363eaac477b2b190222d359289b862ca938713b811",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.371504,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "a49fa7e3494dc5bcc6a2fc258d422fc2f67fc9ca0f57dac3dba6236ef19c9e33"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "fd638d9239f404a610e42d363eaac477b2b190222d359289b862ca938713b811",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "However, a considerable number of people feel the need to appease the unknown and acknowledge the forces that may bring harm.",
+      "output_sha256": "312bb26a3ac86e6b9c9ab3b2cd6412152bc74927062c7b1df3c73900e5a73e2c",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.331203,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "f86244ebe62da7e1ebd7877f23eab349efef3311777c346834db2b210b40f343"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "312bb26a3ac86e6b9c9ab3b2cd6412152bc74927062c7b1df3c73900e5a73e2c",
+      "ai_unit_sentence_indices": [
+        28,
+        29
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "They engage in these little rituals hoping to secure protection from misfortune in return.",
+      "output_sha256": "6db73a08c4fb3d9c6697bc3bd8a2f3fbb2ac495904ba9cf9982b9c31a708ee56",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.331203,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "f86244ebe62da7e1ebd7877f23eab349efef3311777c346834db2b210b40f343"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "6db73a08c4fb3d9c6697bc3bd8a2f3fbb2ac495904ba9cf9982b9c31a708ee56",
+      "ai_unit_sentence_indices": [
+        28,
+        29
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The tribute is nominal, but it is an acknowledgment all the same.",
+      "output_sha256": "307640a41d8ebd1c7a6e40a093f71a97c6c50ca063f2065672460c9c32033bfe",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "307640a41d8ebd1c7a6e40a093f71a97c6c50ca063f2065672460c9c32033bfe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "A proper sense of proportion leaves no room for superstition.",
+      "output_sha256": "d2e66d5e3a324e087a61ee95ac4c5bd7ac2edef11369ca391cee4c1e5c633f0e",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "d2e66d5e3a324e087a61ee95ac4c5bd7ac2edef11369ca391cee4c1e5c633f0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "A man says, \"I have never been in a shipwreck,\" and becoming nervous touches wood.",
+      "output_sha256": "616ffe904f9adb1f212175142cdf8a636d0e6626572f3b9c7ea1940fac8aa555",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "616ffe904f9adb1f212175142cdf8a636d0e6626572f3b9c7ea1940fac8aa555",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Why is he nervous?",
+      "output_sha256": "2d2a1347ec143b97305efc6a60069b468caab5c7d0f1eb273572f896734f717d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "2d2a1347ec143b97305efc6a60069b468caab5c7d0f1eb273572f896734f717d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Perhaps it’s the memory of a news article that read, “Among the deceased was Mr. —.",
+      "output_sha256": "7e825e08a669afaf18334819163d271bf7f755fe64bf43716c52478e445fa0b0",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.426667,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "991aa80a5069bba46cb2f7cdff3883c9ce4623da3ab9d513c47c9523d14071bf"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "7e825e08a669afaf18334819163d271bf7f755fe64bf43716c52478e445fa0b0",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "By a remarkable coincidence this gentleman had been saying only a few days before that he had never been in a shipwreck.",
+      "output_sha256": "37984bd3c6ff68135d62f27506f14c1feb740ef7166d9bed7c3604d42ce07238",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "37984bd3c6ff68135d62f27506f14c1feb740ef7166d9bed7c3604d42ce07238",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Little did he know that his next voyage would tragically prove him wrong.”",
+      "output_sha256": "52ca586a60d2529c779eb9b0250408f8edcd7ace29fb4e28bf8272f5fadbca0e",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.674176,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "c4b9b36114cd18ee85804994e392f9aa7daee2868e1c10dc4b045358272620c7"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "52ca586a60d2529c779eb9b0250408f8edcd7ace29fb4e28bf8272f5fadbca0e",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "It’s likely that he has encountered such accounts repeatedly.",
+      "output_sha256": "2ab63d0aec13be82971a2899977775bf0ae3cfa85911e9508df5415fb8189e68",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.295963,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "b53817eb156d8d2dfae6b0f7b727c95283e1631f6c5ab823300442f65838d050"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "2ab63d0aec13be82971a2899977775bf0ae3cfa85911e9508df5415fb8189e68",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Perhaps he has.",
+      "output_sha256": "384e1285885df41a838fe5ad9530f7e63f9e5192e4240bb40dc0b3fc234b2c8d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "384e1285885df41a838fe5ad9530f7e63f9e5192e4240bb40dc0b3fc234b2c8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Certainly he has never read a paragraph like this: \"Among the deceased was Mr. ——.",
+      "output_sha256": "33dc2b96b4365ed3bdcf1d517679b249c87dd5957a167da1e8ecc1883dcfbe01",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "33dc2b96b4365ed3bdcf1d517679b249c87dd5957a167da1e8ecc1883dcfbe01",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "By a curious coincidence, this gentleman never claimed he hadn’t been in a shipwreck.”",
+      "output_sha256": "b473cfe09b0d43cd072518584ed671f7431a0ed42dc0a1379b4cf048d5d4f65a",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.590267,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "95f01481a4932884056d7c81321059dae54b83c3fce37cc24fb47851b4102886"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "b473cfe09b0d43cd072518584ed671f7431a0ed42dc0a1379b4cf048d5d4f65a",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The truth is, that could have been truthfully recorded countless times.",
+      "output_sha256": "1b205993ebe5a6ff0745533d4f95aef8f4e77dda55bf19e626163362e90be2c0",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.535455,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "ab4190fdb97318ed661a86dfb14e65b4ad51e8bdde90edac210323d70cad819f"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "1b205993ebe5a6ff0745533d4f95aef8f4e77dda55bf19e626163362e90be2c0",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "A sense of proportion would tell you that, if only one side of a case is ever recorded, that side acquires an undue importance.",
+      "output_sha256": "bb3cc75511366a2114a43c7d71f150605b59fae92c25ce0250a6ee8159fac0d1",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "bb3cc75511366a2114a43c7d71f150605b59fae92c25ce0250a6ee8159fac0d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Ultimately, Fate does not seek to be dramatic; if we had the power to dictate life and death, we might orchestrate remarkably vivid narratives.",
+      "output_sha256": "ca6808158403738ffea661d7e262eb3830f1744cf82b204b62798f829803384c",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.421215,
+      "human_sentence_indices": [
+        40,
+        41
+      ],
+      "human_sha256": [
+        "757d09de768c64e488c2653e3cb13b05cf608daca61b80770c7fa58965476d96",
+        "98d8f0baf2c68b7443817d8541f804a7637d8627e2eb154cc95146066c7e90bd"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "ca6808158403738ffea661d7e262eb3830f1744cf82b204b62798f829803384c",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "A man who spilt the salt callously would be drowned next week in the Dead Sea, and a couple who married in May would expire simultaneously in the May following.",
+      "output_sha256": "780c99e2434a53c55698ef20ee8a74ce0bc7194b60d579a9a8a2728e9a221125",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "780c99e2434a53c55698ef20ee8a74ce0bc7194b60d579a9a8a2728e9a221125",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But Fate cannot worry to think out all the clever things that we should think out.",
+      "output_sha256": "fdfe2c0225ee25e31036e88e87235351d3a2aee44cde6c91ba0a5c65e927a8b2",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "fdfe2c0225ee25e31036e88e87235351d3a2aee44cde6c91ba0a5c65e927a8b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It goes about its business solidly and unromantically, and by the ordinary laws of chance it achieves every now and then something startling and romantic.",
+      "output_sha256": "c48cbea602c13b7475efede5336eb53be1c17ea58fe767152b5a6f3e5ff12a7b",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "c48cbea602c13b7475efede5336eb53be1c17ea58fe767152b5a6f3e5ff12a7b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Superstition thrives on the fact that only the accidental dramas are reported.",
+      "output_sha256": "c8beaaea97b476e95774a0a7064f149d2329687f11ba317bfcf4a70a7de95617",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "c8beaaea97b476e95774a0a7064f149d2329687f11ba317bfcf4a70a7de95617",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "But there are charms to secure happiness as well as charms to avert evil.",
+      "output_sha256": "bbb7ea2a175b957ee6e9bc797beebccdd97cce339352d5ec11ddfc5b212de800",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "bbb7ea2a175b957ee6e9bc797beebccdd97cce339352d5ec11ddfc5b212de800",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "I find myself a firm believer in these.",
+      "output_sha256": "90b1060be2a19b507632320615f9b195b7f410322ac28524bcbacfb465a3f021",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.565,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "e63ab3922ef8451102c021e5076193bd6cec3086d33b942afdeaceb50901d0c4"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "90b1060be2a19b507632320615f9b195b7f410322ac28524bcbacfb465a3f021",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I do not mean that I believe that a horseshoe hung up in the house will bring me good luck; I mean that if anybody does believe this, then the hanging up of his horseshoe will probably bring him good luck.",
+      "output_sha256": "82d7c23f65e0904d8be06b9066913dcb9c6a97c6802a40fcdb86bc54762876b6",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "82d7c23f65e0904d8be06b9066913dcb9c6a97c6802a40fcdb86bc54762876b6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "For if you believe that you are going to be lucky, you go about your business with a smile, you take disaster with a smile, you start afresh with a smile.",
+      "output_sha256": "a68d222099e9501ce806fdaabb28ce453bf8c4963f32a0f4cdc4c69097163b98",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "a68d222099e9501ce806fdaabb28ce453bf8c4963f32a0f4cdc4c69097163b98",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "This mindset puts them on the path toward happiness.",
+      "output_sha256": "fadd206e021baa46fdae59ad552675cdd46f2572573e5d12acf8edd803b5911b",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.278571,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "58687f84d245ba4b12c1b7dea83ae29146ca0fca7c25b122922f5cdf3b694b07"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "fadd206e021baa46fdae59ad552675cdd46f2572573e5d12acf8edd803b5911b",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    }
+  ]
+}

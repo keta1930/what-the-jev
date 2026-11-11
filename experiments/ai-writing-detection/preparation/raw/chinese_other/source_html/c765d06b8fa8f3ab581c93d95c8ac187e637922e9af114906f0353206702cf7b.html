@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《朝花夕拾》小引 - 可阅文学网</title>
+    <meta name="keywords" content="朝花夕拾,小引,全文阅读,章节,可阅文学">
+    <meta name="description" content="我常想在纷扰中寻出一点闲静来，然而委实不容易。目前是这么离奇，心里是这么芜杂。一个人做到只剩了回忆的时候，生涯大概总要算是无聊了罢，但有时竟会连回忆也没有。中国的做文章有轨范，">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11068/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11068/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11068/10001">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11068">朝花夕拾</a><span id="top_chaptername" style="float: right">小引</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　我常想在纷扰中寻出一点闲静来，然而委实不容易。目前是这么离奇，心里是这么芜杂。一个人做到只剩了回忆的时候，生涯大概总要算是无聊了罢，但有时竟会连回忆也没有。中国的做文章有轨范，世事也仍然是螺旋。前几天我离开中山大学的时候，便想起四个月以前的离开厦门大学；听到飞机在头上鸣叫，竟记得了一年前在北京城上日日旋绕的飞机。我那时还做了一篇短文，叫做《一觉》。现在是，连这“一觉”也没有了。<br><br>　　广州的天气热得真早，夕阳从西窗射入，逼得人只能勉强穿一件单衣。书桌上的一盆“水横枝”<i class="iconfont icon-zhushi" data-content="“水横枝”：一种盆景。在广州等南方暖和地区，取栀子的一段浸植于水钵中，能长绿叶，可供观赏。"></i>，是我先前没有见过的：就是一段树，只要浸在水中，枝叶便青葱得可爱。看看绿叶，编编旧稿，总算也在做一点事。做着这等事，真是虽生之日，犹死之年，很可以驱除炎热的。<br><br>　　前天，已将《<a class="c_book_link" target="_blank" href="/book/11069" contenteditable="false">野草</a>》编定了；这回便轮到陆续载在《莽原》<i class="iconfont icon-zhushi" data-content="《莽原》：文艺刊物，鲁迅编辑。1925年4月24日创刊于北京。初为周刊，附《京报》发行，同年11月27日出至第三十二期休刊。1926年1月10日起改为半月刊，由未名社出版。1926年8月鲁迅离京后，改由韦素园接编。1927年12月25日出至第四十八期停刊。"></i>上的《旧事重提》，我还替他改了一个名称：《朝花夕拾》。带露折花，色香自然要好得多，但是我不能够。便是现在心目中的离奇和芜杂，我也还不能使他即刻幻化，转成离奇和芜杂的文章。或者，他日仰看流云时，会在我的眼前一闪烁罢。<br><br>　　我有一时，曾经屡次忆起儿时在故乡所吃的蔬果：菱角，罗汉豆，茭白，香瓜。凡这些，都是极其鲜美可口的；都曾是使我思乡的蛊惑。后来，我在久别之后尝到了，也不过如此；惟独在记忆上，还有旧来的意味留存。他们也许要哄骗我一生，使我时时反顾。<br><br>　　这十篇就是从记忆中抄出来的，与实际容或有些不同，然而我现在只记得是这样。文体大概很杂乱，因为是或作或辍，经了九个月之多。环境也不一：前两篇写于北京寓所<i class="iconfont icon-zhushi" data-content="北京寓所：指作者在北京阜成门内西三条胡同二十一号的寓所。现为鲁迅博物馆的一部分。"></i>的东壁下；中三篇是流离中<i class="iconfont icon-zhushi" data-content="流离中：1926年三一八惨案后，北洋政府曾拟通缉当时北京文教界人士鲁迅等五十人（参看《而已集·大衍发微》），作者曾先后避居山本医院、德国医院、法国医院等处。避居德国医院时因病房已满，只得住入一间堆积杂物兼作木匠作场的房子。"></i>所作，地方是医院和木匠房；后五篇却在厦门大学的图书馆的楼上，已经是被学者们<i class="iconfont icon-zhushi" data-content="学者们：指当时在厦门大学任教的顾颉刚等人。"></i>挤出集团之后了。<br><br>　　一九二七年五月一日，鲁迅于广州白云楼记。</div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11068/10002">Next Chapter</a></div>
+        <div class="pre_chapter"><a style="color: #d4d4d4;">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="2" data-goods-name="Members Mark/山姆有机板栗仁1KG开袋即食熟板栗仁坚果10包零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847297447751713150&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/png_m_19accf01b11f9bd01f151cd9ea3cded3_sx_844213_www1000-1000"
+                         alt="Members Mark/山姆有机板栗仁1KG开袋即食熟板栗仁坚果10包零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">Members Mark/山姆有机板栗仁1KG开袋即食熟板栗仁坚果10包零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>70.76</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span></span>
+                </p>
+                <li class="selected">
+                    <a href="/book/11068/10001">小引</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10002">狗·猫·鼠</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10003">阿长与《山海经》</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10004">《二十四孝图》</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10005">五猖会</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10006">无常</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10007">从百草园到三味书屋</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10008">父亲的病</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10009">琐记</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10010">藤野先生</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10011">范爱农</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10012">后记</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af02292065185e6a_4c94fa9d607ffe37b291b596bed4d2a3";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

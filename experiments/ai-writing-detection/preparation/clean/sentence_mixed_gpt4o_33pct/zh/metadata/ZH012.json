@@ -1,0 +1,551 @@
+{
+  "source_id": "ZH012",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "6f7a57451c665c383c733899ec31581cd17a6f3274a685a9cf5e45c1b8318cbf",
+  "ai_article_sha256": "719b23febbaca50ebb0a65c41349b4abd97f46a48183a3af6f381054d392ef20",
+  "mixed_article_sha256": "f373f3d30364e5a4b3190db2a82fba8de4259cb953060f684c28e825c1848e3f",
+  "human_source_sentence_count": 35,
+  "ai_source_sentence_count": 34,
+  "alignment_unit_count": 33,
+  "selected_alignment_unit_count": 11,
+  "mixed_sentence_count": 36,
+  "selected_ai_sentence_count": 12,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.428304,
+  "selected_alignment_score_median": 0.550835,
+  "selected_alignment_score_max": 0.692763,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "他们都到海边去了。",
+      "output_sha256": "0f91ec2a337624b7f35fb7e36916370b8a39151c0969797892f877e63ab7acf7",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0f91ec2a337624b7f35fb7e36916370b8a39151c0969797892f877e63ab7acf7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我为左眼发炎不曾去。",
+      "output_sha256": "1a4d5fbe0ff34d6ad8e078a62a66619a111be42d257475fcb4dd6d8f43ab5d2b",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "1a4d5fbe0ff34d6ad8e078a62a66619a111be42d257475fcb4dd6d8f43ab5d2b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "我独坐在前廊，依偎在一把舒适的大椅上，袒露着胸怀，赤脚而坐，散发在微风中轻轻摇曳。",
+      "output_sha256": "6a69df95bf6ad95c611cc790fe8aa3c9bd54bc427e916ad7e30a8097ebdc5647",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.550658,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "0baf22021b4e639072336ff3d295df9e5501408574e3904aa542d69a3c9e3066"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "6a69df95bf6ad95c611cc790fe8aa3c9bd54bc427e916ad7e30a8097ebdc5647",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "清晨的阳光依然未能唤醒我刚起时的睡意，但梦中的思绪却被晨风轻轻撩拨。",
+      "output_sha256": "efbf2fc6f7aac1baee3cf3352b44f2151b0845b923abf029c6cc3624ed6a273d",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.432303,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "257e4f6c5e4f7309229f5c6c924f06d55cd1fab9ed5753a13b510d94a7ff9169"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "efbf2fc6f7aac1baee3cf3352b44f2151b0845b923abf029c6cc3624ed6a273d",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "我闭上眼睛，内视之中只见斑驳的余晖，像晚霞的余光，依依留恋地粘附在天边。",
+      "output_sha256": "925e19066282c2f52d08d8834a9db68646cc414c6b696287a15dbbbf0d6477ba",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.551011,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "26707a27e10c6b651e8642bf485bae89c2ae3d541f3cfe541fe6a0314699d8f1"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "925e19066282c2f52d08d8834a9db68646cc414c6b696287a15dbbbf0d6477ba",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "廊前的马樱、紫荆、籐萝、青翠的叶与鲜红的花，都将他们的妙影映印在水汀上，幻出幽媚的情态无数；我的臂上与胸前，亦满缀了绿荫的斜纹。",
+      "output_sha256": "3ebd4480124068d68a680a736cd76ff589f4a5575bc1af10da244aebe606d7ea",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "3ebd4480124068d68a680a736cd76ff589f4a5575bc1af10da244aebe606d7ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "从树荫的间隙平望，正见海湾：海波亦似被晨曦唤醒，黄蓝相间的波光，在欣然的舞蹈。",
+      "output_sha256": "6952f336920d05e6db584b748034dd82d0f3a0786c5e0aa0ca8f8a2e9a30ee13",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "6952f336920d05e6db584b748034dd82d0f3a0786c5e0aa0ca8f8a2e9a30ee13",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "滩边不时见白涛涌起，迸射著雪 样的水花。",
+      "output_sha256": "87cadfe1d5d3380948c209278cb102dde95452877806ba34173f626bd2de6962",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "87cadfe1d5d3380948c209278cb102dde95452877806ba34173f626bd2de6962",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "浴线内点点的小舟与浴客，水禽似的浮著；幼童的欢叫，与水波拍岸声，与潜涛呜咽声，相间的起伏，竞报一滩 的生趣与乐意。",
+      "output_sha256": "77060caf7df53e26b4bbce883ff9bd373b840231191b3f279024a992b38a25dc",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "77060caf7df53e26b4bbce883ff9bd373b840231191b3f279024a992b38a25dc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "但我独坐的廊前，却只是静静的，静静的无甚声响。",
+      "output_sha256": "3fc58c90fffd1448257aca4b18e0bcc2ee600c51616900a4bece3df61fb297d7",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "3fc58c90fffd1448257aca4b18e0bcc2ee600c51616900a4bece3df61fb297d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "娇艳的马樱轻轻摇曳，连蝇虫也不再飞舞。",
+      "output_sha256": "331b5e8c09d3c830b6d78a38674d269f52d05765b005127a881cd04842783e57",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.428304,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "0d326346f4a24f32849f971b9f8f728e17b7f21775923f5b4ba37b732cf6dd85"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "331b5e8c09d3c830b6d78a38674d269f52d05765b005127a881cd04842783e57",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "只 有远近树里的秋蝉，在纺纱似的垂引他们不尽的长吟。",
+      "output_sha256": "736bb14c6877964326a17143aac056e1dde75a032295df710cb704f5bd6d2651",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "736bb14c6877964326a17143aac056e1dde75a032295df710cb704f5bd6d2651",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "在这不尽的长吟中，我独坐在冥想。",
+      "output_sha256": "207a03547425a74fbe3816fcc5ed125a84d46e7d36c7d75507501124de85d924",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "207a03547425a74fbe3816fcc5ed125a84d46e7d36c7d75507501124de85d924",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "难得的是这份孤寂的环境，难得的是这份宁静的意境；在寂寞中潜藏着无法言喻的和谐，静默中蕴含着无限的创造。",
+      "output_sha256": "89d2486668784a4c7ecf6f50c30ff2846abf28969b841733da54a3062708c5cc",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.587094,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "e596c72a421f4dd34a4f374ca5a40963b4f2c021ba187c18078ec00f49783d34"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "89d2486668784a4c7ecf6f50c30ff2846abf28969b841733da54a3062708c5cc",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我的心灵，比如海滨，生平初度的怒潮，已经渐次的消翳，只剩有疏松的海砂中偶尔的回响，更有残缺的贝壳，反映 星月的辉芒。",
+      "output_sha256": "c0e19ac2c2631444159bc8aa187f9940a378cfb90c03934ef7ecf7b8d2280b35",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "c0e19ac2c2631444159bc8aa187f9940a378cfb90c03934ef7ecf7b8d2280b35",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "在此刻，我触摸潮水留下的痕迹，追忆当时的激荡，究竟是梦还是现实，已无需分辨，只凭眉梢的轻皱，唇边的微笑，便能解释无尽的奥秘，深深隐伏在灵魂的细腻之中。",
+      "output_sha256": "e078217ea93959cfae237cb67e3fb11cf510da7e1c6594f32b12f0cd17810642",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.516471,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "a08858f64aea830050617c9472da9d29f0aeaf3bbbfd7259dc9a919c867b51c2"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "e078217ea93959cfae237cb67e3fb11cf510da7e1c6594f32b12f0cd17810642",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "青年永远趋向反叛，爱好冒险；永远如初度航海者，幻想黄金机缘于浩渺的烟波之外：想割断系岸的缆绳，扯起风帆，欣 欣的投入无垠的怀抱。",
+      "output_sha256": "d7615357fb2d951cb6fa2e92d7ec5b6d3ad3031115198b5d4d3eded56fa39e00",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "d7615357fb2d951cb6fa2e92d7ec5b6d3ad3031115198b5d4d3eded56fa39e00",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "他们厌恶安稳，自得于放纵与豪迈。",
+      "output_sha256": "8012a41c8f6dd03278770af087eb750ce23a6350380f0d683ac76e1b26f26fb1",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.568182,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "f41f2829e1e3bad736b916b91f4e03d9acf5a70c84039eafb8670c35b72becbb"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "8012a41c8f6dd03278770af087eb750ce23a6350380f0d683ac76e1b26f26fb1",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "无颜色的生涯，是他目中的荆棘；绝海与凶𪩘，是他爱取自 由的途径。",
+      "output_sha256": "4d16163e932b6e6cd4a9ef31aad184f5d805afdeb6829c36ae18cb44531900d8",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "4d16163e932b6e6cd4a9ef31aad184f5d805afdeb6829c36ae18cb44531900d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他爱折玫瑰；为她的色香，亦为她冷酷的刺毒。",
+      "output_sha256": "00afee367728aceb6834a3d2a7e91937359e2056c9d788a39c2fc4481473e765",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "00afee367728aceb6834a3d2a7e91937359e2056c9d788a39c2fc4481473e765",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他爱搏狂澜：为他的庄严与伟大，亦为他吞噬一切的天才，最是 激发他探险与好奇的动机。",
+      "output_sha256": "6a196d73a17c9ba8a0b361d9ae2051dd5e2ea50af80cb34a05d4062b7f096fa4",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "6a196d73a17c9ba8a0b361d9ae2051dd5e2ea50af80cb34a05d4062b7f096fa4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他崇拜冲动：不可测，不可节，不可预逆，起，动，消歇皆在无形中，狂飙似的倏忽与猛烈与神秘。",
+      "output_sha256": "05dcdf5b425738505bca6bf98c2ee4eb5cc1dd558b2e1a5c5a0cee858b11c037",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "05dcdf5b425738505bca6bf98c2ee4eb5cc1dd558b2e1a5c5a0cee858b11c037",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他崇拜斗争：从斗争中求剧烈的生命之意义，从斗争中求绝对的实在，在血染的战阵中，呼叫胜利之狂欢或歌败丧的哀曲。",
+      "output_sha256": "11426bd0bf36826066dde5db52765ba549128dbef6b497524be5a79c609d8c7d",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "11426bd0bf36826066dde5db52765ba549128dbef6b497524be5a79c609d8c7d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "幻影消逝是人生注定的悲剧；年轻人的幻灭，更是悲剧中的悲剧，犹如夜的沉暗，死一般的凶恶。",
+      "output_sha256": "3a708dcadec78c3d6bbb4e88908cd9a3b8f87fac3e1c76063fcd9182ca57af84",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.692763,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "d39628ea209b7541fa3dbacd0e63097a15ade14833590d7fe81aa598670d4b4f"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "3a708dcadec78c3d6bbb4e88908cd9a3b8f87fac3e1c76063fcd9182ca57af84",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "那纯粹而狂热的热情之火，像阿拉伯的神灯，只能释放瞬间的光彩，无法长久照耀；转瞬之间，或许便熄灭了最后的火焰，只留下有限的余烬与残灰，在未熄的余温中自我折磨与安慰。",
+      "output_sha256": "4eb739a70475748cfa51eb682183444dc8b86544d87ce58b5ffd0fa4c6eacc74",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.623357,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "a785480eb2d991aab62f97ad60e80676a514cbbee64a3f7f50ebd311fd0f207e"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "4eb739a70475748cfa51eb682183444dc8b86544d87ce58b5ffd0fa4c6eacc74",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "流水的光辉，星辰的光辉，露珠的光辉，闪电的光辉，在年轻人的眼中闪烁，让人惊叹造物主的艺术之奇妙。",
+      "output_sha256": "617512be44d7565596d916a5d43fc54ca3259a34a544a2e5e82e290d1a398414",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.529713,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "b40879bb5f422a58637fc133a84ad900a4bf7a13cb08f0adff371627f8725d6b"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "617512be44d7565596d916a5d43fc54ca3259a34a544a2e5e82e290d1a398414",
+      "ai_unit_sentence_indices": [
+        25,
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "然而，可怖的阴影，倦怠与衰败的阴影，也紧随时光而至，仿佛烦恼、痛苦、失败，或是庸俗的尾巴，瞬息间便扫灭了我们最自豪的光辉——流水干涸，星星陨落，露珠消散，闪电不再！",
+      "output_sha256": "4cd7f50c01141cf0a141ad69dd6129f21f91d90df5c9a5eebd325aeec1392ba9",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.529713,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "b40879bb5f422a58637fc133a84ad900a4bf7a13cb08f0adff371627f8725d6b"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "4cd7f50c01141cf0a141ad69dd6129f21f91d90df5c9a5eebd325aeec1392ba9",
+      "ai_unit_sentence_indices": [
+        25,
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "在这艳丽的日辉中，只见愉悦与欢舞与生趣，希望，闪烁的希望，在荡漾，在无穷的碧空中，在绿叶的光泽里，在虫鸟的歌吟中，在青草的摇曳中——夏之荣华，春之成功。",
+      "output_sha256": "9c93bae66c5731ce070d5dd22be92e032c832463f705b8c617cd3a3607a3ff31",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "9c93bae66c5731ce070d5dd22be92e032c832463f705b8c617cd3a3607a3ff31",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "春光与希望，是长驻的；自然与人生，是调谐的。",
+      "output_sha256": "d74229b420c9becdf00926c92484ae9f8a4e8b7178e97e08e5c8dc96400bc94d",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "d74229b420c9becdf00926c92484ae9f8a4e8b7178e97e08e5c8dc96400bc94d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "在远处有福的山谷内，莲馨花在坡前微笑，稚羊在乱石间跳跃，牧童们，有的吹著芦笛，有的平卧在草地上，仰看交幻的浮游的白云，放射下的青影在初黄的稻田中缥缈地移过。",
+      "output_sha256": "65418f7ddeaca273a65ec204a46628151dc378518f6e6129f729d1965d43c089",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "65418f7ddeaca273a65ec204a46628151dc378518f6e6129f729d1965d43c089",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "在远处安乐的村中，有妙龄的村姑，在流涧边照映她自制的春裙；口衔烟斗的农夫三四，在预度秋收的丰盈，老妇人们坐在家门外阳光中取暖，她们的周围有不少的儿童，手擎著黄白的钱花在环舞与欢呼。",
+      "output_sha256": "68e3af4517715d5372df9627310aee3a869523e783ef40fb772c7e47d875d473",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "68e3af4517715d5372df9627310aee3a869523e783ef40fb772c7e47d875d473",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "在远——远处的人间，有无限的平安与快乐，无限的春光……",
+      "output_sha256": "2834d9f0d11d5e9de2c4f3a15d1951e73027c640eaddb7d0c12f2a8944239ea2",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "2834d9f0d11d5e9de2c4f3a15d1951e73027c640eaddb7d0c12f2a8944239ea2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "在此暂时可以忘却无数的落蕊与残红；亦可以忘却花荫中掉下的枯叶，私语地预告三秋的情意；亦可以忘却苦恼的僵瘪的人间，阳光与雨露的殷勤，不能再恢覆他们腮颊上生命的微笑，亦可以忘却纷争的互杀的人间，阳光与雨露的仁慈，不能感化他们凶恶的兽性；亦可以忘却庸俗的卑琐的人间，行云与朝露的丰姿，不能引逗他们刹那间的凝视；亦可以忘却自觉的失望的人间，绚烂的春时与媚草，只能反激他们悲伤的意绪。",
+      "output_sha256": "1d0c8d7c40225fb52708f4ae883d0c0c8001647fde6c274305856f95fd382bcd",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "1d0c8d7c40225fb52708f4ae883d0c0c8001647fde6c274305856f95fd382bcd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "我也可以暂时忘却自身的种种；忘却我童年时清风白水般的天真；忘却少年时期那虚荣的期望；忘却逐渐觉悟的生命；忘却对热烈理想的追求；忘却心灵中乐观与悲观的斗争；忘却攀登文艺高峰的艰辛；忘却那瞬间的启示与顿悟的神奇；忘却生命潮流的剧烈转变；忘却陷入危险漩涡中的幸与不幸；忘却追忆中不完整的梦境；忘却埋藏在海底的秘密；忘却曾经割裂我灵魂的利刃，焚烧我灵魂的烈焰，摧毁我灵魂的狂风与暴雨；忘却我内心深处的怨恨与痛苦；忘却我的希望与愿望；忘却我所获得的恩惠；忘却我的过去与现在……",
+      "output_sha256": "ceb681ad10a68191bf0c3f9cf93b2703fc721c8d2594b65ee5e364097919aef7",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.685668,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "aad1685fc915969a3737c29d62d2c2ad1828132874a1a0f1316eeadae2161db2"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "ceb681ad10a68191bf0c3f9cf93b2703fc721c8d2594b65ee5e364097919aef7",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "过去的实在，渐渐的膨胀，渐渐的模糊，渐渐的不可辨认；现在的实在，渐渐的收缩，逼成了意识的一线，细极狭极的一线，又裂成了无数不相联续的黑点……黑点亦渐次的隐翳？",
+      "output_sha256": "4f589a1be351ee5f90985e22b44f638b51d286c9b004c92d4e357729c754ec6d",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "4f589a1be351ee5f90985e22b44f638b51d286c9b004c92d4e357729c754ec6d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "幻术似的灭了，灭了，一个可怕的黑暗的空虚……",
+      "output_sha256": "77b3a9b2b7d9d38d98d51788c823ad77fc11a5d209d40f165e64504881c6099d",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "77b3a9b2b7d9d38d98d51788c823ad77fc11a5d209d40f165e64504881c6099d",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

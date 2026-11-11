@@ -1,0 +1,945 @@
+{
+  "source_id": "ZH091",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "063f4dc8e127426b273ed6462e56b2f452f79c54c67508ee9b23867d7a50be59",
+  "ai_article_sha256": "fe29b63e5fb94a25253c10e2210cf01341381a1229363af1d57fb6c770938230",
+  "mixed_article_sha256": "266458ea59f64c4cf32c1a94d92154534f3095d0ef7fd39d808eb29ab1077df0",
+  "human_source_sentence_count": 63,
+  "ai_source_sentence_count": 53,
+  "alignment_unit_count": 53,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.38,
+  "selected_alignment_score_median": 0.563185,
+  "selected_alignment_score_max": 0.793961,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "猫的性格实在有些古怪。",
+      "output_sha256": "c33d91dc05d73a481eb2b7edfeed90a757e13262fb8458bce954c66b2ebec0b5",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "c33d91dc05d73a481eb2b7edfeed90a757e13262fb8458bce954c66b2ebec0b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "若说它乖巧，它确实有时表现得很听话。",
+      "output_sha256": "0ce5902f143ca230383023edc6d2bf0e4f22230541feefb9b9599f4122b4f7ab",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.397707,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "148570fd4e4f08d32f88b275f39249cb436bb96347dbc00c7f42b035dad476f3"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "0ce5902f143ca230383023edc6d2bf0e4f22230541feefb9b9599f4122b4f7ab",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "它会找个暖和地方，成天睡大觉，无忧无虑。",
+      "output_sha256": "6c1ea9bc3f28d739c3199807e565dedbae2c6b8aaee39386ea4b94fd666a5555",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "6c1ea9bc3f28d739c3199807e565dedbae2c6b8aaee39386ea4b94fd666a5555",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "什么事也不过问。",
+      "output_sha256": "d03e76e652bdc474eacd5ddf34fefded2ece4799a3d2c8e7a1172cca9bb01e14",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "d03e76e652bdc474eacd5ddf34fefded2ece4799a3d2c8e7a1172cca9bb01e14",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "可是，赶到它决定要出去玩玩，就会走出一天一夜，任凭谁怎么呼唤，它也不肯回来。",
+      "output_sha256": "e7e1ecf8dc74a34ba8786bef83f940a5d60caf5a66ff6100a7a9d901d04521ee",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "e7e1ecf8dc74a34ba8786bef83f940a5d60caf5a66ff6100a7a9d901d04521ee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "说它贪玩吧，的确是呀，要不怎么会一天一夜不回家呢？",
+      "output_sha256": "8edb4b3369d11f1926524ce870a9cbd5d58f75e915accc9397eb80df299b72fe",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "8edb4b3369d11f1926524ce870a9cbd5d58f75e915accc9397eb80df299b72fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "可一旦听到老鼠的动静，它又会变得极其专注，静静地盯着，可能连续几个小时不动，直到老鼠出现为止。",
+      "output_sha256": "ed511d649e7ffba7c4b3cf5c14eb8fa7ac30b779a065389099bd66df30a9edd4",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.405985,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "4f47de80503a51ad1be09b5adb369048bacf893da3a85f75ecb81761b37673d5"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "ed511d649e7ffba7c4b3cf5c14eb8fa7ac30b779a065389099bd66df30a9edd4",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "当猫咪心情愉悦时，它的温柔可比谁都好：用身体蹭你的腿，伸出脖子期待你给它抓抓痒，或者在你写作时跳到桌上，在纸上留下几朵“小梅花”。",
+      "output_sha256": "1e6f79a3818d0a0bc06ddf7284d7354987ba95055a7391508392be48c81cac37",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.521691,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "fe192c984bf94d166efd126a2ddaf0b5061ed8dbb5edb6bc93c61311310e0eb3"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "1e6f79a3818d0a0bc06ddf7284d7354987ba95055a7391508392be48c81cac37",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "它的叫声多变、富有层次，长短粗细各异，避免了单调。",
+      "output_sha256": "6da851a7bbb739d38405d786433cd70d75122f3f66c52ba22ac4ba70f87af464",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.434677,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "ddff60dde9e83764f43048e3736bd5486cc8e71f80028b517fb76a99618a0f76"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "6da851a7bbb739d38405d786433cd70d75122f3f66c52ba22ac4ba70f87af464",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "在不叫的时候，它还会咕噜咕噜地给自己解闷。",
+      "output_sha256": "69ff0b6bc8ce3b20ad5e5f66bd31b5258db5756e71c0f2380de9df6452710dc7",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "69ff0b6bc8ce3b20ad5e5f66bd31b5258db5756e71c0f2380de9df6452710dc7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这可都凭它的高兴。",
+      "output_sha256": "c14f97dddfa84ff7ae2cea8f2e149204402fcb456e4f17ccadb8370a2f87e4a1",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "c14f97dddfa84ff7ae2cea8f2e149204402fcb456e4f17ccadb8370a2f87e4a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "它若是不高兴啊，无论谁说多少好话，它一声也不出，连半个小梅花也不肯印在稿纸上！",
+      "output_sha256": "ee78d915acbc13e27ca58b1836206bb098baafafd98e7a9a6995f23ea5a53665",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "ee78d915acbc13e27ca58b1836206bb098baafafd98e7a9a6995f23ea5a53665",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "它倔强得很！",
+      "output_sha256": "c599a9b5c14e198fce87a391ed7db3e2aaee39206063582cfa6c2589b168f460",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "c599a9b5c14e198fce87a391ed7db3e2aaee39206063582cfa6c2589b168f460",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "是，猫的确是倔强。",
+      "output_sha256": "9a70fba95757a0fdf536e8ec1bb93c5e1173e745208ab735d0bc4ecf9f16210c",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "9a70fba95757a0fdf536e8ec1bb93c5e1173e745208ab735d0bc4ecf9f16210c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "看看马戏团里的狮子、老虎、大象、狗熊，甚至笨驴，都会表演一些节目，但谁见过耍猫的呢？",
+      "output_sha256": "53763acc03f0d248e16502a36d7a931574661cb9148164f1876e34698048772a",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.668557,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "2fc882311331c2c6e9eb258618d54bc2c4abc7165d5e5713191320dc40aa375f"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "53763acc03f0d248e16502a36d7a931574661cb9148164f1876e34698048772a",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "（昨天才听说：苏联的某马戏团里确有耍猫的，我当然还没亲眼见过。）",
+      "output_sha256": "d38f3924217a9e2f94fbcca96bd15f64ed50daf7a55bce016339f10c00fff3e9",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "d38f3924217a9e2f94fbcca96bd15f64ed50daf7a55bce016339f10c00fff3e9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这种小动物确是古怪。",
+      "output_sha256": "8375d216161a20774757d6a70d08359ef2d896ac9b146fb7b7d8d0718ee50174",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "8375d216161a20774757d6a70d08359ef2d896ac9b146fb7b7d8d0718ee50174",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "不管你多么善待它，它也不肯跟着你上街去逛逛。",
+      "output_sha256": "9f76bac9647dce01be75249a2e42e0b91d12538128f2b46f7ae220bc11c8e3cd",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "9f76bac9647dce01be75249a2e42e0b91d12538128f2b46f7ae220bc11c8e3cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "它什么都怕，总想藏起来。",
+      "output_sha256": "6e41471d95788f38b34ae85e1cc55b2065d3dee8d0e0a5a208b1f0e11f6b8f8f",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "6e41471d95788f38b34ae85e1cc55b2065d3dee8d0e0a5a208b1f0e11f6b8f8f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "但同时，它又勇敢得很，面对小虫或老鼠，甚至遇到蛇也敢上前一搏。",
+      "output_sha256": "1bea3b6aab3895a3c39f9af7187f0c14df26f67caa95cfb0efbf06ce4b68ced8",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.445471,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "7ff7e594660f57cef6001d87fb20c0ecae16271823787194074570af8c11d11c"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "1bea3b6aab3895a3c39f9af7187f0c14df26f67caa95cfb0efbf06ce4b68ced8",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "它的嘴常常因为被蜜蜂或蝎子蜇得肿起来。",
+      "output_sha256": "81b8a15de6efc1335b1bbb86df4d8d4465b03c50602695cd490ff27da30c6b19",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.563185,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "dfb2b3d0a453617c0a2a6c329ea7180715e10b9d590d42ec00534d217bf5f12a"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "81b8a15de6efc1335b1bbb86df4d8d4465b03c50602695cd490ff27da30c6b19",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "赶到猫儿们一讲起恋爱来，那就闹得一条街的人们都不能安睡。",
+      "output_sha256": "ebe456e5b4344e2f8e3d652a09fa2a135c77a176d9c4e8ae68a7590b7a390f7d",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "ebe456e5b4344e2f8e3d652a09fa2a135c77a176d9c4e8ae68a7590b7a390f7d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "它们的叫声是那么尖锐刺耳，使人觉得世界上若是没有猫啊，一定会更平静一些。",
+      "output_sha256": "2552d4e2e2589d8f33f9725012e2b96ee5cefac9e0946482f71dafcc99eb5004",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "2552d4e2e2589d8f33f9725012e2b96ee5cefac9e0946482f71dafcc99eb5004",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "可是，及至女猫生下两三个棉花团似的小猫啊，你又不恨它了。",
+      "output_sha256": "b9b6e27be854956d4317247907df48e151dfa8c1da402e443bda9976109ba440",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "b9b6e27be854956d4317247907df48e151dfa8c1da402e443bda9976109ba440",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "它是那么尽责地看护儿女，连上房兜兜风也不肯去了。",
+      "output_sha256": "36eefc607a6c6fa3d9db4047d80ea95f73de708085397210932276d30568dd1f",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "36eefc607a6c6fa3d9db4047d80ea95f73de708085397210932276d30568dd1f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "公猫可就没那么负责了，它对孩子毫不关心。",
+      "output_sha256": "60f594d1114f0d97ac0edaa5069c750f5b2dc0c905b9c5559d71335df7d34ff5",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.577954,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "9a829362453a988499ecd9fd1f4929232b0ed3ad57f4bfc8f330b4841eff220f"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "60f594d1114f0d97ac0edaa5069c750f5b2dc0c905b9c5559d71335df7d34ff5",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "要么睡觉，要么到处叫唤，碰到机会就跟邻居打架，身上的毛打成了团，满脸都是伤痕，真是显得不太体面。",
+      "output_sha256": "b45e096f6817aa0bf98870d0df5dde80355638d409bdf73d49d7641c65ac14b9",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.488881,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "e6c393af7543978c308a3a84aff5f734459f84c3f0b2afd75a2fc59f9cb3d452"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "b45e096f6817aa0bf98870d0df5dde80355638d409bdf73d49d7641c65ac14b9",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "好在它没有照镜子的习惯，依然昂首阔步，大喊大叫，它匆忙地吃两口东西，就又去挑战开打。",
+      "output_sha256": "10d382e6c1d4583c02ff0324b8931b3a56d697a97cecc96cd820cd7eaa08428a",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "10d382e6c1d4583c02ff0324b8931b3a56d697a97cecc96cd820cd7eaa08428a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "有时，它整整两天两夜不回家，你以为它远走高飞了，结果却是瘸着腿回来了，直奔厨房要吃的。",
+      "output_sha256": "829e7c728dd36b9926b282577d65d10f81ecec54c1534d1b5da3cd90377c8b13",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.592141,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "46f22d37c2becb1e8a09777c07f552dca36cb68da866e6d887ce5ce81479d7aa"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "829e7c728dd36b9926b282577d65d10f81ecec54c1534d1b5da3cd90377c8b13",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "满月的小猫们可爱极了，腿脚还不太稳，但已经开始调皮捣蛋。",
+      "output_sha256": "42ed1b850f84f8d32aa0616ca95302da44daf9e39395fb6fd30dae06504e4da7",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.558937,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "a4e4b47097522fe82eabf5efa89f3bc79ca8cc44a4f8ec256d7b42a6e36c9009"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "42ed1b850f84f8d32aa0616ca95302da44daf9e39395fb6fd30dae06504e4da7",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "妈妈的尾巴，一根鸡毛，都是它们的玩具，玩得不亦乐乎。",
+      "output_sha256": "c5aa225130152d53743c3730a57cc88cd6c45336bf52926d50f9f118e272e8c6",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.681132,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "bbf63570e51d26b0d44f0c5470cefd0a39276cbe43ec7aeb2bc1833a250ea9de"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "c5aa225130152d53743c3730a57cc88cd6c45336bf52926d50f9f118e272e8c6",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "它们玩得太投入，常常摔倒，但总是立刻爬起来，再次奔跑，再次摔倒。",
+      "output_sha256": "624475fd36dc56094d919755d2110fea1cbf2433743c42b7de7a4fe51700384f",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.418333,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "e9ddad369d084d383ed353bc741eef2fc0d8f28a4929495ed859e3065554e375"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "624475fd36dc56094d919755d2110fea1cbf2433743c42b7de7a4fe51700384f",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "它们的头撞在门上，桌腿上，和彼此的头上。",
+      "output_sha256": "3f1a91a688aeb8c1d180b6d55c10c553c0adbe52855b9acba020a881ab0dcf62",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "3f1a91a688aeb8c1d180b6d55c10c553c0adbe52855b9acba020a881ab0dcf62",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "撞疼了也不哭。",
+      "output_sha256": "72c9ecf9dcd4ca3156270498f9c358cc3bccec308f6f1f01c945594084082cdd",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "72c9ecf9dcd4ca3156270498f9c358cc3bccec308f6f1f01c945594084082cdd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "它们的胆子越来越大，逐渐开辟新的游戏场所。",
+      "output_sha256": "45b92272755136fd18633c541952b908a8e947402f06ba8ad6ae76e16e4d5e5a",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "45b92272755136fd18633c541952b908a8e947402f06ba8ad6ae76e16e4d5e5a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "它们到院子里来了。",
+      "output_sha256": "b6816908866b4c95d903fc85f8f8a07252a1f6067e172b96892b39c2c3b68d8a",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "b6816908866b4c95d903fc85f8f8a07252a1f6067e172b96892b39c2c3b68d8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "院中的花草可遭了殃。",
+      "output_sha256": "8b84bdccce821f94e71989ed2fbe01e610d83b2027b346b8df162c33ce93340d",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "8b84bdccce821f94e71989ed2fbe01e610d83b2027b346b8df162c33ce93340d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "它们在花盆里摔跤，抱着花枝打秋千，所过之处，枝折花落。",
+      "output_sha256": "be80d6735120bdf4cd0c22d7de8b098e8c1365d75ca6b84978507dfc7aa82e9b",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "be80d6735120bdf4cd0c22d7de8b098e8c1365d75ca6b84978507dfc7aa82e9b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "你不肯责打它们，它们是那么生气勃勃，天真可爱呀。",
+      "output_sha256": "b4608ed26e55482f0674729688fa4823d3f9e595030bb8890b035322f9d5821c",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "b4608ed26e55482f0674729688fa4823d3f9e595030bb8890b035322f9d5821c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "可是，你也爱花。",
+      "output_sha256": "c0b91d0511fc95c1fcd6511a0753796c62d0cac3fdf697a6fde525dc3ec4ff45",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "c0b91d0511fc95c1fcd6511a0753796c62d0cac3fdf697a6fde525dc3ec4ff45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "这个矛盾就不易处理。",
+      "output_sha256": "3e29276b61e7d7695fada2bc438407afb8a88bab36a05088fd9a9b1181574cd0",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "3e29276b61e7d7695fada2bc438407afb8a88bab36a05088fd9a9b1181574cd0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "现在，新的问题出现了：老鼠几乎被消灭了，那么猫还有什么用呢？",
+      "output_sha256": "e98802fe04f457128686a5a5983ae81038f1b899c018a2d1cf1d0649f998f7ec",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.630013,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "08efb37dd3b80f981f89310bbd3fc81a4a2b5f50199c405e712d9a4bdd50ee37"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "e98802fe04f457128686a5a5983ae81038f1b899c018a2d1cf1d0649f998f7ec",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "而且，猫既吃不着老鼠，就会想办法去偷捉鸡雏或小鸭什么的开开斋。",
+      "output_sha256": "3fdfa9eacb254f03df292df938c62a04f867740a5e3eff9254865800c7f04f4b",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "3fdfa9eacb254f03df292df938c62a04f867740a5e3eff9254865800c7f04f4b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "这难道不是问题么？",
+      "output_sha256": "e294f66d1578e657bcdc42acb72463a41c9bf3606f4835e18a6298729462bfd9",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "e294f66d1578e657bcdc42acb72463a41c9bf3606f4835e18a6298729462bfd9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "在我的朋友里颇有些位爱猫的。",
+      "output_sha256": "de9ece8b188ae9259e094e24b0ad4f2ec604e6a9f864cc2b3d990e9c5a7d7ab1",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "de9ece8b188ae9259e094e24b0ad4f2ec604e6a9f864cc2b3d990e9c5a7d7ab1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "不知他们注意到这些问题没有？",
+      "output_sha256": "c3c4467352f03d287efccbd19dc20f70f4d7103ad81a810e6ce25b854ae243ff",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "c3c4467352f03d287efccbd19dc20f70f4d7103ad81a810e6ce25b854ae243ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "记得二十年前我在重庆的时候，那里的猫非常珍贵，需要花钱购买。",
+      "output_sha256": "6d02efd4ed085f6ff02aef27a9ed70554a8ffc57a0b65aceba97bcaa4703ce37",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.699196,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "51ac368ef68e4bd6bb26f5500aeb4d18ba660b6075b03cfbaa372ed6d8d869b5"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "6d02efd4ed085f6ff02aef27a9ed70554a8ffc57a0b65aceba97bcaa4703ce37",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "那时老鼠肆虐，小猫反而要被放在笼子里养，以免被老鼠吃掉。",
+      "output_sha256": "f1d935e94d35bd32bc6014ac7836c03aaf52d335f0bff31086d6956b8c399103",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.57875,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "b222a6ec06e2458b06b2449f271c4b0f4790501b423da069f2274afcffb1b060"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "f1d935e94d35bd32bc6014ac7836c03aaf52d335f0bff31086d6956b8c399103",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "据说，目前在重庆已很不容易见到老鼠。",
+      "output_sha256": "bd80fefec087003ab28ddf95d811dc7d49b35d4978ec255250f2b44a01be72b9",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "bd80fefec087003ab28ddf95d811dc7d49b35d4978ec255250f2b44a01be72b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "那么，那里的猫呢？",
+      "output_sha256": "a7bef6405f38ada19ffca28394c005a7cd90478bcf9c29bcf0e8bf4443dec1ef",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "a7bef6405f38ada19ffca28394c005a7cd90478bcf9c29bcf0e8bf4443dec1ef",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "是不是已经不再被放在笼子里，还是根本就不养了呢？",
+      "output_sha256": "478d4413cc62d0e9b3ed16f67ea954aabe8ba8985535bf44aed4cb04c7086b5f",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.793961,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "e3833656ce9b9161cc716df5ef62296dfa0cebdedd701c2ced7354d2ee470fda"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "478d4413cc62d0e9b3ed16f67ea954aabe8ba8985535bf44aed4cb04c7086b5f",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "这须打听一下，以备参考。",
+      "output_sha256": "2348e22c74ef1068c060e609c1c5d187a401471e929a88d9e427e92e2590dea7",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "2348e22c74ef1068c060e609c1c5d187a401471e929a88d9e427e92e2590dea7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "也记得三十年前，在一艘法国轮船上，我吃过一次猫肉。",
+      "output_sha256": "0b31d6cc4b1cf7fbc840fa68be88a0f0c4817112153b375bb663eacb6b73d5c2",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "0b31d6cc4b1cf7fbc840fa68be88a0f0c4817112153b375bb663eacb6b73d5c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "事前，我并不知道那是什么肉，因为不识法文，看不懂菜单。",
+      "output_sha256": "6122ef51f2c726b2e81cd83c577414340e53b8ffe97547ad1a2baedb30ab5c71",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "6122ef51f2c726b2e81cd83c577414340e53b8ffe97547ad1a2baedb30ab5c71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "猫肉并不难吃，虽不甚香美，可也没什么怪味道。",
+      "output_sha256": "2ca040afefeda9ae9d3f9c5942739221e44141d9140870d10a526a42a85beb56",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "2ca040afefeda9ae9d3f9c5942739221e44141d9140870d10a526a42a85beb56",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "是不是该把猫都送往法国轮船上去呢？",
+      "output_sha256": "299d7f5232a4cfdd2af3e93d9f44a9119f0fe94cab5fd1ba62dfbb78b62cb680",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "299d7f5232a4cfdd2af3e93d9f44a9119f0fe94cab5fd1ba62dfbb78b62cb680",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "我实在难以下定论。",
+      "output_sha256": "de391456b865cef9a5eea0f577dcf016b31beca40d99ecbc72fbde94be776904",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.38,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "494287143838c0f3820f1f15c3fa6f41ba4396f5a81c64018e19c935ce0f2213"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "de391456b865cef9a5eea0f577dcf016b31beca40d99ecbc72fbde94be776904",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "猫的地位确实降低了，面临一些小问题。",
+      "output_sha256": "c2ce1014ff6b0f50577d392b889972d07b2f0c4d5660d55688425f6e39cd5c44",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.620425,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "472fa8e3c00ef68b4de517a1ae94c8dcaf030a8d64eff9e77374481a5309b8a4"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "c2ce1014ff6b0f50577d392b889972d07b2f0c4d5660d55688425f6e39cd5c44",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "可是，我并不为猫的命运多耽什么心思。",
+      "output_sha256": "4824d30f7c197506b6ab68f5aeb575a67a3960599ee1e7dd5a7d27c238819f3d",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "4824d30f7c197506b6ab68f5aeb575a67a3960599ee1e7dd5a7d27c238819f3d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "想想看吧，要不是灭鼠运动得到了很大的成功，消除了巨害，猫的威风怎会减少了呢？",
+      "output_sha256": "d86afe2e27c4741125cfe8e878149745801f23571b98dce4164f68036591a8af",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "d86afe2e27c4741125cfe8e878149745801f23571b98dce4164f68036591a8af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "相比之下，灭鼠的意义更为重要，不是吗？",
+      "output_sha256": "5953ed12d41f8d2a395076fc3a7c9c56adc15a44871d83283a5632456ee3cb8a",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.543655,
+      "human_sentence_indices": [
+        61
+      ],
+      "human_sha256": [
+        "59078b9039cb172010e4433941818cd91349f44c4b212a0efdaf03374ff42178"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "5953ed12d41f8d2a395076fc3a7c9c56adc15a44871d83283a5632456ee3cb8a",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "我想，世界上总会有那么一天，一切都机械化了，不是连驴马也会有点问题吗？",
+      "output_sha256": "eded4eb53766924b9356553a2a2a6aecf8e5651966a892d853638757dea4bc86",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "eded4eb53766924b9356553a2a2a6aecf8e5651966a892d853638757dea4bc86",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "但谁能因担忧驴马的处境而放弃机械化呢？",
+      "output_sha256": "08f47b90799645a52bb206e8524e88440ac52780eb20d103dd0412f24bd7c5bf",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.592857,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "45c76e6c8e8e6540db10afa3cffe47490289a53e770762ef9013f3e5dd1069de"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "08f47b90799645a52bb206e8524e88440ac52780eb20d103dd0412f24bd7c5bf",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    }
+  ]
+}

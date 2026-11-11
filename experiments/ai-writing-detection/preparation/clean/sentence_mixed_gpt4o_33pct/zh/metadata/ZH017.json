@@ -1,0 +1,1113 @@
+{
+  "source_id": "ZH017",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "12a8b12f6bac53c957d6f38d543525b043aaf5a538f0184c699f307df551462a",
+  "ai_article_sha256": "9c0baf31547ad80f5d3736698dbe3d6692da8859c294beae227420e62dc0302c",
+  "mixed_article_sha256": "dc78304acc73a2012f4c0dfd47637b34cf4fe3b029c1f94b8336fa396f014ae3",
+  "human_source_sentence_count": 74,
+  "ai_source_sentence_count": 71,
+  "alignment_unit_count": 70,
+  "selected_alignment_unit_count": 24,
+  "mixed_sentence_count": 74,
+  "selected_ai_sentence_count": 25,
+  "actual_ai_sentence_ratio": 0.337838,
+  "selected_alignment_score_min": 0.38,
+  "selected_alignment_score_median": 0.52149,
+  "selected_alignment_score_max": 0.800851,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "祖父總是有點變樣子，他喜歡流起眼淚來，同時過去很重要的事情他也忘掉。",
+      "output_sha256": "7faef293d78ee54884a9a5e1814f6154847a7be1a22b21f72e2fa2706d4fb000",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "7faef293d78ee54884a9a5e1814f6154847a7be1a22b21f72e2fa2706d4fb000",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "比如，曾經他總是喜歡講的故事，如今卻常常講到一半就說：“我記不得了。”",
+      "output_sha256": "82658ab4e8733383559c81af84b1b294971a7e296917e6210d9312ecc675e0fc",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.501766,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "691559d594e56bb12348b27233a7a1cec9b3d68c7cf8362055395c58827068ea"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "82658ab4e8733383559c81af84b1b294971a7e296917e6210d9312ecc675e0fc",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "某個夜晚，他又病了一次，這次病後竟然說：“給你三姑寫信，讓她來一趟，我都四五年沒見過她了。”",
+      "output_sha256": "35cdc439f67d9f6c508bcd5bce1fdcb0c579ea3196dd454f069b0d80d44b6505",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.681632,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "9a31eafef762640f4f2dc6f0b49d7f7eea5c9374439a48247150c99de7b1062b"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "35cdc439f67d9f6c508bcd5bce1fdcb0c579ea3196dd454f069b0d80d44b6505",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "他叫我寫信給我已經死去五年的姑母。",
+      "output_sha256": "e7fb47b10bf75317965870efe37496d063784a98937f3e35ed6130cfc14024b9",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "e7fb47b10bf75317965870efe37496d063784a98937f3e35ed6130cfc14024b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "那次離開家讓我感到無比痛苦。",
+      "output_sha256": "11904a381b67831a9eea526ac4a1b975cc56fd658a993bb3bd3caef85a2d5cbe",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.461857,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "4a41160a6fab0e76abcc354a23893bf6d0864a1d627e79df854084e1b3f4032a"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "11904a381b67831a9eea526ac4a1b975cc56fd658a993bb3bd3caef85a2d5cbe",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "學校發來的開學通知讓祖父的狀態一天比一天糟。",
+      "output_sha256": "e45f6fc95bc8cbf0adadc562f2e49a31d7474771b58d7932a8582112e509cbfd",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.559821,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "ba9172dad1b014cc878e975e9ec26086cb17cc2b572bb8ee22eaa7a12a1b1387"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "e45f6fc95bc8cbf0adadc562f2e49a31d7474771b58d7932a8582112e509cbfd",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "當祖父在睡夢中，我則躺在他身旁哭泣，彷彿他已經離開了這個世界。",
+      "output_sha256": "26fed9715ff7a29aaf8d73f6adfb76eb007aeefb243e8706f36fa7de30140066",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.482155,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "60544f643659cda6da29d37180a8eeae68e0dc3dc9bf200324548f7cdd8671bb"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "26fed9715ff7a29aaf8d73f6adfb76eb007aeefb243e8706f36fa7de30140066",
+      "ai_unit_sentence_indices": [
+        7,
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "邊哭邊抬頭看著他那凹陷的嘴唇。",
+      "output_sha256": "f7b440db3b0eb130c5c0fe510598caf79b44438b92792d7a26f28406a14f5484",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.482155,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "60544f643659cda6da29d37180a8eeae68e0dc3dc9bf200324548f7cdd8671bb"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "f7b440db3b0eb130c5c0fe510598caf79b44438b92792d7a26f28406a14f5484",
+      "ai_unit_sentence_indices": [
+        7,
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我若失去祖父，便失去了我一生中最重要的人，似乎他的離去會將世間的一切愛與溫暖一並帶走。",
+      "output_sha256": "27c083831437d388fe289a1bcce2c8294ac341589ef611e8f0f22af643aec19a",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.500769,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "91f402d7784d0aa373c74a5f3fd13ccff6478ba8f853db6a39b9186be5204830"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "27c083831437d388fe289a1bcce2c8294ac341589ef611e8f0f22af643aec19a",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我的心被絲線扎住或鐵絲絞住了。",
+      "output_sha256": "b99b2ab3118f58d2467d66dfe5bf2c62f0042ae64438df8f93e70ed5dc6890d8",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "b99b2ab3118f58d2467d66dfe5bf2c62f0042ae64438df8f93e70ed5dc6890d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我聯想到母親死的時候。",
+      "output_sha256": "31e9e4bc1230dcec531072cb3f2c92b5e6075e252455ee3ddb0ea151baf3d0c8",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "31e9e4bc1230dcec531072cb3f2c92b5e6075e252455ee3ddb0ea151baf3d0c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "母親死以後，父親怎樣打我，又娶一個新母親來。",
+      "output_sha256": "2b87f57d1b1642ee3d08a74044a5cdb4bd4e4617ed18d46c4397a6ec8dabeec1",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "2b87f57d1b1642ee3d08a74044a5cdb4bd4e4617ed18d46c4397a6ec8dabeec1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "這個母親很客氣，不打我，就是罵，也是指着桌子或椅子來罵我。",
+      "output_sha256": "721c0388758088048baf4d66075c5d62add1af6b48fed2650377190b011c2e8e",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "721c0388758088048baf4d66075c5d62add1af6b48fed2650377190b011c2e8e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "客氣是越客氣了，但是冷淡了，疏遠了，生人一樣。",
+      "output_sha256": "b3b20eaf97fba974fc137ed2153e3d2136457a1d327c7d17d486891771ef8e97",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "b3b20eaf97fba974fc137ed2153e3d2136457a1d327c7d17d486891771ef8e97",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "“你去院子裡玩玩吧！”",
+      "output_sha256": "8c4128cda55f0a584d31f9fe7c88245f6145c67d680742f155192837e7b713ef",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.59,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "a4f8484856415c354013cb2e6139bf50da2436db6a73edf61106a8a8d5196c1b"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "8c4128cda55f0a584d31f9fe7c88245f6145c67d680742f155192837e7b713ef",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "祖父說了這話之後，在我的頭上撞了一下，“喂！",
+      "output_sha256": "2dbdc5b30d3f1b09a280e67f6c0e04518fd6c83d2768683d6d0b005663780854",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "2dbdc5b30d3f1b09a280e67f6c0e04518fd6c83d2768683d6d0b005663780854",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "你看這是什麼？”",
+      "output_sha256": "4c4e7d1e68ccbd3560684d1b84385ddd4a60973857ed8824a0b9fe8f79aee9d4",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "4c4e7d1e68ccbd3560684d1b84385ddd4a60973857ed8824a0b9fe8f79aee9d4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "一個黃金色的桔子落到我的手中。",
+      "output_sha256": "92c6668f54838284248ea9ca446d0b4a31e13c9578551a62fbbdc49dfe92b45d",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "92c6668f54838284248ea9ca446d0b4a31e13c9578551a62fbbdc49dfe92b45d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "夜裡我不敢自己去茅廁，便對他說：“媽媽帶我去茅廁吧。”",
+      "output_sha256": "9fe091d583998ff79de9b38fffdaae8ef121916a51e19bc732f9c8138ca7dd01",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.502671,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "5ed60e705e4ccf1e5dc3e844b0cb5d8c405ce7113c5aed8142acee3e0cf440a7"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "9fe091d583998ff79de9b38fffdaae8ef121916a51e19bc732f9c8138ca7dd01",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "“我不去！”",
+      "output_sha256": "9a3107b2c9d9ae423fecd2d0a508eeaa0d3e6a4361ae61c52646ce8d91e1fd22",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "9a3107b2c9d9ae423fecd2d0a508eeaa0d3e6a4361ae61c52646ce8d91e1fd22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“那我害怕呀！”",
+      "output_sha256": "52f2228f47f6484321f5f4ea4701aabaa9a9ac46fbe09e24636125c5c0982a58",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "52f2228f47f6484321f5f4ea4701aabaa9a9ac46fbe09e24636125c5c0982a58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "“怕什麼？”",
+      "output_sha256": "204c8657d8bd59b4a5227a0ab9321c2af03acff8417f6ea86d68834d24e9281b",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "204c8657d8bd59b4a5227a0ab9321c2af03acff8417f6ea86d68834d24e9281b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "“怕什麼？",
+      "output_sha256": "5596d12df243c611955377d4a7a19bca17b34b3b84a28662b7db2cf5652a8cd6",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "5596d12df243c611955377d4a7a19bca17b34b3b84a28662b7db2cf5652a8cd6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "怕鬼怕神？”",
+      "output_sha256": "5ceced85581ee7f27ed9e9acfd545f1765a2e5864566b00473e7fd63d44e2172",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "5ceced85581ee7f27ed9e9acfd545f1765a2e5864566b00473e7fd63d44e2172",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "父親也說話了，把眼睛從眼鏡上面看着我。",
+      "output_sha256": "a2cc292251cc1488b38c5dcf0d0be3fe76d70ef6dcca71476b9b6758b995b145",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "a2cc292251cc1488b38c5dcf0d0be3fe76d70ef6dcca71476b9b6758b995b145",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "冬天，祖父已經睡下，赤着腳，開着鈕釦跟我到外面茅廁去。",
+      "output_sha256": "88e0648b98878ed59606fcb555ccba1df630b6aa17f3de031800f933b2209ad1",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "88e0648b98878ed59606fcb555ccba1df630b6aa17f3de031800f933b2209ad1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "學校開學，我遲到了四天。",
+      "output_sha256": "e8c248fea76badd8257067d4e0d9bbee5803e56ea6b4c7099cd10f00b681cb0b",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "e8c248fea76badd8257067d4e0d9bbee5803e56ea6b4c7099cd10f00b681cb0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "三月裏，我又回家一次，正在外面叫門，裏面小弟弟嚷着：“姐姐回來了！",
+      "output_sha256": "a713c325b291eaa7392dac38bcbd55c0a446ee679b6542dca6ccabdff4736bc4",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "a713c325b291eaa7392dac38bcbd55c0a446ee679b6542dca6ccabdff4736bc4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "姐姐回來了！”",
+      "output_sha256": "9fca72614d7cd8654a3c8b21838e171d6975af6b9de33263b4efc1ed6aeac487",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "9fca72614d7cd8654a3c8b21838e171d6975af6b9de33263b4efc1ed6aeac487",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "大門開時，我就遠遠注意着祖父住着的那間房子。",
+      "output_sha256": "61f0e789af48367260de8d9c12446534367d476078ac5df04817da5c7fd8139f",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "61f0e789af48367260de8d9c12446534367d476078ac5df04817da5c7fd8139f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "果然，祖父的面孔和鬍子在玻璃窗中閃現。",
+      "output_sha256": "6722d60d82cd7ef1ae44c51fd2d49a6fb948f636f23b6f455cba7c93cf2275a6",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.800851,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "f46053ea7b0b7a43cea4416d50ba2852bf598da30f36a6d27c6999c07c9d402d"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "6722d60d82cd7ef1ae44c51fd2d49a6fb948f636f23b6f455cba7c93cf2275a6",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "我跳着笑着跑進屋去。",
+      "output_sha256": "d95f0da5f5c103ab40b5c4d560c4110f85a7218cd96888c5ceb93a4c1cb442ae",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "d95f0da5f5c103ab40b5c4d560c4110f85a7218cd96888c5ceb93a4c1cb442ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "但不是高興，只是心酸，祖父的臉色更慘淡更白了。",
+      "output_sha256": "a94a8f7a90acd1538df93d58282833eb3adfe1bc73015c4f844eb29ae6564fe4",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "a94a8f7a90acd1538df93d58282833eb3adfe1bc73015c4f844eb29ae6564fe4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "等屋裡一個人都沒有時，他流著淚，慌忙用袖口擦著淚水，嘴唇顫抖著說：“爺爺不行了，早晚都得走……前些日子差點摔死……”",
+      "output_sha256": "eab7897d535fa52ac95437a656df44838a7291b46fc2adc4b51705d2b755e710",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.548418,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "a1db74ab3328dd46e8638f4e860415a2c0ee58b0d9bd5e64bf36ebec25b7ffb5"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "eab7897d535fa52ac95437a656df44838a7291b46fc2adc4b51705d2b755e710",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "“怎麼跌的？”",
+      "output_sha256": "cb4a80f3951596ad5c64fa215e68b015f87b9fa2e688fed27b839e4ab38d8fc4",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "cb4a80f3951596ad5c64fa215e68b015f87b9fa2e688fed27b839e4ab38d8fc4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "“就在後屋，我想上廁所，叫人也沒聽見，按電鈴也沒人來，只好爬著去。",
+      "output_sha256": "c01fc00e12fa352d59163ebf7159e4b74d3c9886cd11f2d202459301c8240daf",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.579064,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "5763a36aade66798ed57dfccf87861ef158635f34791cd1ca87a0fd7dec1a3ef"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "c01fc00e12fa352d59163ebf7159e4b74d3c9886cd11f2d202459301c8240daf",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "還沒到後門口，腿顫，心跳，眼前發花了一陣就倒下去。",
+      "output_sha256": "66e8a21ce783ebe06d0fde0c453dd40a976fbd2521cb03ddd10afe972f43e7eb",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "66e8a21ce783ebe06d0fde0c453dd40a976fbd2521cb03ddd10afe972f43e7eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "沒跌斷了腰……人老了，有什麼用處！",
+      "output_sha256": "d5a6662affccc51af807833ddb89d5d0da49cf17a2fbae54439214ccdcabdfc8",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "d5a6662affccc51af807833ddb89d5d0da49cf17a2fbae54439214ccdcabdfc8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "爺爺已經八十一歲了。”",
+      "output_sha256": "dda2df4f2649a69789cb28f51dad07d4e46d03ecabb98f736de383b4039d8b44",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.629516,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "15befbe4c765af6e1dc6fdaaffcfcb45b39658d9b48aa97cec7092bc127ca50a"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "dda2df4f2649a69789cb28f51dad07d4e46d03ecabb98f736de383b4039d8b44",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "“爺爺是八十一歲。”",
+      "output_sha256": "4a30c5024f3bce31da83670bb7fc5a6cd162e43688a73a3a42e05b7a173529ba",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "4a30c5024f3bce31da83670bb7fc5a6cd162e43688a73a3a42e05b7a173529ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "“沒用了，活了八十一歲還是在地上爬呢！",
+      "output_sha256": "aea81a661323d001b7fd2082b74201859359f91f014a1e68ac60fcf887ef01eb",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "aea81a661323d001b7fd2082b74201859359f91f014a1e68ac60fcf887ef01eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "我想你可能看不到爺爺了，沒想到我又慢慢爬回炕上。”",
+      "output_sha256": "ec038e39d1808db24755c51359d754618c427f0398659e72bab84165d7ad4d80",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.627213,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "75a744bde1904530f2ad99d07db3da8f8b5471dd7a1595ea4f303465a0977eae"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "ec038e39d1808db24755c51359d754618c427f0398659e72bab84165d7ad4d80",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "我走的那天也是和我回來那天一樣，白色的臉的輪廓閃現在玻璃窗裏。",
+      "output_sha256": "398e5d684636f297b52b84603d344cf87db3e3fc394b85bc023b59b8fd26eccc",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "398e5d684636f297b52b84603d344cf87db3e3fc394b85bc023b59b8fd26eccc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "在院心我回頭看着祖父的面孔，走到大門口，在大門口我仍可看見，出了大門，就被門扇遮斷。",
+      "output_sha256": "262eba3e1dca7ff27dc02d9a44ac4011f9d06ba2406d7f590e3fa7b768809e7d",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "262eba3e1dca7ff27dc02d9a44ac4011f9d06ba2406d7f590e3fa7b768809e7d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "從這一次祖父就與我永遠隔絕了。",
+      "output_sha256": "7034bc96cacc62534e3644616b31e5df8854e8c9f1373904a69775065333a763",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "7034bc96cacc62534e3644616b31e5df8854e8c9f1373904a69775065333a763",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "雖然那次告別並未說出永別的言語，但我回來探望祖父時，已經聽見前面吹著喇叭，幡杆高過房頂，馬車離家還很遠時，我就看見那高高的白色幡杆。",
+      "output_sha256": "42c2ba1582fb5205519ff55f75349e110d3db3ad4217c26eec2b14538ad519af",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.512087,
+      "human_sentence_indices": [
+        45,
+        46
+      ],
+      "human_sha256": [
+        "cd4b0420cd8b07e328d2c6dbfc4b90c1642d6366162c323941ef40dcbed4edcc",
+        "49eb55bb7096235b7f42453ea883153c0679dd0bae35bb3a39932e729b167ca1"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "42c2ba1582fb5205519ff55f75349e110d3db3ad4217c26eec2b14538ad519af",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "鼓手們的喇叭聲淒涼地響起，馬車在喇叭聲中停下，白幡、白對聯、院中的靈棚，周圍擠滿了許多人，鼓手們發出陣陣哀號。",
+      "output_sha256": "eb2b3f4ed659f9eed4be137d84fa861f0a383009afca8e90d1a9ca556c2b586f",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.52149,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "ee2a15f7dbfc02f2edab2a05175769b6c40bb62e20ddc1f677d75eed556218a4"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "eb2b3f4ed659f9eed4be137d84fa861f0a383009afca8e90d1a9ca556c2b586f",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "這回祖父不坐在玻璃窗裏，是睡在堂屋的板牀上，沒有靈魂地躺在那裏。",
+      "output_sha256": "60395ff7e9e9994ac6d4425f92cc34085591aba818f1f8b4f237d881d7367da4",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "60395ff7e9e9994ac6d4425f92cc34085591aba818f1f8b4f237d881d7367da4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "我要看一看他白色的鬍子，可是怎樣看呢！",
+      "output_sha256": "f5373f6deb4679ef2d05edc0d74472db01833692fb9e54a971c9f3b3ae28ec8d",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "f5373f6deb4679ef2d05edc0d74472db01833692fb9e54a971c9f3b3ae28ec8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "拿開他臉上覆蓋的紙，鬍子、眼睛和嘴巴都再也不會動了，他真的已經沒有一絲感覺。",
+      "output_sha256": "8df21aaeaebdf9932c7b74bc7a19ef3fedfd33b2015d1eeedf61e28009407762",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.657899,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "58523f7518c9eae720b645e924f2d03d312ac37e874aa1f730e9947102de5056"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "8df21aaeaebdf9932c7b74bc7a19ef3fedfd33b2015d1eeedf61e28009407762",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "我從祖父的袖管裏去摸他的手，手也沒有感覺了。",
+      "output_sha256": "cc4229387042da7f248b57c9cc39c9847a273836a260dd346554128dcf0afdb7",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "cc4229387042da7f248b57c9cc39c9847a273836a260dd346554128dcf0afdb7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "祖父這回真死去了啊！",
+      "output_sha256": "2ea3824b7dfa52660999e7d0315636cc2f1b5dffc1f5312533590ad371dcb94e",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "2ea3824b7dfa52660999e7d0315636cc2f1b5dffc1f5312533590ad371dcb94e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "祖父裝進棺材去的那天早晨，正是後園裏玫瑰花開放滿樹的時候。",
+      "output_sha256": "5332e6d0ac0b426f2a5eb8b3ebe9a36e5f4adcccfe3650f5d741d0d3da10f4d8",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "5332e6d0ac0b426f2a5eb8b3ebe9a36e5f4adcccfe3650f5d741d0d3da10f4d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "我扯着祖父的一張被角，擡向靈前去。",
+      "output_sha256": "842e547836808d4557cf701469b25d136a79106077fa4cbbfd0ca8b9577ab05c",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "842e547836808d4557cf701469b25d136a79106077fa4cbbfd0ca8b9577ab05c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "吹鼓手在靈前吹着大喇叭。",
+      "output_sha256": "471abc23adefa31e88495b0d9c6eea25f078b0f75e22fa859306607edfb44a91",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "471abc23adefa31e88495b0d9c6eea25f078b0f75e22fa859306607edfb44a91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "我怕起來，我號叫起來。",
+      "output_sha256": "754704e1859ff3c59f12a9022ff4e41c14701c6bbe4452e04b3cebb5d9e3b3f5",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "754704e1859ff3c59f12a9022ff4e41c14701c6bbe4452e04b3cebb5d9e3b3f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "“咣咣！”",
+      "output_sha256": "d371d0cc351d31558a5331457105d0228fabedacf5b2076a32b22623a8fdde5f",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "d371d0cc351d31558a5331457105d0228fabedacf5b2076a32b22623a8fdde5f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "黑色的，半尺厚的靈柩蓋子壓上去。",
+      "output_sha256": "16fdb494619fe4fda8e4340f5bb1e9db0b503b5b764c7335b911972f40d47b24",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "16fdb494619fe4fda8e4340f5bb1e9db0b503b5b764c7335b911972f40d47b24",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "吃飯的時候，我飲了酒，用祖父的酒杯飲的。",
+      "output_sha256": "458846938f6e02e077db63db995c309fa5f2378dd3c56951aaa6212075b596a3",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "458846938f6e02e077db63db995c309fa5f2378dd3c56951aaa6212075b596a3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "飯後我跑到後園玫瑰樹下去臥倒，園中飛着蜂子和蝴蝶，綠草的清涼的氣味，這都和十年前一樣。",
+      "output_sha256": "6344e592b49a2c3433bf5cefec7bcea41a167236debb84bfb9c48c9d7754e87c",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "6344e592b49a2c3433bf5cefec7bcea41a167236debb84bfb9c48c9d7754e87c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "可是十年前死了媽媽。",
+      "output_sha256": "2013eda1a1309ded87a939c905fb97a5c015098d9bcff78509cf9f512956ad2a",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "2013eda1a1309ded87a939c905fb97a5c015098d9bcff78509cf9f512956ad2a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "媽媽死後我仍是在園中撲蝴蝶；這回祖父死去，我卻飲了酒。",
+      "output_sha256": "9bf62763212a5c6f480fb9f8093959a05f70533dd6d16b5a4298dc2ccf6b8cf3",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "9bf62763212a5c6f480fb9f8093959a05f70533dd6d16b5a4298dc2ccf6b8cf3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "過去的十年我是和父親打鬥着生活。",
+      "output_sha256": "37aac9fcf2ca12f756cb12569334956a3119392128c4c9cdd0edea3a3690f5db",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "37aac9fcf2ca12f756cb12569334956a3119392128c4c9cdd0edea3a3690f5db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "在這期間我覺得人是殘酷的東西。",
+      "output_sha256": "a49c194cc766a92b4025782f6b5706f3bd05b0b33621374246889d9c64fbb700",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "a49c194cc766a92b4025782f6b5706f3bd05b0b33621374246889d9c64fbb700",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "父親對我毫無好臉色，對僕人也是如此，甚至對祖父也一樣。",
+      "output_sha256": "ee5bf35c2977f381853ca5af9867a1272a7195c2fe757212882a52b19d189592",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.435,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "08916c0f621192aaf57ebd2e3d36b91267736c78589394885407a80d7e851ded"
+      ],
+      "source_ai_sentence_index": 62,
+      "source_ai_sha256": "ee5bf35c2977f381853ca5af9867a1272a7195c2fe757212882a52b19d189592",
+      "ai_unit_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "因為僕人是窮人，祖父是老人，而我只是個小孩，所以我們這些毫無保障的人都淪落在他的手中。",
+      "output_sha256": "ba1d8f4dbadbe8356a8edd26a86d9440e0e806b60795d35333805407acd8704b",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.693376,
+      "human_sentence_indices": [
+        66
+      ],
+      "human_sha256": [
+        "0111f5b982c5c2ce15d71057d10a0c53e478f526c54eab5b1c3f9dc6ffcb30fa"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "ba1d8f4dbadbe8356a8edd26a86d9440e0e806b60795d35333805407acd8704b",
+      "ai_unit_sentence_indices": [
+        63
+      ]
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "後來，我看到新母親也逐漸被他掌控，當他高興時會跟她開玩笑，生氣時卻會罵她，母親逐漸對父親也感到恐懼。",
+      "output_sha256": "df9a4661901c693e9dfcfefc87a5adec5f499ac16d5d3f50fcafd6b82d2d7f8d",
+      "alignment_unit_index": 63,
+      "alignment_score": 0.451615,
+      "human_sentence_indices": [
+        67
+      ],
+      "human_sha256": [
+        "01b592447893c8776b0dd119e3d381ef8fb645b0e31912fd29cb5586ad28135b"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "df9a4661901c693e9dfcfefc87a5adec5f499ac16d5d3f50fcafd6b82d2d7f8d",
+      "ai_unit_sentence_indices": [
+        64
+      ]
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "母親也不是窮人，也不是老人，也不是孩子，怎麼也怕起父親來呢？",
+      "output_sha256": "ab924c3be68a47ce41accca67b0bde189c41758d4f9c04eed0841db9f96239fe",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "ab924c3be68a47ce41accca67b0bde189c41758d4f9c04eed0841db9f96239fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 27,
+      "origin": "ai",
+      "text": "我去鄰居家看看，鄰家的女性也害怕男人。",
+      "output_sha256": "1ec2c76778baa6abc1d415abfd7a85f8a81eb3263877214151212f850735c8fd",
+      "alignment_unit_index": 65,
+      "alignment_score": 0.656618,
+      "human_sentence_indices": [
+        69
+      ],
+      "human_sha256": [
+        "ebc8b1fa5188e2420e42a9f17cb2250faec262dd38c3b16c982f6d27f9034091"
+      ],
+      "source_ai_sentence_index": 66,
+      "source_ai_sha256": "1ec2c76778baa6abc1d415abfd7a85f8a81eb3263877214151212f850735c8fd",
+      "ai_unit_sentence_indices": [
+        66
+      ]
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 27,
+      "origin": "ai",
+      "text": "我去舅家，舅母同樣對舅父心存畏懼。",
+      "output_sha256": "0a223572a9241b252868a38f1e4fa4bf064e11ad2e07ba11db05be0f2f45f9ce",
+      "alignment_unit_index": 66,
+      "alignment_score": 0.475476,
+      "human_sentence_indices": [
+        70
+      ],
+      "human_sha256": [
+        "ef48fc42e7d793993f8db3f5a9f86f4af76a12db2911895a26159c364a9de0de"
+      ],
+      "source_ai_sentence_index": 67,
+      "source_ai_sha256": "0a223572a9241b252868a38f1e4fa4bf064e11ad2e07ba11db05be0f2f45f9ce",
+      "ai_unit_sentence_indices": [
+        67
+      ]
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 28,
+      "origin": "human",
+      "text": "我懂得的盡是些偏僻的人生，我想世間死了祖父，就沒有再同情我的人了，世間死了祖父，剩下的盡是些兇殘的人了。",
+      "output_sha256": "34773b6ca90e9d58894b173d23d8d1d739cf9e0ea508c41309efda4242f3a57b",
+      "alignment_unit_index": 67,
+      "alignment_score": null,
+      "source_human_sentence_index": 71,
+      "source_human_sha256": "34773b6ca90e9d58894b173d23d8d1d739cf9e0ea508c41309efda4242f3a57b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 29,
+      "origin": "ai",
+      "text": "我喝著酒，回憶著，幻想著……",
+      "output_sha256": "42d76d42464f893d0a5d8127d1ad039bac5f173114536956ec015c7d9007ad18",
+      "alignment_unit_index": 68,
+      "alignment_score": 0.477857,
+      "human_sentence_indices": [
+        72
+      ],
+      "human_sha256": [
+        "90cd567980e6c8740b0103935bb846bed757f81655094fca48f38322d269759e"
+      ],
+      "source_ai_sentence_index": 69,
+      "source_ai_sha256": "42d76d42464f893d0a5d8127d1ad039bac5f173114536956ec015c7d9007ad18",
+      "ai_unit_sentence_indices": [
+        69
+      ]
+    },
+    {
+      "sentence_index": 73,
+      "paragraph_index": 30,
+      "origin": "ai",
+      "text": "以後我必須離開家，融入廣大的群體中，但在玫瑰樹下，我卻顫抖著，因為人群中再也沒有我的祖父。",
+      "output_sha256": "40f556abfcc5ed6483aec40889677cab9849afff8135735322e26d1eaf57c90f",
+      "alignment_unit_index": 69,
+      "alignment_score": 0.580357,
+      "human_sentence_indices": [
+        73
+      ],
+      "human_sha256": [
+        "9827d7327eb47be316e8658c407fbd5cf554ce84c324ff569a84b77049e33541"
+      ],
+      "source_ai_sentence_index": 70,
+      "source_ai_sha256": "40f556abfcc5ed6483aec40889677cab9849afff8135735322e26d1eaf57c90f",
+      "ai_unit_sentence_indices": [
+        70
+      ]
+    },
+    {
+      "sentence_index": 74,
+      "paragraph_index": 31,
+      "origin": "ai",
+      "text": "因此，我哭著，直到祖父去世的那一刻，我都在哭泣。",
+      "output_sha256": "74f34953c2c2a923faf3629d5c54529f40602fd980886638a960247e516cfb46",
+      "alignment_unit_index": 70,
+      "alignment_score": 0.38,
+      "human_sentence_indices": [
+        74
+      ],
+      "human_sha256": [
+        "2d5cc62b7d5265f1ac8a8d28b11a5c5c0edfe212f6f88aba54d0b20bfb7a517e"
+      ],
+      "source_ai_sentence_index": 71,
+      "source_ai_sha256": "74f34953c2c2a923faf3629d5c54529f40602fd980886638a960247e516cfb46",
+      "ai_unit_sentence_indices": [
+        71
+      ]
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "source_id": "ZH001",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "6262d28ec78d4389d900509d8bb7971829c2a4c869336a7826d5a91de34b2a51",
+  "ai_article_sha256": "06576657e38da256575f8d6804f2ffa5b5b303e2a8a72c94a44dd94cf5b6d94e",
+  "mixed_article_sha256": "ef3ee751c66cc57b01b618ba23704c94ec98f58fa425e46dce5a1613f3e2ab62",
+  "human_source_sentence_count": 51,
+  "ai_source_sentence_count": 47,
+  "alignment_unit_count": 47,
+  "selected_alignment_unit_count": 17,
+  "mixed_sentence_count": 49,
+  "selected_ai_sentence_count": 17,
+  "actual_ai_sentence_ratio": 0.346939,
+  "selected_alignment_score_min": 0.306523,
+  "selected_alignment_score_median": 0.56461,
+  "selected_alignment_score_max": 0.727104,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "从前看惯旧小说的人总觉得新小说无头无尾，捉摸起来费劲儿。",
+      "output_sha256": "d6ddd8fae8e2736a3c0da62c54d1267e116782fcaf0de46d7b638b703b34eae4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "d6ddd8fae8e2736a3c0da62c54d1267e116782fcaf0de46d7b638b703b34eae4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "后来习惯渐渐改变，受过教育的中年少年读众，看那些斩头去尾的作品，虽费点劲儿，却已乐意为之。",
+      "output_sha256": "1877d466be4129b7090128537a0bf14a97b3331fd36bd54831b2b24139419efb",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "1877d466be4129b7090128537a0bf14a97b3331fd36bd54831b2b24139419efb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "可他们的关注点仍然集中在故事情节上。",
+      "output_sha256": "03e6a7892524a94a0bc16655e92b771cd994404f6f45c18df39c856dfc42f97d",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.314314,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "8e78ee1d8d38622d02c12a93307600328163878a9f6b5cdaaaf0ba4644dcb05c"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "03e6a7892524a94a0bc16655e92b771cd994404f6f45c18df39c856dfc42f97d",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "直到近两年，才有不以故事为主而专门描写心理的，像施蜇存先生的《石秀》诸篇便是；读众的反应似乎也不坏。",
+      "output_sha256": "778bc9bfa09cf770b9ecb6ef2de9c98fd1427f11bc2479e971cfbfb998330cbc",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "778bc9bfa09cf770b9ecb6ef2de9c98fd1427f11bc2479e971cfbfb998330cbc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这自然是一个进展。",
+      "output_sha256": "0e21dd57f06ff120a25ecd89e9b01f67e464bbabb7eb1dd2efb9a0e453d4c42c",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "0e21dd57f06ff120a25ecd89e9b01f67e464bbabb7eb1dd2efb9a0e453d4c42c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "但施先生只写了些短篇；长篇要算这本《心病》是第一部。",
+      "output_sha256": "7913b1c373d1193052271415b30a8076a5521408232b0b3b30b4288030ed20ba",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "7913b1c373d1193052271415b30a8076a5521408232b0b3b30b4288030ed20ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "施先生的描写还依著逻辑的顺序，李先生的却有些处只是意识流的纪录；这是一种新手法，李先生自己说是受了吴尔芙夫人等的影响。",
+      "output_sha256": "78eefdd447945e205a81d27090381587cc49c2d422ae0ffd529ecdbcf45806af",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "78eefdd447945e205a81d27090381587cc49c2d422ae0ffd529ecdbcf45806af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "在《新月》的四卷一号中，收录了吴尔芙夫人《墙上一点痕迹》的翻译，译者叶公超先生在序言中提到：",
+      "output_sha256": "2f8119a8da93d03c7cffb2ae34496eb49e485a0b683dbe307905c5bcbbeb4e30",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.645907,
+      "human_sentence_indices": [
+        8,
+        9
+      ],
+      "human_sha256": [
+        "dd60f502f8a29ecac179dc78f3fecd40be8ec6c03b5bdd15848fae59a9259a02",
+        "2de2b183d01eba3a1642287513b9bafdae3c01825708e9360aa0a1c05b998cd9"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "2f8119a8da93d03c7cffb2ae34496eb49e485a0b683dbe307905c5bcbbeb4e30",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "所以，一个简单意识的印象可以引起无穷下意识的回想。",
+      "output_sha256": "7c0d009cf1d2bac5d030a3c65c481983c1e5e3a7814d65250caa1837b0608adc",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "7c0d009cf1d2bac5d030a3c65c481983c1e5e3a7814d65250caa1837b0608adc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这种模糊的回忆未必有逻辑的连贯性，每一段也不一定完整，随时可以开始和停止，转向与激动幻想似乎毫无关联的方向。",
+      "output_sha256": "e3a54d1bb92d6670e40e25740b8713f1bf07a792b86ab177fcde5809fae90a4a",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.581766,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "234fef68d1dff6c7a9ee06463cdf505b836aa4d38cf874a9b5c1bc5ee44df757"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "e3a54d1bb92d6670e40e25740b8713f1bf07a792b86ab177fcde5809fae90a4a",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "若我冒昧地打个比方，这就有些像电影中的回忆，朦胧而模糊。",
+      "output_sha256": "fa71a47788cdcaf9be70cf60cf30473884f444590c3d1221f4729b2926d3e211",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.54842,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "394204b667ec8983b04531ffbf73fe0eedf4303cc8703613e0c78ab9184d7270"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "fa71a47788cdcaf9be70cf60cf30473884f444590c3d1221f4729b2926d3e211",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "《心病》里有几处最可以看出向这方面的努力。",
+      "output_sha256": "9384f369883f07571a5d8d4698826c5eca775a65ebff4b5cfa1fe7aa69fba375",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "9384f369883f07571a5d8d4698826c5eca775a65ebff4b5cfa1fe7aa69fba375",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "如穷鬼变成旧皮袍（十六面），电门变成母亲（百零九面），秦太太路中的思想（中卷第一章），刘妈洗衣服时的回想（一九八面）。",
+      "output_sha256": "2df22b335c68c44fa5173f0b03a6d4950a046e3eb7c7784c2a7a10ae65d500bb",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "2df22b335c68c44fa5173f0b03a6d4950a046e3eb7c7784c2a7a10ae65d500bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但全书的描写，大体上还是有“逻辑的连贯”的。",
+      "output_sha256": "eca3f2715c83b6ae27d5f0348a2272986ce66e2b0d153dfed7ed3d7dd51b078d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "eca3f2715c83b6ae27d5f0348a2272986ce66e2b0d153dfed7ed3d7dd51b078d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "书中几个重要人物都是些平常人：大学生，小官僚，官亲，旧式太太小姐。",
+      "output_sha256": "587bdae8a3cb03e9befaa461da5918c85e5fd8b933679d020127284258755e8f",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "587bdae8a3cb03e9befaa461da5918c85e5fd8b933679d020127284258755e8f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "除了秦绣英外，其他人都处于不幸之中，尤其是陈蔚成，他承受了最多的精神压力，自己的叙述非常详细（第325至327页），因此显得有些“痴”，也有些怪异；他不爱说话，却特别喜欢舅母的小脚，这是一个显著的例子。",
+      "output_sha256": "9bd3031bbd1cc6177a968d0c3b81cceafd50d7cda1f92861b9c6ee7eaf0fca4d",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.462768,
+      "human_sentence_indices": [
+        17,
+        18
+      ],
+      "human_sha256": [
+        "b74e11f941233cb6099b6871d757ebcb3e4328dbe49ffee5d59b9bfc471ec794",
+        "0b6effff97b3d7bdd9007fe9060dbb7b6e6fc84d8f0bc789331fc27a87493c31"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "9bd3031bbd1cc6177a968d0c3b81cceafd50d7cda1f92861b9c6ee7eaf0fca4d",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他舅母（洪太太）是个“有识有为的妇人”，可是那份儿良心的责备也够她挣扎的。",
+      "output_sha256": "8f568317cebc2041b7a7b33f013619f263583a676bc1b343699f238e19e0a5f7",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "8f568317cebc2041b7a7b33f013619f263583a676bc1b343699f238e19e0a5f7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "舅舅怯懦得出奇。",
+      "output_sha256": "03a4c40a9818035215045db4d8cfad9652bdce3690c714228666bddcae6e6e6a",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "03a4c40a9818035215045db4d8cfad9652bdce3690c714228666bddcae6e6e6a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "陈蔚成的丈母娘（秦太太）受尽丈夫的折磨，寄托一切希望在女儿和菩萨身上，见到穷叫化婆子时牵挂不已，兄弟（吴子青）则显得“死心眼”，大女儿（绣云）在出嫁前如此“心烦”，也颇为奇怪。",
+      "output_sha256": "d719aa946752380c0bc472d987766e9a13759d627c123f65607e5dbeb2a25ab3",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.635614,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "5a525bb8fd757017fb29986fe70bf20dd05950f2aa44c9d42c0e9f9e7e4af905"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "d719aa946752380c0bc472d987766e9a13759d627c123f65607e5dbeb2a25ab3",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "实际上，细读全书，会发现一切都是必然之事，毫不奇怪；唯独那位穷叫化婆子的线索稍显模糊。",
+      "output_sha256": "c8d06fce5a4b7930cc179ec40025a184509ea9e90795f45f1a41efca316110af",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.48178,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "c2d64d3b1c5cf37311ee5fe8210177fa378441e19a2c38be4997ff2864e4573f"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "c8d06fce5a4b7930cc179ec40025a184509ea9e90795f45f1a41efca316110af",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我们通常并不细致地分析人的内心，初看这部作品，可能会觉得些许陌生和反常，静下心来思考，却发现其间充满情理。",
+      "output_sha256": "cee9192d9eb0d32cbbd9ff018c395da807395c9e69bc31ce3d4eb4ad04fa5ecd",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.44625,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "10905b4143c4d092261518a28a81bb46f67702b0a1f585fe977bca952fa5c9e8"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "cee9192d9eb0d32cbbd9ff018c395da807395c9e69bc31ce3d4eb4ad04fa5ecd",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这几个人除秦绣英外，又都是压在礼教底下的人。",
+      "output_sha256": "8fe072631e82dc79b9f8db5e043e1ea68c2cfe8810467b375fa321337aa08251",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "8fe072631e82dc79b9f8db5e043e1ea68c2cfe8810467b375fa321337aa08251",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "陈蔚成明白舅舅舅母的罪恶，却只能选择“以一死了之”。",
+      "output_sha256": "c22981f7e0ea2fea9d437f88513fb611669b5240ab2f351d605b6d54e9d077c9",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.727104,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "14da5b4c97998c826f1ff2c5d434dcf33a83c6562d03e4ce44edd4825262dde8"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "c22981f7e0ea2fea9d437f88513fb611669b5240ab2f351d605b6d54e9d077c9",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "他的丈母娘与妻子（秦绣云）更是完全遵循礼教。",
+      "output_sha256": "a8f0913066a7809242fac3b66e6e4894f326e10ff458527989bf4233f92ba40f",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.60569,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "9af3f4a2becbfbf9d78499bcedb7aad34e9b6fe731c2f494262295acad4acf67"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "a8f0913066a7809242fac3b66e6e4894f326e10ff458527989bf4233f92ba40f",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "即使吴子青无理取闹，也倚仗着礼教作为护身符；洪太太则因害怕闲话而表现出礼教的影响。",
+      "output_sha256": "f660576e16292c6960153ab9f928470143f0d073e03b8be99302ea50d0dc610b",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.56461,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "efdfffd48f287be10829ba3539ee8b0147402b7d755d28e9c22fea40566e3aa5"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "f660576e16292c6960153ab9f928470143f0d073e03b8be99302ea50d0dc610b",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们都没有自己；这正是我们旧时代的遗影。",
+      "output_sha256": "6b744342fb5f258111ff68ff7e484d16b5e349a28cce8b6edebe5a26c06fd76f",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "6b744342fb5f258111ff68ff7e484d16b5e349a28cce8b6edebe5a26c06fd76f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "除此以外，书中似乎还暗示著一种超人的力量。",
+      "output_sha256": "5d0765b34c026e2669c81d770895c79847c7753d2c6c689e3113bf77811ca82c",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "5d0765b34c026e2669c81d770895c79847c7753d2c6c689e3113bf77811ca82c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "从头起就描写恐怖，超人的，人的：女鬼，结婚戒指忽然不见，胡方山的妻的死，陈蔚成中电，他的形体，他的白手套，尘封了的他住过的屋子。",
+      "output_sha256": "e9b1cf32853bca056df21b2e9b3ac2ad1014b608c5a61c318989d61799435b17",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "e9b1cf32853bca056df21b2e9b3ac2ad1014b608c5a61c318989d61799435b17",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "而且以谈鬼始，以谈鬼终。",
+      "output_sha256": "78915d9bcfbe01bcfd94470776e3c2de926109fe11b2bfcea15d18f04b347a72",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "78915d9bcfbe01bcfd94470776e3c2de926109fe11b2bfcea15d18f04b347a72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "读完了这本书，真阴森森的有鬼气，似乎“运命”在这儿伸了一双手。",
+      "output_sha256": "5c375254cb2addffbbea4f8251b9c175e42db1fbf377b14b3721357585a7506d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "5c375254cb2addffbbea4f8251b9c175e42db1fbf377b14b3721357585a7506d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "但这个“运命”是有点神秘的，不是近代的“运命”观念，也许是爱伦坡的影响（作者写过一篇《影》，自己说受了这个人的影响），但在全书里是谐和的。",
+      "output_sha256": "8e4febb3005fc81512049bdd3740232b6cba619bd49f560c457f7030af5b818f",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "8e4febb3005fc81512049bdd3740232b6cba619bd49f560c457f7030af5b818f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "性格最分明的，陈蔚成之外要数洪太太、吴子青；这三个人在我们眼前活著。",
+      "output_sha256": "41aa018a2f588affe78bbd61b4bf76b815848d305dcb417495ab7779c4068b56",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "41aa018a2f588affe78bbd61b4bf76b815848d305dcb417495ab7779c4068b56",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "别人我们只知道一枝一节，好像传闻没有见面。",
+      "output_sha256": "a33cb6aef897c1a2d859cf4e45b5dd78d091808bc1347ab3411c2dd0f1a830fc",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "a33cb6aef897c1a2d859cf4e45b5dd78d091808bc1347ab3411c2dd0f1a830fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "中卷第二章描写秦绣云和她的姐妹在等待母亲从洪家回来的一个下午。",
+      "output_sha256": "6b3eeef400f4538f3a8da5d55b2c7f9ca933c2ffaf882741be43cf86e8b59f04",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.601667,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "f453da572c1742c776cd6c447a5fef1306517ae6ff156d959ed7b80dd31e33d2"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "6b3eeef400f4538f3a8da5d55b2c7f9ca933c2ffaf882741be43cf86e8b59f04",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "写绣云暗地里心焦，她妹子绣英却老逗著她玩儿。",
+      "output_sha256": "8a5b75e02c21c9413d0128d9790486e3bd233ef896df57a523cbf44e350020d3",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "8a5b75e02c21c9413d0128d9790486e3bd233ef896df57a523cbf44e350020d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "两个少女的情感交织得恰到好处。",
+      "output_sha256": "9a724d0271c186efdebdd7c3acc55c4cfeaa5d521940dd566df2a589ab3a1498",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.513706,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "ee7815481e268839156f3ab1b4a2a971f1c9ba46e396ebd63b548a57af91b420"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "9a724d0271c186efdebdd7c3acc55c4cfeaa5d521940dd566df2a589ab3a1498",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "其他地方难免有些堆砌之感，但这段描写却流畅自然。",
+      "output_sha256": "ccae4511937c032c0e5564edd2bb1f675af0d456ba92d9f0015b3d6c46d61d6e",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.306523,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "f4b052c1eb74c2c1bf364089bdc5f8010ed5486d9de4c0ac0c4ceb72a35e854b"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "ccae4511937c032c0e5564edd2bb1f675af0d456ba92d9f0015b3d6c46d61d6e",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "上卷中胡方山占据的篇幅过多，略显臃肿；尤其是第九章，描写平常学生生活的一幕，与全书的整体不太相称。",
+      "output_sha256": "97df965d96e736b3cc3d04f2ecf19ae17b2224fcadc469ba07ebfc517ac0bf04",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.624249,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "abb55d2d28035edae08c3222d6796432469d3fe0512456fc5e1ae8534cb4de2f"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "97df965d96e736b3cc3d04f2ecf19ae17b2224fcadc469ba07ebfc517ac0bf04",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "书中所写，不过一个多月的事。",
+      "output_sha256": "aa9ab203ade3d58b0970a9bf0f952fcde902ba0c5a2c9a5c11505493db9222d0",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "aa9ab203ade3d58b0970a9bf0f952fcde902ba0c5a2c9a5c11505493db9222d0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "上卷是陈蔚成自记，写洪家；中卷写秦家；下卷先写洪家，次写秦家，接著又是陈蔚成自记，写婚后——最后写秦绣云接到他的遗书。",
+      "output_sha256": "8a936d3dca464cdfc0cc375bdf63269792b9635a8875871af3b71d765ff9a84b",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "8a936d3dca464cdfc0cc375bdf63269792b9635a8875871af3b71d765ff9a84b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "第一身与第三身错综地用著，不但不乱，却反觉得“合之则两美”，为的是两种口气各各用得在情在理，教读者觉得非用不可。",
+      "output_sha256": "1470471085b8274e548b7ce7cd761c724b05c14a4655e17bce5a7ceb2a7c647e",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "1470471085b8274e548b7ce7cd761c724b05c14a4655e17bce5a7ceb2a7c647e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "尽管全书只涉及一个小小的世界，但在这小小的世界中，各个元素却紧密相连，几乎可以说是滴水不漏，这显示了智慧的力量。",
+      "output_sha256": "0423745f33991a9c7259162df176628ad79379b860028c50275e94281a83f36b",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.549548,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "9218f5de7bfbbff2e21433931dfa7cf513b8622118c00ac367481ab315fae87b"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "0423745f33991a9c7259162df176628ad79379b860028c50275e94281a83f36b",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "举个精巧的例子：在中卷第二章中，张妈问秦绣云（那时她正心焦地等待母亲回来的情形）关于她嫁衣的布料——",
+      "output_sha256": "e04ec60a55a4ba2279fd53118823aed8ae0f82193e0122a80a08e40ecb43d588",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.605784,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "009790e962153a6f6df8d3589788332018432990e10a72a6b7306c27aed20ee5"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "e04ec60a55a4ba2279fd53118823aed8ae0f82193e0122a80a08e40ecb43d588",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "也不知道为什么，她忽然多起心来。",
+      "output_sha256": "2d6a635c3127dded804c94d237ad5539f0f92c3d3d94963572dcc2c1aebfd000",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "2d6a635c3127dded804c94d237ad5539f0f92c3d3d94963572dcc2c1aebfd000",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "她的多心使她烦燥。",
+      "output_sha256": "2327e60974d80bbe0faac257781384b6af68352567c3ffe8ce018156d29619c9",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "2327e60974d80bbe0faac257781384b6af68352567c3ffe8ce018156d29619c9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "——等太太回来吧，这些事情真麻烦！",
+      "output_sha256": "8d28ad645d5c0a241d7c6c2da9a5f7da2087943a8dbae4c858fc59de7f6df668",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "8d28ad645d5c0a241d7c6c2da9a5f7da2087943a8dbae4c858fc59de7f6df668",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "她的意思在衣料，然而不知道为什么却用了一个多数，好像“这些”能掩饰住她的自觉心。",
+      "output_sha256": "c07768124d4fb9e5aafa4593777e3802221d883f847c7314520fcffaa1b44749",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "c07768124d4fb9e5aafa4593777e3802221d883f847c7314520fcffaa1b44749",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "多数与单数的效用，一般人是不大会这么辨别的。",
+      "output_sha256": "c1d849f8a6f48cb13ebd32feb10f2c3e1fb644a6e3758a0faf4c5067362b6502",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "c1d849f8a6f48cb13ebd32feb10f2c3e1fb644a6e3758a0faf4c5067362b6502",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "书中不少的幽默，读的时候像珠子似的滚过我们的眼。",
+      "output_sha256": "ce57004cfd202dc82fbadab94ffc746a5226bf8d892534691aaf418482304dad",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "ce57004cfd202dc82fbadab94ffc746a5226bf8d892534691aaf418482304dad",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

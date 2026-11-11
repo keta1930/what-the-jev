@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>《飘零》在线阅读 | 朱自清 - 可阅文学网</title>
+    <meta name="keywords" content="飘零,朱自清,散文随笔,可阅,可阅文学">
+    <meta name="description" content="内容：一个秋夜，我和Ｐ坐在他的小书房里，在晕黄的电灯光下，谈到Ｗ的小说。“他还在河南吧？Ｃ大学那边很好吧？”我随便问着。“不，他上美国去了。”“美国？做什么去？”...">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="20025">
+    <meta property="og:type" content="novel">
+    <meta property="og:title" content="飘零">
+    <meta property="og:description" content="内容：一个秋夜，我和Ｐ坐在他的小书房里，在晕黄的电灯光下，谈到Ｗ的小说。“他还在河南吧？Ｃ大学那边很好吧？”我随便问着。“不，他上美国去了。”“美国？做什么去？”...">
+    <meta property="og:url" content="https://www.kepub.net/book/20025/">
+    <meta property="og:novel:category" content="散文随笔">
+    <meta property="og:novel:author" content="朱自清">
+    <meta property="og:novel:book_name" content="飘零">
+    <meta property="og:novel:read_url" content="https://www.kepub.net/book/20025/">
+    <meta property="og:novel:status" content="全本">
+    <meta property="og:novel:update_time" content="2020-04-15 23:56">
+    <meta property="og:novel:latest_chapter_name" content="飘零">
+    <meta property="og:novel:latest_chapter_url" content="https://www.kepub.net/book/20025/10001">
+
+    <link rel="canonical" href="https://www.kepub.net/book/20025/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/20025/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/20025/10001">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首页</a></li>
+            <li><a href="javascript:" title="目录" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="评论"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手机阅读" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章阅读" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分页阅读" onclick="pageReader()"></a></li>
+            <li id="lang_select"><a href="/book/20025" class="active" aria-label="简"><i class="iconfont icon-jianti"></i></a><a href="/book/21658" aria-label="繁"><i class="iconfont icon-fanti"></i></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回顶部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">扫描二维码，用手机阅读</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">飘零</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">    一个秋夜，我和Ｐ坐在他的小书房里，在晕黄的电灯光下，谈到Ｗ的小说。<br>    “他还在河南吧？Ｃ大学那边很好吧？”我随便问着。<br>    “不，他上美国去了。”<br>    “美国？做什么去？”<br>    “你觉得很奇怪吧？——波定谟约翰郝勃金医院打电报约他做助手去。”<br>    “哦！就是他研究心理学的地方！他在那边成绩总很好？——这回去他很愿意吧？”<br>    “不见得愿意。他动身前到北京来过，我请他在启新吃饭；<br>    他很不高兴的样子。”<br>    “这又为什么呢？”<br>    “他觉得中国没有他做事的地方。”<br>    “他回来才一年呢。Ｃ大学那边没有钱吧？”<br>    “不但没有钱，他们说他是疯子！”<br>    “疯子！”<br>    我们默然相对，暂时无话可说。<br>    我想起第一回认识Ｗ的名字，是在《新生》杂志上。那时我在Ｐ大学读书，Ｗ也在那里。我在《新生》上看见的是他的小说；但一个朋友告诉我，他心理学的书读得真多；Ｐ大学图书馆里所有的，他都读了。文学书他也读得不少。他说他是无一刻不读书的。我第一次见他的面，是在Ｐ大学宿舍的走道上；他正和朋友走着。有人告诉我，这就是Ｗ了。微曲的背，小而黑的脸，长头发和近视眼，这就是Ｗ了。以后我常常看他的文字，记起他这样一个人。有一回我拿一篇心理学的译文，托一个朋友请他看看。他逐一给我改正了好几十条，不曾放松一个字。永远的惭愧和感谢留在我心里。<br>    我又想到杭州那一晚上。他突然来看我了。他说和Ｐ游了三日，明早就要到上海去。他原是山东人；这回来上海，是要上美国去的。我问起哥仑比亚大学的《心理学，哲学，与科学方法》杂志，我知道那是有名的杂志。但他说里面往往一年没有一篇好文章，没有什么意思。他说近来各心理学家在英国开了一个会，有几个人的话有味。他又用铅笔随便的在桌上一本簿子的后面，写了《哲学的科学》一个书名与其出版处，说是新书，可以看看。他说要走了。我送他到旅馆里。见他床上摊着一本《人生与地理》，随便拿过来翻着。他说这本小书很著名，很好的。我们在晕黄的电灯光下，默然相对了一会，又问答了几句简单的话；我就走了。直到现在，还不曾见过他。<br>    他到美国去后，初时还写了些文字，后来就没有了。他的名字，在一般人心里，已如远处的云烟了。我倒还记着他。两三年以后，才又在《文学日报》上见到他一篇诗，是写一种清趣的。我只念过他这一篇诗。他的小说我却念过不少；最使我不能忘记的是那篇《<a class="c_book_link" target="_blank" href="/book/40854" contenteditable="false">雨夜</a>》，是写北京人力车夫的生活的。Ｗ是学科学的人，应该很冷静，但他的小说却又很热很热的。<br>    这就是Ｗ了。<br>    ｐ也上美国去，但不久就回来了。他在波定谟住了些日子，Ｗ是常常见着的。他回国后，有一个热天，和我在南京清凉山上谈起Ｗ的事。他说Ｗ在研究行为派的心理学。他几乎终日在实验室里；他解剖过许多老鼠，研究它们的行为。ｐ说自己本来也愿意学心理学的；但看了老鼠临终的颤动，他执刀的手便战战的放不下去了。因此只好改行。而Ｗ是“奏刀駋然”，“踌躇满志”，ｐ觉得那是不可及的。ｐ又说Ｗ研究动物行为既久，看明它们所有的生活，只是那几种生理的欲望，如食欲，性欲，所玩的把戏，毫无什么大道理存乎其间。因而推想人的生活，也未必别有何种高贵的动机；我们第一要承认我们是动物，这便是真人。Ｗ的确是如此做人的。Ｐ说他也相信Ｗ的话；真的，Ｐ回国后的态度是大大的不同了。Ｗ只管做他自己的人，却得着Ｐ这样一个信徒，他自己也未必料得着的。<br>    Ｐ又告诉我Ｗ恋爱的故事。是的，恋爱的故事！Ｐ说这是一个日本人，和Ｗ一同研究的，但后来走了，这件事也就完了。Ｐ说得如此冷淡，毫不像我们所想的恋爱的故事！Ｐ又曾指出《来日》上Ｗ的一篇《月光》给我看。这是一篇小说，叙述一对男女趁着月光在河边一只空船里密谈。那女的是个有夫之妇。这时四无人迹，他俩谈得亲热极了。但Ｐ说Ｗ的胆子太小了，所以这一回密谈之后，便撒了手。这篇文字是Ｗ自己写的，虽没有如火如荼的热闹，但却别有一种意思。科学与文学，科学与恋爱，这就是Ｗ了。<br>    “‘疯子’！”我这时忽然似乎彻悟了说，“也许是的吧？我想。一个人冷而又热，是会变疯子的。”<br>    “唔，”ｐ点头。<br>    “他其实大可以不必管什么中国不中国了；偏偏又恋恋不舍的！”<br>    “是啰。Ｗ这回真不高兴。Ｋ在美国借了他的钱。这回他到北京，特地老远的跑去和Ｋ要钱。Ｋ的没钱，他也知道；他也并不指望这笔钱用。只想借此去骂他一顿罢了，据说拍了桌子大骂呢！”<br>    “这与他的写小说一样的道理呀！唉，这就是Ｗ了。”<br>    Ｐ无语，我却想起一件事：<br>    “Ｗ到美国后有信来么？”<br>    “长远了，没有信。”<br>    我们于是都又默然。<br>    １９２６年７月２０日，白马湖。</div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/20019/10001?collectionNo=714836">下一章</a></div>
+        <div class="pre_chapter"><a href="/book/20031/10001?collectionNo=714836">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一页</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一页</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div class="book-info">
+            <div class="book-base-info-b">
+                
+                <div class="bookname-b">
+                    <a class="collection-name" href="/book/714836">朱自清散文集</a>
+                    <span class="arrow-right">/</span>
+                    <a class="bookname" href="/book/20025">飘零</a>
+                </div>
+                <div>作者：<a class="author" href="/author/129">朱自清</a></div>
+                <div class="info-b-1">
+                    <div>类型：<span>散文随笔</span></div>
+                    <div>总字数：<span>1743</span></div>
+                    <div>阅读量：<span>2815</span></div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="49" data-goods-name="【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847245877995504313&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_1bb6b35a451a65fd4f0bd86465ca0175_sx_308839_www1000-1000"
+                         alt="【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>60.88</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+                <li class="note_group_4">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目录</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li>
+                    <a href="/book/20015/10001?collectionNo=714836">背影</a>
+                </li>
+                <li>
+                    <a href="/book/20030/10001?collectionNo=714836">匆匆</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10001?collectionNo=714836">伦敦杂记　自序</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10002?collectionNo=714836">　　三家书店</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10003?collectionNo=714836">　　文人宅</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10004?collectionNo=714836">　　博物院</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10005?collectionNo=714836">　　公园</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10006?collectionNo=714836">　　加尔东尼市场</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10007?collectionNo=714836">　　吃的</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10008?collectionNo=714836">　　乞丐</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10009?collectionNo=714836">　　圣诞节</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10010?collectionNo=714836">　　房东太太</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10001?collectionNo=714836">欧游杂记　威尼斯</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10002?collectionNo=714836">　　佛罗伦司</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10003?collectionNo=714836">　　罗马</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10004?collectionNo=714836">　　滂卑故城</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10005?collectionNo=714836">　　瑞士</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10006?collectionNo=714836">　　荷兰</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10007?collectionNo=714836">　　柏林</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10008?collectionNo=714836">　　德瑞司登</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10009?collectionNo=714836">　　莱茵河</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10010?collectionNo=714836">　　巴黎</a>
+                </li>
+                <li>
+                    <a href="/book/20686/10011?collectionNo=714836">　　西行通讯</a>
+                </li>
+                <li>
+                    <a href="/book/20685/10001?collectionNo=714836">旅行杂记　一 殷勤的招待</a>
+                </li>
+                <li>
+                    <a href="/book/20685/10002?collectionNo=714836">　　二 “躬逢其盛”</a>
+                </li>
+                <li>
+                    <a href="/book/20685/10003?collectionNo=714836">　　三 第三人称</a>
+                </li>
+                <li>
+                    <a href="/book/20684/10001?collectionNo=714836">文物·旧书·毛笔</a>
+                </li>
+                <li>
+                    <a href="/book/20683/10001?collectionNo=714836">刘云波女医师</a>
+                </li>
+                <li>
+                    <a href="/book/20682/10001?collectionNo=714836">论且顾眼前</a>
+                </li>
+                <li>
+                    <a href="/book/20681/10001?collectionNo=714836">论不满现状</a>
+                </li>
+                <li>
+                    <a href="/book/20680/10001?collectionNo=714836">我所见的清华精神</a>
+                </li>
+                <li>
+                    <a href="/book/20679/10001?collectionNo=714836">教育家的夏尊先生</a>
+                </li>
+                <li>
+                    <a href="/book/20678/10001?collectionNo=714836">我是扬州人</a>
+                </li>
+                <li>
+                    <a href="/book/20677/10001?collectionNo=714836">始终如一的茅盾先生</a>
+                </li>
+                <li>
+                    <a href="/book/20676/10001?collectionNo=714836">重庆行记</a>
+                </li>
+                <li>
+                    <a href="/book/20675/10001?collectionNo=714836">外东消夏录</a>
+                </li>
+                <li>
+                    <a href="/book/20674/10001?collectionNo=714836">新中国在望中</a>
+                </li>
+                <li>
+                    <a href="/book/20673/10001?collectionNo=714836">重庆一瞥</a>
+                </li>
+                <li>
+                    <a href="/book/20672/10001?collectionNo=714836">这一天</a>
+                </li>
+                <li>
+                    <a href="/book/20671/10001?collectionNo=714836">北平沦陷那一天</a>
+                </li>
+                <li>
+                    <a href="/book/20670/10001?collectionNo=714836">蒙自杂记</a>
+                </li>
+                <li>
+                    <a href="/book/20669/10001?collectionNo=714836">绥行纪略</a>
+                </li>
+                <li>
+                    <a href="/book/20668/10001?collectionNo=714836">初到清华记</a>
+                </li>
+                <li>
+                    <a href="/book/20667/10001?collectionNo=714836">松堂游记</a>
+                </li>
+                <li>
+                    <a href="/book/20666/10001?collectionNo=714836">买书</a>
+                </li>
+                <li>
+                    <a href="/book/20665/10001?collectionNo=714836">论说话的多少</a>
+                </li>
+                <li>
+                    <a href="/book/20664/10001?collectionNo=714836">哀互生</a>
+                </li>
+                <li>
+                    <a href="/book/20663/10001?collectionNo=714836">春</a>
+                </li>
+                <li>
+                    <a href="/book/20662/10001?collectionNo=714836">赠言</a>
+                </li>
+                <li>
+                    <a href="/book/20661/10001?collectionNo=714836">南行杂记</a>
+                </li>
+                <li>
+                    <a href="/book/20660/10001?collectionNo=714836">南行通信</a>
+                </li>
+                <li>
+                    <a href="/book/20659/10001?collectionNo=714836">白马湖</a>
+                </li>
+                <li>
+                    <a href="/book/20658/10001?collectionNo=714836">悼王善瑾君</a>
+                </li>
+                <li>
+                    <a href="/book/20657/10001?collectionNo=714836">那里走</a>
+                </li>
+                <li>
+                    <a href="/book/20656/10001?collectionNo=714836">悼何一公君</a>
+                </li>
+                <li>
+                    <a href="/book/20655/10001?collectionNo=714836">执政府大屠杀记</a>
+                </li>
+                <li>
+                    <a href="/book/20654/10001?collectionNo=714836">父母的责任</a>
+                </li>
+                <li>
+                    <a href="/book/20653/10001?collectionNo=714836">憎</a>
+                </li>
+                <li>
+                    <a href="/book/20652/10001?collectionNo=714836">论东西</a>
+                </li>
+                <li>
+                    <a href="/book/20651/10001?collectionNo=714836">论青年</a>
+                </li>
+                <li>
+                    <a href="/book/20650/10001?collectionNo=714836">论做作</a>
+                </li>
+                <li>
+                    <a href="/book/20649/10001?collectionNo=714836">论诚意</a>
+                </li>
+                <li>
+                    <a href="/book/20648/10001?collectionNo=714836">论别人</a>
+                </li>
+                <li>
+                    <a href="/book/20647/10001?collectionNo=714836">论自己</a>
+                </li>
+                <li>
+                    <a href="/book/20646/10001?collectionNo=714836">正义</a>
+                </li>
+                <li>
+                    <a href="/book/20645/10001?collectionNo=714836">话中有鬼</a>
+                </li>
+                <li>
+                    <a href="/book/20644/10001?collectionNo=714836">不知道</a>
+                </li>
+                <li>
+                    <a href="/book/20643/10001?collectionNo=714836">是喽嘛</a>
+                </li>
+                <li>
+                    <a href="/book/20642/10001?collectionNo=714836">很好</a>
+                </li>
+                <li>
+                    <a href="/book/20641/10001?collectionNo=714836">论废话</a>
+                </li>
+                <li>
+                    <a href="/book/20640/10001?collectionNo=714836">人话</a>
+                </li>
+                <li>
+                    <a href="/book/20639/10001?collectionNo=714836">如面谈</a>
+                </li>
+                <li>
+                    <a href="/book/20638/10001?collectionNo=714836">撩天儿</a>
+                </li>
+                <li>
+                    <a href="/book/20637/10001?collectionNo=714836">沉默</a>
+                </li>
+                <li>
+                    <a href="/book/20636/10001?collectionNo=714836">说话</a>
+                </li>
+                <li>
+                    <a href="/book/20635/10001?collectionNo=714836">论老实话</a>
+                </li>
+                <li>
+                    <a href="/book/20634/10001?collectionNo=714836">论书生的酸气</a>
+                </li>
+                <li>
+                    <a href="/book/20633/10001?collectionNo=714836">论百读不厌</a>
+                </li>
+                <li>
+                    <a href="/book/20632/10001?collectionNo=714836">论雅俗共赏</a>
+                </li>
+                <li>
+                    <a href="/book/20631/10001?collectionNo=714836">论吃饭</a>
+                </li>
+                <li>
+                    <a href="/book/20630/10001?collectionNo=714836">论气节</a>
+                </li>
+                <li>
+                    <a href="/book/20629/10001?collectionNo=714836">论严肃</a>
+                </li>
+                <li>
+                    <a href="/book/20628/10001?collectionNo=714836">回来杂记</a>
+                </li>
+                <li>
+                    <a href="/book/20627/10001?collectionNo=714836">中国学术界的大损失悼闻一多先生</a>
+                </li>
+                <li>
+                    <a href="/book/20626/10001?collectionNo=714836">动乱时代</a>
+                </li>
+                <li>
+                    <a href="/book/20610/10001?collectionNo=714836">潭柘寺戒坛寺</a>
+                </li>
+                <li>
+                    <a href="/book/20609/10001?collectionNo=714836">南京</a>
+                </li>
+                <li>
+                    <a href="/book/20608/10001?collectionNo=714836">说扬州</a>
+                </li>
+                <li>
+                    <a href="/book/20607/10001?collectionNo=714836">谈抽烟</a>
+                </li>
+                <li>
+                    <a href="/book/20606/10001?collectionNo=714836">你我</a>
+                </li>
+                <li>
+                    <a href="/book/20605/10001?collectionNo=714836">论无话可说</a>
+                </li>
+                <li>
+                    <a href="/book/20604/10001?collectionNo=714836">看花</a>
+                </li>
+                <li>
+                    <a href="/book/20603/10001?collectionNo=714836">扬州的夏日</a>
+                </li>
+                <li>
+                    <a href="/book/20602/10001?collectionNo=714836">“海阔天空”与“古今中外”</a>
+                </li>
+                <li>
+                    <a href="/book/20601/10001?collectionNo=714836">海行杂记</a>
+                </li>
+                <li>
+                    <a href="/book/20600/10001?collectionNo=714836">说梦</a>
+                </li>
+                <li>
+                    <a href="/book/20599/10001?collectionNo=714836">怀魏握青君</a>
+                </li>
+                <li>
+                    <a href="/book/20598/10001?collectionNo=714836">《梅花》后记</a>
+                </li>
+                <li>
+                    <a href="/book/20597/10001?collectionNo=714836">白采</a>
+                </li>
+                <li>
+                    <a href="/book/20596/10001?collectionNo=714836">哀韦杰三君</a>
+                </li>
+                <li>
+                    <a href="/book/20595/10001?collectionNo=714836">阿河</a>
+                </li>
+                <li>
+                    <a href="/book/20594/10001?collectionNo=714836">白种人上帝的骄子！</a>
+                </li>
+                <li>
+                    <a href="/book/20593/10001?collectionNo=714836">女人</a>
+                </li>
+                <li>
+                    <a href="/book/20591/10001?collectionNo=714836">航船中的文明</a>
+                </li>
+                <li>
+                    <a href="/book/20590/10001?collectionNo=714836">温州的踪迹</a>
+                </li>
+                <li>
+                    <a href="/book/20589/10001?collectionNo=714836">歌声</a>
+                </li>
+                <li>
+                    <a href="/book/20070/10001?collectionNo=714836">清华的一日</a>
+                </li>
+                <li>
+                    <a href="/book/20069/10001?collectionNo=714836">春晖的一月</a>
+                </li>
+                <li>
+                    <a href="/book/20068/10001?collectionNo=714836">教育家的夏丏尊先生</a>
+                </li>
+                <li>
+                    <a href="/book/20067/10001?collectionNo=714836">择偶记</a>
+                </li>
+                <li>
+                    <a href="/book/20065/10001?collectionNo=714836">给亡妇</a>
+                </li>
+                <li>
+                    <a href="/book/20064/10001?collectionNo=714836">我所见的叶圣陶</a>
+                </li>
+                <li>
+                    <a href="/book/20063/10001?collectionNo=714836">儿女</a>
+                </li>
+                <li>
+                    <a href="/book/20034/10001?collectionNo=714836">冬天</a>
+                </li>
+                <li>
+                    <a href="/book/20033/10001?collectionNo=714836">一封信</a>
+                </li>
+                <li>
+                    <a href="/book/20031/10001?collectionNo=714836">荷塘月色</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/20025/10001?collectionNo=714836">飘零</a>
+                </li>
+                <li>
+                    <a href="/book/20019/10001?collectionNo=714836">桨声灯影里的秦淮河</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 5;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

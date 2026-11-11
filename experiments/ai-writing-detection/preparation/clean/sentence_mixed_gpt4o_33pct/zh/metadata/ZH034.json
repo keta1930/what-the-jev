@@ -1,0 +1,597 @@
+{
+  "source_id": "ZH034",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "36b3792d3e97fbb716a7a1225ed5ddce12f735f3e6f0e17ef6cfdb5f77e354a1",
+  "ai_article_sha256": "cc1ae1057ce15a35338d291d1c15dcc0a9b87ecb470e5a104737b1646c909799",
+  "mixed_article_sha256": "06e4d94d7445eb83db6d680fa3014ae94da88e0599711b316e177fa4008766e9",
+  "human_source_sentence_count": 41,
+  "ai_source_sentence_count": 38,
+  "alignment_unit_count": 39,
+  "selected_alignment_unit_count": 13,
+  "mixed_sentence_count": 39,
+  "selected_ai_sentence_count": 13,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.348167,
+  "selected_alignment_score_median": 0.576197,
+  "selected_alignment_score_max": 0.694048,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "自以爲青山到處可埋骨的飄泊慣的流人，一到了中年，也頗以沒有一個歸宿爲可慮；近來常常有求田問舍之心，在看書倦了之後，或夜半醒來，第二次再睡不着的枕上。",
+      "output_sha256": "e0c92e738b2d04f203462e2c85eaeb865c96d47c2abc37d983331f8a869e03d4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "e0c92e738b2d04f203462e2c85eaeb865c96d47c2abc37d983331f8a869e03d4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "尤其是春雨蕭條的暮春，或風吹枯木的秋晚，看看天空，每會作賞雨茅屋及江南黃葉村舍的夢想；遊子思鄉，飛鴻倦旅，把人一年年弄得意氣消沉的這時間的威力，實在是可怕，實在是可恨。",
+      "output_sha256": "7cf0976fe7d19da058c5ec0419d69f6b048aa7a7949702676dcba9e621bdf2df",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "7cf0976fe7d19da058c5ec0419d69f6b048aa7a7949702676dcba9e621bdf2df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "曾經熱愛旅行，尤其是偏遠無現代交通工具的地方，總是慢慢行走，回首那些從未見過的山川風景，隨著每一步變化，每一刻都有新的境界。",
+      "output_sha256": "ca657335076a21ff309aa9e4905d7af999561db0d376d9bcb10374c77a51ec8e",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.348167,
+      "human_sentence_indices": [
+        3,
+        4
+      ],
+      "human_sha256": [
+        "1448cfa2a98f18dba1fef4114639d6fdaed73ecc8cb957af32f0fdf45e470e24",
+        "68ef933a00499ba832ad4666a725830b7e3371694ec3bce3a29a74e79a3d4e11"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "ca657335076a21ff309aa9e4905d7af999561db0d376d9bcb10374c77a51ec8e",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "到了地曠人稀的地方，你更可以高歌低唱，袒裼裸裎，把社會上的虛僞的禮節，謹嚴的態度，一齊洗去。",
+      "output_sha256": "18ee93a449bdcde52558e3219a983b0e816a9ce4222f69ea6ca5521897c2802e",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "18ee93a449bdcde52558e3219a983b0e816a9ce4222f69ea6ca5521897c2802e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "人與自然，合而爲一，大地高天，形成屋宇。",
+      "output_sha256": "12ad01f836257279abedc17073743f98582d721f9e5ed52227133a47159463a4",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "12ad01f836257279abedc17073743f98582d721f9e5ed52227133a47159463a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "蠛蠓、蟻、蝨，顯得微不足道，五嶽崑崙也不再顯得宏偉。",
+      "output_sha256": "0dc48df2f46a6831bfc99673b082cc79c8c1351d1c8d92d0ccbc1d2c1f11ba11",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.53632,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "5c0678a047356a3b78da784b15edee6a0fbadea1cbd4811bcf3e73299aba49f6"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "0dc48df2f46a6831bfc99673b082cc79c8c1351d1c8d92d0ccbc1d2c1f11ba11",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "偶或遇見些茅篷泥壁的人家，遇見些性情純樸的農牧，聽他們談些極不相干的私事，更可以和他們一道的悲，一道的喜。",
+      "output_sha256": "3579bac9e87998cef990ad0601b75b0f691187de6d7ab4ea6092997a38a92963",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "3579bac9e87998cef990ad0601b75b0f691187de6d7ab4ea6092997a38a92963",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "半歲的雞娘，新生一蛋，其樂也融融，與國王年老，誕生獨子時的歡喜，並無什麼分別。",
+      "output_sha256": "b9bd648193b79422c32d6b6011a751e4298a1364c4301d78546add8184f2bb0a",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "b9bd648193b79422c32d6b6011a751e4298a1364c4301d78546add8184f2bb0a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "黃牛吃草，嚼斷了麥穗數莖，今年的收穫，怕要減去一勺，其悲也慼慼，與國破家亡的流離慘苦，相差也不十分遠。",
+      "output_sha256": "bbbf920684e8ca2b92448eaa21db7b329ab4f70bd744d2969645b683b9114932",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "bbbf920684e8ca2b92448eaa21db7b329ab4f70bd744d2969645b683b9114932",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "至於有山有水的地方，觀察雲朵與岩影的變幻，聆聽海潮拍打礁石的音樂，或在溪邊垂釣，或在松樹下乘涼，行旅者的樂趣更是如同放翁的入蜀之道、劉阮的上天台。",
+      "output_sha256": "8da3e12e1d8bf4222ff259dd955eef0cb09335f3b1fa39590b4d222baf7a6f9b",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.602682,
+      "human_sentence_indices": [
+        11,
+        12
+      ],
+      "human_sha256": [
+        "6b39de73f8397f96feed2ed68b076370e8984edfebe7b9ec6f1223fefb940ca7",
+        "b1b136aa2407cf08a339ce552964714a04da0eb4c9fb48cde69a8da0ac54e535"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "8da3e12e1d8bf4222ff259dd955eef0cb09335f3b1fa39590b4d222baf7a6f9b",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "這一種好遊旅，喜飄泊的情性，近年來漸漸地減了；連有必要的事情，非得上北平上海去一次不可的時候，都一天天地拖延下去，只想不改常態，在家吃點精緻的菜，喝點芳醇的酒，睡睡午覺，看看閒書，不願意將行動和平時有所移易；總之是懶得動。",
+      "output_sha256": "171b4cbefa9d4472aa7aa9774c0c271d71e2239d3bc854ec71ff5b194c083b4f",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "171b4cbefa9d4472aa7aa9774c0c271d71e2239d3bc854ec71ff5b194c083b4f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "而每次獨坐品酒之時，腦海中所思所想的，卻是一間整潔的小住宅，及其周圍的點綴與佈置。",
+      "output_sha256": "ab1b9203e0437db0ce9eef122e3bbc948a574824fb6afa2a37ff1e7531c55de5",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.521318,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "2f56f1e6b9524a729d81d1054e36bb45ad9ba74a5cfcbd98211b85616be7a98d"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "ab1b9203e0437db0ce9eef122e3bbc948a574824fb6afa2a37ff1e7531c55de5",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "若要住家，第一的先決問題，自然是鄉村與城市的選擇。",
+      "output_sha256": "acdacb2be2c85b36f51d53cf444311dec4534d2961683fffcdea3846dcd70f42",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "acdacb2be2c85b36f51d53cf444311dec4534d2961683fffcdea3846dcd70f42",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "以清靜來說，當然是鄉村生活比較得和我更爲適合。",
+      "output_sha256": "f868fab0076b8332443c176b2c2a96cbe6798574bf8e90ee939462c7eaaec45b",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "f868fab0076b8332443c176b2c2a96cbe6798574bf8e90ee939462c7eaaec45b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "可是把文明利器──如電燈自來水等──的供給，家人買菜購物的便利，以及小孩的教育問題等合計起來，卻又覺得住城市是必要的了。",
+      "output_sha256": "12f108d2d15e344fc6321afea948e8dd19b42c6d49d1f1cd411a9b1503e3160e",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "12f108d2d15e344fc6321afea948e8dd19b42c6d49d1f1cd411a9b1503e3160e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "中國有不少田園都市，既具城市的形態，又擁有鄉村的景致。",
+      "output_sha256": "4574149a13fa22c57d6047b1b38901f567d6e8a149cf347e2f94288d3c345890",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.456171,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "08c21da5836ea790e83a403d4fd789201d6aef559aebc55e1210c1b5ef2a644e"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "4574149a13fa22c57d6047b1b38901f567d6e8a149cf347e2f94288d3c345890",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "北方如北平，就是一個理想的都城；南方則未建都前之南京，瀕海的福州等處，也是住家的好地。",
+      "output_sha256": "c92ecd03340f6a7c0efb3a7b711b33bcf93ada6573b0e0b25c36aeb40d1055a8",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "c92ecd03340f6a7c0efb3a7b711b33bcf93ada6573b0e0b25c36aeb40d1055a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "可是鄉土的觀念，附着在一個人的腦裏，同毛髮的生於皮膚一樣，叢長着原沒有什麼不對，全脫了卻也勢有點兒不可能。",
+      "output_sha256": "7a8b6e7e6d6e96c22be29c652f719c308e2ee6b8300d532f0c6f65063c68840e",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "7a8b6e7e6d6e96c22be29c652f719c308e2ee6b8300d532f0c6f65063c68840e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "所以三年之前，也是在一個春雨霏微的節季，終於聽了霞的勸告，搬上杭州來住下了。",
+      "output_sha256": "c0aa9ca2374095cc8d0c54e531ca5c99f2384a6011729a322a28296409a83253",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "c0aa9ca2374095cc8d0c54e531ca5c99f2384a6011729a322a28296409a83253",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "杭州這一個地方，有山有湖，還有文明的利器，兒童的學校，去上海也只有四個鐘頭的火車路程，住家原沒有什麼不合適。",
+      "output_sha256": "2517023be5e7578b6320bc8774af3159d8878f73d9ccc46884af9a9243cd972e",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "2517023be5e7578b6320bc8774af3159d8878f73d9ccc46884af9a9243cd972e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "可是杭州一般的建築物，實在太差，簡直可以說沒有一間合乎理想的住宅，舊式的房子呢，往往沒有院子，頂多頂多也不過有一堆不大有意義的假山，和一條其實是隻能產生蚊子的魚池。",
+      "output_sha256": "368665f51ff2cb7c5d33d04af4ab43412bc7af992b22278307b4a8d72820f84f",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "368665f51ff2cb7c5d33d04af4ab43412bc7af992b22278307b4a8d72820f84f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "而所謂的新式房子，更是拷貝上海弄堂洋房的模樣，冬天勉強可住，一到夏天則熱得令人難以忍受。",
+      "output_sha256": "097277447feb1e286a0a6ea9564d6c7a72e869b445f045acdcb63d431eb03065",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.531183,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "0c1e96b102cd4dba7da0b7974b0b274d66afb28ece8540929b2f4654fb82cca6"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "097277447feb1e286a0a6ea9564d6c7a72e869b445f045acdcb63d431eb03065",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "而大抵的杭州住宅，都沒有浴室的設備，公共浴場呢，又覺得不衛生而價貴。",
+      "output_sha256": "909bc11db720aa8bcf3a53a11dd8b496eb7aff089f74adfc0cb59aa321b6c7e2",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "909bc11db720aa8bcf3a53a11dd8b496eb7aff089f74adfc0cb59aa321b6c7e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "因此自從搬到杭州後，對住所的問題愈發深切地感受到。",
+      "output_sha256": "644dc43c9c9fbec75dca99eba0028bb4d10bc2b4931f681bd5fbb0c1fe5466cb",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.552601,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "ab142f7623d0becd7b0ede21ae30337f9fd73e3fd62ceae2d65e95c728475630"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "644dc43c9c9fbec75dca99eba0028bb4d10bc2b4931f681bd5fbb0c1fe5466cb",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "地皮不必太大，只要有半畝地、一畝空間便足夠。",
+      "output_sha256": "e4b7deadedadaee9a106083b389c124d808e25a0ab972b7ba938c2f85d4c9af7",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.576197,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "884095fec664d016dea94d91d41cd9f510b1b17047334f608a9d7cc0a4291677"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "e4b7deadedadaee9a106083b389c124d808e25a0ab972b7ba938c2f85d4c9af7",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "房子也不必太講究，只需有一處可以遠眺的高樓，三間平屋便可。",
+      "output_sha256": "9cc2eb518b4df48ee5a74800dabcc99e6d5c91480108e8c2db7bf3d1009aa129",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.694048,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "3620abadb1d022060ed0b4a1b059c0ae6346ded7e7163597f5384caa8412c25c"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "9cc2eb518b4df48ee5a74800dabcc99e6d5c91480108e8c2db7bf3d1009aa129",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "但是圖書室，浴室，貓狗小舍，兒童遊嬉之處，竈房，卻不得不備。",
+      "output_sha256": "86a98df931e74ada5879f0cc3a3ad5cc0288426b2ce9df2732e9931191a56c5e",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "86a98df931e74ada5879f0cc3a3ad5cc0288426b2ce9df2732e9931191a56c5e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "房子的四周，一定要有闊一點的迴廊；房子的內部，更需要亮一點的光線。",
+      "output_sha256": "6b9819f051854d2ec6e30516fa6212e27f6f1417382aeb104abb6ecb1421a167",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "6b9819f051854d2ec6e30516fa6212e27f6f1417382aeb104abb6ecb1421a167",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "此外是四周的樹木和院子裏的草地了，草地中間的走路，總要用白沙來鋪纔好。",
+      "output_sha256": "bf25bcc11b851f016f882d6e123fe981a0a1479c3f0bf4ef9533ac0a19fa730c",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "bf25bcc11b851f016f882d6e123fe981a0a1479c3f0bf4ef9533ac0a19fa730c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "若周圍有鄰居的高牆，當然要種些爬山虎來遮掩，若是空地，則只需植一排矮矮的木柵，用黑色漆塗裝即可。",
+      "output_sha256": "5d8d4c5c0bd78b790252447cb683e8a2381873fadf975462e306c60018b86faa",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.599151,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "d4b0dc4fd67f340554fe73dabc65bea448514e420463e33a725e7d87b0ead97d"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "5d8d4c5c0bd78b790252447cb683e8a2381873fadf975462e306c60018b86faa",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "門窗當一例以厚玻璃來做，屋瓦應先釘上鉛皮，然後再覆以茅草。",
+      "output_sha256": "af51fba73f228ee14ea118986e492929a596bfde1cc2cf856d3df277a612ce0e",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "af51fba73f228ee14ea118986e492929a596bfde1cc2cf856d3df277a612ce0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "照這樣的一個計劃來建築房子，大約總要有二千元錢來買地皮，四千元錢來充建築費，纔有點兒希望。",
+      "output_sha256": "a9c4807d097ec72018e9ed17afce62217ff3c40e2d0fe47afeef053c753c26d4",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "a9c4807d097ec72018e9ed17afce62217ff3c40e2d0fe47afeef053c753c26d4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "去年年底，微醺之際，向一位朋友透露了這個私願，今年他果然送給我一塊地，於是樓台的基礎已經有了。",
+      "output_sha256": "faa23bcf0855588707151a4d6b0bccc70f251ff02f771a03228ea4aede2d8ff9",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.579047,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "8bf3234ca7a1ec7dea9d14fe86a11ffa0588deaabc77c82ba81edf0bd03e07fe"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "faa23bcf0855588707151a4d6b0bccc70f251ff02f771a03228ea4aede2d8ff9",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "現在只在想籌出四千元錢的現款來建造那一所理想的住宅。",
+      "output_sha256": "215803229f0ca0cc4ea49fd1a59d8fff7839268e80d486e6308a8f809612f3d2",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "215803229f0ca0cc4ea49fd1a59d8fff7839268e80d486e6308a8f809612f3d2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "胡思亂想的過程中，在前兩三個月竟然發了瘋，將煙酒錢省下了一半，去購買了許多獎券；然而每次購買後，連末尾都未曾中獎，反而因為壞煙壞酒而身體受到損害。",
+      "output_sha256": "d09c44747bf66a926c1816c9230fdb485816c05946dd66af65adc1f6c11d579c",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.594142,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "24fa4f54487e16f9897f6f5194e92e88c088cf7466e8d65619b365d4e6d41248"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "d09c44747bf66a926c1816c9230fdb485816c05946dd66af65adc1f6c11d579c",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "閒來無事，將這一切經過告訴朋友，大家笑過之後，紛紛為我設計，說古人曾用的最佳方法，是發自己的訃聞，其次是慶壽，再次則是舉辦聚會。",
+      "output_sha256": "6d26651e8b556f6b4d13ce75402a77c32edfa873ad5edbd0c1eb9c045a107f88",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.601526,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "39eb17a4f259861e703dbb23d18c331fa3c947757467b6df7bedc0cda6fa273c"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "6d26651e8b556f6b4d13ce75402a77c32edfa873ad5edbd0c1eb9c045a107f88",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "可是爲了一己的舒服，而累及親戚朋友，也着實有點說不過去，近來心機一轉，去買了些《芥子園》、《三希堂》等畫譜來，在開始學畫了；原因是想靠了賣畫，來造一所房子，萬一畫畫，仍舊是不能吃飯，那麼至少至少，我也可以畫許多房子，掛在四壁，給我自己的想像以一頓醉飽，如飢者的畫餅，旱天的畫雲霓。",
+      "output_sha256": "7d7d5a57608616dbc245e00999164d37c1d88a289ea357b1aa9bdcd04f3d2ceb",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "7d7d5a57608616dbc245e00999164d37c1d88a289ea357b1aa9bdcd04f3d2ceb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "這一個計劃，若不至於失敗，我想在半年之後，總可以得到一點慰安。",
+      "output_sha256": "d7382eea07497e4727eda178a0a24dd5e958b65995c4ad7fde5ff1bc7c20fa1a",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "d7382eea07497e4727eda178a0a24dd5e958b65995c4ad7fde5ff1bc7c20fa1a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "（原載一九三五年七月一日《文學》月刊第五卷第一號，據《閒書》）",
+      "output_sha256": "6fecfa94899783e3916320278ec41a9c06e94ecbf71db68b966efc1d5163eff5",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "6fecfa94899783e3916320278ec41a9c06e94ecbf71db68b966efc1d5163eff5",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

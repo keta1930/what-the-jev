@@ -1,0 +1,813 @@
+{
+  "source_id": "EN027",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "fa0e85faba7b78d220dfdf5102efc3a4d7199fdb5bfb3f7dd657dc8bc966f4f8",
+  "ai_article_sha256": "9543fe4ec0a37888e5746a68963dfba4a05d5c6fdf358156d71ec875b7562cb9",
+  "mixed_article_sha256": "c04053b57f3765afb1da992cff56ebd7690dce3fae56bc9ff13d09ab02427566",
+  "human_source_sentence_count": 54,
+  "ai_source_sentence_count": 54,
+  "alignment_unit_count": 49,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.27139,
+  "selected_alignment_score_median": 0.409342,
+  "selected_alignment_score_max": 0.651818,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "People accuse journalism of being too personal; but to me it has always seemed far too impersonal.",
+      "output_sha256": "9943ed378dac148d1539f9cbbc4a1323838bd306ab25b395621f7281595f137a",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "9943ed378dac148d1539f9cbbc4a1323838bd306ab25b395621f7281595f137a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "While journalism is meant to strip away the layers of private lives, it often seems to create translucent but blinding barriers between individuals.",
+      "output_sha256": "55a83451731fd4dcb168d3b798aa9509aba81e39dc7c1b8cda80211bc47f008d",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.403256,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "48fbde6254223a8b844628296c7082236cca99d05cae6a274b8f6186958bc5ab"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "55a83451731fd4dcb168d3b798aa9509aba81e39dc7c1b8cda80211bc47f008d",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The Yellow Press is abused for exposing facts which are private; I wish the Yellow Press did anything so valuable.",
+      "output_sha256": "ef42fd4219d09d951de7f7faa7b52df8a501ab07a8dd021aeab4deff4483d0f6",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "ef42fd4219d09d951de7f7faa7b52df8a501ab07a8dd021aeab4deff4483d0f6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "A clear illustration of this is the disorienting experience of meeting someone in real life after having encountered them countless times in newspapers; the disconnect can be striking.",
+      "output_sha256": "55ef3d1bc4117b15471a1abb8d2bd9a64d682416f0e79227b0a0cee34727285d",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.27139,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "eb60751b04e1e9c656c09556981ab1b9aad209c8576c7a844cb0ddd83519fbb4"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "55ef3d1bc4117b15471a1abb8d2bd9a64d682416f0e79227b0a0cee34727285d",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The Yellow Pressman seems to have no power of catching the first fresh fact about a man that dominates all after impressions.",
+      "output_sha256": "2b2f84075717a0a738ba2e3320c71bbca3d24877897d5d294b88425661d74038",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "2b2f84075717a0a738ba2e3320c71bbca3d24877897d5d294b88425661d74038",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "For instance, before I met Bernard Shaw I heard that he spoke with a reckless desire for paradox or a sneering hatred of sentiment; but I never knew till he opened his mouth that he spoke with an Irish accent, which is more important than all the other criticisms put together.",
+      "output_sha256": "e6faf33af038e778aa4a4bc3c3f09f7528cfe256d76b1b060f2633b8f2830767",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "e6faf33af038e778aa4a4bc3c3f09f7528cfe256d76b1b060f2633b8f2830767",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Journalism lacks a sufficient personal touch.",
+      "output_sha256": "fd44a758f96043ef6d6da740a2bb6fa0c08facf81d4404d056cca2cc46f83f41",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.480303,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "454805d3445c219497a95dce87c87f20dabd791c3f4ac8eb1924dd3e9f6c21ad"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "fd44a758f96043ef6d6da740a2bb6fa0c08facf81d4404d056cca2cc46f83f41",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "So far from digging out private personalities, it cannot even report the obvious personalities on the surface.",
+      "output_sha256": "4347b17e6894a626d264d3e0a0da6d04137942433e90f5fbf997070f8c3ea20f",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "4347b17e6894a626d264d3e0a0da6d04137942433e90f5fbf997070f8c3ea20f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Now there is one vivid and even bodily impression of this kind which we have all felt when we met great poets or politicians, but which never finds its way into the newspapers.",
+      "output_sha256": "4cc370eb62023ee8472d17f2c1cbebfe4301ebe1904627cc892a1067580cc3a6",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "4cc370eb62023ee8472d17f2c1cbebfe4301ebe1904627cc892a1067580cc3a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I mean the impression that they are much older than we thought they were.",
+      "output_sha256": "26813acf5992e0a9fdc68d92064b5dea933f79570403ba41615b3849e17915a1",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "26813acf5992e0a9fdc68d92064b5dea933f79570403ba41615b3849e17915a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "We tend to associate greatness with past achievements, which typically occurred years ago; thus, many who idolized the youthful Napoleon of Marengo must have been surprised to encounter the more corpulent Napoleon of Leipzig.",
+      "output_sha256": "3f57e474289aea9647f68c318f39bf99bdb8d774bba416c6d12f2cbf25cf56a8",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.453925,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "6075a0c13aa3a85d848661ce6d85adbf2ed4d29736b8a276ecbc5e1fa5e74800"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "3f57e474289aea9647f68c318f39bf99bdb8d774bba416c6d12f2cbf25cf56a8",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I recall reading a newspaper piece detailing how an emerging politician addressed the House of Lords with a youthful exuberance.",
+      "output_sha256": "c72491139f0e012b30cebc7147eafde2f50aab374f801e944342aa99d9398060",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.53986,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "7291e96274589280d4106d910db0bca081e1b7458d647816bf60fd321edb2947"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "c72491139f0e012b30cebc7147eafde2f50aab374f801e944342aa99d9398060",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "It described his “brave young voice” echoing throughout the chamber.",
+      "output_sha256": "9f9d8c4096781d9b096f5adf7beda8d29d6367310c33b56cc7d7a96122d96e64",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.651818,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "1dec6ba4eeccc2ccfe26087dc4796a69a33f39661ec01f3f06920b9f1b249cf4"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "9f9d8c4096781d9b096f5adf7beda8d29d6367310c33b56cc7d7a96122d96e64",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I also remember that I met him some days after, and he was considerably older than my own father.",
+      "output_sha256": "33ccdb724404f9878cc6f965dbfcdedf2aba3dfe7e077ed89a8882754e3686b5",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "33ccdb724404f9878cc6f965dbfcdedf2aba3dfe7e077ed89a8882754e3686b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I mention this truth for only one purpose: all this generalisation leads up to only one fact—the fact that I once met a great man who was younger than I expected.",
+      "output_sha256": "bf0b56f83a109ac9063c3ecf3a230a42cd436f03212b6535c8308f6e1fd95f56",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "bf0b56f83a109ac9063c3ecf3a230a42cd436f03212b6535c8308f6e1fd95f56",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": ".....",
+      "output_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I had come over the wooded wall from the villages about Epsom, and down a stumbling path between trees towards the valley in which Dorking lies.",
+      "output_sha256": "ba0dad9b3ec1195dea9f33afb208468f49152d484c8178f83c92cf3046b90c73",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "ba0dad9b3ec1195dea9f33afb208468f49152d484c8178f83c92cf3046b90c73",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "A warm sunlight was working its way through the leafage; a sunlight which though of saintless gold had taken on the quality of evening.",
+      "output_sha256": "1cddc71d03ca8c24654592594b20fbe19f2f2090b5d54261ca0f66cdfd3519ce",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "1cddc71d03ca8c24654592594b20fbe19f2f2090b5d54261ca0f66cdfd3519ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "It was such sunlight as reminds a man that the sun begins to set an instant after noon.",
+      "output_sha256": "6134a4cdef4d935066e89b45e4cb4d885768bb607c5392df4f0f0326eabfd3e2",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "6134a4cdef4d935066e89b45e4cb4d885768bb607c5392df4f0f0326eabfd3e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "It seemed to lessen as the wood strengthened and the road sank.",
+      "output_sha256": "47c3145b13c4d75f995f31b81e3e9a153a5855406ccd27641bd9f278cc6601f0",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "47c3145b13c4d75f995f31b81e3e9a153a5855406ccd27641bd9f278cc6601f0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I had a sensation peculiar to such entangled descents; I felt that the treetops that closed above me were the fixed and real things, certain as the level of the sea; but that the solid earth was every instant failing under my feet.",
+      "output_sha256": "c595b1390c4bec5cf52793f9c16f85f7e100e4c7cb90a1a7126077c54f7a43fd",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "c595b1390c4bec5cf52793f9c16f85f7e100e4c7cb90a1a7126077c54f7a43fd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Soon, the brilliant sunlight transformed into mere splashes of light, resembling fiery stars scattered in a canopy of green.",
+      "output_sha256": "10ccc9adde4245ec2f38e988e0aae607d8cbbfd80d3967424f95d4564a97b793",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.310532,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "2de382652ee1d1d0b6312916405977de7b1f2411c827450b4214e6b977c7c570"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "10ccc9adde4245ec2f38e988e0aae607d8cbbfd80d3967424f95d4564a97b793",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Around me in that emerald twilight were trunks of trees of every plain or twisted type; it was like a chapel supported on columns of every earthly and unearthly style of architecture.",
+      "output_sha256": "6817522af810925384b76c3bff5aaac308414b0e86358540495193b57b18fccc",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "6817522af810925384b76c3bff5aaac308414b0e86358540495193b57b18fccc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Without intention my mind grew full of fancies on the nature of the forest; on the whole philosophy of mystery and force.",
+      "output_sha256": "583cb96a5a5bad6a351c6a0a132f6e954de2567f1e49205922ca53c9f93e9adc",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "583cb96a5a5bad6a351c6a0a132f6e954de2567f1e49205922ca53c9f93e9adc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "For the meaning of woods is the combination of energy with complexity.",
+      "output_sha256": "19c00745d5f227f44504a32e930717cb21e3bf2010a59aa71b2391ad2ac26ea1",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "19c00745d5f227f44504a32e930717cb21e3bf2010a59aa71b2391ad2ac26ea1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "They are not at all crude or primitive; rather, they are characterized by a rich delicacy.",
+      "output_sha256": "b111748f99d7773cadbdbdcffa0acd896bafc98c8b2993e3b59ad6314e44ae4a",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.279327,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "132c6b9515aafe49cc2d4e22feab632c5df71556b9f29f29e89061bf0cbd763f"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "b111748f99d7773cadbdbdcffa0acd896bafc98c8b2993e3b59ad6314e44ae4a",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Unique shapes that an artist would copy or a philosopher watch for years if he found them in an open plain are here mingled and confounded; but it is not a darkness of deformity.",
+      "output_sha256": "bcc95506003b4689394353bcedb04e23c9d386caf3e120df59515201b0610de5",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "bcc95506003b4689394353bcedb04e23c9d386caf3e120df59515201b0610de5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is a darkness of life; a darkness of perfection.",
+      "output_sha256": "e7442a0b70962f5c2972f5cb18dbe6252396504216eae2b2a0e8b275ae8be7f7",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "e7442a0b70962f5c2972f5cb18dbe6252396504216eae2b2a0e8b275ae8be7f7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And I began to think how much of the highest human obscurity is like this, and how much men have misunderstood it.",
+      "output_sha256": "8ec67af6dbaf24a84822f469777894f29ae0333c1b2a6e8224e9a34ba04d0f09",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "8ec67af6dbaf24a84822f469777894f29ae0333c1b2a6e8224e9a34ba04d0f09",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "People often assert that theology became convoluted due to its lifelessness.",
+      "output_sha256": "cb1565ee824a2a6c3c3a7ea536e7231d3dc3b1c31205c4ca61811fbc8f0e9be4",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.415429,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "71a850470a0645bdfa326b5abbc6397d5f61a898b933da733d3106575386f2ef"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "cb1565ee824a2a6c3c3a7ea536e7231d3dc3b1c31205c4ca61811fbc8f0e9be4",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Believe me, if it had been dead it would never have become elaborate; it is only the live tree that grows too many branches.",
+      "output_sha256": "7fb04b64c0a6294ba2917dcc0b42ecc179a9eae4658f80cb847eda19cb0b7d99",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "7fb04b64c0a6294ba2917dcc0b42ecc179a9eae4658f80cb847eda19cb0b7d99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": ".....",
+      "output_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "As I walked, the trees gradually receded from one another, and I emerged into a field of tall grass alongside a road.",
+      "output_sha256": "abcf11a1603d8be5a488e7a08f45312928815200adb1a1702fee46d6017602f6",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.402882,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "43e3d68459d4c75c3369c3c2fff000aa5fd9eed9a3860b319fed98d175d4c347"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "abcf11a1603d8be5a488e7a08f45312928815200adb1a1702fee46d6017602f6",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "I was caught off guard by how late the day had advanced; it felt as though this valley had its own unique sunset.",
+      "output_sha256": "e99b7b87abf924442e89f9db361308427c696943e3fe3dc232835640647e5b3c",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.393566,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "6dc5220dc10059c1c946012ae7841b7f241a402906b92b5ac66221c754fd9737"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "e99b7b87abf924442e89f9db361308427c696943e3fe3dc232835640647e5b3c",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Continuing along the road as directed, I passed through a modest gate that marked the transition from the woods to a garden.",
+      "output_sha256": "85aa264c4f0d6e6cdbd582071139ec36806a678303caf688323a8c758de92014",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.310803,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "086ce2d826443dbce0c58d0e85fb7aeb2b4ead5e93508e99c8b947735e8a5693"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "85aa264c4f0d6e6cdbd582071139ec36806a678303caf688323a8c758de92014",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "It was as if the curious courtesy and fineness of that character I was to meet went out from him upon the valley; for I felt on all these things the finger of that quality which the old English called “faërie”; it is the quality which those can never understand who think of the past as merely brutal; it is an ancient elegance such as there is in trees.",
+      "output_sha256": "ba44bd22ca5114b0238dcf72917017a11b0fd254ad3f4f38e689018d20f495c5",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "ba44bd22ca5114b0238dcf72917017a11b0fd254ad3f4f38e689018d20f495c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "I went through the garden and saw an old man sitting by a table, looking smallish in his big chair.",
+      "output_sha256": "c988bd26f16808356dcc587ae86748bf9ad0e43d8160b93f4e424fcdfce6f602",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "c988bd26f16808356dcc587ae86748bf9ad0e43d8160b93f4e424fcdfce6f602",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "He was already an invalid, and his hair and beard were both white; not like snow, for snow is cold and heavy, but like something feathery, or even fierce; rather they were white like the white thistledown.",
+      "output_sha256": "b308244beeb506d35e45761985431f2d99d48329da339d6cde5f0edec3859e92",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "b308244beeb506d35e45761985431f2d99d48329da339d6cde5f0edec3859e92",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "I approached him closely; he extended his frail hand and, in that moment, I was struck by the surprising youthfulness in his eyes.",
+      "output_sha256": "d35365d4743aaaa55872bdea98e374e9ae54356c8f6c575eb8356696b589ce15",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.40269,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "7c17b8173bc05e313e342193ad3db56d358351d7c1314f3c2b1d84c5f691b760"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "d35365d4743aaaa55872bdea98e374e9ae54356c8f6c575eb8356696b589ce15",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "He was the one great man of the old world whom I have met who was not a mere statue over his own grave.",
+      "output_sha256": "9090a55533d78182bcfa19fbeb6da8d0ce0d9fd1db4213718a825ef86969d542",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "9090a55533d78182bcfa19fbeb6da8d0ce0d9fd1db4213718a825ef86969d542",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Although he was deaf, he spoke with a torrent of words.",
+      "output_sha256": "dfba05ab86e3c98fe767f5695a1db362ad9cd12338307de4abf9ee1f430f644c",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.519351,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "f4cfe24763f44e5fbd9815965361c9e888118e2469975816613162b9ec917e63"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "dfba05ab86e3c98fe767f5695a1db362ad9cd12338307de4abf9ee1f430f644c",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "He did not talk about the books he had written; he was far too much alive for that.",
+      "output_sha256": "86643103b7a95e20529cd59322d7c34ce5f0afab43909275bf76e15dfa842d73",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "86643103b7a95e20529cd59322d7c34ce5f0afab43909275bf76e15dfa842d73",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "He talked about the books he had not written.",
+      "output_sha256": "af52def5a40a50ec96c849735e4605b7916713ba9cec8437cd0048164e4a42f3",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "af52def5a40a50ec96c849735e4605b7916713ba9cec8437cd0048164e4a42f3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "He unrolled a purple bundle of romances which he had never had time to sell.",
+      "output_sha256": "076691b1a08e399ea1dff2e6a1431e12f30d6f7189ff852bf2bd191069ec1df1",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "076691b1a08e399ea1dff2e6a1431e12f30d6f7189ff852bf2bd191069ec1df1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "He casually asked me to pen one of these narratives for him, as if he were requesting a favor from a neighbor.",
+      "output_sha256": "e04e579bb691d7c88c7626e93c45b9066dc5974aca788d9b786515e61567f3a0",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.485481,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "6c05733aba1bc92cb4f9aa7ea9bdd2698bfed7d7b1c639ee17286494697c1707"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "e04e579bb691d7c88c7626e93c45b9066dc5974aca788d9b786515e61567f3a0",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "It was a splendid and frantic story, a sort of astronomical farce.",
+      "output_sha256": "60c3e9573e23851add04ed1477d59294088d4813b12aa076df0b1b4836c87d6a",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "60c3e9573e23851add04ed1477d59294088d4813b12aa076df0b1b4836c87d6a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "It was all about a man who was rushing up to the Royal Society with the only possible way of avoiding an earth-destroying comet; and it showed how, even on this huge errand, the man was tripped up at every other minute by his own weakness and vanities; how he lost a train by trifling or was put in gaol for brawling.",
+      "output_sha256": "aca21951b5f28affe9e93373a6f089694305300008b8f39532620086d27207c3",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "aca21951b5f28affe9e93373a6f089694305300008b8f39532620086d27207c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "That is only one of them; there were ten or twenty more.",
+      "output_sha256": "0d00d69344acd4f60a101b2e68c934578bd6e0d2a68e03292617503f24c2fc95",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "0d00d69344acd4f60a101b2e68c934578bd6e0d2a68e03292617503f24c2fc95",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Another, I dimly remember, was a version of the fall of Parnell; the idea that a quite honest man might be secret from a pure love of secrecy, of solitary self-control.",
+      "output_sha256": "8f409c085f920045cc38277916a22dfcacea3e83ad32e99d332b0012071eef89",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "8f409c085f920045cc38277916a22dfcacea3e83ad32e99d332b0012071eef89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "As I left that garden, I was enveloped in a blurred sense of the infinite possibilities inherent in creative literature.",
+      "output_sha256": "f4458edd842a6a04c7c09656bc0d10983b25ed6bb20c379075201d7e1f13b7a9",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.520386,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "683a8bb7b978dd8f6bae4bd692ebd74e45d23247c4f6c8c6ff87f345237f32c8"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "f4458edd842a6a04c7c09656bc0d10983b25ed6bb20c379075201d7e1f13b7a9",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "This feeling intensified as I reentered the woods, for a forest is akin to a grand palace with countless intersecting corridors.",
+      "output_sha256": "72d0eb801e64f3a9818f711608e8d0dc92c8051b3382ad8b949e30a0f926d6df",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.355639,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "c0f5df2b600f4f0f40c981bd85593accc230031f7173254d393d30cd302f9c43"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "72d0eb801e64f3a9818f711608e8d0dc92c8051b3382ad8b949e30a0f926d6df",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "I really had the feeling that I had seen the creative quality; which is supernatural.",
+      "output_sha256": "f620a257d048cd7d19a546b87843c609bc27aae2730c5d3e798e87e473775c3c",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "f620a257d048cd7d19a546b87843c609bc27aae2730c5d3e798e87e473775c3c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "I had seen what Virgil calls the Old Man of the Forest: I had seen an elf.",
+      "output_sha256": "052bec6cd9cce07099c8e2bba21b4e485f3a3b4258707a815bf3e29092c7f860",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "052bec6cd9cce07099c8e2bba21b4e485f3a3b4258707a815bf3e29092c7f860",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "The trees loomed behind me as I departed, and I have never seen him since; now I know I will not see him again, for he passed away last Tuesday.",
+      "output_sha256": "e9debb2883ec4016c9cd19351d07e8442061730dfa759ff6263377be4c14f50a",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.61303,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "5a8a7d25f9f5abdeeaece11048ae7819028f9f226250516d2e442fc250de6407"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "e9debb2883ec4016c9cd19351d07e8442061730dfa759ff6263377be4c14f50a",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    }
+  ]
+}

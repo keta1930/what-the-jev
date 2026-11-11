@@ -1,0 +1,1489 @@
+{
+  "source_id": "EN084",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "66f5ed4a2f177b60e2417061d9a2c43a448d8a4fd43f6213a236dd36cfd870ae",
+  "ai_article_sha256": "9d146fe2c2bfae940d54219aaf3c895a49ed073105b135db3211eb75ac9eac11",
+  "mixed_article_sha256": "95d07d342ca8c381e7f9e06d049a1dcfe364c4a1b4b99eb968b383dac011b82e",
+  "human_source_sentence_count": 103,
+  "ai_source_sentence_count": 87,
+  "alignment_unit_count": 86,
+  "selected_alignment_unit_count": 31,
+  "mixed_sentence_count": 99,
+  "selected_ai_sentence_count": 33,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.295,
+  "selected_alignment_score_median": 0.500062,
+  "selected_alignment_score_max": 0.717582,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A sharp shower came on as I walked along the Strand, but I did not put up my umbrella.",
+      "output_sha256": "1dbff97153184396542428d7780125ff6c994074df6bcda0c643a6a2fb5ba288",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "1dbff97153184396542428d7780125ff6c994074df6bcda0c643a6a2fb5ba288",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "In truth, I found myself unable to do so.",
+      "output_sha256": "28e5057c470d7b14e771112011039f6ac2e82e98382d42672f12ab0aee7a388d",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.333333,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "12e727af0c1e89032f7c83b12b73bd0092cf96634e1669698884710fc5bb7016"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "28e5057c470d7b14e771112011039f6ac2e82e98382d42672f12ab0aee7a388d",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The mechanism was faulty, and even if it had been functional, I would have still refrained from using it; I wouldn’t be caught under such a ridiculous excuse for an umbrella any more than Falstaff would parade through Coventry leading his ragtag band of misfits.",
+      "output_sha256": "082fbe312333f0fde8c8bc7dea48e4963ed6072e6eba8031f7354d19084c0dd6",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.519634,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "4e294c2b87d7fb7bda8c6a683a762af9dfd32f8212f95f46df7664f103d6d39e"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "082fbe312333f0fde8c8bc7dea48e4963ed6072e6eba8031f7354d19084c0dd6",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The fact is, the umbrella is not my umbrella at all.",
+      "output_sha256": "0b09263982d95fee6934e6e2585e0a9a1ee36a1705fd2ff1de8a3e98070fe532",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "0b09263982d95fee6934e6e2585e0a9a1ee36a1705fd2ff1de8a3e98070fe532",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is the umbrella of some person who I hope will read these lines.",
+      "output_sha256": "4e755a7c44081051ce8dc36962ac5c37b51f6232336158b30fa74079efc7f285",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "4e755a7c44081051ce8dc36962ac5c37b51f6232336158b30fa74079efc7f285",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "They've taken my silk umbrella, and in return, I have their cotton one.",
+      "output_sha256": "34cd63ac3203db19fbcb69337f4881c86c0e035831f1890e6459ad285d0bc017",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.499741,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "f2edf004411e6133024e80dc8989af95e68a23b96ae2350677e5aaa1ee6cbd22",
+        "41d7b5065f3564db59bb8c55139e81352fdc0f9df563d3eeac2e0daefe0c3ad3"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "34cd63ac3203db19fbcb69337f4881c86c0e035831f1890e6459ad285d0bc017",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "I can picture them swaggering along the Strand beneath my umbrella, casting a disdainful look at the poor soul stuck with their pitiful excuse for a shield against the rain.",
+      "output_sha256": "a6b88c0d87bb4377c44a3b585ebca3d510b05dc76b6eac6ab924263828a75805",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.424001,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "643e16e4e1bcdac3ec8b4498e540c44a2c94219bb3ea92708478b9c78c992a68"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "a6b88c0d87bb4377c44a3b585ebca3d510b05dc76b6eac6ab924263828a75805",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I daresay the rascal chuckled as he eyed the said abomination.",
+      "output_sha256": "3041f5c16df37ceb0e1f29cd2bc45b15c225f5bb2c44c1186352f04d15ce9312",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "3041f5c16df37ceb0e1f29cd2bc45b15c225f5bb2c44c1186352f04d15ce9312",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "\"Ah,\" he said gaily to himself, \"I did you in that time, old boy.",
+      "output_sha256": "f49af40cd02db4df3e1cb0126ce0ea2a0c6932a74850c9406b098b237d9f4634",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "f49af40cd02db4df3e1cb0126ce0ea2a0c6932a74850c9406b098b237d9f4634",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I know that thing.",
+      "output_sha256": "fd049da5984707debceb73a1752edf45828152619b7912928c2e93a90c249627",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "fd049da5984707debceb73a1752edf45828152619b7912928c2e93a90c249627",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "It won’t open at all.",
+      "output_sha256": "527f5fc9eed2f4820db61377b41407f6eda293ed3b383bd97effbde733d79721",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.49,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "ff65cd1e315fb17a712ee64fe8cd693e938a1a1d2a94a14573bab0d033a63382"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "527f5fc9eed2f4820db61377b41407f6eda293ed3b383bd97effbde733d79721",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "And it collapses like a sack.",
+      "output_sha256": "b168f0eab75eddf2929cd2fdda390b24858886ae96485ace990faa961612e860",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.687582,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "260cafe29d87d8bc06692ce1b7eb78edb95e9e5bce5bc01289360a82fb3a784e"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "b168f0eab75eddf2929cd2fdda390b24858886ae96485ace990faa961612e860",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Now, this umbrella….\"",
+      "output_sha256": "89bba9107311af0531c16668d27b78c8c6a1d360183af588d30b99b91e56cb5e",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "89bba9107311af0531c16668d27b78c8c6a1d360183af588d30b99b91e56cb5e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Yet, I digress from his unseemly ruminations.",
+      "output_sha256": "ed667bdbce1dd62ac2e3ec02591deaa1569afcc31cc702e33629b4253a9ace36",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.295,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "b376a74a2ee85cd9313864b481c80ba37d2f0496ecf4b604db8649eb67b6ffc4"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "ed667bdbce1dd62ac2e3ec02591deaa1569afcc31cc702e33629b4253a9ace36",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "He is the type of person I would classify as having an “umbrella conscience.”",
+      "output_sha256": "97a21d8c673b44a23a0b8c9d89a969d267b44e3b44d6419532720cc72f033ff4",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.500062,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "592414f4e95787fd4334864ba15320ff717e40f4d4f3e0581483944ea2a49602"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "97a21d8c673b44a23a0b8c9d89a969d267b44e3b44d6419532720cc72f033ff4",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "You know the sort I refer to—individuals who would never dream of dipping their hands into someone else’s pocket, forging checks, or robbing a cash register, even if the opportunity arose.",
+      "output_sha256": "bf66286d2cc65711094d700db0e71acf3274b08d59b5a391b79bc9362ec8afbb",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.465877,
+      "human_sentence_indices": [
+        17,
+        18
+      ],
+      "human_sha256": [
+        "6affaee64c30598cd8f7653f1db6713dcaca25854c9fd166d8e95b8fe7796cc2",
+        "bf130a57e1b49bb93fa2c48de8f9f5b0221396280c1e7ae7885bfd4392f57daf"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "bf66286d2cc65711094d700db0e71acf3274b08d59b5a391b79bc9362ec8afbb",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "But he will swop umbrellas, or forget to return a book, or take a rise out of the railway company.",
+      "output_sha256": "d55fa20c6bd971ddb7a897ac8ead43a16a9e14754a28348845740bfd3aba3c96",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "d55fa20c6bd971ddb7a897ac8ead43a16a9e14754a28348845740bfd3aba3c96",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "In fact he is a thoroughly honest man who allows his honesty the benefit of the doubt.",
+      "output_sha256": "67175b3a35a1573297e3f073dd8d84862120d1bf7b824c9bd84a2c9c44a30855",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "67175b3a35a1573297e3f073dd8d84862120d1bf7b824c9bd84a2c9c44a30855",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Perhaps he takes your umbrella at random from the barber's stand.",
+      "output_sha256": "97bab06a9a82eeecbbb6a2c573a5ae41efa5ea943e5c4b119be41d055f4bf46a",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "97bab06a9a82eeecbbb6a2c573a5ae41efa5ea943e5c4b119be41d055f4bf46a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He knows he can't get a worse one than his own.",
+      "output_sha256": "17afe70c101cd3599303f8f96b8dee95d271986dac65bf1830f80f7d9559f125",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "17afe70c101cd3599303f8f96b8dee95d271986dac65bf1830f80f7d9559f125",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He may get a better.",
+      "output_sha256": "4984bbb97668c99ef155fcabdf1e54486f6693eff25faa9ec3541cc97b6bc5f2",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "4984bbb97668c99ef155fcabdf1e54486f6693eff25faa9ec3541cc97b6bc5f2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He doesn't look at it very closely until he is well on his way.",
+      "output_sha256": "2ce9479367e019c2e2fd5ab47535b6b823633db50f26d93bf90b63a524382561",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "2ce9479367e019c2e2fd5ab47535b6b823633db50f26d93bf90b63a524382561",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Then, \"Dear me!",
+      "output_sha256": "091a29e5e506065b1aeb81efbb8e58ab371ff4bc86b9ebdd675f773825f9464e",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "091a29e5e506065b1aeb81efbb8e58ab371ff4bc86b9ebdd675f773825f9464e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I've taken the wrong umbrella,\" he says, with an air of surprise, for he likes really to feel that he has made a mistake.",
+      "output_sha256": "fbf429debc700371f0636a70e12770db816fa507b590e4fe36c214a814dcbc61",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "fbf429debc700371f0636a70e12770db816fa507b590e4fe36c214a814dcbc61",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "“Well, there’s no point in going back now.",
+      "output_sha256": "2625f1cdbbc6bbc1903f63afc259aecb3ff3024b3a78039f9f8d497e46e02bec",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.63125,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "9d9cd27f3fbebfa254b4c505dfe5758fa03ea5b040606289a85342a3d90bb1d7"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "2625f1cdbbc6bbc1903f63afc259aecb3ff3024b3a78039f9f8d497e46e02bec",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He'd be gone.",
+      "output_sha256": "e238f46f0f74aed75a2c0b31fffc4f2c6c36a2991e56e6f0049ad2ddbee20aa7",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "e238f46f0f74aed75a2c0b31fffc4f2c6c36a2991e56e6f0049ad2ddbee20aa7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "And I've left him mine !\"",
+      "output_sha256": "17d3d95ed59360c9cc558c32e73502aff6fe4358cf2594291e1c650b5debc466",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "17d3d95ed59360c9cc558c32e73502aff6fe4358cf2594291e1c650b5debc466",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It is thus that we play hide-and-seek with our own conscience.",
+      "output_sha256": "ef55de7703da09009e1b2fa1cf76573ed35452c544c83ce8085ca5d3f79739d9",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "ef55de7703da09009e1b2fa1cf76573ed35452c544c83ce8085ca5d3f79739d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It is not enough not to be found out by others; we refuse to be found out by ourselves.",
+      "output_sha256": "cfd51b2212e93fc45ba5f9d14c4bb346b5246ff016f9be3cd96d52e0bbd35ad6",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "cfd51b2212e93fc45ba5f9d14c4bb346b5246ff016f9be3cd96d52e0bbd35ad6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Quite impeccable people, people who ordinarily seem unspotted from the world, are afflicted with umbrella morals.",
+      "output_sha256": "d4888f40b81ae05d3149f6a1926388fdea7a9698bc00b6dfb004329a5226f71a",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "d4888f40b81ae05d3149f6a1926388fdea7a9698bc00b6dfb004329a5226f71a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "A well-known preacher, for example, was discovered deceased in a first-class railway carriage, his pocket containing a third-class ticket.",
+      "output_sha256": "98748e452fc20594a63ea2f66b54a16141d8e0ac025e965645af57387c69ff16",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.622381,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "2c97e3e8a97b7188e53868066a7428c4eb43dcffb46d82fad4022bf414050e5e"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "98748e452fc20594a63ea2f66b54a16141d8e0ac025e965645af57387c69ff16",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "And as for books, who has any morals where they are concerned?",
+      "output_sha256": "03221f218c413d71b7da8bcd352352558023f3023f1245f4a5c8147e7cfd7d60",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "03221f218c413d71b7da8bcd352352558023f3023f1245f4a5c8147e7cfd7d60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I remember some years ago the library of a famous divine and literary critic, who had died, being sold.",
+      "output_sha256": "914dd639ab2bf9f4391f3cfd3d724228ac235ae9e379b995d2ad785c6d7de466",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "914dd639ab2bf9f4391f3cfd3d724228ac235ae9e379b995d2ad785c6d7de466",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "It was a splendid library of rare books, chiefly concerned with seventeenth-century writers, about whom he was a distinguished authority.",
+      "output_sha256": "d9acab15b9ed1b42691f5c35e0cde10e954284e074f59ebee5ef7c9758c87c07",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "d9acab15b9ed1b42691f5c35e0cde10e954284e074f59ebee5ef7c9758c87c07",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Many of those books bore the markings of libraries from across the nation.",
+      "output_sha256": "d4934ea6699c8703f9a97adf126112df5469c300bad6f83622e66007c5df0555",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.419231,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "0d98fe6b49c440315fe2d3f154b3e458ec4e5127bb4905cb9c2274f10af61e08"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "d4934ea6699c8703f9a97adf126112df5469c300bad6f83622e66007c5df0555",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "He had borrowed them and never found a convenient opportunity of returning them.",
+      "output_sha256": "dbd1b58659c24935727bc1c0554b5385c1ed9c66c39a9b49fccb0a36bd4f5879",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "dbd1b58659c24935727bc1c0554b5385c1ed9c66c39a9b49fccb0a36bd4f5879",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "They clung to him like precedents to law.",
+      "output_sha256": "b0412873b65cea8300877a96c3ea705a3d717dde204b3aba01554c4e176801a5",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "b0412873b65cea8300877a96c3ea705a3d717dde204b3aba01554c4e176801a5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Yet he was a holy man and preached admirable sermons, as I can bear witness.",
+      "output_sha256": "b43bd575296d44d7eeba4c3db7e30f3b1eaf4a1cf4ca703314f33091ef6e12ce",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "b43bd575296d44d7eeba4c3db7e30f3b1eaf4a1cf4ca703314f33091ef6e12ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "If pressed, I would concede that it is indeed challenging to part with a beloved book.",
+      "output_sha256": "cb50cb52cbd33b499a7c69e4cb74c18a86e9cf9796f717919547f6a30e4ce3e3",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.367821,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "516eeaea9dcaf3680c310761dccb5ba026b69ceebe907ed23ddd5fadd7adb0ea"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "cb50cb52cbd33b499a7c69e4cb74c18a86e9cf9796f717919547f6a30e4ce3e3",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Indeed, the only sound rule about books is that adopted by the man who was asked by a friend to lend him a certain volume.",
+      "output_sha256": "9e6ed2e3820425d966e1ab5a8068df931d64e8ae633d1d55f0c5db6b554f41dc",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "9e6ed2e3820425d966e1ab5a8068df931d64e8ae633d1d55f0c5db6b554f41dc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "“I’m sorry,” he replied, “but I simply cannot.”",
+      "output_sha256": "fc85d4ffbba34733e225c335e3638c9e4d5785e94ed5f25e75b4b1d3a5a66029",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.423908,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "34a36b82ada4e38d674fb85ccf872ae4e308951e48aadbdfed86af8139404acd"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "fc85d4ffbba34733e225c335e3638c9e4d5785e94ed5f25e75b4b1d3a5a66029",
+      "ai_unit_sentence_indices": [
+        35,
+        36
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "“Don’t you have it?” inquired the friend.",
+      "output_sha256": "a5c3eba3ae5f0c9b72b202af972be2efd6e20fc6605f5e7003b71686362a282b",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.423908,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "34a36b82ada4e38d674fb85ccf872ae4e308951e48aadbdfed86af8139404acd"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "a5c3eba3ae5f0c9b72b202af972be2efd6e20fc6605f5e7003b71686362a282b",
+      "ai_unit_sentence_indices": [
+        35,
+        36
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "“Yes, I possess it,” he affirmed, “but I adhere to a strict rule of never lending books.",
+      "output_sha256": "ca39ebce2b40e80d34e1955e8d96f2f4a7615e9eea8f21f85b9a62f4b30f9086",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.544404,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "0d341d7b5e5edb879a337b46cc1f27ab372f83c2f59029c49e749935a195481a"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "ca39ebce2b40e80d34e1955e8d96f2f4a7615e9eea8f21f85b9a62f4b30f9086",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "You see, no one ever returns them.",
+      "output_sha256": "683ec877b35f4ed7a95b8871b5c42b90c7bd9ed2d9eaafbe7337dfe803197db2",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.717582,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "0efc0636398e8319234fb6a1a3ee1ca313518d722e63e14e526314661fa0ba32"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "683ec877b35f4ed7a95b8871b5c42b90c7bd9ed2d9eaafbe7337dfe803197db2",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "I know this from personal experience.",
+      "output_sha256": "64be70443e47de619028cc6a2271d5b822301e9092320be828c7db62c15fea59",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.548333,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "10a3f1758b04e443959cb5d60d21df837ddedc06454c120a8542c1f113040535"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "64be70443e47de619028cc6a2271d5b822301e9092320be828c7db62c15fea59",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Here, come with me.\"",
+      "output_sha256": "c5cf21ddc33a9f8e5205a8db71dd3c109ab2ee6041266657fd5acc3a712a43d5",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "c5cf21ddc33a9f8e5205a8db71dd3c109ab2ee6041266657fd5acc3a712a43d5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "And he led the way to his library.",
+      "output_sha256": "d9691881f94076300697c2cb2fc48d2ae0c16e4e751f19133d02387b524fdf02",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "d9691881f94076300697c2cb2fc48d2ae0c16e4e751f19133d02387b524fdf02",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "\"There,\" said he, \"four thousand volumes.",
+      "output_sha256": "212a08c551b2c00d72df11281f98a6e4c490b855310aec7f6e6a65a926ecf57b",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "212a08c551b2c00d72df11281f98a6e4c490b855310aec7f6e6a65a926ecf57b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Every—one—of—'em—borrowed.\"",
+      "output_sha256": "d85450adc210cfdfdea07baf8eece53ea53440a5bce7a77f5a2a5a0d3dea49cc",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "d85450adc210cfdfdea07baf8eece53ea53440a5bce7a77f5a2a5a0d3dea49cc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Hence, never lend books.",
+      "output_sha256": "2af1ad95b1e88344ead1467527056f44bffcb226c282bfc77d1a873e72c55299",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.7175,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "97f48675a9c63a3f51672d90014a91c47f17650e91544246be0125da78d1c67f"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "2af1ad95b1e88344ead1467527056f44bffcb226c282bfc77d1a873e72c55299",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "You cannot trust even your closest friend in this regard.",
+      "output_sha256": "d02ddf39354c9afd8f0e683c20bf6e6f518f1783b47a4be0c21ba7aacd49db89",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.476765,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "ee56f1ba9320aa98adfa035c720bed8ebca549e61f965f688de12eecec58e891"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "d02ddf39354c9afd8f0e683c20bf6e6f518f1783b47a4be0c21ba7aacd49db89",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I know.",
+      "output_sha256": "45b3c6001b6b95569b2e2ca0584b2d5e169321859dc5f75c93acf53f1400cac1",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "45b3c6001b6b95569b2e2ca0584b2d5e169321859dc5f75c93acf53f1400cac1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Where is that Gil Blas gone?",
+      "output_sha256": "f250479dabaf63be484feb4047cf25c15264dcb50afd1309e13eb6ae8d5e1d81",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "f250479dabaf63be484feb4047cf25c15264dcb50afd1309e13eb6ae8d5e1d81",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Eh?",
+      "output_sha256": "b85749c36fbf710adf140c7fac0dc2da12e6f70809cef3e13e48bd4d3fec3748",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "b85749c36fbf710adf140c7fac0dc2da12e6f70809cef3e13e48bd4d3fec3748",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "And that Silvio Pellico ?",
+      "output_sha256": "9ee0a028e040ea21fd956c113789bc222c02b97001bba9edf0526297a97d36bf",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "9ee0a028e040ea21fd956c113789bc222c02b97001bba9edf0526297a97d36bf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "And… why continue the enumeration?",
+      "output_sha256": "c0e9d77460ed2e00c5dad8b1126f7aad39f872ac157710969a3a54f0acf74bd4",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.668939,
+      "human_sentence_indices": [
+        57,
+        58
+      ],
+      "human_sha256": [
+        "efcaaed2630ef47b0f236d8bee8a6ca30af380dd6f3a41f2363c6535cde1645e",
+        "054de6c41d54bdccc2df8fdf9a5ff318330e07fd3d5ba8a38b96d353900fe3e4"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "c0e9d77460ed2e00c5dad8b1126f7aad39f872ac157710969a3a54f0acf74bd4",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "He knows.",
+      "output_sha256": "992a28878f77ae64b2d0da016734c3cc703640159f7856bd02a2d8081c06ba61",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "992a28878f77ae64b2d0da016734c3cc703640159f7856bd02a2d8081c06ba61",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "HE KNOWS.",
+      "output_sha256": "c80c98fa6c0034f658b10e1b8d9a32e34d583c0b22de5a7a1d4be4156b389751",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "c80c98fa6c0034f658b10e1b8d9a32e34d583c0b22de5a7a1d4be4156b389751",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And hats.",
+      "output_sha256": "2a9377b28d70a76b1e808f443d8dc192a6de2790a5dbf372e84b24797ff0546d",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "2a9377b28d70a76b1e808f443d8dc192a6de2790a5dbf372e84b24797ff0546d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Some individuals willingly exchange hats, which I find utterly inexcusable.",
+      "output_sha256": "85dddf9c92cabb454ea7a51af0560e1d8a2b02c975474c2f758c98df358caaef",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.317532,
+      "human_sentence_indices": [
+        62,
+        63
+      ],
+      "human_sha256": [
+        "36accaeacee5705c3c078da3c8241482cb02450d436f0f71cc02a35c377d0482",
+        "f85ea07000d2f3aef96995edec82de426e26d0fa7ed3336863459ab8240379f4"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "85dddf9c92cabb454ea7a51af0560e1d8a2b02c975474c2f758c98df358caaef",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "That goes outside that dim borderland of conscience where honesty and dishonesty dissemble.",
+      "output_sha256": "a8c3a0dff46d9c09adef235b8bbfe3f07c672b963ce77388aea96212cb3a2cd2",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "a8c3a0dff46d9c09adef235b8bbfe3f07c672b963ce77388aea96212cb3a2cd2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "No one can put a strange hat on without being aware of the fact.",
+      "output_sha256": "1a2d70c4fa59e839013d141cf9991a12e6305b43ce36a72c59799f88648a9ddb",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "1a2d70c4fa59e839013d141cf9991a12e6305b43ce36a72c59799f88648a9ddb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Yet it is done.",
+      "output_sha256": "65107e9f0c6a4e41dc028301e79c8e307f523eddd2f8e8f8bc6f0e5853fa0cab",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "65107e9f0c6a4e41dc028301e79c8e307f523eddd2f8e8f8bc6f0e5853fa0cab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I once hung a silk hat up in the smoking-room of the House of Commons.",
+      "output_sha256": "84fb2bd623be90bdb540364ec3e6f2c37f1eb3aeb76732b58ecc91a9c5b5cff2",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "84fb2bd623be90bdb540364ec3e6f2c37f1eb3aeb76732b58ecc91a9c5b5cff2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "When I wanted it, it was gone.",
+      "output_sha256": "c7eec03c22c28d052c83408c0958c1570819691b60b6d25cdcc7fc76d127ef23",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "c7eec03c22c28d052c83408c0958c1570819691b60b6d25cdcc7fc76d127ef23",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And there was no silk hat left in its place.",
+      "output_sha256": "b1c474bd7225103fd96a3f16978b28460ab2fd1037e1395916dcb715d2e4c7f5",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "b1c474bd7225103fd96a3f16978b28460ab2fd1037e1395916dcb715d2e4c7f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I had to go out bareheaded through Palace Yard and Whitehall to buy another.",
+      "output_sha256": "0d753c9da61437a473becdb6c6058c3441320ae2cf3abc8a236735b7a2513267",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 70,
+      "source_human_sha256": "0d753c9da61437a473becdb6c6058c3441320ae2cf3abc8a236735b7a2513267",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I have often wondered who was the gentleman who put my hat on and carried his own in his hand.",
+      "output_sha256": "d8d988f79f0db07f9b82e477eb3f2fa50ebe8ec6ac870a4a556328e9bf369d2e",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 71,
+      "source_human_sha256": "d8d988f79f0db07f9b82e477eb3f2fa50ebe8ec6ac870a4a556328e9bf369d2e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Was he a Tory?",
+      "output_sha256": "876d9c7e76379b684f5e206da67ea619b11aa358b9a6fc07dac65a8e6d58624e",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 72,
+      "source_human_sha256": "876d9c7e76379b684f5e206da67ea619b11aa358b9a6fc07dac65a8e6d58624e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Was he a Radical?",
+      "output_sha256": "d35667d4b7cabc74cbafda7c045672dc54b1415c7d5bef78e4928206436c3a56",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 73,
+      "source_human_sha256": "d35667d4b7cabc74cbafda7c045672dc54b1415c7d5bef78e4928206436c3a56",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Surely, he couldn't have been a Labour supporter, as no Labour man could don a silk hat without feeling it scorch his brow.",
+      "output_sha256": "235c6a25fbaaa87f7383f9971a0a61559a77d55f452667b0c233f9a8fb926ad1",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.543845,
+      "human_sentence_indices": [
+        74,
+        75
+      ],
+      "human_sha256": [
+        "0259c7cf24d64193b9fdf2492d4a70a5b3be831fd5509ce61b23c2354a2bc427",
+        "53ce083b02e87ff7e2b9ec428dfae47555f707108796a5676e1f8885538243c7"
+      ],
+      "source_ai_sentence_index": 61,
+      "source_ai_sha256": "235c6a25fbaaa87f7383f9971a0a61559a77d55f452667b0c233f9a8fb926ad1",
+      "ai_unit_sentence_indices": [
+        61
+      ]
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Fancy Will Crooks in a silk hat!",
+      "output_sha256": "277af2770a3045cdf81a48facaa3cc4938dd7c16ac427977f567c7af5bde86d7",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 76,
+      "source_human_sha256": "277af2770a3045cdf81a48facaa3cc4938dd7c16ac427977f567c7af5bde86d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 73,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "One would as soon dare to play with the fancy of the Archbishop of Canterbury in a bowler—a thought which seems almost impious.",
+      "output_sha256": "b207f03ce369bfb9a29bf43d9f920d50514681019c891a385ed16c52b74f8f4a",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 77,
+      "source_human_sha256": "b207f03ce369bfb9a29bf43d9f920d50514681019c891a385ed16c52b74f8f4a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 74,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It is possible, of course, that the gentleman who took my silk umbrella did really make a mistake.",
+      "output_sha256": "c0ef8158cb7b50e96299f82c5066c933e9cbaa891b0f10deadbb79ed06f39fa7",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 78,
+      "source_human_sha256": "c0ef8158cb7b50e96299f82c5066c933e9cbaa891b0f10deadbb79ed06f39fa7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 75,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "If he were aware of its true owner, perhaps he would return it along with his compliments.",
+      "output_sha256": "232232d31eb7133f16b4f645c86c1a13b2553d937db8bcacd05b01e6be3cc2ac",
+      "alignment_unit_index": 64,
+      "alignment_score": 0.582395,
+      "human_sentence_indices": [
+        79,
+        80
+      ],
+      "human_sha256": [
+        "574f226079ce1c4c6edc61f86daf52e0eb3fc8ae702756c8a4c6024f6b35325f",
+        "3e4d5c35efd163cbe850aec7147e415f9c5ede7dbc88aab79ac3ac948cc885c3"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "232232d31eb7133f16b4f645c86c1a13b2553d937db8bcacd05b01e6be3cc2ac",
+      "ai_unit_sentence_indices": [
+        64
+      ]
+    },
+    {
+      "sentence_index": 76,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Let me give an illustration.",
+      "output_sha256": "2114100375f34fbecf8db435fa6bca4ef4a4b707b0ffff5d8021c3fcad3258f8",
+      "alignment_unit_index": 65,
+      "alignment_score": null,
+      "source_human_sentence_index": 81,
+      "source_human_sha256": "2114100375f34fbecf8db435fa6bca4ef4a4b707b0ffff5d8021c3fcad3258f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 77,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I, too, have exchanged umbrellas on occasion.",
+      "output_sha256": "bed2e73525ec5f34461cc3411d215439307d6ab6048759edfb787bfe896a71ae",
+      "alignment_unit_index": 66,
+      "alignment_score": 0.573352,
+      "human_sentence_indices": [
+        82
+      ],
+      "human_sha256": [
+        "4623f2d2035600b23bd671e4287eff6835d35813e0c20ce6ddaca1e18a17380e"
+      ],
+      "source_ai_sentence_index": 66,
+      "source_ai_sha256": "bed2e73525ec5f34461cc3411d215439307d6ab6048759edfb787bfe896a71ae",
+      "ai_unit_sentence_indices": [
+        66
+      ]
+    },
+    {
+      "sentence_index": 78,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I hope I did so with integrity, but one can never be entirely certain.",
+      "output_sha256": "d7d2ae4849f4ccfe9f3f6cabf43a0c01db630bb2c684198c4c1b75c250efad6e",
+      "alignment_unit_index": 67,
+      "alignment_score": 0.582143,
+      "human_sentence_indices": [
+        83
+      ],
+      "human_sha256": [
+        "43eb3bc5adb07d49553b0c3d6dcfe46578c20c43dfc66854848f4cb129fd69c9"
+      ],
+      "source_ai_sentence_index": 67,
+      "source_ai_sha256": "d7d2ae4849f4ccfe9f3f6cabf43a0c01db630bb2c684198c4c1b75c250efad6e",
+      "ai_unit_sentence_indices": [
+        67
+      ]
+    },
+    {
+      "sentence_index": 79,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Reflecting on it now, I realize that even that silk umbrella wasn’t originally mine.",
+      "output_sha256": "9bcd94b0170a8cdbbc12d2cc108a7b5d1025856d0e658af8c8a49851e1fa0c3c",
+      "alignment_unit_index": 68,
+      "alignment_score": 0.465181,
+      "human_sentence_indices": [
+        84
+      ],
+      "human_sha256": [
+        "0e82fe597cf020cdb2130a5d6b174a8b307aed9d5d506b15e2276025c0770b77"
+      ],
+      "source_ai_sentence_index": 68,
+      "source_ai_sha256": "9bcd94b0170a8cdbbc12d2cc108a7b5d1025856d0e658af8c8a49851e1fa0c3c",
+      "ai_unit_sentence_indices": [
+        68
+      ]
+    },
+    {
+      "sentence_index": 80,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It was one of a long series of exchanges in which I had sometimes gained and sometimes lost.",
+      "output_sha256": "27705dd53ea1e21eb14c0b35f4c9fd12260e5b3400118111e387775f2e00babf",
+      "alignment_unit_index": 69,
+      "alignment_score": null,
+      "source_human_sentence_index": 85,
+      "source_human_sha256": "27705dd53ea1e21eb14c0b35f4c9fd12260e5b3400118111e387775f2e00babf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 81,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "My most memorable exchange was at a rich man's house where I had been invited to dine with some politicians.",
+      "output_sha256": "e3a65abe3598e4a9185deaaaebc748d6606ad7364c412c19d0089b1e473b9ba0",
+      "alignment_unit_index": 70,
+      "alignment_score": null,
+      "source_human_sentence_index": 86,
+      "source_human_sha256": "e3a65abe3598e4a9185deaaaebc748d6606ad7364c412c19d0089b1e473b9ba0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 82,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "During the summer, the weather was dry, and for several days, I had no need for an umbrella.",
+      "output_sha256": "62298cc1c9b77b04186176984bd74123088ed12bdd2997b4630a46d79c916c70",
+      "alignment_unit_index": 71,
+      "alignment_score": 0.449474,
+      "human_sentence_indices": [
+        87
+      ],
+      "human_sha256": [
+        "0d2e27307e68523e538578c55e148c3badb7f8ac875174c8139dad523a259d56"
+      ],
+      "source_ai_sentence_index": 71,
+      "source_ai_sha256": "62298cc1c9b77b04186176984bd74123088ed12bdd2997b4630a46d79c916c70",
+      "ai_unit_sentence_indices": [
+        71
+      ]
+    },
+    {
+      "sentence_index": 83,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Then one day a sensation reigned in our household.",
+      "output_sha256": "21036c947f20699987c0fd0e759c037a46ab0473d7f4be2105439b1f088bf188",
+      "alignment_unit_index": 72,
+      "alignment_score": null,
+      "source_human_sentence_index": 88,
+      "source_human_sha256": "21036c947f20699987c0fd0e759c037a46ab0473d7f4be2105439b1f088bf188",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 84,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There had been discovered in the umbrella-stand an umbrella with a gold band and a gold tassle, and the name of a certain statesman engraved upon it.",
+      "output_sha256": "3eae0e51d2a8b65bf02004e254e82655baf244417ff50364b62b257098ab2a34",
+      "alignment_unit_index": 73,
+      "alignment_score": null,
+      "source_human_sentence_index": 89,
+      "source_human_sha256": "3eae0e51d2a8b65bf02004e254e82655baf244417ff50364b62b257098ab2a34",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 85,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There had never been such a super-umbrella in our house before.",
+      "output_sha256": "59ae3ffb1dbf50fe65a1f16527279e3a162cd580f95ad2dc7485fe589cc94adc",
+      "alignment_unit_index": 74,
+      "alignment_score": null,
+      "source_human_sentence_index": 90,
+      "source_human_sha256": "59ae3ffb1dbf50fe65a1f16527279e3a162cd580f95ad2dc7485fe589cc94adc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 86,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Before its golden splendours we were at once humbled and terrified—humbled by its magnificence, terrified by its presence.",
+      "output_sha256": "4ffac1c4de7d3168f04ff1f0f8caed979fa75a5b04ff79c5a621565bbc46724e",
+      "alignment_unit_index": 75,
+      "alignment_score": null,
+      "source_human_sentence_index": 91,
+      "source_human_sha256": "4ffac1c4de7d3168f04ff1f0f8caed979fa75a5b04ff79c5a621565bbc46724e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 87,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I felt as though I had been caught in the act of stealing the British Empire.",
+      "output_sha256": "b87c9510e702693ca66989cabaddfbb23165213ca3a629231844f7a39eddeeb3",
+      "alignment_unit_index": 76,
+      "alignment_score": null,
+      "source_human_sentence_index": 92,
+      "source_human_sha256": "b87c9510e702693ca66989cabaddfbb23165213ca3a629231844f7a39eddeeb3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 88,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "In a flurry, I composed a letter to the owner, expressing my admiration for his political views but clarifying that I had no intention of stealing his umbrella.",
+      "output_sha256": "46f881a5778ba29a69c87e483d74bace321c4b97873f174131d45e7718359472",
+      "alignment_unit_index": 77,
+      "alignment_score": 0.51611,
+      "human_sentence_indices": [
+        93
+      ],
+      "human_sha256": [
+        "8de7ea7afde631dd139199239cf9044924e615fc8bfe07c9e3f28c48984766de"
+      ],
+      "source_ai_sentence_index": 77,
+      "source_ai_sha256": "46f881a5778ba29a69c87e483d74bace321c4b97873f174131d45e7718359472",
+      "ai_unit_sentence_indices": [
+        77,
+        78
+      ]
+    },
+    {
+      "sentence_index": 89,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I then hailed a cab and delivered both the umbrella and my note to the nearest dispatch office.",
+      "output_sha256": "68a3ed8b148e16255b43600bf76e35389e052ca38ddd8fc781f647b2adcc0174",
+      "alignment_unit_index": 77,
+      "alignment_score": 0.51611,
+      "human_sentence_indices": [
+        93
+      ],
+      "human_sha256": [
+        "8de7ea7afde631dd139199239cf9044924e615fc8bfe07c9e3f28c48984766de"
+      ],
+      "source_ai_sentence_index": 78,
+      "source_ai_sha256": "68a3ed8b148e16255b43600bf76e35389e052ca38ddd8fc781f647b2adcc0174",
+      "ai_unit_sentence_indices": [
+        77,
+        78
+      ]
+    },
+    {
+      "sentence_index": 90,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "He was very nice about it, and in returning my own umbrella took all the blame on himself.",
+      "output_sha256": "51e11ea1e387b6c6aee11021cf2c2b77761598fb7100daf3f1e8dcb9a1411b7e",
+      "alignment_unit_index": 78,
+      "alignment_score": null,
+      "source_human_sentence_index": 94,
+      "source_human_sha256": "51e11ea1e387b6c6aee11021cf2c2b77761598fb7100daf3f1e8dcb9a1411b7e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 91,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "\"What,\" he said, \"between the noble-looking gentleman who thrust a hat on my head, and the second noble-looking gentleman who handed me a coat, and the third noble-looking gentleman who put an umbrella in my hand, and the fourth noble-looking gentleman who flung me into a carriage, I hadn't the least idea what I was taking.",
+      "output_sha256": "ad848b31e8af469a88ade7110b09d0e9ac4f4772dc57df304ddcd1a537f3c677",
+      "alignment_unit_index": 79,
+      "alignment_score": null,
+      "source_human_sentence_index": 95,
+      "source_human_sha256": "ad848b31e8af469a88ade7110b09d0e9ac4f4772dc57df304ddcd1a537f3c677",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 92,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I was too bewildered by all the noble flunkeys to refuse anything that was offered me.\"",
+      "output_sha256": "3d69b80dee3a1ff87d8492b832257aa52c9cbcb1999ff23baaa0c6c87b0601b0",
+      "alignment_unit_index": 79,
+      "alignment_score": null,
+      "source_human_sentence_index": 96,
+      "source_human_sha256": "3d69b80dee3a1ff87d8492b832257aa52c9cbcb1999ff23baaa0c6c87b0601b0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 93,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "It is worth noting that it was the name embossed on the umbrella that ultimately saved the day in this scenario.",
+      "output_sha256": "0a4fa56f475336e7cf2742279a20066938731e33d373557ce6f3c847d88e49e4",
+      "alignment_unit_index": 80,
+      "alignment_score": 0.544799,
+      "human_sentence_indices": [
+        97
+      ],
+      "human_sha256": [
+        "1d3bfeb4308fd3b5b6d4076804c30e9a14d152074c2ba82edd68a462c18f8564"
+      ],
+      "source_ai_sentence_index": 81,
+      "source_ai_sha256": "0a4fa56f475336e7cf2742279a20066938731e33d373557ce6f3c847d88e49e4",
+      "ai_unit_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "sentence_index": 94,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "That is the way to circumvent the man with an umbrella conscience.",
+      "output_sha256": "2aa1ae34f1e9334be65299ac75e69a8c2ca1226207ffb5e2859e0d58197c0799",
+      "alignment_unit_index": 81,
+      "alignment_score": null,
+      "source_human_sentence_index": 98,
+      "source_human_sha256": "2aa1ae34f1e9334be65299ac75e69a8c2ca1226207ffb5e2859e0d58197c0799",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 95,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "I can picture him examining his newfound treasure with secret delight, only to then notice the name and address, at which point his unwavering belief in his own honesty would take over.",
+      "output_sha256": "de752e0b8e7ea2071a6a06abb33bd799355800e9f22bd8d9420f9640d6451d98",
+      "alignment_unit_index": 82,
+      "alignment_score": 0.419052,
+      "human_sentence_indices": [
+        99
+      ],
+      "human_sha256": [
+        "f5023ed9efca72aebaa739167fe8bff0203e21945b1d17a1e0a950b871812179"
+      ],
+      "source_ai_sentence_index": 83,
+      "source_ai_sha256": "de752e0b8e7ea2071a6a06abb33bd799355800e9f22bd8d9420f9640d6451d98",
+      "ai_unit_sentence_indices": [
+        83
+      ]
+    },
+    {
+      "sentence_index": 96,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "After my experience to-day, I think I will engrave my name on my umbrella.",
+      "output_sha256": "9ecdb68bed39a79dcd768693578b955e1dadd20fa7453ff6b748d71fb0d82c3d",
+      "alignment_unit_index": 83,
+      "alignment_score": null,
+      "source_human_sentence_index": 100,
+      "source_human_sha256": "9ecdb68bed39a79dcd768693578b955e1dadd20fa7453ff6b748d71fb0d82c3d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 97,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But not on that baggy thing standing in the corner.",
+      "output_sha256": "d8ea7badf16130fcdcb89fef472a377c4952a355cf79ff2949c1cd49dc0eccd1",
+      "alignment_unit_index": 84,
+      "alignment_score": null,
+      "source_human_sentence_index": 101,
+      "source_human_sha256": "d8ea7badf16130fcdcb89fef472a377c4952a355cf79ff2949c1cd49dc0eccd1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 98,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "I have no qualms about letting anyone take that.",
+      "output_sha256": "a72fd83e34852bd1df10688a42cd901064db900f7ea9749c86cf5b6332d11d44",
+      "alignment_unit_index": 85,
+      "alignment_score": 0.325,
+      "human_sentence_indices": [
+        102
+      ],
+      "human_sha256": [
+        "9b95bff2135e1fdd1aca80ebe9c826368aaa657eaad69c98a5d5a5d919b7833f"
+      ],
+      "source_ai_sentence_index": 86,
+      "source_ai_sha256": "a72fd83e34852bd1df10688a42cd901064db900f7ea9749c86cf5b6332d11d44",
+      "ai_unit_sentence_indices": [
+        86
+      ]
+    },
+    {
+      "sentence_index": 99,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It is anybody's for the taking.",
+      "output_sha256": "adb8d0c4431c248c2fe39d239d37e67481cc22d0fe6c822acbd15b06b0146653",
+      "alignment_unit_index": 86,
+      "alignment_score": null,
+      "source_human_sentence_index": 103,
+      "source_human_sha256": "adb8d0c4431c248c2fe39d239d37e67481cc22d0fe6c822acbd15b06b0146653",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

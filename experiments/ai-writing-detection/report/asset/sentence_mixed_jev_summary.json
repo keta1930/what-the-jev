@@ -1,0 +1,168 @@
+{
+  "threshold": 0.5,
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "models": [
+    "typesafe/jev-1.14-20261014"
+  ],
+  "article": {
+    "zh": {
+      "n": 100,
+      "detected": 23,
+      "detection_rate": 0.23,
+      "mean_probability": 0.372,
+      "median_probability": 0.37,
+      "minimum_probability": 0.06,
+      "maximum_probability": 0.76
+    },
+    "en": {
+      "n": 100,
+      "detected": 71,
+      "detection_rate": 0.71,
+      "mean_probability": 0.5621,
+      "median_probability": 0.57,
+      "minimum_probability": 0.18,
+      "maximum_probability": 0.81
+    }
+  },
+  "sentence": {
+    "zh": {
+      "n": 5652,
+      "positives": 1886,
+      "negatives": 3766,
+      "tp": 331,
+      "fp": 133,
+      "tn": 3633,
+      "fn": 1555,
+      "accuracy": 0.7013446567586695,
+      "precision": 0.7133620689655172,
+      "recall": 0.17550371155885472,
+      "specificity": 0.9646840148698885,
+      "false_positive_rate": 0.03531598513011153,
+      "f1": 0.2817021276595745,
+      "balanced_accuracy": 0.5700938632143716,
+      "roc_auc": 0.7532175197066571,
+      "average_precision": 0.5919993580182358,
+      "mean_ai_probability": 0.39010074231177094,
+      "mean_human_probability": 0.29019118428040364,
+      "median_ai_probability": 0.38,
+      "median_human_probability": 0.28
+    },
+    "en": {
+      "n": 5863,
+      "positives": 1958,
+      "negatives": 3905,
+      "tp": 1149,
+      "fp": 444,
+      "tn": 3461,
+      "fn": 809,
+      "accuracy": 0.7862868838478595,
+      "precision": 0.7212806026365348,
+      "recall": 0.5868232890704801,
+      "specificity": 0.8862996158770806,
+      "false_positive_rate": 0.11370038412291933,
+      "f1": 0.6471416502393692,
+      "balanced_accuracy": 0.7365614524737804,
+      "roc_auc": 0.8416245639871357,
+      "average_precision": 0.7198602089470224,
+      "mean_ai_probability": 0.5214096016343207,
+      "mean_human_probability": 0.3662893725992318,
+      "median_ai_probability": 0.52,
+      "median_human_probability": 0.36
+    },
+    "combined": {
+      "n": 11515,
+      "positives": 3844,
+      "negatives": 7671,
+      "tp": 1480,
+      "fp": 577,
+      "tn": 7094,
+      "fn": 2364,
+      "accuracy": 0.7445940078158924,
+      "precision": 0.7194944093339816,
+      "recall": 0.3850156087408949,
+      "specificity": 0.9247816451570852,
+      "false_positive_rate": 0.07521835484291488,
+      "f1": 0.5016098966276902,
+      "balanced_accuracy": 0.65489862694899,
+      "roc_auc": 0.7748272783247473,
+      "average_precision": 0.6450392056256842,
+      "mean_ai_probability": 0.4569849115504683,
+      "mean_human_probability": 0.3289297353669665,
+      "median_ai_probability": 0.45,
+      "median_human_probability": 0.32
+    }
+  },
+  "localization": {
+    "zh": {
+      "articles": 100,
+      "mean_within_article_roc_auc": 0.7717315614165752,
+      "median_within_article_roc_auc": 0.7893033935707043,
+      "mean_top_k_recall": 0.6007672603585397,
+      "median_top_k_recall": 0.6,
+      "exact_top_k_set_rate": 0.01,
+      "ai_mean_probability_higher_rate": 0.99,
+      "at_least_one_ai_sentence_detected_rate": 0.89,
+      "all_ai_sentences_detected_rate": 0.0,
+      "no_human_false_positive_rate": 0.37,
+      "perfect_threshold_article_rate": 0.0
+    },
+    "en": {
+      "articles": 100,
+      "mean_within_article_roc_auc": 0.8613780486003028,
+      "median_within_article_roc_auc": 0.8669296422272612,
+      "mean_top_k_recall": 0.7071724870071278,
+      "median_top_k_recall": 0.7142857142857143,
+      "exact_top_k_set_rate": 0.0,
+      "ai_mean_probability_higher_rate": 1.0,
+      "at_least_one_ai_sentence_detected_rate": 1.0,
+      "all_ai_sentences_detected_rate": 0.01,
+      "no_human_false_positive_rate": 0.06,
+      "perfect_threshold_article_rate": 0.0
+    },
+    "combined": {
+      "articles": 200,
+      "mean_within_article_roc_auc": 0.816554805008439,
+      "median_within_article_roc_auc": 0.8366207667627336,
+      "mean_top_k_recall": 0.6539698736828338,
+      "median_top_k_recall": 0.6666666666666666,
+      "exact_top_k_set_rate": 0.005,
+      "ai_mean_probability_higher_rate": 0.995,
+      "at_least_one_ai_sentence_detected_rate": 0.945,
+      "all_ai_sentences_detected_rate": 0.005,
+      "no_human_false_positive_rate": 0.215,
+      "perfect_threshold_article_rate": 0.0
+    }
+  },
+  "cost": {
+    "article_zh": {
+      "requests": 100,
+      "input_tokens": 215409,
+      "output_tokens": 2400,
+      "cost_usd": 0.009047178
+    },
+    "article_en": {
+      "requests": 100,
+      "input_tokens": 180174,
+      "output_tokens": 2400,
+      "cost_usd": 0.007567307999999999
+    },
+    "sentence_zh": {
+      "requests": 5652,
+      "input_tokens": 2492048,
+      "output_tokens": 135648,
+      "cost_usd": 0.10466601599999992
+    },
+    "sentence_en": {
+      "requests": 5863,
+      "input_tokens": 2307510,
+      "output_tokens": 140712,
+      "cost_usd": 0.09691541999999968
+    },
+    "total": {
+      "requests": 11715,
+      "input_tokens": 5195141,
+      "output_tokens": 281160,
+      "cost_usd": 0.2181959219999978
+    }
+  }
+}

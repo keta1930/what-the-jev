@@ -1,0 +1,467 @@
+{
+  "source_id": "EN067",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "b4d6e41ada31ad30054a275cb4ea9c600c83923344ec787e0aae73a18d24870f",
+  "ai_article_sha256": "f34b9360f73a46be77c14beeb0394fe0af2599e28804f61ca92131a3d172bbca",
+  "mixed_article_sha256": "1f2938dccc3fae1cb9a78d8a2bf580774e78436f1c5a7e403cbb0321f0645611",
+  "human_source_sentence_count": 29,
+  "ai_source_sentence_count": 38,
+  "alignment_unit_count": 32,
+  "selected_alignment_unit_count": 8,
+  "mixed_sentence_count": 30,
+  "selected_ai_sentence_count": 10,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.269383,
+  "selected_alignment_score_median": 0.366,
+  "selected_alignment_score_max": 0.429603,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is proverbial that a child may lead a horse to the water, but that not even Mr. Lloyd George, with all his persuasive gifts, can make him drink.",
+      "output_sha256": "4def8b549feecd86242616efbf9aa53461a8f155b3ee3b2b1898558fd2efca5f",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "4def8b549feecd86242616efbf9aa53461a8f155b3ee3b2b1898558fd2efca5f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "An even more difficult task is to induce a horse in the pink of robust health to convey a suggestion of being seriously ill—as I chance just to have discovered.",
+      "output_sha256": "d2ce8c6a643ebf4b305dfd7583f366b8d204078d231a1008373bfc3a3c5c350a",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "d2ce8c6a643ebf4b305dfd7583f366b8d204078d231a1008373bfc3a3c5c350a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "It was not something I anticipated; when I woke up on that fateful day and, as I typically do, lay in bed contemplating the events likely to unfold over the next twenty-four hours, the notion of equine deceit did not cross my mind.",
+      "output_sha256": "793bf990483defb79077b4471854d9b9ff532f265463ba3f6264b1d59ac60c6e",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.401414,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "3b7b1a5d9b76134205fb6d937078ea87674114f0e52cce6042b000ff16d0d8be"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "793bf990483defb79077b4471854d9b9ff532f265463ba3f6264b1d59ac60c6e",
+      "ai_unit_sentence_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "However, for the observant and curious individual, unexpected occurrences can arise.",
+      "output_sha256": "55a48d90cc72267d092967edd79d8235366981ea908a9faac38a82f1e5cbce23",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.401414,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "3b7b1a5d9b76134205fb6d937078ea87674114f0e52cce6042b000ff16d0d8be"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "55a48d90cc72267d092967edd79d8235366981ea908a9faac38a82f1e5cbce23",
+      "ai_unit_sentence_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "No sooner had I finished my lunch than a friend and a taxi arrived, as if summoned by fate, and together they whisked me away to one of the most peculiar establishments I had ever encountered, where, under the glaring blue lights, I found myself amidst an unusual gathering of people.",
+      "output_sha256": "a96fb5bc413a96f0e3c671cab4b8c73cfe81256beb16c4fff44dec0556d03b87",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.366,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "7f917145a3fd7ae5edfe4b9367ae7328f39b0f8d8bd993e2d2539c43322850d7"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "a96fb5bc413a96f0e3c671cab4b8c73cfe81256beb16c4fff44dec0556d03b87",
+      "ai_unit_sentence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "In that strange place, I observed men donned in evening attire, casually puffing on cigarettes and leaning toward women who were equally elegantly dressed.",
+      "output_sha256": "3a5ed654608ce56ed0351fe5f5952b57027cb160eb485ceb3f9e79ffc32c84c4",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.366,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "7f917145a3fd7ae5edfe4b9367ae7328f39b0f8d8bd993e2d2539c43322850d7"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "3a5ed654608ce56ed0351fe5f5952b57027cb160eb485ceb3f9e79ffc32c84c4",
+      "ai_unit_sentence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "There were men in evening dress, toying with cigarettes and bending over women in evening dress; there was an adventuress or two, one with hair in such fluffed-out abundance as can only be a perquisite of notable wickedness; there was a stockman, who was, I fancy, too fond of her; there was a lady in riding boots; there was a comely youth in pyjamas; and there were footmen and page-boys.",
+      "output_sha256": "ae348d7933ed06d69048a15df3d4b4bcd4dd0833a12c6b455206def495bb78d3",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "ae348d7933ed06d69048a15df3d4b4bcd4dd0833a12c6b455206def495bb78d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "And all seemed to me made-up to a point of excess.",
+      "output_sha256": "400db21e043422a427aa80d1ef883c6128dcaf08f9274506221269678f50d16b",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "400db21e043422a427aa80d1ef883c6128dcaf08f9274506221269678f50d16b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Who could they be? a stranger to the marvel of science might well ask.",
+      "output_sha256": "b6b2bbcbc671018fbb311f137abd70659e29532551ef877baeddb60208a7964e",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "b6b2bbcbc671018fbb311f137abd70659e29532551ef877baeddb60208a7964e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Strayed revellers?",
+      "output_sha256": "84a657c656eba6cd6d64bdc4fdb203ad77d52e77fbd0efef0fdb02d7184a73a0",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "84a657c656eba6cd6d64bdc4fdb203ad77d52e77fbd0efef0fdb02d7184a73a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "A lost party of masqueraders being held here on bail and photographed for identification purposes?—for there was no doubt about the photography, because the benignant, masterful gentleman with a manuscript, who gave them instructions, every now and then stood aside in order that the camera-operator might direct his machine-gun and turn the handle; but what was said I could not hear, such was the crackling and fizzling of the blue lights.",
+      "output_sha256": "b0f0dc342ca614f37f520f8f51d0afa862f72e314a0c535cb3144c9ecf845631",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "b0f0dc342ca614f37f520f8f51d0afa862f72e314a0c535cb3144c9ecf845631",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I cannot pretend to have learned much about the cinema on such a brief visit, but I acquired a few facts.",
+      "output_sha256": "1a14741a2fb004fe8d8bf0557bcf832668f3396958dedaa57410c98aa250a7f9",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "1a14741a2fb004fe8d8bf0557bcf832668f3396958dedaa57410c98aa250a7f9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "One is that there is no need for any continuity to be observed by the photographer, because the various scenes, taken in any order, can, in some wonderful way, be joined up afterwards, in their true order, and made consecutive and natural.",
+      "output_sha256": "8fb4aa73954e1a9f51e4f9170134f374e3f9eb5bbac599c4adc6d9aaa5b7acf1",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "8fb4aa73954e1a9f51e4f9170134f374e3f9eb5bbac599c4adc6d9aaa5b7acf1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Indeed, I should say that the superficially casual and piecemeal manner in which a moving drama can be built up is the dominant impression which I brought away from this abode of mystery.",
+      "output_sha256": "0e835d0909cacc84faf18e9b1ad86cfd9dfa1dbf7ba7d0785f45a9bfd190f410",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "0e835d0909cacc84faf18e9b1ad86cfd9dfa1dbf7ba7d0785f45a9bfd190f410",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The contrast between the magically fluid narrative as unreeled on the screen and the broken, zigzag, and apparently negligent preparation of it in the studio is the sharpest I can imagine.",
+      "output_sha256": "c6ea79bd89253b5feabdb526097b90f7e14ad57e1a8cd750018ba08cd3885fdb",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "c6ea79bd89253b5feabdb526097b90f7e14ad57e1a8cd750018ba08cd3885fdb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And it increases one's admiration of the man with the scissors and the thread (or however it is done) who unites the bits and makes them smoothly run.",
+      "output_sha256": "97734ca74d7e699efae697ac6445808f304a9da62b9ee0b83f2818f1508f64b7",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "97734ca74d7e699efae697ac6445808f304a9da62b9ee0b83f2818f1508f64b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Another fact which I acquired is that unless the face of the cinema performer is painted yellow it comes out an impossible hue, so that to see a company in broad daylight is to have the impression that one has stumbled upon a house party in the Canary Isles.",
+      "output_sha256": "ecde85e6d542838e26117f197875be15a130cc5f122c7d5258cff2c943975156",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "ecde85e6d542838e26117f197875be15a130cc5f122c7d5258cff2c943975156",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Additionally, while performers enjoyed the freedom to converse spontaneously at times, they were required to adhere to the specific dialogue provided on the screen during critical scenes.",
+      "output_sha256": "4ee10b15d8a2f98b8de9e093897267dd5eee365e5dfadedc6a56c72eced0a4c6",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.269383,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "762c6790392e9794c49fc1fff04b367f3f1c45211c5246aa5926930cfde89f9b"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "4ee10b15d8a2f98b8de9e093897267dd5eee365e5dfadedc6a56c72eced0a4c6",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "One reason for this rule is, I am told, that some time ago, in an American film, the producer of which was rather lax, one of the characters spoke to another with an impossible licence, and a school of deaf mutes visiting the picture palace \"lip-read\" the awful result.",
+      "output_sha256": "0b313fac5bc088e219e5b6b5ae4de2234c0972aeda1ca569f100fb12cfc5ba5a",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "0b313fac5bc088e219e5b6b5ae4de2234c0972aeda1ca569f100fb12cfc5ba5a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "A visiting group of deaf mutes inadvertently \"lip-read\" the inappropriate exchange, leading to the film's withdrawal and the reprimand of those involved—a testament to the necessity of maintaining decorum.",
+      "output_sha256": "b0958d5b00fc8ce05ab647d875de6f231ebc5b2047f23017ed46487baf2d4ae9",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.320482,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "7a2285e5219cf788c61d9c21062a5d929df2ce06ecb4df9731256a495f09387c"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "b0958d5b00fc8ce05ab647d875de6f231ebc5b2047f23017ed46487baf2d4ae9",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Amid all this, one might wonder about the horse.",
+      "output_sha256": "652a3b2223a379f4da72bcbe25a45c520761b746ba141315419fc3be2f3f2236",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.327273,
+      "human_sentence_indices": [
+        19,
+        20
+      ],
+      "human_sha256": [
+        "b24d5a5874a364e79500004fd43c7222679b7eaf16129fbc0fd6f936dcb6b979",
+        "7a1b47d668d1f25ffd653947b8c2f0add1e187d83c5b12a56ca90b4f6cc9ba47"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "652a3b2223a379f4da72bcbe25a45c520761b746ba141315419fc3be2f3f2236",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The camera-operator having taken as much of the fast life in the swell hotel (with the hollow columns without backs to them) as was necessary, including a \"still\" (as it is called in the movie world—meaning a photograph in the ordinary sense of the term) of the fluffiest of the adventuresses in an expression signifying a blend of depravity and triumph, turned his attention to the loose-box which some attendants had been rapidly constructing, chiefly with the assistance of a truss of straw.",
+      "output_sha256": "67c817d8180a0896d7f5844afe3e94903ca597e70d0441a25763d2eae35a6565",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "67c817d8180a0896d7f5844afe3e94903ca597e70d0441a25763d2eae35a6565",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Into this enclosure was led a horse—the very horse intended to outshine Edison himself.",
+      "output_sha256": "933e7602486008714d3d6efa15c7906d666c0704322e3d6c9abbe4043345595f",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.429603,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "5d9666a60520d1b84519811f2ccca8d19418558321aee41ba903a018ff163eda"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "933e7602486008714d3d6efa15c7906d666c0704322e3d6c9abbe4043345595f",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Of the plot of the play I know nothing.",
+      "output_sha256": "57663a0f92330b75918ffbc4cf6ec35cd2c241013e999f5432d7d24c9d75e7a9",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "57663a0f92330b75918ffbc4cf6ec35cd2c241013e999f5432d7d24c9d75e7a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "(How could I, having seen it in preparation?)",
+      "output_sha256": "683d8bfc8f42e30424b8a8e9d379b0464884e6e6670b13a10d43fb49f558ecb8",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "683d8bfc8f42e30424b8a8e9d379b0464884e6e6670b13a10d43fb49f558ecb8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The unfortunate reality was that the horse in question refused to play along.",
+      "output_sha256": "1167552722969c0a0664eb05fb5197fd6b5ec7d705d317f323732cc72804e437",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.359615,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "de297e4c17e2d1c1cb89a2527746902159e0541bab8b3b59e1c1e3bf2799ffab"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "1167552722969c0a0664eb05fb5197fd6b5ec7d705d317f323732cc72804e437",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "In vain for the groom to shake his head, in vain for the hero to say that it had the shivers; never was a horse so far removed from malady, so little in need of the vet.",
+      "output_sha256": "d5101b9776e21a0d8ed3f7fe931445ced280758182cda103b120d48d8c15e1aa",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "d5101b9776e21a0d8ed3f7fe931445ced280758182cda103b120d48d8c15e1aa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Nor could any device produce the desired effect.",
+      "output_sha256": "409e7316b91794aaee043262db31154e7e0e3683c23ae6995f8eecf05eed22e4",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "409e7316b91794aaee043262db31154e7e0e3683c23ae6995f8eecf05eed22e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Therefore, if in the future you happen to watch a film featuring a captivating narrative involving a horse that only appears to shiver in the dialogue displayed on-screen, you will understand the reason behind it.",
+      "output_sha256": "c204100bd67028cd15f0dafaf82186fdde20404e4af58fbc25631001fd26d840",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.37383,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "6b01438062943ae6b8b284512dd1c18ae33a303b3ef6c4e606ee4a94b32a71f4"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "c204100bd67028cd15f0dafaf82186fdde20404e4af58fbc25631001fd26d840",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It is because the movies for once met their master.",
+      "output_sha256": "72d0d0c0c6e334fd7311a024f3322abad33674b6e4e608319073ddbacc5cc3f7",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "72d0d0c0c6e334fd7311a024f3322abad33674b6e4e608319073ddbacc5cc3f7",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

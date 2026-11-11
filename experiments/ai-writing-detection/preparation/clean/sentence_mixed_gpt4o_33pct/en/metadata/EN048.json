@@ -1,0 +1,851 @@
+{
+  "source_id": "EN048",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "a075c8a9b48ecaf1cce2eac7d2e6c7be789d8fa619396a718e451ff0c33d9c26",
+  "ai_article_sha256": "a246f7a16140d161b050aaef178abf134a70e0bd0640f6e520f273e7f8b3fbc2",
+  "mixed_article_sha256": "73f7f15df526f44151bd93ec11dd3bcbc35a6adbd56cbc2d3aa67cc75e25a835",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 52,
+  "alignment_unit_count": 52,
+  "selected_alignment_unit_count": 19,
+  "mixed_sentence_count": 56,
+  "selected_ai_sentence_count": 19,
+  "actual_ai_sentence_ratio": 0.339286,
+  "selected_alignment_score_min": 0.28629,
+  "selected_alignment_score_median": 0.426667,
+  "selected_alignment_score_max": 0.671429,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I was coming off a Tube train last evening when some one said to me: \"Will you please give this gentleman an arm to the lift?",
+      "output_sha256": "0df6a2b18e90e7e17ee5d24ebc07bfa7d9a7c13ed51f862d7f85bc9c475ce178",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0df6a2b18e90e7e17ee5d24ebc07bfa7d9a7c13ed51f862d7f85bc9c475ce178",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "He is blind.\"",
+      "output_sha256": "603bd3ca44e569c663e1a98354bd95e4431ebc59be36a5ac210ce0611cec6eb4",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "603bd3ca44e569c663e1a98354bd95e4431ebc59be36a5ac210ce0611cec6eb4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I did so, and found, as I usually find in the case of the blind, that my companion was uncommonly talkative and cheerful.",
+      "output_sha256": "5a221131f6398120797ab2902de475fea2a33040ea670ec64b9ba846586174af",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "5a221131f6398120797ab2902de475fea2a33040ea670ec64b9ba846586174af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The cheerful disposition of the blind continually fascinates me.",
+      "output_sha256": "99228b1ed7c26791cc40f2f9c834a2af76a32b489f724d925bc88c0d764abf0f",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.381136,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "84a4d3912a677564edfc8bc20c87c4bc8d233f6fb1a24e8c94612d953f373d9c"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "99228b1ed7c26791cc40f2f9c834a2af76a32b489f724d925bc88c0d764abf0f",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is as though the outer light being quenched an inner light of the spirit illuminates the darkness.",
+      "output_sha256": "ed0978ceab26cd579e44682088dd95d8754cc351c4bb4c70b3080714e8d6d70c",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "ed0978ceab26cd579e44682088dd95d8754cc351c4bb4c70b3080714e8d6d70c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Outside, the night may be dark and foreboding, yet within, there exists a warmth and radiance.",
+      "output_sha256": "f032bf095544f090b53dc17d5561c94fdf213e1e1783ce9d150d8de7036b2543",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.499286,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "733a89f1a8df42584b7c3a0a70b5d6c4ee750569af575491d888d04bef4abf6e"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "f032bf095544f090b53dc17d5561c94fdf213e1e1783ce9d150d8de7036b2543",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The world becomes confined to the realm of one’s thoughts, yet this very limitation appears to elevate the spirit, causing it to soar with greater fervor.",
+      "output_sha256": "12a59e12784752eafd8cb1de202b972307393c175502bf8af5b38c8dc25aeac2",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.469231,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "15cde80629b7e08c1667c91c88fdf6295da6590e84478c26bb4670eb08926486"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "12a59e12784752eafd8cb1de202b972307393c175502bf8af5b38c8dc25aeac2",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "It was the renowned blind English poet who, during his own darkness, inspired the character of the blind Samson to declare:",
+      "output_sha256": "30e1ec7feac385be801c3f1d739666cb5878a5aaf0a47cd2e9f145cbefc40ca4",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.422076,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "bdd508b1296bc7fd19c4e39d6203bb17d4ba3cad387caddd3f0a465c340b0841"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "30e1ec7feac385be801c3f1d739666cb5878a5aaf0a47cd2e9f145cbefc40ca4",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "He that hath light within his own clear breast May sit i' th' centre and enjoy bright day.",
+      "output_sha256": "5e7c3291917a3099f923cab5c16d533f5dd9087f86feec857fd48c14f72b3a99",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "5e7c3291917a3099f923cab5c16d533f5dd9087f86feec857fd48c14f72b3a99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And it has been remarked in many cases in which men have gone blind that their cheerfulness so far from being diminished has by some miracle gained a new strength.",
+      "output_sha256": "1817a723518bd190cf8993bc67657d2130e501febbdb9119d4f6e53292ac9b1d",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "1817a723518bd190cf8993bc67657d2130e501febbdb9119d4f6e53292ac9b1d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "In all the instances I have encountered, I cannot recall a single case where blindness led to a decrease in joy.",
+      "output_sha256": "c072dd1e4d0db606a803e62e2c8147f23ba7be2fbe3d32947e2e21c6b79f76c2",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.299624,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "f2674edbc5366960bb0267665769bcb52dcaf1f406bbae3fd298af2f8f754a48"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "c072dd1e4d0db606a803e62e2c8147f23ba7be2fbe3d32947e2e21c6b79f76c2",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The zest of living seems heightened.",
+      "output_sha256": "790890ef8e0926f6c2335ab1c33063b3d9f47e7ef017779214c82bca531f1822",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "790890ef8e0926f6c2335ab1c33063b3d9f47e7ef017779214c82bca531f1822",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Not long ago Mr. Galsworthy wrote to the Times a letter in which he spoke with pity of the unhappiness of the blind, and there promptly descended on him an avalanche of protest from the blind themselves.",
+      "output_sha256": "d56dff3c14c5af2ba294b7ff90faf81575b165025e3a2c5a8918974a3b73ce8a",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "d56dff3c14c5af2ba294b7ff90faf81575b165025e3a2c5a8918974a3b73ce8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Dr. Campbell, the founder of the Normal School for the Blind, is a prime example of someone who embraced life with incredible enthusiasm, achieving what many thought impossible, such as cycling and mountain climbing despite his condition.",
+      "output_sha256": "bc599fedb08acd8b37d790c883f2993b44ac7ece5c46607dfd61b9fb24ddca63",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.376884,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "21b34c9d1c1185fc3cf52fb28f53e12f1ecb1b60b74fd2b0619753be2b647956"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "bc599fedb08acd8b37d790c883f2993b44ac7ece5c46607dfd61b9fb24ddca63",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The experience of Mr. Pulitzer, the distinguished owner of the New York World, was similarly striking.",
+      "output_sha256": "b56a0cbeff0371da41009402dffc21be4c8a27dd4c76a618289cd5fc53ba5141",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.590427,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "a7ab78f19fea268e0983b1b7b1f0fa0c5ad8541e8d9c7c8121c07a625ac770ea"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "b56a0cbeff0371da41009402dffc21be4c8a27dd4c76a618289cd5fc53ba5141",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Night came down on him with terrible suddenness.",
+      "output_sha256": "794a5d200803c8ec7c8a7f50d12455cdfcb3b5f45c5459f58e946822f899c3c5",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "794a5d200803c8ec7c8a7f50d12455cdfcb3b5f45c5459f58e946822f899c3c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "He was watching the sunset from his villa in the Mediterranean one evening when he said: \"How quickly the sun has set.\"",
+      "output_sha256": "1f19a4aa10ef1eecd9b99f496e016175a76e2dcd97b36b193698b4aaced64e4a",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "1f19a4aa10ef1eecd9b99f496e016175a76e2dcd97b36b193698b4aaced64e4a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"But it has not set,\" said his companion.",
+      "output_sha256": "0f988afdd8af25d43a6f0a0340fadd715955a2e88dd89c68af64a70b99bd515a",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "0f988afdd8af25d43a6f0a0340fadd715955a2e88dd89c68af64a70b99bd515a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Oh, yes, it has; it is quite dark,\" he answered.",
+      "output_sha256": "8b3788d5b896fa2197fc0738eb2b9e63018a1495b58c42f6f180bfcea7565611",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "8b3788d5b896fa2197fc0738eb2b9e63018a1495b58c42f6f180bfcea7565611",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "In that moment he had gone stone blind.",
+      "output_sha256": "7596c9ed07ca03661963378c478a7f0da41269cc6be389fa36416a5e7341d4b3",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "7596c9ed07ca03661963378c478a7f0da41269cc6be389fa36416a5e7341d4b3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But I am told by those who knew him that his vivacity of mind was never greater than in the years of his blindness.",
+      "output_sha256": "7d69573a628ee9a08103f183bd11e5b8aea18b215ab628d0545b0439913d95c2",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "7d69573a628ee9a08103f183bd11e5b8aea18b215ab628d0545b0439913d95c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "My friend Mr. G.W.E.",
+      "output_sha256": "b7a86806ee2eaa2c6e3b86373d4e057637525e9194d0d44781d5c6ca7311d6c3",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "b7a86806ee2eaa2c6e3b86373d4e057637525e9194d0d44781d5c6ca7311d6c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Russell has a theory that the advantage of the blind over the deaf and dumb in this matter of cheerfulness is perhaps more apparent than real.",
+      "output_sha256": "ab70ac09dd2a361059644915be13f05cccc8aa0c3429fd89524703556daca9d9",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "ab70ac09dd2a361059644915be13f05cccc8aa0c3429fd89524703556daca9d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "He notes that the blind feel less aware of their misfortune in social settings, while the deaf and mute experience a profound sense of isolation.",
+      "output_sha256": "c6476a7e60ab26be78cab67d9f703afed1c8d841a75be3980209d55317ba8401",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.439292,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "5b7cd495165df43159d376acd702a175e335e45382cf4f41357061e729220b2d"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "c6476a7e60ab26be78cab67d9f703afed1c8d841a75be3980209d55317ba8401",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "This is certainly true; during conversations, the blind engage on equal footing with sighted individuals, while the deaf and mute find themselves trapped in an agonizing silence.",
+      "output_sha256": "c96a4c242a2bfc3ec7a19304ee80bbaab64d4048eae1c168c8bcd4f549594b96",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.388636,
+      "human_sentence_indices": [
+        25,
+        26
+      ],
+      "human_sha256": [
+        "d6f8d117ac94d271edeec5c748567a988349de41245db193ffaf81002d76dac8",
+        "65ef6f7d2996f91dc4aeea25e6ea4d62ad972df964e082639b5c08122be5f5d4"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "c96a4c242a2bfc3ec7a19304ee80bbaab64d4048eae1c168c8bcd4f549594b96",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The fact that they see is not their gain but their loss.",
+      "output_sha256": "f3d96674fb1adb2a9e79523dcaa51c1dc2e6de94a4231b4de72ba4330ff6e2cc",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "f3d96674fb1adb2a9e79523dcaa51c1dc2e6de94a4231b4de72ba4330ff6e2cc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "They watch the movement of the lips and the signs of laughter, but this only adds to the bitterness of the prison of soundlessness in which they dwell.",
+      "output_sha256": "001acef5abf8a95c547aecdeab6a13a24607bc9fcece455dab18a012a8024b84",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "001acef5abf8a95c547aecdeab6a13a24607bc9fcece455dab18a012a8024b84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Hence the appearance of gloom.",
+      "output_sha256": "7439302054a1f7307e91fe252e93f394c0865351ca88e6c3943396a963c04996",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "7439302054a1f7307e91fe252e93f394c0865351ca88e6c3943396a963c04996",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Conversely, in solitude, the deaf and mute may find that they possess an advantage.",
+      "output_sha256": "adbdfef9ae0f9ca0208ef6d2c1beb88ec1ff584b5deedce22873cd19652cf229",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.467532,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "173c59a3e3138e2356f7df7d09c7a4fc2714647d6c6cf3b15a86192b4c119aad"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "adbdfef9ae0f9ca0208ef6d2c1beb88ec1ff584b5deedce22873cd19652cf229",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "All the colour and movement of life is before him, while the blind is not only denied that vision of the outside world, but has a restriction of movement that the other does not share.",
+      "output_sha256": "4e8decb1fa05462745f091e90f358f90a33c8da034d888bac5f2fc6f5beb664f",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "4e8decb1fa05462745f091e90f358f90a33c8da034d888bac5f2fc6f5beb664f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Mr. Russell's conclusion, therefore, is that while the happiest moments of the blind are those when he is observed, the happiest of the deaf and dumb are when he is not observed.",
+      "output_sha256": "b0de946e89770d9efe3aaabb685f2e5a3d0355e5c933ce8d06afa0ce74de45c5",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "b0de946e89770d9efe3aaabb685f2e5a3d0355e5c933ce8d06afa0ce74de45c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There is some measure of truth in this, but I believe, nevertheless, that the common impression is right, and that, judged by the test of the cheerful acceptance of affliction, the loss of sight is less depressing than the loss of hearing and speech.",
+      "output_sha256": "888a26f8526f981a181b4ac76db372a021f42fdb4b28962fac23ccdc9db9d8e5",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "888a26f8526f981a181b4ac76db372a021f42fdb4b28962fac23ccdc9db9d8e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And this for a very obvious reason.",
+      "output_sha256": "4ac5bc91f1b6f0c2a0a074a1860e28f405b195d0a240057f41ddc3d1fcf4a9e1",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "4ac5bc91f1b6f0c2a0a074a1860e28f405b195d0a240057f41ddc3d1fcf4a9e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "After all, the main interest in life is in easy, familiar intercourse with our fellows.",
+      "output_sha256": "14f3edb1cc96559212408a3f711bd411a1b6122099aec5426c25934b5369ef99",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "14f3edb1cc96559212408a3f711bd411a1b6122099aec5426c25934b5369ef99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I love to watch a golden sunset, to walk in the high beech woods in spring—or, for that matter, in summer or autumn or winter—to see the apples reddening on the trees, and the hedgerows thick with blackberries.",
+      "output_sha256": "0775a5eee9c8a4852dd8c1de7b7ba7901b57effe8a866c423b31c0b3aa1e8e9d",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "0775a5eee9c8a4852dd8c1de7b7ba7901b57effe8a866c423b31c0b3aa1e8e9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Yet, these visuals serve as the backdrop for my narrative—the scenery, rather than the essence of the play itself.",
+      "output_sha256": "1b1faa9ed7c63e2ca2c7969f3334207b8fa4e023d17fe5f657372457edd48687",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.42888,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "61e6b6b42debb65bbe7d32e54d04b06bb341c5c7e2c2b63475da88d43b7c157f"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "1b1faa9ed7c63e2ca2c7969f3334207b8fa4e023d17fe5f657372457edd48687",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "It is the human interactions that impart vibrancy and depth to life.",
+      "output_sha256": "924021533276106294974070e93482ba84b1c38c6010b02b5dc40332a58a2f9c",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.4975,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "e1d20690f167bafe836870ebe6d9d7b5b50e84b394c42aa4675302149d41d50a"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "924021533276106294974070e93482ba84b1c38c6010b02b5dc40332a58a2f9c",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The ears and voice are the conduits for the lively exchange of thoughts, and within this exchange, the blind person fully participates and often thrives.",
+      "output_sha256": "a946a6f8dc63eab576da50710323438af9d33e020aa2b0707174977756890b56",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.28629,
+      "human_sentence_indices": [
+        39,
+        40
+      ],
+      "human_sha256": [
+        "5b213f6d2f0e959d5bad6e00863daa854896937b5f7f976546c5c41a1dfc23d5",
+        "7a42e23067c85dea8d1a0750ccd12491c8280bfbac125cdc7d38c2bfdb22a6ef"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "a946a6f8dc63eab576da50710323438af9d33e020aa2b0707174977756890b56",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Their affliction can heighten their engagement in the tapestry of human experiences, granting them a unique joy in simple interactions.",
+      "output_sha256": "04568cf13492154b5d48f17700350b146a321c428a75729e83a148f4a62ed6fb",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.355734,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "5dc9dd7d55c471ca9e5f67752886aba2d4452aaded5a01494e2d181f5c40f605"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "04568cf13492154b5d48f17700350b146a321c428a75729e83a148f4a62ed6fb",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Not only do they feel at home within the human community, but they often become its focal point, exemplifying Johnson's criteria for a good companion: they are “a clubbable man.”",
+      "output_sha256": "5ef4c1de8c1ed78efd79f1035cea4351740f41d0f29093f1740415e0a0b3eff9",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.426667,
+      "human_sentence_indices": [
+        42,
+        43
+      ],
+      "human_sha256": [
+        "7b380d1c08f972cc60947dd4c5f182aa5f38e2ce387dab6b095397cf68154e8c",
+        "bf10c8f093305249c5a6b76eac21a12703ee5cc8762ee1f660f4d77e24f89491"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "5ef4c1de8c1ed78efd79f1035cea4351740f41d0f29093f1740415e0a0b3eff9",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And even in the enjoyment of the external world it may be doubted whether he does not find as much mental stimulus as the deaf-and-dumb.",
+      "output_sha256": "81a7ffe11a543844046a2c093e56697e298b54aac1ffbecfce75ba19de394fa7",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "81a7ffe11a543844046a2c093e56697e298b54aac1ffbecfce75ba19de394fa7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "While they may not see the sunset, they are acutely aware of the cuckoo's call, the lark's song, the gentle buzz of bees, and the rustling of corn.",
+      "output_sha256": "a47dd2b4847aa6df27e2ec74cdc685ff7fd211a908950863fed30a2dfc2896a5",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.474146,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "44f30f6dfd6831e26e58dd414b1a6a7559b9bb51b25a1033bf941a30390f1615"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "a47dd2b4847aa6df27e2ec74cdc685ff7fd211a908950863fed30a2dfc2896a5",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And if, as usually happens, he has music in his soul, he has a realm of gold for his inheritance that makes life a perpetual holiday.",
+      "output_sha256": "169960ee2af0972df7230aac38174b23b44e022fc704fe2a9bdd94edec9b8c12",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "169960ee2af0972df7230aac38174b23b44e022fc704fe2a9bdd94edec9b8c12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Have you ever listened to Mr. William Wolstenholme, the composer, as he improvises on the piano?",
+      "output_sha256": "493f10163224718a65866d29730a5b92d5bf64816a59456881474d49c3fa0cee",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.671429,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "ac8a9827008491069d93dff65e528eaca95810b3afd0bbe1e97666972441c1c4"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "493f10163224718a65866d29730a5b92d5bf64816a59456881474d49c3fa0cee",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "If not, you have no idea what a jolly world the world of sounds can be to the blind.",
+      "output_sha256": "b5292c34fab9715678656925e7249345b6e9347d04d1b439839fccbf13d6d388",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "b5292c34fab9715678656925e7249345b6e9347d04d1b439839fccbf13d6d388",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Of course, the case of the musician is hardly a fair test.",
+      "output_sha256": "78a3660bcdd8fef1fe546322925c034a24ef8cadc805e3e662d0556864889272",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "78a3660bcdd8fef1fe546322925c034a24ef8cadc805e3e662d0556864889272",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "With him, hearing is life and deafness death.",
+      "output_sha256": "9e8718766dbc6a19d13968695d0387045b62badf06aede9607b332c29eb9edfc",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "9e8718766dbc6a19d13968695d0387045b62badf06aede9607b332c29eb9edfc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Few stories are as heart-wrenching as that of Beethoven, who, in his desperation to hear his timeless symphonies, broke piano strings in vain.",
+      "output_sha256": "84a2416ce8ef1c6095438ac9c7595f1b8b06fa1d0914467fdf7a9d3e50a354cb",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.327134,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "c9255dabf24da1717a96858948cf8b5d9b8af9d5db191ece7578c5406d36b96f"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "84a2416ce8ef1c6095438ac9c7595f1b8b06fa1d0914467fdf7a9d3e50a354cb",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Can we doubt that had he been afflicted with blindness instead of deafness the tragedy of his life would have been immeasurably relieved?",
+      "output_sha256": "aaade3e3c0b4808ab85139c3b7341bbeeac1fcf7cddad458c1b7d76f7fb182de",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "aaade3e3c0b4808ab85139c3b7341bbeeac1fcf7cddad458c1b7d76f7fb182de",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "What peace, could he have heard his Ninth Symphony, would have slid into his soul.",
+      "output_sha256": "d5a34d8789883b7f7d196531a84880af88e62275abdebf79f759c84db5fd3a79",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "d5a34d8789883b7f7d196531a84880af88e62275abdebf79f759c84db5fd3a79",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Blind Milton, sitting at his organ, was a less tragic figure and probably a happier man than Milton with a useless ear-trumpet would have been.",
+      "output_sha256": "040617375bd34eb9b2b3433a232aa9639e241bdb5ca968cf61d0979fca716adb",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "040617375bd34eb9b2b3433a232aa9639e241bdb5ca968cf61d0979fca716adb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Perhaps without the stimulus of the organ he could not have fashioned that song which, as Macaulay says in his grandiloquent way, \"would not have misbecome the lips of those ethereal beings whom he saw with that inner eye, which no calamity could darken, flinging down on the jasper pavements their crowns of amaranth and gold.\"",
+      "output_sha256": "dcbc7bc8eaf5e806382b0b5c829841223629bd5cc6217478f95e2f06a522c969",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "dcbc7bc8eaf5e806382b0b5c829841223629bd5cc6217478f95e2f06a522c969",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It is probable that in a material sense blindness is the most terrible affliction that can befall us; but I am here speaking only of its spiritual effects, and in this respect the deprivation of hearing and speech seems to involve a more forlorn state than the deprivation of sight.",
+      "output_sha256": "669a7d56031316863cd744245d9faa3dedd6b0d97372b27d9fcd76e0dd7b086a",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "669a7d56031316863cd744245d9faa3dedd6b0d97372b27d9fcd76e0dd7b086a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "The former condition fosters spiritual isolation, while the latter can enhance the intimate connections we share in life.",
+      "output_sha256": "bc7b6fe398cbdfd2589f02184a224476894bf9009eaa57a5b0c08ace19a54262",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.376181,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "bca5fc766c00493f76db9de780c975574af7fb8af3d25ec9a0cd6797ec932d63"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "bc7b6fe398cbdfd2589f02184a224476894bf9009eaa57a5b0c08ace19a54262",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It was a man who had gone blind late in life who said: \"I am thankful it is my sight which has gone rather than my hearing.",
+      "output_sha256": "4199eb6d22f98d0467c48c396e1c561ba43cfb24df23e683e28d654ab21bb815",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "4199eb6d22f98d0467c48c396e1c561ba43cfb24df23e683e28d654ab21bb815",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The one has shut me off from the sun: the other would have shut me off from life.\"",
+      "output_sha256": "c938dbac4ffe266c52520e49fef431b9ddd0e287f3e48b4d3057b3d0a23bbb68",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "c938dbac4ffe266c52520e49fef431b9ddd0e287f3e48b4d3057b3d0a23bbb68",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

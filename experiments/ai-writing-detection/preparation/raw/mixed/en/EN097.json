@@ -1,0 +1,79 @@
+{
+  "source_id": "EN097",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 3,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "96b302ffffd1d9a2df6c8979888a0b36c24384fa99b7ef542031dd888d9a102d",
+    "e6bf3770fc728c406e96eb97b6af17fe475e46b0b9da3d6167fe98599ee83cb3",
+    "531a670752415be013dd3c201ee22584628ee1a37fe39757697c5f8dce0d44be"
+  ],
+  "source_block_sha256": "531a670752415be013dd3c201ee22584628ee1a37fe39757697c5f8dce0d44be",
+  "ai_block_sha256": "1a07ecc7ffac20dd17587b70b701805b2436cba3bd292fdf75b5786d7f734b75",
+  "mixed_sha256": "9beb33839338348e7d323a585ff20ae8e9b2dba7f37417f2e1e722a33c8b4ca1",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 412-618 words, aiming for 515. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nBut the case of Bill and Sam and thousands of their comrades to-day is different. They don't want to write literary letters, but they do want to tell the folks at home something about their life and the great things of which they are a part. But the great things are too great for them. They cannot put them into words. And they ought not to try, for the secret of letter-writing is intimate triviality. Bill could not have described the retreat from Mons; but he could have told, as he told me, about the blister he got on his heel, how he hungered for a smoke, how he marched and marched until he fell asleep marching, how he lost his pal at Le Cateau, and how his boot sole dropped off at Meaux. And through such trivialities he would have given a living picture of the great retreat.\n\nIn short, to write a good letter you must approach the job in the lightest and most casual way. You must be personal, not abstract. You must not say, \"This is too small a thing to put down.\" You must say, \"This is just the sort of small thing we talk about at home. If I tell them this they will see me, as it were, they'll hear my voice, they'll know what I'm about.\" That is the purpose of a letter. Keats expresses the idea very well in one of those voluminous letters which he wrote to his brother George and his wife in America and in which he poured out the wealth of family affection which was one of the most amiable features of his character. He has described how he had been to see his mother, how she had laughed at his bad jokes, how they went out to tea at Mrs. Millar's, and how in going they were struck with the light and shade through the gateway at the Horse Guards. And he goes on: \"I intend to write you such volumes that it will be impossible for me to keep any order or method in what I write; that will come first which is uppermost in my mind, not that which is uppermost in my heart—besides I should wish to give you a picture of our lives here whenever by a touch I can do it; even as you must see by the last sentence our walk past Whitehall all in good health and spirits—this I am certain of because I felt so much pleasure from the simple idea of your playing a game of cricket.\"\n\nThere is the recipe by one of the masters of the craft. A letter written in this vein annihilates distance; it continues the personal gossip, the intimate communion, that has been interrupted by separation; it preserves one's presence in absence. It cannot be too simple, too commonplace, too colloquial. Its familiarity is not its weakness, but its supreme virtue. If it attempts to be orderly and stately and elaborate, it may be a good essay, but it will certainly be a bad letter."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 601,
+    "total_tokens": 1374,
+    "cost": 0.00047655,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00047655,
+      "upstream_inference_prompt_cost": 0.00011595,
+      "upstream_inference_completions_cost": 0.0003606
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00047655,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 515,
+    "output_words": 510,
+    "lower_words": 412,
+    "upper_words": 618,
+    "source_paragraphs": 3,
+    "output_paragraphs": 3,
+    "length_ok": true,
+    "within_source_20_percent": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.21188118811881188,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "approved_exception": false,
+  "exception_reason": null,
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "1a07ecc7ffac20dd17587b70b701805b2436cba3bd292fdf75b5786d7f734b75",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN097.txt",
+  "mixed_path": "clean/mixed/en/EN097.txt",
+  "response_path": "raw/mixed/en/EN097.response.json"
+}

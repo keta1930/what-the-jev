@@ -1,0 +1,947 @@
+{
+  "source_id": "EN012",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "519377faf6af280debc7ae93edaca584d2fb3e07b5a58d8ecb7d71b7db49d1cc",
+  "ai_article_sha256": "45b20005ff59cb6aadf12c2b28daefa68c0e24cd68662619bd43bb2291c2b496",
+  "mixed_article_sha256": "8b1b083a35d3baf801bbaefed6c511c5621b9ad358e49c5aea3d8a90381ccd1f",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 64,
+  "alignment_unit_count": 59,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.296237,
+  "selected_alignment_score_median": 0.510918,
+  "selected_alignment_score_max": 0.719318,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Sometimes when the printer is waiting for an article which really should have been sent to him the day before, I sit at my desk and wonder if there is any possible subject in the whole world upon which I can possibly find anything to say.",
+      "output_sha256": "81885345430072721e484858f767356b03610fb9f791ffbfa19fca5c137373b7",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "81885345430072721e484858f767356b03610fb9f791ffbfa19fca5c137373b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "On one such occasion I left it to Fate, which decided, by means of a dictionary opened at random, that I should deliver myself of a few thoughts about goldfish.",
+      "output_sha256": "baba964e88445c42713d7ea8c4529f6e8e8510a56ffc7bf4798bae217bb53fad",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "baba964e88445c42713d7ea8c4529f6e8e8510a56ffc7bf4798bae217bb53fad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "(You will discover that piece later in this collection.)",
+      "output_sha256": "0abe151a7d2688265efcffdf99bbb685ffd608a86c6d5a0e62f4c6ef82fce241",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.447105,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "e580083c7eef053ab9356cc05d2290cd6d08460a7536c6d8f83059464dee355b"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "0abe151a7d2688265efcffdf99bbb685ffd608a86c6d5a0e62f4c6ef82fce241",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But to-day I do not need to bother about a subject.",
+      "output_sha256": "0e3ea76d0bd9d3a1de5d2a6b14a7fb743fec4f670169bca90cbd5a7127ac8fce",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "0e3ea76d0bd9d3a1de5d2a6b14a7fb743fec4f670169bca90cbd5a7127ac8fce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "To-day I am without a care.",
+      "output_sha256": "1f7d32dd88ca7249238b686b9cf9eed37694797635bf09aee377df7750558080",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "1f7d32dd88ca7249238b686b9cf9eed37694797635bf09aee377df7750558080",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Nothing less has happened than that I have a new nib in my pen.",
+      "output_sha256": "f820eb4403607dd8ffff28d2b5cb713b1774fab3504fdfdde9e9bf4fca105872",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "f820eb4403607dd8ffff28d2b5cb713b1774fab3504fdfdde9e9bf4fca105872",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Typically, when a playwright like Shakespeare crafts a tragedy or when Mr. Blank pens one of his delightful essays, a considerable amount of contemplation precedes the actual writing.",
+      "output_sha256": "33da7f3e7adda8f89432c04b8e0322f3a7a8a42b4ced58eb84f2a97fa58b4935",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.481254,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "baa881fdd603cd3a92c72d72abf99bb3f3ac7bd8d71d208bccde2af682cc0782"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "33da7f3e7adda8f89432c04b8e0322f3a7a8a42b4ced58eb84f2a97fa58b4935",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "One cannot simply produce lines such as \"Scene I. An Open Place.",
+      "output_sha256": "eb4b079e3c8ab9e4ee9880627ffa566e451928ad3cfdb4c87b5b3084b07d0ccb",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.648333,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "fdd9a9a98ed60f6629e9cddf71964d231e46f53475427169bf6b818c6251f8dc"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "eb4b079e3c8ab9e4ee9880627ffa566e451928ad3cfdb4c87b5b3084b07d0ccb",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Thunder and Lightning.",
+      "output_sha256": "1c91f0a52029e7bebbdfe1459859e0c71e363337a56756a23b43a0bc6f41d0fa",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "1c91f0a52029e7bebbdfe1459859e0c71e363337a56756a23b43a0bc6f41d0fa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Enter Three Witches,\" or \"As I look up from my window, the nodding daffodils beckon to me to take the morning,\" spontaneously.",
+      "output_sha256": "8e643e580fb4b449b8a257b076aba4202c6ab2fa18f2e32411add76942661aa5",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.663084,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "66031f4241f7250375aafdee1bea06ad17b97b02ea2bf260b1cf1e1d75e8bf34"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "8e643e580fb4b449b8a257b076aba4202c6ab2fa18f2e32411add76942661aa5",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "At least, others cannot.",
+      "output_sha256": "00d69696f5da52174a721493649284faaf5ed72448402169917adde706d1905b",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "00d69696f5da52174a721493649284faaf5ed72448402169917adde706d1905b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "But when I have a new nib in my pen, then I can go straight from my breakfast to the blotting-paper, and a new sheet of foolscap fills itself magically with a stream of blue-black words.",
+      "output_sha256": "1f6c76efa0029f2cad24367168a5c4a114c102ed8f689381e2d339f5b6ebcd91",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "1f6c76efa0029f2cad24367168a5c4a114c102ed8f689381e2d339f5b6ebcd91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "When poets and dreamers extol the joy of writing, they refer to the satisfaction of sharing their thoughts with the world; with an old nib, this can be a laborious task.",
+      "output_sha256": "4daf7bcab901d86c84983adbce625ca41eff20218f8d8a57c74d941c1248ac39",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.510918,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "a51a0037ddc40c30014d2af36f5aaa62f00848d63a232914ad9d1a668303be50"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "4daf7bcab901d86c84983adbce625ca41eff20218f8d8a57c74d941c1248ac39",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "They do not comprehend (as I do) the delight an artist experiences when witnessing elegantly formed \"k's\" and graceful \"s's\" emerge under their steel tip.",
+      "output_sha256": "2f23b12adc6af6f4133f26f0ebc8ac1b8424c3e0f0243da9059f64f73a5e4329",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.524908,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "4477f59b1ec3b253bb8241586545f9e453a194fd98c98504f44dfbc64b49ea4b"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "2f23b12adc6af6f4133f26f0ebc8ac1b8424c3e0f0243da9059f64f73a5e4329",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Anybody else writing this article might wonder \"Will my readers like it?\"",
+      "output_sha256": "375cb1952b52507db036ef2620ce603c3e35432bbcd8c74664e61df4a228a83b",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "375cb1952b52507db036ef2620ce603c3e35432bbcd8c74664e61df4a228a83b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "I find myself thinking, \"How will the typesetters delight in this?\"",
+      "output_sha256": "211208e4cb7588e59cb1feb2c11303e5fdfcc5e1e0de0ae22b0b519100e0380e",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.485065,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "2267682cfb5b9de1a1489935553b8aa22c09e5e23874e77cd0d4e206350dea8b"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "211208e4cb7588e59cb1feb2c11303e5fdfcc5e1e0de0ae22b0b519100e0380e",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But perhaps they will not love it.",
+      "output_sha256": "1fd915c958c987fd071a52de4dc60f1076b6e725e5304c5b81e845c42d7dc389",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "1fd915c958c987fd071a52de4dc60f1076b6e725e5304c5b81e845c42d7dc389",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Maybe I am a little above their heads.",
+      "output_sha256": "f8accb32118a1d37765dfff7ed2d9211ccf7082dc55f2a50a895b5ebc32d7736",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "f8accb32118a1d37765dfff7ed2d9211ccf7082dc55f2a50a895b5ebc32d7736",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I remember on one First of January receiving an anonymous postcard wishing me a happy New Year, and suggesting that I should give the compositors a happy New Year also by writing more generously.",
+      "output_sha256": "50e2dca417287bec1323611247f4cf455c1648af9e4bfa354c0516adf19727f5",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "50e2dca417287bec1323611247f4cf455c1648af9e4bfa354c0516adf19727f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "In those days I got a thousand words upon one sheet 8 in. by 5 in.",
+      "output_sha256": "f008447c6788152aa18cfdfe36c300d6719d959017668d1295a4317ae2e459d3",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "f008447c6788152aa18cfdfe36c300d6719d959017668d1295a4317ae2e459d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I adopted the suggestion, but it was a wrench; as it would be for a painter of miniatures forced to spend the rest of his life painting the Town Council of Boffington in the manner of Herkomer.",
+      "output_sha256": "5238a16d3a8887eb5280e6a6c4cc34f624ad2224315f98bbdd40da89d507c60e",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "5238a16d3a8887eb5280e6a6c4cc34f624ad2224315f98bbdd40da89d507c60e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "My canvases are bigger now, but they are still impressionistic.",
+      "output_sha256": "45d315c218cc17c6570e922f268a84b901b3a8c4dc4a7ab1f127f35cbe257f83",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "45d315c218cc17c6570e922f268a84b901b3a8c4dc4a7ab1f127f35cbe257f83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "\"Pretty, but what is it?\" remains the obvious comment; one steps back a pace and saws the air with the hand; \"You see it better from here, my love,\" one says to one's wife.",
+      "output_sha256": "0ba2ffccfdb7663adc066a859746447deb8b31a1bda566986392171a413d0060",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "0ba2ffccfdb7663adc066a859746447deb8b31a1bda566986392171a413d0060",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But if there be one compositor not carried away by the mad rush of life, who in a leisurely hour (the luncheon one, for instance) looks at the beautiful words with the eye of an artist, not of a wage-earner, he, I think, will be satisfied; he will be as glad as I am of my new nib.",
+      "output_sha256": "2a3268472d134d1d48cde611c08f6e792f8b2e8726700973ca70553c0266b777",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "2a3268472d134d1d48cde611c08f6e792f8b2e8726700973ca70553c0266b777",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Does it matter, then, what you who see only the printed word think of it?",
+      "output_sha256": "f5105aee7ad66bcc2b04d982c3d2abbebca8082bcf91ead9a1434a89f8ba0ad3",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "f5105aee7ad66bcc2b04d982c3d2abbebca8082bcf91ead9a1434a89f8ba0ad3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "A woman, who had studied what she called the science of calligraphy, once offered to tell my character from my handwriting.",
+      "output_sha256": "798dcbadda7b020e3ebde53ae38b4ecc0b1464b77556b4d2f270b1e9cb389cf4",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "798dcbadda7b020e3ebde53ae38b4ecc0b1464b77556b4d2f270b1e9cb389cf4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I prepared a special sample for her; it was full of sentences like \"To be good is to be happy,\" \"Faith is the lode- star of life,\" \"We should always be kind to animals,\" and so on.",
+      "output_sha256": "239291aeecfbbd4023493969dd086545abd2adcbe19930ba9f068b009414ff77",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "239291aeecfbbd4023493969dd086545abd2adcbe19930ba9f068b009414ff77",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I wanted her to do her best.",
+      "output_sha256": "d20251646c23822e698d48edb78f01b4f8d0e969aea6d1b9d4f43112139e12a2",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "d20251646c23822e698d48edb78f01b4f8d0e969aea6d1b9d4f43112139e12a2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "After dedicating her morning to this task, she informed me at lunch that I was \"synthetic.\"",
+      "output_sha256": "6ae55b3d1f65b228137e5cb11697a1631582180a3a6a92f9ba8137f1bfbfd852",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.54879,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "a46958aa528f04116e886ec775754a44eff42481c5c0a475681c987cfa0066c7"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "6ae55b3d1f65b228137e5cb11697a1631582180a3a6a92f9ba8137f1bfbfd852",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Probably you think that the compositor has failed me here and printed \"synthetic\" when I wrote \"sympathetic.\"",
+      "output_sha256": "b3d4adf3ad91deed15ea1a470ffc74ab2fa54303eed6dc9329ad23e09e011b7a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "b3d4adf3ad91deed15ea1a470ffc74ab2fa54303eed6dc9329ad23e09e011b7a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Initially, I misunderstood her, striving to appear as sympathetic as possible.",
+      "output_sha256": "206372e9e6c5a2d294e81e0bbf341307c077403a7b8eb508ee97b3454f56c4ac",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.327395,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "7ef7ced19f68671c69a580a94d6585b12a48ec0caa40c381cd7dd801c552b5f7"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "206372e9e6c5a2d294e81e0bbf341307c077403a7b8eb508ee97b3454f56c4ac",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "However, she repeated \"synthetic,\" so that there could be no mistake.",
+      "output_sha256": "980f15dd6b5936124cac287670a98a80d972e98d76d44a4502c091c050cddf51",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "980f15dd6b5936124cac287670a98a80d972e98d76d44a4502c091c050cddf51",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "I urged her to elaborate, expecting that each letter would unveil a deeper truth, but all she offered was \"and not analytic.\"",
+      "output_sha256": "e7c8fd6cc7ea1666e103c7d3992061171e83f93d46da1122bf5ec02b4da836c4",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.505106,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "49ac07ed1fc6a5a9550fa0fea927e027d9756bd13026fd29f83b89a57551b248"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "e7c8fd6cc7ea1666e103c7d3992061171e83f93d46da1122bf5ec02b4da836c4",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "For the remainder of the day, I reveled in the idea, repeating to myself, \"I am synthetic!",
+      "output_sha256": "57de121062108de553a12746b02bf2e2075bcd5d828dc483a8d49ff63dde04fe",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.55327,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "728ccd7eed01cf51b615d41a1b61a223c881cf0421b5bb23200476cc6b435e6b"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "57de121062108de553a12746b02bf2e2075bcd5d828dc483a8d49ff63dde04fe",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I am synthetic!",
+      "output_sha256": "44d2c3975b45fbd4fbc18894d4e8d933b475637ae558d13473a368734addee28",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "44d2c3975b45fbd4fbc18894d4e8d933b475637ae558d13473a368734addee28",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I am synthetic!\" and then I would add regretfully, \"Alas, I am not analytic!\"",
+      "output_sha256": "ea9486671984cdd980b67534ae2d5d9d4f363e5e40361b438ff4d1130eaf5baf",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "ea9486671984cdd980b67534ae2d5d9d4f363e5e40361b438ff4d1130eaf5baf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I had no idea what it meant.",
+      "output_sha256": "7638e4357232b88029fefd5e609d7d8fbbd25e9311b643da1fd961fb5002cae1",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "7638e4357232b88029fefd5e609d7d8fbbd25e9311b643da1fd961fb5002cae1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "And how do you think she had deduced my syntheticness?",
+      "output_sha256": "6d8c38da4478df8a39eefd4b508a4a5193d8b7749c4813d8ffb24dbab57b54b8",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "6d8c38da4478df8a39eefd4b508a4a5193d8b7749c4813d8ffb24dbab57b54b8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Merely the fact that, in a bid to save time, I tend to join some of my words.",
+      "output_sha256": "d47cc1170fc336b1b9b98ef6acf3632de08cb49c38a962fc55de96eb5e62d654",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.657576,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "b8bc35f963c45ea1cc3bb9e9ef64b50bd5217c3cbb510087429408d87624cfc3"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "d47cc1170fc336b1b9b98ef6acf3632de08cb49c38a962fc55de96eb5e62d654",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "This act does not indicate synthetic behavior; rather, it signifies a busy individual.",
+      "output_sha256": "a8d60c40bbc676d7115070ef6433d19f8d73372fe58d8f96d3b09a3d56951d87",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.296237,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "e7bd0d0d115b6ca046de5ed6db94f234ea034028e6acf0fcc701eefc08abea6e"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "a8d60c40bbc676d7115070ef6433d19f8d73372fe58d8f96d3b09a3d56951d87",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "What she should have said was, \"You are a busy man; your life is one constant whirl; and probably you are of excellent moral character and kind to animals.\"",
+      "output_sha256": "73b8d37b9bbfe767fed998c6902654211c4ce9acae0764c96bb5314485183ad4",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "73b8d37b9bbfe767fed998c6902654211c4ce9acae0764c96bb5314485183ad4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Then, one would feel their writing was not in vain.",
+      "output_sha256": "faf5c28e49d459509dd46e04282c00d7289d5761973bf124f8944fb4afd1841e",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.719318,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "3c4887c2149b620aaef45bdfd8089aaa8ea72dd503c517bf6bb08bf11fc766bb"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "faf5c28e49d459509dd46e04282c00d7289d5761973bf124f8944fb4afd1841e",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "My pen is getting tired; it has lost its first fair youth.",
+      "output_sha256": "3e3f8cbec128fa9e77fd4bdf2f98cc9bf1b321f5a852d944b92ef700816a6006",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "3e3f8cbec128fa9e77fd4bdf2f98cc9bf1b321f5a852d944b92ef700816a6006",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "However, I can still go on.",
+      "output_sha256": "cfba34eede405c839b2c260b2794afa4049f8c2381f31b898503123cf0846b74",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "cfba34eede405c839b2c260b2794afa4049f8c2381f31b898503123cf0846b74",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "During my school days, I had a friend whose uncle manufactured nibs.",
+      "output_sha256": "fbabca4ce80a33cefd0e4a1e37143036e79f0e4b6107ed9268244b7865688bf6",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.498986,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "87b2068a74a1dad30b73eeb54208eec7b258bbe4270fe205085c504c4c2e3075"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "fbabca4ce80a33cefd0e4a1e37143036e79f0e4b6107ed9268244b7865688bf6",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "If you detect traces of erudition in this article, of which any decent man might be expected to be innocent, I owe it to that boy.",
+      "output_sha256": "f12b3df7a9e37ecee47d98f0a788796d7f8b7ade18794a6c8f980848b5cd4bb6",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "f12b3df7a9e37ecee47d98f0a788796d7f8b7ade18794a6c8f980848b5cd4bb6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "He once told me how many nibs his uncle made in a year; luckily I have forgotten.",
+      "output_sha256": "1f40ed0de50ef68c01c2630cbf986491c68d326b33db529bf9f224d3d5aef6be",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "1f40ed0de50ef68c01c2630cbf986491c68d326b33db529bf9f224d3d5aef6be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Thousands, probably.",
+      "output_sha256": "0ab552b1022185501624ccefc4d016c8511c759717b1a53bbf2e05ab9da433d3",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "0ab552b1022185501624ccefc4d016c8511c759717b1a53bbf2e05ab9da433d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Every term that boy came back with a hundred of them; one expected him to be very busy.",
+      "output_sha256": "f7f7d0afb9d75b557a87f1dfabe368753d9e2880d8ecc3112619f3d3419eb605",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "f7f7d0afb9d75b557a87f1dfabe368753d9e2880d8ecc3112619f3d3419eb605",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "After all, if one lacks the intellect or inclination to engage in serious work, possessing nibs is certainly something.",
+      "output_sha256": "b8824d634d4b596d7e2c0dd265b9a168e264e55a32a4ad7b67488150316a801a",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.606842,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "a7f7557c6be242c63d45dd801a2c5f1e1688272722336483ffdf6a30d346fe2e"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "b8824d634d4b596d7e2c0dd265b9a168e264e55a32a4ad7b67488150316a801a",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "However, those nibs were ultimately utilized for more playful purposes.",
+      "output_sha256": "2dcd0360ca706b3e290350510ba3fdd02d2cc46cc8061b47cdbb2d6eaf3b37aa",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.31,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "31719cf51ab2402d8832f34cd0fba57ac5a978e836bab504ee54c0fcd24a5075"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "2dcd0360ca706b3e290350510ba3fdd02d2cc46cc8061b47cdbb2d6eaf3b37aa",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There is a game you can play with them; you flick your nib against the other boy's nib, and if a lucky shot puts the head of yours under his, then a sharp tap capsizes him, and you have a hundred and one in your collection.",
+      "output_sha256": "7f4247010e2d82266e96448f8b7f7c440e11c786a8a82465151347aa6c6861e6",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "7f4247010e2d82266e96448f8b7f7c440e11c786a8a82465151347aa6c6861e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The game involved a fair amount of strategy, the details of which have since faded from my memory.",
+      "output_sha256": "e1c3bba7009434c01ed6dba4eba646388c26020e24ec59e826779970a8110229",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.377313,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "e925dbc44a5ea10b3e76ccc453a796cc882e41a1c1006d0338fa3bba679f050e"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "e1c3bba7009434c01ed6dba4eba646388c26020e24ec59e826779970a8110229",
+      "ai_unit_sentence_indices": [
+        55,
+        56
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I suspect it could even be played at the Admiralty during the off-season.",
+      "output_sha256": "7d8d156a72555e7014d435b4b3aa589f3ad816a8a652be1743c6b28a45a7943b",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.377313,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "e925dbc44a5ea10b3e76ccc453a796cc882e41a1c1006d0338fa3bba679f050e"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "7d8d156a72555e7014d435b4b3aa589f3ad816a8a652be1743c6b28a45a7943b",
+      "ai_unit_sentence_indices": [
+        55,
+        56
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Another playful activity involved inserting a clean nib into your pen, lightly touching it to the cheek of an unsuspecting boy with his back turned, then calling out to him suddenly.",
+      "output_sha256": "5c85e51d35f9e3f5c11d54f746bb83c060a943f5f3d649448bd8fe80de77387a",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.571829,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "f6489df1f7e370b8fb215aa623e70690deac8e8b798ebfe02c2cbf1d7a484164"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "5c85e51d35f9e3f5c11d54f746bb83c060a943f5f3d649448bd8fe80de77387a",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "As Kipling noted, we are indeed the only truly humorous race.",
+      "output_sha256": "6408305d0e64258c0edc4d5a1e3d458f18f3373950b87625ef9f28fc0b882aac",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.708009,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "98cb4296283fa7d8f710c5074c237cefcd9233795289b52de0bf06e7d455f270"
+      ],
+      "source_ai_sentence_index": 58,
+      "source_ai_sha256": "6408305d0e64258c0edc4d5a1e3d458f18f3373950b87625ef9f28fc0b882aac",
+      "ai_unit_sentence_indices": [
+        58
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "This boy's uncle died a year or two later and left about £80,000, but none of it to his nephew.",
+      "output_sha256": "deb559c057d3ebf6eba74d6e3d9faff5fa5f4559ac0152be86e39ff0b14d756c",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "deb559c057d3ebf6eba74d6e3d9faff5fa5f4559ac0152be86e39ff0b14d756c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Of course, he had had the nibs every term.",
+      "output_sha256": "39c91bc0c38166650276208301a69628b39ed28dc7b975ec6ea173e504cc9284",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "39c91bc0c38166650276208301a69628b39ed28dc7b975ec6ea173e504cc9284",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "One mustn't forget that.",
+      "output_sha256": "c98994ea3ec5218f9b135d0fb761b2087e1f431bdeef0e040a5c1b99ae212f32",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "c98994ea3ec5218f9b135d0fb761b2087e1f431bdeef0e040a5c1b99ae212f32",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The nib I write this with is called the \"Canadian Quill\"; made, I suppose, from some steel goose which flourishes across the seas, and which Canadian housewives have to explain to their husbands every Michaelmas.",
+      "output_sha256": "6098d61383e232ddd2f76cb8844defe29850354772861cfeadb2e3012ecfb55e",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "6098d61383e232ddd2f76cb8844defe29850354772861cfeadb2e3012ecfb55e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Well, it has seen me to the end of what I wanted to say—if indeed I wanted to say anything.",
+      "output_sha256": "703c708bf605ef6d5c4a24bb7568635794ae62d47efd264fae898f524396cf13",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "703c708bf605ef6d5c4a24bb7568635794ae62d47efd264fae898f524396cf13",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "For it was enough for me this morning just to write; with spring coming in through the open windows and my good Canadian quill in my hand, I could have copied out a directory.",
+      "output_sha256": "edf86f7821d11e0632d12a2a2670837d96679f41794cb598708a02e43bbfb456",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "edf86f7821d11e0632d12a2a2670837d96679f41794cb598708a02e43bbfb456",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "That is the real pleasure of writing.",
+      "output_sha256": "9d50304530baccc2fe7ed2647aca69e6584faf8f70f7b20fc17bd2e82c879b45",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "9d50304530baccc2fe7ed2647aca69e6584faf8f70f7b20fc17bd2e82c879b45",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

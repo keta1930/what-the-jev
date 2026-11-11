@@ -1,0 +1,693 @@
+{
+  "source_id": "EN022",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "f6f5ebc8c53b1068369fc0a50f6004526291fea1697220a56744a408ba19560b",
+  "ai_article_sha256": "ddff048d32e6981b030ca2804beaf77c22cd1e78854a845bff5a87bfb4d69b9a",
+  "mixed_article_sha256": "62920f2e27a3296555497c7769ba7032492c81c2ef86ff6ab01ec3da38e9e815",
+  "human_source_sentence_count": 48,
+  "ai_source_sentence_count": 41,
+  "alignment_unit_count": 39,
+  "selected_alignment_unit_count": 14,
+  "mixed_sentence_count": 45,
+  "selected_ai_sentence_count": 15,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.24182,
+  "selected_alignment_score_median": 0.375514,
+  "selected_alignment_score_max": 0.623571,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Mr. Kipling, dividing, in that fine poem, men into the Sons of Martha and the Sons of Mary—the Sons of Martha being the servants and the Sons of Mary the served—characteristically lays his emphasis on those who make machinery to move.",
+      "output_sha256": "c9c2f9cc030a34d929568e3f2badc2e596ae87c0b2d91021c0fdcb04036f919c",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "c9c2f9cc030a34d929568e3f2badc2e596ae87c0b2d91021c0fdcb04036f919c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Thus:",
+      "output_sha256": "7810afefd7ab14d3e8c02653416b8d17ee170eca6e6c6cd85fcfd8f157c8b432",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "7810afefd7ab14d3e8c02653416b8d17ee170eca6e6c6cd85fcfd8f157c8b432",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Mr. Kipling, as I say, is thinking more of highly trained and efficient operatives than of the quieter ministrants; but, after all, some of Mary's Sons—possibly the majority of them—stay at home and refrain from running the Empire, and these too count upon their cousins for assistance.",
+      "output_sha256": "65646131fb162b076aa0b7242d566b57a2f49618dd10a1fe5ef95e529f7f66fc",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "65646131fb162b076aa0b7242d566b57a2f49618dd10a1fe5ef95e529f7f66fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "A notable subset of Martha's Sons is composed of waiters, a group that has often been overlooked by literary figures.",
+      "output_sha256": "c4de11184ce4dfd97d31eba9935916a09925dca71f22296bc19f9423e5bab4ef",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.409619,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "50181a922ff0ca502f6dd07dc24972c9514aa55a32f558e7382f82c43be25367"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "c4de11184ce4dfd97d31eba9935916a09925dca71f22296bc19f9423e5bab4ef",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "There should be a Book of Waiters, as there was a Book of Doctors and a Book of Lawyers by the late Cordy Jeaffreson, and a Book of the Table by the late Dr. Doran.",
+      "output_sha256": "699cffb2c7d36743add68eda3b27adfbf03b3735b3e8a5a5808bdb4c2f6644e1",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "699cffb2c7d36743add68eda3b27adfbf03b3735b3e8a5a5808bdb4c2f6644e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "A compilation focusing on seasoned waiters would be ideal.",
+      "output_sha256": "2a81b7cb61aed6cdfa33e31a7db0304163eae158f5bb626733ef42aa64e5b6c2",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.344437,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "15d81c895655b73758fb328a55a4c9b21b8a57deb3d04ae5a3e47380859a7369",
+        "49b107173acdc0f803e27e491f5d9fd6c680ddc015079d423683a953839522ee"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "2a81b7cb61aed6cdfa33e31a7db0304163eae158f5bb626733ef42aa64e5b6c2",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "These are individuals who have honed their craft over time, experienced a variety of wines, and observed the intricacies of human nature during meals.",
+      "output_sha256": "ccef2393f04a0ddc0361030f59df4cdeff572a2f318881bce5fb380e02aee727",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.344437,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "15d81c895655b73758fb328a55a4c9b21b8a57deb3d04ae5a3e47380859a7369",
+        "49b107173acdc0f803e27e491f5d9fd6c680ddc015079d423683a953839522ee"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "ccef2393f04a0ddc0361030f59df4cdeff572a2f318881bce5fb380e02aee727",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It should be a cosmopolitan work: England's old waiters must be there, and France's, upon whom most clubmen of any age ought to be able to enlarge fruitily.",
+      "output_sha256": "fc58d92683f28e9b264c537ce3481df4a100cab01fb2492f319b1909c5f44900",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "fc58d92683f28e9b264c537ce3481df4a100cab01fb2492f319b1909c5f44900",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "In fact, all well-stored Bohemian memories in London and Paris should yield much.",
+      "output_sha256": "06282bf0f2f7e78e15ca377eef5571f0196a0eb9fe8a3822d30f4eb1b7c9a987",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "06282bf0f2f7e78e15ca377eef5571f0196a0eb9fe8a3822d30f4eb1b7c9a987",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And Ireland's old waiters most conspicuously must be there; but whoever is to write this book must hasten to collect the material, for in Ireland, I am told, the old waiter is vanishing.",
+      "output_sha256": "f2e7cdeaca681c27d1f59ecafd4de5de29444b4662ab82d35adb729be6c06fac",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "f2e7cdeaca681c27d1f59ecafd4de5de29444b4662ab82d35adb729be6c06fac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "An elderly Irish man I recently conversed with nostalgically recounted the loss of these once vibrant characters, lamenting the disappearance of the humorous, independent waiters he once knew.",
+      "output_sha256": "bc530d40116bd611cc9aa031b46428871c0facf7f26b043e2f926f9773a955a5",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.325455,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "b209454158f87ad0243be27a3769050cc7b9cdf47d73d804c39bda543365c1db"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "bc530d40116bd611cc9aa031b46428871c0facf7f26b043e2f926f9773a955a5",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "No longer, said he, are to be found, except very occasionally, these worthy friends of the traveller—Martha's Sons at their best, or, at any rate, at their most needed.",
+      "output_sha256": "07d90d3816e3b6af6fc59e4feac910e8753c0f409cb5c3ffd2a321d66fa8dcf9",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "07d90d3816e3b6af6fc59e4feac910e8753c0f409cb5c3ffd2a321d66fa8dcf9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Slow they may have been, not always strictly sober, and often despotic; but they were to be counted upon as landmarks: they extended a welcome, they fed the hungry (in time), they slaked the thirsty (more quickly), and they made remarks amusing enough to fortify their good points and palliate their bad.",
+      "output_sha256": "e6256c546bce1edbdb055c2a551d8afef701fbc8dcb65094ba0e21de3c09da7b",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "e6256c546bce1edbdb055c2a551d8afef701fbc8dcb65094ba0e21de3c09da7b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "\"There was an old fellow named Terence at Limerick,\" said my friend, and there followed two or three characteristic anecdotes of old Terence at Limerick.",
+      "output_sha256": "edc5710b8a0fedbc186cc05cb5b288463e658c86669fc425b05ce9f5e13668c7",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "edc5710b8a0fedbc186cc05cb5b288463e658c86669fc425b05ce9f5e13668c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "\"There was old Tim at Tralee,\" and he painted old Tim for me in a few swift strokes—red nose, creaking legs, and all.",
+      "output_sha256": "ed17651db6307c9a0f86c88b2cd3ad08d18b26e1d72323ebe34c8215707bf189",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "ed17651db6307c9a0f86c88b2cd3ad08d18b26e1d72323ebe34c8215707bf189",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "He expressed a deep sense of loss over their absence, noting that these figures, though perhaps slow or imperfect, provided a sense of familiarity and comfort to travelers.",
+      "output_sha256": "ff188bd9f5eb8d5839848b1f9e12c8fe002873e91d6e76a401d127041aebce3e",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.24182,
+      "human_sentence_indices": [
+        16,
+        17
+      ],
+      "human_sha256": [
+        "835e5e20fcb79281afa8cb1736e703f8942e93f3ae6b6798aebf15e36e2d3cf1",
+        "934e46b24b7e42254a0e5e4a9703adc05d90a709518255a8305755150f79a965"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "ff188bd9f5eb8d5839848b1f9e12c8fe002873e91d6e76a401d127041aebce3e",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "These old fellows have passed, and the new waiters, most of whom are foreigners or girls, can never mature into anything comparable with them.",
+      "output_sha256": "ecd583b5980af322a4257b416cfbe303ce5aa9c21420ffcc7e285957b7bc36c0",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "ecd583b5980af322a4257b416cfbe303ce5aa9c21420ffcc7e285957b7bc36c0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Two of my friend's stories I may tell.",
+      "output_sha256": "fa5c1048c453e2e600001426ebb3453d4f9ee1c6f054d643313680420366c618",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "fa5c1048c453e2e600001426ebb3453d4f9ee1c6f054d643313680420366c618",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The first involves an old waiter named Dennis from Mallow, who responded to a request for brighter light in the coffee room with a humorous retort that captured the essence of his character.",
+      "output_sha256": "a4e7d64793fad0145d74ad79c071e211080394aa23cc78fbd9db3b38ab28b3d2",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.380815,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "3325b552f85b63003b96437b04df286acd1a22e5e1cb710fc540392e329383eb"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "a4e7d64793fad0145d74ad79c071e211080394aa23cc78fbd9db3b38ab28b3d2",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "\"Could it be made brighter?\" my friend asked, to which Dennis replied, \"It cannot.\"",
+      "output_sha256": "c1056f6e4e1ce8c041b167e4f6adb55b634821a52a3a3fca91ff5abb0925b1be",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.270963,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "564c5e83c6d52a263f8d02fc5ee7679ac6d48ab1a3171b9ae2d2c7e354b27eb2"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "c1056f6e4e1ce8c041b167e4f6adb55b634821a52a3a3fca91ff5abb0925b1be",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "When pressed further about the usual lighting conditions, he wittily remarked, \"It is often worse.\"",
+      "output_sha256": "d4bf360cda68c4745ab1e16aeabeaeecea34a59de47f18fdbfa164340bfcd83e",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.341795,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "d46118fa9337d10edf3351f1b2848beb9cf4b761a409d8a326f84e6c2d8321d5"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "d4bf360cda68c4745ab1e16aeabeaeecea34a59de47f18fdbfa164340bfcd83e",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Not a great anecdote, but you must brave the horrors of St. George's Channel to meet with these alluring unexpectednesses of speech.",
+      "output_sha256": "bc7c753adcf4a11a391732902c61f585684166989741b3bdcc5e44f8d00fdf6e",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "bc7c753adcf4a11a391732902c61f585684166989741b3bdcc5e44f8d00fdf6e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Imagine an English waiter thus surprising one!",
+      "output_sha256": "0813cd601d9ae299831cd9c24de39f37de69fcb91c489d3996183b04782225ff",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "0813cd601d9ae299831cd9c24de39f37de69fcb91c489d3996183b04782225ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The second story revolves around Florence, the head waiter at a yacht club in Ireland.",
+      "output_sha256": "3d8a6e310cc717abdc07e316a8a0bcb6abeefea755915b7f32e054b812ad7600",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.623571,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "d49bb32297517e9c9419a9c92b56e35ce7dc189b9fca068595f0c194d8b80ada"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "3d8a6e310cc717abdc07e316a8a0bcb6abeefea755915b7f32e054b812ad7600",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Some sojourners in the neighbourhood, having been elected honorary members for the period of their visit, asked a few American friends to dine there, and then, even while in the boat on their way to dinner, suddenly realised that honorary members are entitled to no such privileges.",
+      "output_sha256": "a034111c9a66025c5df742c97d7b32fdd358d9e04bd5797b7204fda8ba63ef68",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "a034111c9a66025c5df742c97d7b32fdd358d9e04bd5797b7204fda8ba63ef68",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "It was decided to put the case to old Florence.",
+      "output_sha256": "0366125198d3281dbe2e1a4ba51d60da8576f029f5b4161f9b05926e2583540f",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "0366125198d3281dbe2e1a4ba51d60da8576f029f5b4161f9b05926e2583540f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Have you a rule against honorary members inviting guests?\"",
+      "output_sha256": "bcc688f55dd3141d75a11fdea5f98462ca05964a8be4036ab0a44a390e925471",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "bcc688f55dd3141d75a11fdea5f98462ca05964a8be4036ab0a44a390e925471",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"We have, sorr,\" said he.",
+      "output_sha256": "ced1dd04c7e3e517f7448284707a9f7eae794ddad10934df11fbe1ad61fca0cd",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "ced1dd04c7e3e517f7448284707a9f7eae794ddad10934df11fbe1ad61fca0cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Is it very strictly enforced?",
+      "output_sha256": "5793bc895b3eeca57b8e3c89e35b50b5efde95f0efef8eba05494b619a2b0b38",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "5793bc895b3eeca57b8e3c89e35b50b5efde95f0efef8eba05494b619a2b0b38",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Upon consulting Florence, he confirmed the rule but reassured them, \"There would not, sorr.",
+      "output_sha256": "f8342cff02ebecc32d81f8a97ec42e1a3a8f0ef51ad402c40aa17a8dec0b5d9e",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.395238,
+      "human_sentence_indices": [
+        31,
+        32
+      ],
+      "human_sha256": [
+        "190c8009d3bff2c9f7aef6053626266f07e2d45e0ae61c258d63b07857c5bcf9",
+        "04aeef72994285fdad28f574d061892df443a8280ae3129a8b98d84d097ca5d3"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "f8342cff02ebecc32d81f8a97ec42e1a3a8f0ef51ad402c40aa17a8dec0b5d9e",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The only rule in this club that is never broken, sorr, is the one which forbids gratuities to be given to the waiters.\"",
+      "output_sha256": "378225eb7240fe577c668d46fec0407c73016eefb75fafed0efe01b4657ab26c",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "378225eb7240fe577c668d46fec0407c73016eefb75fafed0efe01b4657ab26c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "For those Sons of Martha who thrive in the service of others, catering to the needs of the hungry, there is little reason for pity.",
+      "output_sha256": "6615eb37a0be50fb95285e570eaaecdc9104eee5aa354225c01855a309ec065f",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.462808,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "a317fb6b6bf33380437d934fda8d27bc459f6490bad4cdbe684bcdc23c14c661"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "6615eb37a0be50fb95285e570eaaecdc9104eee5aa354225c01855a309ec065f",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "They are often not only richer but happier than their customers, and when the time comes they retire to snug little houses (of which they not infrequently own a row) with a competence, and pass the evening of life with their pipe and glass, their friends and grandchildren, moving serenely, if perhaps with a shade too plantigrade a step (the waiters' heritage), to the grave.",
+      "output_sha256": "7c44283cf2ea04d68a17103131c0a71140cb35843045b1e404f038fb1db34015",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "7c44283cf2ea04d68a17103131c0a71140cb35843045b1e404f038fb1db34015",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "No call, as I say, to feel sorry for them; but what of those other Sons of Martha, the railway porters, who while helping us to travel and get away from home never travel or get away from home themselves, and for ever are carrying or wheeling heavy trunks or searching for visionary cabs?",
+      "output_sha256": "fe3b3fb9f9f12096d1c1fab57a9af54b0b2d4c15019fd95c5be57e947d8fbfe6",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "fe3b3fb9f9f12096d1c1fab57a9af54b0b2d4c15019fd95c5be57e947d8fbfe6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The mere absence of holidays does not inherently equate to misery.",
+      "output_sha256": "fcbc2d6883f0e7dcdc129238aee14a6926ba616b0a570b158a8f9ae156e50fe4",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.392308,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "a943aa1c08a87b9253b6bf88282288845a8554335d61d893db45c2c991ecd62b"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "fcbc2d6883f0e7dcdc129238aee14a6926ba616b0a570b158a8f9ae156e50fe4",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Holidays often are overrated disturbances of routine, costly and uncomfortable, and they usually need another holiday to correct their ravages.",
+      "output_sha256": "12aafb536021a79944324c139c560934edfc32f874990d8b768d3003d4d3e724",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "12aafb536021a79944324c139c560934edfc32f874990d8b768d3003d4d3e724",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Men who take no holidays must not, therefore, necessarily become objects of our pity.",
+      "output_sha256": "32f709a4829cfcc761d4d506cb096100a9118f1f18f28ad33844eb79b82eb249",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "32f709a4829cfcc761d4d506cb096100a9118f1f18f28ad33844eb79b82eb249",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But I confess to feeling sorry for those servants of the public who apparently not only never take a holiday themselves, but who spend all their lives in assisting others to get away.",
+      "output_sha256": "5429939c01b72614757c574f1e32fd3851d14af78d801b0f38b80cd7a73cf89c",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "5429939c01b72614757c574f1e32fd3851d14af78d801b0f38b80cd7a73cf89c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is probably no privation to a bathing-machine man never to enter the sea; uproariously happy in that element as his clients can be, their pleasure, in which he has no share, does not, I imagine, embitter his existence.",
+      "output_sha256": "d71247d2c7a954c64e1729a0109e066370db3346eb157ae81802e65d2e2cbf92",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "d71247d2c7a954c64e1729a0109e066370db3346eb157ae81802e65d2e2cbf92",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Similarly, a waiter, who is either about to enjoy a meal or has just finished one, should not evoke pity for the consistent service they provide.",
+      "output_sha256": "77ceafadcc8b771ac4ce3ed476266baa16009c4f5b2ae79e0f7474419c15250d",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.375514,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "76824b52c8568f456f7abbf3b52c6738d96f97a4251ebaef9fad0446542540ac"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "77ceafadcc8b771ac4ce3ed476266baa16009c4f5b2ae79e0f7474419c15250d",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "But it is conceivable that some of those weary and dejected men whom one sees at Victoria Station, for example, in the summer, eternally making an effort, however unsuccessful, to cope with the exodus of Londoners to the south coast, really would like also to repose on Brighton beach.",
+      "output_sha256": "89516833924dc95c4d97ec653d10c571e5e536afeee7bd9d6b572b25fe2bee34",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "89516833924dc95c4d97ec653d10c571e5e536afeee7bd9d6b572b25fe2bee34",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "But they may not.",
+      "output_sha256": "5e8c2bee7174c231f602a1c87f9cb208a6ccaaac23a19a448e34c6ca18c2fd1b",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "5e8c2bee7174c231f602a1c87f9cb208a6ccaaac23a19a448e34c6ca18c2fd1b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Like Moses, who was denied entry to the Promised Land, these porters are forever tasked with the labor of helping others reach their destinations while being unable to partake in the journey themselves.",
+      "output_sha256": "fe995663eca50170924aba13e7c33f601184dc3dd68d4d37814e55ae32014f74",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.387045,
+      "human_sentence_indices": [
+        45,
+        46
+      ],
+      "human_sha256": [
+        "7f21fbdfb32f0af29d1c6302b864c187e7d90a8d53f2f15dbc82c6a286263672",
+        "fec0269832298ccf136d03d1d35b03eee10bab31cd15ddc99194be425101e986"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "fe995663eca50170924aba13e7c33f601184dc3dd68d4d37814e55ae32014f74",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "The engine drivers, stokers, and guards get to enjoy the thrill of travel, but porters are relegated to the periphery, lingering only at the edges of burgeoning adventures.",
+      "output_sha256": "68f6efbfe6000a96f01219a72b41a2df101b3fd116f601997f73fbf28241adf4",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.310412,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "04817b88a754670edc94bb1b9a7da2823e0bce41bfa41f2733c4a4d872f3f2c1"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "68f6efbfe6000a96f01219a72b41a2df101b3fd116f601997f73fbf28241adf4",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And if the plight of the porters at Victoria is unenviable, think of that of the porters at the big termini on the other side of London and elsewhere when they read the labels on the luggage which they handle!—labels for the west, for the land of King Arthur; labels for the north, for delectable Highland retreats; labels for Northumberland and Yorkshire; labels for the east coast; labels for Kerry and Galway and Connemara.",
+      "output_sha256": "4c9e075120b702d7c5c12b17d9b001e2abbac586f0a5d8522197f9d57ff4862c",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "4c9e075120b702d7c5c12b17d9b001e2abbac586f0a5d8522197f9d57ff4862c",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

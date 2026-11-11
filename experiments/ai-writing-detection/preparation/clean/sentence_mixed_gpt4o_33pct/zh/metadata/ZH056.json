@@ -1,0 +1,697 @@
+{
+  "source_id": "ZH056",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "a590ea9978db3db489ecf79fd4f8c434d109e7ae3ac442de923af04ee787de3e",
+  "ai_article_sha256": "4da73b02d78b79c3e1b86c72c9f93536bcf50065b3f7696e83c3be0125221db8",
+  "mixed_article_sha256": "44279c7981847f926ebd7209b59b7dd65053aa9d0cf85f75a3c4e7b3e8b7c063",
+  "human_source_sentence_count": 48,
+  "ai_source_sentence_count": 45,
+  "alignment_unit_count": 45,
+  "selected_alignment_unit_count": 15,
+  "mixed_sentence_count": 46,
+  "selected_ai_sentence_count": 15,
+  "actual_ai_sentence_ratio": 0.326087,
+  "selected_alignment_score_min": 0.40527,
+  "selected_alignment_score_median": 0.581766,
+  "selected_alignment_score_max": 0.79924,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "买书也是我的嗜好，和抽烟一样。",
+      "output_sha256": "a0e772fe6b985b7255a10417180d4ddc17ef50f70687c7497152d9caa530e9c1",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "a0e772fe6b985b7255a10417180d4ddc17ef50f70687c7497152d9caa530e9c1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "但这两件事我其实都不在行，尤其是买书。",
+      "output_sha256": "2332d6d5c532b18b0c93e7b758be751766b76cabeffd1c30a13704a7f2081ed3",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "2332d6d5c532b18b0c93e7b758be751766b76cabeffd1c30a13704a7f2081ed3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在北平这地方，像我那样买，像我买的那些书，说出来真寒尘死人；不过本文所要说的既非诀窍，也算不得经验，只是些小小的故事，想来也无妨的。",
+      "output_sha256": "deb0d2b785f5c48bf899eb3e5974a8f7811c8ca33c4877427e5d763ef0e8f36f",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "deb0d2b785f5c48bf899eb3e5974a8f7811c8ca33c4877427e5d763ef0e8f36f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "在家乡中学时候，家里每月给零用一元。",
+      "output_sha256": "a543d7f8e298e80027077be2fcc605732f85b423518a536b63cb66376a8392c5",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "a543d7f8e298e80027077be2fcc605732f85b423518a536b63cb66376a8392c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "大部分都报效了一家广益书局，取回些杂志及新书。",
+      "output_sha256": "d980d18f9db31752ced54ca4ea88cc2caca8bd3943458424d5206ff6072e3a4e",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "d980d18f9db31752ced54ca4ea88cc2caca8bd3943458424d5206ff6072e3a4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "那里的老板姓张，身材有些微胖，常常叼着水烟袋；但他人很好，我们并不觉得他有市侩气。",
+      "output_sha256": "7bea950ee86270d1adb63fe55971aa74b91d1d030d6d40aaf88ff6a14853d421",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.58219,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "87d0b13dbfea420ac5596a9ceb83f56e20dd75258daa8eb9c0329e8ce8d7974f"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "7bea950ee86270d1adb63fe55971aa74b91d1d030d6d40aaf88ff6a14853d421",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "他愿意给我们这些孩子记账。",
+      "output_sha256": "36dfc45f536317dee5eca8d2235b3c1f8b70744e8e844345673f0a9b7198429a",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.680507,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "f820bf68e8137ebabc4eb4d1a4bb5c94d3e60df2c621334de6c503a97e105145"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "36dfc45f536317dee5eca8d2235b3c1f8b70744e8e844345673f0a9b7198429a",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "每到节日，我总是欠他一元多的账，他催促得并不紧；只需和家里商量，先还一元就行。",
+      "output_sha256": "079f6ceeaa4cb74b13474356a6c7dcd9a6d55324189e07696607d83c7e33b6e7",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.625317,
+      "human_sentence_indices": [
+        8,
+        9
+      ],
+      "human_sha256": [
+        "52ba31c2b35c728862a5545389be18661f456206e8ec6a5a6390acd7c2534567",
+        "a4ff8cae1bc0df464df3991f595bd9b16ba63df365a6b8f80f4289ade88ae96c"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "079f6ceeaa4cb74b13474356a6c7dcd9a6d55324189e07696607d83c7e33b6e7",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "那时我最喜欢的一本书是《佛学易解》，就是从张老板那里买的。",
+      "output_sha256": "02ccece3fc49f481412f4dc4bfa17b6067591c8eff6545666180c964fd54acda",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.536249,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "86c1787e501fc6c5c3653f0d2bb4cc4a9127f7c827eea3e12224f0dfed27eb0a"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "02ccece3fc49f481412f4dc4bfa17b6067591c8eff6545666180c964fd54acda",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "那时候不买旧书，因为家里有。",
+      "output_sha256": "65f16134b776436e348d35afa777f9044a7d8ff71b55e284d259d1018aabaeb3",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "65f16134b776436e348d35afa777f9044a7d8ff71b55e284d259d1018aabaeb3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "只有一次，突然想看《文心雕龙》，便去旧书铺寻找：有一家拿出一本广州出版的，标价一元，买不起；后来又买到一本，书的品相尚可，纸墨稍差，却只花了小洋三角。",
+      "output_sha256": "e62e151f54aa044e134081212be615d076d5f1ff076b12dd627ab0323af3de80",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.60058,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "7d1ffbe6bee993b67afd0c722f2b326b5c4dcf73f22897173188a3a22647128d"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "e62e151f54aa044e134081212be615d076d5f1ff076b12dd627ab0323af3de80",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这部书还在，两三年前给换上了磁青纸的皮儿，却显得配不上。",
+      "output_sha256": "f75d9d5ecded0250d07e04ef1d1591d879138ff276200d59d7cab8d7e6041906",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "f75d9d5ecded0250d07e04ef1d1591d879138ff276200d59d7cab8d7e6041906",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "到北平来上学入了哲学系，还是喜欢找佛学书看。",
+      "output_sha256": "113fa4e98f172906eded6aa91a5ba22c3c7076f726fceeb7e70d4f5fdfe6b5e3",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "113fa4e98f172906eded6aa91a5ba22c3c7076f726fceeb7e70d4f5fdfe6b5e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "那时候佛经流通处在西城卧佛寺街鹫峰寺。",
+      "output_sha256": "19b4c148c5e282ce78f1c5907a1b5dba71e8203c475016fd0c06d1d42ca88d84",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "19b4c148c5e282ce78f1c5907a1b5dba71e8203c475016fd0c06d1d42ca88d84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "在街口下了车，一直走，快到城根儿了，才看见那个寺。",
+      "output_sha256": "e48d1bfde4b4fdd451db8ce93d13a42ceef490fada9c06a30accba9336d7a721",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "e48d1bfde4b4fdd451db8ce93d13a42ceef490fada9c06a30accba9336d7a721",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "那是个阴沉沉的秋天下午，街上只有我一个人。",
+      "output_sha256": "f3fe1df2078e105384e9e22270add77d33bcf2f07ff9db8c01731e8e5b945820",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "f3fe1df2078e105384e9e22270add77d33bcf2f07ff9db8c01731e8e5b945820",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "到寺里买了《因明入正理论疏》、《百法明门论疏》、《翻译名义集》等。",
+      "output_sha256": "01012cbe7675b4fd46ed090738104153c2d6429212bf4733711b5f6bebd15fd7",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "01012cbe7675b4fd46ed090738104153c2d6429212bf4733711b5f6bebd15fd7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "回想起那种傻劲儿，倒也颇有趣；就像从天坛出来，独自一人，像探险一样穿过许多无人走的碱地去陶然亭一样。",
+      "output_sha256": "7f40c8cd398703d5e752fd2554d539b1a9559b105e55e66f53d89883bc9af855",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.570221,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "f016552ebed0ca240036f1cf126e45f644b70c5dcfbc71dc02fa9d164ea2de75"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "7f40c8cd398703d5e752fd2554d539b1a9559b105e55e66f53d89883bc9af855",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "毕业那年，我去了琉璃厂的华洋书庄，看到新版的韦伯斯特大字典，标价十四元。",
+      "output_sha256": "7ee0e9504d965fb685b380faa1ee482ffef685a333f9c7cb584bf9618785752c",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.68091,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "65763569463859d1adf04c7a41b835158290cbc8859f105c985ba49fb1e8a2e2"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "7ee0e9504d965fb685b380faa1ee482ffef685a333f9c7cb584bf9618785752c",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "可是十四元并不容易找。",
+      "output_sha256": "55ffab76fa00944be44477d2fa969c3502ab84da294424f0de81d70892860bfd",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "55ffab76fa00944be44477d2fa969c3502ab84da294424f0de81d70892860bfd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "想来想去，只好硬了心肠将结婚时候父亲给做的一件紫毛（猫皮）水獭领大氅亲手拿着，走到后门一家当铺里去，说当十四元钱。",
+      "output_sha256": "5bebb555426d2f9f66326b55ea3fd1bff51c66e01cf55468d4b1c619b4b463ba",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "5bebb555426d2f9f66326b55ea3fd1bff51c66e01cf55468d4b1c619b4b463ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "柜上人似乎没有什么留难就答应了。",
+      "output_sha256": "2b66b29210ac1621d3fb14ea0654939f404903efc3645e1af8de9e522909caf7",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "2b66b29210ac1621d3fb14ea0654939f404903efc3645e1af8de9e522909caf7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这件大氅是布面，土式样，领子小而毛杂，原本用了两副“马蹄袖”拼凑而成。",
+      "output_sha256": "9375fc5b9e17c159583939478c751f29c83ff304efaf1ec20232261f3e87364d",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.79924,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "9d130a0726a8225c9d50e3d9c4eb82ab910a0aab6e8b8cf97e31b4393c554e82"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "9375fc5b9e17c159583939478c751f29c83ff304efaf1ec20232261f3e87364d",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "父亲给做这件衣服，可很费了点张罗。",
+      "output_sha256": "90ed4adc8ade2f35d04fdc51ced3dcae07e3fcfc79655107dce7c3ae428ea402",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "90ed4adc8ade2f35d04fdc51ced3dcae07e3fcfc79655107dce7c3ae428ea402",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "拿去当的时候，也踌躇了一下，却终于舍不得那本字典。",
+      "output_sha256": "ab96b833fab156e5345dc729ffd958a8c421513cd32e2a609b2019895370deb4",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "ab96b833fab156e5345dc729ffd958a8c421513cd32e2a609b2019895370deb4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "想着将来一定会赎回来的，没想到却再也无法赎回，这成了我至今翻阅那本字典时常感到遗憾的事情。",
+      "output_sha256": "c968d8d982d29fd4fa4f45b8b9abaa8bf2564630b5155af8e54a39be1b4b0b4e",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.443356,
+      "human_sentence_indices": [
+        27,
+        28
+      ],
+      "human_sha256": [
+        "0ca5de5a31935ef7d84d0db41bb9e3892c05fdb133ecf133b5b16da6150b5f9b",
+        "a6cbd9ebc22ee714937d63988447d2d9785eaf6199933f01a20873965610e9e7"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "c968d8d982d29fd4fa4f45b8b9abaa8bf2564630b5155af8e54a39be1b4b0b4e",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "重来北平之后，有一年忽然想搜集一些杜诗。",
+      "output_sha256": "04f1fefd8d9e126c78267ab8982bb7d849cd966760fe6f136c5efbfc07f06106",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "04f1fefd8d9e126c78267ab8982bb7d849cd966760fe6f136c5efbfc07f06106",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "一家小书铺叫文雅堂的给找了不少，都不算贵；那伙计是个麻子，一脸笑，是铺子里少掌柜的。",
+      "output_sha256": "a417543a06683dfcbbb7038b1cf049d3bee0e034803547b6b5ae7723e352cc81",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "a417543a06683dfcbbb7038b1cf049d3bee0e034803547b6b5ae7723e352cc81",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "铺子靠他父亲支持，书籍不算丰富，去年他父亲去世后，他本人对书并不太在行，伙计也因此离开了。",
+      "output_sha256": "df39c1802938ae1d1f4dffcb1771f91b5f1994e65b94cec2833c9a36824fe9d8",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.47574,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "95419b82c156bcb3e51aee54f6969a2c01e1b63666052f6c138f25bb984fc0fb"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "df39c1802938ae1d1f4dffcb1771f91b5f1994e65b94cec2833c9a36824fe9d8",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "说起杜诗，有一回，一家书铺送来高丽本《杜律分韵》，两本书，索价三百元。",
+      "output_sha256": "95985cde37f339dcaa6e6dbb7955d5336dbbbcf2b22b45a761f70f2a7619f012",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "95985cde37f339dcaa6e6dbb7955d5336dbbbcf2b22b45a761f70f2a7619f012",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "价格如此荒谬，尤其是书面上明确写着“以银二两得之”。",
+      "output_sha256": "ac3fd51db0e9a8013d799d88868c67124c30485994ac52e5bce90e845f38095f",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.50437,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "4a45cd6f0cef5169d3579be204b821d7ac19386d08fa45807cc4db8a62f6b85f"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "ac3fd51db0e9a8013d799d88868c67124c30485994ac52e5bce90e845f38095f",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "第二天，又一家送来相同的书，只要二元，我立刻买下。",
+      "output_sha256": "90b062a9ff760f579c529637362aaf982d908d8c8a650691ad2138dab492182c",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.748209,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "fc32ea809a581afe94c1e61a9b6407ae007a99fd7477380a85f9f32d2d031916"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "90b062a9ff760f579c529637362aaf982d908d8c8a650691ad2138dab492182c",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "北平的书价，离奇有如此者。",
+      "output_sha256": "ea8ec4f0fac65e22d21338e309fe7842ef6a474f947f1ce17a553bd5b1848f26",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "ea8ec4f0fac65e22d21338e309fe7842ef6a474f947f1ce17a553bd5b1848f26",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "旧历正月里，厂甸的书摊热闹非凡，吸引了不少人光顾。",
+      "output_sha256": "61322d72d0cd344ae07ba8f9a5ea5ec7da80d407cc916cf181643cad3a825ebc",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.530517,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "d14aedb319245f607f49e7a0ea45e1f52d73a32574f8caaff3c04a5de7d55341"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "61322d72d0cd344ae07ba8f9a5ea5ec7da80d407cc916cf181643cad3a825ebc",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我住的远，每年只去一个下午上午摊儿少。",
+      "output_sha256": "5201cd10da0105317efd0b1c2177f76c65d0a4eab38cfffe25b4316743480809",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "5201cd10da0105317efd0b1c2177f76c65d0a4eab38cfffe25b4316743480809",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "土地祠内外人山人海摩肩接踵地来往。",
+      "output_sha256": "efe1d794756b7b6a8de7542cbf510086c1bc2b44f64c4c9dcac5c9e054fd7cc8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "efe1d794756b7b6a8de7542cbf510086c1bc2b44f64c4c9dcac5c9e054fd7cc8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "也买过些零碎东西；其中有一本是《伦敦竹枝词》，花了三毛钱。",
+      "output_sha256": "d19cd3f0d7a9643866faff7bd4b96def9a80bb3c6d8d76768df9cf5e444f6b83",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "d19cd3f0d7a9643866faff7bd4b96def9a80bb3c6d8d76768df9cf5e444f6b83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "买来以后，恰好《论语》要稿子，选抄了些寄去，加上一点说明，居然得着五元稿费。",
+      "output_sha256": "4006abca8db2a7cac579a86483692ba2b7122ba9c59ada9fe77fddfd572ef5fc",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "4006abca8db2a7cac579a86483692ba2b7122ba9c59ada9fe77fddfd572ef5fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这是仅有的一次，买的书赚了钱。",
+      "output_sha256": "9ef39c34de3162bfa1bd46dbb06f0223ad23d6f3689f48d97fcf484efed042fe",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "9ef39c34de3162bfa1bd46dbb06f0223ad23d6f3689f48d97fcf484efed042fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "在伦敦的时候，从寓所出来，走过近旁小街。",
+      "output_sha256": "52761315a950c0553a58d395dc4adbf4880f47811cdebdb2e8a4b4915a38ca4c",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "52761315a950c0553a58d395dc4adbf4880f47811cdebdb2e8a4b4915a38ca4c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "有一家小书店门口摆着一架旧书。",
+      "output_sha256": "51d17551e5cdefd561575352e7039b01d2415ac18966d1aba518308037782936",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "51d17551e5cdefd561575352e7039b01d2415ac18966d1aba518308037782936",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "上前去徘徊了一下，看见一本《牛津书话选》（The book Lovers’Anthology），烫花布面，装订不马虎，四百多面，本子也不小，准有七八成新，才一先令六便士，那时合中国一元三毛钱，比东安市场旧洋书还贱些。",
+      "output_sha256": "946b2ad3847f8536230ebec1628491a9435032a421cf8c8bbd3ac2a405daa0cf",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "946b2ad3847f8536230ebec1628491a9435032a421cf8c8bbd3ac2a405daa0cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这本选集收录了许多名家的诗文，涵盖书的各个方面，性质有点像叶德辉的《书林清话》，但缺乏系统性，二者的旨趣各有不同。",
+      "output_sha256": "f71b28173af7e9ccbe708f469efe8ad692e83a477b8f399affcec93ae50d7ff9",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.581766,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "360807a3774431f52a2659129548415d67771d734916ccc69b86ba1caabad8bf"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "f71b28173af7e9ccbe708f469efe8ad692e83a477b8f399affcec93ae50d7ff9",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "因为买这本书，结识了那掌柜的；他以后给我找了不少便宜的旧书。",
+      "output_sha256": "29278e2a5a80cc440064f7436c86fe3af57086afa6a97dfba8ba369debd17141",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "29278e2a5a80cc440064f7436c86fe3af57086afa6a97dfba8ba369debd17141",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "有一种书，他找不到旧的；便和我说，他们批购新书按七五扣，他愿意少赚一扣，按九扣卖给我。",
+      "output_sha256": "83a09e432ebb93758c37f3a7512c9402552e041bfabb35049a5912f8c50681cd",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "83a09e432ebb93758c37f3a7512c9402552e041bfabb35049a5912f8c50681cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我虽然没有接受他的好意，但仍然感激他的热心。",
+      "output_sha256": "08e45084efc934bc13adb43b1c30e64d12d88963a5db31c84194addc4fc111ab",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.40527,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "73ad0c25813dd574262afa42c109c989a00bf441e08e4e9a2d5cae6f8d18c111"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "08e45084efc934bc13adb43b1c30e64d12d88963a5db31c84194addc4fc111ab",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    }
+  ]
+}

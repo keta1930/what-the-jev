@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>《空山靈雨》　　萬物之母</title>
+    <meta name="keywords" content="空山靈雨,　　萬物之母,許地山,可閱,可閱文學">
+    <meta name="description">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="21748">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <link rel="canonical" href="https://www.kepub.net/book/21748/10024">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/21748/10024">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/21748/10024">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首頁</a></li>
+            <li><a href="javascript:" title="目錄" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="評論"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手機閱讀" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章閱讀" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分頁閱讀" onclick="pageReader()"></a></li>
+            
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回頂部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">掃描二維碼，用手機閱讀</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">空山靈雨</span><span id="top_chaptername" style="float: right;">　　萬物之母</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;"><p>在這經過離亂底村裏，荒屋破籬之間，每日只有幾縷零零落落底炊煙冒上來；那人口底稀少可想而知。你一進到無論哪個村裏，最喜歡遇見底，是不是村童在阡陌間或園圃中跳來跳去；或走在你前頭，或隨着你步後模仿你底行動？村裏若沒有孩子們，就不成村落了。在這經過離亂底村裏，不但沒有孩子，而且有（人）向你要求孩子！</p><br><p>這裏住着一個不滿三十歲底寡婦，一見人來，便要求，說：“善心善行底人，求你對那位總爺說，把我底兒子給回。那穿虎紋衣服、戴虎兒帽底便是我底兒子。”</p><br><p>她底兒子被亂兵殺死已經多年了。她從不會忘記：總爺把無情的劍拔出來底時候，那穿虎紋衣服底可憐兒還用雙手招着，要她摟抱。她要跑去接底時候，她底精神已和黃昏底霞光一同麻痹而熟睡了。唉，最慘底事豈不是人把寡婦懷裏底獨生子奪過去，且在她面前害死嗎？要她在醒後把這事完全藏在她記憶底多寶箱裏，可以說，比剖芥子來藏須彌還難。</p><br><p>她底屋裏排列了許多零碎底東西，當時她兒子玩過底小囝也在其中。在黃昏時候，她每把各樣東西抱在懷裏說：“我底兒，母親豈有不救你，不保護你底？你現在在我懷裏咧。不要做聲，看一會人來又把你奪去。”可是一過了黃昏，她就立刻醒悟過來，知道那所抱底不是她底兒子。</p><br><p>那天，她又出來找她底“命”。月底光明蒙着她，使她在不知不覺間進入村後底山裏。那座山，就是白天也少有人敢進去，何況在盛夏底夜間，雜草把樵人底小徑封得那麼嚴！她一點也不害怕，攀着小樹，緣着蔦蘿，慢慢地上去。</p><br><p>她坐在一塊大石上歇息，無意中給她聽見了一兩聲底兒啼。她不及判別，便說：“我底兒，你藏在這裏麼？我來了，不要哭啦。”</p><br><p>她從大石下來，隨着聲音底來處，爬入石下一個洞裏。但是裏面一點東西也沒有。她很疲乏，不能再爬出來，就在洞裏睡了一夜。</p><br><p>第二天早晨，她醒時，心神還是非常恍惚。她坐在石上，耳邊還留着昨晚上底兒啼聲。這當然更要動她底心，所以那方從靄雲被裏鑽出來底朝陽無力把她臉上和鼻端底珠露曬乾了。她在瞻顧中，纔看出對面山岩上坐着一個穿虎紋衣服底孩子。可是她看錯了！那邊坐着底，是一隻虎子；它底聲音從那邊送來很像兒啼。她立即離開所坐底地方，不管當中所隔的谷有多麼深，儘管攀緣着，向那邊去。不幸早露未乾，所依附的都很溼滑，一失手，就把她溜到谷底。</p><br><p>她昏了許久才醒回來。小傷總免不了，卻還能夠走動。她爬着，看見身邊暴露了一副小骷髏。</p><br><p>“我底兒，你方纔不是還在山上哭着麼？怎麼你母親來得遲一點，你就變成這樣？”她把骷髏抱住，說，“呀，我底苦命兒，我怎能把你醫治呢？”悲苦儘管悲苦，然而，自她丟了孩子以後，不能不算這是她第一次底安慰。</p><br><p>從早晨直到黃昏，她就坐在那裏，不但不覺得餓，連水也沒喝過。零星幾點，已懸在天空，那天就在她底安慰中過去了。</p><br><p>她忽想起幼年時代，人家告訴她的神話，就立起來說：“我底兒，我抱你上山頂，先爲你摘兩顆星星下來，嵌入你底眼眶，教你看得見；然後給你找香象底皮肉來補你底身體。可是你不要再哭，恐怕給人聽見，又把你奪過去。”</p><br><p>“敬姑，敬姑。”找她底人們在滿山中這樣叫了好幾聲，也沒有一點影響。</p><br><p>“也許她被那隻老虎吃了。”</p><br><p>“不，不對。前晚那隻老虎是跑下來捕雲哥圈裏底牛犢被打死底。如果那東西把敬姑吃了，絕不再下山來赴死。我們再進深一點找罷。”</p><br><p>唉，他們底工夫白費了！</p><br><p>縱然找着她，若是她還沒有把星星抓在手裏，她心裏怎能平安，怎肯隨着他們回來？</p></div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/21748/10025?collectionNo=764089">下一章</a></div>
+        <div class="pre_chapter"><a href="/book/21748/10023?collectionNo=764089">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一頁</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一頁</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="8" data-goods-name="【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847906989501972612&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_e46c745a552de910d383b61729f6c083_sx_570309_www1000-1000"
+                         alt="【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>74.28</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目錄</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li>
+                    <a href="/book/21748/10001?collectionNo=764089">空山靈雨　弁言</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10002?collectionNo=764089">　　心有事</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10003?collectionNo=764089">　　蟬</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10004?collectionNo=764089">　　蛇</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10005?collectionNo=764089">　　笑</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10006?collectionNo=764089">　　三遷</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10007?collectionNo=764089">　　香</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10008?collectionNo=764089">　　願</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10009?collectionNo=764089">　　山響</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10010?collectionNo=764089">　　愚婦人</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10011?collectionNo=764089">　　蜜蜂和農人</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10012?collectionNo=764089">　　“小俄羅斯”的兵</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10013?collectionNo=764089">　　愛底痛苦</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10014?collectionNo=764089">　　信仰底哀傷</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10015?collectionNo=764089">　　暗途</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10016?collectionNo=764089">　　你爲什麼不來</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10017?collectionNo=764089">　　海</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10018?collectionNo=764089">　　梨花</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10019?collectionNo=764089">　　難解決的問題</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10020?collectionNo=764089">　　愛就是刑罰</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10021?collectionNo=764089">　　債</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10022?collectionNo=764089">　　暾將出兮東方</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10023?collectionNo=764089">　　鬼贊</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/21748/10024?collectionNo=764089">　　萬物之母</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10025?collectionNo=764089">　　春底林野</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10026?collectionNo=764089">　　花香霧氣中底夢</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10027?collectionNo=764089">　　荼蘼</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10028?collectionNo=764089">　　七寶池上的鄉思</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10029?collectionNo=764089">　　銀翎底使命</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10030?collectionNo=764089">　　美底牢獄</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10031?collectionNo=764089">　　補破衣底老婦人</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10032?collectionNo=764089">　　光底死</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10033?collectionNo=764089">　　再會</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10034?collectionNo=764089">　　橋邊</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10035?collectionNo=764089">　　頭髮</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10036?collectionNo=764089">　　疲倦的母親</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10037?collectionNo=764089">　　處女的恐怖</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10038?collectionNo=764089">　　我想</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10039?collectionNo=764089">　　鄉曲底狂言</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10040?collectionNo=764089">　　生</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10041?collectionNo=764089">　　愛流汐漲</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10042?collectionNo=764089">　　公理戰勝</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10043?collectionNo=764089">　　面具</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10044?collectionNo=764089">　　落花生</a>
+                </li>
+                <li>
+                    <a href="/book/21748/10045?collectionNo=764089">　　別話</a>
+                </li>
+                <li>
+                    <a href="/book/21643/10001?collectionNo=764089">落花生</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 4;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

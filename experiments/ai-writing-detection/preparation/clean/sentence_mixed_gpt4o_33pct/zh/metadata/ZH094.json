@@ -1,0 +1,953 @@
+{
+  "source_id": "ZH094",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "e8099fa8975cb01c7f21a7bbc973efd66fa7a701dcd8e2141c39c6b4d55494ff",
+  "ai_article_sha256": "669511af8348b66d106519fc42ed0d85d36cd7684c653e422e7972f6875467dc",
+  "mixed_article_sha256": "6d61c76fdd10fe93f398ed038d3737a2c34589cb167631a6d0bd0450220b1e82",
+  "human_source_sentence_count": 67,
+  "ai_source_sentence_count": 64,
+  "alignment_unit_count": 63,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.43501,
+  "selected_alignment_score_median": 0.576786,
+  "selected_alignment_score_max": 0.783442,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我生在北京，热爱北京。",
+      "output_sha256": "ff38c8548bc28dbabd71f18e5277038bf38cdd895c5be0bdfef24996c511cac4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "ff38c8548bc28dbabd71f18e5277038bf38cdd895c5be0bdfef24996c511cac4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "现在，我更爱北京了，因为伟大的毛泽东住在这里。",
+      "output_sha256": "263d259f265f8ed2dd950903e5e8162fb6db631a4d393321f3a9d7c233d0f84f",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "263d259f265f8ed2dd950903e5e8162fb6db631a4d393321f3a9d7c233d0f84f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "自从北京被定为新中国的首都，五年来，这座城市经历了翻天覆地的变化。",
+      "output_sha256": "4cb4eb97da1b0d4fd24d8524edd4d42910686d853d487fac36e6fdd8aaeecec8",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.582564,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "a988a5b396cfede30c33765ae6205acefa1f70f921d5f2067f65e273d882442d"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "4cb4eb97da1b0d4fd24d8524edd4d42910686d853d487fac36e6fdd8aaeecec8",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "现在的北京已不再是我童年时的模样，也不是过去十年的样子；甚至今天的北京与昨天的北京也截然不同！",
+      "output_sha256": "8f3b82ff3aae28830e52e933f06071aadb4daff5940330f34b4f5c68da17d5d2",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.510753,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "3e3ab445f94fa9222a3a3fd9a4f074b9afdab955cd77ad0152cfa2055904141d"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "8f3b82ff3aae28830e52e933f06071aadb4daff5940330f34b4f5c68da17d5d2",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "北京天天在发展，一天比一天更美丽，更繁荣，更可爱！",
+      "output_sha256": "7588caa181f9c87201b1bb2c6dfbf22306cbf03c0d8b813d2cb5b3b63f8e181f",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "7588caa181f9c87201b1bb2c6dfbf22306cbf03c0d8b813d2cb5b3b63f8e181f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "北京的皇宫和御苑是多么庄重而美丽啊！",
+      "output_sha256": "83cd1c7e342afc14d8081d347bacc17a247d31961a302c680942a0e6bc949b2d",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.717096,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "c15e76cdc4f69349d2acbb3c7f9a3efbba92b9eda31064f013dbcc2cb5766662"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "83cd1c7e342afc14d8081d347bacc17a247d31961a302c680942a0e6bc949b2d",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "看，那些绿或黄的琉璃屋顶，那些雕梁画柱，那些白玉石的桥栏，那些多角的各式各样的亭子，和那些金碧辉煌的牌楼，都是多么优美的艺术品啊！",
+      "output_sha256": "569f92b276939c817fa807f1f8f4c3aa9849752a5e4f257173c974d7d3174d20",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "569f92b276939c817fa807f1f8f4c3aa9849752a5e4f257173c974d7d3174d20",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这些楼阁，无论是在春日花开的时节，还是在秋夜明月之下，都能使人感受到如入仙境的奇妙。",
+      "output_sha256": "768abf9e7ca5762dc569eae14acb84c4dee7ec6de255fb89cc9a9718efaad984",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.652284,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "5b0abf046d0b4858f178c86e6def443410c7582972e6669f61e8c1cf28f25129"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "768abf9e7ca5762dc569eae14acb84c4dee7ec6de255fb89cc9a9718efaad984",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "多少代的诗人曾写出过多少篇诗歌，赞颂这些美景啊！",
+      "output_sha256": "954db67c82557ecf09c9ba6037affbda2ee0e20aeea1134aa6f2d7422e549ae1",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "954db67c82557ecf09c9ba6037affbda2ee0e20aeea1134aa6f2d7422e549ae1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "然而，在我年幼的时候，人民不仅无法进入那些华丽的宫殿，连看到它们的机会也几乎没有！",
+      "output_sha256": "961f0b25e9b39ec57c5802fc273927006e8615232295909cbe3ced74541bb325",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.458451,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "353e9187d64ec6f4ec2bb4c9e6f3f41f1a837d198ce8857900e434fe2a95b9ad"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "961f0b25e9b39ec57c5802fc273927006e8615232295909cbe3ced74541bb325",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "许多的地方不许人民通行，而这些地方正是最美丽的建筑和亭园所在地。",
+      "output_sha256": "33a59dec40a3495ca22bb4af5d3c7be0ab1b9d7817694d4f3aef60594b7b146a",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "33a59dec40a3495ca22bb4af5d3c7be0ab1b9d7817694d4f3aef60594b7b146a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "后来在国民党的反动统治下，这些古迹名胜或任其颓倒，或遭到破坏，反动派甚至盗窃古物出卖。",
+      "output_sha256": "0912e0a9e47b21329ca7b25d9f30bbc0a93a46de3a20db84c609fd5b5e54e185",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "0912e0a9e47b21329ca7b25d9f30bbc0a93a46de3a20db84c609fd5b5e54e185",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "现在呢，市政府保护古物，有历史价值的老建筑先后修葺，油饰一新。",
+      "output_sha256": "bfc6cd757a284e1040ce21e7db5c96cfb5ea0e1efb5c2c96a5af36bb5e553870",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "bfc6cd757a284e1040ce21e7db5c96cfb5ea0e1efb5c2c96a5af36bb5e553870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "故宫、博物院里历代珍藏的名画、铜器、磁器，和人间罕见的艺术品都重新整理排列，分设专室，以便人民群众参观欣赏。",
+      "output_sha256": "e830f530a7ccb1baf95bd031c33737f176431b2538115b3692b13c687c878d19",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "e830f530a7ccb1baf95bd031c33737f176431b2538115b3692b13c687c878d19",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "发掘出的文物随时展出，闻名于世的颐和园和天坛、社稷坛也在加以修缮。",
+      "output_sha256": "ed0da74a137d7fed9b5aa0788b151d53fe7762081ff4c7d987b0f17f53ce7325",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.707642,
+      "human_sentence_indices": [
+        15,
+        16
+      ],
+      "human_sha256": [
+        "7d39dca4d2a85d0d6772abef3e50791e3f3d455418c79630aaae1773b20fb28b",
+        "b83a2c94711411cb7742d727afb55688ec1c4cf048f85df23a0caf2003f54f6a"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "ed0da74a137d7fed9b5aa0788b151d53fe7762081ff4c7d987b0f17f53ce7325",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "什刹海修建了很大的公众游泳池。",
+      "output_sha256": "f1c4b2d64e07a02c8014b84af60d050efb65826d65cfa68ae2e5e8fe5a660fc2",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "f1c4b2d64e07a02c8014b84af60d050efb65826d65cfa68ae2e5e8fe5a660fc2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "用劳动人民的血汗与智慧修成的，理应由人民享受；在这些名园中的游廊或松阴下休憩游玩的已不是有闲阶级，而是广大的人民。",
+      "output_sha256": "09da87ae30f3c84033f21d2f17c6eaf44d83a75bf84e6e7511ac099bc8fc0da9",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "09da87ae30f3c84033f21d2f17c6eaf44d83a75bf84e6e7511ac099bc8fc0da9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这些宫宇园庭不但受到保护，而且增加了新的卫生设备，施行了科学的管理方法。",
+      "output_sha256": "e6bc3dea593a85f4d2fc424d8d9022c6628d3ebb1e9243ec64080112281d3a60",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "e6bc3dea593a85f4d2fc424d8d9022c6628d3ebb1e9243ec64080112281d3a60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "在这些原有的名胜之外，人民的市政府还在继续开辟新的公园。",
+      "output_sha256": "9e27cfcfd3f3e8c6fc77165f2a020c37ec2f74107b18fb6e265aac4b268a1acd",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "9e27cfcfd3f3e8c6fc77165f2a020c37ec2f74107b18fb6e265aac4b268a1acd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "昔日的贫民窟和荒凉的城角，现在都有了公园。",
+      "output_sha256": "c6e74835ea244fe8029e2b4811035379467eb114de95a032d8df6767c0c8d33f",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "c6e74835ea244fe8029e2b4811035379467eb114de95a032d8df6767c0c8d33f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "人民政府始终把为劳动人民服务作为原则。",
+      "output_sha256": "829309912d87354667f6cb31cffacb549c36eb26e24c6fc68dfa5d1f55b15bd3",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.667391,
+      "human_sentence_indices": [
+        22,
+        23
+      ],
+      "human_sha256": [
+        "5347c66e1126bb84f4ae6c62a4d31643f386ee3e0b23d5a8a232fef6f66631c5",
+        "9519bc8aa7ad023809a72177772959df5c1d3d409158900ebfac35632a0553dd"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "829309912d87354667f6cb31cffacb549c36eb26e24c6fc68dfa5d1f55b15bd3",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "正是基于这一原则，北京新建了剧院、电影院、各级学校、诊疗所、文化馆、自来水站、新马路、电灯线路和汽车站等设施。",
+      "output_sha256": "9d4b42b0e20652e4ff080f0271d486996ab8a20146ba30429fa50eacb8961d5f",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.576786,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "c521b0e4a824b5d05474aa8df5b3d14e05a02d7e1a8e33d42aeb00b546b64363"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "9d4b42b0e20652e4ff080f0271d486996ab8a20146ba30429fa50eacb8961d5f",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "真的，假若我这几年没在北京，而今天忽然地回来，我一定不认识我的故乡了。",
+      "output_sha256": "4cdcb8704c561c0e1997b096dbf2a80a33f374a221b902add5b9dce6510018cd",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "4cdcb8704c561c0e1997b096dbf2a80a33f374a221b902add5b9dce6510018cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "谁能凭空想像到在那最荒凉污浊的地带会有了公园或学校呢？",
+      "output_sha256": "ba04fc1668727477eb6d386e416ae80f0e2f8a181883373cbcb3df41ce982a70",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "ba04fc1668727477eb6d386e416ae80f0e2f8a181883373cbcb3df41ce982a70",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "以前，统治阶级的官邸的确是富丽堂皇的，可是北京并不清洁；现在，到处都是一样，紫禁城和最偏僻的小巷都是干净整洁的。",
+      "output_sha256": "10a457a3ddfe0a49523954d929baedf0f92845483cb999d9553689287f8f693c",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "10a457a3ddfe0a49523954d929baedf0f92845483cb999d9553689287f8f693c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "卫生运动已经深入人心。",
+      "output_sha256": "a72758329d09717a3a06c3a22943c78aee3e4b9f520a050dfab1e352c81dcd9f",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.543961,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "23756442184ad2e9642633fcee61b1b0042b0f0dc6cd9ef413ba5c354f6b007a"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "a72758329d09717a3a06c3a22943c78aee3e4b9f520a050dfab1e352c81dcd9f",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "前几天，我去西城参加区政府的会议，那里离我出生的地方不远。",
+      "output_sha256": "5ef25273d5f4d67eefde18ca34492daa238c9c830274312c0706c9f728a87c91",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.783442,
+      "human_sentence_indices": [
+        29,
+        30
+      ],
+      "human_sha256": [
+        "eabc70d06d7e5155033fd13729dde638ae2dc865298c7193157c7ceab2e8686f",
+        "52db34150ebe91ee10e4172b212e0bd859dfdec9d027bb6c0a95837653d7b8d0"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "5ef25273d5f4d67eefde18ca34492daa238c9c830274312c0706c9f728a87c91",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我记得清清楚楚，那里原是一大片空地，夏天只有垃圾、野草和积水；小时候，我在那里捉过蜻蜓。",
+      "output_sha256": "e3e9418eefdd64ce1bc7f84e14993446b79784dad4efe5efaaed8655acd9ae22",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "e3e9418eefdd64ce1bc7f84e14993446b79784dad4efe5efaaed8655acd9ae22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "今天呢，那里却是一大片楼房！",
+      "output_sha256": "fd962211979b1b3c4371feb25f0bb3908ad327ed44febda7da5ef6ee782a5e41",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "fd962211979b1b3c4371feb25f0bb3908ad327ed44febda7da5ef6ee782a5e41",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "是的，野草、垃圾、积水，已无法在新中国的首都存在了！",
+      "output_sha256": "0c9bcca0dc947229a3c2edcb0877d93fabdfcc42fd445856b2b2eaaf099690ca",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "0c9bcca0dc947229a3c2edcb0877d93fabdfcc42fd445856b2b2eaaf099690ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "再看，新盖的大楼有多少座啊！",
+      "output_sha256": "25c48e9fd28c0031558941337d8261ef24a67f215b4907d13894d9721d68b300",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "25c48e9fd28c0031558941337d8261ef24a67f215b4907d13894d9721d68b300",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "北京，一向是消费都市，如今有了新的工厂啊！",
+      "output_sha256": "83e296fbe613dd0212049c21a036f96ceaf2ec9666eed3473d9d997d9d337155",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "83e296fbe613dd0212049c21a036f96ceaf2ec9666eed3473d9d997d9d337155",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这是个极大的改变。",
+      "output_sha256": "f5ec4590ba5d792387a294b1d6a3eb39eb928600370f1f1830b9d537b6ddf80f",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "f5ec4590ba5d792387a294b1d6a3eb39eb928600370f1f1830b9d537b6ddf80f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "一方面修建了新的工厂，另一方面又整顿了北京原有的、驰名全世的手工业。",
+      "output_sha256": "6baf2db5913bd60e35f662cdec2c5bd0dc92d1c634682fbbe4739b96f239c5c0",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "6baf2db5913bd60e35f662cdec2c5bd0dc92d1c634682fbbe4739b96f239c5c0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "地毯、景泰蓝、雕漆、象牙雕刻等都有了合作社的支持，提升了质量，同时也研发出新的形式与花样。",
+      "output_sha256": "d0a1dd6254745753d99e5339394f59b6ccf1317096fe4b09c351e98dc5a8d715",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.701343,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "360afd116c6d93e3367356e9df5cbe737d1db547db7b2bfedc7ac20e76491f14"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "d0a1dd6254745753d99e5339394f59b6ccf1317096fe4b09c351e98dc5a8d715",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "这场巨变，不仅改变了北京的外貌，连北京的精神也焕然一新。",
+      "output_sha256": "81ee741cfe9234412ec5e796f2c74375fbbdd9e22b7abf4f052bd1a00910ad64",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.521321,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "15f6e94c8b1853e109cc72e836713eb95b8213c8858e8ed94032b4e2a2049d26"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "81ee741cfe9234412ec5e796f2c74375fbbdd9e22b7abf4f052bd1a00910ad64",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "看吧，北京一向是文化城，有许多大学、中学、小学。",
+      "output_sha256": "3d2d4bb1e821cee2d266901c03ea541fb1af08a336efb539b3bd451d5cef96f4",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "3d2d4bb1e821cee2d266901c03ea541fb1af08a336efb539b3bd451d5cef96f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "可是，在解放前，甚至于小学也没有穷人子女入学的份儿。",
+      "output_sha256": "6505569e68e2323da2950bef5a8e1ffdf4d137209d8ed76dd3a8ce694ebd4a3a",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "6505569e68e2323da2950bef5a8e1ffdf4d137209d8ed76dd3a8ce694ebd4a3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "今天呢，大学中学都有很多工农子弟。",
+      "output_sha256": "0c3fd2128510c8aceb7e32b6d81eccca29d2ef7774ccbf6f620679b98c1449c3",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "0c3fd2128510c8aceb7e32b6d81eccca29d2ef7774ccbf6f620679b98c1449c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "中学生已超过八万人，小学生则有二十八万多人，是1949年的两倍。",
+      "output_sha256": "31c5f742780e673a9ee63dabcf1d166bacb2c165a20514339c6b3e60a4796bc1",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.565664,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "4f7dded13969c3e4a2ef3d360f4ccf64eceeb1dd3eff2cd3e6e042f660039ca4"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "31c5f742780e673a9ee63dabcf1d166bacb2c165a20514339c6b3e60a4796bc1",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "医院、图书馆、剧场和大餐馆等，曾经被劳动人民视为禁区，如今都成为为他们服务的场所。",
+      "output_sha256": "80625061fac4992a7f7ec5c48305f3e94a1d55d808ec7a6920d50a05e3a383d5",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.541425,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "0b62dd4d8db100a203e34ea53d5cddc9ad2019e03f439f54ab28b8356c1ba934"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "80625061fac4992a7f7ec5c48305f3e94a1d55d808ec7a6920d50a05e3a383d5",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "以前，学校只为培养书香门第的儿女，所以课程只限于普通的文学与科学，使青年们得到一点知识，毕业后可以去作官发财。",
+      "output_sha256": "f8418504ffcd5f98bd0129b658624a04169c061cc7b5e82e82014da7df2ed5f4",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "f8418504ffcd5f98bd0129b658624a04169c061cc7b5e82e82014da7df2ed5f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "今天，学校的课程和社会发展的需要密切结合起来。",
+      "output_sha256": "9b0fad13e6ff3fb3ba22e4e8eff08622f73875a16d029e3617cf4ac9d2c600e6",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "9b0fad13e6ff3fb3ba22e4e8eff08622f73875a16d029e3617cf4ac9d2c600e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "谁想得到，我的第三个女孩是去学石油专科啊！",
+      "output_sha256": "f26897bb8e9f4da2b7cef3a4ed9bb7ccf4e62d34759682314bb876473becd62a",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "f26897bb8e9f4da2b7cef3a4ed9bb7ccf4e62d34759682314bb876473becd62a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "是的，一切都变了，变化最突出的是妇女。",
+      "output_sha256": "b721654604ef78c3b02eac4085cf6ea8b4031e48754b85658147c2956afc8393",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "b721654604ef78c3b02eac4085cf6ea8b4031e48754b85658147c2956afc8393",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "看看小学里，女教师已占过半数。",
+      "output_sha256": "d26572a4a93cf6f1d7c0be465a2cb36ebc2374decc204799ca071fe0d54596c1",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.729299,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "8a11b7c48348cf12a23975bb68b2338f6dd9c40fc5cc5afbf5b32d31ae81f25b"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "d26572a4a93cf6f1d7c0be465a2cb36ebc2374decc204799ca071fe0d54596c1",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我的大女孩已是人民教师了。",
+      "output_sha256": "d1d94f7d3313231db7a7a668fb5f6bdeb86a477651a916e090260a6badaa82bc",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "d1d94f7d3313231db7a7a668fb5f6bdeb86a477651a916e090260a6badaa82bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "在各类机关、医院及企事业单位中，女干部随处可见。",
+      "output_sha256": "7a70dfbbf6f475a7dc741dfc2de77a52adef0e0c4481abff38bd8a1bcaf0b188",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.447323,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "135d3b5d9ed0b7cef32795f9b0922d4a04786239b2f1aaf0519cc18291d67d55"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "7a70dfbbf6f475a7dc741dfc2de77a52adef0e0c4481abff38bd8a1bcaf0b188",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "而且，电车上有女司机，工地上有女瓦匠，刚选出的北京市人民代表中，女性代表占到了18.8%！",
+      "output_sha256": "b933708dbc9e9561c8edb854619692f0a103765b51a4a18059a0441e5819fa26",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.669836,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "af3bc26dfb419c709604fbfde5f266ca8b555430f4c8b52e62fb8f151824542d"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "b933708dbc9e9561c8edb854619692f0a103765b51a4a18059a0441e5819fa26",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "北京真是变了，面貌与精神一齐变了，在这变化之中，我们看出来，男女的确是平等了！",
+      "output_sha256": "91c15c280ea55935431f06ce225001d925bf83e83fd0429badd45c40185f8209",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "91c15c280ea55935431f06ce225001d925bf83e83fd0429badd45c40185f8209",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "想想三十年前，我的姐姐们还被束缚在家中，静待媒婆来提亲，连去剧院的资格都没有。",
+      "output_sha256": "76b870a820c39dde7ba48792224001c5a560324d704b97a5203e7c2e08300ad5",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.524414,
+      "human_sentence_indices": [
+        54,
+        55
+      ],
+      "human_sha256": [
+        "dd531ce818a489e9c2812f049c69c9c38ab02c528fb99502bf5a878dc5017c14",
+        "2813a986ea17bb3da6292be0c00782d2ca02fc5a2b1f74069470ee3a01accbad"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "76b870a820c39dde7ba48792224001c5a560324d704b97a5203e7c2e08300ad5",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "今天，我们有多少女演员啊！",
+      "output_sha256": "84292ce7df728bc126389e5c4ee0c4fbb2186e9fbce0692d555b0cc75ae02714",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "84292ce7df728bc126389e5c4ee0c4fbb2186e9fbce0692d555b0cc75ae02714",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "只有人变了，才是真的变化——这不仅是变化，而是发展与进步。",
+      "output_sha256": "1d08513ecb99817c501a507c49499bc8b4fb4e55450b6a1131fb2e3fdd6853cf",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "1d08513ecb99817c501a507c49499bc8b4fb4e55450b6a1131fb2e3fdd6853cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "北京依旧有古老的城墙、皇宫与文化传统，但因为人们的改变，这些古老的事物赋予了新的意义、新的精神与新的生命！",
+      "output_sha256": "7b31e4b6f40d962d568a309d81f12ef6a5fe51676fdae1fee51b552dceb2c466",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.614634,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "7eda013d7273eca1c604a8c438b54b5cf85a6da5c9bb62fcda51c7f0eba6792c"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "7b31e4b6f40d962d568a309d81f12ef6a5fe51676fdae1fee51b552dceb2c466",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "那些本就美丽的景致，如今更加出色，内外一致的美。",
+      "output_sha256": "abfb848a50dbd2773a48b6934274fa4d86ad974cb4f97c3ff89d95f89f09c3ce",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.43501,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "7664f52935358de7d1a09a02a1305f240cd4fe7ba014faf5e65bd766a934c17c"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "abfb848a50dbd2773a48b6934274fa4d86ad974cb4f97c3ff89d95f89f09c3ce",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "正如同北京最有名的木刻彩印，它保存了几世纪来优美的技术，可是又加上了新的精神。",
+      "output_sha256": "da2f14614f00116ab22ebecd5189df03e387dee501f6ddc28cf39303e812c458",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "da2f14614f00116ab22ebecd5189df03e387dee501f6ddc28cf39303e812c458",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "它使用传统的艺术刻出印出今天人民所喜爱的彩画来，改进了技巧，也改进了刻画的内容！",
+      "output_sha256": "03c7366f4b5bbab131196d2867dc420842614c564f647aed90a58eb3c3c1a5ea",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "03c7366f4b5bbab131196d2867dc420842614c564f647aed90a58eb3c3c1a5ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "如今新建的旅馆、学校，拥有现代化设施，同时又保留了民族建筑风格。",
+      "output_sha256": "23e9df5abe820d4df92d5aba1d0ca9bfa0b451c8522412913b81fb6e221f3f29",
+      "alignment_unit_index": 58,
+      "alignment_score": 0.495652,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "eb04ee735aae3a7d1170f36acdd9207261262829af0ebb056e09c5a4533e11b4"
+      ],
+      "source_ai_sentence_index": 59,
+      "source_ai_sha256": "23e9df5abe820d4df92d5aba1d0ca9bfa0b451c8522412913b81fb6e221f3f29",
+      "ai_unit_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "屋脊上的绿琉璃的奇形怪状的兽头，变成了绿的和平鸽。",
+      "output_sha256": "d8caf9b4085d2906dcf9ecbe528831e63b5d92140b1b7b28beee9600c382f3bd",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "d8caf9b4085d2906dcf9ecbe528831e63b5d92140b1b7b28beee9600c382f3bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "绿琉璃鸽既不奇形怪状，而且象征着和平！",
+      "output_sha256": "23e337c1c1724b92a9d58a22b914ffe26ac04d84492fef2f161ec5ecd074bbd8",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "23e337c1c1724b92a9d58a22b914ffe26ac04d84492fef2f161ec5ecd074bbd8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "这就是毛主席所说的“推陈出新”。",
+      "output_sha256": "27ef311e112f886a095be9ef02b01d6c91591798d827b90580f04be12d74abca",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "27ef311e112f886a095be9ef02b01d6c91591798d827b90580f04be12d74abca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "一切都是这样。",
+      "output_sha256": "10b59fb475dd421a14c9c199669850713e57b479388f3263c33eabfb5ff5c5f7",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "10b59fb475dd421a14c9c199669850713e57b479388f3263c33eabfb5ff5c5f7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "这就是我所热爱的北京，也就是一切为了人民的福利，一切为了和平，一切为了社会主义的建设，而建设着的新中国的首都！",
+      "output_sha256": "480c189d96ae9b5a86599c62ed6beba762df243f543b5dbb742ef7c395ff10b0",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "480c189d96ae9b5a86599c62ed6beba762df243f543b5dbb742ef7c395ff10b0",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

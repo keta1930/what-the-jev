@@ -1,0 +1,1039 @@
+{
+  "source_id": "ZH069",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "cfdd66a997a483bef85a0b3d2a56566678b654b2f0521de3b612acaf92adb2d6",
+  "ai_article_sha256": "2fa7cd7a3e9a5ebac09f6089c5ff3381af11a840541b94e13a01b537970f8a3e",
+  "mixed_article_sha256": "a3d3b957e229c74ebcdfe8153dcdf507a06778d6e2f5ff09717b705a36533975",
+  "human_source_sentence_count": 68,
+  "ai_source_sentence_count": 66,
+  "alignment_unit_count": 64,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 69,
+  "selected_ai_sentence_count": 23,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.402839,
+  "selected_alignment_score_median": 0.544473,
+  "selected_alignment_score_max": 0.674752,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这是一个动乱时代。",
+      "output_sha256": "bcb3fe97b1fac86d1765c6ce023ca1efe34781f5dfb43c5b036141717908f437",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "bcb3fe97b1fac86d1765c6ce023ca1efe34781f5dfb43c5b036141717908f437",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "万物都在不停摇摆，一切都在随时发生变化。",
+      "output_sha256": "e92437c1dedd4b7f4d5dd6f8e169d264c299f66e22afd82a23f66ea486e4699e",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.537526,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "2a99971c68926b0e836fa3e632c14afda9e73ba76fa9e6337f9ca908305f9588"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "e92437c1dedd4b7f4d5dd6f8e169d264c299f66e22afd82a23f66ea486e4699e",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "人们很难计算他们的将来，即使是最短的将来。",
+      "output_sha256": "ee870705012f0b3bc79c11afd85a846586d188625a3bcb5bd99e43947cc0c3ca",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "ee870705012f0b3bc79c11afd85a846586d188625a3bcb5bd99e43947cc0c3ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "这种不安给大众带来了苦闷，这种苦闷或轻或重地笼罩着整个中国，甚至在全球范围内也弥漫着。",
+      "output_sha256": "0f84a5101b31af115d51f676c1dc9b0a25cbafe1e1d41314bee627e96b5df618",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.465643,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "0cc59bdd8a7c1947c3d4109c44f04cfb1e6cb9765541a3eae0ad8c06a3676616"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "0f84a5101b31af115d51f676c1dc9b0a25cbafe1e1d41314bee627e96b5df618",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在这一回世界大战结束的前两年，就有人指出一般人所表示的幻灭感。",
+      "output_sha256": "d0965e4f5e5cfe987356acc86056a90359f7c0e41dcf308a317054448ce6630a",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "d0965e4f5e5cfe987356acc86056a90359f7c0e41dcf308a317054448ce6630a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这种幻灭感到了大战结束后这一年，更显著了；在我们中国尤其如此。",
+      "output_sha256": "dd6395bafa26700ef941b76fa7b5e181c9050612b6358ea11269f10950149989",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "dd6395bafa26700ef941b76fa7b5e181c9050612b6358ea11269f10950149989",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "中国经过八年艰苦的抗战，一般人都挣扎的生活着。",
+      "output_sha256": "b71b46ab9e74c1131ed6bda057f8bb9fa5ece3125071b08115c4a6cffdd9cb2f",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "b71b46ab9e74c1131ed6bda057f8bb9fa5ece3125071b08115c4a6cffdd9cb2f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "胜利到来的当时，我们喘一口气，情不自禁的在心头描画着三五年后可能实现的一个小康时代。",
+      "output_sha256": "659d8772b59afc182bea02a81fee3bd5f18b03ff774ae0169e25d5f98be4e057",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "659d8772b59afc182bea02a81fee3bd5f18b03ff774ae0169e25d5f98be4e057",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "尽管我们明白太平盛世依旧遥远，但至少先期希望能迎来一个小康时代。",
+      "output_sha256": "0aaf66175682ca1acb338f6a95a69f486ffdac1c938733b83f00fa20d0fdd66c",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.550833,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "4256ced146cd9ff48da7522e64f7838ae141d000d32cf0d8d13f8b7cddc33660"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "0aaf66175682ca1acb338f6a95a69f486ffdac1c938733b83f00fa20d0fdd66c",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "然而，胜利的欢呼声犹如闪电般消逝，随之而来的是震耳欲聋的雷鸣。",
+      "output_sha256": "d8d9537df4ea8854efa1afab320c12a217e8df381a2d235d76b0d516695acc85",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.402839,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "c8aa18c7441126d46e7a870b3caef9aa7fe51d4203e437baad8f5650f4329122"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "d8d9537df4ea8854efa1afab320c12a217e8df381a2d235d76b0d516695acc85",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这个变化太快了，幻灭得太快了，一般人失望之馀，不由得感到眼前的动乱的局势好像比抗战期中还要动乱些。",
+      "output_sha256": "586a5799775d9ede5106fb8df65de15ba608d3b7cb096abb6b2a90d43c563393",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "586a5799775d9ede5106fb8df65de15ba608d3b7cb096abb6b2a90d43c563393",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "再说这动乱是世界性的，像我们中国这样一个国家，大概没有足够的力量来控制这动乱；我们不能计算，甚至也难以估计，这动乱将到何时安定，何时才会出现一个小康时代。",
+      "output_sha256": "0173e8cd586ba60d0465fb505ddaa6a5a0160c4c46e2662ca852162e80087a33",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "0173e8cd586ba60d0465fb505ddaa6a5a0160c4c46e2662ca852162e80087a33",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "因此一般人更深沉的幻灭了。",
+      "output_sha256": "07ef04b6b5224d773520384d1c86e5191051a126ad972da593f5d100e0e8d5ba",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "07ef04b6b5224d773520384d1c86e5191051a126ad972da593f5d100e0e8d5ba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "中国向来有一治一乱相循环的历史哲学。",
+      "output_sha256": "1e84bbdecc721f51e348a3b26920d171f227cb2380e4512f226f52abe1802de1",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "1e84bbdecc721f51e348a3b26920d171f227cb2380e4512f226f52abe1802de1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "机械的循环论，现代大概很少人相信了，然而广义的看来，相对的看来，治乱的起伏似乎可以说是史实，所谓广义的，是说不限于政治，如经济恐慌，也正是一种动乱的局势。",
+      "output_sha256": "5e9d988723548798b4ce0ca0ed6d83ff79f548197584ea1158ba7d76a657f384",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "5e9d988723548798b4ce0ca0ed6d83ff79f548197584ea1158ba7d76a657f384",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "所谓相对的，是说有大治大乱，有小治小乱；各个国家，各个社会的情形不同，却都有它们的治乱的起伏。",
+      "output_sha256": "d90cd72b0c58f37ee1430759235818c173ed72297d4e3ee2c3a644b14dcec131",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "d90cd72b0c58f37ee1430759235818c173ed72297d4e3ee2c3a644b14dcec131",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "治乱的起伏反映出人类正在经历曲折的道路。",
+      "output_sha256": "780df4f3547c67a41f2dccd0c8eff6179bb76fb9728ef32d189c33c485e38591",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.490318,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "7c33d240acbae1ec0ff7c9461cf6a79f3b4a3afeeee0019ecc94362762cf527e"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "780df4f3547c67a41f2dccd0c8eff6179bb76fb9728ef32d189c33c485e38591",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "尽管道路曲折，但人类始终在朝着目标前进。",
+      "output_sha256": "bdfe4d7671943f2dd282af98712754bbc8808533a0e57d40d32bce758ce8752b",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.490318,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "7c33d240acbae1ec0ff7c9461cf6a79f3b4a3afeeee0019ecc94362762cf527e"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "bdfe4d7671943f2dd282af98712754bbc8808533a0e57d40d32bce758ce8752b",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我相信人类是有目标的，因此也在不断进步。",
+      "output_sha256": "25564842a32f31b01b860037e7c39c608a99bbd85c610d8a4fa32a6e0663bdcd",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.674752,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "5983b5cc810ff8c86902079c7cdf8572acb1f7a1305608ff4aca5ebba5752ccd"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "25564842a32f31b01b860037e7c39c608a99bbd85c610d8a4fa32a6e0663bdcd",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "每一回治乱的起伏，清算起来，这里那里多多少少总有些进展的。",
+      "output_sha256": "4d778bc8ef7f27b1460ad598b83a74bb84ea977b3c79e11c8a3db822ed9aa933",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "4d778bc8ef7f27b1460ad598b83a74bb84ea977b3c79e11c8a3db822ed9aa933",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但是人们一般都望治而不好乱。",
+      "output_sha256": "28f191554133c1e90b8c89d9707eb7cacd332312dde8cf1396739d0d565c7b27",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "28f191554133c1e90b8c89d9707eb7cacd332312dde8cf1396739d0d565c7b27",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "在动乱时代，他们渴望小康，在小康时代又期待真正的“太平”时代，然而这样的“太平”其实只是一个理想。",
+      "output_sha256": "5a7741efc0b57b70a875cdca4977ece58a214b9638d9fb70a911ee2c6870b243",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.579991,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "f5548641f621fe04f7be349a8a88014c09bd181aeca1bdb86ef622c47b6de90c"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "5a7741efc0b57b70a875cdca4977ece58a214b9638d9fb70a911ee2c6870b243",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "人类向着这个理想曲折的走着；所以曲折，便因为现实与理想的冲突。",
+      "output_sha256": "aadbc1dd2d598d448a005bb428f2f132efad8037bca14a41d049a16692fb0674",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "aadbc1dd2d598d448a005bb428f2f132efad8037bca14a41d049a16692fb0674",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "现实与理想都是人类的创造，在创造的过程中，不免试验与错误，也就不免冲突。",
+      "output_sha256": "78bc6b238fd48695ca99be19a8b788525e3dada4e89730eb9439a5372a4889fb",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "78bc6b238fd48695ca99be19a8b788525e3dada4e89730eb9439a5372a4889fb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "现实与理想、现实与现实、理想与理想之间的冲突随处可见。",
+      "output_sha256": "7d56be512f4c41a8acec925ff7400d276b62c49434d8d20cd0ad790e65af71aa",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.5375,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "c87d11409f32c750d1fe203cf0c8cb00879cccfc1494e5581f0679344fd43956"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "7d56be512f4c41a8acec925ff7400d276b62c49434d8d20cd0ad790e65af71aa",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "从一方面看，人生充满了矛盾；从另一方面看，矛盾中却也有一致的地方。",
+      "output_sha256": "e25901b14dc2b2c17332ae5fa754e9e028721a730d1df9a662d4fc2f219e1ae6",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "e25901b14dc2b2c17332ae5fa754e9e028721a730d1df9a662d4fc2f219e1ae6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "人类在种种冲突中进展。",
+      "output_sha256": "943d7e64eebbb78e056b490988bc7c6e1eb8ba2c2ca49fddc88e5e730a94929f",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "943d7e64eebbb78e056b490988bc7c6e1eb8ba2c2ca49fddc88e5e730a94929f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "动乱时代中冲突更多，人们感觉不安，彷徨，失望，于是乎幻灭。",
+      "output_sha256": "e99a52a4d22fad1c46d97209b325c2e7248ccad0e31a87ef66b6ade3e71262a2",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "e99a52a4d22fad1c46d97209b325c2e7248ccad0e31a87ef66b6ade3e71262a2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "幻灭虽然幻灭，可还得活下去。",
+      "output_sha256": "71e1b5abd725eecd26912fc9d246c330cefb6293a7b03b47134396db1d179fe5",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "71e1b5abd725eecd26912fc9d246c330cefb6293a7b03b47134396db1d179fe5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "虽然活下去，可是厌倦着，诅咒着。",
+      "output_sha256": "e8c02dc4d58c113e81024c1adacfd6e6427d7e7a5790be19148df35d73157eec",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "e8c02dc4d58c113e81024c1adacfd6e6427d7e7a5790be19148df35d73157eec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "于是摇头，皱眉毛，“没办法！",
+      "output_sha256": "73ba296135355ca80acf3a59426f9bc9b786a620bf67aa8a0aa0bc95c036136d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "73ba296135355ca80acf3a59426f9bc9b786a620bf67aa8a0aa0bc95c036136d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "没办法”的说着，一天天混过去。",
+      "output_sha256": "f482f68899ef8cdb4e2c82ccbbad15b3c3fb0f9065c9d8da7ada4701308f205a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "f482f68899ef8cdb4e2c82ccbbad15b3c3fb0f9065c9d8da7ada4701308f205a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "然而，如果是一个中年人，他还有相当的精力，不会甘心于如此消磨时光；他希望生活得更有意义。",
+      "output_sha256": "0351d4edb1d55d8177acd79ff8b513ea05c3c5c623847894c30541d47dcbf235",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.585102,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "51e7945b3f544c5aaeb3c8ae791edd07c89991c863e0ab653a97aa445ff92cb1"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "0351d4edb1d55d8177acd79ff8b513ea05c3c5c623847894c30541d47dcbf235",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他于是颓废烟，赌，酒，女人，尽情的享乐自己。",
+      "output_sha256": "c1b4d237689863223ce02723b441db635394591aff670fecfd645317d3228a22",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "c1b4d237689863223ce02723b441db635394591aff670fecfd645317d3228a22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "同时，他也投入到投机活动中，毫不顾忌原则，只要对自己有利就行。",
+      "output_sha256": "890ac13cb7f5848fe4c9bfd4afbc56904261c92479f2f4e04cd233c0318ed045",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.49969,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "57915f55d6cd7a0f741b22f67acac7c58940dc4dbfa4d14a3709ce59e9e7869f"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "890ac13cb7f5848fe4c9bfd4afbc56904261c92479f2f4e04cd233c0318ed045",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "反正一切原则都在动摇，谁还怕谁？",
+      "output_sha256": "1348734bed863a7298d87e2cb2999bfa0680d893e1ed69c44a2000549ad60a9d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "1348734bed863a7298d87e2cb2999bfa0680d893e1ed69c44a2000549ad60a9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "只要抓住现在，抓住自己，管什么社会国家！",
+      "output_sha256": "45f62d206bf03be02178b5cd2d67033b01f139952194dd07932f3c731cd09710",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "45f62d206bf03be02178b5cd2d67033b01f139952194dd07932f3c731cd09710",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "古诗道：“我躬不阅，遑恤我后！”",
+      "output_sha256": "2a8e04d8237b23b6ac5c245cf45dc7a18bc2ddbd5f44b5595b79c9e9f7720ee0",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "2a8e04d8237b23b6ac5c245cf45dc7a18bc2ddbd5f44b5595b79c9e9f7720ee0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "可以用来形容这些人。",
+      "output_sha256": "5598af71c75ae8cf68ca3d932669e39235ac9b4bb19a2391a80181350d9bedc4",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "5598af71c75ae8cf68ca3d932669e39235ac9b4bb19a2391a80181350d9bedc4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "还有一些人在幻灭感中继续生活，但他们心中满是仇恨与愤怒。",
+      "output_sha256": "ea9e290ec4d07592a1e8fc67761cca7c331e93de9567a74e2ef7afc6bd701147",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.404498,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "fdedd828cb435e0777b2a9b89df8fc2b89cfa89efb013dd248ae88f02ce24736"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "ea9e290ec4d07592a1e8fc67761cca7c331e93de9567a74e2ef7afc6bd701147",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "他们不惧幻灭，反而在幻灭的废墟上建立新的理想。",
+      "output_sha256": "8b315ea1c2235a9b7721387b450ee193ab44d25d767e7632056b0d21e4d947a8",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.634881,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "3978c4157082a97c2dac89b2e056bb4531d83a95c6fb6afda34c211338afe73f"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "8b315ea1c2235a9b7721387b450ee193ab44d25d767e7632056b0d21e4d947a8",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "他们希望改造国家，改变世界。",
+      "output_sha256": "6dbf93162fd7d4b4c211625f3916f5d0418d37e611da709874c83929d2df528f",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.530952,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "88efd586873a07419fe4549f568988108b1f8a085bf8ea8c6ae3f89473432a19"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "6dbf93162fd7d4b4c211625f3916f5d0418d37e611da709874c83929d2df528f",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这部分人大多是年轻人，精力充沛，顾虑较少。",
+      "output_sha256": "e27bd65e4b187e0319c410ed6e5781b888eb681f671e0538ef065b51e380041c",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.573858,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "7ad53cac19898c9b56f69e62bd87908c09133858830c791e973b358baffce8cf"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "e27bd65e4b187e0319c410ed6e5781b888eb681f671e0538ef065b51e380041c",
+      "ai_unit_sentence_indices": [
+        43,
+        44
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "他们厌恶传统，抵制原则，而如今这些传统和原则正在动摇，他们甚至想一脚踢开。",
+      "output_sha256": "09b7cc2c1bd4932e846be6735ef1603a6aa89889b2e466e094ceafebb0bb4089",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.573858,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "7ad53cac19898c9b56f69e62bd87908c09133858830c791e973b358baffce8cf"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "09b7cc2c1bd4932e846be6735ef1603a6aa89889b2e466e094ceafebb0bb4089",
+      "ai_unit_sentence_indices": [
+        43,
+        44
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们要创造新传统，新原则，新中国，新世界。",
+      "output_sha256": "623ffc4c1fb5b4c7363431e1ba89753250b7fe52504d0d07ea821b8d77c13506",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "623ffc4c1fb5b4c7363431e1ba89753250b7fe52504d0d07ea821b8d77c13506",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们也是不顾一切，却不是只为自己。",
+      "output_sha256": "f437f7516e1b509cfa8e49871af09fbef65bd4bf72e96b38feb233a832275ca6",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "f437f7516e1b509cfa8e49871af09fbef65bd4bf72e96b38feb233a832275ca6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们自然也免不了试验与错误。",
+      "output_sha256": "62676cebaef44dae2b5c67cebf5e92a259ea429fce2a7ab7a05bd769da09b7e3",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "62676cebaef44dae2b5c67cebf5e92a259ea429fce2a7ab7a05bd769da09b7e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "试验与错误在所难免，其结果到底是延续动乱还是结束动乱，最终取决于社会中调整与安定的力量，即他们是否能够掌握现实。",
+      "output_sha256": "c0f7fe37b4cc9fe3c460a7d1acb20e0a88bad327b028d3c72fe6c71f93e9f898",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.479312,
+      "human_sentence_indices": [
+        46,
+        47
+      ],
+      "human_sha256": [
+        "7550c261caf0a5a770230133ac03c8fdaea6fcfaaa1e8227ef31fd1d69c1de21",
+        "c5af6cc01a32fb199e1be328842928a6714b0c2f1b9a37000690d000ce634374"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "c0f7fe37b4cc9fe3c460a7d1acb20e0a88bad327b028d3c72fe6c71f93e9f898",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "还有些人也在幻灭之馀活下去，可是对现实认识着，适应着。",
+      "output_sha256": "a6b7f11d595b1bdd4bb3d32a73368731e2a032d5457d1727cbe4ea2a309219ce",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "a6b7f11d595b1bdd4bb3d32a73368731e2a032d5457d1727cbe4ea2a309219ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "他们渐渐能够认识这个动乱时代，并接受这个动乱时代。",
+      "output_sha256": "456301be49188ce7b0e4252e5e1555c549c72af5bf3c60e93baf96ffbfd240c3",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "456301be49188ce7b0e4252e5e1555c549c72af5bf3c60e93baf96ffbfd240c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "他们大概是些中年人，他们的精力和胆量只够守住自己的岗位，进行自己的工作。",
+      "output_sha256": "287e4bf82700539229aa54ce12b6479c68fe5deb4c99cf382a1c079bfb78007f",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "287e4bf82700539229aa54ce12b6479c68fe5deb4c99cf382a1c079bfb78007f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "这些人不甘颓废，可也不能担负改造的任务，只是大时代一些小人物。",
+      "output_sha256": "99cf0bad29e115d39afc660976cae5b8631718c427dc8cb63ee66cb7f111179d",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "99cf0bad29e115d39afc660976cae5b8631718c427dc8cb63ee66cb7f111179d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "然而，他们谨慎地调整着传统与原则，忠诚地维护着它们。",
+      "output_sha256": "d12768f0366c3565ddc6cfd41bee127ecb97c946214588353a210609521d2ee9",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.544473,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "7c33782b52a98f0bc88d48fcf8308af5e49fa6881cdcf08ba765adc136b59e35"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "d12768f0366c3565ddc6cfd41bee127ecb97c946214588353a210609521d2ee9",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "尽管有些人想要抛弃这些传统和原则，但其中重要的部分自有其存在的理由。",
+      "output_sha256": "1963744842b36422bd11fe74bb6c552c9132a82115e548e19a6111abefae143e",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.580837,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "7c6a62ae11e080b3b6595786e512c0fb783888cf791c839bcf0a5c4f0a0009b4"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "1963744842b36422bd11fe74bb6c552c9132a82115e548e19a6111abefae143e",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "因为社会是联贯的，历史是联贯的。",
+      "output_sha256": "8fe8e1842edb47b82bc924a90b181498f986624363c5cfa6603d2ef8c2f4d484",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "8fe8e1842edb47b82bc924a90b181498f986624363c5cfa6603d2ef8c2f4d484",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "一个新社会不能凭空从天上掉下，它得从历来的土壤里长出。",
+      "output_sha256": "7626bee0ac905b0b04d02ffe4ac995869b1f0c257200605749fe53ae0f64e5c3",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "7626bee0ac905b0b04d02ffe4ac995869b1f0c257200605749fe53ae0f64e5c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "社会的安定力固然在基层的衣食住，在中国尤其是农民的衣食住；可是这些小人物对于社会上层机构的安定，也多少有点贡献。",
+      "output_sha256": "800bf9b1acf371d5946e8696f14742e9556d4daa72c6d70d2243cd74f379a7ab",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "800bf9b1acf371d5946e8696f14742e9556d4daa72c6d70d2243cd74f379a7ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "他们可能抵挡不住时代潮流的冲击，最终失去自己的岗位甚至生命，但他们所坚守的某些东西仍会继续存在。",
+      "output_sha256": "fafb32562cbaadd34b85ccf152fce840f77a6955930d68ca9974b30c4d536335",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.658454,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "a2fe5444ae95605afc9f37007df7963107e97ca8520df2082a0ee4688645e42e"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "fafb32562cbaadd34b85ccf152fce840f77a6955930d68ca9974b30c4d536335",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "以上三类人只是出于笔者的观察与了解，自然无法涵盖一切。",
+      "output_sha256": "bd151ef49b568a8fb9f2bbdba1846c2ff05d2cc3c05e29b6b574364652315b2b",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.460998,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "9df7bc89fe2708587ef91fa37f4144a4e47cffb0af1d6c95a079ccfbfbd3e1cf"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "bd151ef49b568a8fb9f2bbdba1846c2ff05d2cc3c05e29b6b574364652315b2b",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "但这三类人似乎都是这动乱时代的主要分子。",
+      "output_sha256": "69e1fc721a44e678ae1e53ccaf25d4ba9596a7ac5a5c2f9c5674afe9cbfaef1c",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "69e1fc721a44e678ae1e53ccaf25d4ba9596a7ac5a5c2f9c5674afe9cbfaef1c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "笔者希望由于描写这三类人可以多少说明了这时代的局势。",
+      "output_sha256": "412bd9c35d5b2437fa7dc327c158f355acf9c8467376331b22a7a389144a4db3",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "412bd9c35d5b2437fa7dc327c158f355acf9c8467376331b22a7a389144a4db3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "他们或多或少的认识了现实，也或多或少的抓住了现实；那后两类人一方面又都有着或近或远或小或大的理想。",
+      "output_sha256": "3f29bb3f390b6d9b81aa632ec5556d68c68286aa711d76dc6180e38979c78383",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "3f29bb3f390b6d9b81aa632ec5556d68c68286aa711d76dc6180e38979c78383",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "有用的是这两类人。",
+      "output_sha256": "9924bac5ca86f1ad5d42d4dfba89071d0eb663dd0842317dd82b5e1e47d59c96",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "9924bac5ca86f1ad5d42d4dfba89071d0eb663dd0842317dd82b5e1e47d59c96",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "那颓废者只是消耗，只是浪费，对于自己，对于社会都如此。",
+      "output_sha256": "d38f26b19ea327ad7370341573a8bd9adb4f4a943752540cb980a36fa8698c6a",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "d38f26b19ea327ad7370341573a8bd9adb4f4a943752540cb980a36fa8698c6a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "那投机者扰害了社会的秩序，而终于也归到消耗和浪费一路上。",
+      "output_sha256": "7c84af42b211aafb495626be7997b0794b3c3d557caf27e664a502444c9157db",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "7c84af42b211aafb495626be7997b0794b3c3d557caf27e664a502444c9157db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "到处摇头苦脸说着“没办法”的人不过无益，这些人简直是有害了。",
+      "output_sha256": "185f14b0650d8fa7fa8af18ee849b993ad82fdb1feb307c9c18330e53bed4425",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "185f14b0650d8fa7fa8af18ee849b993ad82fdb1feb307c9c18330e53bed4425",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "勇于改造的则是时代的领导者，但希望他们能够不急于求成，避免欲速不达。",
+      "output_sha256": "0b66ec2312f8e1e77d1a608b8d8e783af43e2cf7ffed5c0f8df9f041bd1ff5fa",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.584112,
+      "human_sentence_indices": [
+        66
+      ],
+      "human_sha256": [
+        "ff111d468fb21e94d9b68bddf0ad854212ba87ab4235fdd7ab81f78a4382388c"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "0b66ec2312f8e1e77d1a608b8d8e783af43e2cf7ffed5c0f8df9f041bd1ff5fa",
+      "ai_unit_sentence_indices": [
+        64
+      ]
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "调整者本可以与改造者形成合力，但也希望他们不要过于保守，固守旧有。",
+      "output_sha256": "2c8779a77bdfdfdeae81f0decae1c9b8953fc4b69fd0fbfb0fa092a1b083b93d",
+      "alignment_unit_index": 63,
+      "alignment_score": 0.583659,
+      "human_sentence_indices": [
+        67
+      ],
+      "human_sha256": [
+        "2c8ae35ffd1307cafc6aebc14fa683b0da8507d1f925c497e54dc01156d1b055"
+      ],
+      "source_ai_sentence_index": 65,
+      "source_ai_sha256": "2c8779a77bdfdfdeae81f0decae1c9b8953fc4b69fd0fbfb0fa092a1b083b93d",
+      "ai_unit_sentence_indices": [
+        65
+      ]
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "这样维持着活的平衡，我们可以希望比较快的走入一个小康时代。",
+      "output_sha256": "15579140732595f1aef529489245000160f45451cb9e927e5078379937c05639",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "15579140732595f1aef529489245000160f45451cb9e927e5078379937c05639",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

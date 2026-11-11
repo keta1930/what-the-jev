@@ -1,0 +1,1039 @@
+{
+  "source_id": "ZH037",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "c51fbcc67d1ed3ef29d27ea7c83024813b4c57549e6625f64ac88b039d58cec8",
+  "ai_article_sha256": "c7aa69a67674ef921712543151adbae888e28b0c91bcb7cb2c7afa532bffdf5b",
+  "mixed_article_sha256": "5c5aa59d9b660bdb497ca696b85508ed195c269fb04c8eab4effc8367ef9d9fd",
+  "human_source_sentence_count": 68,
+  "ai_source_sentence_count": 62,
+  "alignment_unit_count": 60,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 69,
+  "selected_ai_sentence_count": 23,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.307262,
+  "selected_alignment_score_median": 0.544351,
+  "selected_alignment_score_max": 0.826307,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我在準備早飯，同時打開了窗子，春朝特有的氣息充滿了屋子。",
+      "output_sha256": "07f0c1befe48db6a119db8c104cc7d2633a2285f798567750795262f0796f716",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "07f0c1befe48db6a119db8c104cc7d2633a2285f798567750795262f0796f716",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "桌上擺著剝好皮的地豆，手中的小洋刀在不停地轉動……淺黃色的地豆彈性十足，整齊地擺放在爐臺上，旁邊的稀飯正冒著熱氣。",
+      "output_sha256": "846e8fadfb7d9f0153ec8a8f041af530a84bd5f2e998f5c028ae5bfccfc23d1c",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.473094,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "09e053fc26bd25353611e583bbbe0097bf01e1dd441e1fb9b2e23508045de638"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "846e8fadfb7d9f0153ec8a8f041af530a84bd5f2e998f5c028ae5bfccfc23d1c",
+      "ai_unit_sentence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "切著地豆的同時，我心中不禁想：江面上的冰應該早已融化了吧！",
+      "output_sha256": "c43815c54067acc7a462114c64d7bb7cc2e46b563a93a745afd799a2b1807942",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.473094,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "09e053fc26bd25353611e583bbbe0097bf01e1dd441e1fb9b2e23508045de638"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "c43815c54067acc7a462114c64d7bb7cc2e46b563a93a745afd799a2b1807942",
+      "ai_unit_sentence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "公園的榆樹怕是發了芽吧！",
+      "output_sha256": "a4bcb6317ed55b0a570381a5d1b1f0fea6a2594758dce44adcc2374a18045dff",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "a4bcb6317ed55b0a570381a5d1b1f0fea6a2594758dce44adcc2374a18045dff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "已經三天沒去公園，吃過飯後我一定要去看看。",
+      "output_sha256": "5d40581fd8b4fdd00b26f1610412dbe6847d2973f0fcc7e4d45aa896592d29a5",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.595254,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "0d77482d5632810169c5e99a5b005fb64db815dcf70557d6251830a28d43b644"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "5d40581fd8b4fdd00b26f1610412dbe6847d2973f0fcc7e4d45aa896592d29a5",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“郎華呀！",
+      "output_sha256": "d8612910f8dc7c36ee5113e99cc73453b05d16ad764798e9fedd32e5aad86de6",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "d8612910f8dc7c36ee5113e99cc73453b05d16ad764798e9fedd32e5aad86de6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "你在外邊盡做什麼？",
+      "output_sha256": "08d160b96890e6a81924372d26c681e53c90111ed9e2a2bb6ee242e5c281f3cb",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "08d160b96890e6a81924372d26c681e53c90111ed9e2a2bb6ee242e5c281f3cb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "快來幫我提一桶水！”",
+      "output_sha256": "b1471f5ebe99e1413d2968381b2d9ce6190611d3ccb00313516c023bb90b5493",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.773366,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "4df188cb49de40bd30c3409bb233409729a13fa309cddbfa71b180b3cdf446b8"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "b1471f5ebe99e1413d2968381b2d9ce6190611d3ccb00313516c023bb90b5493",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "“我不管，你自己去吧。”",
+      "output_sha256": "72df08ca86e2a00b198f8ae8a7431279cb2262bd305754f9732f08916cec4404",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.826307,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "d34472d2921ec51f97633da13bf70888386d1990d502eb572c5d85ab2f07044d"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "72df08ca86e2a00b198f8ae8a7431279cb2262bd305754f9732f08916cec4404",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "他在院子裡來回踱步，似乎在思考某篇文章。",
+      "output_sha256": "843dca4047840d9352b10a5d6b9dd0ccc98bfb899f42ae698e0bc5c564954640",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.494814,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "0ef4a27c9884e99d3fd7e2041e2439b7dc6290dc4c77714a3b3b6f576c81442a"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "843dca4047840d9352b10a5d6b9dd0ccc98bfb899f42ae698e0bc5c564954640",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "於是我跑着，爲着高興。",
+      "output_sha256": "83ba6632f37fadb59261e2923335ced1ce79000f17ca544e97fe3d97f3ccdd26",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "83ba6632f37fadb59261e2923335ced1ce79000f17ca544e97fe3d97f3ccdd26",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "把水桶翻得很響，斜着身子從汪家廚房出來，差不多是橫走，水桶在腿邊左搖盪一下，右搖盪一下……",
+      "output_sha256": "47fc8af9cdcc53105a30940f34b9c9f816843493a1d0022ac0a16fd618a49452",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "47fc8af9cdcc53105a30940f34b9c9f816843493a1d0022ac0a16fd618a49452",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "菜燒好，飯也燒好。",
+      "output_sha256": "24e7f9b2ef976406e635d9596755ce2eef3becf1d667362568ba24c538cb998a",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "24e7f9b2ef976406e635d9596755ce2eef3becf1d667362568ba24c538cb998a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "吃過飯就要去江邊，去公園。",
+      "output_sha256": "be1fa5d027e8c2746334ae8beff8b9b6a2886685414c2f120162d8501ee82797",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "be1fa5d027e8c2746334ae8beff8b9b6a2886685414c2f120162d8501ee82797",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "春天就要在頭上飛，在心上過，然而我不能吃早飯了，肚子偶然疼起來。",
+      "output_sha256": "a4c48b7155ef4af6383c51ff17e6a674da6fab6f7ff9cc4b6ed9823296e7cd20",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "a4c48b7155ef4af6383c51ff17e6a674da6fab6f7ff9cc4b6ed9823296e7cd20",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我喊郎華進來，他很驚訝！",
+      "output_sha256": "d71a4019f22a97b8b8cb33efbc14bba1271c37610914775656109efe778d8b1e",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "d71a4019f22a97b8b8cb33efbc14bba1271c37610914775656109efe778d8b1e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但越痛越不可耐了。",
+      "output_sha256": "a2c1a7b4ec77a23460c62fbbd36b38c48e89ff1d637598f11acf89bc0b910e0a",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "a2c1a7b4ec77a23460c62fbbd36b38c48e89ff1d637598f11acf89bc0b910e0a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "他去叫醫生，請來了一位專治喉病的醫生。",
+      "output_sha256": "2c526cc19c99cc4536c424ee632b765544c4e06eb29333e71ffe9646809111e8",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.687096,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "d88a3e2e20e2bf0631dc694ff7b7a599f703a1a21e393f3520c0f61f940befea"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "2c526cc19c99cc4536c424ee632b765544c4e06eb29333e71ffe9646809111e8",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "“你是患着盲腸炎吧？”",
+      "output_sha256": "66e721cb1413591af62b3147005ea863bea7ad7720e3911c0527041845573e4c",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "66e721cb1413591af62b3147005ea863bea7ad7720e3911c0527041845573e4c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "醫生問我。",
+      "output_sha256": "1fdc9b584e416f37a12eb6883d09e1546edbef66b0155dc8959731ae31759c91",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "1fdc9b584e416f37a12eb6883d09e1546edbef66b0155dc8959731ae31759c91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "我疼得無法自已，根本不明白什麼是盲腸炎。",
+      "output_sha256": "ee62b0249021b9b9552f9ad1cd55394d91051ecdea78d8f3e01bad3865f04ce8",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.446198,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "fa6b4ee9b75928d0a87f376dc7f748024540aa54ced1efa08e6be1519ca3d8c5"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "ee62b0249021b9b9552f9ad1cd55394d91051ecdea78d8f3e01bad3865f04ce8",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "眼睛發黑了，喉醫生在我的臂上打了止痛藥針。",
+      "output_sha256": "2b1b63d55465e0e4e002817167a352fb8e85e8d51d934c0e8b655ced7a165957",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "2b1b63d55465e0e4e002817167a352fb8e85e8d51d934c0e8b655ced7a165957",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“張醫生，車費先請自備吧！",
+      "output_sha256": "93c3dfbe56ddd000bc4b562e3c892c7ea2b6e8f60814a99b5a4a64b60f3e22ff",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "93c3dfbe56ddd000bc4b562e3c892c7ea2b6e8f60814a99b5a4a64b60f3e22ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "過幾天和藥費一起送去。”",
+      "output_sha256": "df2b05eb7488b3bd6785126b303c8e269d4830b5d1f9bc2abfbbc4b6737ebf0b",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "df2b05eb7488b3bd6785126b303c8e269d4830b5d1f9bc2abfbbc4b6737ebf0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "郎華對醫生說。",
+      "output_sha256": "b4ae665714e8f74ac381b47803ce65b05051acf32e5d191200450ef0005d921b",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "b4ae665714e8f74ac381b47803ce65b05051acf32e5d191200450ef0005d921b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "我身上已經沒有一角錢，卻又無法再請醫生，白白打了止痛針，根本無法止痛。",
+      "output_sha256": "ea1c593bd6340b7b834bcf0a05a6f4ecdd01d672f23e799ba8f3b6a322fe56d2",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.513193,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "0a0272d76813840ac1596ff9ef941a937e680c546fd491fccbbf3c0a004f8f5a"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "ea1c593bd6340b7b834bcf0a05a6f4ecdd01d672f23e799ba8f3b6a322fe56d2",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "郎華又匆匆跑了出去，我不知道他去做什麼，只能默默等待，心中難以言表。",
+      "output_sha256": "45acab887b76806bd05065c1db32b2b3c2899f3c3cd88c92e95aee7bc253693a",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.49611,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "b508a0ed3e8892460a4cac30cd3c96cd38dcf0d1aeac54cc62a714d1587b8d87"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "45acab887b76806bd05065c1db32b2b3c2899f3c3cd88c92e95aee7bc253693a",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "一個星期過去，我還不能從牀上坐起來。",
+      "output_sha256": "8cd319724614f0fead1fc921e2d384584b9a02aa3e9f79d499fd6fcf1c43ba57",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "8cd319724614f0fead1fc921e2d384584b9a02aa3e9f79d499fd6fcf1c43ba57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "第九天，郎華從外面舉着鮮花回來，插在瓶子裏，擺在桌上。",
+      "output_sha256": "85c7d5828d3ccc9fc28789ac9a743ef61ed792bd9f019fc64f6a8cbaad7f5264",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "85c7d5828d3ccc9fc28789ac9a743ef61ed792bd9f019fc64f6a8cbaad7f5264",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "“花開了？”",
+      "output_sha256": "7e710428dcb9984a600f8e391e9aac38599c969ca1dffde1172848e2a8709d92",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "7e710428dcb9984a600f8e391e9aac38599c969ca1dffde1172848e2a8709d92",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "“不但花開，樹還綠了呢！”",
+      "output_sha256": "d202011b4176489e8ee8dde7c32f493b488d5dde3d37c64fd568d614115daf3e",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "d202011b4176489e8ee8dde7c32f493b488d5dde3d37c64fd568d614115daf3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "我聽說樹綠了！",
+      "output_sha256": "c50d89ccc3694fd36f2ea4d67db16bffd5bd583fa71a83829dac824d362e274b",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "c50d89ccc3694fd36f2ea4d67db16bffd5bd583fa71a83829dac824d362e274b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "我對於“春”不知懷着多少意義。",
+      "output_sha256": "ed47b03413e70bc26b12ed05b99b54dc8664dbb7972c883ee4e11fa109472210",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "ed47b03413e70bc26b12ed05b99b54dc8664dbb7972c883ee4e11fa109472210",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "我想立刻起身去看看，卻因腿軟得像失去了力量，根本無法站立。",
+      "output_sha256": "5c67b7e7130432120bfd79ecbdb94a50a802898d4081748c0522798d8c1e54e8",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.464858,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "8134a75e41e66f268c2c4f49e2fcaece2b5201333981bd32a77067094e03e257"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "5c67b7e7130432120bfd79ecbdb94a50a802898d4081748c0522798d8c1e54e8",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "肚子的疼痛稍微減輕，晚上睡得不錯。",
+      "output_sha256": "8065a10143b4034b500bbedb317306fa9ee98ffb02bb4d15d7ffd7b5e16c8032",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.411087,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "ec808bff3aadb3cb068ac73987e8c318a24279f85088e3b5dd46cf933a6635a4"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "8065a10143b4034b500bbedb317306fa9ee98ffb02bb4d15d7ffd7b5e16c8032",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "有朋友告訴郎華：在什麼地方有一個市立的公共醫院，爲貧民而設，不收藥費。",
+      "output_sha256": "b2a00c2730ebe439606bc4fd57a6708fd09116dde6f55f3afdc1976fd5cbccf8",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "b2a00c2730ebe439606bc4fd57a6708fd09116dde6f55f3afdc1976fd5cbccf8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "當然，我掙扎著也想去。",
+      "output_sha256": "8fd261243152bbaadb1b669a0b1e5455fe10365246fac86954e484737868845f",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.628887,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "0d48e48d90b39c8e252c030ae03558eeca75fe239f85957316704cdfa8b74852"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "8fd261243152bbaadb1b669a0b1e5455fe10365246fac86954e484737868845f",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "那天陽光明媚，我換上乾淨的衣服，慢慢走出大門，坐上人力車，郎華在旁邊陪著。",
+      "output_sha256": "78425341cc4d9a9e823441bcf14ef734b5868997a9bf4710f7875ea0da75f379",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.649286,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "3c883639b178023d624276dd802322c608318205771df8ab52fb03b57c83c45a"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "78425341cc4d9a9e823441bcf14ef734b5868997a9bf4710f7875ea0da75f379",
+      "ai_unit_sentence_indices": [
+        33,
+        34
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "起初他扶著車走，後來就走在行人道上了。",
+      "output_sha256": "eff94f8b315456def071d98518a936af538b3d07ad0e4c82d7e665a44e3bb3da",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.649286,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "3c883639b178023d624276dd802322c608318205771df8ab52fb03b57c83c45a"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "eff94f8b315456def071d98518a936af538b3d07ad0e4c82d7e665a44e3bb3da",
+      "ai_unit_sentence_indices": [
+        33,
+        34
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "街樹不是發着芽的時候，已長出綠葉了！",
+      "output_sha256": "24e8e43b6fe7e53621eb20ad1f5f52ab6f11f8cf5753bb113cf4eb2ee445cbd5",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "24e8e43b6fe7e53621eb20ad1f5f52ab6f11f8cf5753bb113cf4eb2ee445cbd5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "進了診聞所，到掛號處掛了名，很長的堂屋，排着長椅子，那裏已經開始診斷。",
+      "output_sha256": "7fcd4512b093f6bc14cf2f13c037524a2e29dd30d8f44a1a12bd78b093b82a3c",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "7fcd4512b093f6bc14cf2f13c037524a2e29dd30d8f44a1a12bd78b093b82a3c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 18,
+      "origin": "ai",
+      "text": "白衣的俄國女人來回叫著名字，六七個人一起被帶進病室，片刻後又被放出，下一批人又被叫進去。",
+      "output_sha256": "3a54b9692b431e80e12ddbac2e7d1792469e9fe83808fb639880488a71cd992d",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.609468,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "d4ba8d76347d8b61449f594d7f41ba54c4a9e5d312417951ec51aa454ccd1f11"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "3a54b9692b431e80e12ddbac2e7d1792469e9fe83808fb639880488a71cd992d",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "到這裏來的病人，都是窮人，愁眉苦臉的一個，愁眉苦臉的一個。",
+      "output_sha256": "c24d85b31a5c6aa79d824cd42f8bea8d7eb90645016ba46a832ba13bd323941a",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "c24d85b31a5c6aa79d824cd42f8bea8d7eb90645016ba46a832ba13bd323941a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "撐着木棍的跛子，腳上生瘡縛着白布的腫腳人，肺癆病的女人，白布包住眼睛的盲人，包住眼睛的盲小孩，頭上生瘡的小孩。",
+      "output_sha256": "74b40c883c37c721c8245c6bdac954f1ad004e849da92946397a3ebe1ad7d937",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "74b40c883c37c721c8245c6bdac954f1ad004e849da92946397a3ebe1ad7d937",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "對面坐着老外國女人，閉着眼睛，把頭靠住椅子，好似睡着，然而她的嘴不住地收縮，她的包頭巾在下巴上慢慢牽動……",
+      "output_sha256": "b75a4c1b889a4dc3bab0b8e087231d7e44ee258231fee5475bd3a2df16e2565f",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "b75a4c1b889a4dc3bab0b8e087231d7e44ee258231fee5475bd3a2df16e2565f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "小孩治療室有孩子大大地哭叫。",
+      "output_sha256": "e0fe7a90a8c5f74ce69512c16c19d4445f2d4ca9d4b9d456a94c18c20964aa86",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "e0fe7a90a8c5f74ce69512c16c19d4445f2d4ca9d4b9d456a94c18c20964aa86",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "內科治療室門口，外國女人又闖出來，又叫着外國名字；一會又有中國人從外科治療室闖出來，又喊着中國名字……拐腳子和胖臉人都一起走進去……",
+      "output_sha256": "95746d2c7d2dfe584388f57659737d6de8fb95c75df791bc7eeb706ed1763255",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "95746d2c7d2dfe584388f57659737d6de8fb95c75df791bc7eeb706ed1763255",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "因爲我來得最晚。",
+      "output_sha256": "c9b6a0ab650f9ccc70a221561e63cea3d02e1cff396db65073e550e558819e48",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "c9b6a0ab650f9ccc70a221561e63cea3d02e1cff396db65073e550e558819e48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "大概最後才能夠叫到我，等得背痛，頭痛。",
+      "output_sha256": "e99f6f1b8c0ac8eca68c544395b2127777c2711324a7056a630d5d4e5daf9fba",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "e99f6f1b8c0ac8eca68c544395b2127777c2711324a7056a630d5d4e5daf9fba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "“我們回去吧！",
+      "output_sha256": "797fd09d0b4f881b4c66f636f37ef7c31ff9f6d4735045bf64bb969bc40abff5",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "797fd09d0b4f881b4c66f636f37ef7c31ff9f6d4735045bf64bb969bc40abff5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "明天再來。”",
+      "output_sha256": "e40e8bb69c4301206a3084d8d251e7a2181a826f1267ae12efa44a7ae0cfba0b",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "e40e8bb69c4301206a3084d8d251e7a2181a826f1267ae12efa44a7ae0cfba0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "坐在人力車上，我已無心再看街樹，這樣去投醫，病象不但沒有減輕，好像更加重了些。",
+      "output_sha256": "0eb3813e779376eb9a26fe3b5ebec58ae870218c8b4e36b8a1facc2537dc35e5",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "0eb3813e779376eb9a26fe3b5ebec58ae870218c8b4e36b8a1facc2537dc35e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "我不能不去，因為這裡免錢。",
+      "output_sha256": "69fe561b71108eef9f2b9fae58467d67a7fe5a32e0fc024a100168c19f42c87e",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.544351,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "b70f4bde8a0575df437833108c8ad0a44d12926a70c50f2250a078c3433cb251"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "69fe561b71108eef9f2b9fae58467d67a7fe5a32e0fc024a100168c19f42c87e",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "第二次去，也被喚着名字走進婦科治療室。",
+      "output_sha256": "95357e4b0ba71201acbd707c70bedebc71e813b54516ce5ebf4b9fccda60fb48",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "95357e4b0ba71201acbd707c70bedebc71e813b54516ce5ebf4b9fccda60fb48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "雖然等了兩個小時，終於進了治療室。",
+      "output_sha256": "105faf0cad01e46b9961f3327444d808b4ee47ca135f2c2f9a3a2fb302058bd8",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.560217,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "a1c8e997a9c5b5a6aaf4de0c528779089d1389dd9ba182aa8eef5e6f0bfdd196"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "105faf0cad01e46b9961f3327444d808b4ee47ca135f2c2f9a3a2fb302058bd8",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "進去後該如何治療我並不清楚。",
+      "output_sha256": "6b10301223d0efaaeb44467baae6b83cd2a040adf8e94b4a0624a82f0ba4c96e",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.307262,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "19e686dee4f05acf739b44e354d77f99a06ff04bf7865ae85d9add141a150b18"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "6b10301223d0efaaeb44467baae6b83cd2a040adf8e94b4a0624a82f0ba4c96e",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "把我引到一個屏風後面，那裏擺着一張很寬、很高、很短的臺子，臺子的兩邊還立了兩支叉形的東西，叫我爬上這臺子。",
+      "output_sha256": "1d0f22ca868db631f7cdaeb1acff516a2deeb0ae6525f3cfaca541499f75b69d",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "1d0f22ca868db631f7cdaeb1acff516a2deeb0ae6525f3cfaca541499f75b69d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 23,
+      "origin": "ai",
+      "text": "我當時心中有些害怕，不知這是要做什麼，難道是要動手術？",
+      "output_sha256": "fba51d66e1c9e98c53f0664ce0d5330450d29abbd0c17e341f6ee2ce68b569ee",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.455524,
+      "human_sentence_indices": [
+        56,
+        57
+      ],
+      "human_sha256": [
+        "c256b2128d7a04ded4e4c6d291b63b36ab1638c53aca7282c69c4a94990c6bae",
+        "fecf1e4233625525a02e9a27179b38f0364cf1a6166f1b94dc783f000fc5b6a5"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "fba51d66e1c9e98c53f0664ce0d5330450d29abbd0c17e341f6ee2ce68b569ee",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 24,
+      "origin": "ai",
+      "text": "我堅決不爬上去。",
+      "output_sha256": "987e9d395ece3ba2baac755a8bbfc2f128f1c5425929b23f0cf842c0e105106c",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.8075,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "cbd3d0ffebbf510047d96c8030f80b6cc176c1f02b62ccf9ccb8fe51833ed715"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "987e9d395ece3ba2baac755a8bbfc2f128f1c5425929b23f0cf842c0e105106c",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "於是那肥胖的外國女人先上去了，沒有什麼，並不動刀。",
+      "output_sha256": "f3004906da39397b6a271e5ef28c989cc9c81c02f476cc138141160df072fe36",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "f3004906da39397b6a271e5ef28c989cc9c81c02f476cc138141160df072fe36",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "換着次序我也被治療了一回，經過這樣的治療，並不用吃藥，只在肚子上按了按，或是一面按着，一面問兩句。",
+      "output_sha256": "bf87de075213caae4d2bfa7a14a2b211d87e207acdaa45454881ec68e5d7a158",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "bf87de075213caae4d2bfa7a14a2b211d87e207acdaa45454881ec68e5d7a158",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "我的俄文不好，醫生問的問題我並不全懂，只是馬馬虎虎地走出治療室。",
+      "output_sha256": "cdd50854570162d7e758824fee0b43e51f356d26de0f698af683fc34eeeacefa",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.766985,
+      "human_sentence_indices": [
+        61
+      ],
+      "human_sha256": [
+        "5665fd0491e5e1d00d58e2b4fd24aa57052b197a17720504aaba9e61519461ec"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "cdd50854570162d7e758824fee0b43e51f356d26de0f698af683fc34eeeacefa",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "醫生告訴我，明天再來一次，好把藥給我。",
+      "output_sha256": "077d4a2cc28a1de6ce0c1f7632143fa84b826642eb1f8d747506b7b9fb6aebfb",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "077d4a2cc28a1de6ce0c1f7632143fa84b826642eb1f8d747506b7b9fb6aebfb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "之後我再也沒有去，因為那天我從診療所出來時，聽到一位重病人在哼哼，他的家屬則在哭泣。",
+      "output_sha256": "7b7afe531115912295d018fd3f0127e258c723cbc527a0273aa2204941090a4b",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.536635,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "0298832f53755a96b73d511b5ae4759f3a2b10960dda48b8624275fa39f7cc30"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "7b7afe531115912295d018fd3f0127e258c723cbc527a0273aa2204941090a4b",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "我以爲病人病到不可治的程度，“他們不給藥吃，說藥貴，讓自己去買，哪裏有錢買？”",
+      "output_sha256": "ca4894c2a7328dc09494e26af30e6231f3033d622c29e72148bf1ecb87911d1c",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "ca4894c2a7328dc09494e26af30e6231f3033d622c29e72148bf1ecb87911d1c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "是這樣說向我的。",
+      "output_sha256": "bdb988f9124f7c83d3011fab6e6bec3f81cdb659bf045e3235a878b73cc0a09d",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "bdb988f9124f7c83d3011fab6e6bec3f81cdb659bf045e3235a878b73cc0a09d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "去了兩天診療所，等了幾個鐘頭。",
+      "output_sha256": "acdcfd2b9906a1b5afc950131b3df4cf521730fe8bbd6056009bb3d2da37c364",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "acdcfd2b9906a1b5afc950131b3df4cf521730fe8bbd6056009bb3d2da37c364",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "怕是再去兩天，再去等幾個鐘頭，病人就會自然而然地好起來！",
+      "output_sha256": "277cc4325e2f7570e7f6925617ac96f0c94a45f0d40b2838b1576a9e4767db83",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "277cc4325e2f7570e7f6925617ac96f0c94a45f0d40b2838b1576a9e4767db83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "可惜我沒有那樣的忍耐性。",
+      "output_sha256": "bb3938f66c7d736b082608db207f20d3399832e7b1ba08d06aae75780ea4880d",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "bb3938f66c7d736b082608db207f20d3399832e7b1ba08d06aae75780ea4880d",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "source_id": "ZH062",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "a97d216f915888180c5105de3b49232e86889036c30efa1c4d8db93260cbc0d5",
+  "ai_article_sha256": "7367cd820c0f0d7fcfb3597da392740fc5ba0c8bc8dc5f8a6ef3940d92abad61",
+  "mixed_article_sha256": "304f25b41169abbb2d587bc99fadbb082a7d3f2112aa2ef050eb172a9b5aa4f4",
+  "human_source_sentence_count": 35,
+  "ai_source_sentence_count": 32,
+  "alignment_unit_count": 32,
+  "selected_alignment_unit_count": 11,
+  "mixed_sentence_count": 33,
+  "selected_ai_sentence_count": 11,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.491818,
+  "selected_alignment_score_median": 0.594925,
+  "selected_alignment_score_max": 0.70316,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "文明大約是好事情，進化大約是好現象，不過時代錯誤者的我，老想回到古時候還沒有皇帝政府的時代──結繩代字的時代──去做人。",
+      "output_sha256": "9ea46abb643faf374a240a6f7d459cc4a6f258c9fbddf6f337fc9564ee37f656",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "9ea46abb643faf374a240a6f7d459cc4a6f258c9fbddf6f337fc9564ee37f656",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "生在亂世，本來是不大快樂的，但是我每自傷悼，恨我自家即使要生在亂世，何以不生在晉的時候。",
+      "output_sha256": "e341295c3ffcc8dadaaf062009794ca6713bcf6462290fdc7b59ccb0d1dc91c1",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "e341295c3ffcc8dadaaf062009794ca6713bcf6462290fdc7b59ccb0d1dc91c1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "雖然我無法加入竹林七賢的行列──他們是賢是愚，暫且不談，世人如此稱呼他們，而我也無法找到其他更合適的名詞──但若能生於那時，至少可以聽到阮籍的哭聲。",
+      "output_sha256": "ea81f8d1ccd5c3580c145fdd4b140b7b99098141c494e1f70e0d953f6334c97f",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.569164,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "a2ac3e900a7897211077897c822e5e4cdc0b5a4ffc6e2ff261e25f37ada77af0"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "ea81f8d1ccd5c3580c145fdd4b140b7b99098141c494e1f70e0d953f6334c97f",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "或者再遲一點，於風和日朗的春天，長街上跟在陶潛的後頭，看看他那副討飯的樣子，也是非常有趣。",
+      "output_sha256": "823d4d42b672a2470db5f2d2f3e5be7eb82eab6d508403063514f869e24812aa",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "823d4d42b672a2470db5f2d2f3e5be7eb82eab6d508403063514f869e24812aa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "即便不必追溯至那麼遙遠的年代，我若能生於明朝末年，哪怕被李自成砍上幾刀，也總比當下遭受軍閥官僚的禍害來得更有價值。",
+      "output_sha256": "40166c52104d4234cb7bc3fd1c5d2a611f2f8df1f9036f21dec873c0c5dea447",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.576141,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "4c431ff7d9d5bccb25a56beb6934dc3e008a0bb33b43a1ec48f4aac535f015cb"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "40166c52104d4234cb7bc3fd1c5d2a611f2f8df1f9036f21dec873c0c5dea447",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "因爲那時候還有幾個東林復社的少年公子和秦淮水榭的俠妓名娼，聽聽他們中間的奇行異跡，已儘夠使我們把現實的悲苦忘掉，何況更有柳敬亭的如神的說書呢？",
+      "output_sha256": "c3c0853a11dcb9979efca657ac85b4866e8f1900bb135efcaa5bd74a8809d4f8",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "c3c0853a11dcb9979efca657ac85b4866e8f1900bb135efcaa5bd74a8809d4f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "不曉是什麼人的詩，好像有一句“並世頗嫌才士少”，──下句大約是“著書常恨古人多”吧？",
+      "output_sha256": "8faaa3e807c9a865dc5e5605a0bc54fecd58297c48e403b7945a49ef3d1818c3",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "8faaa3e807c9a865dc5e5605a0bc54fecd58297c48e403b7945a49ef3d1818c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "──我也常有這樣的想法；然而這位詩人似乎在說“除了我之外，其他人皆無才士”，而我所想的是“若同時有許多才士，那麼聽聽他們的逸事，也能快快樂樂地度過一生。”",
+      "output_sha256": "a496734fa16e70071398dd1238de88f3add7f0b5fe470d9b57f3ed6eeaa81fbb",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.598593,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "61ef378eaa3e5bef1528690bc9f5cad80e03def8c3a0bd357522ad9d8b9ba74f"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "a496734fa16e70071398dd1238de88f3add7f0b5fe470d9b57f3ed6eeaa81fbb",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "這是詩人與我見解不同的地方。",
+      "output_sha256": "38b97e975214837640bcee3f5e427a92a24a4e434da6db43b78415509b090a45",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "38b97e975214837640bcee3f5e427a92a24a4e434da6db43b78415509b090a45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "講到了詩，我又想起我的舊式的想頭來了。",
+      "output_sha256": "8f85515e8df78441a36638240ed043a179a0006fb7cdb25f7cec2e8d7e50319d",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "8f85515e8df78441a36638240ed043a179a0006fb7cdb25f7cec2e8d7e50319d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "目下在流行着的新詩，果然很好，但是像我這樣懶惰無聊，又常想發牢騷的無能力者，性情最適宜的，還是舊詩；你弄到了五個字，或者七個字，就可以把牢騷發盡，多麼簡便啊。",
+      "output_sha256": "5f11e68847867c02aee531000d840a911039c3d9c15793005aa31a927a8df7a8",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "5f11e68847867c02aee531000d840a911039c3d9c15793005aa31a927a8df7a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我記得前年生病時，曾寫了一首詩給我的妻子：",
+      "output_sha256": "c104926e982f86e79c3e2ea4d99f1f966e22a9fcebd2fa7a4a891d264e621027",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.595254,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "10106220d5f3c6bd39a8eff0f549628b4a681ba473f66aae0854aea3de419a63"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "c104926e982f86e79c3e2ea4d99f1f966e22a9fcebd2fa7a4a891d264e621027",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "生死中年兩不堪，生非容易死非甘，",
+      "output_sha256": "f5f4691f5bb091b9bedc0146da13aeb9bad2659b947feae57a728a124228202f",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "f5f4691f5bb091b9bedc0146da13aeb9bad2659b947feae57a728a124228202f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "劇憐病骨如秋鶴，猶吐青絲學晚蠶，",
+      "output_sha256": "57ecaaf2205ec1d6009629f8ef8d3d108e304fa31dfd6fb1aa28d825c87024b5",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "57ecaaf2205ec1d6009629f8ef8d3d108e304fa31dfd6fb1aa28d825c87024b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "一樣傷心悲薄命，幾人憤世作清談，",
+      "output_sha256": "54d029f609be36ae68a0ab0ceb89c3058daa82eb45dfa2108356de7f11f2eb7c",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "54d029f609be36ae68a0ab0ceb89c3058daa82eb45dfa2108356de7f11f2eb7c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "何當放桌江湖去，淺水蘆花共結庵。",
+      "output_sha256": "224426ccec0cb865158fc2e56727e2b46c3616c36e1d577bfd389300498b52df",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "224426ccec0cb865158fc2e56727e2b46c3616c36e1d577bfd389300498b52df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "◇",
+      "output_sha256": "f88c1b7702d3affe04d46bc2e4f564a53906093e8636090e19848564f1b83aea",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "f88c1b7702d3affe04d46bc2e4f564a53906093e8636090e19848564f1b83aea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "若用新詩來寫，恐怕得花上幾十行才能說清楚。",
+      "output_sha256": "b4e833b4a7efb8a88cdfc323c32b1a5ee7bb7d8b38da53e393568ec2d589d3c8",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.594925,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "d8566637ae9041ca4736bcd846f2abf75b000e6c7f98d93c4b231397395623c3"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "b4e833b4a7efb8a88cdfc323c32b1a5ee7bb7d8b38da53e393568ec2d589d3c8",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "不過像那些老文丐的什麼詩選，什麼派別，我是大不喜歡的，因爲他們的成見太深，弄不出真正的藝術作品來。",
+      "output_sha256": "3375a97dc031c71995c8c58c8ddc1db05fd6f309ae346af6ae420b3ee59a369b",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "3375a97dc031c71995c8c58c8ddc1db05fd6f309ae346af6ae420b3ee59a369b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "近來國學興盛，舊書鋪的黃紙大字本木版書，像中了頭彩的彩票一樣，市價驟然上漲，這雖是可喜之事，但我卻覺得這種對古物的迷戀，與我所追求的截然相反。",
+      "output_sha256": "c9bd2221c45d38cb8dd7468ec447c59b670124ae248be6d35a820bed8ab2d069",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.519211,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "309e4d67b7a631470df1c2591a1682938d8479fd3b1c5db3452858521a36ac91"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "c9bd2221c45d38cb8dd7468ec447c59b670124ae248be6d35a820bed8ab2d069",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "我擔心現代的國故整理者太過重視近代人的“易厭”與“好奇”的心理。",
+      "output_sha256": "d20d2d039975d921bdcfd43837a6ffb0c3bd2cb525e6fc3c6a97a7feb8243431",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.70316,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "79fdeb2b3dbd41e32a466c276d12eaa0c8f607f8a0cc492ead0ba9effdef196f"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "d20d2d039975d921bdcfd43837a6ffb0c3bd2cb525e6fc3c6a97a7feb8243431",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "但願他們不要把當初建設下來的注音字母打破，能根本的作他們的整理國故的事業纔好。",
+      "output_sha256": "c963da1bf233bd82b3bde8175140e93061af701e5dadb8605c7a83513d093112",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "c963da1bf233bd82b3bde8175140e93061af701e5dadb8605c7a83513d093112",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "喜新厭舊，原是人之常情；不過我們黃色同胞的喜新厭舊，未免是過激了；今日之新，一變即成爲明日之舊，前日之舊，一變而又爲後日之新；扇子的忽而行長忽而行短，鞋頭的忽而行尖忽而行圓，便是一種國民性的表現；我只希望新文學和國故，不要成爲長柄短柄的扇子，尖頭圓頭的靴鞋。",
+      "output_sha256": "0e017a7b8135f7c6289a10648cc66a07bddda6152ecf6dea0c22ce382a276e4f",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "0e017a7b8135f7c6289a10648cc66a07bddda6152ecf6dea0c22ce382a276e4f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "前幾天在小館子裡用餐，看到牆上有一張“莫談國事”的標語，我便叫來伙計詢問我們應該談些什麼，他聽不懂我的問題，只報了許多炒羊肉、炸鯉魚等菜名。",
+      "output_sha256": "03b9cd7df9c095c39cdfb56b71812c7f4ccd6874799328a27cc397a8806ee387",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.660655,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "52da72aaa4f8a48bfc513056b9746b7c4b588f6b4135a6f3251e20bb47c902dd"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "03b9cd7df9c095c39cdfb56b71812c7f4ccd6874799328a27cc397a8806ee387",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "隨後我用手指著那張紅條問他這標語是從何時開始的，他笑著回應：“嘿，這是古得很咧！”",
+      "output_sha256": "aec64d24b88f92c6310cb579b6f34471a1bf0094a9f9f238df23d4665e1f6857",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.622065,
+      "human_sentence_indices": [
+        25,
+        26
+      ],
+      "human_sha256": [
+        "f60eaa13c989df8e1abbf141fe39582ae5685ec3008b084bcdd675a92349a77f",
+        "0d2001e0e903e8f4e7874c6fbb75958272428d2030382fce244a585b4359e6ec"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "aec64d24b88f92c6310cb579b6f34471a1bf0094a9f9f238df23d4665e1f6857",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "我覺得這一個骸骨迷戀，卻很有意思。",
+      "output_sha256": "1afd088bda1c4ed2f46ad3340202575f68d9963cde32f9010c86b63577ab1331",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "1afd088bda1c4ed2f46ad3340202575f68d9963cde32f9010c86b63577ab1331",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "近來頭腦昏亂，讀書也不能讀，做稿子也做不出，只想回到小時候吃飯不管事的時代去。",
+      "output_sha256": "e2058701d8548822e7a56cc7885f701585eac1a9eb3068f0814f063b9d06eae3",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "e2058701d8548822e7a56cc7885f701585eac1a9eb3068f0814f063b9d06eae3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "有時候獨自一人在街上漫步，目睹同時代人忙碌的樣子，心中又想著要振作起來，做些事情。",
+      "output_sha256": "8001b7776c8d9b12f8e1881479a7d02a14d44a49b7d0687d7f48da502a23b4b9",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.491818,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "f45071aaf86992c160da9266b82b3932d246a25b149576e66c91ec2fab49a2c4"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "8001b7776c8d9b12f8e1881479a7d02a14d44a49b7d0687d7f48da502a23b4b9",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "當這種念頭浮現時，我若不是怨恨父母不夠好，未留給我豐厚的遺產，便會自責地說：“你這骸骨迷戀！",
+      "output_sha256": "586891bb03091ec969a437764be4922446ff009d0aa3053e5e5122f81c5e08db",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.569328,
+      "human_sentence_indices": [
+        30,
+        31
+      ],
+      "human_sha256": [
+        "6a4c28922224c859f079a57ff04c4b2ee7412d20b6be80615963240e1b629501",
+        "95d3d44f99ff6d04ab7fbf2fdedb32104c95355cda94eb40f3cbf065c5f464cc"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "586891bb03091ec969a437764be4922446ff009d0aa3053e5e5122f81c5e08db",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "你該死！",
+      "output_sha256": "787e4bf427d1bfec5a8a15440dfed025c8a0a1136b85fc6e7615b9491ffd309a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "787e4bf427d1bfec5a8a15440dfed025c8a0a1136b85fc6e7615b9491ffd309a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "你該死！”",
+      "output_sha256": "3df569a5613314911bf553eb00663d7232f70309f31019b863d6351f67cba888",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "3df569a5613314911bf553eb00663d7232f70309f31019b863d6351f67cba888",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "十四年一月在北京",
+      "output_sha256": "21210913b35f0b2d8b101b433c888b44bf3abc84cb31c492b6c9623294b673cf",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "21210913b35f0b2d8b101b433c888b44bf3abc84cb31c492b6c9623294b673cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "（原載一九二八年二月《達夫全集》第四卷《奇零集》，據《達夫散文集》）",
+      "output_sha256": "8c87306d72c698c71c383076d079bd9af172860e0a9efdfd601b8da593a81c5a",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "8c87306d72c698c71c383076d079bd9af172860e0a9efdfd601b8da593a81c5a",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

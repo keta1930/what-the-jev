@@ -1,0 +1,1247 @@
+{
+  "source_id": "ZH027",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "223bedd54b5e2b4cb9a3afea3da6adb276bd44af5cc628ce5148e0f074a342ac",
+  "ai_article_sha256": "81f665440fdee3f33636fe89317015fbec17742db22add052801be593b3991af",
+  "mixed_article_sha256": "f89819bc18817f4c3eefc225f58f5b98aad2dc59d6d96bd704756b93ec5d5aa0",
+  "human_source_sentence_count": 84,
+  "ai_source_sentence_count": 76,
+  "alignment_unit_count": 76,
+  "selected_alignment_unit_count": 27,
+  "mixed_sentence_count": 83,
+  "selected_ai_sentence_count": 28,
+  "actual_ai_sentence_ratio": 0.337349,
+  "selected_alignment_score_min": 0.418652,
+  "selected_alignment_score_median": 0.596235,
+  "selected_alignment_score_max": 0.874119,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "汪林在院心坐了很長的時間了。",
+      "output_sha256": "1c95b6fe529ca5b2b1bbca58138c1afc09cbcdada1a827c648ece2f63027636b",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "1c95b6fe529ca5b2b1bbca58138c1afc09cbcdada1a827c648ece2f63027636b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "小狗在她的腳下打着滾睡了。",
+      "output_sha256": "57e6b7abeac163500cd7946dd4b0e7b0a2785e206058c53361255b933a3577b9",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "57e6b7abeac163500cd7946dd4b0e7b0a2785e206058c53361255b933a3577b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“你怎麼樣？",
+      "output_sha256": "d4768c9b2857d288e6149e77b858f1cc6231e32a6b08a9c706c908854f8e53d5",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "d4768c9b2857d288e6149e77b858f1cc6231e32a6b08a9c706c908854f8e53d5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我胳臂疼。”",
+      "output_sha256": "bd3d01f9260552cd4da6778924b01d68850ad963472d715807b80f747cf0a91a",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "bd3d01f9260552cd4da6778924b01d68850ad963472d715807b80f747cf0a91a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "“別說太大聲，我媽會聽到的。”",
+      "output_sha256": "020e5a40b230e507482d0ab5ded0e10cbada7b7a5ee763a9f63773f94bbc37fd",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.482487,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "f03b8719248e5a9abb54e0d260f58c57e28ca5a25bc3f15aac946bac0c48636e"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "020e5a40b230e507482d0ab5ded0e10cbada7b7a5ee763a9f63773f94bbc37fd",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我抬起頭，看見她的母親在紗窗後面，因此我們改變了話題，開始談論在江上划船去“太陽島”洗澡的事情，這都是在汪林母親不在的情況下進行的。",
+      "output_sha256": "539c3698f303350c96872a7ac2e53090f0679df563135c89f26f14d433cf9fed",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.482721,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "8623c51310f9f352b1954bd2457019568811cdeaa5e1ff66ffb3001d413b1513",
+        "23941be47dd0890b55b875198b7e8a5c1ba3d586837ef2b3038d0bff071fbda7"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "539c3698f303350c96872a7ac2e53090f0679df563135c89f26f14d433cf9fed",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "第二天，她又去洗澡。",
+      "output_sha256": "f645c07cd5848a4c673c1fdf5afcde2c018057642fc5c9b155a7ff6aa584cbd6",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.826307,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "b880d83cf1f1491ab35970c35207219852a8b3889ccfd7c4d22c4ca234b7be5c"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "f645c07cd5848a4c673c1fdf5afcde2c018057642fc5c9b155a7ff6aa584cbd6",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我們三個人租一條小船，在江上蕩着。",
+      "output_sha256": "c1df9596401746765a055cc4c33a3f8b5a3248d66c7e8acd7bc581ff8969fa31",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "c1df9596401746765a055cc4c33a3f8b5a3248d66c7e8acd7bc581ff8969fa31",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "清涼的，水的氣味。",
+      "output_sha256": "b0ad72275235496c9021ff5543f330d6da484a0cc2f7b7aff70471fde313463d",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "b0ad72275235496c9021ff5543f330d6da484a0cc2f7b7aff70471fde313463d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "郎華和我都唱起來了。",
+      "output_sha256": "6787d0fac7f4463b40fa815cd3673884ba23c4d2b5e1b10278b00489f5639e32",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "6787d0fac7f4463b40fa815cd3673884ba23c4d2b5e1b10278b00489f5639e32",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "汪林的嗓子比我們更高。",
+      "output_sha256": "1df08a5ba9d8e83e1b724faab4642d7a528205fdfb25a815d3c469c6e80227f8",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "1df08a5ba9d8e83e1b724faab4642d7a528205fdfb25a815d3c469c6e80227f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "小船浮得飛起來一般。",
+      "output_sha256": "173c1f61a95d9737e1155f2757fcf91e1d00e6451a4597f81d1dad80ae395a05",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "173c1f61a95d9737e1155f2757fcf91e1d00e6451a4597f81d1dad80ae395a05",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "夜晚，我們再次在院子裡乘涼，我的手臂因為搖船而感到疼痛，頭也有些脹。",
+      "output_sha256": "f281791423b0e6b517731736b5650907d44d2ecb7947347141143219dcd6f4e0",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.482773,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "fa70ec2a0746ea33585fe1b712890359f62f7cb5d68a9c7c0929519f2ddd2652"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "f281791423b0e6b517731736b5650907d44d2ecb7947347141143219dcd6f4e0",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我不能再聽那一些話感到趣味。",
+      "output_sha256": "365c6f2be21a32995d4298e769016efba54084081c8d56bf4ab4df13577acc6f",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "365c6f2be21a32995d4298e769016efba54084081c8d56bf4ab4df13577acc6f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "什麼戀愛啦，誰的未婚夫怎樣啦，某某同學結婚，跳舞……我什麼也不聽了，只是想睡。",
+      "output_sha256": "98e7347c778e410926cd0f760f8a13d6923db4d66b8af441b94a65edb9c3cb4f",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "98e7347c778e410926cd0f760f8a13d6923db4d66b8af441b94a65edb9c3cb4f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "“你們談吧。",
+      "output_sha256": "6a2c74ef20634200a3765017a3f46a0b17f0800d4bdc44066c62feb5edf90aea",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "6a2c74ef20634200a3765017a3f46a0b17f0800d4bdc44066c62feb5edf90aea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "我向她和郎華道別。",
+      "output_sha256": "e6ce1a22238d84715a94af8332369c8606b795633766f4161aa9862bcdac8bf4",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.460199,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "03ef2059c4ab135866e3a3e1d55f34e457b144e57dec3733156e16eec0785084"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "e6ce1a22238d84715a94af8332369c8606b795633766f4161aa9862bcdac8bf4",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "小狗在我腳下，我不小心踩到了它，它仍在哽咽地叫著，我便關上了門。",
+      "output_sha256": "d39cadbe075b819fe04d7fcb2aec74b4c6b82fe9d7e833bf97ac9f91e6e5b91d",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.517857,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "613748c351bf6701b4cbe7eea6bd27b83afbd3f9af8dace879502ad2ab87fd5c"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "d39cadbe075b819fe04d7fcb2aec74b4c6b82fe9d7e833bf97ac9f91e6e5b91d",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "那幾天的炎熱讓我們幾乎每天都去洗澡，晚上我也早早入睡。",
+      "output_sha256": "055d73a89faf6827e3c3a7cde69f695d391729c54e2b01c2d797c9cc7a8428be",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.418652,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "24e995a9983624e0e6ebc987c04aac0c0e3e59fccec4a8e532890182d74c9351"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "055d73a89faf6827e3c3a7cde69f695d391729c54e2b01c2d797c9cc7a8428be",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "郎華和汪林則留在寧靜的院子裡。",
+      "output_sha256": "3c5d259fb2056611fb019fc43081f0cad4253d6fe678f49d11c6e8f960332fc8",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.656955,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "0fb7261b8408fac973c589eb88b7031600b613ee26ac1831435b13eb1ddead89"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "3c5d259fb2056611fb019fc43081f0cad4253d6fe678f49d11c6e8f960332fc8",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "只要接近着牀，我什麼全忘了。",
+      "output_sha256": "e1bcc8539f51200e3890bd23b61619d1bc4a2fa210265f2a78ab060c079817bc",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "e1bcc8539f51200e3890bd23b61619d1bc4a2fa210265f2a78ab060c079817bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "汪林那紅色的嘴，那少女的煩悶……夜夜我不知道郎華什麼時候回屋來睡覺。",
+      "output_sha256": "29568d06ddb1fb389f3839ccf801e98080f56ed5d019ed2c875d6d4d44367944",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "29568d06ddb1fb389f3839ccf801e98080f56ed5d019ed2c875d6d4d44367944",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "就這樣，我不知過了幾天了。",
+      "output_sha256": "65ccfef0f72762e35877f2084b292d639b42da55dff7433c1167ebb76454df9d",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "65ccfef0f72762e35877f2084b292d639b42da55dff7433c1167ebb76454df9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "“她對我要好，真是……少女們。”",
+      "output_sha256": "f816e085215cc38c92e252b652c917a393535199cebb7731ddb8b3c013df2aa8",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "f816e085215cc38c92e252b652c917a393535199cebb7731ddb8b3c013df2aa8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "“誰呢？”",
+      "output_sha256": "6bfb110a96a2210a5997e8115a09a6a5c3be773a4998b18a5bf67da18acd040c",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "6bfb110a96a2210a5997e8115a09a6a5c3be773a4998b18a5bf67da18acd040c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "“你還不知道嗎？”",
+      "output_sha256": "b5c5cc44d0d7f96dfa9fec056305a5d36739294ad78e4a7860549814bc8b3863",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.8,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "1ea0ec0c7b3efddafbe5fcf3ac9afba0b57a30855b429e9e509756cb57a48268"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "b5c5cc44d0d7f96dfa9fec056305a5d36739294ad78e4a7860549814bc8b3863",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "“我還不知道。”",
+      "output_sha256": "c65f93600efcc7fd19bbacae50eaa3d254693bd3f62a35aaa7051272414d6a0f",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "c65f93600efcc7fd19bbacae50eaa3d254693bd3f62a35aaa7051272414d6a0f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "我其實知道。",
+      "output_sha256": "8f023ac3c0ce76a5c69fd3afe139a51e91d59a3e7a922ffd68a2ea12b40f8944",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "8f023ac3c0ce76a5c69fd3afe139a51e91d59a3e7a922ffd68a2ea12b40f8944",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "很窮的家庭教師，那樣好看的有錢的女人竟向他要好了。",
+      "output_sha256": "04797eb3612d930609b7cd92e60873d9e994c7d61485777f13bb4df63484473b",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "04797eb3612d930609b7cd92e60873d9e994c7d61485777f13bb4df63484473b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "“我坦白告訴她：我們不能相愛，一方面是吟誦，一方面我們彼此差距太大……你冷靜點……”他這樣告訴我。",
+      "output_sha256": "e535e2aa547a0fc7f9a0a63f1e8157e84c89fb289b770541d8602427861e52b9",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.616461,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "30aaff30deac464650d2b1e9731f295acad91b6c109c3cdcd71657503b5ad25d"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "e535e2aa547a0fc7f9a0a63f1e8157e84c89fb289b770541d8602427861e52b9",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "我們又要去江上划船。",
+      "output_sha256": "554c9014d2c703955993d2480ee38dafe1f698e6cc075cbed57194f513c489a6",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.513638,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "b0f2f1a4e705989788bfe71d339dd087e707a87b06e703261eb627402ff8c6ed"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "554c9014d2c703955993d2480ee38dafe1f698e6cc075cbed57194f513c489a6",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "那天又多了三個人，汪林也在內。",
+      "output_sha256": "f0dff385aab9ed0e0e58949c8159f3453698d7dc365006db5de2ed488012ad08",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "f0dff385aab9ed0e0e58949c8159f3453698d7dc365006db5de2ed488012ad08",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "一共是六個人：陳成和他的女人，郎華和我，汪林，還有那個編輯朋友。",
+      "output_sha256": "92d7d1a43e5053819e2ccc8696843ae8a8a8f9480bc906073279845286d07813",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "92d7d1a43e5053819e2ccc8696843ae8a8a8f9480bc906073279845286d07813",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 18,
+      "origin": "ai",
+      "text": "停在江邊的小船隨著水波輕輕搖晃。",
+      "output_sha256": "d4c4fe3626291403d0cf5ec141861226e6b43095c1baac9c47d6ffee0344d246",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.458346,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "1e7d768df447c1a156f5283ed418a8ff8ee556e129ba7f6b712070cc22ce78c8"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "d4c4fe3626291403d0cf5ec141861226e6b43095c1baac9c47d6ffee0344d246",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 18,
+      "origin": "ai",
+      "text": "我們四個跳上一條船，當然把汪林和那位稍胖的人留下，他們兩人就站在石堤上。",
+      "output_sha256": "2b7ea6a478c11f31241f23681f4777b3a8b8dbd6288da67ef44e5f47d49be31e",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.779132,
+      "human_sentence_indices": [
+        36,
+        37
+      ],
+      "human_sha256": [
+        "2009d0389b3507a2e3657444f71c198e97ba428090837c2472d3e22c38232840",
+        "2378bafabbe53104f00bae97af145903ed191b4057a6872430e558a5b986121c"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "2b7ea6a478c11f31241f23681f4777b3a8b8dbd6288da67ef44e5f47d49be31e",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "本來是很生疏的，因爲都是一對一對的，所以我們故意要看他們兩個也配成一對，我們的船離岸很遠了。",
+      "output_sha256": "22c34fb8bfb24b36e5e984dcf9d0ef0c4f372a227d67052ffd7f17bb9eecf930",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "22c34fb8bfb24b36e5e984dcf9d0ef0c4f372a227d67052ffd7f17bb9eecf930",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "“你們壞呀！",
+      "output_sha256": "11bd9eb1559d6b6c8149f71b461321b24e686e2194455ce21f5782d704be062f",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "11bd9eb1559d6b6c8149f71b461321b24e686e2194455ce21f5782d704be062f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "你們壞呀！”",
+      "output_sha256": "1a608631bcc2c5007a98dea61189151e551a37a1c91e909f316ff63b135442e7",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "1a608631bcc2c5007a98dea61189151e551a37a1c91e909f316ff63b135442e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "汪林仍叫着。",
+      "output_sha256": "c99b8d642e3da00d1a8a9499aab3603d937c6db23062d399d36b2656a3c44329",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "c99b8d642e3da00d1a8a9499aab3603d937c6db23062d399d36b2656a3c44329",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "爲什麼罵我們壞呢？",
+      "output_sha256": "450d086a4f7b3a3cb58f42c51a182a36b7426ae4aae7a7b6c1acffb2470c3b79",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "450d086a4f7b3a3cb58f42c51a182a36b7426ae4aae7a7b6c1acffb2470c3b79",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "那人不是她一個很好的小水手嗎？",
+      "output_sha256": "2107a478adc95f885042e1f977a08d3565d622b97e28012915473b5643b13c76",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "2107a478adc95f885042e1f977a08d3565d622b97e28012915473b5643b13c76",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "為她划槳有什麼不願意的呢？",
+      "output_sha256": "542b57dd19ad9f08cff68c45e09b03963cf2895dc44de193eda2291bf246e139",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.6375,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "596ccd97dee32500398741bd87037c6f058233a1941959845da0e1ae132ae853"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "542b57dd19ad9f08cff68c45e09b03963cf2895dc44de193eda2291bf246e139",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "也許汪林和我的感情最好，也許她最願意和我同船。",
+      "output_sha256": "9de3947b290419140138be9efd633b9ef4f1b8b4e62a611c408a6fbca506467f",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "9de3947b290419140138be9efd633b9ef4f1b8b4e62a611c408a6fbca506467f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "船越行越遠，岸上的聲音漸漸被隔絕，江邊的人影也逐漸模糊。",
+      "output_sha256": "e0d79a6c0487b28ab254513fb9ccaaaf91759183bf77542c80187d05a8d53bd0",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.483548,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "140f635b0950322fee5e805a9ef3a2b89802bfa8ee599e100c6ec2102c6320b5"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "e0d79a6c0487b28ab254513fb9ccaaaf91759183bf77542c80187d05a8d53bd0",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "水聲，浪聲，郎華和陳成混合着江聲在唱。",
+      "output_sha256": "242aeb8475433cec7305f1d06d75aafabf69150b0e55152afd0d8b9b6bbea27f",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "242aeb8475433cec7305f1d06d75aafabf69150b0e55152afd0d8b9b6bbea27f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "遠遠近近的那一些女人的陽傘，這一些船，這一些幸福的船呀！",
+      "output_sha256": "196933746149fa0d66a8dd00e633d91f46dc200f79972359b344e23c83a11470",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "196933746149fa0d66a8dd00e633d91f46dc200f79972359b344e23c83a11470",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "江面上滿是幸福的船，滿江都是幸福！",
+      "output_sha256": "1fd5aa7c6567d6cb32ad46f8da68fd6a1aa61b92eee8048f7f17fbc62966d586",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.675,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "ea0d72f0bb2e6de6606dd09854d6a1d7040e2887fbe82f66da3468e3be56919f"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "1fd5aa7c6567d6cb32ad46f8da68fd6a1aa61b92eee8048f7f17fbc62966d586",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "人間，岸上，沒有罪惡了罷！",
+      "output_sha256": "2e86381bc22d19d8533e5100884a52d84b856cd2e2d83d21ad6110e0bc7cd907",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "2e86381bc22d19d8533e5100884a52d84b856cd2e2d83d21ad6110e0bc7cd907",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "再也聽不見汪林的呼喊，他們的船已經與我們相距甚遠。",
+      "output_sha256": "466c85a3909a4767ccf1f842b89a7645762a56ac0c7e1eed404bf4dbcf8c14ab",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.607213,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "3c86beca607bd7104b54d209061ead72b90d6ec3a914b8b331a2b784ff35cef8"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "466c85a3909a4767ccf1f842b89a7645762a56ac0c7e1eed404bf4dbcf8c14ab",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "郎華故意把槳打起的水星落到我的臉上。",
+      "output_sha256": "16a0f4162c3be3fa5fd9a0e5f73c7facd198191d77d6581896ad374c1a138f33",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "16a0f4162c3be3fa5fd9a0e5f73c7facd198191d77d6581896ad374c1a138f33",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "船越行越慢，但郎華和陳成流起汗來。",
+      "output_sha256": "2031ed9ce21003fec34ceeaf9979cfe6c6defe31c0dcce69a723f18ea5052e11",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "2031ed9ce21003fec34ceeaf9979cfe6c6defe31c0dcce69a723f18ea5052e11",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "槳板打到江心的沙灘了，小船就要擱淺在沙灘上。",
+      "output_sha256": "bc704f600d71e013a4551f8a0483f34fa84199fd3ecbc086d840500b890b7880",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "bc704f600d71e013a4551f8a0483f34fa84199fd3ecbc086d840500b890b7880",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "這兩個勇敢的大魚似的跳下水去，在大江上挽着船行。",
+      "output_sha256": "a6efef8c771d1ee7a9851a1626b82f5d319527edf72adc5da514914915496dfc",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "a6efef8c771d1ee7a9851a1626b82f5d319527edf72adc5da514914915496dfc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 24,
+      "origin": "ai",
+      "text": "一進入灣，船可以隨意停靠在任何地方。",
+      "output_sha256": "67498971df1ada8fc626ff5f1b035c3623bfa3b5020555d9c4a66d487042a248",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.490833,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "074677c6a55681fcfdaa12467ea0f6dc2208f19b95e437e58eda8e307c0cf982"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "67498971df1ada8fc626ff5f1b035c3623bfa3b5020555d9c4a66d487042a248",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "我鳧水是這樣鳧的：把頭昂在水外，我也移動着，看起來在鳧，其實手卻抓着江底的泥沙，鱷魚一樣，四條腿一起爬着鳧。",
+      "output_sha256": "bb849efbfe99c4e6e85adb5b6984ae9e76c5f6cae64b996c2ccf011608cbd870",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "bb849efbfe99c4e6e85adb5b6984ae9e76c5f6cae64b996c2ccf011608cbd870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "當船接近時，我聽見汪林在叫。",
+      "output_sha256": "4c68aa5d710a842990f5ca3f6ec00727602793d16be7b132af6ae524c9ef575f",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.534868,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "59d2a831639a97ac8f968a8bcdab9434e8a97b8209074117449c39bd1a82507d"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "4c68aa5d710a842990f5ca3f6ec00727602793d16be7b132af6ae524c9ef575f",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "很快她脫了衣裳，也和我一樣抓着江底在爬，但她是快樂的，爬得很有意思。",
+      "output_sha256": "d12645f6999336607fc1c555e138ca7cadee16042186672999d3b41439261ca4",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "d12645f6999336607fc1c555e138ca7cadee16042186672999d3b41439261ca4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "在沙灘上玩耍時，我們變得更加熟悉。",
+      "output_sha256": "3aef8dc16b0941f22c61b7defa76a8fc4723628c68393a920af023446cc6f50e",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.448635,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "7797fb04f798c4b51268e5ec1a821157444fdb0ba8abc14647961dde786a50c8"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "3aef8dc16b0941f22c61b7defa76a8fc4723628c68393a920af023446cc6f50e",
+      "ai_unit_sentence_indices": [
+        51,
+        52
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "她撐起陽傘，為同船的夥伴遮擋陽光，保護著他。",
+      "output_sha256": "fcc499de626498c35ed9acf588cdc0f20eafa7dc629e2fe02c1f56960c5c2c4a",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.448635,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "7797fb04f798c4b51268e5ec1a821157444fdb0ba8abc14647961dde786a50c8"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "fcc499de626498c35ed9acf588cdc0f20eafa7dc629e2fe02c1f56960c5c2c4a",
+      "ai_unit_sentence_indices": [
+        51,
+        52
+      ]
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 26,
+      "origin": "human",
+      "text": "陳成揚着沙子飛向他，“陵，着鏢吧！”",
+      "output_sha256": "43f723220559a608ca046c26cef69db20d72232b9ecf963c113987dc95810013",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "43f723220559a608ca046c26cef69db20d72232b9ecf963c113987dc95810013",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "汪林和陵站了一隊，用沙子反攻。",
+      "output_sha256": "727e979428c91a77dc6ac1a921996defac13549dd69fb7aa197c0d8d6fe0aa6c",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "727e979428c91a77dc6ac1a921996defac13549dd69fb7aa197c0d8d6fe0aa6c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 28,
+      "origin": "ai",
+      "text": "我們的船剛離開灣，已經在江上行駛，而他們兩個仍在沙灘上走著。",
+      "output_sha256": "364fc9f8aba141a8c2ca5715be14bcbe88350e100bc440138155d8a9737a5af1",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.670425,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "2a50b803ea9d306d97f878517b5e336ef04b474025aec88e44f0d44a55ca4101"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "364fc9f8aba141a8c2ca5715be14bcbe88350e100bc440138155d8a9737a5af1",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 29,
+      "origin": "human",
+      "text": "“你們先走吧，看我們誰先上岸。”",
+      "output_sha256": "1b18dcd2f941cd510c8dc26b66ddca6e4fcdf0ef3000b8c3b3616ee0b3c5e34d",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "1b18dcd2f941cd510c8dc26b66ddca6e4fcdf0ef3000b8c3b3616ee0b3c5e34d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 29,
+      "origin": "human",
+      "text": "汪林說。",
+      "output_sha256": "e617823733968f245b893cec695f43133982d378dff5032a402fbb5b5bf2c5bc",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "e617823733968f245b893cec695f43133982d378dff5032a402fbb5b5bf2c5bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 30,
+      "origin": "human",
+      "text": "太陽的熱力在江面上開始減低，船是順水行下去的。",
+      "output_sha256": "2363a6d4aed8dcb85f083fd098f17432c542a93ebf80d80fd14687bc134cf85f",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "2363a6d4aed8dcb85f083fd098f17432c542a93ebf80d80fd14687bc134cf85f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 30,
+      "origin": "human",
+      "text": "他們還沒有來，看過多少隻船，看過多少柄陽傘，然而沒有汪林的陽傘。",
+      "output_sha256": "84b32fec0ec75931533004ae8e439097ec684ee697b5995b9c43c5ad2cc489b2",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "84b32fec0ec75931533004ae8e439097ec684ee697b5995b9c43c5ad2cc489b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 30,
+      "origin": "human",
+      "text": "太陽西沉時，江風很大了，浪也很高，我們有點擔心那隻船。",
+      "output_sha256": "cf5be4ca10bd4e0e0e4c6a593ee35f3a4ffef9be0d6905e625969600a19831b1",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "cf5be4ca10bd4e0e0e4c6a593ee35f3a4ffef9be0d6905e625969600a19831b1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 30,
+      "origin": "human",
+      "text": "李說那隻船是“迷船”。",
+      "output_sha256": "77b3271e4b1b876f7a04ec67d5f3e309a8ca8f6f79f4b82c1c615edf70229cc3",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "77b3271e4b1b876f7a04ec67d5f3e309a8ca8f6f79f4b82c1c615edf70229cc3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 31,
+      "origin": "ai",
+      "text": "四個人在岸上等著這艘“迷船”，意想不到的是，他們繞著彎子從上游而來。",
+      "output_sha256": "a66140876e1ad171afc0ed092cf0b5c77a83e71b9186ef123542ef54b1d4a936",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.766985,
+      "human_sentence_indices": [
+        70
+      ],
+      "human_sha256": [
+        "60b1f7ff33a860e28013c4a163e9b000323a0c5ec4d457be303d5c86014733e6"
+      ],
+      "source_ai_sentence_index": 62,
+      "source_ai_sha256": "a66140876e1ad171afc0ed092cf0b5c77a83e71b9186ef123542ef54b1d4a936",
+      "ai_unit_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 32,
+      "origin": "ai",
+      "text": "汪林不再罵我們是壞人，風吹起她的頭髮，興奮的樣子讓這次划船似乎讓她獲得了更大的快樂。",
+      "output_sha256": "9d6efaf39687fceed6fb3f02aa5f777201dbb909537eb76f633b847d5b5c16c8",
+      "alignment_unit_index": 63,
+      "alignment_score": 0.618436,
+      "human_sentence_indices": [
+        71
+      ],
+      "human_sha256": [
+        "9c04159dd0c05065e854b75091c5269048f547eacba1c3b952cbf851d4e2c488"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "9d6efaf39687fceed6fb3f02aa5f777201dbb909537eb76f633b847d5b5c16c8",
+      "ai_unit_sentence_indices": [
+        63
+      ]
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 33,
+      "origin": "human",
+      "text": "早晨在看報時，編輯居然作詩了。",
+      "output_sha256": "8cb757462dc7f3fad3ff28dd24799b5f6470b3a3318633d35c36bcf9d6739faf",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 72,
+      "source_human_sha256": "8cb757462dc7f3fad3ff28dd24799b5f6470b3a3318633d35c36bcf9d6739faf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 33,
+      "origin": "human",
+      "text": "大概就是這樣的意思：願意風把船吹翻，願意和美人一起沉下江去……",
+      "output_sha256": "633c79ae5f23c23dbd22dcc7633f2194a9d84d7452bb4cb0f457b87139f7f01c",
+      "alignment_unit_index": 65,
+      "alignment_score": null,
+      "source_human_sentence_index": 73,
+      "source_human_sha256": "633c79ae5f23c23dbd22dcc7633f2194a9d84d7452bb4cb0f457b87139f7f01c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 73,
+      "paragraph_index": 34,
+      "origin": "human",
+      "text": "我這樣一說，就沒有詩意了。",
+      "output_sha256": "e9f49ff6545c049c6a884c03ec7a4338e50db5ccd568f54691667836065f0444",
+      "alignment_unit_index": 66,
+      "alignment_score": null,
+      "source_human_sentence_index": 74,
+      "source_human_sha256": "e9f49ff6545c049c6a884c03ec7a4338e50db5ccd568f54691667836065f0444",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 74,
+      "paragraph_index": 34,
+      "origin": "ai",
+      "text": "總之，這可不是前幾天那種話，什麼摩登女子吃“血”活著，小姐們的嘴是吃“血”的嘴……總之並非那一套。",
+      "output_sha256": "01d08a6cf368c0ce2235e96557964754cc0d663d1831e2dcb89d98562658d7d8",
+      "alignment_unit_index": 67,
+      "alignment_score": 0.755159,
+      "human_sentence_indices": [
+        75
+      ],
+      "human_sha256": [
+        "0479707988959df615f5b767c6a03a7f764c534abe0f09ad0ae36ede2fa7162a"
+      ],
+      "source_ai_sentence_index": 67,
+      "source_ai_sha256": "01d08a6cf368c0ce2235e96557964754cc0d663d1831e2dcb89d98562658d7d8",
+      "ai_unit_sentence_indices": [
+        67
+      ]
+    },
+    {
+      "sentence_index": 75,
+      "paragraph_index": 34,
+      "origin": "ai",
+      "text": "這一套比那一套文雅得多，這套說摩登女子是天仙，那套則說摩登女子是惡魔。",
+      "output_sha256": "2a24665c5d1f32b9f929fb446c9f44aff872486c40005a6ce9cd13c4d631ab36",
+      "alignment_unit_index": 68,
+      "alignment_score": 0.874119,
+      "human_sentence_indices": [
+        76
+      ],
+      "human_sha256": [
+        "8642a367f52667b99a87f3fdd16af2c4ab94cdb41d96e3224b51815b670131c1"
+      ],
+      "source_ai_sentence_index": 68,
+      "source_ai_sha256": "2a24665c5d1f32b9f929fb446c9f44aff872486c40005a6ce9cd13c4d631ab36",
+      "ai_unit_sentence_indices": [
+        68
+      ]
+    },
+    {
+      "sentence_index": 76,
+      "paragraph_index": 35,
+      "origin": "human",
+      "text": "汪林和郎華在夜間也不那麼談話了。",
+      "output_sha256": "84e96aa670ea9df03faefb59f6d8b89d1b72fd4ed71d31a6712e79f996072ffc",
+      "alignment_unit_index": 69,
+      "alignment_score": null,
+      "source_human_sentence_index": 77,
+      "source_human_sha256": "84e96aa670ea9df03faefb59f6d8b89d1b72fd4ed71d31a6712e79f996072ffc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 77,
+      "paragraph_index": 35,
+      "origin": "ai",
+      "text": "陵編輯一來，她便常常到我們房間，這使得陵來我們家的次數增多。",
+      "output_sha256": "f9d78cfc719eb501911c1df0145ec27b65cfab7dcf522dc7416bdbaf2ef84a3d",
+      "alignment_unit_index": 70,
+      "alignment_score": 0.585256,
+      "human_sentence_indices": [
+        78
+      ],
+      "human_sha256": [
+        "bca4c302794a54ff5f4dd971569ecc441d5063c82fe55a32bc04d3fe493031ba"
+      ],
+      "source_ai_sentence_index": 70,
+      "source_ai_sha256": "f9d78cfc719eb501911c1df0145ec27b65cfab7dcf522dc7416bdbaf2ef84a3d",
+      "ai_unit_sentence_indices": [
+        70
+      ]
+    },
+    {
+      "sentence_index": 78,
+      "paragraph_index": 36,
+      "origin": "human",
+      "text": "“今天早點走……多玩一會，你們在街角等我。”",
+      "output_sha256": "418e3edcbf101b8a0cce7c8ae5b8c450415149468f86c302effd7313e2d6eb03",
+      "alignment_unit_index": 71,
+      "alignment_score": null,
+      "source_human_sentence_index": 79,
+      "source_human_sha256": "418e3edcbf101b8a0cce7c8ae5b8c450415149468f86c302effd7313e2d6eb03",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 79,
+      "paragraph_index": 36,
+      "origin": "human",
+      "text": "這樣的話，汪林再不向我們說了。",
+      "output_sha256": "cb3507a4397d56b03fba8fa55906ee522bfdbbadac721f03b28b2fe0872c2e8d",
+      "alignment_unit_index": 72,
+      "alignment_score": null,
+      "source_human_sentence_index": 80,
+      "source_human_sha256": "cb3507a4397d56b03fba8fa55906ee522bfdbbadac721f03b28b2fe0872c2e8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 80,
+      "paragraph_index": 36,
+      "origin": "human",
+      "text": "她用不到約我們去“太陽島”了。",
+      "output_sha256": "20897215e66e17f879f4290ddbd0da5de04c4653ce71d5099d7131c440cbad42",
+      "alignment_unit_index": 73,
+      "alignment_score": null,
+      "source_human_sentence_index": 81,
+      "source_human_sha256": "20897215e66e17f879f4290ddbd0da5de04c4653ce71d5099d7131c440cbad42",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 81,
+      "paragraph_index": 37,
+      "origin": "human",
+      "text": "伴着這吃人血的女子在街上走，在電影院裏會，他也不怕她會吃他的血，還說什麼怕呢，常常在那紅色的嘴上接吻，正因爲她的嘴和血一樣紅纔可愛。",
+      "output_sha256": "b9197fcaa711d2eaa3eac7ec2968718a2f5c20889853c11399d2e9b2363794bf",
+      "alignment_unit_index": 74,
+      "alignment_score": null,
+      "source_human_sentence_index": 82,
+      "source_human_sha256": "b9197fcaa711d2eaa3eac7ec2968718a2f5c20889853c11399d2e9b2363794bf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 82,
+      "paragraph_index": 38,
+      "origin": "human",
+      "text": "罵小姐們是惡魔是羨慕的意思，是伸手去攫取怕她逃避的意思。",
+      "output_sha256": "9ef37f2d5b408f400e66de1dfa747d7d6581219273db92f3f4d8b115623e5048",
+      "alignment_unit_index": 75,
+      "alignment_score": null,
+      "source_human_sentence_index": 83,
+      "source_human_sha256": "9ef37f2d5b408f400e66de1dfa747d7d6581219273db92f3f4d8b115623e5048",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 83,
+      "paragraph_index": 39,
+      "origin": "ai",
+      "text": "在街上，汪林的高跟鞋，陵的亮皮鞋，輕快的聲響和諧地交融著。",
+      "output_sha256": "2702ce8a55edab2167e82b4af96fd809c19c84d97cbc078faf480ba6c3791ebf",
+      "alignment_unit_index": 76,
+      "alignment_score": 0.67775,
+      "human_sentence_indices": [
+        84
+      ],
+      "human_sha256": [
+        "aef6d24ca6f131349af6f9b9270014bf40bea1a22d90a7f77d31ac0f20981463"
+      ],
+      "source_ai_sentence_index": 76,
+      "source_ai_sha256": "2702ce8a55edab2167e82b4af96fd809c19c84d97cbc078faf480ba6c3791ebf",
+      "ai_unit_sentence_indices": [
+        76
+      ]
+    }
+  ]
+}

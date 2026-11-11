@@ -1,0 +1,10 @@
+model: typesafe/jev-1.14
+endpoint: https://openrouter.ai/api/alpha/decisions
+data:
+- data/dataset.block-human-rewritten.zh.json
+- data/dataset.block-human-rewritten.en.json
+output:
+- result/responses.noul.block-human-rewritten.zh.jsonl
+- result/responses.noul.block-human-rewritten.en.jsonl
+concurrency: 2
+repeat: 1

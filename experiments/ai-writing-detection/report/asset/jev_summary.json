@@ -1,0 +1,348 @@
+{
+  "threshold": 0.5,
+  "groups": {
+    "article_zh": {
+      "n": 200,
+      "tp": 52,
+      "tn": 99,
+      "fp": 1,
+      "fn": 48,
+      "accuracy": 0.755,
+      "sensitivity": 0.52,
+      "specificity": 0.99,
+      "precision": 0.9811320754716981,
+      "f1": 0.6797385620915032,
+      "balanced_accuracy": 0.755,
+      "roc_auc": 0.9558,
+      "brier": 0.158678,
+      "mean_human_probability": 0.19140000000000001,
+      "mean_ai_probability": 0.4986,
+      "median_human_probability": 0.175,
+      "median_ai_probability": 0.51,
+      "cluster_bootstrap_95ci": {
+        "accuracy": [
+          0.705,
+          0.805
+        ],
+        "sensitivity": [
+          0.42,
+          0.62
+        ],
+        "specificity": [
+          0.97,
+          1.0
+        ],
+        "roc_auc": [
+          0.9335975,
+          0.97525125
+        ]
+      },
+      "paired": {
+        "pairs": 100,
+        "ai_probability_higher": 1.0,
+        "ties": 0.0,
+        "mean_probability_difference": 0.30720000000000003,
+        "median_probability_difference": 0.29000000000000004
+      }
+    },
+    "article_en": {
+      "n": 200,
+      "tp": 99,
+      "tn": 100,
+      "fp": 0,
+      "fn": 1,
+      "accuracy": 0.995,
+      "sensitivity": 0.99,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1": 0.9949748743718593,
+      "balanced_accuracy": 0.995,
+      "roc_auc": 1.0,
+      "brier": 0.0570935,
+      "mean_human_probability": 0.1747,
+      "mean_ai_probability": 0.7304,
+      "median_human_probability": 0.16,
+      "median_ai_probability": 0.745,
+      "cluster_bootstrap_95ci": {
+        "accuracy": [
+          0.985,
+          1.0
+        ],
+        "sensitivity": [
+          0.97,
+          1.0
+        ],
+        "specificity": [
+          1.0,
+          1.0
+        ],
+        "roc_auc": [
+          1.0,
+          1.0
+        ]
+      },
+      "paired": {
+        "pairs": 100,
+        "ai_probability_higher": 1.0,
+        "ties": 0.0,
+        "mean_probability_difference": 0.5557,
+        "median_probability_difference": 0.56
+      }
+    },
+    "block_zh": {
+      "n": 600,
+      "tp": 164,
+      "tn": 296,
+      "fp": 4,
+      "fn": 136,
+      "accuracy": 0.7666666666666667,
+      "sensitivity": 0.5466666666666666,
+      "specificity": 0.9866666666666667,
+      "precision": 0.9761904761904762,
+      "f1": 0.7008547008547009,
+      "balanced_accuracy": 0.7666666666666666,
+      "roc_auc": 0.9517666666666666,
+      "brier": 0.1580455,
+      "mean_human_probability": 0.22843333333333332,
+      "mean_ai_probability": 0.5130666666666667,
+      "median_human_probability": 0.21,
+      "median_ai_probability": 0.51,
+      "cluster_bootstrap_95ci": {
+        "accuracy": [
+          0.7333333333333333,
+          0.7983749999999998
+        ],
+        "sensitivity": [
+          0.48,
+          0.6133333333333333
+        ],
+        "specificity": [
+          0.9733333333333334,
+          0.9966666666666667
+        ],
+        "roc_auc": [
+          0.9349097222222222,
+          0.9664005555555556
+        ]
+      },
+      "paired": {
+        "pairs": 300,
+        "ai_probability_higher": 0.9966666666666667,
+        "ties": 0.0,
+        "mean_probability_difference": 0.28463333333333335,
+        "median_probability_difference": 0.27
+      },
+      "localization": {
+        "positions": {
+          "1": {
+            "n": 200,
+            "tp": 65,
+            "tn": 99,
+            "fp": 1,
+            "fn": 35,
+            "accuracy": 0.82,
+            "sensitivity": 0.65,
+            "specificity": 0.99,
+            "precision": 0.9848484848484849,
+            "f1": 0.7831325301204819,
+            "balanced_accuracy": 0.8200000000000001,
+            "roc_auc": 0.97685,
+            "brier": 0.140923,
+            "mean_human_probability": 0.2382,
+            "mean_ai_probability": 0.5482,
+            "median_human_probability": 0.215,
+            "median_ai_probability": 0.56
+          },
+          "2": {
+            "n": 200,
+            "tp": 56,
+            "tn": 100,
+            "fp": 0,
+            "fn": 44,
+            "accuracy": 0.78,
+            "sensitivity": 0.56,
+            "specificity": 1.0,
+            "precision": 1.0,
+            "f1": 0.717948717948718,
+            "balanced_accuracy": 0.78,
+            "roc_auc": 0.96075,
+            "brier": 0.152016,
+            "mean_human_probability": 0.2334,
+            "mean_ai_probability": 0.5262,
+            "median_human_probability": 0.21,
+            "median_ai_probability": 0.51
+          },
+          "3": {
+            "n": 200,
+            "tp": 43,
+            "tn": 97,
+            "fp": 3,
+            "fn": 57,
+            "accuracy": 0.7,
+            "sensitivity": 0.43,
+            "specificity": 0.97,
+            "precision": 0.9347826086956522,
+            "f1": 0.5890410958904109,
+            "balanced_accuracy": 0.7,
+            "roc_auc": 0.9252,
+            "brier": 0.1811975,
+            "mean_human_probability": 0.2137,
+            "mean_ai_probability": 0.4648,
+            "median_human_probability": 0.19,
+            "median_ai_probability": 0.445
+          }
+        },
+        "sources": 100,
+        "all_three_ai_blocks_detected": 0.23,
+        "at_least_one_ai_block_detected": 0.84,
+        "majority_ai_blocks_detected": 0.57,
+        "all_three_human_blocks_rejected": 0.96
+      }
+    },
+    "block_en": {
+      "n": 600,
+      "tp": 295,
+      "tn": 297,
+      "fp": 3,
+      "fn": 5,
+      "accuracy": 0.9866666666666667,
+      "sensitivity": 0.9833333333333333,
+      "specificity": 0.99,
+      "precision": 0.9899328859060402,
+      "f1": 0.9866220735785953,
+      "balanced_accuracy": 0.9866666666666666,
+      "roc_auc": 0.99945,
+      "brier": 0.061262,
+      "mean_human_probability": 0.1865,
+      "mean_ai_probability": 0.7291666666666666,
+      "median_human_probability": 0.17,
+      "median_ai_probability": 0.74,
+      "cluster_bootstrap_95ci": {
+        "accuracy": [
+          0.9766666666666667,
+          0.995
+        ],
+        "sensitivity": [
+          0.9666666666666667,
+          0.9966666666666667
+        ],
+        "specificity": [
+          0.9766666666666667,
+          1.0
+        ],
+        "roc_auc": [
+          0.9984443055555556,
+          1.0
+        ]
+      },
+      "paired": {
+        "pairs": 300,
+        "ai_probability_higher": 1.0,
+        "ties": 0.0,
+        "mean_probability_difference": 0.5426666666666666,
+        "median_probability_difference": 0.55
+      },
+      "localization": {
+        "positions": {
+          "1": {
+            "n": 200,
+            "tp": 99,
+            "tn": 99,
+            "fp": 1,
+            "fn": 1,
+            "accuracy": 0.99,
+            "sensitivity": 0.99,
+            "specificity": 0.99,
+            "precision": 0.99,
+            "f1": 0.99,
+            "balanced_accuracy": 0.99,
+            "roc_auc": 0.9999,
+            "brier": 0.054945,
+            "mean_human_probability": 0.19090000000000001,
+            "mean_ai_probability": 0.7537,
+            "median_human_probability": 0.17,
+            "median_ai_probability": 0.77
+          },
+          "2": {
+            "n": 200,
+            "tp": 98,
+            "tn": 99,
+            "fp": 1,
+            "fn": 2,
+            "accuracy": 0.985,
+            "sensitivity": 0.98,
+            "specificity": 0.99,
+            "precision": 0.98989898989899,
+            "f1": 0.9849246231155778,
+            "balanced_accuracy": 0.985,
+            "roc_auc": 0.9998,
+            "brier": 0.065472,
+            "mean_human_probability": 0.1816,
+            "mean_ai_probability": 0.7092,
+            "median_human_probability": 0.16,
+            "median_ai_probability": 0.72
+          },
+          "3": {
+            "n": 200,
+            "tp": 98,
+            "tn": 99,
+            "fp": 1,
+            "fn": 2,
+            "accuracy": 0.985,
+            "sensitivity": 0.98,
+            "specificity": 0.99,
+            "precision": 0.98989898989899,
+            "f1": 0.9849246231155778,
+            "balanced_accuracy": 0.985,
+            "roc_auc": 0.9985,
+            "brier": 0.063369,
+            "mean_human_probability": 0.187,
+            "mean_ai_probability": 0.7246,
+            "median_human_probability": 0.165,
+            "median_ai_probability": 0.74
+          }
+        },
+        "sources": 100,
+        "all_three_ai_blocks_detected": 0.95,
+        "at_least_one_ai_block_detected": 1.0,
+        "majority_ai_blocks_detected": 1.0,
+        "all_three_human_blocks_rejected": 0.97
+      }
+    }
+  },
+  "cost": {
+    "article_zh": {
+      "requests": 200,
+      "input_tokens": 429083,
+      "cost_usd": 0.018021486000000007,
+      "mean_cost_usd": 9.010743e-05
+    },
+    "article_en": {
+      "requests": 200,
+      "input_tokens": 355580,
+      "cost_usd": 0.014934359999999999,
+      "mean_cost_usd": 7.46718e-05
+    },
+    "block_zh": {
+      "requests": 600,
+      "input_tokens": 583648,
+      "cost_usd": 0.024513216000000032,
+      "mean_cost_usd": 4.085536e-05
+    },
+    "block_en": {
+      "requests": 600,
+      "input_tokens": 496160,
+      "cost_usd": 0.020838719999999998,
+      "mean_cost_usd": 3.47312e-05
+    },
+    "total": {
+      "requests": 1600,
+      "input_tokens": 1864471,
+      "cost_usd": 0.07830778199999984,
+      "mean_cost_usd": 4.8942363750000003e-05
+    }
+  },
+  "models": [
+    "typesafe/jev-1.14-20261014"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "source_id": "EN061",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "d1d93016bb61e2ae29e1956d87e85969b9dbf6ffa62143e39fa7fbbea8c01f1a",
+    "c1bc5356f208b158088078706987228fa2e02a04fdea45d38f8786b404483a36",
+    "0ac5168cd1e9e3e032ebc989f5dab1220d71d5c4e521337c2de589a7ccf50852"
+  ],
+  "source_block_sha256": "d1d93016bb61e2ae29e1956d87e85969b9dbf6ffa62143e39fa7fbbea8c01f1a",
+  "ai_block_sha256": "746c4b1c3c35f86ad6b079a747a5a26ae204a3ed236aaea6fcdb9b883ce93c40",
+  "mixed_sha256": "1d294088c3c2e08c7286b6f5a44485b2c7ea0c43328975b6144b9e0f436fbb91",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 298-446 words, aiming for 372. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nI have just read a serious column on the prospects for next year. This article consisted of contributions from experts in the various branches of industry (including one from a meteorological expert who, I need hardly tell you, forecasted a wet summer) and ended with a general summing up of the year by Old Moore or one of the minor prophets. Old Moore, I am sorry to say, left me cold.\n\nI should like to believe in astrology, but I cannot. I should like to believe that the heavenly bodies sort themselves into certain positions in order that Zadkiel may be kept in touch with the future; the idea of a star whizzing a million miles out of its path by way of indicating a \"sensational divorce case in high life\" is extraordinarily massive. But, candidly, I do not believe the stars bother. What the stars are for, what they are like when you get there, I do not know; but a starry night would not be so beautiful if it were simply meant as a warning to some unpleasant financier that Kaffirs were going up. The ordinary man looks at the heavens and thinks what an insignificant atom he is beneath them; the believer in astrology looks up and realizes afresh his overwhelming importance. Perhaps, after all, I am glad I do not believe.\n\nLife must be a very tricky thing for the superstitious. At dinner a night or two ago I happened to say that I had never been in danger of drowning. I am not sure now that it was true, but I still think that it was harmless. However, before I had time to elaborate my theme (whatever it was) I was peremptorily ordered to touch wood. I protested that both my feet were on the polished oak and both my elbows on the polished mahogany (one always knew that some good instinct inspired the pleasant habit of elbows on the table) and that anyhow I did not see the need. However, because one must not argue at dinner I tapped the table two or three times… and now I suppose I am immune. At the same time I should like to know exactly whom I have appeased."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 611,
+    "completion_tokens": 400,
+    "total_tokens": 1011,
+    "cost": 0.00033165,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00033165,
+      "upstream_inference_prompt_cost": 9.165e-05,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00033165,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 372,
+    "output_words": 341,
+    "lower_words": 298,
+    "upper_words": 446,
+    "source_paragraphs": 3,
+    "output_paragraphs": 3,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.01483679525222552,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "746c4b1c3c35f86ad6b079a747a5a26ae204a3ed236aaea6fcdb9b883ce93c40",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN061.txt",
+  "mixed_path": "clean/mixed/en/EN061.txt",
+  "response_path": "raw/mixed/en/EN061.response.json"
+}

@@ -1,0 +1,72 @@
+{
+  "source_id": "EN079",
+  "target_position": 3,
+  "attempt": 1,
+  "generated_at_utc": "2026-10-26T12:48:52.387610+00:00",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "http_status": 200,
+  "request_body": {
+    "model": "openai/gpt-4o-mini-2024-07-18",
+    "temperature": 0.7,
+    "top_p": 1,
+    "max_tokens": 2500,
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+      },
+      {
+        "role": "user",
+        "content": "Rewrite the source block in 250-330 words, aiming for 275. Use exactly 2 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nTo be always correct is a dangerous thing. I have noticed that the people who are late are often so much jollier than the people who have to wait for them. Looking deeply into the matter, I realised that Punctualia, for all her complacency and air of rectitude, has lost a great many lives. The logic of the thing is inexorable. If you are late for the train, you miss it; and if you are not in it and it is wrecked, you live on—to miss others. I recalled one very remarkable case in point which happened in my own family circle. A relation of mine, with her daughter, had arranged to spend a holiday in the Channel Islands. A cabman promised and failed, arriving in time only to whip his horse all the way across London and miss the train by a minute. When, the next day, it was learned that the Channel Islands boat had struck the Casquettes and had gone down the ladies were so excited by their escape that they sought the cabman and by way of gratitude adopted one of his numerous children. That is a true story, and it is surely a very eloquent supporter of an anti-punctual policy. Had the ladies caught the train they would have been drowned, and the cabman's bantling would have lacked any but the most elementary education.\n\nCan you wonder, then, that I nearly included a determination never to be punctual again among my New Year resolutions? But I did not go so far. I left it at the decision not to be so particular about punctuality as I used to be."
+      }
+    ]
+  },
+  "response": {
+    "id": "gen-1793018929-73iX6rTgpK3tkqyjxzhq",
+    "object": "chat.completion",
+    "created": 1793018929,
+    "model": "openai/gpt-4o-mini-2024-07-18",
+    "provider": "OpenAI",
+    "system_fingerprint": "fp_73c5e31c8b",
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "\"Being perpetually correct can be quite perilous. I've observed that those who arrive late often exude a much more cheerful demeanor than those left waiting. Upon deeper reflection, it became clear to me that Punctualia, despite her self-satisfaction and appearance of propriety, has inadvertently caused numerous misfortunes. The reasoning behind this is quite straightforward. If one is tardy for a train, they inevitably miss it; conversely, if they are not on board when the train meets with disaster, they continue living—only to bear the weight of missed opportunities. I remembered a particularly striking example within my own family. A relative, along with her daughter, had planned a holiday in the Channel Islands. Unfortunately, a cab driver promised to arrive on time but instead only made it across London in a frantic rush, ultimately missing the train by a mere minute. The following day, news broke that the boat to the Channel Islands had capsized at the Casquettes. The two women, filled with relief at their narrow escape, sought out the cab driver to express their gratitude by adopting one of his many children. This true incident serves as a powerful testament to the merits of an anti-punctual stance. Had the women boarded the train, they would have met a tragic fate, while the driver’s child would have faced a future lacking even the basics of education.\n\nIs it any wonder, then, that I briefly considered making a resolution to abandon punctuality altogether in the New Year? Ultimately, I refrained from going that far. Instead, I settled on the intention to be less rigid about timeliness than I previously had been.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 501,
+      "completion_tokens": 330,
+      "total_tokens": 831,
+      "cost": 0.00027315,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00027315,
+        "upstream_inference_prompt_cost": 7.515e-05,
+        "upstream_inference_completions_cost": 0.000198
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "finish_reason": "stop",
+  "cost_usd": 0.00027315
+}

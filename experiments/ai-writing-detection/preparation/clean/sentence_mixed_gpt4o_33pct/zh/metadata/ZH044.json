@@ -1,0 +1,1071 @@
+{
+  "source_id": "ZH044",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "321af08f5bb396f8690c87ec099369b0acf4afb46efd0188bddb93f1f9ff2597",
+  "ai_article_sha256": "9f73ecbdf19785ced55393f6c90be2682f0cfbfbe0eceadeb8d57028fc048c2b",
+  "mixed_article_sha256": "20f41db807ed6547b81c37ad533962d34a3709ae8de2b67068c35e56de340e3d",
+  "human_source_sentence_count": 71,
+  "ai_source_sentence_count": 65,
+  "alignment_unit_count": 64,
+  "selected_alignment_unit_count": 23,
+  "mixed_sentence_count": 71,
+  "selected_ai_sentence_count": 24,
+  "actual_ai_sentence_ratio": 0.338028,
+  "selected_alignment_score_min": 0.345,
+  "selected_alignment_score_median": 0.520484,
+  "selected_alignment_score_max": 0.85467,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "夜幕降臨時，我正在用餐，管門人突然來報：",
+      "output_sha256": "cbb64a5c88dcc47c54cc551fa0ce25117ccc059504e30d6de7f26ffb0a4d9002",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.409015,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "6107a8c31daa531f58f17961f7b085554af37172817cc5b200b45615d1e5e068"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "cbb64a5c88dcc47c54cc551fa0ce25117ccc059504e30d6de7f26ffb0a4d9002",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“外面有人找。”",
+      "output_sha256": "5fb37932a9fa338219937f6b2eefaa2e541083a34971f2e8048df6217e48491d",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "5fb37932a9fa338219937f6b2eefaa2e541083a34971f2e8048df6217e48491d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "踏着雪，看到鐵柵欄外我不認識的一個人，他說他是來找武術教師。",
+      "output_sha256": "8ce0c9680c020828b9dd3eb81035164d7e911bc090feb6c9b8794b391b9c10c7",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "8ce0c9680c020828b9dd3eb81035164d7e911bc090feb6c9b8794b391b9c10c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "於是，我便帶他進了屋。",
+      "output_sha256": "452bbea675b0c6bf878a52a63e966d8ef52ee4e7cb3bea3be0037c469f342db5",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.38325,
+      "human_sentence_indices": [
+        4,
+        5
+      ],
+      "human_sha256": [
+        "4cd56a09e30fd830a4dc97905ad8e71d6ac8cbd9dce1e536ba719155c54159dd",
+        "6f63381be6c906d46f90ab963ed4d67bcd485ed36e8f39ce90276644a3151c30"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "452bbea675b0c6bf878a52a63e966d8ef52ee4e7cb3bea3be0037c469f342db5",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "在門口，他想找擦鞋的工具，卻發現沒有準備得那麼齊全，面露歉意，似乎擔心弄髒了地板。",
+      "output_sha256": "9a7b8b538b295945e7038efaee49ad01ff560f2bb16ba95441e35cd2c9cf5e99",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.38325,
+      "human_sentence_indices": [
+        4,
+        5
+      ],
+      "human_sha256": [
+        "4cd56a09e30fd830a4dc97905ad8e71d6ac8cbd9dce1e536ba719155c54159dd",
+        "6f63381be6c906d46f90ab963ed4d67bcd485ed36e8f39ce90276644a3151c30"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "9a7b8b538b295945e7038efaee49ad01ff560f2bb16ba95441e35cd2c9cf5e99",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "廚房裡一片黑暗，他在經過時，由於腳下的雪差點摔倒。",
+      "output_sha256": "0c7444ac6859397ecedb3641006a7096a8922288266f4c0e47cd62dea9b03202",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.460287,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "4069cfc72b181ae812ae1c4bd7cda264a05296adad90fe9199433387b28f500d"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "0c7444ac6859397ecedb3641006a7096a8922288266f4c0e47cd62dea9b03202",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "一個鐘頭過去了吧！",
+      "output_sha256": "ae78f40e6324af2dc3f7ddb796dc5aa3834e57cfcfc520fc27bea000bac4b91e",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "ae78f40e6324af2dc3f7ddb796dc5aa3834e57cfcfc520fc27bea000bac4b91e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我們的麪條在碗中完全涼透，他還沒有走，可是他也不說“武術”究竟是學不學，只是在那裏用手帕擦一擦嘴，揉一揉眼睛，他是要睡着了！",
+      "output_sha256": "58b7fa5ef08f03267328dbc73448a39063edeb96554a82aece6971b7cb6ca591",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "58b7fa5ef08f03267328dbc73448a39063edeb96554a82aece6971b7cb6ca591",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我一面用筷子調一調快凝住的麪條，一面看他把外衣的領子輕輕地豎起來，我想這回他一定是要走。",
+      "output_sha256": "4b33890519f873c35024affa291f25e72198f5791137797006d5e35c638a72bb",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "4b33890519f873c35024affa291f25e72198f5791137797006d5e35c638a72bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "然而沒有走，或者是他的耳朵怕受凍，用皮領來取一下暖，其實，無論如何在屋裏也不會凍耳朵，那麼他是想坐在椅子上睡覺嗎？",
+      "output_sha256": "b235809611f98cc1d7e9a338d86495c3a7bd1639b398ecee6efb5b2ad46ecc8d",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "b235809611f98cc1d7e9a338d86495c3a7bd1639b398ecee6efb5b2ad46ecc8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "這裡可算是休息的地方？",
+      "output_sha256": "3bd8e6189b1f023012b4ea2c9541fde7975964d748329675ef952a1df2132197",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.477857,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "e078983a15260c79c67c309b87bd734a62bada1b5f023ac9e054378800638ead"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "3bd8e6189b1f023012b4ea2c9541fde7975964d748329675ef952a1df2132197",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "結果他也沒有說“武術”是學不學，臨走時他才說：",
+      "output_sha256": "c8a297db187052fd5a7867403a30a5d4c5f0e4556604459645f4fa9f3b9f3e30",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "c8a297db187052fd5a7867403a30a5d4c5f0e4556604459645f4fa9f3b9f3e30",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“想一想……想一想……”",
+      "output_sha256": "f30726e59f854711bf966dff675de84333f5c73a27a0add1e0e06312c8d26742",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "f30726e59f854711bf966dff675de84333f5c73a27a0add1e0e06312c8d26742",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "常常有人來這裡思考，也有些人第二次再來想想。",
+      "output_sha256": "b3a234745804d4a8bb86f4d72dd2335f0e8c5e4e3269bce847969f20c9dac631",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.591588,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "324e694d385756f30ff68f696c788d5958033bc0bc43b28213e86817cda23819"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "b3a234745804d4a8bb86f4d72dd2335f0e8c5e4e3269bce847969f20c9dac631",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "立刻就決定的人一個也沒有，或者是學或者是不學。",
+      "output_sha256": "b237d45a5b0b4522124a54825ae2f18702a617a5463ca02ac30410c7bf93037d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "b237d45a5b0b4522124a54825ae2f18702a617a5463ca02ac30410c7bf93037d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "看樣子當面說不學，怕人不好意思，說學，又覺得學費不能再少一點嗎？",
+      "output_sha256": "d7599e81d343e0db5e71762d346aa8341d13d1466b02ba9408eb430ecd405f6b",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "d7599e81d343e0db5e71762d346aa8341d13d1466b02ba9408eb430ecd405f6b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "總希望武術教師把學費自動減少一點。",
+      "output_sha256": "4c17a619100ac8bb5ada1d0a70c30de5753ba0aee7ecba11675a1df2b312b504",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "4c17a619100ac8bb5ada1d0a70c30de5753ba0aee7ecba11675a1df2b312b504",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我吃飯時很不安定，替他挑碗麪，替自己挑碗麪，一會又剪一剪燈花，不然蠟燭顫嗦得使人很不安。",
+      "output_sha256": "64a7e921e6ba707d570aab29fd403098296dd2f2e9c0adcf5e9b1df1c45ad234",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "64a7e921e6ba707d570aab29fd403098296dd2f2e9c0adcf5e9b1df1c45ad234",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "兩人沉默無語，面對著蠟燭吃著冰冷的麵條。",
+      "output_sha256": "df9fd35d65a7caa71a542e54a382197f656109b1caa325139ad9ff8940128c05",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.413244,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "81dd0042a1a05eb01b4d9f131843d47c84cbfc69294b26ac2bc32bd5383aa9b2"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "df9fd35d65a7caa71a542e54a382197f656109b1caa325139ad9ff8940128c05",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "雪落得很大了！",
+      "output_sha256": "a003f37376e295d5f98d5df569d39e995f1f58d596113410f982b9b6cb6c30be",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "a003f37376e295d5f98d5df569d39e995f1f58d596113410f982b9b6cb6c30be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "出去倒髒水回來，頭髮就是溼的。",
+      "output_sha256": "d53662c78b1015af25aad65672023837cf28cff1169a95c4d446744631ea2377",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "d53662c78b1015af25aad65672023837cf28cff1169a95c4d446744631ea2377",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "透過門口望出去，借著燈光，白茫茫的雪似乎要瞬間填滿整個世界。",
+      "output_sha256": "95184dd77aad82173bfbcd6448b36049de100252211c8d5ffb24274a16922792",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.492328,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "3ee22c75ca4a3419a8b0781a334f515ad0efa9731122859bc3f6781463892bc7"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "95184dd77aad82173bfbcd6448b36049de100252211c8d5ffb24274a16922792",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "郎華披起才借來的夾外衣，到對面的屋子教武術。",
+      "output_sha256": "af87934735474edffd33e72228644fe56250a694fd680d5f4a650dd4c516d9f4",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "af87934735474edffd33e72228644fe56250a694fd680d5f4a650dd4c516d9f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "他的兩隻空袖口沒進大雪片中去了。",
+      "output_sha256": "beb71b405980e745dd7263d8ba3ad992fee01a66f8d4afcf676203d136ae46c8",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "beb71b405980e745dd7263d8ba3ad992fee01a66f8d4afcf676203d136ae46c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "我聽他開着對面那房子的門。",
+      "output_sha256": "36e33226f4c3e86e1e9b9b07b675c899e6be0ca200c4db41d1f65d10550e8921",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "36e33226f4c3e86e1e9b9b07b675c899e6be0ca200c4db41d1f65d10550e8921",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "那間客廳光亮起來。",
+      "output_sha256": "55deec5da2f3f850e86073e5ebaeeedee51c3c4f31431519010a3f34ece23a07",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "55deec5da2f3f850e86073e5ebaeeedee51c3c4f31431519010a3f34ece23a07",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "我向着窗子，雪片翻飛倒傾忙着，寂寞並且嚴肅的夜，圍臨着我，終於起着咳嗽關了小窗。",
+      "output_sha256": "3966b35974c7a7932d0b791c182bae51c019423049c97f6ac98c09e439ec3391",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "3966b35974c7a7932d0b791c182bae51c019423049c97f6ac98c09e439ec3391",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "找到一本書，讀不上幾頁，又打開小窗，雪大了呢？",
+      "output_sha256": "47893c23c0e7f28e188703bc26d83853878cf61df592b22e4922d7787573c7c1",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "47893c23c0e7f28e188703bc26d83853878cf61df592b22e4922d7787573c7c1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "還是小了？",
+      "output_sha256": "49d2f708fb9a33f055313ac8735e88cf58ee283e6724dc8744cebc35b0969cdb",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "49d2f708fb9a33f055313ac8735e88cf58ee283e6724dc8744cebc35b0969cdb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "人在無聊之時，風雨等天氣現象總能吸引注意。",
+      "output_sha256": "2a7092c0f3791ab01584149daca4b0eae5777e3141af6b2ae4d77f926e00c10c",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.498907,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "767f4b2a6ecb277f5e17050e16f9cc0a30b634f7fdfb4d9ccfcc51deef1f5c01"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "2a7092c0f3791ab01584149daca4b0eae5777e3141af6b2ae4d77f926e00c10c",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "雪飛得更忙迫，雪片和雪片交織在一起。",
+      "output_sha256": "d4c0b0d09c8e179ba212fd00ba0a4039086ef6dce58015b329573872105971f2",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "d4c0b0d09c8e179ba212fd00ba0a4039086ef6dce58015b329573872105971f2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "很響的鞋底打着大門過道，走在天井裏，鞋底就減輕了聲音。",
+      "output_sha256": "94d9846ac8d01d637b245831aece3d0e611337e03652fb9277b48d2a0b97dcc4",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "94d9846ac8d01d637b245831aece3d0e611337e03652fb9277b48d2a0b97dcc4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "我知道是汪林回來了。",
+      "output_sha256": "a6ae29d94248bf4af060deb1c7a7897b928c91cfa999731484ec6b05558f3df7",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "a6ae29d94248bf4af060deb1c7a7897b928c91cfa999731484ec6b05558f3df7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "那位舊日同學，我無法看到她穿的是中國服裝還是外國服飾，她停在門外的木階上按著鈴。",
+      "output_sha256": "fb3745062c7ab5bd866163cc8e55db5159065f3e2c8d8a1415c829f31198008f",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.647583,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "17f1773625da9a6057d127483ee8909b5f8a2e6362efccfb21f308e1286259c3"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "fb3745062c7ab5bd866163cc8e55db5159065f3e2c8d8a1415c829f31198008f",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "小丫環開了門，問道：",
+      "output_sha256": "758a3b32ad3635cfa312760d442b075b308a388e34633da12c3ebd73a22e7f7d",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.49933,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "dd4af949f8923dc45e132fe73a58cf63b99cb49310282d4aacb8054a74c42777"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "758a3b32ad3635cfa312760d442b075b308a388e34633da12c3ebd73a22e7f7d",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "“誰？",
+      "output_sha256": "c489f2a0579e0d2b9744d691b4b2945754d3c4ae6e69446bf739a17c39146662",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "c489f2a0579e0d2b9744d691b4b2945754d3c4ae6e69446bf739a17c39146662",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "誰？”",
+      "output_sha256": "a6ea2d21bf2c7230dbfbf6b5880e6582a9683d4fbf0c528ac1d12f69130fd642",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "a6ea2d21bf2c7230dbfbf6b5880e6582a9683d4fbf0c528ac1d12f69130fd642",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "“是我，你還聽不出來！",
+      "output_sha256": "acfe2c83082e0b8d0ba7fe876873bd4aa14e7d11d88575177a921bf52fa61ff5",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "acfe2c83082e0b8d0ba7fe876873bd4aa14e7d11d88575177a921bf52fa61ff5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "誰！",
+      "output_sha256": "6404675987ebf6eebee4132dbba3cecf07f33833cd82c85bfefe008bffdc384d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "6404675987ebf6eebee4132dbba3cecf07f33833cd82c85bfefe008bffdc384d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "誰！”",
+      "output_sha256": "64417a7a6dc503cc5ba9685799f8f2be860f14f9e7ba75a1ee18bf36175c8ee8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "64417a7a6dc503cc5ba9685799f8f2be860f14f9e7ba75a1ee18bf36175c8ee8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "她略帶不耐煩，小姐們青春年少更顯驕傲，而做丫環的卻一點也不明白。",
+      "output_sha256": "061f42d20b5014d40ab1de716fdf26019bc7927f8941af36f19d9c9385aca64a",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.612054,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "0331786738c2fb7ac204c18bc97af7ca025e2f0f76109c8908e0a6eb4b70573c"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "061f42d20b5014d40ab1de716fdf26019bc7927f8941af36f19d9c9385aca64a",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "若不是下雪，定能看到那女孩無知地縮回了頭。",
+      "output_sha256": "4728c2feaf1c4e932753703b25b373ac194e4b434f344ae4952b14053a564ce4",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.577568,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "550c4a314f0a6bfbe62a53cd78884494d6ac48e62c3d24be20511689b47a3448"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "4728c2feaf1c4e932753703b25b373ac194e4b434f344ae4952b14053a564ce4",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "又去讀讀書，又來看看雪，讀了很多頁了，但什麼意思呢？",
+      "output_sha256": "f207431390f5e8698fda4795b14b4af1a57f8c4d04c4be9b86c85daf94e8f2ad",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "f207431390f5e8698fda4795b14b4af1a57f8c4d04c4be9b86c85daf94e8f2ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "我也不知道。",
+      "output_sha256": "f6dc34b1bda58f6f9336d980559b21ba6c851ba34fce58ad7e5f05b64bf4afbb",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "f6dc34b1bda58f6f9336d980559b21ba6c851ba34fce58ad7e5f05b64bf4afbb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "因爲我心裏只記得：落大雪，天就轉寒。",
+      "output_sha256": "b122f1aedac7f6cbc05bd707c01a33aad0da29991c1539bef9ff1c4abf4009a6",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "b122f1aedac7f6cbc05bd707c01a33aad0da29991c1539bef9ff1c4abf4009a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "這樣我難道無法出門了嗎？",
+      "output_sha256": "8df96115df36cc36679efd3abdaf7dc24cbb627493707ba2ccf00927e501fd87",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.347727,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "9aa14668730159a3bcb9bf1cbb70fddf663ac29e42641ad766c3bd8ff9f128ce"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "8df96115df36cc36679efd3abdaf7dc24cbb627493707ba2ccf00927e501fd87",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "郎華沒有皮帽，他的衣裳也沒有皮領，耳朵一定會被凍傷吧？",
+      "output_sha256": "94b6eb1cf79983fbfa67246123dac4998f88c443f1d20dad56c5c5ae3877850a",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.791871,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "7b04470148ab87f55aac4409403bfb2a218a7757c6d3054d694dd75423f4aaa0"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "94b6eb1cf79983fbfa67246123dac4998f88c443f1d20dad56c5c5ae3877850a",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "在屋裡，只要火爐有火，我就站在爐邊，若再冷的時候，還能坐在鐵爐板上取暖。",
+      "output_sha256": "9e8115b5c5b97d0fec0bfc37f7ad80b8986f500ab4852c430c9e083c39e7b4f1",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.600546,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "5b45a0d5208f250394c947f808b574bdd51d0889f412f009ffd4965a2da77155"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "9e8115b5c5b97d0fec0bfc37f7ad80b8986f500ab4852c430c9e083c39e7b4f1",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "如果沒有木柴，我就披著被子坐在床上，一天不離床，一夜不離床，但怎麼能出去呢？",
+      "output_sha256": "b3f5f1b20536caf75a019b936013b6f6569b94bedea4267823b5c9dc5d498f75",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.630867,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "808a3183b7a60903278c221585d717e0664e71f5e2419aac1f343431bc148b4d"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "b3f5f1b20536caf75a019b936013b6f6569b94bedea4267823b5c9dc5d498f75",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "披着被上街嗎？",
+      "output_sha256": "f6bca12602f97d34e50b8bc11fa028d0ff476310f6f555c2202ec6dbbb3d22bb",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "f6bca12602f97d34e50b8bc11fa028d0ff476310f6f555c2202ec6dbbb3d22bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "那還可以嗎？",
+      "output_sha256": "cb042b76247937e10dc34262559aa856b3f99f41e992375aaa876e51f5f0a724",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "cb042b76247937e10dc34262559aa856b3f99f41e992375aaa876e51f5f0a724",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "我把雙腳伸入爐腔中，雙腿筆直地坐在椅子上望著門讀書；其實並不是真正看書，心不在焉。",
+      "output_sha256": "7b81c403ad585eaf46f14258e848b514d83de6ea4f0b99f4dd42ab4a6c49c7a7",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.461237,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "6a51db3a86dea63bb9d8fed501c5366388ebcdf5cc61916cc01a6c3bf6835fc0"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "7b81c403ad585eaf46f14258e848b514d83de6ea4f0b99f4dd42ab4a6c49c7a7",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "郎華一進門就問：“你在烤火腿嗎？”",
+      "output_sha256": "1b769a9eec9a840ec3acc3296ca145a257903dd3b4f7ad0e317eb0fec59195e6",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.85467,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "a0efe239e8370d32e3300d4e1b56c16e6a111a0019522d991dc31f14062929a6"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "1b769a9eec9a840ec3acc3296ca145a257903dd3b4f7ad0e317eb0fec59195e6",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "我問他：“雪大小？”",
+      "output_sha256": "959805299d2db24aea2f2c959bfb9b8ee0a87f21b147f0327853581227fe456e",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "959805299d2db24aea2f2c959bfb9b8ee0a87f21b147f0327853581227fe456e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "“你看這衣裳！”",
+      "output_sha256": "6a8f26b0f9b09c9578455a811ee72f939a11f0db34f80b32eff21087cce92127",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "6a8f26b0f9b09c9578455a811ee72f939a11f0db34f80b32eff21087cce92127",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "他用面巾打着外套。",
+      "output_sha256": "9a5606fb44a4a0b9e64f80f99e860d87de02298eaa769410c9f97a1a59c47efb",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "9a5606fb44a4a0b9e64f80f99e860d87de02298eaa769410c9f97a1a59c47efb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "雪帶來的不安，帶來的恐懼，還有整夜各種不適的夢……一大群小豬沉入雪坑……麻雀在電線上凍死，雖然死了，卻仍掛在電線上。",
+      "output_sha256": "b49bf335cbce5822ffbdfe9d1077ba7636bc3fbdfeb063e4b7a6293527fda840",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.635365,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "6bdb3d2088989cf45e6bb255a3daafe3fc00c6e86b2e7dc62b4b9be8531f18e4"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "b49bf335cbce5822ffbdfe9d1077ba7636bc3fbdfeb063e4b7a6293527fda840",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 20,
+      "origin": "ai",
+      "text": "行人在白茫茫的樹林中，一排排都僵直著，還有一些四肢都凍掉了。",
+      "output_sha256": "950d432820ed1135efdc66951c8b53dd89e955a6fa71e689c99bfbac2ba6da45",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.588971,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "45e52d613b82fee40054d5c514cf2a09d8234116a5a8562db2f987a5fcb19e10"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "950d432820ed1135efdc66951c8b53dd89e955a6fa71e689c99bfbac2ba6da45",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "這樣的夢以後，但總不能知道這是夢，漸漸明白些時，才緊抱住郎華，但總不能相信這不是真事。",
+      "output_sha256": "1c985ea5810159f68a17a5b89065aa4fdcfc1af445ca374f55da7d0c5f1acdbf",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "1c985ea5810159f68a17a5b89065aa4fdcfc1af445ca374f55da7d0c5f1acdbf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "我說：",
+      "output_sha256": "6d6edb6279ad3004111534c3d63ca6ea12fb2940c86d99f544d48ce284b2064b",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "6d6edb6279ad3004111534c3d63ca6ea12fb2940c86d99f544d48ce284b2064b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "“爲什麼要做這樣的夢？",
+      "output_sha256": "209a8f3d3e0e48107ea4ad2a764e47c02b8fe12cedff24b499597c75821919e7",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "209a8f3d3e0e48107ea4ad2a764e47c02b8fe12cedff24b499597c75821919e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "照迷信來說，這可不知怎樣？”",
+      "output_sha256": "5098ecb0197716acb55ea518244aac04bdfbb2c0db622f8d22e5d231facbd750",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "5098ecb0197716acb55ea518244aac04bdfbb2c0db622f8d22e5d231facbd750",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "“真糊塗，一切要用科學方法來解釋，你覺得這夢是一種心理，心理是從哪裏來的？",
+      "output_sha256": "32b7e7024e9deeb9abe2cc2febc45b56aa725216e2fb12a238e01acac61efe71",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "32b7e7024e9deeb9abe2cc2febc45b56aa725216e2fb12a238e01acac61efe71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "是物質的反映。",
+      "output_sha256": "c3f7467d0c3cfaddbda9a8dfc9141d3d9b02bab0b7042df2ed49229c48b222fc",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "c3f7467d0c3cfaddbda9a8dfc9141d3d9b02bab0b7042df2ed49229c48b222fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 23,
+      "origin": "ai",
+      "text": "你摸摸你的肩膀，冷得這樣，你感受到肩膀的寒冷，自然就會做那樣的夢！”",
+      "output_sha256": "417e2a549c297959e807c65cafb886c27bd68380f5a95409ed96cce49a60bd71",
+      "alignment_unit_index": 58,
+      "alignment_score": 0.607527,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "2bc06ab1d3cfd76b9f1e40ee1c93c0697317ca8981e386879e97492391a85796"
+      ],
+      "source_ai_sentence_index": 59,
+      "source_ai_sha256": "417e2a549c297959e807c65cafb886c27bd68380f5a95409ed96cce49a60bd71",
+      "ai_unit_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 23,
+      "origin": "ai",
+      "text": "不久，他又沉沉入眠。",
+      "output_sha256": "0ec0fc79769fae46fcaf6911b9baf5397a9b3e1ee89892fde7d64899976bfac6",
+      "alignment_unit_index": 59,
+      "alignment_score": 0.345,
+      "human_sentence_indices": [
+        66
+      ],
+      "human_sha256": [
+        "8a43c10a254b610c2f11a41a13e3906a9ec8346d85578fbda316ceaa75ffdf3e"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "0ec0fc79769fae46fcaf6911b9baf5397a9b3e1ee89892fde7d64899976bfac6",
+      "ai_unit_sentence_indices": [
+        60
+      ]
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "留下我覺得風從棚頂，從牀底都會吹來，凍鼻頭，又凍耳朵。",
+      "output_sha256": "5998f70d16d2214c2b4c08c9328e2faf2904f4e3e06fa0a8c6ed7955824833a0",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "5998f70d16d2214c2b4c08c9328e2faf2904f4e3e06fa0a8c6ed7955824833a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "夜間，大雪又不知落得怎樣了！",
+      "output_sha256": "f60c05d0f4146b520f8ecd34e70feea5b8c26f31f48d27f436e56ae8fd124d0b",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "f60c05d0f4146b520f8ecd34e70feea5b8c26f31f48d27f436e56ae8fd124d0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "早晨起來，一定會推不開門吧！",
+      "output_sha256": "8e1a5825d12f447db4a749a9129a432cd075bb8377f683ff80a050a09b91993e",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "8e1a5825d12f447db4a749a9129a432cd075bb8377f683ff80a050a09b91993e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "記得爺爺說過：大雪的年頭，小孩站在雪裏露不出頭頂……風不住掃打窗子，狗在房後哽哽地叫……",
+      "output_sha256": "4c2ae92cc37939a91ade0aebfd96d77fb1308b98ce00c583c7df96623da911fe",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 70,
+      "source_human_sha256": "4c2ae92cc37939a91ade0aebfd96d77fb1308b98ce00c583c7df96623da911fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "想到寒冷又想到了飢餓，明天可能就沒有米了。",
+      "output_sha256": "7cae9b01b1a49ff83d06f21fd4081ffdd838b3c040aeb299e281b15aa019c961",
+      "alignment_unit_index": 64,
+      "alignment_score": 0.541638,
+      "human_sentence_indices": [
+        71
+      ],
+      "human_sha256": [
+        "8badc70d4b972e22951b931b237e1e693c40c7dd00430be75d6c233457463cff"
+      ],
+      "source_ai_sentence_index": 65,
+      "source_ai_sha256": "7cae9b01b1a49ff83d06f21fd4081ffdd838b3c040aeb299e281b15aa019c961",
+      "ai_unit_sentence_indices": [
+        65
+      ]
+    }
+  ]
+}

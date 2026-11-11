@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《坟》题记 - 可阅文学网</title>
+    <meta name="keywords" content="坟,题记,全文阅读,章节,可阅文学">
+    <meta name="description" content="将这些体式上截然不同的东西，集合了做成一本书样子的缘由，说起来是很没有什么冠冕堂皇的。首先就因为偶尔看见了几篇将近二十年前所做的所谓文章。这是我做的么？我想。看下去，似乎也确是">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11070/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11070/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11070/10001">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11070">坟</a><span id="top_chaptername" style="float: right">题记</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　将这些体式上截然不同的东西，集合了做成一本书样子的缘由，说起来是很没有什么冠冕堂皇的。首先就因为偶尔看见了几篇将近二十年前所做的所谓文章。这是我做的么？我想。看下去，似乎也确是我做的。那是寄给《河南》<i class="iconfont icon-zhushi" data-content="《河南》，清末留日学生创办的杂志。1907年（清光绪三十三年）12月创刊于东京。初为月刊，后不定期出版。程克、孙竹丹等主编。发行人署名武人，总编辑刘炽等。1909年12月出至第九期被禁。1901年“辛丑条约”后至辛亥革命期间，中国留日学生所办杂志多以各省留日同乡会或各省留日同人的名义出版，内容偏重各省当时的政治、社会和文化问题，从事民族民主革命宣传和科学启蒙宣传，如《浙江潮》、《江苏》、《汉声》、《洞庭波》、《云南》、《四川》等。《河南》是其中的一种，作者在该刊发表的文章，有收入本书的《人之历史》等四篇，收入《集外集拾遗补编》的《破恶声论》和收入《鲁迅译文集》第十卷《译从补》的《裴彖飞诗论》（两篇都是未完稿）。"></i>的稿子；因为那编辑先生有一种怪脾气，文章要长，愈长，稿费便愈多。所以如《摩罗诗力说》那样，简直是生凑。倘在这几年，大概不至于那么做了。又喜欢做怪句子和写古字，这是受了当时的《民报》<i class="iconfont icon-zhushi" data-content="《民报》：同盟会的机关杂志。1905年（清光绪三十一年）11月在日本东京创刊。初为月刊，后不定期出版，共出二十六期。初由胡汉民、张继等主编，自1906年8月第六号至十八号、二十三号至二十四号由章太炎主编。章太炎（1869—1936），名炳麟，号太炎，浙江余杭人，清末革命家、学者。他在《民报》发表的文章，喜用古字和生僻字句。这里说的受《民报》的影响，即指受章太炎的影响。"></i>的影响；现在为排印的方便起见，改了一点，其余的便都由他。这样生涩的东西，倘是别人的，我恐怕不免要劝他“割爱”，但自己却总还想将这存留下来，而且也并不“行年五十而知四十九年非”<i class="iconfont icon-zhushi" data-content="“行年五十而知四十九年非”：语出《淮南子·原道训》：“蘧伯玉年五十而有四十九年非。何者？先者难为知，而后者易为攻也。”"></i>，愈老就愈进步。其中所说的几个诗人，至今没有人再提起，也是使我不忍抛弃旧稿的一个小原因。他们的名，先前是怎样地使我激昂呵，民国告成以后，我便将他们忘却了，而不料现在他们竟又时时在我的眼前出现。<br><br>　　其次，自然因为还有人要看，但尤其是因为又有人憎恶着我的文章。说话说到有人厌恶，比起毫无动静来，还是一种幸福。天下不舒服的人们多着，而有些人们却一心一意在造专给自己舒服的世界。这是不能如此便宜的，也给他们放一点可恶的东西在眼前，使他有时小不舒服，知道原来自己的世界也不容易十分美满。苍蝇的飞鸣，是不知道人们在憎恶他的；我却明知道，然而只要能飞鸣就偏要飞鸣。我的可恶有时自己也觉得，即如我的戒酒，吃鱼肝油，以望延长我的生命，倒不尽是为了我的爱人，大大半乃是为了我的敌人，——给他们说得体面一点，就是敌人罢——要在他的好世界上多留一些缺陷。君子之徒<i class="iconfont icon-zhushi" data-content="这里的君子之徒和下文的所谓正人君子，指当时现代评论派文人。《现代评论》周刊是当时一部分留学英美的大学教授所办的同人杂志，1924年12月创刊于北京，1927年7月移至上海出版，至1928年12月停刊。主要刊登政论，同时也发表文艺创作、文艺评论。主要撰稿人有王世杰、高一涵、胡适、陈源（笔名西滢）、徐志摩、唐有壬等，也采用一些外来投稿。“正人君子”，是当时拥护北洋军阀政府的《大同晚报》在1925年8月7日的一篇报道中赞扬现代评论派的话；鲁迅在杂文中常引用来讽刺这一派文人。"></i>曰：你何以不骂杀人不眨眼的军阀呢<i class="iconfont icon-zhushi" data-content="这里说的不骂军阀和下文的“无枪阶级”，都见于《现代评论》第四卷第八十九期（1926年8月21日）署名涵庐（即高一涵）的一则《闲话》中，原文说：“我二十四分的希望一般文人彼此收起互骂的法宝，做我们应该做的和值得做的事业。万一骂溜了嘴，不能收束，正可以同那实在可骂而又实在不敢骂的人们，斗斗法宝，就是到天桥走走，似乎也还值得些！否则既不敢到天桥去，又不肯不骂人，所以专将法宝在无枪阶级的头上乱祭，那末，骂人诚然是骂人，却是高傲也难乎其为高傲罢。”按当时北京的刑场在天桥附近。"></i>？斯亦卑怯也已！但我是不想上这些诱杀手段的当的。木皮道人<i class="iconfont icon-zhushi" data-content="木皮道人：应作木皮散人，是明代遗民贾凫西的别号。贾凫西（约1590—约1676），名应宠，字思退，山东曲阜人，曾任刑部郎中。这里所引的话，见于他所著的《木皮散人鼓词》中关于周武王灭商纣王的一段：“多亏了散宜生定下胭粉计，献上个兴周灭商的女娇娃；……他爷们（按指周文王、武王父子等）昼夜商量行仁政，那纣王胡里胡涂在黑影爬；几年家软刀子割头不觉死，只等得太白旗悬才知道命有差。”"></i>说得好，“几年家软刀子割头不觉死”，我就要专指斥那些自称“无枪阶级”而其实是拿着软刀子的妖魔。即如上面所引的君子之徒的话，也就是一把软刀子。假如遭了笔祸了，你以为他就尊你为烈士了么？不，那时另有一番风凉话。倘不信，可看他们怎样评论那死于三一八惨杀的青年<i class="iconfont icon-zhushi" data-content="三一八惨案：1926年3月12日，冯玉祥所部国民军与奉系军阀作战，日本帝国主义出动军舰支持奉军，炮击国民军，并联合英美法意等国，于16日以最后通牒向北洋政府提出撤除大沽口国防设备等无理要求。3月18日，北京各界二万余人在天安门集会抗议，会后结队赴段祺瑞执政府请愿，要求拒绝八国通牒，段竟令卫队开枪射击，当场死四十七人，伤二百余人。惨案发生后，《现代评论》第三卷第六十八期（1926年3月27日）发表陈西滢评论此案的《闲话》，说爱国群众的被惨杀，是由于“居高位者的明令暗示”与“行凶”者的“惨苦残暴”，他们“都负有杀人的罪”；青年学生“还没有审判力”，做师长的“叫他们去参加种种他们还莫明其妙的运动”，“冒枪林弹雨的险，受践踏死伤的苦”，应当负“不加劝阻禁止”的“责任”；天安门抗议活动的主持者如果误听流言，宣布执政府的卫队已经解除了武装，“也未免太不负民众领袖的责任”，如果明知没有解除武装却故意那样说，“他的罪孽当然不下于开枪杀人者”；捏造和散布流言的人，“犯了故意引人去死地的嫌疑”，等等。参看《华盖集续编》中的《“死地”》、《空谈》等篇。"></i>。<br><br>　　此外，在我自己，还有一点小意义，就是这总算是生活的一部分的痕迹。所以虽然明知道过去已经过去，神魂是无法追蹑的，但总不能那么决绝，还想将糟粕收敛起来，造成一座小小的新坟，一面是埋藏，一面也是留恋。至于不远的踏成平地，那是不想管，也无从管了。<br><br>　　我十分感谢我的几个朋友，替我搜集，抄写，校印，各费去许多追不回来的光阴。我的报答，却只能希望当这书印钉成工时，或者可以博得各人的真心愉快的一笑。别的奢望，并没有什么；至多，但愿这本书能够暂时躺在书摊上的书堆里，正如博厚的大地，不至于容不下一点小土块。再进一步，可就有些不安分了，那就是中国人的思想，趣味，目下幸而还未被所谓正人君子所统一，譬如有的专爱瞻仰皇陵，有的却喜欢凭吊荒冢，无论怎样，一时大概总还有不惜一顾的人罢。只要这样，我就非常满足了；那满足，盖不下于取得富家的千金云。<br><br>　　一九二六年十月三十大风之夜，鲁迅记于厦门。</div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11070/10002">Next Chapter</a></div>
+        <div class="pre_chapter"><a style="color: #d4d4d4;">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="22" data-goods-name="【山姆正品】咸蛋黄味三明治华夫饼休闲点心营养早餐解馋零食糕点" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3843285810724077851&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_554155ea1a4cbd3fd6956ec0eb1d084e_sx_281407_www800-800"
+                         alt="【山姆正品】咸蛋黄味三明治华夫饼休闲点心营养早餐解馋零食糕点">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】咸蛋黄味三明治华夫饼休闲点心营养早餐解馋零食糕点</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>74.88</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span></span>
+                </p>
+                <li class="selected">
+                    <a href="/book/11070/10001">题记</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10002">人之历史</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10003">科学史教篇</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10004">文化偏至论</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10005">摩罗诗力说</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10006">我之节烈观</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10007">我们现在怎样做父亲</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10008">宋民间之所谓小说及其后来</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10009">娜拉走后怎样</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10010">未有天才之前</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10011">论雷峰塔的倒掉</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10012">说胡须</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10013">论照相之类</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10014">再论雷峰塔的倒掉</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10015">看镜有感</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10016">春末闲谈</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10017">灯下漫笔</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10018">杂忆</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10019">论“他妈的！”</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10020">论睁了眼看</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10021">从胡须说到牙齿</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10022">坚壁清野主义</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10023">寡妇主义</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10024">论“费厄泼赖”应该缓行</a>
+                </li>
+                <li>
+                    <a href="/book/11070/10025">写在《坟》后面</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af0228030f800c65_1e1e408d205921357c1a5d37e262e413";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

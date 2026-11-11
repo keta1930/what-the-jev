@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《而已集》题辞 - 可阅文学网</title>
+    <meta name="keywords" content="而已集,题辞,全文阅读,章节,可阅文学">
+    <meta name="description" content="这半年我又看见了许多血和许多泪，　　然而我只有杂感而已。　　泪揩了，血消了；　　屠伯们逍遥复逍遥，　　用钢刀的，用软刀的。　　然而我只有“杂感”而已。　　连“杂感”也被“放进了">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11074/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11074/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11074/10001">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11074">而已集</a><span id="top_chaptername" style="float: right">题辞</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　这半年我又看见了许多血和许多泪，<br><br>　　然而我只有杂感而已。<br><br><br>　　泪揩了，血消了；<br><br>　　屠伯们逍遥复逍遥，<br><br>　　用钢刀的，用软刀的。<br><br>　　然而我只有“杂感”而已。<br><br><br>　　连“杂感”也被“放进了应该去的地方”时，<br><br>　　我于是只有“而已”而已！<br><br><p class="q">以上的八句话，是在一九二六年十月十四夜里，</p><br><p class="q">编完那年那时为止的杂感集后，写在末尾的，现</p><br><p class="q">在便取来作为一九二七年的杂感集的题辞。</p><br><p class="q">一九二八年十月三十日，鲁迅校讫记。</p></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11074/10002">Next Chapter</a></div>
+        <div class="pre_chapter"><a style="color: #d4d4d4;">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="46" data-goods-name="【山姆正品】高汤猪肉松香酥美味儿童拌饭早餐烘焙" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3848425355547377941&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_972bcd4cad2de261d61570b1225ac4cf_sx_225270_www1000-1000"
+                         alt="【山姆正品】高汤猪肉松香酥美味儿童拌饭早餐烘焙">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】高汤猪肉松香酥美味儿童拌饭早餐烘焙</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>99.08</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11074/10001">题辞</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二七年</span>
+                </p>
+                <li>
+                    <a href="/book/11074/10002">黄花节的杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10003">略论中国人的脸</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10004">革命时代的文学</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10005">写在《劳动问题》之前</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10006">略谈香港</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10007">读书杂谈</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10008">通信</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10009">答有恒先生</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10010">辞“大义”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10011">反“漫谈”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10012">忧“天乳”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10013">革“首领”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10014">谈“激烈”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10015">扣丝杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10016">“公理”之所在</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10017">可恶罪</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10018">“意表之外”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10019">新时代的放债法</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10020">魏晋风度及文章与药及酒之关系</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10021">小杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10022">再谈香港</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10023">革命文学</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10024">《尘影》题辞</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10025">当陶元庆君的绘画展览时</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10026">卢梭和胃口</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10027">文学和出汗</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10028">文艺和革命</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10029">谈所谓“大内档案”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10030">拟预言</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>附录</span>
+                </p>
+                <li>
+                    <a href="/book/11074/10031">大衍发微</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af023009f97ab520_8f98632b6c667912865cafa88ed5c828";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

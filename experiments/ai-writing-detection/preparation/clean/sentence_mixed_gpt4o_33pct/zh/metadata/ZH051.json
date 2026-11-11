@@ -1,0 +1,963 @@
+{
+  "source_id": "ZH051",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "eacaf7c4cac4ac50c02a1fe044890e4684a7a0fa9e3a94b2024a1bd5f877c8fc",
+  "ai_article_sha256": "756c2e0f88b3413a330ae943770696ce7404d465a712554926a17fc54313fbbb",
+  "mixed_article_sha256": "66f906b26ad2e92d10909056cc1dc18a9ad5b1e97e0b0207951a97d4b6339031",
+  "human_source_sentence_count": 65,
+  "ai_source_sentence_count": 61,
+  "alignment_unit_count": 61,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 64,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.328125,
+  "selected_alignment_score_min": 0.342587,
+  "selected_alignment_score_median": 0.535462,
+  "selected_alignment_score_max": 0.897982,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在各种艺术作品中，我特别喜爱图画。",
+      "output_sha256": "b2e2790cc64f716386ccba769fb18ab5b0a560d423c2d9979fd36d6a8f84a9c9",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "b2e2790cc64f716386ccba769fb18ab5b0a560d423c2d9979fd36d6a8f84a9c9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我不懂绘画，正如我不懂音乐。",
+      "output_sha256": "3d27fd3edbd47bdb31960c8d57b605a7bae3da945abf7ca5731267d43850ba38",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "3d27fd3edbd47bdb31960c8d57b605a7bae3da945abf7ca5731267d43850ba38",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "然而，听完音乐后心中感到的迷茫，与看完一幅画后的舒适感是截然不同的。",
+      "output_sha256": "62dd8775891a5b9d23515655c5bb804eb8548aa1f8f2af0673e15e3981dea485",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.342587,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "6bce34cb904afbc21baff6b8c224d28208f0e0905ca74b8261d78ca642ba4a11"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "62dd8775891a5b9d23515655c5bb804eb8548aa1f8f2af0673e15e3981dea485",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "因此，我特别喜爱图画——说不出别的大道理来。",
+      "output_sha256": "3cc049f2e17a86e7952637ea586bdcc97425d5576e2f7f25c1a59826d34483e7",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "3cc049f2e17a86e7952637ea586bdcc97425d5576e2f7f25c1a59826d34483e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "虽然爱画，我可不是收藏画。",
+      "output_sha256": "78c7303b093946daa8ff63893cbc2442ba2eb95f1a6e2a55800f952cea87d409",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "78c7303b093946daa8ff63893cbc2442ba2eb95f1a6e2a55800f952cea87d409",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "因为第一我不会鉴别古画的真假；第二我没有购置名作的财力；第三我并不爱那纸败色褪的老东西，不管怎样古，怎样值钱。",
+      "output_sha256": "07c6edf34c37ecedeb55bc13271154384bf767609dc25597cf2b183d5eaedba9",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "07c6edf34c37ecedeb55bc13271154384bf767609dc25597cf2b183d5eaedba9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我爱时人的画，因为彩色鲜明，看起来使我心中舒服，而且不必为它们预备保险箱。",
+      "output_sha256": "481052b27bbc128f1c95c95894edaf5843f7133ab6943bf000177dcdc54640d6",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "481052b27bbc128f1c95c95894edaf5843f7133ab6943bf000177dcdc54640d6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "不过，时人的画也有很贵的，我不能拿一本小说的稿费去换一张画——看画虽然心里舒服，可是饿着肚子去看恐怕就不十分舒服了。",
+      "output_sha256": "2dd72f0882675a2b41290dc68a044b6b4bb3e4df40b4edaf9ebfbd6780697ff2",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "2dd72f0882675a2b41290dc68a044b6b4bb3e4df40b4edaf9ebfbd6780697ff2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "那么，我所有的画差不多都是朋友们送给我的。",
+      "output_sha256": "bb6559a0e25fb25ffa911899bcee205e8199ce777a945f8dd4922ef730a8e91a",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "bb6559a0e25fb25ffa911899bcee205e8199ce777a945f8dd4922ef730a8e91a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这样的画更具珍贵之处，尽管我并未花费一分钱。",
+      "output_sha256": "c9f1a0925c6ae7061ce614f9331a133864406a3702c4dff4d1fdd20305a5202f",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.403045,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "55031538fa14bc54588f02ff5887a524aaa2498f0e2296c439a25e3eca0c2e6f"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "c9f1a0925c6ae7061ce614f9331a133864406a3702c4dff4d1fdd20305a5202f",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "朋友们赠送的画作，除了艺术的价值外，背后还有深厚的友谊。",
+      "output_sha256": "222e2674b60a481ceafafd052847a0c105787fbca3bfd4a4ac7939712f422bfa",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.488781,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "e3d15326e3a2065460864165ee03de51c1d3f6014a5fdba89b195014f4dd6100"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "222e2674b60a481ceafafd052847a0c105787fbca3bfd4a4ac7939712f422bfa",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "举两个例说吧：北平名画家颜伯龙是我幼年的同学。",
+      "output_sha256": "8c34a13fdc3a91921932e021d4ac11e5b0a5952debde5ed0b5f8ec8fcba907b7",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "8c34a13fdc3a91921932e021d4ac11e5b0a5952debde5ed0b5f8ec8fcba907b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我非常喜爱他的作品，但他一直不愿意送我画。",
+      "output_sha256": "724106479c10660183296de11dfba625e2e7451acd7eb5178c1c59eeb83e4929",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.491943,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "5a48560c304e57e3d3c88136cdc0c9cfe15e04fa7af028dbaa0551da94116588"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "724106479c10660183296de11dfba625e2e7451acd7eb5178c1c59eeb83e4929",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "定下结婚的时候，我决定把握住时机。",
+      "output_sha256": "a15f8a2d87cfa5413c9a4fc592c0dc99a8fda4ff087d23d8616134d8dd8026db",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "a15f8a2d87cfa5413c9a4fc592c0dc99a8fda4ff087d23d8616134d8dd8026db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“伯龙！”",
+      "output_sha256": "673b953ad67b5229e5ceee1fa6ab886abde9190073438c7c72cd36f960d6557b",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "673b953ad67b5229e5ceee1fa6ab886abde9190073438c7c72cd36f960d6557b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我直言不讳地对他说，“别送什么礼物，我要你送我一幅画！",
+      "output_sha256": "391252a9052d2ca1559cac08a39422981ae011ae063ca01de0238b80c1cb71e1",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.480694,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "29ddc57764db4f1424545e3f542b43646f2826693e596620b198c9e5540c21dc"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "391252a9052d2ca1559cac08a39422981ae011ae063ca01de0238b80c1cb71e1",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不画不行！”",
+      "output_sha256": "89529dab17ce9eb742ea8b23524303eb5f805856530ed3628271036ede99e466",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "89529dab17ce9eb742ea8b23524303eb5f805856530ed3628271036ede99e466",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "他最终没有再推辞，给了我一幅描绘牧猪的作品。",
+      "output_sha256": "351975f5934c5b7c2f1f41140aee934a6c467805529f76e6d0c17425ecce9e61",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.410714,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "935ffc0462965068d550a684630e2945233c5a812f575d06391223dff77e44a5"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "351975f5934c5b7c2f1f41140aee934a6c467805529f76e6d0c17425ecce9e61",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "画中的女人、小孩和肥猪，以及桐树，均绘得极为出色，虽然他的图章倒了！",
+      "output_sha256": "39fb2625a8d7a17ffe69abaae1ba99ba0d159ac97b3d974db3f5d96c66f13c25",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.495417,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "aa68e4cdb2daaac48b92673853e7fe14b21d433c3cb0ae371d66266129611d7c"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "39fb2625a8d7a17ffe69abaae1ba99ba0d159ac97b3d974db3f5d96c66f13c25",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "虽然图章的脚朝天，我还是很爱这张画，因为伯龙就是那么个一天到晚慌里慌张的人，这个脚朝天的图章正好印上了他的人格。",
+      "output_sha256": "f240e8affd262609042b01ab57ffe54883b0c4ef90a43176d33ab2cab298d220",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "f240e8affd262609042b01ab57ffe54883b0c4ef90a43176d33ab2cab298d220",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这个缺陷使这张画更可贵！",
+      "output_sha256": "ddcc0f944d053d50d1766c444c9b21481cfe1e22e7258c21355156ebef834413",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "ddcc0f944d053d50d1766c444c9b21481cfe1e22e7258c21355156ebef834413",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我不知道合于哪一条艺术原理，说不定也许根本不合乎艺术原理呢。",
+      "output_sha256": "2e2d31585858473fed6185250f88b2b258b4bd1fcc19e64c9fa22421ac7a563a",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "2e2d31585858473fed6185250f88b2b258b4bd1fcc19e64c9fa22421ac7a563a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "但对于我来说，这就是我的脾气！",
+      "output_sha256": "1a3c3265a4b0c97b2ab9aa443be15744c1a0b43bdd96d83a25548754ba0eb693",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.376505,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "6e3effc1b0886c5e9ccbcd60709229c93c4f86c6ea0599b92b0b9bc614ba97aa"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "1a3c3265a4b0c97b2ab9aa443be15744c1a0b43bdd96d83a25548754ba0eb693",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "第二个例子是齐白石大画师所作的一张鸡雏图。",
+      "output_sha256": "4a18aa3b2af92623b32c5aa3292a93c39de2a7f0bd8bf69718984ca924710d83",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "4a18aa3b2af92623b32c5aa3292a93c39de2a7f0bd8bf69718984ca924710d83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我对白石翁的才华和为人都十分佩服，早就想得到他的作品。",
+      "output_sha256": "871f9774d6e3b4379fc96bcac28c856ae88061f1682673e9c9a2e3e7f091248d",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.549514,
+      "human_sentence_indices": [
+        25,
+        26
+      ],
+      "human_sha256": [
+        "097d7ad7a5f805306e02b0c4d927bc278b8cc053f99fa1d9c470fc7778fbe375",
+        "73c0bdb365563811ac2558d950c612877040db147232201268373ae0a2a516c8"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "871f9774d6e3b4379fc96bcac28c856ae88061f1682673e9c9a2e3e7f091248d",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "但是，这位老人永远不给任何人白画，而润格又很高；我只好“望画兴叹”。",
+      "output_sha256": "5ac5646bdf1f2c5c742ead88b4d605cb4fce779a09c94ea3bff12e588f8393ac",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "5ac5646bdf1f2c5c742ead88b4d605cb4fce779a09c94ea3bff12e588f8393ac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "然而，天公作美，机会来了！",
+      "output_sha256": "db33c858394298196d54a907b3b2f4926aae4e7b6e609f1ba140f913a67a2b6f",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.51,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "c9e59e9a3895ee1f82fbad8d7cb3486f2444524b191874b30fd6e51d88eb143e"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "db33c858394298196d54a907b3b2f4926aae4e7b6e609f1ba140f913a67a2b6f",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "有一次，我帮了许地山先生一点忙，他问我：“我想送你一份小礼物，你想要什么？”",
+      "output_sha256": "b974dd3ef0b54ab9d20116b8729a4a3aa2716402d162c8675211f5fb8441dd0c",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.729992,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "3e41904aef67dac3d56b477a4538590d32d9daf54e05d3de842afe317b134a80"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "b974dd3ef0b54ab9d20116b8729a4a3aa2716402d162c8675211f5fb8441dd0c",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我毫未迟疑的说：“我要一张白石老人的画！”",
+      "output_sha256": "d96248f9e33e42b56783a42dd319d2e22be73ff05a5c145e3117f18c2c7e9407",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "d96248f9e33e42b56783a42dd319d2e22be73ff05a5c145e3117f18c2c7e9407",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我知道他与老人很熟识，或者老人能施舍一次。",
+      "output_sha256": "8d45be7437fab3d9e3d78b4a3dbe95f04df15911c23e886f9e6366c624c63e77",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "8d45be7437fab3d9e3d78b4a3dbe95f04df15911c23e886f9e6366c624c63e77",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "老人敢情绝对不施舍。",
+      "output_sha256": "68e8ebd93aebed507b9153146b4330abcf77b3558c59f2b738b325bd5fab3cf8",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "68e8ebd93aebed507b9153146b4330abcf77b3558c59f2b738b325bd5fab3cf8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "地山就出了三十元（十年前的三十元！",
+      "output_sha256": "bdb1e05c7dfbcb8bb87dcaaa56e520a85961667d0b563d0265327cbc62b7f33d",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "bdb1e05c7dfbcb8bb87dcaaa56e520a85961667d0b563d0265327cbc62b7f33d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "据说这还是减半价，否则价六十元矣！）",
+      "output_sha256": "a2e2114605b9cc7235a9c5d52c22104392fda35880bb08ca7cca7b1d2637ecc6",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "a2e2114605b9cc7235a9c5d52c22104392fda35880bb08ca7cca7b1d2637ecc6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "给我求了张画。",
+      "output_sha256": "6cc4e67396ed2fa1b2d871d18e7d1409d1c02103cf9ea484f2c428d95a8e586f",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "6cc4e67396ed2fa1b2d871d18e7d1409d1c02103cf9ea484f2c428d95a8e586f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "画得真好，一共十八只鸡雏，个个精彩！",
+      "output_sha256": "78530bf89b3f71bd703aa241878a71a6101057841ce2711e42f51010d6b92305",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "78530bf89b3f71bd703aa241878a71a6101057841ce2711e42f51010d6b92305",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这张画是我的宝贝，即使有人拿张宋徽宗的鹰和我换，我也不干！",
+      "output_sha256": "be7270591bae77d4a534b83716a5df0b7a5696e07a7fa47b0c2a4b0a7e356624",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "be7270591bae77d4a534b83716a5df0b7a5696e07a7fa47b0c2a4b0a7e356624",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这是我最钦佩的画师所给，而又是好友所赠的！",
+      "output_sha256": "a8357dadc54eb441f8797fa2fc1f079c7823dc0cdfe03df7a7e33ad14dc9aeb9",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "a8357dadc54eb441f8797fa2fc1f079c7823dc0cdfe03df7a7e33ad14dc9aeb9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "抗战结束后，我从济南逃出来时，曾告诫家人：“什么都可以放弃，但这幅画绝不能丢！”",
+      "output_sha256": "25ffbc89d8213952b337b192ab547ebc0f79f9b6e69ab14403784be7d621296e",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.532892,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "0ddcf15da1476c11b31998f3dcfd17189720732575e5e5bf062ddafc195e3ce6"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "25ffbc89d8213952b337b192ab547ebc0f79f9b6e69ab14403784be7d621296e",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "于是，家里将所有家具和书籍都留在了济南，只带着这幅鸡雏画回到了北平。",
+      "output_sha256": "e53f27cb2e7009b0c8232267f56ed2e030eda3d8ef9c109872c036a414dd9445",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.535462,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "b275ce388ded5f1a2ee97fd920fdb0f153d73d9e81ab874a8f504e7fd3e43f65"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "e53f27cb2e7009b0c8232267f56ed2e030eda3d8ef9c109872c036a414dd9445",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "去年，家中因北平的人为的饥荒而想来渝，我就又函告她们，鸡图万不可失！",
+      "output_sha256": "d90597afa9c945373d60327730b59856668a665f79abd340d06e66bcee10c0af",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "d90597afa9c945373d60327730b59856668a665f79abd340d06e66bcee10c0af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我不肯放弃此画，一来是白石老人已经八十多岁，二来是地山先生已经去世；白石翁的作品在北方不难买到，但是买到的万难与我所有的这一张相比！",
+      "output_sha256": "80233f8fb43a2866eecd9dff71a23db14da251b5847b9abc46999e3fc760fe09",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "80233f8fb43a2866eecd9dff71a23db14da251b5847b9abc46999e3fc760fe09",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "妻子收到我的信，她自己也希望得到一幅老人的画。",
+      "output_sha256": "cfa98e492077a6a81fa9c6a0a205ea1cf93335b3611d96ac53027ec20c0edbac",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.543529,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "4e136a7eae7c121b2addd235eccdc83505b273dab07d7235c7b827c3f2ac2f07"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "cfa98e492077a6a81fa9c6a0a205ea1cf93335b3611d96ac53027ec20c0edbac",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "由老人的一位女弟子介绍，她送上四百元获到老人的六只虾，而且题了上款。",
+      "output_sha256": "ab0e48d4e655619a6cfaa839822c337cc94d9788ecf8f44e7c42b72b3dd844e0",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "ab0e48d4e655619a6cfaa839822c337cc94d9788ecf8f44e7c42b72b3dd844e0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "那时候（现在也许又增高一倍了），老人的润格已是四百元一方尺，题上款加四百元，指定画题加倍，草虫（因目力欠佳）加倍，敷设西洋红加倍。",
+      "output_sha256": "134c6b8f8005617cfa253779cb1b50ff82b4a2875ef5efe38da5af8beb5396f2",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "134c6b8f8005617cfa253779cb1b50ff82b4a2875ef5efe38da5af8beb5396f2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "来到重庆，她拿出搁在箱里的六只虾，请朋友们看，于是重庆造了她带来一箱子白石翁的画之谣。",
+      "output_sha256": "2cd76bb0ddea3848c82ce9af1f1c3da2899fcbda61751fa1b50b9a0f9d3cf82b",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "2cd76bb0ddea3848c82ce9af1f1c3da2899fcbda61751fa1b50b9a0f9d3cf82b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "哎呀！",
+      "output_sha256": "4d27fba32b4cdf632760230caaf4b4d14ee3299721f6e4c735d9a42b03bba61e",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "4d27fba32b4cdf632760230caaf4b4d14ee3299721f6e4c735d9a42b03bba61e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "假若我真有一箱白石翁的画够多么好呢！",
+      "output_sha256": "eaec6f0059dca09e62f53addb8b8b9ee3ec705ff48da79e4b022332e58b77b5d",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "eaec6f0059dca09e62f53addb8b8b9ee3ec705ff48da79e4b022332e58b77b5d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "一箱子！",
+      "output_sha256": "446fbd1ef7b51e28e0cd830b2e843df1172564749e36bd83daf32bc7b80e9c75",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "446fbd1ef7b51e28e0cd830b2e843df1172564749e36bd83daf32bc7b80e9c75",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "就以二尺长，半尺高的箱子为例，大概可以装下五百张！",
+      "output_sha256": "beb6243b255ae3b8795cac608aa17813f4edcef4f194a3490d493a8fcc12d5e9",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.659429,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "c64348e51a5a9a27483265d4e8c4c4c35df617bd4e80799941f6477ac14eaf63"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "beb6243b255ae3b8795cac608aa17813f4edcef4f194a3490d493a8fcc12d5e9",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "假如我真的有这么一箱，我就可以自称为五百白石翁画富人——虽然我还不到五十岁，不好意思称“翁”，但就精神而言，甚至在金钱上，我也确实可以自称“富”。",
+      "output_sha256": "3820ca4d33bc95001b41a0e07f0208e3036b2eb41bddd21e5029cfbdfb6f7d48",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.567123,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "09b0ada74dcbe32068d0f7ef95c72665c2c71617f558b0d19ee9d25893f066e3"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "3820ca4d33bc95001b41a0e07f0208e3036b2eb41bddd21e5029cfbdfb6f7d48",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "想想看，以二千元一张画说吧，五百张该合多少钱？",
+      "output_sha256": "f72de956fbfd4e0a81e13fa1a2f94f6f2bc0e2269ae6b1ac0e246bd0097f0458",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "f72de956fbfd4e0a81e13fa1a2f94f6f2bc0e2269ae6b1ac0e246bd0097f0458",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "我不禁疑惑，为什么妻子不把那么多的钱买点粮食呢？",
+      "output_sha256": "d248c1d339b29f1697c07cc9f6c999a65dbd0d82be48f932f6b6f409a4e166a1",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.690349,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "9a3c4b6f6527527de7f8c31c5e327267888059486c811414657a7e28102dc3e1"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "d248c1d339b29f1697c07cc9f6c999a65dbd0d82be48f932f6b6f409a4e166a1",
+      "ai_unit_sentence_indices": [
+        49,
+        50
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "（有钱的话，在北平也能吃饱）而让孩子们饿成那样呢？",
+      "output_sha256": "7dbfb439b12f65e1a595df2eca281f5ca4c36d8785d9f9ed8027def7d2ef1705",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.690349,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "9a3c4b6f6527527de7f8c31c5e327267888059486c811414657a7e28102dc3e1"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "7dbfb439b12f65e1a595df2eca281f5ca4c36d8785d9f9ed8027def7d2ef1705",
+      "ai_unit_sentence_indices": [
+        49,
+        50
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "不管她，先说我自己吧。",
+      "output_sha256": "9cf73da241a0bef941686396b0e55f378f197f607a3ddd1d274115ca1ab66517",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.897982,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "db2044658e3b2cff5b0e4f34c99c934ee36a8b189b4f47d08b1075649df62219"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "9cf73da241a0bef941686396b0e55f378f197f607a3ddd1d274115ca1ab66517",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "我若真有了那么一箱子画，该怎办呢？",
+      "output_sha256": "e2d836fb88d1d64688de9ab134cd35bf6de48ff1f8f324403664b7bd5e911f71",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "e2d836fb88d1d64688de9ab134cd35bf6de48ff1f8f324403664b7bd5e911f71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "我想啊，我应该在重庆开一次展览会，一来是为给我最佩服的老画师作义务的宣传，以示敬意；二来是给大家个饱眼福的机会。",
+      "output_sha256": "0a55e3b30dc6e301c42f82e45518537269e715a16749ed99eff4b3b95fbcc9f3",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "0a55e3b30dc6e301c42f82e45518537269e715a16749ed99eff4b3b95fbcc9f3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "在展览期间，我会请徐悲鸿、林风眠、丰子恺等人给作品定价，假如每幅画售价一万元，我便能收入五百万。",
+      "output_sha256": "41b5f53307d5fe2499f59e0e5ed09679ed31c1f5a61a18ad53bd695fe79cf712",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.554858,
+      "human_sentence_indices": [
+        57,
+        58
+      ],
+      "human_sha256": [
+        "c8e94d5d1079aae970ed2a4672df2b1f7affaf5730548ae49a762488868733ca",
+        "2e17b0d094148e9cafdc0eb5c0dede807fec8059b46537bcd0e36ae386b35c65"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "41b5f53307d5fe2499f59e0e5ed09679ed31c1f5a61a18ad53bd695fe79cf712",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "收到款后，我会捐赠给文艺界抗敌协会、戏剧界抗敌协会、美术界抗敌协会、音乐界抗敌协会各一百万元。",
+      "output_sha256": "83155940f85a5ac24ad5bd9b41d05b9de3e1a63ca448ddf65b659a83dfe8f69e",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.84,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "16483d976fdf9cbde6315101e656a79473eb917ec2bd838c2579611d1b17450b"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "83155940f85a5ac24ad5bd9b41d05b9de3e1a63ca448ddf65b659a83dfe8f69e",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "所余的一百万元，全数交给文艺奖助金委员会，用以救济贫苦的文人——我自己先去申请助金五千元，好买些补血的药品，疗治头昏。",
+      "output_sha256": "a4d466f62e5bcbe0027c147ffc45d0be189724166f70a55c2562005915131bbc",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "a4d466f62e5bcbe0027c147ffc45d0be189724166f70a55c2562005915131bbc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "我想，我的计划实在不能算坏！",
+      "output_sha256": "4c4471398a668d0a3ff06f545616ae26113e1915a40c01e55477737b472b9ab2",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "4c4471398a668d0a3ff06f545616ae26113e1915a40c01e55477737b472b9ab2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "可是，教我上哪里找那一箱子画去呢？",
+      "output_sha256": "2c6c10a16c1f2807d10f6141ca44b404c707505baa81ad8c43918dc11b918d67",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "2c6c10a16c1f2807d10f6141ca44b404c707505baa81ad8c43918dc11b918d67",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "那么，假若你高兴的话，请去北碚，还是看一看我的十八只鸡雏和内人的六只虾吧！",
+      "output_sha256": "8e785f4e81921e4e4e5b3d782e88ae7c8d5813621713cb1f5be4f62121b21b85",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "8e785f4e81921e4e4e5b3d782e88ae7c8d5813621713cb1f5be4f62121b21b85",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "你一夸奖它们，我便欢喜，庶几乎飘飘然有精神胜利之感矣！",
+      "output_sha256": "eda073b92829656294c10cd596ffd6d39d62c6aa9f2af608cf62893c625d8630",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "eda073b92829656294c10cd596ffd6d39d62c6aa9f2af608cf62893c625d8630",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "谢谢替我夸口的友人们，他们至少又给了我写一篇短文的资料！",
+      "output_sha256": "d64953540409715477174e34faabb3ff97a53b181017b39864c8bdd067340630",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "d64953540409715477174e34faabb3ff97a53b181017b39864c8bdd067340630",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

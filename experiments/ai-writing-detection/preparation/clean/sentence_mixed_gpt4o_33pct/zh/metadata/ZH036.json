@@ -1,0 +1,939 @@
+{
+  "source_id": "ZH036",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "2ca21ec897e806b8ea34dba7957141847fb6ec1d0d58fd553e4eb8f733262e90",
+  "ai_article_sha256": "61ca5c8e51d995230cc638864b8563d59805f66752c1bf1841507f25c5486136",
+  "mixed_article_sha256": "0403aff8b0d9c03adf2f5b61c9d425f8f195c4cc130f48dd338c738e1a7dc4c2",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 63,
+  "alignment_unit_count": 60,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 62,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.33871,
+  "selected_alignment_score_min": 0.339779,
+  "selected_alignment_score_median": 0.580633,
+  "selected_alignment_score_max": 0.898433,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "韦杰三君是一个可爱的人；我第一回见他面时就这样想。",
+      "output_sha256": "53a4cef84b50b89395f3f2adbde50501cf63ec3b7e8c5517cde6ab264815b03c",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "53a4cef84b50b89395f3f2adbde50501cf63ec3b7e8c5517cde6ab264815b03c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这一天我正敲门的声音；进来的是一位温雅的少年。",
+      "output_sha256": "6d4da90884f87ac0d9e5deba9668112e446b16a3833ff09bc4f7069e10e98de8",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "6d4da90884f87ac0d9e5deba9668112e446b16a3833ff09bc4f7069e10e98de8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我问他贵姓的时候，他将他的姓名写在纸上给我看；说是苏甲荣先生介绍他来的。",
+      "output_sha256": "b5d9ce15708e57986bd2b25c1c3fc306706ea0c32088d2fd7c53f8ed03c4eeac",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "b5d9ce15708e57986bd2b25c1c3fc306706ea0c32088d2fd7c53f8ed03c4eeac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "苏先生是我的同学，他的同乡，他说前一晚已来找过我了，我不在家；所以这回又特地来的。",
+      "output_sha256": "c62ed0330fbb322452d587440545ec5839b80dfcbf5a69711315f24c22942a84",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "c62ed0330fbb322452d587440545ec5839b80dfcbf5a69711315f24c22942a84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我们闲谈了一会，他说怕耽误我的时间，就告辞走了。",
+      "output_sha256": "33fff9102d8e7465af475547871cd8e86e82ca73c93682811a2068b786a02eee",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "33fff9102d8e7465af475547871cd8e86e82ca73c93682811a2068b786a02eee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "是的，我们只谈了一会儿，而且并没有什么重要的话；——我现在已全忘记——但我觉得已懂得他了，我相信他是一个可爱的人。",
+      "output_sha256": "84526c5ffae70d804309c7752ce7034240329df6b9e1793b991b6b4123b6b7a9",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "84526c5ffae70d804309c7752ce7034240329df6b9e1793b991b6b4123b6b7a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "第二次见面是在几天后。",
+      "output_sha256": "359b549c7beadd2edca06f0ef75f47664d8ff8c29746270fb45092cd36ac5026",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.586818,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "a26b511639cd9e738e7ebbec57fa8501591d62c94d2db8011e4e4a08c4eeed09"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "359b549c7beadd2edca06f0ef75f47664d8ff8c29746270fb45092cd36ac5026",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "那时新生甄别试验刚完，他的国文课是被分在钱子泉先生的班上。",
+      "output_sha256": "e60c584a3a6db17e59d93d13cf73de21dbe5ce297d2b54a893d83255a0da707a",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "e60c584a3a6db17e59d93d13cf73de21dbe5ce297d2b54a893d83255a0da707a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "他来找我，想要转到我的班。",
+      "output_sha256": "d0d9953cadd75e68b493bd97be3bdf729ee904fd07626540268f7d3dc50b9065",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.680507,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "35a165304628b4938803105a6781e7a2b489d01f5163a3a4e94bae6c0073ef7e"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "d0d9953cadd75e68b493bd97be3bdf729ee904fd07626540268f7d3dc50b9065",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我和他说，钱先生的学问，是我素来佩服的；在他班上比在我班上一定好。",
+      "output_sha256": "8c4fab53159c075397fede332b4eb0cf972db92ea9d58a88559c7dd5d385ff2c",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "8c4fab53159c075397fede332b4eb0cf972db92ea9d58a88559c7dd5d385ff2c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "而且已经确定的安排因一个人而改变也不太方便。",
+      "output_sha256": "2ee1d3ddb71015d75a785ca251a84a5d9a6643cc1c47f1c46d437d25500708c9",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.636556,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "d24d6dc4e2453e97b9b0dbca470a2c18a5d799b0eb2736c4349dc3295c4567b6"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "2ee1d3ddb71015d75a785ca251a84a5d9a6643cc1c47f1c46d437d25500708c9",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "他应了几声，也没有什么，就走了。",
+      "output_sha256": "09b6b24b91ae2439c76bca3b13eadca124d27771d781be288d5bce7d8039b5d8",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "09b6b24b91ae2439c76bca3b13eadca124d27771d781be288d5bce7d8039b5d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "从那之后，他再也没有来过我这儿。",
+      "output_sha256": "0e9751827e6b3f1f4304d164e6f96d2177e0b61ac06fb404d5eb329dbc30d7e8",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.339779,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "52b3cf26cca5056a7e216b6fac9177839c5af8c22f06954c10b6fb9b8665c415"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "0e9751827e6b3f1f4304d164e6f96d2177e0b61ac06fb404d5eb329dbc30d7e8",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "有一回，在三院第一排屋的后门口遇见他，他微笑著向我点头；他本是捧了书及墨水匣去上课的，这时却站住了向我说：常想到先生那里，只是功课太忙了，总想去的。",
+      "output_sha256": "c3a948ae9ca4803b47afaa3c391ea95ea1284bbe8b838e21ec82ee60c9e0ab8a",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "c3a948ae9ca4803b47afaa3c391ea95ea1284bbe8b838e21ec82ee60c9e0ab8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我说：你闲时可以到我这里谈谈。",
+      "output_sha256": "55b0836584a8da36a0279da71b729c62dc6d0332e9f359a552da50b913b635f5",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "55b0836584a8da36a0279da71b729c62dc6d0332e9f359a552da50b913b635f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我们互相点头告别。",
+      "output_sha256": "c17e2dafc55d251bd34b76a57dacc6c8962db70218d5c9ea37376c72ed2d27cb",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.465,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "d17b96e9f72b50dc959340f46626b6b15b5a7cc21b2a7a3a5bfd4fac7cd5f83f"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "c17e2dafc55d251bd34b76a57dacc6c8962db70218d5c9ea37376c72ed2d27cb",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "三院离我住的古月堂似乎很远，有时想起来，感觉几乎和前门一样。",
+      "output_sha256": "ac6a17a77aa928c23fb746664065437495e324f483849e21c8fc3a593b2f17d4",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.898433,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "56c801b8511b447cbfcf4cdc24aee5a60df681a86c8c0549803108f8bcb7bfe0"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "ac6a17a77aa928c23fb746664065437495e324f483849e21c8fc3a593b2f17d4",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "所以半年以来，我只在上课前，下课后几分钟里，偶然遇著他三四次；除上述一次外，都只匆匆地点头走过，不曾说一句话。",
+      "output_sha256": "5571fe5e7855974cfb99c69833c43ad941cf2985e6458a5672b7faa88022f467",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "5571fe5e7855974cfb99c69833c43ad941cf2985e6458a5672b7faa88022f467",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "但我常是这样想：他是一个可爱的人。",
+      "output_sha256": "4373d5fe48fdc0eaf04a2d49d643757999c21e842802094c307511cc7984ca2b",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "4373d5fe48fdc0eaf04a2d49d643757999c21e842802094c307511cc7984ca2b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他的同乡苏先生，我还是来京时见过一回，半年来不曾再见。",
+      "output_sha256": "764936525299e0cba90b2033f8f5b504c27490f1945caf72213bd876323e5d9e",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "764936525299e0cba90b2033f8f5b504c27490f1945caf72213bd876323e5d9e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我并没有机会与他谈起韦君；同样，我也没和其他人谈起过韦君，除了钱子泉先生。",
+      "output_sha256": "51487b306363d68312c05eb3b801f07ceb4d9b32fa738c623418889d335fb000",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.552894,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "8aa6e73b7ef33c15f9b074b22c8852ad24002d42424555b51244e98e1f098e2a"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "51487b306363d68312c05eb3b801f07ceb4d9b32fa738c623418889d335fb000",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "某天，钱先生告诉我，韦君一直想转到我班上；他又说：韦君明白不能转也很安心地用功，笔记做得很详细。",
+      "output_sha256": "ce9ddc2149cf6eee5948ac69c81d59ccf5e75d7ef842143e61d6bc0b0858eac4",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.647319,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "b331838c56a9b38bbb3467bdc7030ad41beea8fc4162628bf07fab4ddf557f23"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "ce9ddc2149cf6eee5948ac69c81d59ccf5e75d7ef842143e61d6bc0b0858eac4",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我说，当然在钱先生班上学习更好。",
+      "output_sha256": "5eb1fdac85d3cdd9e88c04795775b308a5439046fc9af803800439eb3b20cce6",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.638784,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "a4f54755f06e768717e6a83295d54559528479468957f214df22349963234607"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "5eb1fdac85d3cdd9e88c04795775b308a5439046fc9af803800439eb3b20cce6",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "以后这件事还谈起一两次。",
+      "output_sha256": "13c17f9a40f88f7ec53bb77a7e60298daf40e7388d9ed06f72adad095e5b52e5",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "13c17f9a40f88f7ec53bb77a7e60298daf40e7388d9ed06f72adad095e5b52e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "直到三月十九日早，有人误报了韦君的死信；钱先生站在我屋外的台阶上惋惜地说：他寒假中来和我谈。",
+      "output_sha256": "d67f4e38b7a8421e4ac70c16d4a3bd1a81e6533502598f0814655bea83228a68",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "d67f4e38b7a8421e4ac70c16d4a3bd1a81e6533502598f0814655bea83228a68",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我因他常是忧郁的样子，便问他为何这样；是为了我么？",
+      "output_sha256": "13874f7c2bea42c1bd36c38f224dcdff293e4ba661bc15f5ee44c5608486b2e2",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "13874f7c2bea42c1bd36c38f224dcdff293e4ba661bc15f5ee44c5608486b2e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他说：不是，你先生很好的；我是因家境不宽，老是愁烦著。",
+      "output_sha256": "948c4097a901eae75584d446cbead5fb0fb1bdd30b8d33c141c24a25873fd4f8",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "948c4097a901eae75584d446cbead5fb0fb1bdd30b8d33c141c24a25873fd4f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "他提到家中还有一位年迈的父亲和未成年的弟弟；他说他的弟弟因为家里没钱，已经辍学了。",
+      "output_sha256": "17d3525f4e606ac5d2140437f0acac68ce6221dce55ef2dd3fc78c69cb23848b",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.691971,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "ba4414ddba145211ff222f276956f6109763140807ccfff0d154d35bba99733d"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "17d3525f4e606ac5d2140437f0acac68ce6221dce55ef2dd3fc78c69cb23848b",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他又说他历年在外读书的钱，一小半是自己休了学去做教员弄来的，一大半是向人告贷来的。",
+      "output_sha256": "665aa63825e699e7bc3b2d1145b430c242789d36338e340447930be3f16aed04",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "665aa63825e699e7bc3b2d1145b430c242789d36338e340447930be3f16aed04",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "他又说，下半年的学费还没着落呢。",
+      "output_sha256": "072a5d0354e859edb163cd2c4cd0242051d4655a32311189a3d4b2a3f0a9a26f",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.821365,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "4db5540acc6b11ae73255239405687a5d6eb386873ea23ac8cb6c8757973e44b"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "072a5d0354e859edb163cd2c4cd0242051d4655a32311189a3d4b2a3f0a9a26f",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "但他却不想轻易接受别人的钱；从他为大学部学生会起草的请愿信中，可以看出虽然年纪轻轻，却有着坚定的原则。",
+      "output_sha256": "117301aa80ef327a687b093ea528a16395307ae8e8a3815e2e9adefe25cc63fa",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.461062,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "fb350fc875684f6ac77e5bb2599e4b1de3b3553694bf133686aca82db931ba36"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "117301aa80ef327a687b093ea528a16395307ae8e8a3815e2e9adefe25cc63fa",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我最后见他，是在三月十八日早上，天安门下电车时。",
+      "output_sha256": "509b44af31e9ae8542ce757dcf07d9ab2f209e432bcc8de6ac5896adf8e5d411",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "509b44af31e9ae8542ce757dcf07d9ab2f209e432bcc8de6ac5896adf8e5d411",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "也照平常一样，微笑著向我点头。",
+      "output_sha256": "bf9b2d12990039cb42fd2a39336181ee51c20bb00165e7ab8d686d153eeba42a",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "bf9b2d12990039cb42fd2a39336181ee51c20bb00165e7ab8d686d153eeba42a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他的微笑显示他纯洁的心，告诉人，他愿意亲近一切；我是不会忘记的。",
+      "output_sha256": "913c85d6e2665887b77059958969eddf4917710a1a50c955b2e7aada743b9e72",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "913c85d6e2665887b77059958969eddf4917710a1a50c955b2e7aada743b9e72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "还有他的静默，我也不会忘记。",
+      "output_sha256": "2fcdf17a35a47a9c8be8b5ee5e0e67a2ad232d0410a1ab965a6d59e8f5259b48",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "2fcdf17a35a47a9c8be8b5ee5e0e67a2ad232d0410a1ab965a6d59e8f5259b48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "据陈云豹先生的《行述》，韦君很能说话；但这半年来，我们听见的，却只有他的静默而已。",
+      "output_sha256": "208e66c61110b7689d0dbddd07bd285e3fb18555f110366f6f718ca71e2d9e50",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "208e66c61110b7689d0dbddd07bd285e3fb18555f110366f6f718ca71e2d9e50",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他的静默里含有忧郁，悲苦，坚忍，温雅等等，是最足以引人深长之思和切至之情的。",
+      "output_sha256": "4a9bad314bddfe9df1c04701c5761d97248973b23880bdc2c053f4037ed2f801",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "4a9bad314bddfe9df1c04701c5761d97248973b23880bdc2c053f4037ed2f801",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "在他生病期间，陈云豹在校内追悼会上提到，尽管有段时间他显得很焦躁，但最终在离开我们之前，还是写下了那两句平静的话给校长；那两句话饱含着无尽的悲哀，正是沉默中的悲哀！",
+      "output_sha256": "72bbf6416775aebcbd619bda4ec04e205f27ac3c820a1c6a33f09df39c965125",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.552678,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "113898e980e51f28ff43727018ee8752db48eee7a04a340444eaff350bf8ce6f"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "72bbf6416775aebcbd619bda4ec04e205f27ac3c820a1c6a33f09df39c965125",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "所以我现在又想，他毕竟是一个可爱的人。",
+      "output_sha256": "cca98e6015fadad492a13b7747564e8a95ce2237970b29a92da8498b3f29fd64",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "cca98e6015fadad492a13b7747564e8a95ce2237970b29a92da8498b3f29fd64",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "三月十八日晚上，我得知他情况危急；第二天早上，听闻他已去世，只能叹息。",
+      "output_sha256": "b5f1db5c5ee93a66dc551d801b4b30bf3608bb2d2c1054e77b86c9023cacb4a9",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.622011,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "7dd66f452609d89d09e481e1349813ef43182aef903919916eb06a12660c99df"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "b5f1db5c5ee93a66dc551d801b4b30bf3608bb2d2c1054e77b86c9023cacb4a9",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但走去看学生会的布告时，知他还在人世，觉得被鼓励似的，忙著将这消息告诉别人。",
+      "output_sha256": "9c69712aa8c8ed317958bef76b45615792bf025f24c06eee9a04d57ff040446f",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "9c69712aa8c8ed317958bef76b45615792bf025f24c06eee9a04d57ff040446f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "有不信的，我立刻举出学生会布告为证。",
+      "output_sha256": "de67f4c68ee1f26a7d2898141a127fd06076824b14bdbb1ab7ce16e71e01c7ec",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "de67f4c68ee1f26a7d2898141a127fd06076824b14bdbb1ab7ce16e71e01c7ec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我二十日进城，到协和医院想去看看他；但不知道医院的规则，去迟了一点钟，不得进去。",
+      "output_sha256": "6ce7b336f2ebf03dfe8f97bef15fb683561f1bee1a1ada30ee3e84598b709713",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "6ce7b336f2ebf03dfe8f97bef15fb683561f1bee1a1ada30ee3e84598b709713",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我很怅惘地在门外徘徊了一会，试问门役道：你知道清华学校有一个韦杰三，死了没有？",
+      "output_sha256": "13afd1dfd5aa44abc5bdf366de6fca00fbcec007539597c4b284d0093fc917e9",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "13afd1dfd5aa44abc5bdf366de6fca00fbcec007539597c4b284d0093fc917e9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他的回答，我原也知道的，是不知道三字！",
+      "output_sha256": "cd795d9886e97770eb1d66cd755e4324f2fbe8998529cd8aba988bccf292e495",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "cd795d9886e97770eb1d66cd755e4324f2fbe8998529cd8aba988bccf292e495",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "那天傍晚我回到家；二十一日早上，才得知他真的去世了！",
+      "output_sha256": "675cbec216e41857186f7646111ce1e42a4ddcbc38517065e2a695619dc4cdf0",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.548486,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "d37808c8f0b03b014cb347cd6014bc1ea64ecd47c1e72c7c8e9270a255eb97f3"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "675cbec216e41857186f7646111ce1e42a4ddcbc38517065e2a695619dc4cdf0",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "他在二十一日上午一点四十八分离开了这个世界，也就是在二十日的夜里。",
+      "output_sha256": "9a0472fc2075ae01787f3f404e2ea71b58efe25871edb2c97deebcece29e5638",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.580633,
+      "human_sentence_indices": [
+        47,
+        48
+      ],
+      "human_sha256": [
+        "f0a5f6bd2f796ad948653b99abb3decc8bb0cade00067ecf218664429b5d7067",
+        "1af934bb86a304958a759ef91b32cfa33fb4b7c389785fcccbcb553f377b1fc4"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "9a0472fc2075ae01787f3f404e2ea71b58efe25871edb2c97deebcece29e5638",
+      "ai_unit_sentence_indices": [
+        48,
+        49
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "如果我早去一些，或许还能见到他一面，这实在是令人遗憾！",
+      "output_sha256": "9d1ddda17ec93d6e0be12a5dc82185075f1b9b0b6f8179c82c301f459e7996a3",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.580633,
+      "human_sentence_indices": [
+        47,
+        48
+      ],
+      "human_sha256": [
+        "f0a5f6bd2f796ad948653b99abb3decc8bb0cade00067ecf218664429b5d7067",
+        "1af934bb86a304958a759ef91b32cfa33fb4b7c389785fcccbcb553f377b1fc4"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "9d1ddda17ec93d6e0be12a5dc82185075f1b9b0b6f8179c82c301f459e7996a3",
+      "ai_unit_sentence_indices": [
+        48,
+        49
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "二十三日同人及同学入城迎灵，我在城里十二点才见报，已赶不及了。",
+      "output_sha256": "44f883feaa6379d76b0788aa2cd6f38399df3772a0ea6ceaf0ff70e1603d04a5",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "44f883feaa6379d76b0788aa2cd6f38399df3772a0ea6ceaf0ff70e1603d04a5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "下午回来，在校门外看见杠房里的人，知道柩已来了。",
+      "output_sha256": "1d31bff63e428e0625cfa5c349c20ea6ffc8a5ef1c22dc8432b1b14cc96fb22e",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "1d31bff63e428e0625cfa5c349c20ea6ffc8a5ef1c22dc8432b1b14cc96fb22e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我到古月堂询问，得知柩子安放在旧礼堂。",
+      "output_sha256": "8c7cecc68d8f1133bee64a46376b25881a75c0cb9aeba3feb753ba3caa7c5145",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.71298,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "7465eb714105b0c95a6aef20c7350afb8295541c02bacb314fb2d298d521f4ea"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "8c7cecc68d8f1133bee64a46376b25881a75c0cb9aeba3feb753ba3caa7c5145",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我去的时候，正在重殓，韦君已穿好了殓衣在照相了。",
+      "output_sha256": "666b7bae39692982d8b633e0e05df1d0ac19f3142a0bed16d533704a0b5f14fc",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "666b7bae39692982d8b633e0e05df1d0ac19f3142a0bed16d533704a0b5f14fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "据说还有一张光身照的照片，是拍摄伤口的。",
+      "output_sha256": "a371cd96dedbc4a8063341299ac31c0ddc7262abb6eae54ba5c7b91d6f5d7184",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.498889,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "6b4c61b1a4c4e844a9eaa1e0775bc0781b0ce07c39c7976dc611a94b161a39d9"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "a371cd96dedbc4a8063341299ac31c0ddc7262abb6eae54ba5c7b91d6f5d7184",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我没有看见他的伤口；但是这种情景，不看见也罢了。",
+      "output_sha256": "95ba706fee39e9cf4f9c6d8ae9a873defd838e285b778cbba968e15c7c4d3aab",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "95ba706fee39e9cf4f9c6d8ae9a873defd838e285b778cbba968e15c7c4d3aab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "照相毕，入殓，我走到柩旁：韦君的脸已变了样子，我几乎不认识了！",
+      "output_sha256": "23db519642889744a6e4deca8460ba2d369f3875ec7688b2b9ca98ef3bc641d6",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "23db519642889744a6e4deca8460ba2d369f3875ec7688b2b9ca98ef3bc641d6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "他的面颊高耸，脸颊瘪下，嘴唇微张，哪里还有我初见时的温雅呢？",
+      "output_sha256": "61617d1eadb2ad416c807d30d9abcee86c857f8c8554ac68723a0c20d5e47c06",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.576923,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "2b0a794caa06c62197f47327c48a72f22d05f997ff3d270d1b21e38a8b508e8b"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "61617d1eadb2ad416c807d30d9abcee86c857f8c8554ac68723a0c20d5e47c06",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这必是他几日间的痛苦所致的。",
+      "output_sha256": "4975dc9e9482d681412fe1fce5bfff09afc1f129bc7eb788fecc2c9ddaf09124",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "4975dc9e9482d681412fe1fce5bfff09afc1f129bc7eb788fecc2c9ddaf09124",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "唉，我们可以想见了！",
+      "output_sha256": "b4a97c3a9f544ac7464bd7785a91ad8ca035ce8be9d985cf1b101584441cf382",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "b4a97c3a9f544ac7464bd7785a91ad8ca035ce8be9d985cf1b101584441cf382",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我正在乱想，棺盖已经盖上；唉，韦君，这真是最后一面了！",
+      "output_sha256": "a628dbe8c53e3f17360e5f8f45abce97b0ebdb289822a027174acc22eb956894",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "a628dbe8c53e3f17360e5f8f45abce97b0ebdb289822a027174acc22eb956894",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我们从此真无再见之期了！",
+      "output_sha256": "a9f3429f027f537afb30bfdea7a00ab14bea68698296fee61ee673b3c9b4d283",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "a9f3429f027f537afb30bfdea7a00ab14bea68698296fee61ee673b3c9b4d283",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "生死的道理我无法理解，但无法再见是事实，韦君，我们失去了你，今后又该从何处寻找你呢？",
+      "output_sha256": "60d0427e34d944985859bde0b701258ef0607d8b5dca170712d1526683faa360",
+      "alignment_unit_index": 59,
+      "alignment_score": 0.554148,
+      "human_sentence_indices": [
+        61
+      ],
+      "human_sha256": [
+        "d19c004dbb7c615bdcdbff93fe2881abf53f5ac423adabeedd1faa1e82856615"
+      ],
+      "source_ai_sentence_index": 62,
+      "source_ai_sha256": "60d0427e34d944985859bde0b701258ef0607d8b5dca170712d1526683faa360",
+      "ai_unit_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "韦君现在一个人睡在刚秉庙的一间破屋里，等著他迢迢千里的老父，天气又这样坏；韦君，你的魂也彷徨著吧！",
+      "output_sha256": "506d9715236a0d76feb421f3a565d38ab341c3e451ffc21b1821ef078478ba8c",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "506d9715236a0d76feb421f3a565d38ab341c3e451ffc21b1821ef078478ba8c",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

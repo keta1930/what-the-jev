@@ -1,0 +1,763 @@
+{
+  "source_id": "ZH026",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "2af6beacf10284e9130263a59dfd1d6deb9a1c5db4b23c1637d44fb4c53847d4",
+  "ai_article_sha256": "7d69269fc053904e9b418cf7b11a3e5069f57b0f11d14c3896c4733fc55ea28a",
+  "mixed_article_sha256": "e975e0914ce45adfd5fce615dd233c6eab34b037e90c4f3fc21d6dacb5fa3dd5",
+  "human_source_sentence_count": 51,
+  "ai_source_sentence_count": 48,
+  "alignment_unit_count": 47,
+  "selected_alignment_unit_count": 16,
+  "mixed_sentence_count": 50,
+  "selected_ai_sentence_count": 17,
+  "actual_ai_sentence_ratio": 0.34,
+  "selected_alignment_score_min": 0.384,
+  "selected_alignment_score_median": 0.537619,
+  "selected_alignment_score_max": 0.663579,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "设若让我写一本小说，以北平作背景，我不至于害怕，因为我可以捡着我知道的写，而躲开我所不知道的。",
+      "output_sha256": "2c82d57b328d42e69111602a4ada1ee21654b65a51ef5061da6dcea10ce00bc1",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "2c82d57b328d42e69111602a4ada1ee21654b65a51ef5061da6dcea10ce00bc1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "让我单摆浮搁的讲一套北平，我没办法。",
+      "output_sha256": "aa82866fcd9091960884f8217a0d5d5b2a488f4e7686171bc86b3a90106ddf0d",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "aa82866fcd9091960884f8217a0d5d5b2a488f4e7686171bc86b3a90106ddf0d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "北平的范围广阔，事情纷繁复杂，而我所知的却少之又少，尽管我在那里生活了二十七年，直到离开时才感到依依不舍。",
+      "output_sha256": "6a8b02102dcd4601329514dd5ee6878c178093ad85b558f92d60d0a9c72fd7a2",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.388872,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "50cc81030934d53a731463640a5b216331c0b76278bd4096501b40111fc5e10b"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "6a8b02102dcd4601329514dd5ee6878c178093ad85b558f92d60d0a9c72fd7a2",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "以名胜说，我没到过陶然亭，这多可笑！",
+      "output_sha256": "61202809a146476900dfcc9763d6542cc6a7a675cc9fa2e0717b1e662d2f659b",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "61202809a146476900dfcc9763d6542cc6a7a675cc9fa2e0717b1e662d2f659b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "由此可见，我对北平的了解仅限于“我的北平”，而这份认识不过是沧海一粟。",
+      "output_sha256": "adcb4ddf038698b8e01804c5367269f5df942d887de423aae4396892e7d37008",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.384,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "c9ca152ce24872b7d2da97b01f977787677594232a05cbbfeb0c3d5a589e59a5"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "adcb4ddf038698b8e01804c5367269f5df942d887de423aae4396892e7d37008",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "然而，我深深热爱北平。",
+      "output_sha256": "093c8830af1bee8bb648d8b29b0b664a31bf1c35d367b02b05cb3cdd694eb665",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.455556,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "5389d7254e9a56101def58ab25c033947babf2a694f727a52940ca74e8f5ad5b"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "093c8830af1bee8bb648d8b29b0b664a31bf1c35d367b02b05cb3cdd694eb665",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这个爱几乎是要说而说不出的。",
+      "output_sha256": "07cf1f4f2b0d237ec46142f95b9391d17da40016f9f3ba8e4058c2c9add4d1cc",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "07cf1f4f2b0d237ec46142f95b9391d17da40016f9f3ba8e4058c2c9add4d1cc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我爱我的母亲，怎样的爱我亦无法阐明。",
+      "output_sha256": "278727ef3edfe200c615abde125c8721e7179724318ca3871a97e28e73675b4e",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.614511,
+      "human_sentence_indices": [
+        8,
+        9,
+        10
+      ],
+      "human_sha256": [
+        "15f77302d9f1e3e3de87dc68d784d15e651b461a2d46e7cb575ab016361f7a67",
+        "80c07b7542933306aad724e81710538d8628e7421e966ecff96508343637ffae",
+        "9bd6cd7d7c70776c86b0d48387bc163ac9ad49fd945d72aef2fbc3423e1a481c"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "278727ef3edfe200c615abde125c8721e7179724318ca3871a97e28e73675b4e",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "在我想作一件讨她老人家喜欢的时候，我独自微微的笑着；在我想到她的健康而不放心的时候，我欲落泪。",
+      "output_sha256": "757b058905433798af7e36914ba4418140bbb858bde3af4f7b1c95ad3edecb8a",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "757b058905433798af7e36914ba4418140bbb858bde3af4f7b1c95ad3edecb8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "言语是不够表现我的心情的，只有独自微笑或落泪才足以把内心揭露在外面一些来。",
+      "output_sha256": "3ed653d8e33ce579136bf8d49faef4aa99023aea00b1dbfbcf124ac11088f553",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "3ed653d8e33ce579136bf8d49faef4aa99023aea00b1dbfbcf124ac11088f553",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我对北平的爱也是如此。",
+      "output_sha256": "706aab3c6c5ee861272b3944867f0a06278f6e281d570bfcab20feff9bb290ee",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.422647,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "0d6ebdcd1e670fa98cb6aa454d8ceaf0c3a0eb5ed04f9ff71848b6c3c9b10a70"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "706aab3c6c5ee861272b3944867f0a06278f6e281d570bfcab20feff9bb290ee",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "夸奖这个古城的某一点是容易的，可是这就把北平看得太小了。",
+      "output_sha256": "dc72d18d9f165574a92a44b3ac793198bb118835c9657bd848a0be4c7d0fcf8d",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "dc72d18d9f165574a92a44b3ac793198bb118835c9657bd848a0be4c7d0fcf8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我所爱的北平不是枝枝节节的一些什么，而是整个儿与我的心灵相粘合的一段历史，一大块地方，多少风景名胜，从雨后什刹海的蜻蜓一直到我梦里的玉泉山的塔影，都积凑到一块，每一小的事件中有个我，我的每一思念中有个北平，这只有说不出而已。",
+      "output_sha256": "227508bc15c117699d4b1d41f8ea6e996c057d9441fdb1c0b06c73abedfdd961",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "227508bc15c117699d4b1d41f8ea6e996c057d9441fdb1c0b06c73abedfdd961",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "真愿成为诗人，把一切好听好看的字都浸在自己的心血里，像杜鹃似的啼出北平的俊伟。",
+      "output_sha256": "56fe1cc6264b6b5f162f17b9fc86eacbfb0c7b7f49eedb7f36e3db63726d59b2",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "56fe1cc6264b6b5f162f17b9fc86eacbfb0c7b7f49eedb7f36e3db63726d59b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "啊！",
+      "output_sha256": "81c28a42b8af498807476919251caa5ba6f641f655e63b78274946de67cc1a0c",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "81c28a42b8af498807476919251caa5ba6f641f655e63b78274946de67cc1a0c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我不是诗人！",
+      "output_sha256": "e8e6cf68b0a55fdc9703189b7e2199d20343bc332fcc4be503fe026f6be91928",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "e8e6cf68b0a55fdc9703189b7e2199d20343bc332fcc4be503fe026f6be91928",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我将永远道不出我的爱，一种像由音乐与图画所引起的爱。",
+      "output_sha256": "93bfb288e08a23ff7459d98ebcc812d8277d443e70f39533bb3cb1292575e8e5",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "93bfb288e08a23ff7459d98ebcc812d8277d443e70f39533bb3cb1292575e8e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这不但是辜负了北平，也对不住我自己，因为我的最初的知识与印象都得自北平，它是在我的血里，我的性格与脾气里有许多地方是这古城所赐给的。",
+      "output_sha256": "bb22b0eccb4feaa67c4011fbe87b03cd4add1ad72ce05924da546af16525ba91",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "bb22b0eccb4feaa67c4011fbe87b03cd4add1ad72ce05924da546af16525ba91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我无法爱上海和天津，因为心底里始终有个北平存在。",
+      "output_sha256": "4b58d0ed66c1da3da169e9bf86579b357932479082c29db0f917fb473527ebca",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.561136,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "1116aeca7f14e44ac860c079b3608d57be6666cb469819a87f2b85b92ddce864"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "4b58d0ed66c1da3da169e9bf86579b357932479082c29db0f917fb473527ebca",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "可是我说不出来！",
+      "output_sha256": "cb113a50bab0939b9457176c97ef87ac79ca17778a1446f7e63bd09e5b54e092",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "cb113a50bab0939b9457176c97ef87ac79ca17778a1446f7e63bd09e5b54e092",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "伦敦，巴黎，罗马与堪司坦丁堡，曾被称为欧洲的四大“历史的都城”。",
+      "output_sha256": "632ee9cbe2f720e5143501a9dd5552148061cc6388439d8c0f3dd9f0937408cf",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "632ee9cbe2f720e5143501a9dd5552148061cc6388439d8c0f3dd9f0937408cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我知道一些伦敦的情形；巴黎与罗马只是到过而已；堪司坦丁堡根本没有去过。",
+      "output_sha256": "02fdff426f8e956646d91fc7b179e3ef7d1c17674c8a678186da3ae412a4e809",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "02fdff426f8e956646d91fc7b179e3ef7d1c17674c8a678186da3ae412a4e809",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "就伦敦、巴黎和罗马而言，巴黎与北平更为相似——尽管“相似”二字的距离拉得颇远。",
+      "output_sha256": "12ce0eae7ec26dcef0363f4ba34ee14a143d11328a0c58832b908de3a7124142",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.495008,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "16309d74ff7487da8cb5db394109796b75c71677d342b59dd5b43deb4539e684"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "12ce0eae7ec26dcef0363f4ba34ee14a143d11328a0c58832b908de3a7124142",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "但如果让我选择“家住巴黎”，我定会感到孤独无依。",
+      "output_sha256": "c2fb02f92690d98350f1885724a5a2636db5b991200c36d7f3a34edd34780bc2",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.495008,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "16309d74ff7487da8cb5db394109796b75c71677d342b59dd5b43deb4539e684"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "c2fb02f92690d98350f1885724a5a2636db5b991200c36d7f3a34edd34780bc2",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "巴黎，据我看，还太热闹。",
+      "output_sha256": "3b305b319b3137821b087509a0b22b6b54f6ab8f8f8f56d63c9b048725661ae5",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "3b305b319b3137821b087509a0b22b6b54f6ab8f8f8f56d63c9b048725661ae5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "自然，那里也有空旷静寂的地方，可是又未免太旷；不像北平那样既复杂而又有个边际，使我能摸着——那长着红酸枣的老城墙！",
+      "output_sha256": "946f04a9556ea5a029caa4df8f885df8d8ad129494608b79a2f2da6941b36fb2",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "946f04a9556ea5a029caa4df8f885df8d8ad129494608b79a2f2da6941b36fb2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "面对积水潭，背靠城墙，坐在石头上静静观察水中游动的小蝌蚪或芦苇上的蜻蜓，我可以愉快地度过整天，内心安宁，无所求也无所惧，仿佛孩童在摇篮中安睡。",
+      "output_sha256": "a44119e7355eb6312a1ca07ff62eeaa9addbb19122622693f42a49c2668f6785",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.562694,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "6f8d175c1920c12805186b877ee970e6546a025a9cd4496b62efa63a90e21cb7"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "a44119e7355eb6312a1ca07ff62eeaa9addbb19122622693f42a49c2668f6785",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "是的，北平也有热闹的地方，但是它和太极拳相似，动中有静。",
+      "output_sha256": "8b05f6b6619d6f7068d2f447a779f989e852a3bd93f03fc52a7922e17d20b772",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "8b05f6b6619d6f7068d2f447a779f989e852a3bd93f03fc52a7922e17d20b772",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "巴黎的某些地方令人疲惫，因此咖啡与酒成为必需品；而在北平，一杯温和的香片茶已经足够。",
+      "output_sha256": "6486c5baaeb99d4423fbf2906da858f489ad10d63499161f1aeb55db27eaa9e9",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.537619,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "93684ed813fbb4f716ed5bd7e4213e75a052b3816da6cf4040754f1533875921"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "6486c5baaeb99d4423fbf2906da858f489ad10d63499161f1aeb55db27eaa9e9",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "论说巴黎的布置已比伦敦罗马匀调的多了，可是比上北平还差点事儿。",
+      "output_sha256": "29a40826efc8b9aca4e572aa0d46df150246072c769f2429ff4ea3d6ec274deb",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "29a40826efc8b9aca4e572aa0d46df150246072c769f2429ff4ea3d6ec274deb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "北平在人为之中显出自然，几乎是什么地方既不挤得慌，又不太僻静：最小的胡同里的房子也有院子与树；最空旷的地方也离买卖街与住宅区不远。",
+      "output_sha256": "4ac66e4f7e3067ac66d4654afec4fbec109f7777cf0d293dea39f4c0cee2b074",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "4ac66e4f7e3067ac66d4654afec4fbec109f7777cf0d293dea39f4c0cee2b074",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这种分配法可以算——在我的经验中——天下第一了。",
+      "output_sha256": "bab433f2e0b3fe51116c0e81e66d3c8433da83e3db7ea7229fc3ea813a14f460",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "bab433f2e0b3fe51116c0e81e66d3c8433da83e3db7ea7229fc3ea813a14f460",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "北平的魅力不在于处处设施完备，而在于到处都有空间，让人可以自由地呼吸；不仅仅是美丽的建筑，周围的空地更赋予它们美的感觉。",
+      "output_sha256": "a70b823a0691cd907166d2f3af5bcea255ab604077cb5385b0e5a4f4e9a67da0",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.481061,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "fd1b2685d0a380db8a966e1cb6335bd5cbf7abe79769895e2230ef3e2249f57b"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "a70b823a0691cd907166d2f3af5bcea255ab604077cb5385b0e5a4f4e9a67da0",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "每一座城楼、每一座牌楼，都可以从远处清晰可见。",
+      "output_sha256": "c89b2b55724029b98cc2f519d2cfc89b4161527c7c12e715fa259a860a81ccf4",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.634077,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "18fb4a310ca3a6ed1d2d9dfc309c6d946b1ae19721c6cae3a9ee7a42c4714c4b"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "c89b2b55724029b98cc2f519d2cfc89b4161527c7c12e715fa259a860a81ccf4",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "况且在街上还可以看见北山与西山呢！",
+      "output_sha256": "4b5841be3115acd43fe75e8da0e30acf1a232c7d6ff7efef0e49e76754190dc2",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "4b5841be3115acd43fe75e8da0e30acf1a232c7d6ff7efef0e49e76754190dc2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "好学的，爱古物的，人们自然喜欢北平，因为这里书多古物多。",
+      "output_sha256": "2661f24287aad735ac718ac83349de170f7ef9192dbfaecd595f2d4a7ba19d1e",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "2661f24287aad735ac718ac83349de170f7ef9192dbfaecd595f2d4a7ba19d1e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我不好学，也没钱买古物。",
+      "output_sha256": "1efddc9b2c1849f7da80a9daaecc260c43f859fe15f0740a9287f8dc325cb3c8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "1efddc9b2c1849f7da80a9daaecc260c43f859fe15f0740a9287f8dc325cb3c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "对于物质上，我却喜爱北平的花多菜多果子多。",
+      "output_sha256": "069eb4d97c8c4a2dda4873747cfb34a073488c892fec5f712ec36f38108f6573",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "069eb4d97c8c4a2dda4873747cfb34a073488c892fec5f712ec36f38108f6573",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "花草是费钱的玩艺，可是此地的“草花儿”很便宜，而且家家有院子，可以花不多的钱而种一院子花，即使算不了什么，可是到底可爱呀。",
+      "output_sha256": "a8ee9c9267b9e24ab53e5f2dcd622920939a1e5800b0581da43568ed1bec6828",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "a8ee9c9267b9e24ab53e5f2dcd622920939a1e5800b0581da43568ed1bec6828",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "墙上的牵牛，墙根的靠山竹与草茉莉，是多么省钱省事而也足以招来蝴蝶呀！",
+      "output_sha256": "99dee7e894e2924746f4cd27f79d3cb75153ff3083e2c294ea9a0b5c2bab0df3",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "99dee7e894e2924746f4cd27f79d3cb75153ff3083e2c294ea9a0b5c2bab0df3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "至于青菜、白菜、扁豆、毛豆、黄瓜、菠菜等，基本上都是从城外直接运送到家门口的。",
+      "output_sha256": "5a84aa3b3b9bef7223c26104b99e23bc43c896e0025412b214a51199cae061db",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.663579,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "2170716baa830c8dd345264cd01d4901394783bef1e6e4289ca937599ef59557"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "5a84aa3b3b9bef7223c26104b99e23bc43c896e0025412b214a51199cae061db",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "雨后，韭菜叶上还往往带着雨时溅起的泥点。",
+      "output_sha256": "859432f839263ba02098d7f55a8c9eb49ae0bf025a08c9000fdcb4d83e63c68d",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "859432f839263ba02098d7f55a8c9eb49ae0bf025a08c9000fdcb4d83e63c68d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "青菜摊子上的红绿相间，几乎如同一幅诗意的画。",
+      "output_sha256": "508f5ac0bbb180e827ae99fa0203174cc4bc27fe5ccccddf5370a40a756d5675",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.574925,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "ba82f48d6a432f1e535de61ff764850abefcafe76618118d0acea430ed0be01c"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "508f5ac0bbb180e827ae99fa0203174cc4bc27fe5ccccddf5370a40a756d5675",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "果子有不少是由西山与北山来的，西山的沙果，海棠，北山的黑枣，柿子，进了城还带着一层白霜儿呀！",
+      "output_sha256": "bf8625332786261613e9bff2f7785d9e68d3af559689915d3e407f1877784238",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "bf8625332786261613e9bff2f7785d9e68d3af559689915d3e407f1877784238",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "想想美国的橘子包着纸，而北平的带霜的玉李，又何其美味！",
+      "output_sha256": "d4075332d45be37ee8e0f41fe8d84b0406ae638c5b34d5fb105c2602bb6b75d6",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.643182,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "b1d4d5b142bdeb8cc995ccb7a7a62674d6a188e5ce1289e2b490ebd6e63fc743"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "d4075332d45be37ee8e0f41fe8d84b0406ae638c5b34d5fb105c2602bb6b75d6",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "确实，北平是一座都城，能够自给自足生产的花、菜和水果，让人与自然更为接近。",
+      "output_sha256": "35cd0b1c50f5c92c98029bd466ed6bfe155406445a9af5648dc7ff56d4e329e6",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.508507,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "944763ee99cae8982db0742a2083f6917e1554cb1bc2c6594ffaab489813c154"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "35cd0b1c50f5c92c98029bd466ed6bfe155406445a9af5648dc7ff56d4e329e6",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "从它里面说，它没有像伦敦的那些成天冒烟的工厂；从外面说，它紧连着园林，菜圃与农村。",
+      "output_sha256": "c4852bc5484f7f2d8ec4a60e859321ec02ac363abc79306cefeed8ba1a7bd67e",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "c4852bc5484f7f2d8ec4a60e859321ec02ac363abc79306cefeed8ba1a7bd67e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "在这里，采菊东篱下，确实可以悠然见南山；即使把“南”字换成“西”或“北”，也并无太大差别。",
+      "output_sha256": "b58cd22a199f73a1553a7c3057f4ba359094fdcd82f2f67a58fa80be8c13d710",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.550174,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "53aec08a02bff0a115ad4b28bd2b116db48fb7d24e34c59b8fb4d4a1dead678c"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "b58cd22a199f73a1553a7c3057f4ba359094fdcd82f2f67a58fa80be8c13d710",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "像我这样的一个贫寒的人，或者只有在北平能享受一点清福了。",
+      "output_sha256": "2ddb76a1044e800e874e115b542c7385f5ddf6aa791f7bbc0d132aaad08e2b08",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "2ddb76a1044e800e874e115b542c7385f5ddf6aa791f7bbc0d132aaad08e2b08",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "好，不再说了吧；要落泪了，真想念北平呀！",
+      "output_sha256": "289161fba7af5a8a35de3eec6d0e01f35af17bf09231e60ef5f22cdb77948111",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "289161fba7af5a8a35de3eec6d0e01f35af17bf09231e60ef5f22cdb77948111",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

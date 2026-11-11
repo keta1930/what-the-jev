@@ -1,0 +1,57 @@
+{
+  "threshold": 0.5,
+  "selection": "probability extrema within four outcome classes; deterministic ID tie-break",
+  "per_group_target": 10,
+  "selected_total": 80,
+  "groups": [
+    {
+      "language": "zh",
+      "case_type": "high_confidence_false_positive",
+      "selected": 10,
+      "candidate_count": 133
+    },
+    {
+      "language": "zh",
+      "case_type": "low_confidence_false_negative",
+      "selected": 10,
+      "candidate_count": 1555
+    },
+    {
+      "language": "zh",
+      "case_type": "high_confidence_true_positive",
+      "selected": 10,
+      "candidate_count": 331
+    },
+    {
+      "language": "zh",
+      "case_type": "low_confidence_true_negative",
+      "selected": 10,
+      "candidate_count": 3633
+    },
+    {
+      "language": "en",
+      "case_type": "high_confidence_false_positive",
+      "selected": 10,
+      "candidate_count": 444
+    },
+    {
+      "language": "en",
+      "case_type": "low_confidence_false_negative",
+      "selected": 10,
+      "candidate_count": 809
+    },
+    {
+      "language": "en",
+      "case_type": "high_confidence_true_positive",
+      "selected": 10,
+      "candidate_count": 1149
+    },
+    {
+      "language": "en",
+      "case_type": "low_confidence_true_negative",
+      "selected": 10,
+      "candidate_count": 3461
+    }
+  ],
+  "external_api_called": false
+}

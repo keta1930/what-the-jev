@@ -1,0 +1,817 @@
+{
+  "source_id": "ZH058",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "71f91e9b468d500efc1a9d9f5b08fdda90548a7184682c817588defb6284bfbb",
+  "ai_article_sha256": "60d7c472865ee7a548664f9bab45ef111dec648f794e258ffe6a738f11f4563b",
+  "mixed_article_sha256": "4237bbf55a486f06d3a79e4354c91273d6943e0959e7ce5b6298cbacf9ebd365",
+  "human_source_sentence_count": 56,
+  "ai_source_sentence_count": 54,
+  "alignment_unit_count": 51,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.404548,
+  "selected_alignment_score_median": 0.518649,
+  "selected_alignment_score_max": 0.83514,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "去年的某個秋晴午後，因為天氣實在太好，我放下手中正忙著寫的短篇小說，驅車從湖邊直達江干。",
+      "output_sha256": "d99237f0932f466be91c27401fdd5df718fa111b4217c3571abcf778b9195781",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.43742,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "a9b680705b47fc764a8a5425d8989305d27b6da1dc52817a734b5b9c6536bc90"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "d99237f0932f466be91c27401fdd5df718fa111b4217c3571abcf778b9195781",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "在兒時習熟的海月橋、花牌樓等處閒走了一陣，看看青天，看看江岸，覺得一個人有點寂寞起來了，索性就朝西的直上，一口氣便走到了二十幾年前曾在那裏度過半年學生生活的之江大學的山中。",
+      "output_sha256": "da644d5dfcf6884165ff121fb72a350ae114733447140b5c6a190f6d0de65924",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "da644d5dfcf6884165ff121fb72a350ae114733447140b5c6a190f6d0de65924",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "二十年的時光，竟在這裡留下了深刻的印記：曾經的荒山、泥路、亂石溪流和簡陋的草房，如今早已消失不見。",
+      "output_sha256": "1d73323dc3e27e2cd017b297b933523d75de9ced04c94f619043148b78277ce9",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.43644,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "c8a324058d0cd737bc9648ed274000f7fb3977e882bbdccd0616062ecbaa6c82"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "1d73323dc3e27e2cd017b297b933523d75de9ced04c94f619043148b78277ce9",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "尤其要使人感覺到我老何堪的，是在山道兩旁的那一排青青的不凋冬樹；當時只同豆苗似的幾根小小的樹秧，現在竟長成了可以遮蔽風雨，可以掩障烈日的長林。",
+      "output_sha256": "5f7274bc85efb76ce26f90883d0079557946dbb3dc53e6be265b199881ba81e2",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "5f7274bc85efb76ce26f90883d0079557946dbb3dc53e6be265b199881ba81e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "不消說，山腰的平處，這裏那裏，一所所的輕巧而經濟的住宅，也添造了許多；像在畫裏似的附近山川的大致，雖仍依舊，但校址的周圍，變化卻竟簇生了不少。",
+      "output_sha256": "7f39adcbda05bac8bfe62d14302bc05129ac4cec6633cbeabaf3eb2b3990aec0",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "7f39adcbda05bac8bfe62d14302bc05129ac4cec6633cbeabaf3eb2b3990aec0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "第一，從前在大禮堂前的那一絲空地，本來是下臨絕谷的半邊山道，現在卻已將面前的深谷填平，變成了一大球場。",
+      "output_sha256": "0022f94afcf5d486406e18ca8bd6a4fcb05dfce03912807729c830f605172c8a",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "0022f94afcf5d486406e18ca8bd6a4fcb05dfce03912807729c830f605172c8a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "而在大禮堂西北略高的一角，曾經只有幾株被寒風折磨得彎腰的老樹，如今卻已經建起了三層的圖書館。",
+      "output_sha256": "1673b4b6c7ce4cd68a8657dfbdea1b3cdf10b1c9c47040a724155213d1d7b59a",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.556812,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "9a9ce7465e55aa56bcc626099a9e961e46f4df26d582e6a8ef4fce9a3c07cecd"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "1673b4b6c7ce4cd68a8657dfbdea1b3cdf10b1c9c47040a724155213d1d7b59a",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "二十年的歲月，七千二百天的光陰！",
+      "output_sha256": "92f2c70346894dd0eadc02e2e444dccdd8719772f56611534867f7896d2c26cc",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.51958,
+      "human_sentence_indices": [
+        8,
+        9
+      ],
+      "human_sha256": [
+        "f386dd168d2b6d19ca867ff767eb0af01188493f07d756d2f0f090695611b6f1",
+        "9ca78bed0434d561e37dd737a3784f843fd0606a437546ed174213551be3db06"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "92f2c70346894dd0eadc02e2e444dccdd8719772f56611534867f7896d2c26cc",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "以這一短短的時節，來比起天地的悠長來，原不過是像白駒的過隙，但是時間的威力，究竟是絕對的暴君，曾日月之幾何，我這一個本在這些荒山野徑裏馳騁過的毛頭小子，現在也竟垂垂老了。",
+      "output_sha256": "e89ee8fea7859c97bcb71ff61dfce5cc45cc7081be3fa29caa84526e2becf720",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "e89ee8fea7859c97bcb71ff61dfce5cc45cc7081be3fa29caa84526e2becf720",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "我一路走著，心中感慨，從山腳走到中腰，竟花了三十多分鐘。",
+      "output_sha256": "248d7839ea5a3b921a35f55fe32878ba040aaec68571b922f34e529e5a246fe4",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.404548,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "5767d1ca1cc9781d0f442cd2ab0d7382217a8f59bf6659699f7a0a47cc4c1b0c"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "248d7839ea5a3b921a35f55fe32878ba040aaec68571b922f34e529e5a246fe4",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "半山裏是一排教員的住宅，我的此來，原因爲在湖上在江干孤獨得怕了，想來找一位既是同鄉，又是同學，而自美國回來之後就在這母校裏服務的胡君，和他來談談過去，賞賞清秋，並且也可以由他這裏來探到一點故鄉的消息的。",
+      "output_sha256": "6f610433205dde2f0a380b1622c61fd5182c51c9f68d184337c740a7a4f17128",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "6f610433205dde2f0a380b1622c61fd5182c51c9f68d184337c740a7a4f17128",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "兩個人本來是上下年紀的小學校的同學，雖然在這二十幾年中見面的機會不多，但或當暑假，或在異鄉，偶爾遇着的時候，卻也有一段不能自已的柔情，油然會生起在各個的胸中。",
+      "output_sha256": "987f0e00ccede7172f3efeb3fa10211aa1131701198df9439665d21c8f614704",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "987f0e00ccede7172f3efeb3fa10211aa1131701198df9439665d21c8f614704",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我的這一回的突然的襲擊，原也不過是想使他驚駭一下，用以加增加增親熱的效力的企圖；升堂一見，他果然是被我駭倒了。",
+      "output_sha256": "d885a330ef69987f4b586ab3d5efaf42559905387f4f710e2d39279395104bc6",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "d885a330ef69987f4b586ab3d5efaf42559905387f4f710e2d39279395104bc6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "“哦！",
+      "output_sha256": "0c12da495eb2c6c69a9e7530ee1dd9350c6e4f6e36dafc0c5cc6450ac4cdece6",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "0c12da495eb2c6c69a9e7530ee1dd9350c6e4f6e36dafc0c5cc6450ac4cdece6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "真難得！",
+      "output_sha256": "863508879e6d20bc1c81cf443204a47e936ede638a5f3e910fb5e37423d223ab",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "863508879e6d20bc1c81cf443204a47e936ede638a5f3e910fb5e37423d223ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "你是幾時上杭州來的？”",
+      "output_sha256": "852c27cf452dc8f424d6f2bf6baa6d149cefbbb7f80e6138847ecdf709413692",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "852c27cf452dc8f424d6f2bf6baa6d149cefbbb7f80e6138847ecdf709413692",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他驚笑着問我。",
+      "output_sha256": "2a0a318d0e6e3065809651acd78a60548209df5aa61491e164f6c6a2d00655be",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "2a0a318d0e6e3065809651acd78a60548209df5aa61491e164f6c6a2d00655be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "“來了已經有些日子了，我想靜靜地寫點東西，所以朋友們還沒來看我。",
+      "output_sha256": "1bf073f7986d65cfdb8b426c0d9503ec9e07686ff7e6abe24d1f71707b5dc131",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.625455,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "5e03f3f81136ce6b0b89c969261ded7530f4f234f161795875bfb424b42c141c"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "1bf073f7986d65cfdb8b426c0d9503ec9e07686ff7e6abe24d1f71707b5dc131",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "今天天氣實在太好了，我忍不住就來了。”",
+      "output_sha256": "d4319d592614b190ea04921d15863beeb118bdd51e8a6a38a491bf820b8c582c",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.436732,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "0b894ef7b06134528303ec68d8d3b682054fa28f97aafe59aeaa5af32f5b7309"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "d4319d592614b190ea04921d15863beeb118bdd51e8a6a38a491bf820b8c582c",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“好極！",
+      "output_sha256": "da25eff519a9a59f73777a25984aa99481b12f097e2737950fe41e12ebb1389c",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "da25eff519a9a59f73777a25984aa99481b12f097e2737950fe41e12ebb1389c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我正想出去走走，咱們一起去溪口喝茶吧，沿著錢塘江到溪口的風景可真不錯！”",
+      "output_sha256": "002c017a050655713e4e19bf3fb5fd22c2f098fd2625bd8ca922b88451d9b8bc",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.485981,
+      "human_sentence_indices": [
+        22,
+        23
+      ],
+      "human_sha256": [
+        "7b7dc9524d0096cd73317bc4c73ba4de60c84a5161a4c1e8aad1cf0d299e5592",
+        "1dbc5acfc20722d2000740bf71be8f285a8a6d862f94e4adbaaf48b2b3e811bf"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "002c017a050655713e4e19bf3fb5fd22c2f098fd2625bd8ca922b88451d9b8bc",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "沿溪入谷，在風和日暖，山近天高的田塍道上，二人慢慢地走着，談着，走到九溪十八澗的口上的時候，太陽已經斜到了去山不過丈來高的地位了。",
+      "output_sha256": "218862090f461ff899a95046b313c3842f1d9084bd006303269b20d9090016c6",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "218862090f461ff899a95046b313c3842f1d9084bd006303269b20d9090016c6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "在溪邊的石條上坐下，等待茶莊的老翁去泡茶，四周的青山依然如初春般翠綠，心中不禁湧起一股說不出的清新氣息。",
+      "output_sha256": "9384466bcb34ac2fedbce5bdb04147a1e895513551d299bbd6d17480198c4309",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.474574,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "9e3d6add6bac5daf716239523b9b24251b5b11ea84956574e35524193650c94d"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "9384466bcb34ac2fedbce5bdb04147a1e895513551d299bbd6d17480198c4309",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "兩人在路上，說話原已經說得很多了，所以一到茶莊，都不想再說下去，只瞪目坐着，在看四周的山和腳下的水，忽而噓朔朔朔的一聲，在半天裏，晴空中一隻飛鷹，像霹靂似的叫過了，兩山的迴音，更繚繞地震動了許多時。",
+      "output_sha256": "535b275bfec58f432b993357a0738aa538d19b5c5c89cb3f85438782011d091b",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "535b275bfec58f432b993357a0738aa538d19b5c5c89cb3f85438782011d091b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "我們兩人頭也不仰起來，只豎起耳朵，在靜聽着這鷹聲的響過。",
+      "output_sha256": "c73a7df4639fdc4b94b1907d9709f2ee37406e7fdd2b029edcaa15a1d757cda2",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "c73a7df4639fdc4b94b1907d9709f2ee37406e7fdd2b029edcaa15a1d757cda2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "迴響過後，兩人不期而遇的將視線湊集了攏來，更同時破顏發了一臉微笑，也同時不謀而合的叫了出來說：",
+      "output_sha256": "9a5afcc9d174138b1653db152cbe751e2f1bdee01d8aa576ec36497944e7639e",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "9a5afcc9d174138b1653db152cbe751e2f1bdee01d8aa576ec36497944e7639e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "“真靜啊！”",
+      "output_sha256": "227af61421a8724a1885c9b5a8fdf0682ebee127415022bcd7b7b54c83b379b3",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "227af61421a8724a1885c9b5a8fdf0682ebee127415022bcd7b7b54c83b379b3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“真靜啊！”",
+      "output_sha256": "227af61421a8724a1885c9b5a8fdf0682ebee127415022bcd7b7b54c83b379b3",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "227af61421a8724a1885c9b5a8fdf0682ebee127415022bcd7b7b54c83b379b3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "等老翁將一壺茶搬來，也在我們邊上的石條上坐下，和我們攀談了幾句之後，我纔開始問他說：",
+      "output_sha256": "19c10eb72a0291649ca2a87ce41bc065701c50e47eeadbb2beaff5bad5ab7edd",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "19c10eb72a0291649ca2a87ce41bc065701c50e47eeadbb2beaff5bad5ab7edd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "“在這樣靜謐的山中生活，前後山間一個人也看不見，你們不覺得害怕嗎？”",
+      "output_sha256": "3dfa21c37f918b408c9c99627a5d6d589f8f5d27ba00e0dcaf0ece2b9f7846a4",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.558427,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "9f955f7e14e638e751c4a59ed85b70a3fed633d3ade36798de344e78753df3f9"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "3dfa21c37f918b408c9c99627a5d6d589f8f5d27ba00e0dcaf0ece2b9f7846a4",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "“怕啥東西？",
+      "output_sha256": "0f9d874cc170a6c43dd9587a959deffb2b1595abf548ebd91bc0dcc202e0d2e3",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "0f9d874cc170a6c43dd9587a959deffb2b1595abf548ebd91bc0dcc202e0d2e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "我們又沒有龍連（錢），強盜綁匪，難道肯到孤老院裏來討飯吃的麼？",
+      "output_sha256": "c7e848e5c9b7a3563d554f785dcf992eec76c56272a04d5044d3f11980f73fa6",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "c7e848e5c9b7a3563d554f785dcf992eec76c56272a04d5044d3f11980f73fa6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "並且春三二月，外國清明，這裏的遊客，一天也有好幾千。",
+      "output_sha256": "3ab4f0ec68749621d56dc11678faddf4fdc40990d355703764115085bf28f96d",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "3ab4f0ec68749621d56dc11678faddf4fdc40990d355703764115085bf28f96d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "冷清的，就只不過這幾個月。”",
+      "output_sha256": "ff2047d7aa33d434e93f29cba463b66de0355ae07d5fc987051fafac9dcaa712",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "ff2047d7aa33d434e93f29cba463b66de0355ae07d5fc987051fafac9dcaa712",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "我們一邊品茶，一邊享受著這片如太古般的寂靜，不知不覺就把桌上的四碟糕點全吃光了。",
+      "output_sha256": "33a0dc98e22d0e23d2c735687966eb42abfd2396e7cc36c1572a0e857078928a",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.517719,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "caae38c82d970e910ba7076c6010607f70ee0a6c5bf20646ca90695d92ed0294"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "33a0dc98e22d0e23d2c735687966eb42abfd2396e7cc36c1572a0e857078928a",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "老翁見我們的胃口不小，便推薦他們自己製作的西湖藕粉和桂花糖說：",
+      "output_sha256": "f51fc250c031d10cbf720e1696c830dae027cf4940d7475942f21e010802af63",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.616748,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "1d66c715b9121ac3327ac8cbf6119a89fc4f1f0b9d3f31b57da6d39067451cb5"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "f51fc250c031d10cbf720e1696c830dae027cf4940d7475942f21e010802af63",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "“我們的出品，非但在本省口碑載道，就是外省，也常有信來郵購的，兩位先生衝一碗嚐嚐看如何？”",
+      "output_sha256": "4167c345234093966644fc1c6d0e30f5091065df5aaf433b98690520adb54b52",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "4167c345234093966644fc1c6d0e30f5091065df5aaf433b98690520adb54b52",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "或許是山中的清新空氣，加上十幾里路的步行，那一碗看似稀疏的藕粉，竟讓我們嚐出了意想不到的鮮味。",
+      "output_sha256": "1f3ed799ea5454eb8024190a5bc4259b6e1c30854835347bf8f3c44a2b3a024e",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.559102,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "ba36102fc7798351a550f29b8af8aaac9ee8b8d8387e6b1cfac107aecbe96469"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "1f3ed799ea5454eb8024190a5bc4259b6e1c30854835347bf8f3c44a2b3a024e",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "等那壺龍井芽茶，衝得已無茶味，而我身邊帶着的一封絞盤牌也只剩了兩枝的時節，覺得今天足行得特別快的那輪秋日，早就在西面的峯旁躲去了。",
+      "output_sha256": "c01366223b94a2cfb40169d2d4b83bd69626c1e69bb5465e9d0242a262ad6fcd",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "c01366223b94a2cfb40169d2d4b83bd69626c1e69bb5465e9d0242a262ad6fcd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "谷裏雖掩下了一天陰影，而對面東首的山頭，還映得金黃淺碧，似乎是山靈在預備去赴夜宴而鋪陳着濃裝的樣子。",
+      "output_sha256": "ebdd1552fae726c63b40ddeb41f43112f58238255204e1d550308c54ec488358",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "ebdd1552fae726c63b40ddeb41f43112f58238255204e1d550308c54ec488358",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "我仰起頭，正欣賞著這幅以青天為背景的秋山夕照，忽然聽見耳邊的老翁用富有韻律的杭州口音計算著賬：",
+      "output_sha256": "e76fb50bf1af7c7f45ca03607355548b633fc8d6321c3b6485d8f4a5ad755672",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.586594,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "13da2169612dfe7ba9bc86718fd80dc05f7db55279fef7338ebd34ac7c27520c"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "e76fb50bf1af7c7f45ca03607355548b633fc8d6321c3b6485d8f4a5ad755672",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "“一茶，四碟，二粉，五千文！”",
+      "output_sha256": "818c06a32f13473994f38d8478d066a5ed11868da634e1aaf3a75addea1add0e",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "818c06a32f13473994f38d8478d066a5ed11868da634e1aaf3a75addea1add0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "我覺得這串話如詩般優美，於是回頭問他：",
+      "output_sha256": "58da94a9462907e48076fb31876971aae0e29b18c8b5b977d73c12ecaa2ad933",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.41062,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "4acd96b7f9fd7b424a3acc3e1594f4652c5157c3e10db7cf4bed7e6a0cfea940"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "58da94a9462907e48076fb31876971aae0e29b18c8b5b977d73c12ecaa2ad933",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "“老先生！",
+      "output_sha256": "7e4f01693ffc3c801444b5524f20320c2097c78579855d6a2a7e6c016d94f518",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "7e4f01693ffc3c801444b5524f20320c2097c78579855d6a2a7e6c016d94f518",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "你是在對課呢？",
+      "output_sha256": "cfebbcb0b6ec1d7833b98dcf0d514dc72ba4908ff43a36063c3613ce35ee59b0",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "cfebbcb0b6ec1d7833b98dcf0d514dc72ba4908ff43a36063c3613ce35ee59b0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "還是在做詩？”",
+      "output_sha256": "6f8ef0ff5f2e139198003981b6cb457214b665425ebebeb60a02686118ee801e",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "6f8ef0ff5f2e139198003981b6cb457214b665425ebebeb60a02686118ee801e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "他倒驚了起來，張圓了兩眼呆視着問我：",
+      "output_sha256": "5a2d4623e41680c8bdbcf632d715427c703edb2e64acaca9ee443136cf253bb2",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "5a2d4623e41680c8bdbcf632d715427c703edb2e64acaca9ee443136cf253bb2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "“先生你說啥話語？”",
+      "output_sha256": "e01faf19032feff1dec66187529487d9ae27cef8f495c8c020c41883c011f979",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "e01faf19032feff1dec66187529487d9ae27cef8f495c8c020c41883c011f979",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "“我說，您不是在對課嗎？",
+      "output_sha256": "56462ba32a1a5a8203ac0bd74b32f0e64f50b351c7d0a0f51b10b776a4d9a6f7",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.711364,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "1048c15594b93c19ee4bf10bfc6b91c1d0f94364615ee8c432baa436ce715be6"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "56462ba32a1a5a8203ac0bd74b32f0e64f50b351c7d0a0f51b10b776a4d9a6f7",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "三竺六橋，九溪十八澗，您不就是對上了‘一茶四碟，二粉五千文’了嗎？”",
+      "output_sha256": "bfb7f63535cea6960bac5a567e6f872ba8995a86d3297d31fd031b9a7a68acc4",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.83514,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "805ef8bee55f65338d198e2c0ccbd59425548a9f5d5f3a478f5a1b74d3b55943"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "bfb7f63535cea6960bac5a567e6f872ba8995a86d3297d31fd031b9a7a68acc4",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "說到了這裏，他才搖動着鬍子，哈哈的大笑了起來，我們也一道笑了。",
+      "output_sha256": "472bea11b7f8ef7c42a43790f363516ef6332f5c19f913d56da135fe7e7e48aa",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "472bea11b7f8ef7c42a43790f363516ef6332f5c19f913d56da135fe7e7e48aa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 22,
+      "origin": "ai",
+      "text": "結帳後，我們開始沿著通往理安寺的石路向右走去，轉彎時，我們三人的笑聲似乎還在那靜謐的山腰，靜謐的溪口，迴響不絕。",
+      "output_sha256": "d3dada93a56bb5f8d758a749db282ac077eaba3c7039786634158eb8a0bb7d46",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.441324,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "84e153462eee0941046c3507013d16c36d83260b9f6444345ab190e09af4c03c"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "d3dada93a56bb5f8d758a749db282ac077eaba3c7039786634158eb8a0bb7d46",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "一九三二年五月二十一日",
+      "output_sha256": "d6489150a13a017b16f2c3ad187489ac4f0a0cada6a6a17b484cf2acff291944",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "d6489150a13a017b16f2c3ad187489ac4f0a0cada6a6a17b484cf2acff291944",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "（原載一九三三年六月《良友》第七十七期）",
+      "output_sha256": "28f1aebf9ae8415e9df8f776defa659510cef7a702c702cad2afed6f3b1b1ad8",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "28f1aebf9ae8415e9df8f776defa659510cef7a702c702cad2afed6f3b1b1ad8",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

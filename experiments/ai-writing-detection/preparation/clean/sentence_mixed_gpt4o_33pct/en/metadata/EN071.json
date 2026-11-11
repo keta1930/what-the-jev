@@ -1,0 +1,733 @@
+{
+  "source_id": "EN071",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "62a1c214b806f0c5bbdb7c8d5e00202eb8a19d8ed45846dd3d956c6a2fe9c168",
+  "ai_article_sha256": "02aabc261c9c72ba856bc816598ca22e67ff89f0d461cc272059cdc7745c479f",
+  "mixed_article_sha256": "b3982600c892b43b11d20b6f4ceb349c063e42b9606e7cc98882b2f9926e2d06",
+  "human_source_sentence_count": 48,
+  "ai_source_sentence_count": 50,
+  "alignment_unit_count": 45,
+  "selected_alignment_unit_count": 14,
+  "mixed_sentence_count": 48,
+  "selected_ai_sentence_count": 16,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.299459,
+  "selected_alignment_score_median": 0.369715,
+  "selected_alignment_score_max": 0.639814,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Not long ago I was staying in a village where the shortest cut to the inn lay through the churchyard, and passing and repassing so often I came to know the dead inhabitants of the place almost better than the living.",
+      "output_sha256": "b00c65db7ad8eb80431e961524b801758e2fe61a0b4730983fa3617b81369530",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "b00c65db7ad8eb80431e961524b801758e2fe61a0b4730983fa3617b81369530",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "My understanding, however, was not as profound as that of Edgar Lee Masters in his remarkable work, \"Spoon River Anthology.\"",
+      "output_sha256": "dfeeeb52c1f3aea46f0f3800fd31c52231bc05bb37a8f1ba6e5f2be4fe167904",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.347689,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "c73008eef32185155ed8a870cc9026c7e999bd6b569bcd3ed7a077fb5a2ae663"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "dfeeeb52c1f3aea46f0f3800fd31c52231bc05bb37a8f1ba6e5f2be4fe167904",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Instead, my acquaintance with these individuals was rather superficial yet tinged with a certain fondness.",
+      "output_sha256": "6e081c4d6c2b035ad2ec3b157431e6e5e4fe3003972c746de3c0ae487c6667de",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.413474,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "776ffb9d3c220ec842d190c7d5dec331646e8c572f6a740a6f3176e644b4f355"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "6e081c4d6c2b035ad2ec3b157431e6e5e4fe3003972c746de3c0ae487c6667de",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The fact that they were total strangers, with their stories only accessible to those brave enough to engage in a séance—led by the likes of Sir Oliver and Sir Conan—made my musings about them all the more curious.",
+      "output_sha256": "c998dd01ec0f98a5464cf36ec6c269fba80e34f4795645376d8b27fc35a5b188",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.413474,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "776ffb9d3c220ec842d190c7d5dec331646e8c572f6a740a6f3176e644b4f355"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "c998dd01ec0f98a5464cf36ec6c269fba80e34f4795645376d8b27fc35a5b188",
+      "ai_unit_sentence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Such names!",
+      "output_sha256": "59d301d7b0b8c70d65c3edc1f5c4d273ff2c6598bc184c81c80f707f71771f27",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "59d301d7b0b8c70d65c3edc1f5c4d273ff2c6598bc184c81c80f707f71771f27",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Many of course were no longer legible, for Father Time had either obliterated them with his patient finger, dipped now in lichen and now in moss, or upon them his tears had fallen too steadily.",
+      "output_sha256": "267dd48fe11007196684107e72e545968d9c6a8ebe76677827df5bdaa12825dd",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "267dd48fe11007196684107e72e545968d9c6a8ebe76677827df5bdaa12825dd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But many remained and some of them were wonderful.",
+      "output_sha256": "22af49201059720c63285852a077b042a3df3a7a6915e5633ab7e1afc59d7658",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "22af49201059720c63285852a077b042a3df3a7a6915e5633ab7e1afc59d7658",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Has it ever been explained why the dead have more remarkable names than the living?",
+      "output_sha256": "85e95fcac99c1e1574316b352c8a811b78bbbfb45f720cd5234b549a990da39b",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "85e95fcac99c1e1574316b352c8a811b78bbbfb45f720cd5234b549a990da39b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Did any one ever meet \"in the form\" a Lavender Wiseways?",
+      "output_sha256": "3f52e27aca0b8aa71a2fc07791eaf3eeae1610ecb6ebce1381fa679a2bd9c009",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "3f52e27aca0b8aa71a2fc07791eaf3eeae1610ecb6ebce1381fa679a2bd9c009",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Yet there was a Lavender Wiseways lying beneath one of those stones.",
+      "output_sha256": "a4c527154ba257eed897961f62811fc33d332fcb5f2b0c761a9a44e3ab6cc635",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "a4c527154ba257eed897961f62811fc33d332fcb5f2b0c761a9a44e3ab6cc635",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "There was her sister too, lying close beside—Lavinia Wiseways.",
+      "output_sha256": "e0d5f1535465fcd3560c292cab41c8165752dd399e45cf45518718ea9c0faf12",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "e0d5f1535465fcd3560c292cab41c8165752dd399e45cf45518718ea9c0faf12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Similarly, one can imagine a time when a gentleman named Paradine Ebb, a farmer near London, might have been greeted warmly in the marketplace.",
+      "output_sha256": "2b0a60f7a176de7cab715f704e20683cc3ecf4e20dc625d60e7e045831997c7d",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.299459,
+      "human_sentence_indices": [
+        11,
+        12
+      ],
+      "human_sha256": [
+        "9f2f15cca3346316d8cf8d494312f955d96b3858e805e7cee2afbbcf1065d0d4",
+        "48d50a57ecc5245783792750e206d7d184002fd6320d272fb31f1fa84aeccbb3"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "2b0a60f7a176de7cab715f704e20683cc3ecf4e20dc625d60e7e045831997c7d",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Yet once there was a Paradine Ebb, farmer, not such a great distance from London, to shake by the hand, and chat to, and buy fat stock from, and, I hope, share a cordial glass with.",
+      "output_sha256": "095c35d67f1708b558953d4e991d605a9bcb00244b1634d5668f1cb56f1b7858",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "095c35d67f1708b558953d4e991d605a9bcb00244b1634d5668f1cb56f1b7858",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "But if I continue down this path, I risk revealing the village’s name, which I prefer to keep to myself in these nosy times.",
+      "output_sha256": "de977c1eaffd090140f4b72fbf1a8038a295c00c5e689c8494a73f06cc9b7799",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.35049,
+      "human_sentence_indices": [
+        14,
+        15
+      ],
+      "human_sha256": [
+        "e4e01dc79b598a9f35a73436dfedba2b2d9cb6be3803375cb722b1c8051fca1f",
+        "0c4bcff97d036c0914a76abba72863ae29818769d2183b6d6ef209e2e30363ab"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "de977c1eaffd090140f4b72fbf1a8038a295c00c5e689c8494a73f06cc9b7799",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It was not however of strange dead names that I was thinking when I took up my pen, but of the epitaphs on the tombstones, sometimes so brief and simple, sometimes so long and pompous, and almost always withholding everything of real importance about the occupants of the narrow cells beneath and almost always affecting to despise the precious gift of life.",
+      "output_sha256": "e2cc11b39ac45df1315b76e9d82226f7a9c41c04b3f5930202b8c376b34fe65d",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "e2cc11b39ac45df1315b76e9d82226f7a9c41c04b3f5930202b8c376b34fe65d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Why has no one dared to encourage the mason to carve a genuine tribute to the life that has been left behind?",
+      "output_sha256": "d5f78a600b43338f14fe01ce3357600a8afbd355ad5ce34a6d04bcdd6207d05e",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.526049,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "a4b1b2769b3439e33061a294861addd4c69a5e910b5762629bf2387210462d04"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "d5f78a600b43338f14fe01ce3357600a8afbd355ad5ce34a6d04bcdd6207d05e",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Would that be so impious?",
+      "output_sha256": "fd995da29f5aa01b71b6e5dc579a408951003f2a41466f227419ff5a15e6aa1d",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "fd995da29f5aa01b71b6e5dc579a408951003f2a41466f227419ff5a15e6aa1d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "There is no indication that any of these dead ever enjoyed a moment.",
+      "output_sha256": "2dc90f5c8e1179e38a3b054fc3d14e05b3b0f406d77b78044923739e11859889",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "2dc90f5c8e1179e38a3b054fc3d14e05b3b0f406d77b78044923739e11859889",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Something like this, for instance—",
+      "output_sha256": "71ae7a746b68e9090110b9902785d42d9df763db6850892fd941e7afd534f24c",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "71ae7a746b68e9090110b9902785d42d9df763db6850892fd941e7afd534f24c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Here Lies HENRY ROBINSON Who lived in the belief—and, with many failures, did his best to act of to it—that if you spend your time in trying to make things a little easier and merrier in this world, the next can take care of itself.",
+      "output_sha256": "c5723c819e8746fbdced78975c1ed7fd042bedae9f9c7f4402b0e7379c2e6b49",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "c5723c819e8746fbdced78975c1ed7fd042bedae9f9c7f4402b0e7379c2e6b49",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "The prevailing sentiment of many graveyards implies that life has been a lengthy ordeal, merely a prelude to a more satisfying afterlife.",
+      "output_sha256": "c4f07373bfb677f77081931bd74fb1f4806c6692257079683fd5fb49356bb0e4",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.373864,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "c924cccece8e51952a9c551629bd841eb048c83fb286f2e5f3748bab7e3bacb8"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "c4f07373bfb677f77081931bd74fb1f4806c6692257079683fd5fb49356bb0e4",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "However, we are aware that this is not the reality for many.",
+      "output_sha256": "ef6bdcd3b6764d7ca92fd1a4ea7567620c07a8442778e2bbfc73cff89c934899",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.344319,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "27a196f7bf20e8f9e7d9be53cf56b12a7c66de8f64bd504b73dd85de8f2260d8"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "ef6bdcd3b6764d7ca92fd1a4ea7567620c07a8442778e2bbfc73cff89c934899",
+      "ai_unit_sentence_indices": [
+        23,
+        24
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Numerous lives, though they may not conform to the somber notions typically associated with cemeteries, are filled with happiness.",
+      "output_sha256": "20541d09e66027486e4625d815692f36c116a7b5da4c03974a4a23ec7c195a03",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.344319,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "27a196f7bf20e8f9e7d9be53cf56b12a7c66de8f64bd504b73dd85de8f2260d8"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "20541d09e66027486e4625d815692f36c116a7b5da4c03974a4a23ec7c195a03",
+      "ai_unit_sentence_indices": [
+        23,
+        24
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "There is in the God's Acre of which I am writing more than one appeal to the living to be wary of earthly serenity: surely a very unfair line for the dead to take and not unremindful of the fable of the fox and his tail.",
+      "output_sha256": "97e1edfb28df2bdff627d4aa78a5c73a04bb53c4cfe93fdc114e2dc60d9e3e20",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "97e1edfb28df2bdff627d4aa78a5c73a04bb53c4cfe93fdc114e2dc60d9e3e20",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "An elaborate stone close by the lych gate has a series of dreary couplets warning the passer-by that the next grave to be dug may be his; and on the assumption that he is being too happy he is adjured to a morbid thoughtfulness.",
+      "output_sha256": "f8e264f8682f459308ddd48ffea1ff3a41eab43e3a852be5ed2342f3a985d070",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "f8e264f8682f459308ddd48ffea1ff3a41eab43e3a852be5ed2342f3a985d070",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The dead might be kinder than that, more generous, more altruistic!",
+      "output_sha256": "395f936e9a0b7af7c6874cbc7b3a65b6075d036dc42d1b73d9c2eb963ccee4ae",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "395f936e9a0b7af7c6874cbc7b3a65b6075d036dc42d1b73d9c2eb963ccee4ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I should like a headstone to bear some such motto as",
+      "output_sha256": "ae14e139c8e5350dba0deaf84eb1870b6c2cd938d843b3d43f9e1802b6678ecf",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "ae14e139c8e5350dba0deaf84eb1870b6c2cd938d843b3d43f9e1802b6678ecf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Not only do these inscriptions convey a cautionary tale about life, but they also offer little encouragement regarding what lies beyond.",
+      "output_sha256": "d0f045ad39d1dace259b4b16db358c49d00e8d7d2bfef35564c220d2a1dfecca",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.321154,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "c02a22e1021e76a75f1897266797fd223152ccc6fdec1a4f1cabbf6b17714ee3"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "d0f045ad39d1dace259b4b16db358c49d00e8d7d2bfef35564c220d2a1dfecca",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The spirit they proclaim is a very poor one.",
+      "output_sha256": "a7c5e651b2cfb1cc05bd4bfa80c4ee07e174b344f17036dbbfa89b7b8a3340b0",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "a7c5e651b2cfb1cc05bd4bfa80c4ee07e174b344f17036dbbfa89b7b8a3340b0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "While nothing can make death appealing, even the most persuasive advocate would struggle against the oppressive dampness, gloom, and decay that permeates the churchyard, along with the insincere attempts at resignation that the stones portray.",
+      "output_sha256": "1169c081b60285e3dbc11d54d786ee2eb8d60e735071b5f9a917a89e7fc538f8",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.365567,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "eb8415e15a7b6b874a1a9b059619a349a964b8a35ab587d65d1051b223330dbf"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "1169c081b60285e3dbc11d54d786ee2eb8d60e735071b5f9a917a89e7fc538f8",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "We ought to be braver; more heartening to others.",
+      "output_sha256": "36cd00e37ee5395bac7669f0fede1c7923e7819a7f604a7e0d58f984e0c34773",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "36cd00e37ee5395bac7669f0fede1c7923e7819a7f604a7e0d58f984e0c34773",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "A rector who allowed none but cheerful epitaphs would be worth his tithes.",
+      "output_sha256": "4b0e84d31d8d0d8c3a94b9825f352055f53c92ab970700c1b06947e42f195d0e",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "4b0e84d31d8d0d8c3a94b9825f352055f53c92ab970700c1b06947e42f195d0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Would there be any great impropriety in the following inscription?",
+      "output_sha256": "85d178a13e48708b5ae13f600bd5d7e4aad5d6a431f2a9950cbccae2a95d2938",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.611093,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "786d9c4aab035fecc55e989dd3a16e25e4ecdb2ce05c1223e0fe2d28b1946c3b"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "85d178a13e48708b5ae13f600bd5d7e4aad5d6a431f2a9950cbccae2a95d2938",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Here Lies JOHN SMITH  \nWho found earth pleasant and reveled in its beauty; who loved and was loved in return; who desired nothing more than to continue living.",
+      "output_sha256": "b7a494f6cee1283bf122d21a7edfb8462c8c8b228e8dfb133ecd0479c47a5754",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.639814,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "4feacd786f803fe3aded50ea750ae464ae2ec1e60ba98e5df0cad7ca9b02c2e0"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "b7a494f6cee1283bf122d21a7edfb8462c8c8b228e8dfb133ecd0479c47a5754",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "He departed this world reluctantly, wishing for happiness to those he left behind.",
+      "output_sha256": "2c275b4df6bdd84e9e6079eb2a764c577bcbadaa3f7af0ba1633cb1e656cb05e",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.353159,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "7e48e5b7fa4b3e500988f5246c1484bea3433860c3f3efc7a9591c1c08522f24"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "2c275b4df6bdd84e9e6079eb2a764c577bcbadaa3f7af0ba1633cb1e656cb05e",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Carpe diem.",
+      "output_sha256": "a005d280ad70bfbca148a145f4ce944a073e4210a8304f3591ab3a8ba88893d1",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "a005d280ad70bfbca148a145f4ce944a073e4210a8304f3591ab3a8ba88893d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Reading that, the stranger would not necessarily (I hope) be transformed into a detrimental Hedonist.",
+      "output_sha256": "dc06e15196267ea4ce4d5471ba38b9d6f4b70386d71d5f9db4429dd417051c23",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "dc06e15196267ea4ce4d5471ba38b9d6f4b70386d71d5f9db4429dd417051c23",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Occasionally, a human flaw could be recorded by the stonemason without threatening the foundations of society.",
+      "output_sha256": "1e6b85fd9f5f3c30610039f0691b9c540132f1ae992cede3c991a93ea0b830af",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.488085,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "3b772a2a5bc2027b60ec9c636db08d7a1f3aba9d50ec99d338f2d3452ad77457"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "1e6b85fd9f5f3c30610039f0691b9c540132f1ae992cede3c991a93ea0b830af",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "When our friends are dead why should we not disclose a little?",
+      "output_sha256": "3a49975f6c7acca34398050592c7850f2ca9ca5296514889db860ff384e58f66",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "3a49975f6c7acca34398050592c7850f2ca9ca5296514889db860ff384e58f66",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Some secrets are better out.",
+      "output_sha256": "d4f049ddb8e7bda16e2aeb0600b924496908b80e85e68b52029580315b5107d7",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "d4f049ddb8e7bda16e2aeb0600b924496908b80e85e68b52029580315b5107d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Here for example—",
+      "output_sha256": "28407a5bb107309534c1048a1686c286f5e147f67b30e99a6bd6243b1a781f53",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "28407a5bb107309534c1048a1686c286f5e147f67b30e99a6bd6243b1a781f53",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Here Lies (in no expectation of immortality) THOMAS BROWN He was no Friend of the Church, but he paid his way, interfered with none of his neighbours, and his word was his bond.",
+      "output_sha256": "b3604c8cf2e929ced0f5944891c9774403ff5bbc8542b46db75840e03773a0df",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "b3604c8cf2e929ced0f5944891c9774403ff5bbc8542b46db75840e03773a0df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "What would occur if Thomas Brown's acquaintances funded such an inscription?",
+      "output_sha256": "4dca0245249bec33fcd8518f2df0abb634d9d76799e6bf8d6b333713529aeb8c",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.530286,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "933846ac8e143ca162e29096b7ef407f679b8dd9f993594ce21f4006c95c76a0"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "4dca0245249bec33fcd8518f2df0abb634d9d76799e6bf8d6b333713529aeb8c",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Would the world totter?",
+      "output_sha256": "d545f9a07f48462e157e2225a7677a898d0786c5cb4aa3e4d8820cbbeaa5b13a",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "d545f9a07f48462e157e2225a7677a898d0786c5cb4aa3e4d8820cbbeaa5b13a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Again—",
+      "output_sha256": "a5eb35b2ad2abb95f921e9a48ddb04ff3f4901a2145d601d6917905e2b982f59",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "a5eb35b2ad2abb95f921e9a48ddb04ff3f4901a2145d601d6917905e2b982f59",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Here Lies MARY JONES The wife of William Jones.",
+      "output_sha256": "b184b48331f6c0a4b3ab2f42a3eab1bbde01c55ba426e61676c71a381e90e85f",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "b184b48331f6c0a4b3ab2f42a3eab1bbde01c55ba426e61676c71a381e90e85f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Honour her memory, for she was lenient when her husband was in liquor.",
+      "output_sha256": "7ed0cb95d515f780ba51e28b8d2f8f4d9c44632171114af0eb38ea1c8b2d5e3c",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "7ed0cb95d515f780ba51e28b8d2f8f4d9c44632171114af0eb38ea1c8b2d5e3c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "I should also like to see memorial verses beginning:",
+      "output_sha256": "b2ea6707a8d625b2540337c56696ed6ef048563a43b32bc8bf3a4e3f585e75c8",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "b2ea6707a8d625b2540337c56696ed6ef048563a43b32bc8bf3a4e3f585e75c8",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

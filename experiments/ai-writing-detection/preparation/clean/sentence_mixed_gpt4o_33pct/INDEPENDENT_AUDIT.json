@@ -1,0 +1,35 @@
+{
+  "audit": "independent_sentence_unit_provenance_audit",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "jev_called": false,
+  "external_api_called": false,
+  "languages": [
+    {
+      "language": "zh",
+      "expected_articles": 100,
+      "audited_articles": 100,
+      "sentence_rows": 5652,
+      "ai_sentences": 1886,
+      "human_sentences": 3766,
+      "failures": {},
+      "duplicate_mixed_hash_groups": [],
+      "high_neighbor_similarity_diagnostics_count": 0,
+      "top_neighbor_similarity_diagnostics": [],
+      "passed": true
+    },
+    {
+      "language": "en",
+      "expected_articles": 100,
+      "audited_articles": 100,
+      "sentence_rows": 5863,
+      "ai_sentences": 1958,
+      "human_sentences": 3905,
+      "failures": {},
+      "duplicate_mixed_hash_groups": [],
+      "high_neighbor_similarity_diagnostics_count": 0,
+      "top_neighbor_similarity_diagnostics": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

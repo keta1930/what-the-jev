@@ -1,0 +1,928 @@
+{
+  "threshold": 0.5,
+  "models": [
+    "typesafe/jev-1.14-20261014"
+  ],
+  "groups": {
+    "zh": {
+      "single": {
+        "n": 600,
+        "tp": 47,
+        "fp": 6,
+        "tn": 294,
+        "fn": 253,
+        "accuracy": 0.5683333333333334,
+        "precision": 0.8867924528301887,
+        "recall": 0.15666666666666668,
+        "specificity": 0.98,
+        "f1": 0.26628895184135976,
+        "balanced_accuracy": 0.5683333333333334,
+        "roc_auc": 0.7363555555555555,
+        "mean_ai_probability": 0.36,
+        "mean_human_probability": 0.2607333333333333
+      },
+      "context": {
+        "n": 600,
+        "tp": 85,
+        "fp": 17,
+        "tn": 283,
+        "fn": 215,
+        "accuracy": 0.6133333333333333,
+        "precision": 0.8333333333333334,
+        "recall": 0.2833333333333333,
+        "specificity": 0.9433333333333334,
+        "f1": 0.42288557213930345,
+        "balanced_accuracy": 0.6133333333333333,
+        "roc_auc": 0.7449222222222223,
+        "mean_ai_probability": 0.4263,
+        "mean_human_probability": 0.3158666666666667
+      },
+      "mcnemar_all": {
+        "single_only_correct": 21,
+        "context_only_correct": 48,
+        "discordant": 69,
+        "exact_two_sided_p": 0.0015503169494868645
+      },
+      "mcnemar_ai": {
+        "single_only_correct": 7,
+        "context_only_correct": 45,
+        "discordant": 52,
+        "exact_two_sided_p": 6.973810151578164e-08
+      },
+      "mcnemar_human": {
+        "single_only_correct": 14,
+        "context_only_correct": 3,
+        "discordant": 17,
+        "exact_two_sided_p": 0.012725830078125
+      }
+    },
+    "en": {
+      "single": {
+        "n": 600,
+        "tp": 149,
+        "fp": 20,
+        "tn": 280,
+        "fn": 151,
+        "accuracy": 0.715,
+        "precision": 0.8816568047337278,
+        "recall": 0.49666666666666665,
+        "specificity": 0.9333333333333333,
+        "f1": 0.6353944562899787,
+        "balanced_accuracy": 0.715,
+        "roc_auc": 0.8069444444444445,
+        "mean_ai_probability": 0.49493333333333334,
+        "mean_human_probability": 0.3385
+      },
+      "context": {
+        "n": 600,
+        "tp": 183,
+        "fp": 81,
+        "tn": 219,
+        "fn": 117,
+        "accuracy": 0.67,
+        "precision": 0.6931818181818182,
+        "recall": 0.61,
+        "specificity": 0.73,
+        "f1": 0.648936170212766,
+        "balanced_accuracy": 0.6699999999999999,
+        "roc_auc": 0.7239833333333333,
+        "mean_ai_probability": 0.53,
+        "mean_human_probability": 0.42236666666666667
+      },
+      "mcnemar_all": {
+        "single_only_correct": 89,
+        "context_only_correct": 62,
+        "discordant": 151,
+        "exact_two_sided_p": 0.03401054230206999
+      },
+      "mcnemar_ai": {
+        "single_only_correct": 22,
+        "context_only_correct": 56,
+        "discordant": 78,
+        "exact_two_sided_p": 0.00014948153872377523
+      },
+      "mcnemar_human": {
+        "single_only_correct": 67,
+        "context_only_correct": 6,
+        "discordant": 73,
+        "exact_two_sided_p": 3.947260651543665e-14
+      }
+    },
+    "combined": {
+      "single": {
+        "n": 1200,
+        "tp": 196,
+        "fp": 26,
+        "tn": 574,
+        "fn": 404,
+        "accuracy": 0.6416666666666667,
+        "precision": 0.8828828828828829,
+        "recall": 0.32666666666666666,
+        "specificity": 0.9566666666666667,
+        "f1": 0.4768856447688564,
+        "balanced_accuracy": 0.6416666666666666,
+        "roc_auc": 0.7500833333333333,
+        "mean_ai_probability": 0.42746666666666666,
+        "mean_human_probability": 0.29961666666666664
+      },
+      "context": {
+        "n": 1200,
+        "tp": 268,
+        "fp": 98,
+        "tn": 502,
+        "fn": 332,
+        "accuracy": 0.6416666666666667,
+        "precision": 0.73224043715847,
+        "recall": 0.44666666666666666,
+        "specificity": 0.8366666666666667,
+        "f1": 0.5548654244306419,
+        "balanced_accuracy": 0.6416666666666666,
+        "roc_auc": 0.7134611111111111,
+        "mean_ai_probability": 0.47815,
+        "mean_human_probability": 0.36911666666666665
+      },
+      "mcnemar_all": {
+        "single_only_correct": 110,
+        "context_only_correct": 110,
+        "discordant": 220,
+        "exact_two_sided_p": 1.0
+      },
+      "mcnemar_ai": {
+        "single_only_correct": 29,
+        "context_only_correct": 101,
+        "discordant": 130,
+        "exact_two_sided_p": 1.5826818064866035e-10
+      },
+      "mcnemar_human": {
+        "single_only_correct": 81,
+        "context_only_correct": 9,
+        "discordant": 90,
+        "exact_two_sided_p": 1.2793974524745824e-15
+      }
+    }
+  },
+  "strata": {
+    "zh": {
+      "length_group": [
+        {
+          "factor": "length_group",
+          "category": "long",
+          "n": 300,
+          "single": {
+            "n": 300,
+            "tp": 46,
+            "fp": 4,
+            "tn": 146,
+            "fn": 104,
+            "accuracy": 0.64,
+            "precision": 0.92,
+            "recall": 0.30666666666666664,
+            "specificity": 0.9733333333333334,
+            "f1": 0.4600000000000001,
+            "balanced_accuracy": 0.64,
+            "roc_auc": 0.8818444444444444,
+            "mean_ai_probability": 0.44179999999999997,
+            "mean_human_probability": 0.2717333333333333
+          },
+          "context": {
+            "n": 300,
+            "tp": 69,
+            "fp": 5,
+            "tn": 145,
+            "fn": 81,
+            "accuracy": 0.7133333333333334,
+            "precision": 0.9324324324324325,
+            "recall": 0.46,
+            "specificity": 0.9666666666666667,
+            "f1": 0.6160714285714286,
+            "balanced_accuracy": 0.7133333333333334,
+            "roc_auc": 0.8609333333333333,
+            "mean_ai_probability": 0.47933333333333333,
+            "mean_human_probability": 0.3048
+          }
+        },
+        {
+          "factor": "length_group",
+          "category": "short",
+          "n": 300,
+          "single": {
+            "n": 300,
+            "tp": 1,
+            "fp": 2,
+            "tn": 148,
+            "fn": 149,
+            "accuracy": 0.49666666666666665,
+            "precision": 0.3333333333333333,
+            "recall": 0.006666666666666667,
+            "specificity": 0.9866666666666667,
+            "f1": 0.013071895424836602,
+            "balanced_accuracy": 0.4966666666666667,
+            "roc_auc": 0.6104,
+            "mean_ai_probability": 0.2782,
+            "mean_human_probability": 0.24973333333333333
+          },
+          "context": {
+            "n": 300,
+            "tp": 16,
+            "fp": 12,
+            "tn": 138,
+            "fn": 134,
+            "accuracy": 0.5133333333333333,
+            "precision": 0.5714285714285714,
+            "recall": 0.10666666666666667,
+            "specificity": 0.92,
+            "f1": 0.1797752808988764,
+            "balanced_accuracy": 0.5133333333333333,
+            "roc_auc": 0.6166,
+            "mean_ai_probability": 0.3732666666666667,
+            "mean_human_probability": 0.32693333333333335
+          }
+        }
+      ],
+      "quote_or_dialogue": [
+        {
+          "factor": "quote_or_dialogue",
+          "category": "False",
+          "n": 301,
+          "single": {
+            "n": 301,
+            "tp": 22,
+            "fp": 5,
+            "tn": 145,
+            "fn": 129,
+            "accuracy": 0.5548172757475083,
+            "precision": 0.8148148148148148,
+            "recall": 0.1456953642384106,
+            "specificity": 0.9666666666666667,
+            "f1": 0.24719101123595505,
+            "balanced_accuracy": 0.5561810154525386,
+            "roc_auc": 0.753112582781457,
+            "mean_ai_probability": 0.37357615894039736,
+            "mean_human_probability": 0.27913333333333334
+          },
+          "context": {
+            "n": 301,
+            "tp": 47,
+            "fp": 12,
+            "tn": 138,
+            "fn": 104,
+            "accuracy": 0.6146179401993356,
+            "precision": 0.7966101694915254,
+            "recall": 0.31125827814569534,
+            "specificity": 0.92,
+            "f1": 0.44761904761904764,
+            "balanced_accuracy": 0.6156291390728477,
+            "roc_auc": 0.7607505518763797,
+            "mean_ai_probability": 0.4386092715231788,
+            "mean_human_probability": 0.32453333333333334
+          }
+        },
+        {
+          "factor": "quote_or_dialogue",
+          "category": "True",
+          "n": 299,
+          "single": {
+            "n": 299,
+            "tp": 25,
+            "fp": 1,
+            "tn": 149,
+            "fn": 124,
+            "accuracy": 0.5819397993311036,
+            "precision": 0.9615384615384616,
+            "recall": 0.16778523489932887,
+            "specificity": 0.9933333333333333,
+            "f1": 0.28571428571428575,
+            "balanced_accuracy": 0.5805592841163311,
+            "roc_auc": 0.7293064876957495,
+            "mean_ai_probability": 0.34624161073825505,
+            "mean_human_probability": 0.24233333333333335
+          },
+          "context": {
+            "n": 299,
+            "tp": 38,
+            "fp": 5,
+            "tn": 145,
+            "fn": 111,
+            "accuracy": 0.6120401337792643,
+            "precision": 0.8837209302325582,
+            "recall": 0.2550335570469799,
+            "specificity": 0.9666666666666667,
+            "f1": 0.3958333333333333,
+            "balanced_accuracy": 0.6108501118568233,
+            "roc_auc": 0.727248322147651,
+            "mean_ai_probability": 0.41382550335570467,
+            "mean_human_probability": 0.3072
+          }
+        }
+      ],
+      "neighbor_ai_count": [
+        {
+          "factor": "neighbor_ai_count",
+          "category": "0",
+          "n": 269,
+          "single": {
+            "n": 269,
+            "tp": 22,
+            "fp": 3,
+            "tn": 129,
+            "fn": 115,
+            "accuracy": 0.5613382899628253,
+            "precision": 0.88,
+            "recall": 0.16058394160583941,
+            "specificity": 0.9772727272727273,
+            "f1": 0.271604938271605,
+            "balanced_accuracy": 0.5689283344392834,
+            "roc_auc": 0.7360097323600974,
+            "mean_ai_probability": 0.3559124087591241,
+            "mean_human_probability": 0.2581060606060606
+          },
+          "context": {
+            "n": 269,
+            "tp": 36,
+            "fp": 3,
+            "tn": 129,
+            "fn": 101,
+            "accuracy": 0.6133828996282528,
+            "precision": 0.9230769230769231,
+            "recall": 0.26277372262773724,
+            "specificity": 0.9772727272727273,
+            "f1": 0.4090909090909091,
+            "balanced_accuracy": 0.6200232249502322,
+            "roc_auc": 0.7784782127847821,
+            "mean_ai_probability": 0.41554744525547443,
+            "mean_human_probability": 0.285530303030303
+          }
+        },
+        {
+          "factor": "neighbor_ai_count",
+          "category": "1",
+          "n": 275,
+          "single": {
+            "n": 275,
+            "tp": 22,
+            "fp": 3,
+            "tn": 130,
+            "fn": 120,
+            "accuracy": 0.5527272727272727,
+            "precision": 0.88,
+            "recall": 0.15492957746478872,
+            "specificity": 0.9774436090225563,
+            "f1": 0.2634730538922156,
+            "balanced_accuracy": 0.5661865932436725,
+            "roc_auc": 0.7370539023615377,
+            "mean_ai_probability": 0.3664788732394366,
+            "mean_human_probability": 0.2654135338345865
+          },
+          "context": {
+            "n": 275,
+            "tp": 44,
+            "fp": 11,
+            "tn": 122,
+            "fn": 98,
+            "accuracy": 0.6036363636363636,
+            "precision": 0.8,
+            "recall": 0.30985915492957744,
+            "specificity": 0.9172932330827067,
+            "f1": 0.44670050761421315,
+            "balanced_accuracy": 0.613576194006142,
+            "roc_auc": 0.7317589749020439,
+            "mean_ai_probability": 0.43528169014084506,
+            "mean_human_probability": 0.332406015037594
+          }
+        },
+        {
+          "factor": "neighbor_ai_count",
+          "category": "2",
+          "n": 56,
+          "single": {
+            "n": 56,
+            "tp": 3,
+            "fp": 0,
+            "tn": 35,
+            "fn": 18,
+            "accuracy": 0.6785714285714286,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "specificity": 1.0,
+            "f1": 0.25,
+            "balanced_accuracy": 0.5714285714285714,
+            "roc_auc": 0.7068027210884353,
+            "mean_ai_probability": 0.34285714285714286,
+            "mean_human_probability": 0.25285714285714284
+          },
+          "context": {
+            "n": 56,
+            "tp": 5,
+            "fp": 3,
+            "tn": 32,
+            "fn": 16,
+            "accuracy": 0.6607142857142857,
+            "precision": 0.625,
+            "recall": 0.23809523809523808,
+            "specificity": 0.9142857142857143,
+            "f1": 0.3448275862068965,
+            "balanced_accuracy": 0.5761904761904761,
+            "roc_auc": 0.708843537414966,
+            "mean_ai_probability": 0.4357142857142857,
+            "mean_human_probability": 0.36742857142857144
+          }
+        }
+      ],
+      "ai_similarity_group": [
+        {
+          "factor": "ai_similarity_group",
+          "category": "high",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 8,
+            "fp": 0,
+            "tn": 0,
+            "fn": 92,
+            "accuracy": 0.08,
+            "precision": 1.0,
+            "recall": 0.08,
+            "specificity": null,
+            "f1": 0.14814814814814814,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.3117,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 14,
+            "fp": 0,
+            "tn": 0,
+            "fn": 86,
+            "accuracy": 0.14,
+            "precision": 1.0,
+            "recall": 0.14,
+            "specificity": null,
+            "f1": 0.24561403508771928,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.3751,
+            "mean_human_probability": null
+          }
+        },
+        {
+          "factor": "ai_similarity_group",
+          "category": "low",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 23,
+            "fp": 0,
+            "tn": 0,
+            "fn": 77,
+            "accuracy": 0.23,
+            "precision": 1.0,
+            "recall": 0.23,
+            "specificity": null,
+            "f1": 0.3739837398373984,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.3923,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 46,
+            "fp": 0,
+            "tn": 0,
+            "fn": 54,
+            "accuracy": 0.46,
+            "precision": 1.0,
+            "recall": 0.46,
+            "specificity": null,
+            "f1": 0.6301369863013699,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.4706,
+            "mean_human_probability": null
+          }
+        },
+        {
+          "factor": "ai_similarity_group",
+          "category": "middle",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 16,
+            "fp": 0,
+            "tn": 0,
+            "fn": 84,
+            "accuracy": 0.16,
+            "precision": 1.0,
+            "recall": 0.16,
+            "specificity": null,
+            "f1": 0.2758620689655173,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.376,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 25,
+            "fp": 0,
+            "tn": 0,
+            "fn": 75,
+            "accuracy": 0.25,
+            "precision": 1.0,
+            "recall": 0.25,
+            "specificity": null,
+            "f1": 0.4,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.4332,
+            "mean_human_probability": null
+          }
+        }
+      ]
+    },
+    "en": {
+      "length_group": [
+        {
+          "factor": "length_group",
+          "category": "long",
+          "n": 300,
+          "single": {
+            "n": 300,
+            "tp": 122,
+            "fp": 13,
+            "tn": 137,
+            "fn": 28,
+            "accuracy": 0.8633333333333333,
+            "precision": 0.9037037037037037,
+            "recall": 0.8133333333333334,
+            "specificity": 0.9133333333333333,
+            "f1": 0.856140350877193,
+            "balanced_accuracy": 0.8633333333333333,
+            "roc_auc": 0.9465777777777777,
+            "mean_ai_probability": 0.5939333333333333,
+            "mean_human_probability": 0.3304666666666667
+          },
+          "context": {
+            "n": 300,
+            "tp": 123,
+            "fp": 45,
+            "tn": 105,
+            "fn": 27,
+            "accuracy": 0.76,
+            "precision": 0.7321428571428571,
+            "recall": 0.82,
+            "specificity": 0.7,
+            "f1": 0.7735849056603773,
+            "balanced_accuracy": 0.76,
+            "roc_auc": 0.8497777777777777,
+            "mean_ai_probability": 0.6002666666666666,
+            "mean_human_probability": 0.4285333333333333
+          }
+        },
+        {
+          "factor": "length_group",
+          "category": "short",
+          "n": 300,
+          "single": {
+            "n": 300,
+            "tp": 27,
+            "fp": 7,
+            "tn": 143,
+            "fn": 123,
+            "accuracy": 0.5666666666666667,
+            "precision": 0.7941176470588235,
+            "recall": 0.18,
+            "specificity": 0.9533333333333334,
+            "f1": 0.2934782608695652,
+            "balanced_accuracy": 0.5666666666666667,
+            "roc_auc": 0.6486888888888889,
+            "mean_ai_probability": 0.39593333333333336,
+            "mean_human_probability": 0.34653333333333336
+          },
+          "context": {
+            "n": 300,
+            "tp": 60,
+            "fp": 36,
+            "tn": 114,
+            "fn": 90,
+            "accuracy": 0.58,
+            "precision": 0.625,
+            "recall": 0.4,
+            "specificity": 0.76,
+            "f1": 0.48780487804878053,
+            "balanced_accuracy": 0.5800000000000001,
+            "roc_auc": 0.6081333333333333,
+            "mean_ai_probability": 0.4597333333333333,
+            "mean_human_probability": 0.4162
+          }
+        }
+      ],
+      "quote_or_dialogue": [
+        {
+          "factor": "quote_or_dialogue",
+          "category": "False",
+          "n": 303,
+          "single": {
+            "n": 303,
+            "tp": 109,
+            "fp": 14,
+            "tn": 136,
+            "fn": 44,
+            "accuracy": 0.8085808580858086,
+            "precision": 0.8861788617886179,
+            "recall": 0.7124183006535948,
+            "specificity": 0.9066666666666666,
+            "f1": 0.7898550724637681,
+            "balanced_accuracy": 0.8095424836601307,
+            "roc_auc": 0.903921568627451,
+            "mean_ai_probability": 0.5613725490196079,
+            "mean_human_probability": 0.3614
+          },
+          "context": {
+            "n": 303,
+            "tp": 121,
+            "fp": 52,
+            "tn": 98,
+            "fn": 32,
+            "accuracy": 0.7227722772277227,
+            "precision": 0.6994219653179191,
+            "recall": 0.7908496732026143,
+            "specificity": 0.6533333333333333,
+            "f1": 0.7423312883435582,
+            "balanced_accuracy": 0.7220915032679738,
+            "roc_auc": 0.7985185185185185,
+            "mean_ai_probability": 0.5833986928104575,
+            "mean_human_probability": 0.44766666666666666
+          }
+        },
+        {
+          "factor": "quote_or_dialogue",
+          "category": "True",
+          "n": 297,
+          "single": {
+            "n": 297,
+            "tp": 40,
+            "fp": 6,
+            "tn": 144,
+            "fn": 107,
+            "accuracy": 0.6195286195286195,
+            "precision": 0.8695652173913043,
+            "recall": 0.272108843537415,
+            "specificity": 0.96,
+            "f1": 0.4145077720207255,
+            "balanced_accuracy": 0.6160544217687075,
+            "roc_auc": 0.7421315192743764,
+            "mean_ai_probability": 0.42578231292517005,
+            "mean_human_probability": 0.3156
+          },
+          "context": {
+            "n": 297,
+            "tp": 62,
+            "fp": 29,
+            "tn": 121,
+            "fn": 85,
+            "accuracy": 0.6161616161616161,
+            "precision": 0.6813186813186813,
+            "recall": 0.4217687074829932,
+            "specificity": 0.8066666666666666,
+            "f1": 0.5210084033613446,
+            "balanced_accuracy": 0.6142176870748299,
+            "roc_auc": 0.6661904761904762,
+            "mean_ai_probability": 0.474421768707483,
+            "mean_human_probability": 0.3970666666666667
+          }
+        }
+      ],
+      "neighbor_ai_count": [
+        {
+          "factor": "neighbor_ai_count",
+          "category": "0",
+          "n": 251,
+          "single": {
+            "n": 251,
+            "tp": 64,
+            "fp": 9,
+            "tn": 125,
+            "fn": 53,
+            "accuracy": 0.7529880478087649,
+            "precision": 0.8767123287671232,
+            "recall": 0.5470085470085471,
+            "specificity": 0.9328358208955224,
+            "f1": 0.6736842105263159,
+            "balanced_accuracy": 0.7399221839520347,
+            "roc_auc": 0.8144533741548667,
+            "mean_ai_probability": 0.5047863247863248,
+            "mean_human_probability": 0.34455223880597013
+          },
+          "context": {
+            "n": 251,
+            "tp": 66,
+            "fp": 16,
+            "tn": 118,
+            "fn": 51,
+            "accuracy": 0.7330677290836654,
+            "precision": 0.8048780487804879,
+            "recall": 0.5641025641025641,
+            "specificity": 0.8805970149253731,
+            "f1": 0.6633165829145728,
+            "balanced_accuracy": 0.7223497895139686,
+            "roc_auc": 0.7610026789131267,
+            "mean_ai_probability": 0.5074358974358975,
+            "mean_human_probability": 0.3744776119402985
+          }
+        },
+        {
+          "factor": "neighbor_ai_count",
+          "category": "1",
+          "n": 275,
+          "single": {
+            "n": 275,
+            "tp": 65,
+            "fp": 9,
+            "tn": 118,
+            "fn": 83,
+            "accuracy": 0.6654545454545454,
+            "precision": 0.8783783783783784,
+            "recall": 0.4391891891891892,
+            "specificity": 0.9291338582677166,
+            "f1": 0.5855855855855856,
+            "balanced_accuracy": 0.6841615237284528,
+            "roc_auc": 0.7725313896573739,
+            "mean_ai_probability": 0.4804054054054054,
+            "mean_human_probability": 0.34188976377952757
+          },
+          "context": {
+            "n": 275,
+            "tp": 87,
+            "fp": 45,
+            "tn": 82,
+            "fn": 61,
+            "accuracy": 0.6145454545454545,
+            "precision": 0.6590909090909091,
+            "recall": 0.5878378378378378,
+            "specificity": 0.6456692913385826,
+            "f1": 0.6214285714285714,
+            "balanced_accuracy": 0.6167535645882103,
+            "roc_auc": 0.6683868908278358,
+            "mean_ai_probability": 0.5280405405405405,
+            "mean_human_probability": 0.4540157480314961
+          }
+        },
+        {
+          "factor": "neighbor_ai_count",
+          "category": "2",
+          "n": 74,
+          "single": {
+            "n": 74,
+            "tp": 20,
+            "fp": 2,
+            "tn": 37,
+            "fn": 15,
+            "accuracy": 0.7702702702702703,
+            "precision": 0.9090909090909091,
+            "recall": 0.5714285714285714,
+            "specificity": 0.9487179487179487,
+            "f1": 0.7017543859649122,
+            "balanced_accuracy": 0.76007326007326,
+            "roc_auc": 0.9054945054945055,
+            "mean_ai_probability": 0.5234285714285715,
+            "mean_human_probability": 0.30666666666666664
+          },
+          "context": {
+            "n": 74,
+            "tp": 30,
+            "fp": 20,
+            "tn": 19,
+            "fn": 5,
+            "accuracy": 0.6621621621621622,
+            "precision": 0.6,
+            "recall": 0.8571428571428571,
+            "specificity": 0.48717948717948717,
+            "f1": 0.7058823529411764,
+            "balanced_accuracy": 0.6721611721611721,
+            "roc_auc": 0.8186813186813187,
+            "mean_ai_probability": 0.6137142857142858,
+            "mean_human_probability": 0.48384615384615387
+          }
+        }
+      ],
+      "ai_similarity_group": [
+        {
+          "factor": "ai_similarity_group",
+          "category": "high",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 32,
+            "fp": 0,
+            "tn": 0,
+            "fn": 68,
+            "accuracy": 0.32,
+            "precision": 1.0,
+            "recall": 0.32,
+            "specificity": null,
+            "f1": 0.48484848484848486,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.4414,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 45,
+            "fp": 0,
+            "tn": 0,
+            "fn": 55,
+            "accuracy": 0.45,
+            "precision": 1.0,
+            "recall": 0.45,
+            "specificity": null,
+            "f1": 0.6206896551724138,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.4766,
+            "mean_human_probability": null
+          }
+        },
+        {
+          "factor": "ai_similarity_group",
+          "category": "low",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 64,
+            "fp": 0,
+            "tn": 0,
+            "fn": 36,
+            "accuracy": 0.64,
+            "precision": 1.0,
+            "recall": 0.64,
+            "specificity": null,
+            "f1": 0.7804878048780487,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.5321,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 73,
+            "fp": 0,
+            "tn": 0,
+            "fn": 27,
+            "accuracy": 0.73,
+            "precision": 1.0,
+            "recall": 0.73,
+            "specificity": null,
+            "f1": 0.8439306358381503,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.5756,
+            "mean_human_probability": null
+          }
+        },
+        {
+          "factor": "ai_similarity_group",
+          "category": "middle",
+          "n": 100,
+          "single": {
+            "n": 100,
+            "tp": 53,
+            "fp": 0,
+            "tn": 0,
+            "fn": 47,
+            "accuracy": 0.53,
+            "precision": 1.0,
+            "recall": 0.53,
+            "specificity": null,
+            "f1": 0.6928104575163399,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.5113,
+            "mean_human_probability": null
+          },
+          "context": {
+            "n": 100,
+            "tp": 65,
+            "fp": 0,
+            "tn": 0,
+            "fn": 35,
+            "accuracy": 0.65,
+            "precision": 1.0,
+            "recall": 0.65,
+            "specificity": null,
+            "f1": 0.787878787878788,
+            "balanced_accuracy": null,
+            "roc_auc": null,
+            "mean_ai_probability": 0.5378000000000001,
+            "mean_human_probability": null
+          }
+        }
+      ]
+    }
+  },
+  "context_cost_usd": 0.025898501999999986,
+  "context_input_tokens": 616631
+}
