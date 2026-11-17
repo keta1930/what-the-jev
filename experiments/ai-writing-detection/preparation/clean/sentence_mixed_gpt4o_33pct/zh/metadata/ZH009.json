@@ -1,0 +1,823 @@
+{
+  "source_id": "ZH009",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "c1eff808bf2be64c963a221ebc30ee30ef591420f30c8c10f695e085556f0413",
+  "ai_article_sha256": "1b6f9f53fa6284d0731e397a91459fe078731f6eb4211bd91c100964e3f2d20d",
+  "mixed_article_sha256": "2ed563dd238b5961d1fd38c8dbb623f6355cc9c619bc45f308188d39e4d074c6",
+  "human_source_sentence_count": 55,
+  "ai_source_sentence_count": 50,
+  "alignment_unit_count": 49,
+  "selected_alignment_unit_count": 16,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.281459,
+  "selected_alignment_score_median": 0.587518,
+  "selected_alignment_score_max": 0.83493,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "一提到搬家的事，我心里就明白麻烦又要来了。",
+      "output_sha256": "f3b62399228f692ec120f024942e9783c54f7365096d85a60937d85bf6f5521f",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.529627,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "bd0bd7bf959f9508e8465ba4088a174cf35071b75cbdcc4ed360177f1d05442b"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "f3b62399228f692ec120f024942e9783c54f7365096d85a60937d85bf6f5521f",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "生活在这里安宁，无争无扰，谁愿意轻易动迁呢？",
+      "output_sha256": "6dc22c24720b261db8a8af8c58389689c3f8afe63e7a1762600c259f4ec8bdd5",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.281459,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "ee599240f867afef3332957f3cd74495e9c3c8d3ad12b057bebc730b385be3b8"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "6dc22c24720b261db8a8af8c58389689c3f8afe63e7a1762600c259f4ec8bdd5",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "又不是光棍一条，搬起来也省事。",
+      "output_sha256": "696097d4b5218ab269175ced88c0dbf902fc117fea0faee69175830783c23f1c",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "696097d4b5218ab269175ced88c0dbf902fc117fea0faee69175830783c23f1c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "既然称得起“家”，这至少起码是夫妇两个，往往彼此意见不合，先得开几次联席会议，结果大家的主张不得不折衷。",
+      "output_sha256": "ada6148035e259079ca8c2e15d60e5102c1cc1d4d5cbdc27a5d101a16d0523a8",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "ada6148035e259079ca8c2e15d60e5102c1cc1d4d5cbdc27a5d101a16d0523a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "谁去找房子呢？",
+      "output_sha256": "e1a0290ba242934d80c8b67d473ad59cb532844bd60de35ee667040ee1a3b7e1",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.594227,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "1e69ab76142db035cc365d1cf6a441e53aae7ee31a6aace870e13b993514125a"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "e1a0290ba242934d80c8b67d473ad59cb532844bd60de35ee667040ee1a3b7e1",
+      "ai_unit_sentence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "有人说，等我找到得花多久，我还得教书、编讲义、写文章，忙得很，星期才能去找；再说我丈夫粗心大意，还是你去吧。",
+      "output_sha256": "536eeabc80f890fe03a0f7f0bfe59f2109dbe0512e8f5461c7050c42ea93a404",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.594227,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "1e69ab76142db035cc365d1cf6a441e53aae7ee31a6aace870e13b993514125a"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "536eeabc80f890fe03a0f7f0bfe59f2109dbe0512e8f5461c7050c42ea93a404",
+      "ai_unit_sentence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "那个说，一个女人家东家进，西家出，“眼观六路耳听八方”都得看仔细，打听明白，就是看妥了，和房东办交涉也是不善，全权通交在一人身上，这个责任，确是不轻。",
+      "output_sha256": "fd9b414360535e5ffe91209e194b1d40724e6e4a4d0c73ebbd6e8a1bb9dda072",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "fd9b414360535e5ffe91209e194b1d40724e6e4a4d0c73ebbd6e8a1bb9dda072",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "没有法子，只得第二天就去实行，一路上什么也引不起注意，就看布告牌上的招租帖，墙角上，热闹口上通都留神，这还不算。",
+      "output_sha256": "6f813fa91a3223e7c74652e845b6a9607da68089c1146cab17d598039262f375",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "6f813fa91a3223e7c74652e845b6a9607da68089c1146cab17d598039262f375",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "有的好房就不贴条子，也不请银行信托部来管，这可不好办。",
+      "output_sha256": "1638559f9bfd07b53e6985b0016b9b8a28bcae3d369dd9cb0ff395844eef7efc",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "1638559f9bfd07b53e6985b0016b9b8a28bcae3d369dd9cb0ff395844eef7efc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "一来二去的自己有了点发现，凡是窗户上没有窗帘子，你就可拍门去问。",
+      "output_sha256": "114ee1f049c9429f40ece7683b835736899922f0f249f96f4bb96ccf3d47a3ae",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "114ee1f049c9429f40ece7683b835736899922f0f249f96f4bb96ccf3d47a3ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "虽然看不中意，但是比较起所看的房确是强的多。",
+      "output_sha256": "f6ec13e9810be1cf0fc6e9ee75155e28e4e1b4a7ddbc198be3225ad518386a5e",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "f6ec13e9810be1cf0fc6e9ee75155e28e4e1b4a7ddbc198be3225ad518386a5e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "住惯北平的房子，老希望能找到一个大院子。",
+      "output_sha256": "ec84d9b6f522de23a1d98c9bf187ce2b571a575ca3f7b84a74af02dec8fc5000",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "ec84d9b6f522de23a1d98c9bf187ce2b571a575ca3f7b84a74af02dec8fc5000",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "所以离开北平之后，无论到天津，济南，汉口，上海，以至青岛，能找到房子带个大院子，真是少有。",
+      "output_sha256": "374fb3e7ebfd2feca9871c7ea0bffec9713559a555aedbc2f169d0d86f5c3873",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "374fb3e7ebfd2feca9871c7ea0bffec9713559a555aedbc2f169d0d86f5c3873",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "尤其在青岛，能找到独门独院的，租金便宜得几乎可以说没有。",
+      "output_sha256": "9808d42bf56215b62a3f783f0af498b8a12bcf13d84429dcca24e6fb674e3d77",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.55777,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "36b0e50f6dc2a9041ab7fc1f54ead8ef363335fd102ba44e4a417262c13b2794"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "9808d42bf56215b62a3f783f0af498b8a12bcf13d84429dcca24e6fb674e3d77",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "除非你真有腰包，可以大大的租上座全楼。",
+      "output_sha256": "aad7c07ae8298b77c5dba16f921e4a07b4f197d55713d152bd7051db13725345",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "aad7c07ae8298b77c5dba16f921e4a07b4f197d55713d152bd7051db13725345",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我并不喜欢住在一栋楼里，上下分着住的人，楼上的人总是占便宜，楼下的就倒霉了。",
+      "output_sha256": "1ec31f6a778654d76a17bffc8928a7a5ce060495499cd4b79ecc0ccdd513fc78",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.473014,
+      "human_sentence_indices": [
+        15,
+        16,
+        17
+      ],
+      "human_sha256": [
+        "a61fc231b23dd559df83226fd358d96cd154d1a4bc648b469e7851d9b1eb9cd3",
+        "ef21782d6521177a8a592d362368ef72a9313d8fcc9d33355db58cbd4e4d2f6e",
+        "10e9c74ef77cae2a94e510b6cdc87b0240805e7e153eebd8431560391454d9ec"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "1ec31f6a778654d76a17bffc8928a7a5ce060495499cd4b79ecc0ccdd513fc78",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "遇见清净孩子少的还好，遇见好热闹，有嗜好的，孩子多的，那才叫活糟。",
+      "output_sha256": "61d45aa965eb80c11166be7f07229fb56e39608050575e541b068ee753e62ddc",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "61d45aa965eb80c11166be7f07229fb56e39608050575e541b068ee753e62ddc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "而且还注意同楼是不是好养狗。",
+      "output_sha256": "ee6d2e3bdf7f6d9590606e54d947f5d25e8a27e2bea4691e47bb8d5e72d96223",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "ee6d2e3bdf7f6d9590606e54d947f5d25e8a27e2bea4691e47bb8d5e72d96223",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这是经验告诉我，一条狗得看新养的，还是旧有的。",
+      "output_sha256": "7fad582d83f88298e13e4aa838ff8cc2f7f67033bf2b96725a17115b641ccdc5",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "7fad582d83f88298e13e4aa838ff8cc2f7f67033bf2b96725a17115b641ccdc5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "青岛的狗种类繁多，夜里叫得声响真能让你整晚睡不安稳。",
+      "output_sha256": "c0857371623fbf0bb1001408f693dc37e1ebb0eb42409430e3b034572ac57af6",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.408117,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "65f0331f9e88df371fc08ceed913f4491819907b8a65c5db6ae19fe6bb2e9995"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "c0857371623fbf0bb1001408f693dc37e1ebb0eb42409430e3b034572ac57af6",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "有了狗群就更不能安宁，吵闹声、求偶声、乳狗声，混杂得让人难以忍受，这可不敢尝试。",
+      "output_sha256": "df9ca1c6bfa6714be8655145a57dc2c327338c914e3111096878a9676485bb46",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.497042,
+      "human_sentence_indices": [
+        22,
+        23
+      ],
+      "human_sha256": [
+        "0a89b07e9e39599694349e911bb9fd36e907cd22b070a6ceee6aaa7a9d97d83e",
+        "a5ff90f2fad59b015f1b076b47c6e07beded9c45b54ee823a351ec8a1804270f"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "df9ca1c6bfa6714be8655145a57dc2c327338c914e3111096878a9676485bb46",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "其次看同楼邻居如何；人口，年龄，籍贯，职业，都得在看房之际顺口答音的，探听清楚。",
+      "output_sha256": "b3ffe5909d300704416176b51079cbecd42cb43cfafd28a354e3d3d284915f57",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "b3ffe5909d300704416176b51079cbecd42cb43cfafd28a354e3d3d284915f57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "例如，这家是南方人，老太太是湖北的，少奶奶是四川的，少爷在港务局工作，孩子有三个。",
+      "output_sha256": "7f355683f2cead91643cde6e85e9a3d17490e9494d2b6b4bcb288f1bddb0280d",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.66126,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "e7499a902625218f959a530bbeb947295cc4fe2bca402815d9cccfc46ba6e8da"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "7f355683f2cead91643cde6e85e9a3d17490e9494d2b6b4bcb288f1bddb0280d",
+      "ai_unit_sentence_indices": [
+        23,
+        24
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "虽然这所房子我觉得合适，房间宽敞，阳光充足，厕所和厨房也干净，但一看邻居，我的心就凉了。",
+      "output_sha256": "7685263248ae8ceaf767ac448160b5915a3f96d4bc1d975d522cc5828ec39305",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.66126,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "e7499a902625218f959a530bbeb947295cc4fe2bca402815d9cccfc46ba6e8da"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "7685263248ae8ceaf767ac448160b5915a3f96d4bc1d975d522cc5828ec39305",
+      "ai_unit_sentence_indices": [
+        23,
+        24
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "第一老太太是南方的我先怕。",
+      "output_sha256": "663a952608da16118ceb402c5285655bdb8aeb8ff9753a3b37dee830f1146b73",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "663a952608da16118ceb402c5285655bdb8aeb8ff9753a3b37dee830f1146b73",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这并不是说对于南方的老太太有什么仇恨，而是对于她们生活习惯都合不来。",
+      "output_sha256": "88af3a7af9894a04aaa9813e52d8d2821ed91cc0060d7f391a7f00c19beb7632",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "88af3a7af9894a04aaa9813e52d8d2821ed91cc0060d7f391a7f00c19beb7632",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "也不管什么日子，黑天白日，黄钱白钱——纸钱——足烧一气，口中念念有词，我确是看不下去。",
+      "output_sha256": "8b2df76f686007115df7885147f1478db24e5a8e92e30b093d9eae29e63f72ca",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "8b2df76f686007115df7885147f1478db24e5a8e92e30b093d9eae29e63f72ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "再有是在门前买东西，为了一分钱，一棵菜，绝不善罢甘休买成功，必得为少一两分量吵嚷半天，小贩们脸红脖子粗的走开。",
+      "output_sha256": "695331c55ded7d75a071ebc17b875afa68ac8e22a7c294b40cab6a2c4809090f",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "695331c55ded7d75a071ebc17b875afa68ac8e22a7c294b40cab6a2c4809090f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "少奶奶管孩子，少爷吊嗓子，谁能管得了？",
+      "output_sha256": "c6661cab305eed8932227cac3396437b8108cdce7fe51b81369f2531417cda38",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.784527,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "916160544b35461b7fb154d8c506fbb12522d24bd183f1fb7086b4d913af4fff"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "c6661cab305eed8932227cac3396437b8108cdce7fe51b81369f2531417cda38",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "碰巧还架上贱价无线电，吵得你“姑子不得睡，和尚不得安”。",
+      "output_sha256": "fbdb51094cd3d53405b6da1af927f3778bff10d195b2a93aafd137ea0a1d8e49",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "fbdb51094cd3d53405b6da1af927f3778bff10d195b2a93aafd137ea0a1d8e49",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "所以趁早不用找麻烦。",
+      "output_sha256": "0c5ad871ddc91334ed9d546651307e1fc1e91da93149fd36ca3fd5ed19bcfa5b",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "0c5ad871ddc91334ed9d546651307e1fc1e91da93149fd36ca3fd5ed19bcfa5b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "论到职业上，确是重大问题。",
+      "output_sha256": "589a41681f716546a17b47508754f6a8e5c3821893353ffd4b73b5564040ee15",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "589a41681f716546a17b47508754f6a8e5c3821893353ffd4b73b5564040ee15",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "如果同楼的邻居是同行，自然不会每天见面打招呼，或许也不至于被人冷眼相待，扭头不屑一顾“你个穷酸教书匠”，可真是“道不同不相为谋”。",
+      "output_sha256": "c092c48de09d8970d57a817ac81022f2b8959aac5e5cf5febbaa69029d3dbb72",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.627203,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "3f58980202f8fb4c47500b4591874357c57ff49f74470d426d83e99df8a0b182"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "c092c48de09d8970d57a817ac81022f2b8959aac5e5cf5febbaa69029d3dbb72",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "有时还特别显示点大爷就是这股子劲，看着不顺眼，搬哪！",
+      "output_sha256": "6abbfbe4145e9d058f995a0e4552a60c6aa6161038cc0ca17960f6dd3b112610",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "6abbfbe4145e9d058f995a0e4552a60c6aa6161038cc0ca17960f6dd3b112610",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "于是乎下班之后约些朋友打打小牌。",
+      "output_sha256": "90ad4958a33c0ed11205c3918bcf415542a8c04ea736e17ef5cd6bf0989915ce",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "90ad4958a33c0ed11205c3918bcf415542a8c04ea736e17ef5cd6bf0989915ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "越是更深人静，红中白板叫得越响，碰巧就继续到天亮，叫车送客忙了一大阵，这且不提。",
+      "output_sha256": "b57b575b8ef32f0543753db4a90a0fc9d16c4e2a2255c627de00f08632ed9a6c",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "b57b575b8ef32f0543753db4a90a0fc9d16c4e2a2255c627de00f08632ed9a6c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "你遇见这样对头最好忍受。",
+      "output_sha256": "3ff316d967fef026d9d220435fa8a0fff908f2bc5b60ad08e4007ea457334483",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "3ff316d967fef026d9d220435fa8a0fff908f2bc5b60ad08e4007ea457334483",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "如果你插手干预，事情就更麻烦，没事先拉拉胡琴，约人唱几出。",
+      "output_sha256": "50252055d845501aa5f5605d85fe0a884dd0329aa060ccca5ced3ef9108cecf9",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.582231,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "b0b6bb0ced5d5597def638524d478cb6e97b635b2c70fab2fb3bc8d408cb1aab"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "50252055d845501aa5f5605d85fe0a884dd0329aa060ccca5ced3ef9108cecf9",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "久而久之，来个“坐打二簧”，锣鼓一齐响，你不搬家还等着什么？",
+      "output_sha256": "321fca8db985e01388ea36281288d9cd51f66f5c5d7163a1fe34ded5a8f5bde0",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "321fca8db985e01388ea36281288d9cd51f66f5c5d7163a1fe34ded5a8f5bde0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "想用功到时候了，人家却是该玩的时候；你说明天第一堂有课，人家十时多才上班。",
+      "output_sha256": "da71daa955461727c63bf32920d6c2a62325a1c244b978ca03b73dd0d6fe646d",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "da71daa955461727c63bf32920d6c2a62325a1c244b978ca03b73dd0d6fe646d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "你想着朋友散了，先小睡一会，人家楼上的孩子全都起了，玩橄榄球，拉凳子，打铁壶，声响不绝。",
+      "output_sha256": "12c807a2eca5e51659a49eb9967b58b55c4be900801e42c81ada085f20a6d935",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.692761,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "3686d0a90a54df5e3b3adaf0ea1a570b986f0e0e936a365832bc0dea47e34623"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "12c807a2eca5e51659a49eb9967b58b55c4be900801e42c81ada085f20a6d935",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "心中老害怕薄薄一层楼板，早晚是全军覆没，盖上木头被褥，那才高兴呢！",
+      "output_sha256": "eb779836e1dcdf670c74a072de1babe8e292b8e2c72fa4a746d32dc17b4f4394",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "eb779836e1dcdf670c74a072de1babe8e292b8e2c72fa4a746d32dc17b4f4394",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "一封客气的劝告信，我希望等楼上的先生下班能起到作用。",
+      "output_sha256": "2553f57017650ae6b08820e42a3a2c757c833925a03ec32552870034ba354ca5",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.592805,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "597b4bfe1cfc3f6b8f8445475811842bbe0c980e4386f4b2a2c78f89bc75564f"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "2553f57017650ae6b08820e42a3a2c757c833925a03ec32552870034ba354ca5",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "一会儿楼上老妈子推门进来说，我们太太不认识字，老爷不在家，太太说不收这封信。",
+      "output_sha256": "936adccc05b54955fb094ac23cce7a91e44c831e8df67a800b1d4aa0489d606b",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "936adccc05b54955fb094ac23cce7a91e44c831e8df67a800b1d4aa0489d606b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "好吧，我接过来，直接丢进纸篓里，真有些懊恼。",
+      "output_sha256": "dbd4a4b18dac3d0e13db4b77b473e4fc05d0243414e87542bbd38469a8862c45",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.538028,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "49a5f9e9f726852c4f7225cd86f7bab05fc7572cf6bd706d18e9d64d566955a8"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "dbd4a4b18dac3d0e13db4b77b473e4fc05d0243414e87542bbd38469a8862c45",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "自愧没作公安局长。",
+      "output_sha256": "86553e2088e65dff78e53ead6eb2182b39877eebd613c5fd9672755885817acb",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "86553e2088e65dff78e53ead6eb2182b39877eebd613c5fd9672755885817acb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "一个月后，房子才算妥当了，半年为期，没有什么难堪条件。",
+      "output_sha256": "15a117a1847c751dc2f4912af9cd1c1c041696e4c2318eb39a1e85e7429ef449",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "15a117a1847c751dc2f4912af9cd1c1c041696e4c2318eb39a1e85e7429ef449",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "回来跟她一说，她先摇头，难道楼下的你还没住够？",
+      "output_sha256": "4af4de85ef58ec2e5155d61235a5db5d4c6ea0367b996084c5101998f009d030",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.83493,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "e82c25b860b8076956c7d2444fa326b227d75ec34345b8647c8b59071e4f6526"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "4af4de85ef58ec2e5155d61235a5db5d4c6ea0367b996084c5101998f009d030",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "我说，这次保证没有以前的麻烦。",
+      "output_sha256": "2e246fda98bed397c668d7263d6f934a6112eeb15163b44cdfd6fdc456de32bf",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.538028,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "32f16c9aa51eca02c7ffb51e7ffd466d30fc8ce0f6e0ca5c36981004b2eed76d"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "2e246fda98bed397c668d7263d6f934a6112eeb15163b44cdfd6fdc456de32bf",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "房子够住，地点适宜，离学校，菜市，大街都近，而且喜欢遇到整齐的院子，又带着一个大空后院，练球，跳远，打拳都行。",
+      "output_sha256": "a30029c628a68f2c1f815dec436d1b7d2e5d75d8ef83680929233c61c0331be3",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "a30029c628a68f2c1f815dec436d1b7d2e5d75d8ef83680929233c61c0331be3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "再说楼上只住老夫妇俩，还是教育界。",
+      "output_sha256": "0f1a340d9ddee300fa88d871a81177885f8934f0e13ea849cf1e5e9131ce402b",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "0f1a340d9ddee300fa88d871a81177885f8934f0e13ea849cf1e5e9131ce402b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "她点了点头。",
+      "output_sha256": "4d2d2eab2932e0509fa1ac9ac88709bc150359e13fc9e0562902dfcccacac514",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "4d2d2eab2932e0509fa1ac9ac88709bc150359e13fc9e0562902dfcccacac514",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "两辆大敞车，把所有的动产，在一早晨都搬了过去，才又发现门口正对着某某宿舍三个敞口大垃圾箱。",
+      "output_sha256": "825d4e70374bf9af58b3e6d6f51e4ca91ecbeec9a6660a61d6cce4448a559aec",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "825d4e70374bf9af58b3e6d6f51e4ca91ecbeec9a6660a61d6cce4448a559aec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "掩鼻而过可也！",
+      "output_sha256": "c29adb9bf96006d9a28ff2ab218105abd814e78c639bb275ebd98d72f7417370",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "c29adb9bf96006d9a28ff2ab218105abd814e78c639bb275ebd98d72f7417370",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

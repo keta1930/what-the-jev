@@ -1,0 +1,827 @@
+{
+  "source_id": "ZH023",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "ce2bc28c7a63c68320e222afe260cb4d53f3143194ab451de6a3412b260fac88",
+  "ai_article_sha256": "63f3850695278ddd3e9d9d9f4597c9ab43b9da5242c7bf3166a537fb8226b623",
+  "mixed_article_sha256": "d05b7d34321b5736afbbd8181e6ac77758d4891bf12b0fa8154245585b985330",
+  "human_source_sentence_count": 56,
+  "ai_source_sentence_count": 53,
+  "alignment_unit_count": 53,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 55,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.327273,
+  "selected_alignment_score_min": 0.339475,
+  "selected_alignment_score_median": 0.494688,
+  "selected_alignment_score_max": 0.803663,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "中国的读书人历来对物质并不太在意。",
+      "output_sha256": "486208e6a84272959b5930194413dbbf0e829e0cf1d8f505a4abf940b30396cd",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.473276,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "39a1edc99113e79eaafee366c03f43ffe21fa83677848c877e4998a8b8d00066"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "486208e6a84272959b5930194413dbbf0e829e0cf1d8f505a4abf940b30396cd",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "“家徒四壁”可算是书生的真实写照，做官时若能保持“两袖清风”，才算得上是好官；而热衷于积累财富的，往往是俗人和贪婪的小吏，大家对此颇为轻视。",
+      "output_sha256": "9939e52b8df87af23bce81e28aed7bd4bab0313412d8adc1c2c6c55e72a02cf4",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.451988,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "3946b4ea891a1c2a36cce9f133b0fcd68804fd6171f367ff9e202033f6974622"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "9939e52b8df87af23bce81e28aed7bd4bab0313412d8adc1c2c6c55e72a02cf4",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这种不在乎东西可以叫做清德。",
+      "output_sha256": "2ecc4c5536bc672db0be8a49d1ac3ac555d44820eae450087d0aab9bbd40ee9e",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "2ecc4c5536bc672db0be8a49d1ac3ac555d44820eae450087d0aab9bbd40ee9e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "至于像《世说新语》里记的：",
+      "output_sha256": "364345f52775aba1210b2bbe57a75ad62b3f85f49a8f7fc298a5a12842b50b60",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "364345f52775aba1210b2bbe57a75ad62b3f85f49a8f7fc298a5a12842b50b60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "王恭从会稽返回，王大见到他，看到他坐在六尺的竹席上，便对他说：“你从东边来，应该有这样的东西，可以给我借用一下。”",
+      "output_sha256": "d231b1bfad28f392121bf943d2e85899d30833dd121f1cbb422c900ad4262853",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.392077,
+      "human_sentence_indices": [
+        5,
+        6
+      ],
+      "human_sha256": [
+        "ce37110119b25d694a9552b4d959b44bdc5273fd7835e222af8a591ea5b6e66c",
+        "febb05779bbdee333195c89345cd352c70bd8c269725c312ebf1b9a6b9d10d60"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "d231b1bfad28f392121bf943d2e85899d30833dd121f1cbb422c900ad4262853",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "恭无言。",
+      "output_sha256": "b55e28ea06fa0077f296c7d5875f5028838fe3fe7dbd288509788e7fa1787e39",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "b55e28ea06fa0077f296c7d5875f5028838fe3fe7dbd288509788e7fa1787e39",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "大去后，即举所坐者送之。",
+      "output_sha256": "5b26dc4e857bd5d07a2bdd5734d9cb6fa9c9e6f0ca3ec1af69395c1c8dff643c",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "5b26dc4e857bd5d07a2bdd5734d9cb6fa9c9e6f0ca3ec1af69395c1c8dff643c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "既无馀席，便坐荐上。",
+      "output_sha256": "549c85fa2055ae618ef23dbf14f1d8b23dbf1cf131a6764c6d36cafb5df7ecee",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "549c85fa2055ae618ef23dbf14f1d8b23dbf1cf131a6764c6d36cafb5df7ecee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "后大闻之，甚惊曰，“吾本谓卿多，故求耳。”",
+      "output_sha256": "37c5a1eb8ef2f90c2b97820ca204d40002e70cea3b8d87cd965d55d684329fc9",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "37c5a1eb8ef2f90c2b97820ca204d40002e70cea3b8d87cd965d55d684329fc9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "对曰，“丈人不悉恭，恭作人无长物。”",
+      "output_sha256": "f104456ea33b30c7eb3cce38f40349309ae4a2ec285c5faef444cf824ee7aa3e",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "f104456ea33b30c7eb3cce38f40349309ae4a2ec285c5faef444cf824ee7aa3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "“作人无长物”同样是对物质的不在乎，然而更显得达观。",
+      "output_sha256": "cd0f8faccadd3423b303ea9550e3e784eed3c736ac4ba4fc7f65b535874cdb84",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.506169,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "8e5e4fb2e069f2e286d35a0c72ef1c6b676647cd8805edfab7981b8074864be6"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "cd0f8faccadd3423b303ea9550e3e784eed3c736ac4ba4fc7f65b535874cdb84",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "后来人常说“身外之物，何足计较！”",
+      "output_sha256": "d576645ab95e4037959647ccdbafd292c87a346b45a470321426ac729488b038",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "d576645ab95e4037959647ccdbafd292c87a346b45a470321426ac729488b038",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这样的说法，正是这种达观的体现，只是从不同的角度来看待而已。",
+      "output_sha256": "6b1dbed5817cbcf909dbdbd1713657d7da879983891f8c20634a5f744b5eca7f",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.448651,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "a8dff4eb6e733aaff2c00de8b5bbc033c7837fabb4681fb546a18b2f5cb5d4a3"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "6b1dbed5817cbcf909dbdbd1713657d7da879983891f8c20634a5f744b5eca7f",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "不为物累，才是自由人，“清”是从道德方面看，“达”是从哲学方面看，清是不浊，达是不俗，是雅。",
+      "output_sha256": "febd17f2641e946d33fa1a000bc528515005b71c7c329ed9677ce0fe61171a9f",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "febd17f2641e946d33fa1a000bc528515005b71c7c329ed9677ce0fe61171a9f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "读书人也有在乎东西的时候，他们有的有收藏癖。",
+      "output_sha256": "85a27408dacdaaf7254d4848600df2fcf66b692d94a3bca49c5f7c5a9860f6ad",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "85a27408dacdaaf7254d4848600df2fcf66b692d94a3bca49c5f7c5a9860f6ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "收藏的可只是书籍，字画，古玩，邮票之类。",
+      "output_sha256": "ccb1951db92fce2a7b3e12cb4ce969a0569d80e1a4c2702321ae856acd0d1aa0",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "ccb1951db92fce2a7b3e12cb4ce969a0569d80e1a4c2702321ae856acd0d1aa0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这些人喜欢逛书店、旧货铺和地摊，积少成多，但未必能成为大收藏家。",
+      "output_sha256": "a664addbe6b9742babbff351bdd886b8cec6caffb91c535a6464e00705792b48",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.662073,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "c54c12b8a4f74bd28f0677c45c2f75e19ce852ca3f8bc88aa01174450e8d8d8d"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "a664addbe6b9742babbff351bdd886b8cec6caffb91c535a6464e00705792b48",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "大收藏家总得沾点官气或商气才成，大收藏家可认真的在乎东西，书生的爱美的收藏家多少带点儿游戏三昧。",
+      "output_sha256": "0d95db2d4f774b1bcb959e070cd508b51b25d374ea66aeb8a8824842f4bd24e7",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "0d95db2d4f774b1bcb959e070cd508b51b25d374ea66aeb8a8824842f4bd24e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他们随时将收藏的东西公诸同好，有时也送给知音的人，并不严封密裹，留着“子孙永宝用”。",
+      "output_sha256": "90fdb45d4d4b9558ae71d7ba88bfe85754be6df76193e44b72c1891d097bf989",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "90fdb45d4d4b9558ae71d7ba88bfe85754be6df76193e44b72c1891d097bf989",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这些东西都不是实用品，这些爱美的收藏家也还不失为雅癖。",
+      "output_sha256": "652638c765bdf2b23a15b6563e3a484a83a7309fab6a29192187e9493d6c379c",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "652638c765bdf2b23a15b6563e3a484a83a7309fab6a29192187e9493d6c379c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "日常的实用品，读书人是向来不在乎也不屑在乎的。",
+      "output_sha256": "2b2b72896c47daf39360a4a9cc9e2311db2b8f74bfba040d3b47c1f1c0184b3e",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "2b2b72896c47daf39360a4a9cc9e2311db2b8f74bfba040d3b47c1f1c0184b3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "事实上他们倒也短不了什么，一般的说，吃的穿的总有的。",
+      "output_sha256": "6f2fc1c09f8b2fb293dcbc8f9689aba3a63ab73bce5bbfddee5f8a87465aa16e",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "6f2fc1c09f8b2fb293dcbc8f9689aba3a63ab73bce5bbfddee5f8a87465aa16e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "吃的穿的有了，别的短点儿也就没什么了。",
+      "output_sha256": "9aef9c276e5279f230127b0978a4b210c64d0438ebb627e343f4ac14eca052b2",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "9aef9c276e5279f230127b0978a4b210c64d0438ebb627e343f4ac14eca052b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这些人可老是舍不得添置日用品，因此常跟太太们闹别扭。",
+      "output_sha256": "f2ac6b16e50ac175086f6d58b2ed781c296c77b0fbdd2145e065e5c0c80caaf0",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "f2ac6b16e50ac175086f6d58b2ed781c296c77b0fbdd2145e065e5c0c80caaf0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "每当搬家或出行，妻子总想多带些东西，而他们则希望能多丢些，尽管最后总是妻子占了上风。",
+      "output_sha256": "5e2bdb647a26443b2ce7c26aa82afda35d53ca44b425faf435e6377c4a944b4c",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.339475,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "8ec0609fca940e404b010ad6f36bf3136d7bf2a6744e63aaf5ad91388c05cf5b"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "5e2bdb647a26443b2ce7c26aa82afda35d53ca44b425faf435e6377c4a944b4c",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "如今的读书人倒是开始认真看重物质，连日常用品也不例外。",
+      "output_sha256": "81f48544e6e76f1f3c18d0ee59493d7254981ad4c5d4b3d8181fff60407395ef",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.374734,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "c86d2cfa6f2abf789d9a752dd3969b5808a2ec9a2105f2c8317f1dd0f3fdc4a3"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "81f48544e6e76f1f3c18d0ee59493d7254981ad4c5d4b3d8181fff60407395ef",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这两年物价飞涨，甚至连电器都跟不上，许多读书人渐渐没有了对吃穿的把握；他们虽然努力保持清德，但那种达观的心态却不得不暂时搁置。",
+      "output_sha256": "f5a1583c62ea0362062b6ec26dd57de8d33c7d92c4561db29d36ee0da0aadfaf",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.545711,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "d581a1aea0d1967aee4a781b6aac3a12ab5a6d918002c200f1e9ef1c791e6928"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "f5a1583c62ea0362062b6ec26dd57de8d33c7d92c4561db29d36ee0da0aadfaf",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "于是乎谈烟，谈酒，更开始谈柴米油盐布。",
+      "output_sha256": "6d74b96e348b7b571e34e03f7d5c55474681dfc689e179c6ab30167512dc870d",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "6d74b96e348b7b571e34e03f7d5c55474681dfc689e179c6ab30167512dc870d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这儿是第一回，先生们和太太们谈到一路上去了。",
+      "output_sha256": "4216a1523be0ad86f8fd6ec3b135625a2b9b7972ab1eefa1c87214b1e72815df",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "4216a1523be0ad86f8fd6ec3b135625a2b9b7972ab1eefa1c87214b1e72815df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "酒不喝了，烟越抽越坏，越抽越少，而且在打主意戒了将来收藏起烟斗烟嘴儿当古玩看。",
+      "output_sha256": "c402184a1fd7bdbe1e9503a1127d4d877df6324195227c9f889d0625987aff6d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "c402184a1fd7bdbe1e9503a1127d4d877df6324195227c9f889d0625987aff6d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "柴米油盐布的消费也变得更加谨慎，想方设法地多收藏一些，少花一些。",
+      "output_sha256": "0045a3d8ba9b67d71f2abdde0b1b9121c1b8ec7d3d6ec9f0b32ddcddce4bc9f4",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.420235,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "d2aa0b416451921cd9537912d7c17e4996aae6eed9620b97195432bd1219344f"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "0045a3d8ba9b67d71f2abdde0b1b9121c1b8ec7d3d6ec9f0b32ddcddce4bc9f4",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "他们对一切都开始珍惜，落实到“一粥一饭当思来处不易”。",
+      "output_sha256": "ccdd065bce029d3947b5128066d46ac5f6feb7d5f458a78a52b986a98885b802",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.555381,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "c9132a8b619f9d953316221b7dc2d03027e8d0c368ba1c66d3718df44ea6dc10"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "ccdd065bce029d3947b5128066d46ac5f6feb7d5f458a78a52b986a98885b802",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这些人不但不再是痴聋的阿家翁，而且简直变成克家的令子了。",
+      "output_sha256": "7d3a9b61e8d323f6597211895da640909e229f919226d6bd929a47746f554bc4",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "7d3a9b61e8d323f6597211895da640909e229f919226d6bd929a47746f554bc4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "那种爱美的雅趣，不用说也得暂时搁置。",
+      "output_sha256": "65560d797a0c3c15710c35ca47732bf577a6278de240259993edf69c2672d503",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.614492,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "fc5ab2fd905f9acbdc3a9b62bd65cdf16070aac0297428a875b0720601b7eff2"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "65560d797a0c3c15710c35ca47732bf577a6278de240259993edf69c2672d503",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这些人除了职业的努力以外，就只在柴米油盐布里兜圈子，好像可怜见儿的。",
+      "output_sha256": "33bff08da5c11985c18f5cf88ed4347320239557a11977fa8a0b577775651d99",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "33bff08da5c11985c18f5cf88ed4347320239557a11977fa8a0b577775651d99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "其实倒也不然。",
+      "output_sha256": "1efb7a0fc4757d2573f24deba989b80e4c95a191a01ae2b915ebc3bd77171536",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "1efb7a0fc4757d2573f24deba989b80e4c95a191a01ae2b915ebc3bd77171536",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他们有那一把清骨头，够自己骄傲的。",
+      "output_sha256": "d8149ae970f7a84275e102ab0deb369eea52e33901413ba47fabbc5e56a7de00",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "d8149ae970f7a84275e102ab0deb369eea52e33901413ba47fabbc5e56a7de00",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "再者，柴米油盐布中也未必没有趣味，尤其是在如今这个时候。",
+      "output_sha256": "5f395bd2b13046ceb7481727a45cfcea3ef325135238c5b71337978f9c022d1d",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.572158,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "3a94041d53ca2fcc3144551ae3ed6156fcc8296b77b2be53c13be380bb523c8b"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "5f395bd2b13046ceb7481727a45cfcea3ef325135238c5b71337978f9c022d1d",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "例如今天忽然知道了油盐有公卖处，便宜那么多；今天知道了王老板家的花生油比张老板的每斤少五毛钱；今天知道柴涨了，幸而昨天买了三百斤收藏着。",
+      "output_sha256": "b13f1821827ad3e0257975cb141d09863b3c5c21d1889e8fc42b8f6a4a6adb08",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "b13f1821827ad3e0257975cb141d09863b3c5c21d1889e8fc42b8f6a4a6adb08",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这些消息都可以让他们带着胜利的微笑回家。",
+      "output_sha256": "2b932fe749fcdee57871c4e1d2b89ab4784705e78d4c8484e819ee4ba22e559f",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.803663,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "9f6b81df715349eca19785656acf30308cb52f16566fc03f6e6fd579a10a08d9"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "2b932fe749fcdee57871c4e1d2b89ab4784705e78d4c8484e819ee4ba22e559f",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这是挣扎，可也是消遣不是？",
+      "output_sha256": "a66c513ac4f39c88fb20ac5073230c12c492b45105dc29cf43fbc5f5ba5ac9b0",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "a66c513ac4f39c88fb20ac5073230c12c492b45105dc29cf43fbc5f5ba5ac9b0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "能够在柴米油盐布里找着消遣的是有福的。",
+      "output_sha256": "c164d4fde5b7c3559bd6a1e40bb7e1a95fceb726bad0f6099054e845bf9c2ee0",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "c164d4fde5b7c3559bd6a1e40bb7e1a95fceb726bad0f6099054e845bf9c2ee0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "在另一角度下，这也是达观或雅癖哪。",
+      "output_sha256": "ee02ba55ac64e21e013eaac9ecc7924378b6438d923ffbfa48a3e39846d54eb2",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "ee02ba55ac64e21e013eaac9ecc7924378b6438d923ffbfa48a3e39846d54eb2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "读书人大概不愿意或没有能力转行，他们少有可能摇身一变成为囤积居奇的商人。",
+      "output_sha256": "eca62c08364e14183a57ebeaf928974a0aacaa7f0702fa4e1ad5137f3f244bbb",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.646729,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "7483db44ea89c1caf56a2f9a17e78d6b1111ebd2d396fffe317797a110d47965"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "eca62c08364e14183a57ebeaf928974a0aacaa7f0702fa4e1ad5137f3f244bbb",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们现在虽然也爱惜东西，可是更爱惜自己；他们爱惜东西，其实也只能爱惜自己的。",
+      "output_sha256": "a262eaa1c9f8f16aadde1f37d4965385f670ff7e46b70060973067880316c166",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "a262eaa1c9f8f16aadde1f37d4965385f670ff7e46b70060973067880316c166",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "他们不用说爱惜自己需要的柴米油盐布，还有就只是自己箱儿笼儿里一些旧东西，书籍呀，衣服呀，什么的。",
+      "output_sha256": "536f0fa2fe9e6bb5c0303ae4cfd8614c1ceab666d41a518dba596862746e62cf",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "536f0fa2fe9e6bb5c0303ae4cfd8614c1ceab666d41a518dba596862746e62cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这些东西伴随着他们在这片土地上流转了许多年，但他们本人却未必在意这些旧物，更不会与它们亲近。",
+      "output_sha256": "bd7b9a5de96cc8394b5eba7ab224f6b094854aa8d4adcf27b565952aa6a4caa7",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.483206,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "2bcb535a9937b0b2959d4623fff37c225efb7d87b50ed71429a54f209ded9dc8"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "bd7b9a5de96cc8394b5eba7ab224f6b094854aa8d4adcf27b565952aa6a4caa7",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "可是东西越来越贵了，而且有的越来越少了，他们这才打开自己的箱笼细看，嘿！",
+      "output_sha256": "443f9340aebbaf842dc238dfc29ecbea184ec7105500a6e68cfd8f2df5c9ecbe",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "443f9340aebbaf842dc238dfc29ecbea184ec7105500a6e68cfd8f2df5c9ecbe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "多么可爱呀，还存着这么多东西哪！",
+      "output_sha256": "5a047e78c5a8768111e6571a2b9ffd572d169dfffbfe768eebfae6540321144e",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "5a047e78c5a8768111e6571a2b9ffd572d169dfffbfe768eebfae6540321144e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "于是，一个个拿出来端详，越看越觉得有趣，越感到亲切，仿佛与久别重逢的老朋友，心中不知道如何表达那份亲近。",
+      "output_sha256": "546624f12837c08a0c6ce3760f0b7fa097acf0da6cc5121b4ee30e38bd758fba",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.438413,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "bb92ae5a8b9e6a25291f93c0215a3880ae74697a164e763750ca56d9b2932a9a"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "546624f12837c08a0c6ce3760f0b7fa097acf0da6cc5121b4ee30e38bd758fba",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "闲暇时，他们便会去摩挲这些物品，胜过逛旧货铺、地摊，也抵得上喝一杯好酒，抽几支好烟。",
+      "output_sha256": "9cd7b60006afe6dc5e288c20ba94ca53f6a56140326ef2c28ba7d98afd691c22",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.579255,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "4fb7e5f04138013bced759cffd146e30266f8e1c6909c89efd1a6103d721c86c"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "9cd7b60006afe6dc5e288c20ba94ca53f6a56140326ef2c28ba7d98afd691c22",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "再说自己看自己原也跟别人看自己一般，压根儿是穷光蛋一个；这一来且不管别人如何，自己确是觉得富有了。",
+      "output_sha256": "17f71a9b37678a0ed379d82a3441bb1c7d72ff0eb33d9109f6e8846120a5d2fe",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "17f71a9b37678a0ed379d82a3441bb1c7d72ff0eb33d9109f6e8846120a5d2fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "瞧，寄售所，拍卖行，有的是，暴发户的买主有的是，今天拿去卖点儿，明天拿去卖点儿，总该可以贴补点儿吃的穿的。",
+      "output_sha256": "67611c0eab4f92f955c7ae47bda702b024d77af2f3e31b26c398aa0d919babeb",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "67611c0eab4f92f955c7ae47bda702b024d77af2f3e31b26c398aa0d919babeb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "等卖光了，抗战胜利的日子也就到了，那时候这些读书人该是老脾气了，那时候他们会这样想，“一些身外之物算什么哪，又都是破烂儿！",
+      "output_sha256": "fb66d71d156cd7c511e7ad3572620c4aef35cb4d19a67afa459a881570aa7e97",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "fb66d71d156cd7c511e7ad3572620c4aef35cb4d19a67afa459a881570aa7e97",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "咱们还是等着逛书店，旧货铺，地摊儿罢。”",
+      "output_sha256": "dc4c3532dff534125e929137509cab9ca6588ff513789479ae68429c24e81b2e",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "dc4c3532dff534125e929137509cab9ca6588ff513789479ae68429c24e81b2e",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

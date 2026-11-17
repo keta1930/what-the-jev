@@ -1,0 +1,1169 @@
+{
+  "source_id": "ZH088",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "89823ea70345c041aef0b2ee1b92e899914245915fd3d9fd27f90e45541c76a9",
+  "ai_article_sha256": "c435ad792af21592d9d9063f665c55402c187ed90febd87cb7376a32b96c1849",
+  "mixed_article_sha256": "9791a6664157b817ac16c03ccbd9b31391c767fabdc084746d7c65188302b3d0",
+  "human_source_sentence_count": 76,
+  "ai_source_sentence_count": 75,
+  "alignment_unit_count": 72,
+  "selected_alignment_unit_count": 24,
+  "mixed_sentence_count": 78,
+  "selected_ai_sentence_count": 26,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.401873,
+  "selected_alignment_score_median": 0.606538,
+  "selected_alignment_score_max": 0.859641,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这是头一次在青岛过夏。",
+      "output_sha256": "0edc268afaefb3945d9121460e9c849287720eb10d6a2ab6888076ed54fe98e1",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "0edc268afaefb3945d9121460e9c849287720eb10d6a2ab6888076ed54fe98e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "一点不吹，咱算是开了眼。",
+      "output_sha256": "f888cafb2c7bd73f728e0ecd211ab1b9be83494251d366976819e9f647ad0418",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "f888cafb2c7bd73f728e0ecd211ab1b9be83494251d366976819e9f647ad0418",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "可是，只能说开眼；没有别的好处。",
+      "output_sha256": "84d5f1c1e054d1ceeb801b1689cfe47a55d9de7e0b7e2213a922c8c5762dda41",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "84d5f1c1e054d1ceeb801b1689cfe47a55d9de7e0b7e2213a922c8c5762dda41",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "就拿海水浴来说吧，我在海边见到了那么多的人，确实让人眼前一亮！",
+      "output_sha256": "157317d200064df973f7e9feceaa2eec772293222ba906eff94e142074d2594d",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.429541,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "4798a6596243d8756b0e0f74eef988974451cd916326efbc3aeb92a99bc4f13a"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "157317d200064df973f7e9feceaa2eec772293222ba906eff94e142074d2594d",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "可是咱自家不敢露一手儿。",
+      "output_sha256": "476a9e1fbbd03b47ce25ca8054c0482f40c0a8b6d748a485cfa8502d8c690e52",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "476a9e1fbbd03b47ce25ca8054c0482f40c0a8b6d748a485cfa8502d8c690e52",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "您可以想象，一个比蛇还瘦的人，穿着那种不伦不类的浴衣，脖子上套着游泳圈，站在海滩上，身上骨骼分明，这不就是故意让人发笑吗？",
+      "output_sha256": "48b5dbb8a865baa8af005f949cde4410a96be14ac6daa8794cb962db61415978",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.524816,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "f674d550317657ec34adb55544a8c18f20c784a2597f885ef94387d6b53d4b99"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "48b5dbb8a865baa8af005f949cde4410a96be14ac6daa8794cb962db61415978",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "即使别人不觉得奇怪，我也不敢跳下水；脖子上挂着游泳圈，只能在沙滩上“憧憬”一番，虽然泄气没关系，但也不能泄得太离谱。",
+      "output_sha256": "eab61035c76aecd3ed9a43b96ad8cb40eda0ffe02a496e637b5018dcf3427bc9",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.487412,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "02db042b391f5edd6d333df2e4553605a9d57cc4973d7d27574b7a47ef06757f"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "eab61035c76aecd3ed9a43b96ad8cb40eda0ffe02a496e637b5018dcf3427bc9",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "咱只能穿着夏布大衫，远远的瞧着；偶尔遇上个异教卫道的人，相对微笑点首，叹风化之不良；其实他也跟我一样，不敢下水。",
+      "output_sha256": "ce27232c5a782582d9e857f500571ac7c8f244afcf9082c9dab8920b0527f4bb",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "ce27232c5a782582d9e857f500571ac7c8f244afcf9082c9dab8920b0527f4bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "海水浴没了咱的事。",
+      "output_sha256": "1e70c09cd3aebfb90708996816f85dc5066ace340950ce4ec057f77f5feb922f",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "1e70c09cd3aebfb90708996816f85dc5066ace340950ce4ec057f77f5feb922f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "白天在海岸，晚上自然要去舞场。",
+      "output_sha256": "e855edf1f803698a1c3ef85dec6e9d391e905f7f33f95c000c6d027ad11a85bd",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.609762,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "cd6c1748ad5ee19b738607eebcb23e47750809715d3a0918f06d1eda1bba7594"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "e855edf1f803698a1c3ef85dec6e9d391e905f7f33f95c000c6d027ad11a85bd",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "青岛到夏天，的确是热闹：白舞女，黄舞女，黑舞女，都光着脚，脚指甲上涂得通红晶亮，鞋只是两根绊儿和两个高底。",
+      "output_sha256": "1a9e0736d3e51e3d638bde0d5eb7415fbf37ba2783a88fdb16d3cae1deaf672a",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "1a9e0736d3e51e3d638bde0d5eb7415fbf37ba2783a88fdb16d3cae1deaf672a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "衣服，帽子，花样之多简直说不尽。",
+      "output_sha256": "8634638172c310915c9d7143be578efdaa25b7782af4857195f8ce61c861ecaf",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "8634638172c310915c9d7143be578efdaa25b7782af4857195f8ce61c861ecaf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "按理说我既不敢下海，晚上应该去舞场跳舞，出出汗，活动活动。",
+      "output_sha256": "054f22d6da7c7fac8dd79b8990d7deb496f807b5bcd64191d31cf4d50a908751",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.634735,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "5add38370b46a6613f43b63d676bf0212a9341e79aa2f935237390cad29ebb0f"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "054f22d6da7c7fac8dd79b8990d7deb496f807b5bcd64191d31cf4d50a908751",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "咱又没这个造化。",
+      "output_sha256": "732929c3912d3e26fc39b691521503ea68013dc15ad4c954a1ab4063f3b8abfd",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "732929c3912d3e26fc39b691521503ea68013dc15ad4c954a1ab4063f3b8abfd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "第一，晚上一过九点就想睡；到舞场买票睡觉，似乎大可不必。",
+      "output_sha256": "6db4b94ff752d366a23879801add8d3dba9ec1c7e2283b60391404978fb383d9",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "6db4b94ff752d366a23879801add8d3dba9ec1c7e2283b60391404978fb383d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "其次，跳舞倒是可以凑合着跳，但人家不踩我的脚，而我却踩了人家的，虽然这也算有点独特，但总是让人难以开口。",
+      "output_sha256": "2f2fc3c25afb76f1ac86fd76184c57bdf900f70ef6e26d84d82812b74fe4d4a1",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.471369,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "4785745a77bf6c14566a8122b9919527a778c4150d3ce21b88ebd719ac1f6eeb"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "2f2fc3c25afb76f1ac86fd76184c57bdf900f70ef6e26d84d82812b74fe4d4a1",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "莫若早早的睡吧，不招灾，不惹祸。",
+      "output_sha256": "5ab6477e7c85e9666c95138b3144a6753cd8151e958784aec5a289cd68305a45",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "5ab6477e7c85e9666c95138b3144a6753cd8151e958784aec5a289cd68305a45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "况且这么规规矩矩，也足引起太太的敬意，她甚至想登报颂扬我的“仁政”，可是被我拦住了，我向来是不好虚荣的。",
+      "output_sha256": "0680a182c6b3801510dc5a6c80f4d15d76058b4a23e39c58f8de54ccc75efc91",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "0680a182c6b3801510dc5a6c80f4d15d76058b4a23e39c58f8de54ccc75efc91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "既然不去热闹场所，那就想在家里找些乐趣。",
+      "output_sha256": "0ee1bcf8357a0e69fcef3161f2e33670ee36666d86f20044b640df3cf81b38d6",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.606538,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "8cb0dd3569063323e51a0a64571a4fc0222260c58cc2f503083d92713cfb38d7"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "0ee1bcf8357a0e69fcef3161f2e33670ee36666d86f20044b640df3cf81b38d6",
+      "ai_unit_sentence_indices": [
+        18,
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "唱戏、打牌、听无线电广播等都是青岛时下流行的活动。",
+      "output_sha256": "0ebf060aab248f7be85ab574c41f60dc376c737749e1f52570033b491c5b2dbb",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.606538,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "8cb0dd3569063323e51a0a64571a4fc0222260c58cc2f503083d92713cfb38d7"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "0ebf060aab248f7be85ab574c41f60dc376c737749e1f52570033b491c5b2dbb",
+      "ai_unit_sentence_indices": [
+        18,
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "以唱戏说，不但早晨在家中吊嗓子的很多，此地还有许多剧社，锣鼓俱全，角色齐备，倒怪有个意思。",
+      "output_sha256": "732405fc838af868bc07f3bd00ead63e5cb90ea299420c5cbee984d834c9ca59",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "732405fc838af868bc07f3bd00ead63e5cb90ea299420c5cbee984d834c9ca59",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我想加入剧社，小时候还听过谭鑫培的戏，当然有资格。",
+      "output_sha256": "ca8a5b3e48c5e655c3e2f9eb3e6a12e4c987e252e0f9073eea8b643128f3ec84",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.681731,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "10689b1620721f2c3be5da1161d0a977336695c410b3520a1aa5ee66d6e72409"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "ca8a5b3e48c5e655c3e2f9eb3e6a12e4c987e252e0f9073eea8b643128f3ec84",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "找了介绍人，交了会费，头一天我就露了一出《武家坡》。",
+      "output_sha256": "0d64e1e6492fcb1764ce19b8e15a96508f1bdacd7b2ae1f302f97357fceb642b",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "0d64e1e6492fcb1764ce19b8e15a96508f1bdacd7b2ae1f302f97357fceb642b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我觉得唱得不错，第二天早早就去了，再想露一出拿手的。",
+      "output_sha256": "afc6b5749f214a5de08988cc8f2c0851c5505f64c1c4c7e193bed229c8e67ef0",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "afc6b5749f214a5de08988cc8f2c0851c5505f64c1c4c7e193bed229c8e67ef0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "等了足有两点钟吧。",
+      "output_sha256": "44e05965438a5fcda68f6cbae9becd7aebc2bcb5302dfea1f14b320815d4121c",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "44e05965438a5fcda68f6cbae9becd7aebc2bcb5302dfea1f14b320815d4121c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "一个人也没来，社员们太不热心呀，我想。",
+      "output_sha256": "d9e84aa75fc7ba0d26ba16626d9454cda6d423bab7bb8b9fd80d1b234c6cd3e6",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "d9e84aa75fc7ba0d26ba16626d9454cda6d423bab7bb8b9fd80d1b234c6cd3e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "第三天我又去了，还是没人，这未免有点奇怪。",
+      "output_sha256": "25781cce7e415def501f47356dc0845bdeaf58bb91ca6fdda1dc3aa09f9f79bb",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "25781cce7e415def501f47356dc0845bdeaf58bb91ca6fdda1dc3aa09f9f79bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "坐了十几分钟我就出来了，门口遇见一个小孩。",
+      "output_sha256": "3402a8608fbfad45c186cef1c615995005fd7bfaa635cd2fec73e1b59c2cab3e",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.711154,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "35550d110ce9866c416df34f56a209002aa4b80efb5435bbbd91f930f4da7845"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "3402a8608fbfad45c186cef1c615995005fd7bfaa635cd2fec73e1b59c2cab3e",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "“小朋友，”我和气地问，“这里怎么总没人？”",
+      "output_sha256": "e9c831f3af195a61f38497afcd1334a14090be0aa2c0c6be198c55f7ea1df6c7",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.488077,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "0ff697ef4ad3ffb20d3e96fc5f5803bac92755abf275fe69013a0094ff166611"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "e9c831f3af195a61f38497afcd1334a14090be0aa2c0c6be198c55f7ea1df6c7",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "小孩原来是看守票房李六的儿子，知道不少事儿。",
+      "output_sha256": "762663814aed7d97319a6d8cf977234f39500763808fd143d5d64291a64ec7a9",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "762663814aed7d97319a6d8cf977234f39500763808fd143d5d64291a64ec7a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "“这几天没人来，因为呀，”小孩笑着看了我一眼，“前天有位先生唱得像鸭子叫，所以大家都不来了；前天您来了吗？”",
+      "output_sha256": "18202653f705cb4ba5327297f7d06cdacd92010c39c112eedaeae5d96954b1ac",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.806689,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "fce426f62f72eef6878107107285010e61ba8de50cecc89b60b6587876dc85d8"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "18202653f705cb4ba5327297f7d06cdacd92010c39c112eedaeae5d96954b1ac",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我摇了摇头，一声没出就回了家。",
+      "output_sha256": "9c55e04e451d591ba8c176501964975501fb0cd4b45d9e7ea90e57112b3c64a4",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "9c55e04e451d591ba8c176501964975501fb0cd4b45d9e7ea90e57112b3c64a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "回到家，我心里有些不舒服。",
+      "output_sha256": "dda4c8be7add6e41af45f77adea947f278b84419dcca93908f6d61ea8b149958",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.401873,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "edfba4c3c51b17c75baf515f8de857867bee3854b7099c64892b590ad07715aa"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "dda4c8be7add6e41af45f77adea947f278b84419dcca93908f6d61ea8b149958",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "可是继而一想呢，票友们多半是有习气的，也许我唱得本来很好，而他们“欺生”。",
+      "output_sha256": "6d08de98b61fb3d6ae2fa8d71e48645e86bc8aa805acac6221f0f3da097ab88e",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "6d08de98b61fb3d6ae2fa8d71e48645e86bc8aa805acac6221f0f3da097ab88e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这么一想，我就决定在家里独唱，不必再出去怄闲气。",
+      "output_sha256": "688dc05555acbc284c28931588c54739f3ad0279768237e86eace99bd4a4666c",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "688dc05555acbc284c28931588c54739f3ad0279768237e86eace99bd4a4666c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "唱，我一个人可就唱开了，“文武代打”，好不过瘾！",
+      "output_sha256": "9001ed3df19df606b3fa528a3845cc3c0fc9f2d993cc7b57fa06597958fd6bb0",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "9001ed3df19df606b3fa528a3845cc3c0fc9f2d993cc7b57fa06597958fd6bb0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "唱到第三天，房东来了，客气地请我搬走。",
+      "output_sha256": "26d1afc3083bfab11beb4834235a760c6bf2afcd5d7f3a794c71f305bea30e4c",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.672615,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "66ab1ac9c369f1b64ae94d3fffaf0b2dfe71817568230eb09c0512eeec958459"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "26d1afc3083bfab11beb4834235a760c6bf2afcd5d7f3a794c71f305bea30e4c",
+      "ai_unit_sentence_indices": [
+        36,
+        37
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "房东临走时，低声对太太说：“如果先生不唱，那就不必搬了，大家都是朋友！”",
+      "output_sha256": "d390e0959772490f3276fe65c199a81938d02505db91b2729312a5913f7da823",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.672615,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "66ab1ac9c369f1b64ae94d3fffaf0b2dfe71817568230eb09c0512eeec958459"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "d390e0959772490f3276fe65c199a81938d02505db91b2729312a5913f7da823",
+      "ai_unit_sentence_indices": [
+        36,
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "太太自然怕搬家，先生自然怕太太，我首先声明我很讨厌唱戏。",
+      "output_sha256": "916ce0b57e6b16c3b765bd2d7e6ce501cf75c5c6aed07ac15ee4e32e8f538c2f",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "916ce0b57e6b16c3b765bd2d7e6ce501cf75c5c6aed07ac15ee4e32e8f538c2f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我正要去买个收音机，邻居郑家已经买好了，我心里不太舒服。",
+      "output_sha256": "89d80ce97580001dc4308583c860d65a867eafe880122dd14057606b87c5318c",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.592333,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "7c1d0ba7d69d9a4452ed4916d68ab2362445e63aa5ce976b3aaf7c348952c3f5"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "89d80ce97580001dc4308583c860d65a867eafe880122dd14057606b87c5318c",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "在青岛，什么事走迟了一步，风头就被别人出尽；我不必再花钱了，既然已叫郑家抢了先。",
+      "output_sha256": "d309799de9d8f888ec2a5b23a7ac4e70ce0de9a82bd5c052d569fcd51b913202",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "d309799de9d8f888ec2a5b23a7ac4e70ce0de9a82bd5c052d569fcd51b913202",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "再说呢，他们播放，我听得很真，何必一定打对仗呢。",
+      "output_sha256": "ab712f39c2e5102c51ce2d487b25e3601802e0d5fbbc273069e197414c9cced4",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "ab712f39c2e5102c51ce2d487b25e3601802e0d5fbbc273069e197414c9cced4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我决定等着听便宜的。",
+      "output_sha256": "1f2145362ecfa5019094c8db468e37b82214f0d0e921fe52d29bb237951a6069",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "1f2145362ecfa5019094c8db468e37b82214f0d0e921fe52d29bb237951a6069",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "郑家的机器真不坏，据说花了八百多块。",
+      "output_sha256": "e5483ebcd4310bece496996ba533bf7a6ca4a2e2c06675127ee3fde89c0e6f8e",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "e5483ebcd4310bece496996ba533bf7a6ca4a2e2c06675127ee3fde89c0e6f8e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "每到早十点，他们必转弄那个玩艺。",
+      "output_sha256": "4a479e1db9e526f1cf058cf12e15a36e6b6f2fa478ac45e3456a419dd7bba1f4",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "4a479e1db9e526f1cf058cf12e15a36e6b6f2fa478ac45e3456a419dd7bba1f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "起初像火车的挂钩，嘎！",
+      "output_sha256": "552ae76d2fb6380d34de40bc46bb34a804713ceec42c69a547928888319e34ba",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.675,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "0577d719349cdddecc81f2f196a23f8f357694c5561c22db2cb07fe752dc071a"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "552ae76d2fb6380d34de40bc46bb34a804713ceec42c69a547928888319e34ba",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "哗啦，哗啦！",
+      "output_sha256": "69e3010df4ba32bca146caf1d565f941ade73ce7cd3d5dcc1ce4a22610f415e2",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "69e3010df4ba32bca146caf1d565f941ade73ce7cd3d5dcc1ce4a22610f415e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "哗啦了半天，好似怕人讨厌它太单调，忽然改了腔儿，细声细气的，像老牛害病时那样呻吟。",
+      "output_sha256": "6cfcedb46fc3ca965fc06d571ad9c47e92abac9fa6b1ac630f0ea0fdeb5f4b5a",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "6cfcedb46fc3ca965fc06d571ad9c47e92abac9fa6b1ac630f0ea0fdeb5f4b5a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "猛古丁的又改了办法，啪啪，喔——喔，越来越尖，咯喳！",
+      "output_sha256": "f0ab2e62cfd08b348b37e3f5c00be574ac39b376aa2e97132517fe0822f92017",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "f0ab2e62cfd08b348b37e3f5c00be574ac39b376aa2e97132517fe0822f92017",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我还以为院子里的柳树被风刮断了！",
+      "output_sha256": "c488abf9a2a2aa45e632dd761ac6d0e5c583c985cf306b64a02e4c4c793ac778",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.610116,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "36ab7932c4f2588f26a454f3f11321892cb441bf0d00e7a080e1c7a66b31c2b8"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "c488abf9a2a2aa45e632dd761ac6d0e5c583c985cf306b64a02e4c4c793ac778",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这是前奏曲。",
+      "output_sha256": "f9d02ef83bf5ff465f9bb6c0807f7c40c3dfc0399076fc0b22ff4bcd72f53e0c",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "f9d02ef83bf5ff465f9bb6c0807f7c40c3dfc0399076fc0b22ff4bcd72f53e0c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "一切静寂，有五分钟的样子，忽然兜着我的耳根子：“南京！”",
+      "output_sha256": "95018aa2b88d9608b3f4a3e7029c9252f3281cd7d4fbce761508fcc839dc0fce",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "95018aa2b88d9608b3f4a3e7029c9252f3281cd7d4fbce761508fcc839dc0fce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "也就是我呀，修养差一点的，管保得惊疯！",
+      "output_sha256": "f90a13e1b1dce0476387205d360bb1e6afeae5d49e865257f4200d62b1095264",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "f90a13e1b1dce0476387205d360bb1e6afeae5d49e865257f4200d62b1095264",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "吃了一颗定心丸，我还是想听听南京的情况。",
+      "output_sha256": "c4f5c4abe5c5053e565bbb0091086a3eb1b236f64cb1254fd2c2aec8d9820cbc",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.519786,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "0798e3b004858f211bf1f323f0be745ec62a0bf10b34a3cd16f53eabfa4a757a"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "c4f5c4abe5c5053e565bbb0091086a3eb1b236f64cb1254fd2c2aec8d9820cbc",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "呕，结果原来南京的底下是——“王小姐唱《毛毛雨》”。",
+      "output_sha256": "42674b8a82c2f1170fbae9114e9ff60a7928a36680f138f46c605e2018663863",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.859641,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "307222810ebadecdea67b48cf44460ee323ea6066d755bd3bddb241feb4be5b6"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "42674b8a82c2f1170fbae9114e9ff60a7928a36680f138f46c605e2018663863",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这首《毛毛雨》可与众不同：第一声很足，第二声突然像被风刮走，第三声又变成火车挂钩的声音，紧接着刮风、下雨、打雷，空军袭击城市，海啸；《毛毛雨》根本听不见了。",
+      "output_sha256": "f63e209b857a54f14f3eba36f3b171870f5b35477212589bfe966b9b88715760",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.741691,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "44356a191b018d9f93e1c9783352b63669ceee4eb76d385e4853edab906d30b9"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "f63e209b857a54f14f3eba36f3b171870f5b35477212589bfe966b9b88715760",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "闹了一大阵，兜着我的耳根子——“北平！”",
+      "output_sha256": "1cda26cabda8850ac2cae67768afc79ec4a0e2cb4fe8d58451b4490234a91287",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "1cda26cabda8850ac2cae67768afc79ec4a0e2cb4fe8d58451b4490234a91287",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我赶紧堵上耳朵。",
+      "output_sha256": "5755ede42fe95a651a76b5465866d83dc5bc3162355b9d8d90f357198eb9e030",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.609249,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "6f093f7635ab98e3b9c258b11fe87418d41c5bb7c987041e9892bc99af1ebfb3"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "5755ede42fe95a651a76b5465866d83dc5bc3162355b9d8d90f357198eb9e030",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "早晨如是，下午如是，夜间如是；这回该我找房东去了。",
+      "output_sha256": "f21f337b69451ccd63a7440d2aaf8214948c406be22dc033c0a09460eb536e08",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "f21f337b69451ccd63a7440d2aaf8214948c406be22dc033c0a09460eb536e08",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我搬了家。",
+      "output_sha256": "28e0d4f01a20052af81404c6b968281c391de12f9d49c8ad9b99df87394992bc",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "28e0d4f01a20052af81404c6b968281c391de12f9d49c8ad9b99df87394992bc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "还有就是打小牌，或许可以不招惹麻烦，但我始终没有耐心。",
+      "output_sha256": "053faf30f5e61bafaf29af56678c474e8dc6cd2a3612accaeb1185ef77def681",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.540015,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "6a8fa437ecdb5d112623ebe57a117d641015556edd593abef336eaac0a807b10"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "053faf30f5e61bafaf29af56678c474e8dc6cd2a3612accaeb1185ef77def681",
+      "ai_unit_sentence_indices": [
+        60
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "叫我打一圈吗，还可以；一坐下就八圈，我受不了。",
+      "output_sha256": "235076ec71d2932dd7d74cc0b6c38ea62af01605223f3094a053a4f63904b190",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "235076ec71d2932dd7d74cc0b6c38ea62af01605223f3094a053a4f63904b190",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "况且十几张牌，咱得把它们摆成五行，连这么办还有时把该留着的打出去。",
+      "output_sha256": "4d713b46df9b7c5b7c6c235eb13e7ffcece4cbc632e489f7f2c41c35b8a18110",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "4d713b46df9b7c5b7c6c235eb13e7ffcece4cbc632e489f7f2c41c35b8a18110",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "在我，这是消遣，慢慢的调动，考虑，点头，迟疑，原无不可；可是别人受得了吗。",
+      "output_sha256": "a3ee1f73247ba0ae82e4034835f261485b6ebfa28a7dea9bd16c825db325af25",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "a3ee1f73247ba0ae82e4034835f261485b6ebfa28a7dea9bd16c825db325af25",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "不如少一事，免得招人厌。",
+      "output_sha256": "d9ca6dc826153bd898c949a7b37abb9d77ae88a2dea0e4b7d9259badae839388",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.515158,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "d0e9d39c6002faf0369e051e1d9b5c45d486dedc46612dd44e76a747c40b0d32"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "d9ca6dc826153bd898c949a7b37abb9d77ae88a2dea0e4b7d9259badae839388",
+      "ai_unit_sentence_indices": [
+        64
+      ]
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "您说青岛这个地方，除了这些玩耍，还有什么可干的？",
+      "output_sha256": "30294709b113b2691a8896b55ee08cc7e9354adb38b55330458e8bb6bddd574a",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "30294709b113b2691a8896b55ee08cc7e9354adb38b55330458e8bb6bddd574a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "坦白说，我几乎与青岛没有关系，尽管我住在这里。",
+      "output_sha256": "6909369625fe9d1996e2fd7dac9913d6c0b98125dfce3acf748c0f37c47fba8d",
+      "alignment_unit_index": 63,
+      "alignment_score": 0.449882,
+      "human_sentence_indices": [
+        65
+      ],
+      "human_sha256": [
+        "5645d0e947e5b8a67994094b5791bb4633fb0d4730eeb5c9f348ebbd28519fae"
+      ],
+      "source_ai_sentence_index": 66,
+      "source_ai_sha256": "6909369625fe9d1996e2fd7dac9913d6c0b98125dfce3acf748c0f37c47fba8d",
+      "ai_unit_sentence_indices": [
+        66
+      ]
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "有钱的人来青岛，好。",
+      "output_sha256": "fb390d2af82eb1b855a5f59dc158906018140696bfbef068818526046b251ca9",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "fb390d2af82eb1b855a5f59dc158906018140696bfbef068818526046b251ca9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "上青岛来结婚，妙。",
+      "output_sha256": "16a537a7a136337af0b0697ac50ba42939eaa0a337452416244b870ef7f61916",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "16a537a7a136337af0b0697ac50ba42939eaa0a337452416244b870ef7f61916",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "爱玩的人来青岛，行。",
+      "output_sha256": "bb9dcdd335949fae4d032b4ea6b49d85be0593f06cbf13f3e97cc8d86a14a0a5",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "bb9dcdd335949fae4d032b4ea6b49d85be0593f06cbf13f3e97cc8d86a14a0a5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "对我而言，这里不过是一片美丽的沙漠。",
+      "output_sha256": "db5546b1ce66ff1a25f07f3f64b94b7abfdc33794de653deabf516301701a92e",
+      "alignment_unit_index": 65,
+      "alignment_score": 0.5375,
+      "human_sentence_indices": [
+        69
+      ],
+      "human_sha256": [
+        "1b089ca3d9572005477c0fdfee9d08119daf83072e9f4242761d80662bfc313d"
+      ],
+      "source_ai_sentence_index": 68,
+      "source_ai_sha256": "db5546b1ce66ff1a25f07f3f64b94b7abfdc33794de653deabf516301701a92e",
+      "ai_unit_sentence_indices": [
+        68
+      ]
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "对，有一件事我做还合适，而且很时行。",
+      "output_sha256": "cbf009853410d6e32afef615584276e9562a7c566ee8d8f80317e267e5c8bbfb",
+      "alignment_unit_index": 66,
+      "alignment_score": null,
+      "source_human_sentence_index": 70,
+      "source_human_sha256": "cbf009853410d6e32afef615584276e9562a7c566ee8d8f80317e267e5c8bbfb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 73,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "娶个姨太太。",
+      "output_sha256": "87f424125a1b8c4c8d90ef119accdd7a46c2a20487c427844452313b0edc26f4",
+      "alignment_unit_index": 67,
+      "alignment_score": null,
+      "source_human_sentence_index": 71,
+      "source_human_sha256": "87f424125a1b8c4c8d90ef119accdd7a46c2a20487c427844452313b0edc26f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 74,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "是的，我得娶个姨太太。",
+      "output_sha256": "b64b5cee467cd690063402a07d051c22003966baadcd20a49e5d6d44367b9484",
+      "alignment_unit_index": 68,
+      "alignment_score": null,
+      "source_human_sentence_index": 72,
+      "source_human_sha256": "b64b5cee467cd690063402a07d051c22003966baadcd20a49e5d6d44367b9484",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 75,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "又体面，又好玩。",
+      "output_sha256": "23facac15691f1c833b315515a4bf8479ded1f426d7711520ba64bb9d021fd7e",
+      "alignment_unit_index": 69,
+      "alignment_score": null,
+      "source_human_sentence_index": 73,
+      "source_human_sha256": "23facac15691f1c833b315515a4bf8479ded1f426d7711520ba64bb9d021fd7e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 76,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "对，就这么办啦。",
+      "output_sha256": "7c9b625053a08b3731bc68302b81ba1287d5615d1fcee792daab5d92709f6b71",
+      "alignment_unit_index": 70,
+      "alignment_score": null,
+      "source_human_sentence_index": 74,
+      "source_human_sha256": "7c9b625053a08b3731bc68302b81ba1287d5615d1fcee792daab5d92709f6b71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 77,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "我先别和太太商量，而暗中储蓄俩钱儿。",
+      "output_sha256": "c61fa7d107a4a701f76c7331633df485f13a71a3ffefebbd329e72a1fdd27475",
+      "alignment_unit_index": 71,
+      "alignment_score": null,
+      "source_human_sentence_index": 75,
+      "source_human_sha256": "c61fa7d107a4a701f76c7331633df485f13a71a3ffefebbd329e72a1fdd27475",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 78,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "等到娶了姨太太之后，也许我便唱得比鸭子好听，打牌也有了忍力……您等我的喜信吧！",
+      "output_sha256": "52a1490e3a29341fd92214ca1b3fca0cd4319b37a0d7317831b3929ee50465cc",
+      "alignment_unit_index": 72,
+      "alignment_score": null,
+      "source_human_sentence_index": 76,
+      "source_human_sha256": "52a1490e3a29341fd92214ca1b3fca0cd4319b37a0d7317831b3929ee50465cc",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

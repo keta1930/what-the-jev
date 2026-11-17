@@ -1,0 +1,939 @@
+{
+  "source_id": "ZH074",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "8f41ba511ba416579a0983ff4d10f93735971e8274566b241f6e285552cb909c",
+  "ai_article_sha256": "1aca4e09bc87098b7c05f1b2c7da5ff86229bcfa90175f51a854537820678d46",
+  "mixed_article_sha256": "de97f7882eee8337eb72b61d5912f0496269697f170347edc8b731f3294ba3f2",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 60,
+  "alignment_unit_count": 57,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 62,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.33871,
+  "selected_alignment_score_min": 0.398834,
+  "selected_alignment_score_median": 0.520638,
+  "selected_alignment_score_max": 0.767645,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "圣经和贤者都教导我们要谨言慎行，生怕因言语而招致祸端。",
+      "output_sha256": "a1edaab957a4f466c939bb2bea3a6525350b2b5ebc4923ca1e9f86acd3bebe2b",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.562693,
+      "human_sentence_indices": [
+        1,
+        2
+      ],
+      "human_sha256": [
+        "3f9d5834b34c6bc4de410df17bfd877cbe0294b8a0ac00d9016034d4b8c32880",
+        "72ecbc5a699295744ac5f0b0e5a94c75e942a0ba003f01659111172fba1ea135"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "a1edaab957a4f466c939bb2bea3a6525350b2b5ebc4923ca1e9f86acd3bebe2b",
+      "ai_unit_sentence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "记得金人铭开头提到“古之慎言人也，戒之哉！",
+      "output_sha256": "d5331bc669f34f160ceb14685fc6e7aeb8076bd0e4ad3dce532c2c8ad814cf2f",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.562693,
+      "human_sentence_indices": [
+        1,
+        2
+      ],
+      "human_sha256": [
+        "3f9d5834b34c6bc4de410df17bfd877cbe0294b8a0ac00d9016034d4b8c32880",
+        "72ecbc5a699295744ac5f0b0e5a94c75e942a0ba003f01659111172fba1ea135"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "d5331bc669f34f160ceb14685fc6e7aeb8076bd0e4ad3dce532c2c8ad814cf2f",
+      "ai_unit_sentence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "戒之哉！",
+      "output_sha256": "72ecbc5a699295744ac5f0b0e5a94c75e942a0ba003f01659111172fba1ea135",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "72ecbc5a699295744ac5f0b0e5a94c75e942a0ba003f01659111172fba1ea135",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "无多言！",
+      "output_sha256": "3ae96dfc6f17e998aee9f33fe9b1fa76b512c33fb42491cf2f11ad6b39897094",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "3ae96dfc6f17e998aee9f33fe9b1fa76b512c33fb42491cf2f11ad6b39897094",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "多言多败。”",
+      "output_sha256": "132d106412ad07c224fbd4735774187cf0dc7dc2af3306ed636e9a9b839fcdb8",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "132d106412ad07c224fbd4735774187cf0dc7dc2af3306ed636e9a9b839fcdb8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "岂不森森然有点可怕的样子。",
+      "output_sha256": "92d1a4684d1df1e7ab66c5cbc5bb3b0d8090d6b9bc51fabd672dcd960faefba5",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "92d1a4684d1df1e7ab66c5cbc5bb3b0d8090d6b9bc51fabd672dcd960faefba5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "此外，言语过多即便不招惹是非，也只会混淆视听，绝非好事。",
+      "output_sha256": "dda51f24fa7ce3c5200e3670b920e11b0b644cd0c4fd735c4fe0d43fdc62a53e",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.398834,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "f84317f8415a226237efb324b12154fd347b4a3b1bf266d05344f0182484552f"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "dda51f24fa7ce3c5200e3670b920e11b0b644cd0c4fd735c4fe0d43fdc62a53e",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "所以孔子称“仁者其言也”，又说“恶夫佞者”。",
+      "output_sha256": "a6b68b52089ed93329fa13e9d6a241f2200eebad5db1ca3dfa46f4741383a45e",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "a6b68b52089ed93329fa13e9d6a241f2200eebad5db1ca3dfa46f4741383a45e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "苏秦张仪之流以及后世小说里所谓“掉三寸不烂之舌”的辩士，在正统派看来，也许比佞者更下一等。",
+      "output_sha256": "1d7ffbf499a2d52994a21e14308dbe6807032c478b462b5da1c235550e0b2b0e",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "1d7ffbf499a2d52994a21e14308dbe6807032c478b462b5da1c235550e0b2b0e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "所以“沉默寡言”“寡言笑”，简直就成了我们的美德。",
+      "output_sha256": "0ffd351ac41e3553b17ade956dcb396d95e28c1af97846a5de586adbc8cfaa45",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "0ffd351ac41e3553b17ade956dcb396d95e28c1af97846a5de586adbc8cfaa45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "圣贤的话自然有道理，但也不可一概而论。",
+      "output_sha256": "6503764c28965c69afbe0e2bedf2f3dd9ac6b5a22353c4bb001928cde35e4ba1",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "6503764c28965c69afbe0e2bedf2f3dd9ac6b5a22353c4bb001928cde35e4ba1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "如果你身处高位，言语的一字一句都能影响全局，那么少说话，多点头便是明智之举。",
+      "output_sha256": "47294ad3047f07aeee056caab32a01bc5ae75f31205933568a8dd25635d7da12",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.561584,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "087998231a34e58dc749cff9b7289c6be13c3fef381bc7244367293a451440d7"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "47294ad3047f07aeee056caab32a01bc5ae75f31205933568a8dd25635d7da12",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "可是反过来，你如去见身居高位的人，那可就没有准儿。",
+      "output_sha256": "c99881ceb8e84b9da57e24bf08ce3a874d152255d9863c259a71ce828143a464",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "c99881ceb8e84b9da57e24bf08ce3a874d152255d9863c259a71ce828143a464",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "几年前，南京有一位擅长交谈的人与一位沉默寡言的人都担任了不小的官职。",
+      "output_sha256": "1efe8cd3bf615632df476e45f66f48e9905a0151638eedb0a9ac1232179b0629",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.520638,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "7cec75b48006e65d87152d4cea1ad0c923ed6dd2cc5ffc9199961a7fca1627bf"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "1efe8cd3bf615632df476e45f66f48e9905a0151638eedb0a9ac1232179b0629",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "许多人踌躇起来，还是说话好呢？",
+      "output_sha256": "f1d2e08ed28aedbc6f53954fa176b89098f1e2e49af943c2162944d736f4b298",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "f1d2e08ed28aedbc6f53954fa176b89098f1e2e49af943c2162944d736f4b298",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "还是不说话好呢？",
+      "output_sha256": "ef98aee306ea02dbd38eafd64fe503637ebe42b29f64d94cf3b738128b12e7e7",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "ef98aee306ea02dbd38eafd64fe503637ebe42b29f64d94cf3b738128b12e7e7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这是要看情形的：有些人喜欢说话的人，有些人不。",
+      "output_sha256": "c40aa714d7cc8ac90b903d961346893a66e189905fdb6295cde0c7f01999b2ad",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "c40aa714d7cc8ac90b903d961346893a66e189905fdb6295cde0c7f01999b2ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "有些事必得会说话的人去干，譬如宣传员；有些事必得少说话的人去干，譬如机要秘书。",
+      "output_sha256": "dba3403adbb1639926c45a6820686b4a68b45361729562f9cacad714d790bf71",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "dba3403adbb1639926c45a6820686b4a68b45361729562f9cacad714d790bf71",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "至于我们这些普通人，在拜访、接待和聚会时，若一味坚持少说话，虽然符合圣贤的教诲，却未必能赢得他人的赞许。",
+      "output_sha256": "9c317b9121a92aa976d2c32539eed39d15496fd78ced1bae7194022a0dfaeeab",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.494777,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "401513e5dfcfc6c3d7aaa27eddd4ba78f2532a89a8c713aa1f71b511be67bd28"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "9c317b9121a92aa976d2c32539eed39d15496fd78ced1bae7194022a0dfaeeab",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "若是老朋友，彼此心照不宣，倒也无妨；但如果是陌生人或半生不熟的人，情况就会有所不同。",
+      "output_sha256": "5cb262b1255c5f21bfbc2f367800e7457fdc7391b5b70fe5f243750882f24370",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.493099,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "a99b122fd2c019e4a3048ddb982a1d26e79623d68e8a252db33526c985a53ca4"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "5cb262b1255c5f21bfbc2f367800e7457fdc7391b5b70fe5f243750882f24370",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他也许觉得你神秘，仿佛天上眨眼的星星；也许觉得你老实，所谓“仁者其言也”；也许觉得你懒，不愿意卖力气；也许觉得你利害，专等着别人的话（我们家乡称这种人为“等口”）；也许觉得你冷淡，不容易亲近；也许觉得你骄傲，看不起他，甚至讨厌他。",
+      "output_sha256": "879fa2232c4d23378c903ee675a074f7c8f74cc39998549313e0eb220c527e20",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "879fa2232c4d23378c903ee675a074f7c8f74cc39998549313e0eb220c527e20",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "这种判断自然受你与他之间关系的影响，还有你的外貌和气质，而不单单是因为你少说话。",
+      "output_sha256": "35dc5667363f2540b160239b21a0684c0085808757bff7ef7e8c95c8a9c82e9b",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.442672,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "623b074a2477780e8fe785c0481f4909cfd1d1da2bb303582a76d17a01ac962a"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "35dc5667363f2540b160239b21a0684c0085808757bff7ef7e8c95c8a9c82e9b",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这么着，他对你当然敬而远之，或不敬而远之。",
+      "output_sha256": "d039bd7599e5211a9ccf18741415341eef9abb825d948440f9f6364fba4814ee",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "d039bd7599e5211a9ccf18741415341eef9abb825d948440f9f6364fba4814ee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "若你真的如他所想，那就算是“求仁得仁”；如果不是，那么就未免冤屈了。",
+      "output_sha256": "23c0d72197e513021a4f2b42bbe88b5e8ed4991c973896a0cf1bfc8654038458",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.592857,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "5c1cd6177d154e86fc927687cd0d58cc03cfc4568044ccbda2a280a23e050fc0"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "23c0d72197e513021a4f2b42bbe88b5e8ed4991c973896a0cf1bfc8654038458",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "民国十六年的时候，北平有人到汉口去回来，一个同事问他汉口怎么样。",
+      "output_sha256": "a78d272dc6b61e3cfbc414f8ebe3f3d9638aac5f7565b2922dab8fdd945459a1",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "a78d272dc6b61e3cfbc414f8ebe3f3d9638aac5f7565b2922dab8fdd945459a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他说，“很好哇，没有什么。”",
+      "output_sha256": "24bc035ae54ce4b92c7268a490dfbb9e388d12c69c71e6d565de61f3dbbf5c05",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "24bc035ae54ce4b92c7268a490dfbb9e388d12c69c71e6d565de61f3dbbf5c05",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "话说完，那位同事只能点头离开。",
+      "output_sha256": "8837ba2d2edb8e77566d8371357735969476829b9c08cd90f8845c6b27df03c3",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.59119,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "08f2c8db8550a97498f9e9f9f4a8b7d4be1ec6de011cc38c4532142dc17db8b3"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "8837ba2d2edb8e77566d8371357735969476829b9c08cd90f8845c6b27df03c3",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他满想知道一点汉口的实在情形，但是什么也没有得着；失望之馀，很觉得人家是瞧不起他哪。",
+      "output_sha256": "474722c5adaa577e99e609e6627770e89677876e79dc24f6fe033dce45824135",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "474722c5adaa577e99e609e6627770e89677876e79dc24f6fe033dce45824135",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "但是女人少说话，却当别论；因为一般女人总比男人害臊，一害臊自然说不出什么了。",
+      "output_sha256": "129c6e3caaf926ab5c356b3da90496918c6a3a380e534f4638a5a19f97b8f143",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "129c6e3caaf926ab5c356b3da90496918c6a3a380e534f4638a5a19f97b8f143",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "再说，传统的压迫也太利害；你想男人好说话，还不算好男人，女人好说话还了得！",
+      "output_sha256": "2fd50b444de1cd928117d9c334522c45ca0dd450145e981e20811d12294a0f57",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "2fd50b444de1cd928117d9c334522c45ca0dd450145e981e20811d12294a0f57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "（王熙凤算是会说话的，可是在《红楼梦》里，她并不算是个好女人）可是现在若有会说话的女人，特别是压倒男人的会说话的女人，恭维的人就一定多；因为西方动的文明已经取东方静的文明而代之，“沉默寡言”虽有时还用得着，但是究竟不如“议论风生”的难能可贵了。",
+      "output_sha256": "bd81e19515c6c7cdde40ef7d56f752c2f009737d8c7c14874dee82f26ac1e546",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "bd81e19515c6c7cdde40ef7d56f752c2f009737d8c7c14874dee82f26ac1e546",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "说起“议论风生”，在传统里原来也是褒辞。",
+      "output_sha256": "3a599f80929aec2846025b532cea3ea246baabd4fd8b1e9d537ce97e07216f7c",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "3a599f80929aec2846025b532cea3ea246baabd4fd8b1e9d537ce97e07216f7c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "不过只是美才，而不是美德；若是以德论，这个怕也不足重轻罢。",
+      "output_sha256": "5ad5b989e6162f4f1608513b65e0c5fbdff35e712c590cff127cef892f80a983",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "5ad5b989e6162f4f1608513b65e0c5fbdff35e712c590cff127cef892f80a983",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "如今人们依然视其为美才，只是愈加看重罢了。",
+      "output_sha256": "d648b0718d11f5c8e6689b4bdd865bba321fa949caeed9ec14c8b3c80b1e3aca",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.441746,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "e5d5d8d63e79a559ea97d02bc8fd1d349740dc1a388fc38a85a817a5fb93177e"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "d648b0718d11f5c8e6689b4bdd865bba321fa949caeed9ec14c8b3c80b1e3aca",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“议论风生”并不只是口才好；得有材料，有见识，有机智才成口才不过机智，那是不够的。",
+      "output_sha256": "4e6917734538273d00a16a2da642653945f36f2fdab4660514feacef9706bb94",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "4e6917734538273d00a16a2da642653945f36f2fdab4660514feacef9706bb94",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "光有机智是不够的，这并非易事；我们普通人所能做到的，便是在日常场合中多说几句话，不要让气氛变得冷淡。",
+      "output_sha256": "61c2f5580a39fad1b5c5d0bcefd82543feabc0d9945fe749afe379ace4b4f814",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.464048,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "84a8937a35582c6353e0ca045b620b062213b9e53092dda83fccad1b21c4af6e"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "61c2f5580a39fad1b5c5d0bcefd82543feabc0d9945fe749afe379ace4b4f814",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "许多人喝下酒时生气时爱说话，但那是往往多谬误的。",
+      "output_sha256": "88f0d00b3916ff60f4d6bff3bc9c83c47b60e997c360eb3727524e3796c8094d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "88f0d00b3916ff60f4d6bff3bc9c83c47b60e997c360eb3727524e3796c8094d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "说话有两种方式，一种是游击式，另一种是包围式。",
+      "output_sha256": "cd944a20cdff993f72f7cd959037c0a226892d707e2ff9c98e038385d803a8fe",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.657727,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "b35c554b5d7f1371931f669e038c238b4730d02fcdcac973ef15a0f78d65257c"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "cd944a20cdff993f72f7cd959037c0a226892d707e2ff9c98e038385d803a8fe",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "曾经我去拜访两位刚从欧洲回来的先生，他们都谈了不少话。",
+      "output_sha256": "6bc11eda603af41c07baa7123c3c2360070e30efc1ab335c6cdf6f0d3bf5c557",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.489908,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "8d7a687da08144b9ac5cff84ee6ff0ffbc9e6bb3620d2c482cd44b3a9c3d6b71"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "6bc11eda603af41c07baa7123c3c2360070e30efc1ab335c6cdf6f0d3bf5c557",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "甲先生从客人的话里选择题目，每个题目说不上几句话就牵引到别的上去。",
+      "output_sha256": "146c9e18934948e507ce918c129b93302ef0d8cbac32f7171882291a9b8657c2",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "146c9e18934948e507ce918c129b93302ef0d8cbac32f7171882291a9b8657c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "当时觉得也还有趣，过后却什么也想不出。",
+      "output_sha256": "bba4497c0e95e78ed44f4fb73af41be90f5d1ac72e8243405277d10ec4e64ee9",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "bba4497c0e95e78ed44f4fb73af41be90f5d1ac72e8243405277d10ec4e64ee9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "乙先生也从客人的话里选题目，可是他却粘在一个题目上，只叙说在欧洲的情形。",
+      "output_sha256": "fbea6b60f10e103730742aa77376153647fcb1bbe07ee530f311d141a735e1a5",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "fbea6b60f10e103730742aa77376153647fcb1bbe07ee530f311d141a735e1a5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他并不用什么机智，可是说得很切实，让客人觉着有所得而去。",
+      "output_sha256": "1d56811257feb2d12937926eb108f73d755b9db27953bd19a4f6e055152d5aab",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "1d56811257feb2d12937926eb108f73d755b9db27953bd19a4f6e055152d5aab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这样的热情，让客人在言语和心里都表示感激。",
+      "output_sha256": "e4181e976a412daed8c7450b0e5ed105f754495c12216f412fa8b9d9ffe87f92",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.447778,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "d7893109facafd14d4cc1e4ffbf864b42997ab036df4cb4a85b536a75b62f12f"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "e4181e976a412daed8c7450b0e5ed105f754495c12216f412fa8b9d9ffe87f92",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "普通说话大概都用游击式；包围式组织最难，多人不能够，也不愿意去尝试。",
+      "output_sha256": "de05c69a133ec010d840fcbed6693d24a12c2607eef955bc5f229a0aff1d1ac8",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "de05c69a133ec010d840fcbed6693d24a12c2607eef955bc5f229a0aff1d1ac8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "再说游击式可发可收，爱听就多说些，不爱听就少说些；我们这些人许犯贫嘴到底还不至于的。",
+      "output_sha256": "aa62604f726493df386e97451620538a17e4324772cc689eed8e36484006b35c",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "aa62604f726493df386e97451620538a17e4324772cc689eed8e36484006b35c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "如果像“哑妻”那样，只是埋怨，实际上几乎不会发生。",
+      "output_sha256": "2c54b5d14a20d4fa2057af0f0adde442513675f9c6c79f3561011d01b17e9718",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.436753,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "2f92cef40f5dd4c42e535095e0193272890cb081986ff1f24d29cd09bca69b26"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "2c54b5d14a20d4fa2057af0f0adde442513675f9c6c79f3561011d01b17e9718",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "倒是有像老太太的，一句话重三倒四地说，也不管人家耳朵里长茧不长。",
+      "output_sha256": "2af416ed9bae4bb94ad61f6b126137244144a3145c77c869bd9a6729a63c4ef7",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "2af416ed9bae4bb94ad61f6b126137244144a3145c77c869bd9a6729a63c4ef7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这一层面最难，因为你需要记住那些在不同人面前说过的话，才能避免重复。",
+      "output_sha256": "27e3d2d9182e849412baa464a4cd7a17cab5c4856eeaa59720c593ce0e8c0073",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.545171,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "4ff8367a70fbcd34786655a13d124b4a4da94cd71717b2c5d372da44324cbd5e"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "27e3d2d9182e849412baa464a4cd7a17cab5c4856eeaa59720c593ce0e8c0073",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "有时候最尴尬的是，你刚开口，人家就客气地问：“啊，后来是不是怎样怎样的？”",
+      "output_sha256": "04c7ffa91c38fa055049353f29b47de627d2c84af6b088f428144fb12cc7ca0e",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.767645,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "8dd6945f77ba47f104431d8625afb1f833430d09bf64a3e8e459dd9367c64dc8"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "04c7ffa91c38fa055049353f29b47de627d2c84af6b088f428144fb12cc7ca0e",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "包围式可麻烦得多。",
+      "output_sha256": "fe6d073cc9418b1baf53728a0d93b5438d4226ad6525ed1fcac0588e19ecba17",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "fe6d073cc9418b1baf53728a0d93b5438d4226ad6525ed1fcac0588e19ecba17",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "最麻烦的是人多的时候，说得半半拉拉的，大家或者交头接耳说他们自己的私话，或者打盹儿，或者东看看西看看，轻轻敲着指头想别的，或者勉强打起精神对付着你。",
+      "output_sha256": "c85672b0883ffbea5431d566847b37c901f0881b9e6bddf4983be16081d87151",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "c85672b0883ffbea5431d566847b37c901f0881b9e6bddf4983be16081d87151",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这时，你独占全场，若继续讲下去显得无聊，不说又无法收场，真是骑虎难下。",
+      "output_sha256": "1ad468e3055d9f0eb3392c887a3ed3e35c57814d5e2dc35114c2748d4bca6543",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.538122,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "b13c415fa0fb10bad7bc3ca8b39141aa0189babbf82846e6d81c386fe45adbfc"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "1ad468e3055d9f0eb3392c887a3ed3e35c57814d5e2dc35114c2748d4bca6543",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "大概这种说话，人越多，时候越不宜长；各人的趣味不同，决不能老听你的换题目另说倒成。",
+      "output_sha256": "f2c01eee994cd101335ee4ac13816272708d50fcfd681de6086b86987ee0ccef",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "f2c01eee994cd101335ee4ac13816272708d50fcfd681de6086b86987ee0ccef",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "说得也不宜太慢，太慢了怎么也显得长。",
+      "output_sha256": "6f206eb68f33228cf9add64b4840b2cb484386b4526469173a09fb9758c89199",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "6f206eb68f33228cf9add64b4840b2cb484386b4526469173a09fb9758c89199",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "曾经听过两位著名会说话的人说故事，大约因为唤起注意的缘故罢，加了好些个助词，慢慢地叙过去，足有十多分钟，算是完了；大家虽不至疲倦，却已暗中着急。",
+      "output_sha256": "02b71dec509874ca3e55b13f386dffadfe80b505fd396dea37e516f4260ec038",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "02b71dec509874ca3e55b13f386dffadfe80b505fd396dea37e516f4260ec038",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "声音也不宜太平，太平了就单调；但又丝毫不能做作。",
+      "output_sha256": "93c7551fa8c73c28aabca8914be63365eefdf535a966adf4542dcc6f431c94de",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "93c7551fa8c73c28aabca8914be63365eefdf535a966adf4542dcc6f431c94de",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这样的谈话只适合叙述或申述，不能夹杂教导或劝导的口吻。",
+      "output_sha256": "9e32fe7a5c05a42adb0e6a3e00fe848aa9cb37fef430a2ed7e4d1a896dc5a69f",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.498904,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "68f53ace4f671bd3dbf39678fa402638ef4d45915e06836a4a2825eb178793e1"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "9e32fe7a5c05a42adb0e6a3e00fe848aa9cb37fef430a2ed7e4d1a896dc5a69f",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "长于演说的人往往免不了这两种气味。",
+      "output_sha256": "5fe22acfc9dcc9a76bdd167713e103fc4ed964c44fe87a49c9a853c55842908f",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "5fe22acfc9dcc9a76bdd167713e103fc4ed964c44fe87a49c9a853c55842908f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "有位朋友曾说某位先生口才太好，令人心生戒备，正是这个意思。",
+      "output_sha256": "d15ab51e281ff524f7332a08558188dda07b6891b55b82041d8c493606a0d865",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.624202,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "8c28821cf7fd46438b221592933151cbfbef383b798f1f48f131ac0f57d06d9a"
+      ],
+      "source_ai_sentence_index": 58,
+      "source_ai_sha256": "d15ab51e281ff524f7332a08558188dda07b6891b55b82041d8c493606a0d865",
+      "ai_unit_sentence_indices": [
+        58
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "所以包围式说话要靠天才，我们平人只能学学游击式，至多规模较大而已。",
+      "output_sha256": "d5bbb1ffa5d81e257b7776b567903b82c1e17a4900d9bad23fea58e17151e661",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "d5bbb1ffa5d81e257b7776b567903b82c1e17a4900d9bad23fea58e17151e661",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我们在普通情形之下，只不要像林之孝家两口子“一锥子扎不出话来”，也就行了。",
+      "output_sha256": "79c9c13d756e34a33f0ee0a215a4ac80b55d93f266484f2ed64ac1ca9316776d",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "79c9c13d756e34a33f0ee0a215a4ac80b55d93f266484f2ed64ac1ca9316776d",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "source_id": "ZH019",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "18d34244445db1b5d65da957b81e21dd6d319b5fdedbb744deb52fe030025b99",
+  "ai_article_sha256": "e9ecb62ab3c66d5a0abf4074a8e330790ee6af9dd034cde0f755367c42a7f2f7",
+  "mixed_article_sha256": "e045305745a54f3941dc5ea59aa5f099fb23feded0412e85661d712551cbc41e",
+  "human_source_sentence_count": 34,
+  "ai_source_sentence_count": 39,
+  "alignment_unit_count": 34,
+  "selected_alignment_unit_count": 11,
+  "mixed_sentence_count": 35,
+  "selected_ai_sentence_count": 12,
+  "actual_ai_sentence_ratio": 0.342857,
+  "selected_alignment_score_min": 0.416647,
+  "selected_alignment_score_median": 0.628796,
+  "selected_alignment_score_max": 0.683186,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "人们常常提到，老年人喜欢追忆往昔，既然如此，显然有其道理。",
+      "output_sha256": "f98069f9ac286e0c0ae79729c046c44981bc9b3dc3c2e547c3ef59bd1eb25527",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.416647,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "9485b461502391ff1f3d87f47857a02f629ad456d4be3e96edb7fbe57d60e716"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "f98069f9ac286e0c0ae79729c046c44981bc9b3dc3c2e547c3ef59bd1eb25527",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "可是在我个人说来，却未必真是如此。",
+      "output_sha256": "c4953b8944b4af976ce62e344dd0bb49dca944d6a4f3435b6fada2fb8caded44",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "c4953b8944b4af976ce62e344dd0bb49dca944d6a4f3435b6fada2fb8caded44",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我回顾过去的六十多年，正是中国多灾多难的时节，单举出荦荦大者来说，前清甲申（一八八四）的中法之战，甲午（一八九四）的中日之战，接着是庚子（一九〇〇）的义和团事件，吃了帝国主义者很大的亏。",
+      "output_sha256": "08d0beea1def54e4a7a6b0e922723322d7ab6801873a222cc1dd6a8cb4a0eb4e",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "08d0beea1def54e4a7a6b0e922723322d7ab6801873a222cc1dd6a8cb4a0eb4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "国内的局势也不太平，辛亥（1911年）革命后的动荡以及洪宪帝制的出现，北洋政府的权力争夺，导致张勋复辟和一系列皖直奉直的战争，都是在北京地区展开的。",
+      "output_sha256": "557f27f5bff7575efb41431186c8be422a49e948a3101f9149a0e09b47fa3c10",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.498119,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "a48224f5bf3c837a15f23f5965fa7402bcc2d545119fd81283137b26babaaa1d"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "557f27f5bff7575efb41431186c8be422a49e948a3101f9149a0e09b47fa3c10",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "这些历史事件已经远去，现在三十岁以下的年轻人并未经历过，这无疑是他们的幸运，我们只能羡慕他们，并对自己那些不愉快的经历没有留恋之处。",
+      "output_sha256": "64c59bc5a438dfb7c795e9d53cd2bd9b75b549c87461da5c25775d5549a78fc5",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.558655,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "93b50d64ac647682423c9205d5f95a77efb06334a615433d6a1201ab01d8f91f"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "64c59bc5a438dfb7c795e9d53cd2bd9b75b549c87461da5c25775d5549a78fc5",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "不过从别方面来说，知道一点也并不是全无用处的，特别是对于没有经验过这些事情的青年们。",
+      "output_sha256": "1ef478a79ad4d0917e7ee657ae43fead178516ae4eab33206280f7d977f0f425",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "1ef478a79ad4d0917e7ee657ae43fead178516ae4eab33206280f7d977f0f425",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我于一九一七年来到北京，那洪宪的一幕已经过去，就我所知道的事情来说，只好从张勋的复辟说起了。",
+      "output_sha256": "d86f021bc006d4d6ab1acbc16f2aa5c963b93555567f9717e3afbdbf1a70ff8d",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "d86f021bc006d4d6ab1acbc16f2aa5c963b93555567f9717e3afbdbf1a70ff8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我于一九一七年即民国六年的四月来到北京，正是黎元洪当大总统，段祺瑞当国务总理，摩擦得很厉害的时候，各省的督军都同段是一气的，出来说话给他撑腰，由江苏的张勋和安徽的倪嗣冲为头，开了督军团会议，而且这班军阀逐渐由徐州来到天津，末了张勋终于带了他的辫子兵入驻北京了。",
+      "output_sha256": "35c62bb081b76421735ef119b520076d54f1e931c8a7f463506c7f130f2fb8f3",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "35c62bb081b76421735ef119b520076d54f1e931c8a7f463506c7f130f2fb8f3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "本来我们坐火车路过徐州，看见车站上拖了辫子扛着枪的兵便觉得恐怖，现在却开到北京来了，就驻扎在天坛里。",
+      "output_sha256": "3982cbb4b306440fcbae987cc6aefdd657f885fa992eb6d7f8d4b00463620942",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "3982cbb4b306440fcbae987cc6aefdd657f885fa992eb6d7f8d4b00463620942",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我那时是在北京大学附设的国史编纂处任事，有一天特地跑去找校长蔡孑民，问他对于时局的看法，他也不说好坏，只简单明了的回答，只要不复辟，他总是不走的。",
+      "output_sha256": "6737a408345283c68f867729c8ef5ca964d788eb1dc15ad1aa9242ca8ac4dd95",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "6737a408345283c68f867729c8ef5ca964d788eb1dc15ad1aa9242ca8ac4dd95",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "这话的预兆虽然不大好，但多少总给了我们一点安心。",
+      "output_sha256": "8c48a716a0f737090d96617f5af13e80cc2ed57894022f584f03e656253bdeb9",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "8c48a716a0f737090d96617f5af13e80cc2ed57894022f584f03e656253bdeb9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "记得这是在六月二十六日。",
+      "output_sha256": "4115056dcdb5af83b555d009249aee94872a0ea8d07abfda024b7c2175cb323a",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.644231,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "d46f28e1a829e7292dc11d428e010858455eba600a328a957854f55692ef4d12"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "4115056dcdb5af83b555d009249aee94872a0ea8d07abfda024b7c2175cb323a",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "七月一日是星期日，因为是夏天，鲁迅起来得相当的早，预备往琉璃厂去。",
+      "output_sha256": "84374d9c5f62268ad5cb0224e0143d2731ed183becbca291acf548a1c8212de0",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "84374d9c5f62268ad5cb0224e0143d2731ed183becbca291acf548a1c8212de0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "给我们做事的会馆长班的儿子进来说道，外边都挂了龙旗了。",
+      "output_sha256": "5e655da01579dce0f3941bc552a74e86c96c41427a7c649a4d98ec26c4b7bc5d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "5e655da01579dce0f3941bc552a74e86c96c41427a7c649a4d98ec26c4b7bc5d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这本来并不是意外的事，但听到了的时候大家感到满身的不愉快。",
+      "output_sha256": "4b7e200cdd72e434727a6d1b4ad9e3e8e3309c46712e683ada69a39251d28951",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "4b7e200cdd72e434727a6d1b4ad9e3e8e3309c46712e683ada69a39251d28951",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "虽然当时日记没有详细记录，但写到：“晚上喝酒大醉，吃醉鱼干，铭伯先生所送也。”",
+      "output_sha256": "ee9adf1fd7b6db622acd2ee029f0516cafcf9b9f099d054c7dee4ec5985430a1",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.671247,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "633035c8fad147eabd6bd20140b6edbd3b7e7a8a9923ae95bae7e08903d1a4d0"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "ee9adf1fd7b6db622acd2ee029f0516cafcf9b9f099d054c7dee4ec5985430a1",
+      "ai_unit_sentence_indices": [
+        20
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这里可以看见烦闷的情形。",
+      "output_sha256": "08b0df314dcf5e8da672c6931e3d850bd13ec7a0c7f937bfbde90377f78f6da7",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "08b0df314dcf5e8da672c6931e3d850bd13ec7a0c7f937bfbde90377f78f6da7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "鲁迅的一些教育界朋友起初打算避难，有的想南下，有的打算去天津，可是三四天之内军阀之间发生了分裂，段祺瑞在马厂誓师，看来复辟只是时间问题。",
+      "output_sha256": "5f27a6eff5c88cd011f96ea9a457b3ff431c3c7c4a0961b4dae6cac5f2511e5b",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.683186,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "7b5f402a7ca25500dae8d29c079e4d141c3347dd4c78f340d59aee26e024ba2c"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "5f27a6eff5c88cd011f96ea9a457b3ff431c3c7c4a0961b4dae6cac5f2511e5b",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "由于我们没有能力迁移，只能在北京静候。",
+      "output_sha256": "24d3abab966661386d6ef0573d2ef4fca6a738bc8d09818a5347d8f4c97c9347",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.683186,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "7b5f402a7ca25500dae8d29c079e4d141c3347dd4c78f340d59aee26e024ba2c"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "24d3abab966661386d6ef0573d2ef4fca6a738bc8d09818a5347d8f4c97c9347",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "段派李长泰的一师兵逐渐逼近北京，辫子兵并不接战，只向城里退，结果是集中在外城天坛和内城南河沿张勋的住宅附近一带。",
+      "output_sha256": "3a982ef151625c1d71ea88f74f44026130e39b47d395495ba7b58f69e41278d1",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "3a982ef151625c1d71ea88f74f44026130e39b47d395495ba7b58f69e41278d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "从六日起城内的人开始往来逃难，怕的不是巷战的波及，实在还是怕辫子兵的抢劫罢了。",
+      "output_sha256": "a17be9290293365afde3d44ffbee72dd87410d00ffd18b04fc51ff472d2c4b0b",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "a17be9290293365afde3d44ffbee72dd87410d00ffd18b04fc51ff472d2c4b0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我们于七日由会馆迁往东城，日记简单记录了几条如下：",
+      "output_sha256": "d8560013f449a4479e152d2590dd2521b7e7e15fb6c585303d5dfae697a433ea",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.60423,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "dd2ae34a54ca0f95ba9ca1d234bca03ba9d18e92f815736bb9c883816d04398d"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "d8560013f449a4479e152d2590dd2521b7e7e15fb6c585303d5dfae697a433ea",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“七日晴，上午有飞机掷弹于宫城。",
+      "output_sha256": "5e51c2b89a88a9b3b0085ba230cd548c0fdbd33ccc815b70c6514d2c8ba4cf9d",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "5e51c2b89a88a9b3b0085ba230cd548c0fdbd33ccc815b70c6514d2c8ba4cf9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "十二时同大哥移居崇文门内船板胡同新华饭店。”",
+      "output_sha256": "18921c8d1eb826e4990ce2a0a3ab5af488c4c10c2ebd126995a2c121608e1957",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "18921c8d1eb826e4990ce2a0a3ab5af488c4c10c2ebd126995a2c121608e1957",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "“九日阴，夜间店中有人警备，听到枪声。”",
+      "output_sha256": "10e9529ac703dca03fad5ee5819b592c0acf191639e0b61b0ba77d0f6c6612bd",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.662431,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "69f33e72c9f7754ee1c639b52210bab714d926d2020c51f7e99a3de6d6d9d2f8"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "10e9529ac703dca03fad5ee5819b592c0acf191639e0b61b0ba77d0f6c6612bd",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "“十二日晴，晨四时半闻枪炮声，下午二时顷止，闻天坛诸处皆下，复辟之事凡十一日而了矣。",
+      "output_sha256": "d7792ab74209830d96d71d1c4f2276f819dae2ed8003427938e32285ea68eafd",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "d7792ab74209830d96d71d1c4f2276f819dae2ed8003427938e32285ea68eafd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "晚上与大哥去义兴局吃饭，因为店中居留也算安全。”",
+      "output_sha256": "9e0d2b2a7297567a906c216078b23ac00c6fe451a84e0b938aec0fbe762f98dc",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.544273,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "96b3e0bf5798255ccb33239a7c1cfd1546f315b72150b2898d0df125182198f7"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "9e0d2b2a7297567a906c216078b23ac00c6fe451a84e0b938aec0fbe762f98dc",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "案义兴局系齐寿山君家所开的店铺，在东裱褙胡同。",
+      "output_sha256": "ff38376d1b7482198d02a267252aa0efb340482ad721c1fac047067087e9eab8",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "ff38376d1b7482198d02a267252aa0efb340482ad721c1fac047067087e9eab8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "鲁迅日记第六册同日所记可供比较参考：",
+      "output_sha256": "2c1ac11f96d90e7baa6ec16d4020e467e4f590a318ba2b132470accae70e4126",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "2c1ac11f96d90e7baa6ec16d4020e467e4f590a318ba2b132470accae70e4126",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "“十二日晴，晨四时半听到战声激烈，午后二时许平息，事情平静下来，但谣言四起。",
+      "output_sha256": "2871b077a42f39d05497830b1f5b04280359a2084e7544c3daa5c05e74c86585",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.613362,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "b85908e451b16ddbb9b7a752283cf458c4490c381409a1b1b4b2164b533d5e26"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "2871b077a42f39d05497830b1f5b04280359a2084e7544c3daa5c05e74c86585",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "觅食甚难，晚同王华祝，张仲苏及二弟住义兴局，觅齐寿山，得一餐。”",
+      "output_sha256": "c281db0cb3faef24b725c76779d76d596bbfa5d231152938b80742ff25bab03a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "c281db0cb3faef24b725c76779d76d596bbfa5d231152938b80742ff25bab03a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "至十四日，我们便从新华饭店搬回会馆。",
+      "output_sha256": "e3365e0d25aa360a70e91df2153bc878b7491b20dbbc707e61a5adc09ff1ff65",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.663235,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "73f10d1d25c8875315b818176e88dc467f80ab3f55bec319601f9c5539bd1380"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "e3365e0d25aa360a70e91df2153bc878b7491b20dbbc707e61a5adc09ff1ff65",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "那一天里枪炮声很是猛烈，足足放了十小时，但很奇怪的是，死伤却是意外的稀少，谣言传闻说都是朝天放的，死的若干人可能都是由于流弹。",
+      "output_sha256": "471337d909511b502df878c397e4674994c32efa37c055f16e0449dea56e9649",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "471337d909511b502df878c397e4674994c32efa37c055f16e0449dea56e9649",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "东安门三座门在未拆除之前，还留下一点战迹，在它的西面有些弹痕，乃是从南河沿的张公馆向着东南打过来的。",
+      "output_sha256": "79d76c8f368ed97edd5bed26bc12ca7a2e3296d39de07310acb5af16b39904e9",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "79d76c8f368ed97edd5bed26bc12ca7a2e3296d39de07310acb5af16b39904e9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "烧残的张公馆首先毁去，东安门近年也已拆去，于是这复辟一役的遗迹就什么都已看不到了。",
+      "output_sha256": "94d053532f22e0c1c3c5de2c4d24fec23aa5498e3ae0a8b9d2d9b5437b433131",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "94d053532f22e0c1c3c5de2c4d24fec23aa5498e3ae0a8b9d2d9b5437b433131",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

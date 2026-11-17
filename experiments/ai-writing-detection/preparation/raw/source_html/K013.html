@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>《老舍散文集》且讲私仇</title>
+    <meta name="keywords" content="老舍散文集,且讲私仇,老舍,可阅,可阅文学">
+    <meta name="description">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="23392">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <link rel="canonical" href="https://www.kepub.net/book/23392/10038">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/23392/10038">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/23392/10038">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首页</a></li>
+            <li><a href="javascript:" title="目录" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="评论"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手机阅读" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章阅读" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分页阅读" onclick="pageReader()"></a></li>
+            
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回顶部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">扫描二维码，用手机阅读</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">老舍散文集</span><span id="top_chaptername" style="float: right;">且讲私仇</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　这次抗战，我们出了许多大英雄，也出了不少的汉奸。用不着掩饰，在我们这以家族主义支撑着社会组织的老文化里，“因私可以废公”不仅时时的表现在行为上，而且是一个普遍心理，到处可以讲得通，这就无怪乎可以随机应变的作作汉奸了。试看今日的汉奸，小一点的呢，心口一致，你问他，他便指指肚子。肚子饿，没办法，虽也许是事实，但设若没有那个因私废公的心理打底子，大概他多少总会红一红脸的。至于那大号的汉奸呢，你若问他，他倒颇有些话等着你。他说：既不为钱，也不为地位，而是为出口气，——报复一下。私仇高于一切，有机会就得还砍一刀。他果然不为金钱和地位吗？谁也不敢相信。不过，既为私利，而又以“出口气”来掩饰一下，可就里外夹攻，双重的证明他是完全有私无公。<br><br>　　最可怕的倒还不是现有的这一批大小汉奸，而是这种汉奸心理的普遍。这个普遍的心理会教人虽不同情于汉奸，可也不便怨恨。这个，使汉奸就为所欲为，逍遥自在了。这个，再往坏处说一说，就是大家虽不肯轻易去作汉奸，可是满有作顺民的准备：对国事概不热心，万一敌人来到呢，就俯首投降。这可是真可怕！<br><br>　　好吧，针对着这种心理，我们暂且不用提“公”，而专就“私”的来说，看看日本是我们的仇敌不是。就拿我个人来说罢，当我实活了二年而号称三岁的时候，八国联军打进了北京城，我一家所在的地方划归日本管守。因为缺粮，小鬼子们挨家按户的搜寻可以吃的东西。名为搜粮，事实上可就是明抢，值得拿走的东西全毫不客气的拿了走。有一天，进来三名小鬼，我家的大黄狗一叫，马上挨了一刺刀，它流着血倒在我的母亲身旁。然后，他们三个到四处去找，看看有鸡没有；这才真是鸡犬不留啊！他们没找到鸡，便进了屋中，我正在炕上睡觉。炕上有两只破皮箱，他们不肯放过；打开箱子，一看没有任何值钱的东西，便把箱子扣在我的身上，想把我闷死，也多少解点气。幸而箱子太破，空气还可以流通，我算是没有窒死。是的，我和日本是有私仇的！<br><br>　　还以这回事来说，那年日本在北方杀了多少人，抢去多少东西，谁能计算得出呢？那么，他们并不是我一个人的仇敌了，为何大家不想和他们算账呢？有仇的报仇，有冤的报冤，不是我们所相信的公道办法吗？<br><br>　　不错，有的人不生长在平津，没有受过庚子年的苦处。可是请问，庚子赔款，我们赔给日本的是三千四百万多两银子，这一笔巨款出自谁的身上呢？还不是你我忍饥受冻的去赔上吗？夺去你我的金钱的还不就是你我的仇人吗？就是你生在云南、贵州，也逃不了这份债务呀！<br><br>　　况且，咱们的钱还不仅被夺过一回。你看，卅年来，我们打过多少次的内战，哪一次不是日本在背后捣鬼，借给军阀金钱，供给军火？单说九一八的参战借款吧，一下子就是一万万！这些钱都干什么用了？天知道！可是你我得还这笔债——这样的债还有许多笔呢！日本真狠，他借给咱们钱，教咱们自己彼此乱打：咱们死了不知多少人，伤害了不知多少东西，毁坏了不知多少买卖！所以，到而今咱们才这么穷，这么弱。<br><br>　　这还不算数，日本还抢咱们的土地呢。拿前六年的事来说吧，日本硬把我们的东三省抢去。抢去之后，把我们的宝物取出，把我们的人民杀死，而且不许咱们再到东北去谋生挣钱。这不就是与咱们为仇作对么？北方如是，南方也如是，一·二八在上海，日本毁坏了我们多少财产，杀死多少人民，而且硬在上海修起来最坚固的大炮台。想想看吧，日本侵占了咱们的土地就是不教咱们活着，赔款借款就是加了咱们的债务；此外，日本还用劣货吸收我们的金钱，用吗啡白面毒死我们的人民，用走私的方法挤倒我们的买卖。这还不够，他还时常抓个岔儿来炮轰我们的城池，屠杀我们的老百姓。你算算看吧，你的贫困是日本给造成的，你的亲戚朋友是被日本杀害死的。虽然你没被日本扣在箱子底下，可是也差不多了。<br><br>　　现在就更好了，日本居然由天津打到上海，论万的杀人，整个的屠城，难道咱们还是大气不出的等着吗？已经受了几十年的欺负，而今眼看着就打到你的门前，你还等着什么呢？假如你今天还不动手，你自己，你的父母妻子都保不住命。就是幸而没被杀头，你的子子孙孙也得变为奴隶；这还不是切身之痛么？所以，咱们先不必提国家大事，只提你我私事，为你我的自己，为你我的子孙，咱们都得报这个私仇。<br><br>　　咱们一向的错误是在不关心国事，不肯为国家出力，到而今可应当明白过来了：日本打中国就是打你我！没看见吗，现在到处是难民，到处煤米都涨了价，而且在天津，保定，上海，芜湖等处，房子烧完，买卖毁尽，都是谁闹的？还不是日本小鬼？保住国家，才能保住自己，这回事儿是公私分不开的！起来吧，同胞们！就是你始终不肯谈国事，为你自己你也得打个主意！你不杀他，他可杀你，日本鬼子并不讲什么情理！<br><br><p class="wt">原载1938年1月20、21日重庆《新民报·血潮》</p></div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/23392/10039">下一章</a></div>
+        <div class="pre_chapter"><a href="/book/23392/10037">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一页</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一页</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="49" data-goods-name="【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847245877995504313&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_1bb6b35a451a65fd4f0bd86465ca0175_sx_308839_www1000-1000"
+                         alt="【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】黄豆粉裹黄豆纯烘烤非油炸香酥可口追剧解馋休闲零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>60.88</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+                <li class="note_group_4">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目录</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li>
+                    <a href="/book/23392/10007">一些印象（四、五、六、七）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10008">非正式的公园（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10009">趵突泉的欣赏（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10010">赠拳师马永奎扇面题词</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10011">头一天</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10012">小麻雀</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10013">记涤洲</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10014">还想着它</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10015">哭白涤洲</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10016">小动物们</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10017">春风</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10018">小动物们（鸽）续</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10019">何容何许人也</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10020">青岛与山大</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10021">想北平</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10022">英国人</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10023">我的几个房东</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10024">东方学院</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10025">勿忘今日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10026">这几个月的生活</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10027">无题（因为没有故事）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10028">五月的青岛</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10029">善心</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10030">半汉奸</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10031">友来话北平</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10032">停薪留职</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10033">三个月来的济南</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10034">写家们联合起来！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10035">是的，抗到底！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10036">吊济南</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10037">事情要大家作</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/23392/10038">且讲私仇</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10039">不泄气真诠</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10040">此仇必报</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10041">到武汉后</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10042">我们携起手来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10043">快活得要飞了</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10044">入会誓词</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10045">新气象新气度新生活</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10046">记“文协”成立大会</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10047">打退儿童最大的仇人</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10048">一年来之文艺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10049">这一年的笔</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10050">别武汉</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10051">轰炸</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10052">关于“文协”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10053">“国宝”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10054">中华在“九一八”后</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10055">文武双全</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10056">且在生活上表现点爱国样子吧，哪怕是假的也可以！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10057">起来干，不作亡国奴的人们</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10058">本刊半年来的回顾</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10059">联合起来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10060">我为什么离开武汉</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10061">船上</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10062">在新都文化界纪念鲁迅先生逝世二周年大会上的演讲（摘要）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10063">血点</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10064">“一·二八”感言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10065">在成都</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10066">生日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10067">工作起来吧！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10068">“文协”与青年</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10069">努力，努力，再努力！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10070">怀友</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10071">儿童节感言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10072">“五四”之夜</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10073">以雪耻复仇的决心答复狂炸</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10074">血债</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10075">归自西北</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10076">向王礼锡先生遗像致敬</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10077">文艺成绩</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10078">独白</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10079">宗月大师</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10080">未成熟的谷粒</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10081">张自忠将军的战绩与殉国经过述略</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10082">去年今日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10083">希望与祝贺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10084">自述</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10085">自谴</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10086">敬悼许地山先生（一）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10087">我所认识的沫若先生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10088">参加郭沫若先生创作二十五年纪念会感言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10089">滇行短记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10090">敬悼许地山先生（二）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10091">悼赵玉三司机师</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10092">剧教</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10093">我呢？</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10094">成绩欠佳，收入更欠佳</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10095">哀莫大于心死</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10096">小报告一则</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10097">第一届诗人节</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10098">可爱的成都</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10099">青蓉略记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10100">述志</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10101">我的母亲</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10102">旧诗与贫血</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10103">贺中国艺术剧社首次公演</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10104">讣告</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10105">不要饿死剧作家</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10106">批评与偏见</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10107">四大皆空</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10108">大家都成为英雄吧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10109">听相声</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10110">新禧！新禧！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10111">一年之计在于春</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10112">过年</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10113">我有一个志愿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10114">生活自述</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10115">病（一）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10116">一点点认识</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10117">谈献金</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10118">段绳武先生逝世四周年</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10119">双十</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10120">给茅盾兄祝寿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10121">“七七”怀友</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10122">和平</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10123">在复旦大学“国父八十诞辰纪念晚会”上的讲演</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10124">建国的荣誉</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10125">我说</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10126">磕头了</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10128">旅美观感</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10129">由三藩市到天津</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10130">中苏同盟万岁</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10131">老姐姐们</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10132">在中国人民政治协商会议第一届全国委员会第二次会议上的发言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10133">写于一九五〇年十月一日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10134">从美国兵说起</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10135">元旦</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10136">周末游园</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10137">向相声小组道喜</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10138">介绍北京相声改进小组</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10139">北京的春节</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10140">我热爱新北京</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10141">美国的精神食粮</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10142">学习当先</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10143">我们在世界上抬起了头</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10144">万象更新</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10145">大地的女儿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10146">各尽其力，一致爱国</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10147">我羡慕你们</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10148">感谢共产党和毛主席</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10149">曲艺的新军</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10150">为人民写作最光荣</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10151">前进吧，中国的青年们！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10152">高高兴兴的活着</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10153">挑起新担子</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10154">认真检查自己的思想</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10155">爱国也有够吗</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10156">文艺作家也要增产节约</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10157">扑灭暗害志愿军的奸商</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10158">呸！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10159">人民会消灭疯狗毒蛇</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10160">王春同志千古</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10161">欢迎匈牙利国家人民文工团</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10162">看美国侵略者还怎么狡赖</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10163">毛主席给了我新的文艺生命</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10164">我们热诚地迎接这伟大的节日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10165">住在北京</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10166">和平与文艺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10167">在首都庆祝亚洲及太平洋区域和平会议闭幕大会上的讲话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10168">衷心的感谢</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10169">咱们今年都要拿起笔来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10170">化悲痛为力量</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10171">在全国民间音乐舞蹈会演大会上的讲话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10172">在布拉格观摩戏剧会演</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10173">在捷克斯洛伐克观剧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10174">向英雄的平壤人民致敬</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10175">大喜</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10176">在北京市第一届人民代表大会第一次会议上的发言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10177">毛主席，我选举了您！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10178">最光荣的时刻</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10179">生活，学习，工作</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10180">在第一届全国人民代表大会第一次会议上的发言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10181">我当选为全国人民代表大会代表的感想</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10182">为中苏伟大的友谊欢呼</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10183">在全国文联主席团和作家协会主席团联席（扩大）会议上的发言</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10184">严惩暗中放毒的败类</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10185">北京</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10186">顶可爱的北京</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10187">要热爱你的胡同</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10188">反对文人无行</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10189">多给青年们写点</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10190">看穿了胡风的心</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10191">好好学习</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10192">扫除为人民唾弃的垃圾</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10193">都来参加战斗吧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10194">幸福保证书</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10195">文艺工作者忙起来吧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10196">谢谢青年朋友们的关切</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10197">文艺工作者都忘我地劳动起来吧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10198">别光说“真没想到”啊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10199">胜利十年——胜利万年</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10200">拥护文字改革和推广普通话——汉民族共同语</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10201">我拥护大力推行民族共同语</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10202">文艺界要马上全体动员起来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10203">大力推广普通话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10204">万户更新</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10205">当作家并无捷径</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10206">“将军”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10207">《十五贯》的故事</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10208">前进，前进，再前进！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10209">贺《文汇报》复刊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10210">在北京各界纪念鲁迅先生逝世二十周年集会上的开会词</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10211">人长一年，事进千里！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10212">自由和作家</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10213">祝贺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10214">谈“放”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10215">三言两语</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10216">“五四”给了我什么</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10217">心中有了底</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10218">创作的自由</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10219">文字改革是广大人民的迫切需要</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10220">个人与集体</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10221">为了团结</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10222">祝贺《收获》创刊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10223">应当感谢党的领导</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10224">祝贺国庆</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10225">斗争右派，检查自己</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10226">首先作一个社会主义的人</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10227">作家谈写作</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10228">新禧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10229">三点期望</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10230">祭王统照先生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10231">北京戏剧界别让上海赶过</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10232">团结互助，大家一起来跃进</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10233">曲艺界拿出干劲来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10234">红与专</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10235">“祸由口出”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10236">大喜事</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10237">欢迎！祝贺！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10238">大家说话大家懂</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10239">放卫星</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10240">粉碎杜勒斯的强盗逻辑</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10241">人定胜天</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10242">安国访问述感</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10243">写人民公社</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10244">志愿军是我们的模范</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10245">彭六嫂</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10246">金黛莱</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10247">内蒙古民歌歌唱展览</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10248">过新年</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10252">元旦放歌</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10253">越看越高兴</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10254">今天的儿童有幸福</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10255">悼念罗常培先生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10256">我们的时代是被压迫民族翻身的时代</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10257">北京干净</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10258">正义斗争必将胜利</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10259">向妇女同志们致敬</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10260">衷心祝贺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10261">归自莫斯科</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10262">会外散记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10263">不赶走美军，无从安居乐业</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10264">眼福</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10265">悼于非□画师</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10266">我要抗议</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10267">我们高兴 敌人心慌</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10268">十年百花荣</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10269">天桥</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10270">十年笔墨</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10271">新风气</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10272">学了什么</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10273">思想跃进的结果</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10274">宝地</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10275">人健国强</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10276">一点期望</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10277">观众与演员都真幸福</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10278">群英会颂</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10279">民族团结万岁</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10280">巨大的鼓舞力量</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10281">欢迎与欢送</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10282">颂《中国》画册</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10283">人民公社好</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10284">公社花开大院红</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10285">坚决斗争下去</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10286">致贺致敬</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10287">齐来打虎</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10288">六千代表心一条</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10289">狠打瘟神</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10290">朝鲜人民永远胜利</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10291">祝贺朝鲜人民的伟大节日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10292">人的跃进</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10293">贺新年（一）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10294">勤俭持家</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10295">敬悼卢蒙巴总理</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10296">春暖花开宾客来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10297">好友春风携手来</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10298">两个花鸟画展览</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10299">梅兰芳同志千古</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10300">团结颂</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10301">新城喜见百花新</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10302">可爱的内蒙古</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10303">敬悼郝寿臣老先生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10304">新年吉利</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10305">肯尼迪——最地道的反动标本</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10306">春节愉快（一）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10307">立春大吉</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10308">迎春饯友</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10309">南游杂感</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10310">敬悼我们的导师</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10311">让我们狂欢吧！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10312">万寿无疆</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10313">锦绣江山</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10314">记忆犹新</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10315">伟大的友谊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10316">小胡同的声音</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10317">可喜的寂寞</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10318">贺新年（二）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10319">春节愉快（二）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10320">恭贺新禧</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10321">春来忆广州</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10322">首都到处有文章</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10323">北京京剧团的特点</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10324">伟大的吉日</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10325">祝贺北京实验京剧团建立</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10326">越南人民必胜</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10327">下乡简记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10328">与日本友人的一次谈话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10329">更大一些的想象（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10330">济南的药集（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10331">夏之一周间</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10332">耍猴（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10333">济南专电（慢电代邮）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10334">广智院（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10335">新年的梦想</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10336">估衣（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10337">慢电代邮</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10338">真正的学校日刊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10339">路与车（济南通信）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10340">慰劳</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10341">打倒近视</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10342">观画记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10343">考而不死是为神</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10344">小病</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10345">神的游戏</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10346">《牛天赐传》广告</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10347">避暑</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10348">暑中杂谈二则</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10349">习惯</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10350">取钱</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10351">写字</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10352">读书</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10353">老舍的创作</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10354">落花生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10355">有钱最好</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10356">又是一年芳草绿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10357">谈教育</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10358">忙</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10359">西红柿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10360">歇夏（也可以叫作“放青”）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10361">再谈西红柿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10362">暑避</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10363">檀香扇</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10364">青岛与我</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10365">立秋后</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10366">等暑</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10367">“完了”</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10368">钢笔与粉笔</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10369">新年试笔</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10370">我的暑假</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10371">鬼与狐</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10372">代语堂先生拟赴美宣传大纲</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10373">相片</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10374">婆婆话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10375">闲话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10376">我的理想家庭</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10377">有了小孩以后</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10378">归自北平</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10379">搬家</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10380">在青岛青年会的演讲</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10381">大明湖之春</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10382">文艺副产品</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10383">投稿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10384">理想的文学月刊</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10385">英国人与猫狗</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10386">《西风》周岁纪念</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10387">小型的复活（自传之一章）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10388">兔儿爷</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10389">短景</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10390">在民国卅年元旦写出我自己的希望</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10391">外行话</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10392">别忙</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10393">病（二）</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10394">话剧观众须知廿则</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10395">在乡下</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10396">母鸡</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10397">四位先生</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10398">“七七”抗战五周年纪念</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10399">文艺与木匠</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10400">我是“听用”！</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10401">筷子</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10402">假若我有那么一箱子画</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10403">割盲肠记</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10404">“住”的梦</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10405">多鼠斋杂谈</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10406">文牛</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10407">梦想的文艺</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10408">今年的希望</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10409">大智若愚</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10410">入城</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10411">在火车上</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10412">闲谈</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10413">文艺学徒</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10414">猫</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10415">我怎样投稿</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10416">乍看舞剑忙提笔</a>
+                </li>
+                <li>
+                    <a href="/book/23392/10417">春联</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 5;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

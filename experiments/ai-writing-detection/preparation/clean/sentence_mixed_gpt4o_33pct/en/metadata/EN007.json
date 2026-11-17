@@ -1,0 +1,779 @@
+{
+  "source_id": "EN007",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "5061db9b30c79bea5373ad2fa2f28ac960c393f979f38ae6e7a8109a3095a6ee",
+  "ai_article_sha256": "03b0cceb8fdfe6485672374e7f879ef1a6de2e71729cfc17157a90ad2ac63b30",
+  "mixed_article_sha256": "ec7bcc3a77ba3de8849ab28ef9f0c797a4ba6e9293b3d0326d5694143e26ec57",
+  "human_source_sentence_count": 52,
+  "ai_source_sentence_count": 51,
+  "alignment_unit_count": 47,
+  "selected_alignment_unit_count": 15,
+  "mixed_sentence_count": 51,
+  "selected_ai_sentence_count": 17,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.367105,
+  "selected_alignment_score_median": 0.517055,
+  "selected_alignment_score_max": 0.739199,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "F ROM a magazine with a rather cynical cover I learned very recently that for pond skating the proper costume is brown homespun with a fur collar on the jacket, whereas for private rinks one wears a gray herringbone suit and taupe-colored alpine.",
+      "output_sha256": "edb0c6e2c90c46d784d6d872ed3e893de499f84cdf88823feec1aba6a64db33a",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "edb0c6e2c90c46d784d6d872ed3e893de499f84cdf88823feec1aba6a64db33a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Oh, barren years that I have been a skater, and no one told me of this!",
+      "output_sha256": "ebb1e54bff782355304838aa2bffc08ea002ddaa947b8949bf1e7ce8b2001a39",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "ebb1e54bff782355304838aa2bffc08ea002ddaa947b8949bf1e7ce8b2001a39",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "During a recent practice session attempting to master a counter turn, I found myself observed by a hockey player, who had nothing better to do while waiting for his companions than to watch my clumsy attempts.",
+      "output_sha256": "55f5a88c397eae5153249a418bb0ae61340b5576e5a4760626a0db6ee65c5479",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.427172,
+      "human_sentence_indices": [
+        3,
+        4
+      ],
+      "human_sha256": [
+        "a5dba40d43f747fd11bf43bbcc575f49f2d92a18e3fe6abbfe5ccd71dca59983",
+        "03074da0af117f3e858b2a31fcca938c858ea54e15e167ce2cab9491dab86692"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "55f5a88c397eae5153249a418bb0ae61340b5576e5a4760626a0db6ee65c5479",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "\"What I don't see about that game,\" he said at last, \"is who wins?\"",
+      "output_sha256": "caf5b82b7cd33ec22b0047672ddfa8839791af47537995383e5cd79bd0a56935",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "caf5b82b7cd33ec22b0047672ddfa8839791af47537995383e5cd79bd0a56935",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It had never occurred to me to ask.",
+      "output_sha256": "b60214d64e668d0993f1e6be3a5c1b63c6363f1cd041170bd07665ca14d81c44",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "b60214d64e668d0993f1e6be3a5c1b63c6363f1cd041170bd07665ca14d81c44",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "He looked bored, and I remembered that the pictures in the magazine showed the wearers of the careful costumes for rink and pond skating as having rather blank eyes that looked illimitably bored.",
+      "output_sha256": "868b86a42d3c3b6c89821456c23873381db83ac8d1ca32e4af230c33d11bb077",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "868b86a42d3c3b6c89821456c23873381db83ac8d1ca32e4af230c33d11bb077",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "I have aspirations to learn the \"rocker\" and the \"mohawk\"; perhaps if I discovered the correct attire for skating on a smaller river, it might inspire me.",
+      "output_sha256": "7007c92f2db04285bd76d725b0c13e182480f67ba3e3e80b33fabc19948a4f60",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.517055,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "39d8ddd77aeda9c54d4de961c32ce28ddd6fe14885986e1617ef8cb70ece98bc"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "7007c92f2db04285bd76d725b0c13e182480f67ba3e3e80b33fabc19948a4f60",
+      "ai_unit_sentence_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Yet, the thought of boredom—why, even hockey, with all its excitement, doesn't bore me unless I stop to observe it!",
+      "output_sha256": "d41cd2dff9445c9fd3d54e21467f69420aa1f3fe4288ca0dbdf775c785319b36",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.517055,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "39d8ddd77aeda9c54d4de961c32ce28ddd6fe14885986e1617ef8cb70ece98bc"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "d41cd2dff9445c9fd3d54e21467f69420aa1f3fe4288ca0dbdf775c785319b36",
+      "ai_unit_sentence_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I don't wonder that those who play it look bored.",
+      "output_sha256": "69ac90850d9191e7409485f8ab6968653a39a6d7c538e141e6f5078978245a7e",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "69ac90850d9191e7409485f8ab6968653a39a6d7c538e141e6f5078978245a7e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Even Alexander, who played a more imaginative game than hockey, was bored—poor fellow, he should have taken up fancy skating in his youth; I never heard of a human being who pretended to a complete conquest of it.",
+      "output_sha256": "561f2dbc90ab0499367dbe3df62f474c389266ca7db9abc07ad5df891e91923e",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "561f2dbc90ab0499367dbe3df62f474c389266ca7db9abc07ad5df891e91923e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I like pond skating best by moonlight.",
+      "output_sha256": "ec02a722ca9fefa91240d715d784386fe373fd36cb58e724ff62e07bf07a1a9d",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "ec02a722ca9fefa91240d715d784386fe373fd36cb58e724ff62e07bf07a1a9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The hollow nestled among the hills always seems to retain a hint of mist, regardless of how clear the sky might be.",
+      "output_sha256": "027d2d9d7717431b935269b147f4abd33f58efbab3c8e0d61f84bf754f930bbc",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.605981,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "cd2a2f69ef0e7149669ac0c6a356bf075f6289cb5d90d6fc823e42de52a6dbed"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "027d2d9d7717431b935269b147f4abd33f58efbab3c8e0d61f84bf754f930bbc",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The moonlight, which appears so bright and clear when looking up, transforms into an ethereal blend of pearl and smoke around the pond and hills.",
+      "output_sha256": "b5b4b439c01fb2eb1fbf70e74a13623c4844c59adb2b75370459d38a1a91f4db",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.591955,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "c69dd6a0f1dbebd2cb0dffe61b0f5b09676bd204546b10dfb46c7aeeb5b3610d"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "b5b4b439c01fb2eb1fbf70e74a13623c4844c59adb2b75370459d38a1a91f4db",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The shore, which felt like cold iron beneath my feet as I approached the ice, takes on an indistinct quality when viewed from the pond’s center, reminiscent of a dream’s fading memory.",
+      "output_sha256": "b69665adfbb77a456a2be356ba76fb9a15879c2cbd032538b1ae76b36b26374d",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.47225,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "69a876ebc984ad8f1cfa24d7c0b39a992f828568fcb13f8874362a580a0d0765"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "b69665adfbb77a456a2be356ba76fb9a15879c2cbd032538b1ae76b36b26374d",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The motion is like flying in a dream; you float free and the world floats under you; your velocity is without effort and without accomplishment, for, speed as you may, you leave nothing behind and approach nothing.",
+      "output_sha256": "f29819b48977cae1cc4825462e47ef06c466f66a797e9a9d979f1cfa76f2e1fb",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "f29819b48977cae1cc4825462e47ef06c466f66a797e9a9d979f1cfa76f2e1fb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You look upward.",
+      "output_sha256": "e3cf427a6ff7356f8bc0aa19e648a43b06e90db0f5f96cffa80a089e9ca7ae02",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "e3cf427a6ff7356f8bc0aa19e648a43b06e90db0f5f96cffa80a089e9ca7ae02",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The mist is overhead now; you see the moon in a \"hollow halo\" at the bottom of an \"icy crystal cup,\" and you yourself are in just such another.",
+      "output_sha256": "6d29e5df010846be920cd9c8dda9f18c50ede761adc388f364ddafbe7560683d",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "6d29e5df010846be920cd9c8dda9f18c50ede761adc388f364ddafbe7560683d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The mist, palely opalescent, drives past her out of nothing into nowhere.",
+      "output_sha256": "d1fb01e7e94302cca68f7690931ebdaf03c8c34469d7f4cd9d216b293ef8984e",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "d1fb01e7e94302cca68f7690931ebdaf03c8c34469d7f4cd9d216b293ef8984e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Like me, the moon serves as the focal point of a circle that is vaguely defined, filled with a continuous stream of impressions that flow through a softly glowing halo of awareness.",
+      "output_sha256": "cc9ccfb312eaf29906fe010d75231fba9b6b6dc32d37aef0e855556de352f928",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.458569,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "14985bd9b6271035422d0d24f9366988d6b3577d1a62650c3d6c569cb47243db"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "cc9ccfb312eaf29906fe010d75231fba9b6b6dc32d37aef0e855556de352f928",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "If by moonlight the mist plays upon the emotions like faint, bewitching music, in sunlight it is scarcely less.",
+      "output_sha256": "36903b01f1e20d81815b386955a8ce7b18d59450fdeef17a0833e33c133e69fc",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "36903b01f1e20d81815b386955a8ce7b18d59450fdeef17a0833e33c133e69fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "More often than not when I go for my skating to our cosy little river, a winding mile from the mill-dam to the railroad trestle, the hills are clothed in silver mist which frames them in vignettes with blurred edges.",
+      "output_sha256": "80d94948367ea76f4d62168f915a1611a1459c7c6ce635fb7b4afcd9735ecd81",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "80d94948367ea76f4d62168f915a1611a1459c7c6ce635fb7b4afcd9735ecd81",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "The scene evokes the essence of Japanese paintings on white silk, with colors appearing muted yet gentle through the frost-laden air.",
+      "output_sha256": "25a88a7a74e79c5f78a641a3ff7f2a9d39b13cf51bacbba218fd68d469fe7eda",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.49547,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "05201ed58cf2e979bea11f13e9c93fdb3ee63931f3abee2c784b0bde6b354cae"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "25a88a7a74e79c5f78a641a3ff7f2a9d39b13cf51bacbba218fd68d469fe7eda",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "At the mill-dam, the hockey players enthusiastically clash, but I pay them no mind.",
+      "output_sha256": "6e8827ca74cfbdd93b70c0d6e151aae9c48f930ef377a693389eca98ae7dfe6c",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.505283,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "7a7dfe65af422734e3b41307c6e0e88a33eb125c0d21d28b62789d8b037d2d7b"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "6e8827ca74cfbdd93b70c0d6e151aae9c48f930ef377a693389eca98ae7dfe6c",
+      "ai_unit_sentence_indices": [
+        25,
+        26
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Soon, I glide beyond the initial bend, where their raucous sounds diminish, echoing softly like the distant chatter of a political gathering of crows.",
+      "output_sha256": "24176acffc7f5eb384c2f332763db6cbf5842a0f94b19f00afdb2c9682007419",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.505283,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "7a7dfe65af422734e3b41307c6e0e88a33eb125c0d21d28b62789d8b037d2d7b"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "24176acffc7f5eb384c2f332763db6cbf5842a0f94b19f00afdb2c9682007419",
+      "ai_unit_sentence_indices": [
+        25,
+        26
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The silver powder has fallen on the ice, just enough to cover earlier tracings and leave me a fresh plate to etch with grapevines and arabesques.",
+      "output_sha256": "0f49f2253b36953584a3ba6e452382f7965eb10c4c525beedf7d88d767ec0a0c",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "0f49f2253b36953584a3ba6e452382f7965eb10c4c525beedf7d88d767ec0a0c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The stream winds ahead like an unbroken road, striped across with soft-edged shadows of violet, indigo, and lavender.",
+      "output_sha256": "b953e957b4ed3519ab802a562a89caf7f61e99612f85dbda4550536b519a1f15",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "b953e957b4ed3519ab802a562a89caf7f61e99612f85dbda4550536b519a1f15",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "On one side it is bordered with leaning birch, oak, maple, hickory, and occasional groups of hemlocks under which the very air seems tinged with green.",
+      "output_sha256": "e385488447cb16fa9f6eee53f7d457d76d7f627dd72bb8e33b83cb4c511c6842",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "e385488447cb16fa9f6eee53f7d457d76d7f627dd72bb8e33b83cb4c511c6842",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "On the opposite bank, rounded masses of scrub oak and alder recede from the water’s edge like billowing clouds of reddish smoke.",
+      "output_sha256": "9cd8990e93921f01edbf77f7c392a758471cb3fc432cce1861b0cf28ff85d369",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.739199,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "0e13ea417ead87fd5ccd5ec653b81d513019c44636a69d0d4c17d3c5b4da8ab5"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "9cd8990e93921f01edbf77f7c392a758471cb3fc432cce1861b0cf28ff85d369",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The river narrows and turns, then spreads into a swamp, where I weave my curves round the straw-colored tussocks.",
+      "output_sha256": "5e7c9938494217df14764bf0d6f7d6c830a1760580019ea59df8f09b1d101fce",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "5e7c9938494217df14764bf0d6f7d6c830a1760580019ea59df8f09b1d101fce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Here, new as the snow is, there are earlier tracks than mine.",
+      "output_sha256": "61bf121da3121753971fd4a55a31bc5688584cf55f614bca7f62b2a8099f9e3e",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "61bf121da3121753971fd4a55a31bc5688584cf55f614bca7f62b2a8099f9e3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "A crow has traced his parallel hieroglyph, alternate footprints with long dashes where he trailed his middle toe as he lifted his foot and his spur as he brought it down.",
+      "output_sha256": "81b91e12dd1632a45abab8f1b4b872691736be186892657b7038753c2dd84e3f",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "81b91e12dd1632a45abab8f1b4b872691736be186892657b7038753c2dd84e3f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Under a low shrub that has hospitably scattered its seed is a dainty, close-wrought embroidery of tiny bird feet in irregular curves woven into a circular pattern.",
+      "output_sha256": "fafdd5b973001b25b895cec77be8ec94f2876ee70f2e8ab406216706656dcc43",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "fafdd5b973001b25b895cec77be8ec94f2876ee70f2e8ab406216706656dcc43",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "A silent glide towards the bank, where among bare twigs little forms flit and swing with low conversational notes, brings me in company with a working crew of pine siskins, methodically rifling seed cones of birch and alder, chattering sotto voce the while.",
+      "output_sha256": "6c68bdf461ffad133ada29459c3c0039b29ab3461de9d3b055a0e9c55d0790a4",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "6c68bdf461ffad133ada29459c3c0039b29ab3461de9d3b055a0e9c55d0790a4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Under a leaning hemlock the writing on the snow tells of a squirrel that dropped from the lowest branch, hopped aimlessly about for a few yards, then went up the bank.",
+      "output_sha256": "e33ca986bd4c4f035aeebdc9c5937eca4bd09708d7edc62a57cce5ed7ffa7f3a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "e33ca986bd4c4f035aeebdc9c5937eca4bd09708d7edc62a57cce5ed7ffa7f3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Farther on, where the river narrows again, a flutter-headed rabbit crossing at top speed has made a line seemingly as free from frivolous indirection as if it had been defined by all the ponderosities of mathematics.",
+      "output_sha256": "f683730cdd4726b7b7cc32b90aaeac34502a63c62bbf3816f34063d730085d5b",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "f683730cdd4726b7b7cc32b90aaeac34502a63c62bbf3816f34063d730085d5b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "There are no tracks to pursue; did it flee from its own shadow or that of a hawk?",
+      "output_sha256": "9e627e0fda7d329974ecadcbf1bde4fb03a2c94d57a3942d36638e92c5d2d906",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.553694,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "a9016660feeef413e1481c044f73d19299ee6c277191a815ec8ac762cf32d132"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "9e627e0fda7d329974ecadcbf1bde4fb03a2c94d57a3942d36638e92c5d2d906",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The mist clings to the bases of the hills, leaving the upper ridges subtly shrouded and softening the rounded peaks.",
+      "output_sha256": "97209da684ca21719eec8c408bd94907172155a988fa3c17a049ea8ed57ddd7e",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.577824,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "a84397d6eda66f78448880b719a3d936a57597c8a41ae9aab8fcf337b026560d"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "97209da684ca21719eec8c408bd94907172155a988fa3c17a049ea8ed57ddd7e",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The snowy slopes are etched with brush and trees so fine and soft that they remind me of Dürer's engravings, the fur of Saint Jerome's lion, the cock's feathers in the coat of arms with the skull.",
+      "output_sha256": "213923b6feffb2286f5a3863b0316b98ec62ab81ab4f42fa278cd37876db0e8e",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "213923b6feffb2286f5a3863b0316b98ec62ab81ab4f42fa278cd37876db0e8e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "From behind the veil of the southernmost hill, I catch a faint sound, as if from invisible lips blowing an ethereal horn.",
+      "output_sha256": "f8cf995e9cb16f407a820b8d9d28ae6e9566c58d35fc8b97e6c70a185ec8a4ef",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.653392,
+      "human_sentence_indices": [
+        38,
+        39
+      ],
+      "human_sha256": [
+        "78aa67b35d6a910b9f217ca988e4b35eb324a61f25b91f18486bb004ce7ce159",
+        "748ee9d13ab8a0156a2cb35caeca5fea3328ca50f2055d5942bfe0965c304d9b"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "f8cf995e9cb16f407a820b8d9d28ae6e9566c58d35fc8b97e6c70a185ec8a4ef",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It is the first far premonition of the noon train; I pause and watch long for the next sign.",
+      "output_sha256": "f4231183f064494d7d533300d468b9e4f62b966855c8b86202d5809c82de0488",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "f4231183f064494d7d533300d468b9e4f62b966855c8b86202d5809c82de0488",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Eventually, I hear its rhythmic thrum, which quiets as it halts at the flag station below the hill.",
+      "output_sha256": "093ad8df65addb82df6abac684017fdfb2dbdef1d29db5a003eaa2d6fa96547c",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.58,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "123f7ff9a91cda57d8f08ed8e44a5078d3779b7738d95166c631235457b5ed9a"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "093ad8df65addb82df6abac684017fdfb2dbdef1d29db5a003eaa2d6fa96547c",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There the invisible locomotive shoots a column of silver vapor above the surface of the mist, breaking in rounded clouds at the top, looking like nothing so much as the photograph of the explosion of a submarine mine, a titanic outburst of force in static pose, a geyser of atomized water standing like a frosted elm tree.",
+      "output_sha256": "087689fcd1f8da044c3ef8ec281199c33720701e5974a957b288cfe8c8350dc2",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "087689fcd1f8da044c3ef8ec281199c33720701e5974a957b288cfe8c8350dc2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Then quick puffs of dusky smoke, the volley of which does not reach my ear till the train has stuck its black head out of fairyland and become a prosaic reminder of dinner.",
+      "output_sha256": "267b66ad66fa4e3f163ec5047e41c7005dc65748af1a860565a7e2d4e64cd595",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "267b66ad66fa4e3f163ec5047e41c7005dc65748af1a860565a7e2d4e64cd595",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "High on its narrow trestle it leaps across my little river and disappears between the sandbanks.",
+      "output_sha256": "635047965ca7a240531196d55ea00604f8084b2ec4978b106c498b80dbc42a42",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "635047965ca7a240531196d55ea00604f8084b2ec4978b106c498b80dbc42a42",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The mist settles back into its tranquil layers, restoring silence, allowing me to hear the melodic creaking of four starlings in an apple tree as they feast on a few rotten apples still clinging to the upper branches.",
+      "output_sha256": "3fdd7cb1c4695d02f039e60d2ced323682401b4b34c3ce8e51482ca6e9d7abd2",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.614825,
+      "human_sentence_indices": [
+        45,
+        46
+      ],
+      "human_sha256": [
+        "412ef219798665a28b03bfbb4f37084124e3857c44a973f4ceebaef2180bb005",
+        "e41833dc372ebf1de42fba2778a5f35dbb9e7c081735b857bd7e114c9485c159"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "3fdd7cb1c4695d02f039e60d2ced323682401b4b34c3ce8e51482ca6e9d7abd2",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "I turn and spin down the curves and reaches of the river without delaying for embroideries or arabesques.",
+      "output_sha256": "e6c478f1a13fc0be4cd05feac705f18b5ed5da2e0d5eb0ea02e64ab26b8916df",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "e6c478f1a13fc0be4cd05feac705f18b5ed5da2e0d5eb0ea02e64ab26b8916df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The chaotic hockey game at the mill-dam continues unabated; the players remain absorbed in their pursuit, their focus unwavering.",
+      "output_sha256": "1accbf9b317f76e769bd29d89a9ebe6305c2edc80cb0eb165022fece46fdfa4a",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.367105,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "3d53bacff670e94f935b4c9e9db77d0df537862f9b6102248a117a5dd3f8e3fa"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "1accbf9b317f76e769bd29d89a9ebe6305c2edc80cb0eb165022fece46fdfa4a",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Their minds and eyes are intent on a battered disk of hard rubber.",
+      "output_sha256": "b3ce4464b6527b10ca10e2ba826a5fdaf09ecfd6de2a46dde3394f6cd35142d3",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "b3ce4464b6527b10ca10e2ba826a5fdaf09ecfd6de2a46dde3394f6cd35142d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I begin to think I have misjudged them when I consider what effort of imagination must be involved in the concentration of the faculties on such an object, transcending the call of hunger and the lure of beauty.",
+      "output_sha256": "d91408973f741a84d5c7b8862a5666b00102ad4d323d6b8bfeed0f17a7963948",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "d91408973f741a84d5c7b8862a5666b00102ad4d323d6b8bfeed0f17a7963948",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Is it to them as is to the mystic \"the great syllable Om\" whereby he attains Nirvana?",
+      "output_sha256": "b6351eff030170d945e923a615d6b26389130c960b8e9f220673ea58874ced72",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "b6351eff030170d945e923a615d6b26389130c960b8e9f220673ea58874ced72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I cannot attain it; I can but wonder what the hockey players win one-half so precious as the stuff they miss.",
+      "output_sha256": "ea2b48181f00385692df77d3398f31fcef163744c29a173d93945f6ec84ebb82",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "ea2b48181f00385692df77d3398f31fcef163744c29a173d93945f6ec84ebb82",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

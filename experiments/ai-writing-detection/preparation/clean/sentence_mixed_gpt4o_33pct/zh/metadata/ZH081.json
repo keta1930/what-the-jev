@@ -1,0 +1,683 @@
+{
+  "source_id": "ZH081",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "3187767e54b0b0acd951e4e1d699860da84348478e7a0ec682de7d6ca68c8cdb",
+  "ai_article_sha256": "084284c259f4cd5926bbe766c40b29373c6b41a75d25f5ff710ec84aa6bdce25",
+  "mixed_article_sha256": "065d93d33a9128832064a20f45ddcbecec217565639dbfe6365b823c782c831a",
+  "human_source_sentence_count": 46,
+  "ai_source_sentence_count": 43,
+  "alignment_unit_count": 43,
+  "selected_alignment_unit_count": 15,
+  "mixed_sentence_count": 45,
+  "selected_ai_sentence_count": 15,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.391172,
+  "selected_alignment_score_median": 0.627011,
+  "selected_alignment_score_max": 0.879545,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "爲了疲乏的緣故，我點了一隻紙菸。",
+      "output_sha256": "f05cfc8681597877257f1c36b00b5f3e293de9a46ddc8a628c703fa8f46e358a",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "f05cfc8681597877257f1c36b00b5f3e293de9a46ddc8a628c703fa8f46e358a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "綠色的星星，藍色的天空，紅色的屋頂，黑色的蝙蝠，灰色的小蛾，窗子正好開在這些景象之間，而我的床就靠在窗旁，手指舉著紙菸的影子映在窗下。",
+      "output_sha256": "e824bf829288d3180254302f434135bd3d635e8efa3cac29d8db8fe86f62535a",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.639452,
+      "human_sentence_indices": [
+        2,
+        3
+      ],
+      "human_sha256": [
+        "f89c6901ce0faabe63d28df0db28b118b1b16f43b9d020b8c955c19d8fd675f3",
+        "6719d42f30797cf0f6f6312ec929ee21b461a082ab4d0a097d90cf67563c0fa8"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "e824bf829288d3180254302f434135bd3d635e8efa3cac29d8db8fe86f62535a",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我看一看錶，我還是睡得這麼樣的早，才九點鐘剛過了。",
+      "output_sha256": "bee669ce576281d8f1605b1179e961a55834cc860464c1cd6a274daf6c7fa65a",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "bee669ce576281d8f1605b1179e961a55834cc860464c1cd6a274daf6c7fa65a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "心中有些煩悶，但又無法明確說出這份煩惱，彷彿是喝酒後的情緒，卻實際上我並沒有喝酒。",
+      "output_sha256": "ba3dd9aedc694bcc58350ee55100da9ed5b43692bf6c136aeed997dbcd8151dc",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.391172,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "0fe3257f20cfa1fc7c5383468ced73ce7d68e29fa43792e95649a7d371894362"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "ba3dd9aedc694bcc58350ee55100da9ed5b43692bf6c136aeed997dbcd8151dc",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "也許這又是想家了吧!",
+      "output_sha256": "ca46b17129b77beb8d0d1ef2c317af3f9e9ebe2f496ce043a56652565608f5c4",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "ca46b17129b77beb8d0d1ef2c317af3f9e9ebe2f496ce043a56652565608f5c4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "不，不能說是想家，應該說所思念的是鄉土。",
+      "output_sha256": "dcc2048b7f553b9f46d6cd9aed652aca28246a623c662fb971721fe85536a781",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "dcc2048b7f553b9f46d6cd9aed652aca28246a623c662fb971721fe85536a781",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "人們所思念着的那麼廣大的天地，而引起這思念來的，往往是幾片樹林，兩三座家屋，或是一個人物……也或者只憑着一點鐘的記憶，記憶着那已經過去的，曾經活動過的事物的痕跡。",
+      "output_sha256": "c3cca1d4e86567f0dba02d007a8af44a2101c49886465c9965639ba211af4992",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "c3cca1d4e86567f0dba02d007a8af44a2101c49886465c9965639ba211af4992",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "這幾天來，似乎心情更加閒逸，平常不太在意的事情，現在卻開始想起，因此和軍一談就聊到了深夜。",
+      "output_sha256": "a9db6dc654dd869d93a272cc2536917c11331f5df35e3df0a3935e4501b58b8e",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.439783,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "fd29da205e16e2d409afe8c84d8635a6ff08caabf67784de437fa2c985d21bb9"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "a9db6dc654dd869d93a272cc2536917c11331f5df35e3df0a3935e4501b58b8e",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "而每談過之後，就總有些空寞之感，就好像喝過酒之後，那種空寞。",
+      "output_sha256": "f87c31c1fb2181fd74b16ba324f986bf7d3ec50c91aba00d7acecca9bab1de83",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "f87c31c1fb2181fd74b16ba324f986bf7d3ec50c91aba00d7acecca9bab1de83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "雖然有時仍就聽着炮聲，且或看到了戰地的火光，但我們的閒談，仍舊是閒談。",
+      "output_sha256": "6ca91a42ee48367e9d1dbad3921d73a18f973022a52d27e5082b5374191baa89",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "6ca91a42ee48367e9d1dbad3921d73a18f973022a52d27e5082b5374191baa89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“渥特克(很辣的酒)還有吧!",
+      "output_sha256": "61198981578034302499407d52555b8e98521d89813d4a047e4f8907e0eb675d",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "61198981578034302499407d52555b8e98521d89813d4a047e4f8907e0eb675d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "喝一點!”",
+      "output_sha256": "9181e8bfd94f1d33bcd920933dd204511212867daae7d6cb531590e985f518a0",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "9181e8bfd94f1d33bcd920933dd204511212867daae7d6cb531590e985f518a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "他在椅子上搖著說。",
+      "output_sha256": "d848a9381fc815ebe3b8656448f5045ee9e24f66ba967a5f967c593027f4364a",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.670425,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "d01f4c8c5bd4c9a69592189b03995f2f8b7fafcc38ed33269907ceaceb6ae8a2"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "d848a9381fc815ebe3b8656448f5045ee9e24f66ba967a5f967c593027f4364a",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "爲了消磨時間，我在走廊上抄寫這幾年來所寫的詩句和短文。",
+      "output_sha256": "5ee9475a32c4a7e860997109ac446663130655ed57065626f28fa6328d43c49d",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.436309,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "f46aec0d792ef70f1ea3c26e393e122760765f5455a2e60a3f29a23dba8c9a66"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "5ee9475a32c4a7e860997109ac446663130655ed57065626f28fa6328d43c49d",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "而且抄着，而且讀着，覺得很可笑，不相信這就是自己寫下來的了。",
+      "output_sha256": "ee62ed3e865a6f44e402acfdbd78a4b7b49b6d5b0bb0fed85957cde6185fe67d",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "ee62ed3e865a6f44e402acfdbd78a4b7b49b6d5b0bb0fed85957cde6185fe67d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "抄完之後，我隨意翻閱舊冊子，那是軍所編輯的，除了他為我剪貼的一小部分，其餘全是他的，偶爾還有他的朋友的作品。",
+      "output_sha256": "f2379d3327291d8366f4fc3c9fd087c4db828c974ea2f45112f79b01e7773f2e",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.526865,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "2d58997cf6166600f19d962b56be07d137681be3831338936e1ddd400d1b8a82"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "f2379d3327291d8366f4fc3c9fd087c4db828c974ea2f45112f79b01e7773f2e",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "於是我就讀着他的朋友用紫色墨水寫成的詩句，因爲是古詩，那文句，就有些不解之處，於是請教於軍，他就和我一起讀起來了。",
+      "output_sha256": "2eb290dff70f9d365f48a602fa0150ddd8373a7b530672999c6050494fa7ebc3",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "2eb290dff70f9d365f48a602fa0150ddd8373a7b530672999c6050494fa7ebc3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "他讀舊詩，本來有個奇怪的韻調，起初，這是我所不喜歡的，可是這兩年來，我就學着他，並且我自己聽來已經和他一腔一調。",
+      "output_sha256": "fecc6be19b1f03ad742bfaa77127d2a5a85124bfec51bf31ac2d6d0945c513fe",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "fecc6be19b1f03ad742bfaa77127d2a5a85124bfec51bf31ac2d6d0945c513fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "我常常是這樣，比方我最反對他正在唱着歌的時候，我真想把耳朵塞了起來，有時因爲禁止而禁止不住他，竟要真的生氣，但是又一想，自己從什麼地方得來的這種權力呢?",
+      "output_sha256": "2d0e31c8d61f9b67c96cf233a83fff5b472ec61b66d4e3fc28e659654a6e2f0f",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "2d0e31c8d61f9b67c96cf233a83fff5b472ec61b66d4e3fc28e659654a6e2f0f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "於是只好隨他唱，這歌一經唱得久了!",
+      "output_sha256": "3df2732d14cb7720d556b1a70b7d71ca5d776921e607db3236f63a49542c4cf2",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "3df2732d14cb7720d556b1a70b7d71ca5d776921e607db3236f63a49542c4cf2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "我也就和他一齊唱了，並且不知不覺之間自己也常常一方面燒着飯，一方面哼着。",
+      "output_sha256": "1381c918b84d31a50cb1dcf6f12842103dcc26fa54ac9e1eea6251a2ef02fb95",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "1381c918b84d31a50cb1dcf6f12842103dcc26fa54ac9e1eea6251a2ef02fb95",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "這些用紫色墨水寫成的詩句，我也跟著他用同樣的怪調在走廊上朗讀。",
+      "output_sha256": "f98cf21203b59b2da46270d893b7ddc9d9e18f4e63e654f0a88cab20d8169ba0",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.664092,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "5c1b711d6bcaefe7a6dc6f1666664119a91243a2be83add9f19e32c94674f944"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "f98cf21203b59b2da46270d893b7ddc9d9e18f4e63e654f0a88cab20d8169ba0",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "我們的身邊飛來了小蛾的時候，他向我說，他要喝一點酒。",
+      "output_sha256": "b63001a4d2a8c0c220b53d6b1d0c3bb099a6fc323f0e5416629ac26d3cc6dec5",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "b63001a4d2a8c0c220b53d6b1d0c3bb099a6fc323f0e5416629ac26d3cc6dec5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "本來就在本身之內起着喝過了酒的感覺，我想一定不應該喝了：",
+      "output_sha256": "5dee6b3fb5ae297d93c8863c89751943a83d67c4cd213f934e31bd1f0ebe67ea",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "5dee6b3fb5ae297d93c8863c89751943a83d67c4cd213f934e31bd1f0ebe67ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "“喝酒要人多喝，喝完了說說笑笑也就不醉，一個人喝不好，越喝越無聊。”",
+      "output_sha256": "dad3827d7a7ad20a6ec037b73056417142aec704e49d21a39659bf523ad4e647",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "dad3827d7a7ad20a6ec037b73056417142aec704e49d21a39659bf523ad4e647",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "“我恰恰相反，喜歡獨飲獨酌……”",
+      "output_sha256": "0cfc728d9f96eddb27ed72094433f8fe0268177e6456b761af78316c1a7b58f1",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.594341,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "9aded5eadd934e5556992145f382b79689b54695c09a7a406d062996920b1fb8"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "0cfc728d9f96eddb27ed72094433f8fe0268177e6456b761af78316c1a7b58f1",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 18,
+      "origin": "ai",
+      "text": "隨後我說“渥特克”酒沒有了。",
+      "output_sha256": "447454760b776ced0431d6f77e338be757a0519f09fb1044fadfe7ba3597959b",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.879545,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "6102d2f8888fc9f3652565d0bebcf2091e1348c25019209aeee6b2b09721fca1"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "447454760b776ced0431d6f77e338be757a0519f09fb1044fadfe7ba3597959b",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "(其實是有的，就在我腳邊的小箱子裏。)",
+      "output_sha256": "cbc2f640c6db150c169da54f7c0757311244cd8fe3a69463de193f8716739532",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "cbc2f640c6db150c169da54f7c0757311244cd8fe3a69463de193f8716739532",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 19,
+      "origin": "ai",
+      "text": "“朋友們，坐牢的……留在滿洲的，為了‘剿匪’而死的……作這詩的人，聽說就在南京的‘反省院’裡。”",
+      "output_sha256": "c1f4fae06fd00ebda79aa47a08827cddea58264acbd4e80ecc53e651edfabdd5",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.813877,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "9c09e13b6449d0da688c5bb7a4df59585c182755fb796d1a157e5c2d90ebe95f"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "c1f4fae06fd00ebda79aa47a08827cddea58264acbd4e80ecc53e651edfabdd5",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "“你爲什麼走的這一條路呢?",
+      "output_sha256": "c1c10bc7a3242e3e235d56b5f8aadf56ecab091ba4fdf46e594c2b18d5131640",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "c1c10bc7a3242e3e235d56b5f8aadf56ecab091ba4fdf46e594c2b18d5131640",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "照理說，不可能，”因爲他是軍官學生。",
+      "output_sha256": "db1484720d105edc024b7642a2d7c51fcbc3191992deadf767966f59e8d745ae",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "db1484720d105edc024b7642a2d7c51fcbc3191992deadf767966f59e8d745ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "我想：“就是因爲你有這樣的幾個朋友……很難，一個人的成長，就差在一點點上……”我常常把人生看得很可怕。",
+      "output_sha256": "0af3c33a86de86fb0c4a1aced161da4e47cb5d804b6892bb15edbf832f68058e",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "0af3c33a86de86fb0c4a1aced161da4e47cb5d804b6892bb15edbf832f68058e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "“嗯!",
+      "output_sha256": "9daac60d0fac8e5ba0ef0730362ebd91a58a55f21eafa949f0c59cc04c843686",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "9daac60d0fac8e5ba0ef0730362ebd91a58a55f21eafa949f0c59cc04c843686",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "是的……”他的目光沿著走廊一直望去，我明白，他的情感一定延伸得很遠。",
+      "output_sha256": "88fc8d427a90b8dffffe671e23fee4683f576cc272dc02aeb164175771e6c66c",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.627011,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "d698ca97e2eed416a202934ad36072225ac8748a225c10b1a0aae437030c5a8b"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "88fc8d427a90b8dffffe671e23fee4683f576cc272dc02aeb164175771e6c66c",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "這思念朋友的心情，我也常有。",
+      "output_sha256": "c9d0929a432e03fd24ef84a2ba99ee33b277111664854848b632f7bef2f00b69",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "c9d0929a432e03fd24ef84a2ba99ee33b277111664854848b632f7bef2f00b69",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "一做了女人，便沒有朋友。",
+      "output_sha256": "eda7a2da8f2b8ea1955b300abcc8c17c422bb7977e6660db019401532904f9fb",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "eda7a2da8f2b8ea1955b300abcc8c17c422bb7977e6660db019401532904f9fb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "但我還有三五個，在滿洲的在滿洲，嫁了丈夫的，娶了妻子的，爲了生活而忙着的，比方前兩天就有一個朋友經過上海而到北方戰地去。",
+      "output_sha256": "7974aadcd55370cd51eba909862ead4c3cd7405c17c49f02983fc321059d7ad8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "7974aadcd55370cd51eba909862ead4c3cd7405c17c49f02983fc321059d7ad8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "他說：“朋友們別開，生死莫測。”",
+      "output_sha256": "d1bda5a3824856c77b70e809c46837ca9f1dd4510974af83c123a83fd9ef49bf",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "d1bda5a3824856c77b70e809c46837ca9f1dd4510974af83c123a83fd9ef49bf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "我回答：“這些話還行嗎？",
+      "output_sha256": "c7d3b6e45d8acdb028e4b5241122f7b2ac054ff73aeb674f0a21707e3f2aa77e",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.594231,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "e945543618750bbff423d671b40b3fc53e1bf1df046fa5b0fd33fcb9312d1501"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "c7d3b6e45d8acdb028e4b5241122f7b2ac054ff73aeb674f0a21707e3f2aa77e",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 25,
+      "origin": "human",
+      "text": "哪裏有的事情?”",
+      "output_sha256": "2d696b9fb803b6ad160aceb059809e3c1dcc5f652c97d87d296679cde1a228d5",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "2d696b9fb803b6ad160aceb059809e3c1dcc5f652c97d87d296679cde1a228d5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "他站在人行道上高高舉起手臂。",
+      "output_sha256": "ac09f8e87261433a93e120a58fb716200c6203721cf3eab35f7a5cedd60acfd7",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.672118,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "0ad4ca153f43017bd2a4b29934bcbb49406c400b75dc44a2096edd7c3334f142"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "ac09f8e87261433a93e120a58fb716200c6203721cf3eab35f7a5cedd60acfd7",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 27,
+      "origin": "ai",
+      "text": "我心中想，朋友們別開，我也不知道該怎麼辦！",
+      "output_sha256": "0ad7956f1dd4dc1a61b6d0eb86e778c5ea99c0ce1c476c78bda6c4627802a295",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.738485,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "8a6b33191b9dad45220345562c25016caf8b60167a40b5886736bfd681994867"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "0ad7956f1dd4dc1a61b6d0eb86e778c5ea99c0ce1c476c78bda6c4627802a295",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 28,
+      "origin": "human",
+      "text": "一些飛來的小蛾，它們每個都披着銀粉，我一個個地細細地考查着那翅子上的紋痕。",
+      "output_sha256": "5cbea26644e88f4ab81d852a97ec493dfb1ea4450c31feac4580f803e944b367",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "5cbea26644e88f4ab81d852a97ec493dfb1ea4450c31feac4580f803e944b367",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 29,
+      "origin": "human",
+      "text": "這類似詩的東西，我就這樣把它抄完了。",
+      "output_sha256": "2174f84b31e32947cf6422699a5049b11cc47cfe20081089b7db76a96383addb",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "2174f84b31e32947cf6422699a5049b11cc47cfe20081089b7db76a96383addb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 30,
+      "origin": "ai",
+      "text": "躺在床上，看了看錶，才剛過九點，於是我一邊看著手指舉著的紙菸映在牆上，一邊思索著這場戰爭，以及詩集出版的問題。",
+      "output_sha256": "ad42885020d6284033aaa0f46bb6926f938000e344381aa5918060463664d8d6",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.563725,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "7a0ccb209a942986fa2f396a2be5af83035db6882e4ec9a6aa02f90288c88a6d"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "ad42885020d6284033aaa0f46bb6926f938000e344381aa5918060463664d8d6",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    }
+  ]
+}

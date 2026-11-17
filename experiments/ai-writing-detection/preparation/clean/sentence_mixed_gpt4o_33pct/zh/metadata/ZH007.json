@@ -1,0 +1,549 @@
+{
+  "source_id": "ZH007",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "96d1d18d5df96b744bcb06484fe8ba1d95a7d8701ccaf8ce13d8c18d1f2e39ac",
+  "ai_article_sha256": "a06a0858aa8540096242492337910f904e80f33cffc297eb6d1bba32188adf2d",
+  "mixed_article_sha256": "3d2602209ca869014c4dd0f48ec9c5f86ffba71807aa9fd59aea66f6b64bd4ba",
+  "human_source_sentence_count": 36,
+  "ai_source_sentence_count": 39,
+  "alignment_unit_count": 36,
+  "selected_alignment_unit_count": 12,
+  "mixed_sentence_count": 36,
+  "selected_ai_sentence_count": 12,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.356548,
+  "selected_alignment_score_median": 0.528902,
+  "selected_alignment_score_max": 0.728571,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "伏园兄：",
+      "output_sha256": "000145f3b7f508bc309cd4e317086d2a061fb00623108f02da6c9f193a768e21",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "000145f3b7f508bc309cd4e317086d2a061fb00623108f02da6c9f193a768e21",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "北京近日多雨，你在长安道上不知也遇到否，想必能增你旅行的许多佳趣。",
+      "output_sha256": "67bfeb870277516f22db252ffc785a823f4335b9d7251dba76938ba1c81e5228",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "67bfeb870277516f22db252ffc785a823f4335b9d7251dba76938ba1c81e5228",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "雨中旅行不一定是很愉快的，我以前在杭沪车上时常遇雨，每感困难，所以我于火车的雨不能感到什么兴味，但卧在乌篷船里，静听打篷的雨声，加上欸乃的橹声，以及“靠塘来，靠下去”的呼声，却是一种梦似的诗境。",
+      "output_sha256": "305d00fd5c7eb8ed4dc90943eadacd12c10d878eb69e12f2833f90bba6effa99",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "305d00fd5c7eb8ed4dc90943eadacd12c10d878eb69e12f2833f90bba6effa99",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "如果再大胆一些，仰卧在小船里，冒雨夜行，水乡居民的风趣便愈加显现，尽管这也有些危险，稍不留神，转身可能就会翻船。",
+      "output_sha256": "ebb48ee04f7c58c01bfb1706c6e5a82a12b038cc47b6c213604d6eae79e1ee7a",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.466498,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "918068c11a7b5156f1adc00b033dffbdb531222397f765eb660b50c33796976c"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "ebb48ee04f7c58c01bfb1706c6e5a82a12b038cc47b6c213604d6eae79e1ee7a",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "二十多年前，我曾去东浦吊唁父亲的保姆，归途遇到暴风雨，一叶小舟在波涛汹涌的水面上穿梭，既危险又刺激。",
+      "output_sha256": "a77dec03245d942fc70688b26545d654c3e4aa7467d5b93cdb3910680845916c",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.518435,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "374fb7920ea4a6e0045f0f6898a22f2d15ad90d9cb5d008aebd77399b7c0598a"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "a77dec03245d942fc70688b26545d654c3e4aa7467d5b93cdb3910680845916c",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "我大约还有好些“为鱼”时候——至少也是断发文身时候的脾气，对于水颇感到亲近，不过北京的泥塘似的许多“海”实在不很满意，这样的水没有也并不怎么可惜。",
+      "output_sha256": "f6ededbd1c5b71615b05dac323be968a712df1485b440f5f681153866a2042d0",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "f6ededbd1c5b71615b05dac323be968a712df1485b440f5f681153866a2042d0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "你往“陕半天”去似乎要走好两天的准沙漠路，在那时候倘若遇见风雨，大约是很舒服的，遥想你胡坐骡车中，在大漠之上，大雨之下，喝着四打之内的汽水，悠然进行，可以算是“不亦快哉”之一。",
+      "output_sha256": "c3840757dfbccb6cf9c437dc764464e861e6b714b6a75e35289d965fd361e033",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "c3840757dfbccb6cf9c437dc764464e861e6b714b6a75e35289d965fd361e033",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "但这不过是我的幻想，像诗人的理想般虚幻，或许你在骡车上遇雨，反而会感到十分困扰，正在苦苦哀叹，具体情况还得等你回京后分享。",
+      "output_sha256": "11ae4698da18016b4122b98b2261ff45a89a72106aed8e022aec2f7bc3df649e",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.506265,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "6bc9c0c8923c328f1164298829d795352c5d688ee3ba4c643acbde09ac54cd6e"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "11ae4698da18016b4122b98b2261ff45a89a72106aed8e022aec2f7bc3df649e",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我在北京，经历这几天的雨，却感到无比沮丧。",
+      "output_sha256": "64561989c3b1696632320ff9e2f0b726879615b21ef47113083ab0c5888490b4",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.532717,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "31fa2f2c8bdbc643d0656199f3ed66b881928378bd68aa0aaa1182b62a639c34"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "64561989c3b1696632320ff9e2f0b726879615b21ef47113083ab0c5888490b4",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "北京向来少雨，所以不但雨具不很完全，便是家屋构造，于防雨亦欠周密。",
+      "output_sha256": "fb09d4c7c026e4245369dcc017602d922f88d08a2930a24a534a9654297568bf",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "fb09d4c7c026e4245369dcc017602d922f88d08a2930a24a534a9654297568bf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "除了真正富翁以外，很少用实垛砖墙，大抵只用泥墙抹灰敷衍了事。",
+      "output_sha256": "b08028d10395d673bd7a426865bc012ff1247212bfe9732d84b7b50672ebf447",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "b08028d10395d673bd7a426865bc012ff1247212bfe9732d84b7b50672ebf447",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "近来天气转变，南方酷寒而北方淫雨，因此两方面的建筑上都露出缺陷。",
+      "output_sha256": "a06652d89744a21eea0ae213758ef8b97ac1208dc9df5e4b59e7fe27990ea9ea",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "a06652d89744a21eea0ae213758ef8b97ac1208dc9df5e4b59e7fe27990ea9ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "一星期前的雨把后园的西墙淋坍，第二天就有“梁上君子”来摸索北房的铁丝窗，从次日起赶紧邀了七八位匠人，费两天工夫，从头改筑，已经成功十分八九，总算可以高枕而卧，前夜的雨却又将门口的南墙冲倒二三丈之谱。",
+      "output_sha256": "7e59fe5e8d7f6df02aa2414d99cacd6f7fe262447a4d241497b3bcf7811bcdbe",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "7e59fe5e8d7f6df02aa2414d99cacd6f7fe262447a4d241497b3bcf7811bcdbe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这回受惊的可不是我了，乃是川岛君“渠们”俩，因为“梁上君子”如再见光顾，一定是去躲在“渠们”的窗下窃听的了。",
+      "output_sha256": "f99be10c89b626c3b3bc0171aa9f2e39ef6460fbd3c5670d22524ebfd9c27037",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "f99be10c89b626c3b3bc0171aa9f2e39ef6460fbd3c5670d22524ebfd9c27037",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "为消除“渠们”的不安起来，一等天气晴正，急须大举地修筑，希望日子不至于很久，这几天只好暂时拜托川岛君的老弟费神代为警护罢了。",
+      "output_sha256": "be26337cf7a542b46209b2e28ec0a7198d5cc89fd52d60d97866f70873004d12",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "be26337cf7a542b46209b2e28ec0a7198d5cc89fd52d60d97866f70873004d12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "前天十足下了一夜的雨，使我夜里不知醒了几遍。",
+      "output_sha256": "1059a90551686c3b6b22bea2a19ecca03b8d40fff2224cf6875bf81a1356d873",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "1059a90551686c3b6b22bea2a19ecca03b8d40fff2224cf6875bf81a1356d873",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "北京除了偶然有人高兴放几个爆仗以外，夜里总还安静，那样哗喇哗喇的雨声在我的耳朵里已经不很听惯，所以时常被它惊醒，就是睡着也仿佛觉得耳边粘着面条似的东西，睡的很不痛快。",
+      "output_sha256": "310b3a72cebe7150c9e52bdad2f975fd5753ab9267bef3676fc04ddcbacc373a",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "310b3a72cebe7150c9e52bdad2f975fd5753ab9267bef3676fc04ddcbacc373a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "还有一层，前天晚间据小孩们报告，前面院子里的积水已经离台阶不及一寸，夜里听着雨声，心里胡里胡涂地总是想水已上了台阶，浸入西边的书房里了。",
+      "output_sha256": "b019f4e224832e49b5868827328f3a5aced224661236ddd03da8c1bde18d7f18",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "b019f4e224832e49b5868827328f3a5aced224661236ddd03da8c1bde18d7f18",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "好容易到了早上五点钟，赤脚撑伞，跑到西屋一看，果然不出所料，水浸满了全屋，约有一寸深浅，这才叹了一口气，觉得放心了；倘若这样兴高彩烈地跑去，一看却没有水，恐怕那时反觉得失望，没有现在那样的满足也说不定。",
+      "output_sha256": "7b86aee6bbc3eabbbd1e4e4f93cc00870310f3ff0357884ee1ad7514c73dbb92",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "7b86aee6bbc3eabbbd1e4e4f93cc00870310f3ff0357884ee1ad7514c73dbb92",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "幸好书籍并未被淹，虽说它们没有什么价值，但湿成一团的纸团，实在令人不快。",
+      "output_sha256": "8c492175cf0d1de2e6638dd7ccba9c2e4faefeeb634cc59095b857222186018a",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.48097,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "d9f4ea3823160381a545253dd731af97cfe4fcb15cc8cfc76052c1b0df3610cf"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "8c492175cf0d1de2e6638dd7ccba9c2e4faefeeb634cc59095b857222186018a",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "现今水虽已退，还留下一种涨过大水后的普通的臭味，固然不能留客坐谈，就是自己也不能在那里写字，所以这封信是在里边炕桌上写的。",
+      "output_sha256": "f545dc1ff95bdc6d85603838d50b44c485bde3f498ffb1175cfeca9a37148ee2",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "f545dc1ff95bdc6d85603838d50b44c485bde3f498ffb1175cfeca9a37148ee2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这场大雨，似乎只有两类人最为喜欢。",
+      "output_sha256": "5c164561a367671893ff4f70c21ca5cfec1d131fcc7aea0e3626937bb9fdbaa3",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.593333,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "9863b233d1eca7005b98013b337be1b8e3023b615e6e0239e1a00ff451f07bb0"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "5c164561a367671893ff4f70c21ca5cfec1d131fcc7aea0e3626937bb9fdbaa3",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "第一类是小孩。",
+      "output_sha256": "37251e6e6c8216cef4c4d1281eaecb216802a8a6ab84267c65d5dae6b49d480f",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.728571,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "9822de921fcdd8e5c959ef69259f65342fb5ab26631da6d8013f277a4696fbe3"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "37251e6e6c8216cef4c4d1281eaecb216802a8a6ab84267c65d5dae6b49d480f",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "他们热爱水，却不常有机会玩水，现在看到院子变成河流，便成群结队地“淌河”。",
+      "output_sha256": "07ed044700984908d4e55fa5780dbc0acecd31a2a7acb192f5f01d00a378f1b5",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.549002,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "cdda3ba7a599ef255e3ee8c5679c8b6fb422acba0a7159f09a70f4cbd5fd2a71"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "07ed044700984908d4e55fa5780dbc0acecd31a2a7acb192f5f01d00a378f1b5",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "赤脚踏入水中，虽然有些冰凉，但他们毫不畏惧，乐此不疲地玩耍。",
+      "output_sha256": "6ebdd1079d2a9bbdba670607cb98de6b3f6a99ac56077c592b748fa90c20a974",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.356548,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "4d7b746e299ea284db5b38ad460af8f8bdcc31c926ab6892f27901003271e495"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "6ebdd1079d2a9bbdba670607cb98de6b3f6a99ac56077c592b748fa90c20a974",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "大人见小孩们玩的很有趣，也一个两个地加入，但是成绩却不甚佳，那一天里滑倒了三个人，其中两个都是大人，——其一为我的兄弟，其一是川岛君。",
+      "output_sha256": "3dca5d70132cbe7798f7fed7b49f1126b3eb31b80687af2d42b4c6ba5f47eb8c",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "3dca5d70132cbe7798f7fed7b49f1126b3eb31b80687af2d42b4c6ba5f47eb8c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "第二种喜欢下雨的则为虾蟆。",
+      "output_sha256": "657be74e9faa198f63170f6eb3fea1f58be6b9a110464970d679deb03c86d642",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "657be74e9faa198f63170f6eb3fea1f58be6b9a110464970d679deb03c86d642",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "以前和孩子们一起去高亮桥钓鱼，没钓到鱼却捉了不少青蛙，有绿色的，也有花斑的，带回院子里，平时偶尔叫几声，最近几天却整日啼叫，或许是丰年之兆，极有农村的韵味。",
+      "output_sha256": "91a4f9e8a14bf028ea05a574e8d4676f60cec46ad96c994acbd90f036f85b197",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.525086,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "0b50644828562158d96c23ae3b739112166ebfe838355c58b3b6345d438f49d8"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "91a4f9e8a14bf028ea05a574e8d4676f60cec46ad96c994acbd90f036f85b197",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "有许多耳朵皮嫩的人，很恶喧嚣，如麻雀虾蟆或蝉的叫声，凡足以妨碍他们的甜睡者，无一不痛恶而深绝之，大有灭此而午睡之意，我觉得大可以不必如此，随便听听都是很有趣味的，不但是这些久成诗料的东西，一切鸣声其实都可以听。",
+      "output_sha256": "b159486a84d43734ade63989ea8d706125bfadeeb1fe867ef82e712809c5e9cc",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "b159486a84d43734ade63989ea8d706125bfadeeb1fe867ef82e712809c5e9cc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "青蛙在水田里齐声呼叫，夜深人静时，听久了常常变成一种金属音，十分特别，有时又像是狗叫，古人称青蛙为“吠”，恐怕是从体验而来的。",
+      "output_sha256": "a03280efb55cf919146d516721dfb5e6a0e6f56d4250164a90dcfc1bea13509e",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.565201,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "412b01c9cc358d70c560102f97915809297cebe2100b550cd8e2485175cbbed6"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "a03280efb55cf919146d516721dfb5e6a0e6f56d4250164a90dcfc1bea13509e",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "我们院子里的虾蟆现在只见花条的一种，它的叫声更不漂亮，只是格格格这个叫法，可以说是革音，平常自一声至三声，不会更多，唯在下雨的早晨，听它一口气叫上十二三声，可见它是实在喜欢极了。",
+      "output_sha256": "6bd7d52804b88f030bfa2b5d20d3b84617a66ce66fb820c5952cfe30e666ac4b",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "6bd7d52804b88f030bfa2b5d20d3b84617a66ce66fb820c5952cfe30e666ac4b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这一场大雨恐怕在乡下的穷朋友是很大的一个不幸，但是我不曾亲见，单靠想像是不中用的，所以我不去虚伪地代为悲叹了。",
+      "output_sha256": "c42605fc8a6d518bcfe04c1ee1768cbcc9bbf7408683a64323cae5d139c4ec33",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "c42605fc8a6d518bcfe04c1ee1768cbcc9bbf7408683a64323cae5d139c4ec33",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "倘若有人说这所记的只是个人的事情，于人生无益，我也承认，我本来只想说个人私事，此外别无意思。",
+      "output_sha256": "b2f6de3eb62d982f1657b8ce0f66eb9654247d8f4eca507c60faa059ff380bad",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "b2f6de3eb62d982f1657b8ce0f66eb9654247d8f4eca507c60faa059ff380bad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "今天阳光已然出现，傍晚可以出去游玩，这封信也就不再继续写下去了。",
+      "output_sha256": "a6068bf978c9340a6eef3c05c4c268da78371fe8caf9b40c398bc55ec9dfc642",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.693761,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "592ebf42f2284a0410e921b886d09ffe55136569d19ff11d024d08afffb5d60d"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "a6068bf978c9340a6eef3c05c4c268da78371fe8caf9b40c398bc55ec9dfc642",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "我本等着看你的秦游记，现在却由我先写给你看，这也可以算是“意表之外”的事罢。",
+      "output_sha256": "76eebf05f55e1a139c4af97c3aed33099f5b727a93a36a9fad8ecc8584bd6f60",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "76eebf05f55e1a139c4af97c3aed33099f5b727a93a36a9fad8ecc8584bd6f60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "十三年七月十七日在京城书。",
+      "output_sha256": "fe6aa72bf36919ea3cea54c989f6c172c42a741cfb351778652c27743e91c6ee",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "fe6aa72bf36919ea3cea54c989f6c172c42a741cfb351778652c27743e91c6ee",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "source_id": "EN014",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "f02c79e7e1c022bfc715999a1d58c6393ba8a8f5f451fb994d76081f0cbda5cd",
+  "ai_article_sha256": "c4911a216f33bdaa68aa95e34d4e458a07768b96397bf5844dd8e7b51ea106db",
+  "mixed_article_sha256": "5387354dde064b65b32577e2f247c4b8d2b7f910ff198ffb1da8b63165a81466",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 53,
+  "alignment_unit_count": 52,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 57,
+  "selected_ai_sentence_count": 19,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.30201,
+  "selected_alignment_score_median": 0.465731,
+  "selected_alignment_score_max": 0.740082,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "I find myself standing in the same spot where countless others have stood, gazing up at the magnificent Belfry Tower of Bruges and contemplating, as many have before me, that its design seems to challenge the principles of architectural propriety.",
+      "output_sha256": "a37ac42160fa2191b6bb830fa41f821244dd70e83ba4e56e0d243f708010cbf9",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.421414,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "9780463012ee0ff1b2644cdb5322ec53d31f243f32077a3d8ddd42b4fb4c1b34"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "a37ac42160fa2191b6bb830fa41f821244dd70e83ba4e56e0d243f708010cbf9",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is made in deliberate disproportion to achieve the one startling effect of height.",
+      "output_sha256": "985eba6f6af43fd7bbf76da9da316a3f2a66d4557d84e6c7e65dacd1138e78b8",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "985eba6f6af43fd7bbf76da9da316a3f2a66d4557d84e6c7e65dacd1138e78b8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is a church on stilts.",
+      "output_sha256": "04c27b5bcb6cf7a1a280623b569a8dd919b625371fbe43962d79607a3e1d3d78",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "04c27b5bcb6cf7a1a280623b569a8dd919b625371fbe43962d79607a3e1d3d78",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But this sort of sublime deformity is characteristic of the whole fancy and energy of these Flemish cities.",
+      "output_sha256": "6a5aab5f4018b77f46f97b696005ed57892d93d4ca3b60c8c0a27ce4082a0aa5",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "6a5aab5f4018b77f46f97b696005ed57892d93d4ca3b60c8c0a27ce4082a0aa5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Flanders boasts some of the flattest and most mundane landscapes, yet its buildings are among the most audacious and extravagant.",
+      "output_sha256": "3425c8a9bc3f952fe7ac18b62bd017d80dbcef64a10df850e652085336b44b88",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.588571,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "f6894fbe24b986f82fd5f4489c6f1326c48478cf492acbe44a469c189ad6a11c"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "3425c8a9bc3f952fe7ac18b62bd017d80dbcef64a10df850e652085336b44b88",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Here Nature is tame; it is civilisation that is untamable.",
+      "output_sha256": "bc72bfbb5db70de26aceca179216bd1a09d6f5e4a1ee0939c100e18c18a2ecdf",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "bc72bfbb5db70de26aceca179216bd1a09d6f5e4a1ee0939c100e18c18a2ecdf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The fields stretch out as flat and uniform as a paved plaza, while the streets and rooftops display a chaotic vivacity that resembles a forest whipped by a tempest.",
+      "output_sha256": "c59aeb69936e39e890f5f8f04681666fec3816f0c2d7d054e4be0f351dea89ee",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.461724,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "414aa9e196fbc07965d3e76494d7d5dc5a9900c27f5f784c7ae87f453e41901d"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "c59aeb69936e39e890f5f8f04681666fec3816f0c2d7d054e4be0f351dea89ee",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The serene waters meander through the countryside as gently as if they flowed through London’s plumbing, yet even the local parish pump is embellished with intricate carvings of wild creatures.",
+      "output_sha256": "c4871ea78fa3750eeba0093b744ed4342bf8729a756044f2c6341bed07e941f6",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.42658,
+      "human_sentence_indices": [
+        8,
+        9
+      ],
+      "human_sha256": [
+        "7e81ae083ea204750d4305b3a5d9ae132151df465edc77dc9b30ba0478707b11",
+        "385def834e9798ccf1dcc542547847ffbaf960cac159b2b2b9c96a6d3d537b0c"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "c4871ea78fa3750eeba0093b744ed4342bf8729a756044f2c6341bed07e941f6",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "This duality reflects a broader truth about art itself.",
+      "output_sha256": "910450a1325b9380224a8f048f756d1da5dd176b6452c4d84254f55e3a19b845",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.30201,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "b386dd2521f8ceb28b318330c4dddd7158c893e26369929174c0aaa3a9ae7651"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "910450a1325b9380224a8f048f756d1da5dd176b6452c4d84254f55e3a19b845",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "We talk of wild animals, but the wildest animal is man.",
+      "output_sha256": "1e4bfdd751a00bcf867b5c15d9a0a280c88a16986127a80a68701f1701f04a69",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "1e4bfdd751a00bcf867b5c15d9a0a280c88a16986127a80a68701f1701f04a69",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "There are sounds in music that are more ancient and awful than the cry of the strangest beast at night.",
+      "output_sha256": "da6765ba080d095ce8d8731f99f582880238f95ece8c4c66b1d40c83203802c5",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "da6765ba080d095ce8d8731f99f582880238f95ece8c4c66b1d40c83203802c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "And so also there are buildings that are shapeless in their strength, seeming to lift themselves slowly like monsters from the primal mire, and there are spires that seem to fly up suddenly like a startled bird.",
+      "output_sha256": "402e7c3998d2fa5d46814c950b5e6af5eb4c5f34cb8cd29674975f03a10c507e",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "402e7c3998d2fa5d46814c950b5e6af5eb4c5f34cb8cd29674975f03a10c507e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "This primal energy manifested in stone speaks to a distinctive aspect of the human spirit.",
+      "output_sha256": "47566af388020fd17b1d72b9aa768276f018b13e70293b9793792d9cf0bcdfb7",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.465731,
+      "human_sentence_indices": [
+        14,
+        15
+      ],
+      "human_sha256": [
+        "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+        "be60cc7c1e4691585cafe298ad88415ec0c82fc7c149d687bf80bca00c78d964"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "47566af388020fd17b1d72b9aa768276f018b13e70293b9793792d9cf0bcdfb7",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "All the beasts of the field are respectable; it is only man who has broken loose.",
+      "output_sha256": "8a351ae30cd1999fd51b6988f6d848a47a761cedff0fb26b43151afc98421c54",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "8a351ae30cd1999fd51b6988f6d848a47a761cedff0fb26b43151afc98421c54",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "All animals are domestic animals; only man is ever undomestic.",
+      "output_sha256": "a38926528c0d80f1feb842b44841abc2fa466fbb1e45907b343174a3d74a2248",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "a38926528c0d80f1feb842b44841abc2fa466fbb1e45907b343174a3d74a2248",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "All animals are tame animals; it is only we who are wild.",
+      "output_sha256": "daf6627454db87d69f3dd93947ee6ff8fd9dc4df612958925d5ac8c6281cd1d7",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "daf6627454db87d69f3dd93947ee6ff8fd9dc4df612958925d5ac8c6281cd1d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And doubtless, also, while this queer energy is common to all human art, it is also generally characteristic of Christian art among the arts of the world.",
+      "output_sha256": "70412df109807865d769cd8061a9d6d59a771176f427dc16bb6183e896d5ccf0",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "70412df109807865d769cd8061a9d6d59a771176f427dc16bb6183e896d5ccf0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "This is what people really mean when they say that Christianity is barbaric, and arose in ignorance.",
+      "output_sha256": "f97444081d3c1daefb5728867bdd356110d72a612527f373c9c75a461850609b",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "f97444081d3c1daefb5728867bdd356110d72a612527f373c9c75a461850609b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "As a matter of historic fact, it didn’t; it arose in the most equably civilised period the world has ever seen.",
+      "output_sha256": "cc56b0acb30df5dd4b936ab9c3712df57390325860601f3cf5ab4b6af07ef59b",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "cc56b0acb30df5dd4b936ab9c3712df57390325860601f3cf5ab4b6af07ef59b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But it is true that there is something in it that breaks the outline of perfect and conventional beauty, something that dots with anger the blind eyes of the Apollo and lashes to a cavalry charge the horses of the Elgin Marbles.",
+      "output_sha256": "3e68b2faf0092a331d0e75b389e517fec421743480ff76c3b9cdcf7108304312",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "3e68b2faf0092a331d0e75b389e517fec421743480ff76c3b9cdcf7108304312",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Christianity is savage, in the sense that it is primeval; there is in it a touch of the nigger hymn.",
+      "output_sha256": "597fd0e349064a4f9620c33de59f23cd34d69824a81afa75991bdca3f5664247",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "597fd0e349064a4f9620c33de59f23cd34d69824a81afa75991bdca3f5664247",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "I recall an engaging discussion in which I had praised the power of militant music in religious settings.",
+      "output_sha256": "f858ba957df7a96975e7328b62b23846ecea7fd5623cfb1875986dcfca5ba8c7",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.5179,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "174a2be9f42866a8ee56d6bdc0ec030ec58598f9a4b425e35b8576aabdc07a14"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "f858ba957df7a96975e7328b62b23846ecea7fd5623cfb1875986dcfca5ba8c7",
+      "ai_unit_sentence_indices": [
+        21,
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Someone posed the question of whether I could envision Christ parading down the street accompanied by a brass band.",
+      "output_sha256": "e1763d8b8c60c68a2d8cb57a14fcc96a7fa7743c9e5ff2413d6056717482111c",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.5179,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "174a2be9f42866a8ee56d6bdc0ec030ec58598f9a4b425e35b8576aabdc07a14"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "e1763d8b8c60c68a2d8cb57a14fcc96a7fa7743c9e5ff2413d6056717482111c",
+      "ai_unit_sentence_indices": [
+        21,
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I said I could imagine it with the greatest ease; for Christ definitely approved a natural noisiness at a great moment.",
+      "output_sha256": "26dfe310321ef0fecc8329a4360a81f2d253137866a7af46895af953131eae58",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "26dfe310321ef0fecc8329a4360a81f2d253137866a7af46895af953131eae58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "When children in the streets raised their voices too loudly, some overly proper disciples attempted to silence them in the name of decorum.",
+      "output_sha256": "007e997beac1a1510a1b524e80384413292ceb59471a5012f7a264675421b049",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.497154,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "95af0f33e33c19671d68583a2740f2bc847ce6d2b8782c6dc8f3229e3d4c41f3"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "007e997beac1a1510a1b524e80384413292ceb59471a5012f7a264675421b049",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "To which Christ retorted, “If these were silent, the very stones would cry out.”",
+      "output_sha256": "534c8c2999a45402e719e478087c4d0eb54378acf604439a646de2da9aab5451",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.740082,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "de957a09a4e2c302e653dcd01374c5c5cbab866e3df9a2434d904708e06cd609"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "534c8c2999a45402e719e478087c4d0eb54378acf604439a646de2da9aab5451",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "With these words He called up all the wealth of artistic creation that has been founded on this creed.",
+      "output_sha256": "cbef6ba6fd9f2df32ac6747de40e92451d5adc04d6263aea88307312608ecdcc",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "cbef6ba6fd9f2df32ac6747de40e92451d5adc04d6263aea88307312608ecdcc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "With those words He founded Gothic architecture.",
+      "output_sha256": "2454ad43951babd04856bbcf1c091f7788c93b597326faea12fe821c51a1318d",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "2454ad43951babd04856bbcf1c091f7788c93b597326faea12fe821c51a1318d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "For in a town like this, which seems to have grown Gothic as a wood grows leaves, anywhere and anyhow, any odd brick or moulding may be carved off into a shouting face.",
+      "output_sha256": "e240ec329139c0e701299d6fc7bbe4c5d79ee30989d1fe1273b732373ce03ad5",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "e240ec329139c0e701299d6fc7bbe4c5d79ee30989d1fe1273b732373ce03ad5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The front of vast buildings is thronged with open mouths, angels praising God, or devils defying Him.",
+      "output_sha256": "028e841db8c461ba260c60d65243b0df3c47642d4032b8d6d4af31baa5e2f724",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "028e841db8c461ba260c60d65243b0df3c47642d4032b8d6d4af31baa5e2f724",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Rock itself is racked and twisted, until it seems to scream.",
+      "output_sha256": "26fef40c27a272d162f5c762ae0d8417bb52fc7c2c3aee3812d4741d6e5edbf1",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "26fef40c27a272d162f5c762ae0d8417bb52fc7c2c3aee3812d4741d6e5edbf1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The miracle is accomplished; the very stones cry out.",
+      "output_sha256": "d09bbde1fffb2d903779c2e07934ca6fb2f4d2cb5ec5a28ed0fdfc15e862c7a0",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "d09bbde1fffb2d903779c2e07934ca6fb2f4d2cb5ec5a28ed0fdfc15e862c7a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "While this fierce creativity may be a hallmark of humanity as a whole and a defining feature of Christian art specifically, it shines most brightly within the artistic expressions of Flanders.",
+      "output_sha256": "194f152f9e8572cc745f007c0ace4e7cca2ffb03e7761889fdcac3f143abf266",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.432097,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "e03259dc885d1bf6dea5c59376ad5c885e836b7040c4dcb5a81f9335c0dbf861"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "194f152f9e8572cc745f007c0ace4e7cca2ffb03e7761889fdcac3f143abf266",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "All Gothic buildings are full of extravagant things in detail; but this is an extravagant thing in design.",
+      "output_sha256": "dc70df1f3d5bdaa82417b1d3e3044fb4d79e0c80612c6dc894a56e759c09c34e",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "dc70df1f3d5bdaa82417b1d3e3044fb4d79e0c80612c6dc894a56e759c09c34e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "All Christian temples worth talking about have gargoyles; but Bruges Belfry is a gargoyle.",
+      "output_sha256": "359d454976149c8cd0dab9a837f4079c8764304c13876abd3386a282ce624f75",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "359d454976149c8cd0dab9a837f4079c8764304c13876abd3386a282ce624f75",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "It is an unnaturally long-necked animal, like a giraffe.",
+      "output_sha256": "c8f8aae21b3e9639a852a2db10be9b0f42b801aad2cf66ffccd147b09f154476",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "c8f8aae21b3e9639a852a2db10be9b0f42b801aad2cf66ffccd147b09f154476",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The same impression of exaggeration is forced on the mind at every corner of a Flemish town.",
+      "output_sha256": "dd91118e8038fb56ffee489cfc289435160709a6421a97997845e662d765945b",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "dd91118e8038fb56ffee489cfc289435160709a6421a97997845e662d765945b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "If one were to ask why the inhabitants of such flat terrain instinctively erected these towering, flamboyant monuments, the only answer that comes to mind is, “Because they were the people of these flat countries.”",
+      "output_sha256": "04acc873035c25e4078fc29378d0c727e9a0c26c4a30d8e9e405a0d861e95232",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.606475,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "0b0c75fae8ee74ff43216a461404e677d1f315bb67e1ecf94fe9b3da48e68c42"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "04acc873035c25e4078fc29378d0c727e9a0c26c4a30d8e9e405a0d861e95232",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "When posed with the question of why the citizens of Bruges sacrificed traditional architecture to embrace dizzying heights, the response can only be, “Because Nature offered them no incentive to do otherwise.”",
+      "output_sha256": "c42362222e148d48b851dc509cee62246bd7db54a4fc2d3baa6ced25f7820c77",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.531417,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "a08120606b4831fcb12aac7b9eb0962e75c78f79ce5d194a8cb70db95d09d94c"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "c42362222e148d48b851dc509cee62246bd7db54a4fc2d3baa6ced25f7820c77",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "As I continue to gaze at the Belfry, I can’t help but smile at the memory of friends in London who firmly believe that children will inevitably reflect the qualities of what they refer to as “the right environment.”",
+      "output_sha256": "f6f86bb9e69c514d467d8ce1db3b75f952ddb44d85e910b18510c76bfa3d5e42",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.53716,
+      "human_sentence_indices": [
+        41,
+        42
+      ],
+      "human_sha256": [
+        "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+        "efccdd8bf0e478f3bb0c96df15c9391bb61f6ebaf7833f1161b9c89bc594fbca"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "f6f86bb9e69c514d467d8ce1db3b75f952ddb44d85e910b18510c76bfa3d5e42",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is a troublesome thing, environment, for it sometimes works positively and sometimes negatively, and more often between the two.",
+      "output_sha256": "c2084ffab9d55380c2241f46d8e43a9be22cbdbf6aeb4d5b2a31639bffc3cdcd",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "c2084ffab9d55380c2241f46d8e43a9be22cbdbf6aeb4d5b2a31639bffc3cdcd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "A beautiful setting might inspire a child to appreciate beauty, or conversely, it could lead to an indifference towards it; most likely, these conflicting influences will cancel each other out.",
+      "output_sha256": "ef8c66545e568a66b9f2ead546307d36fe5e7e6a1b98b79a0c3666090ed515b3",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.453684,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "b59702a5a49af673eb3e721ff5d65eaf0fc332f110d5a2148d2343435fc40eaf"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "ef8c66545e568a66b9f2ead546307d36fe5e7e6a1b98b79a0c3666090ed515b3",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Most likely, that is, the environment will make hardly any difference at all.",
+      "output_sha256": "64f099fb3c041638c80c87d352f8607e550f9db434ab5f6b7f75636a9ec0868b",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "64f099fb3c041638c80c87d352f8607e550f9db434ab5f6b7f75636a9ec0868b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "In the scientific style of history (which was recently fashionable, and is still conventional) we always had a list of countries that had owed their characteristics to their physical conditions.",
+      "output_sha256": "8e21c60d3743b33bc2fa223824b904ec43a5f37d35f5f8254a482ba883e6fd24",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "8e21c60d3743b33bc2fa223824b904ec43a5f37d35f5f8254a482ba883e6fd24",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The Spaniards (it was said) are passionate because their country is hot; Scandinavians adventurous because their country is cold; Englishmen naval because they are islanders; Switzers free because they are mountaineers.",
+      "output_sha256": "1de2af08f317f2100109a6f98007eb561300bf4228030afda15c4c0fd730de2f",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "1de2af08f317f2100109a6f98007eb561300bf4228030afda15c4c0fd730de2f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It is all very nice in its way.",
+      "output_sha256": "6f0b6dcc97b770022f3d9dd6dec70c4cc4ad84ac375daaf4def3e75b96fda5a7",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "6f0b6dcc97b770022f3d9dd6dec70c4cc4ad84ac375daaf4def3e75b96fda5a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Only unfortunately I am quite certain that I could make up quite as long a list exactly contrary in its argument point-blank against the influence of their geographical environment.",
+      "output_sha256": "5445212e8e2e24647d029e08ad8f614379ad4d731c2bb9559fd1d42301fd4e50",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "5445212e8e2e24647d029e08ad8f614379ad4d731c2bb9559fd1d42301fd4e50",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "For example, Spaniards have charted more continents than their Scandinavian counterparts, despite the former's climate potentially discouraging effort.",
+      "output_sha256": "8ef7b47eb78562c0749a518ac57b750ec8efcd7007dc32a08e0e6126c6d81fec",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.4445,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "eb825bffa4f289c322ae3848179b4684c53349f2bb1d2fbc674e493e642153ba"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "8ef7b47eb78562c0749a518ac57b750ec8efcd7007dc32a08e0e6126c6d81fec",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Likewise, the Dutch have fought valiantly for their freedom, much like the Swiss, even though they lack mountains.",
+      "output_sha256": "6f92425a0cfb4833a55d896e4fef5a178bc5d4582e1d202d5661a774bf46331b",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.446491,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "bcfef8aad4b5de54cc3ba3d1b9e90360de0724e37b9908e87fc83251b5d79973"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "6f92425a0cfb4833a55d896e4fef5a178bc5d4582e1d202d5661a774bf46331b",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Thus Pagan Greece and Rome and many Mediterranean peoples have specially hated the sea because they had the nicest sea to deal with, the easiest sea to manage.",
+      "output_sha256": "6d318280247a5385377d22767aabcd40a48dc9fa7bddb08589164b54b63b4a48",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "6d318280247a5385377d22767aabcd40a48dc9fa7bddb08589164b54b63b4a48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I could extend the list for ever.",
+      "output_sha256": "bcf8f1edb4eb82d4cd4b91b773b972ec3df1b0d1e905de9b701edefabb609ecc",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "bcf8f1edb4eb82d4cd4b91b773b972ec3df1b0d1e905de9b701edefabb609ecc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But however long it was, two examples would certainly stand up in it as pre-eminent and unquestionable.",
+      "output_sha256": "c26b885d88a4f9fe7438107f2d670225e25d6efc95ab5e617074e2e2b2538af8",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "c26b885d88a4f9fe7438107f2d670225e25d6efc95ab5e617074e2e2b2538af8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The first is that the Swiss, who live under staggering precipices and spires of eternal snow, have produced no art or literature at all, and are by far the most mundane, sensible, and business-like people in Europe.",
+      "output_sha256": "469df8f54acf9c81b27596c5e07a00e4da81c4f47a3561b4d270ccb0faa276c9",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "469df8f54acf9c81b27596c5e07a00e4da81c4f47a3561b4d270ccb0faa276c9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The other is that the people of Belgium, who live in a country like a carpet, have, by an inner energy, desired to exalt their towers till they struck the stars.",
+      "output_sha256": "e95594644d08c279077e09347fbbd7aa445c8d12404d212b74eb381a361e4247",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "e95594644d08c279077e09347fbbd7aa445c8d12404d212b74eb381a361e4247",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "As it is therefore quite doubtful whether a person will go specially with his environment or specially against his environment, I cannot comfort myself with the thought that the modern discussions about environment are of much practical value.",
+      "output_sha256": "4c0f1b28a94e281453dda348b5138c5998d33e8409e85a0452910b0a1e395067",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "4c0f1b28a94e281453dda348b5138c5998d33e8409e85a0452910b0a1e395067",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Instead of continuing to dwell on these modern theories, I choose to return my focus to the Belfry of Bruges.",
+      "output_sha256": "5b276a65b9172201e3834fe162843fa1dd8cd0073d0a52f26598740c57bd1de3",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.435766,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "f3503c016274ebab98d644fd365b670f2e8c0f7b33b63e7e63c3eac8570daa85"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "5b276a65b9172201e3834fe162843fa1dd8cd0073d0a52f26598740c57bd1de3",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "I would give these theories more consideration if I were not convinced that they would fade into obscurity long before the Belfry itself ever does.",
+      "output_sha256": "ca9d3d98403c640df8271d8ebbc47ade77cd61934a12b0cb394b7edfaa194558",
+      "alignment_unit_index": 52,
+      "alignment_score": 0.563024,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "58660b9df0565dd064e3cf76bd87592255ca25e90c3fe6ca2cc357ad89eff88e"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "ca9d3d98403c640df8271d8ebbc47ade77cd61934a12b0cb394b7edfaa194558",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    }
+  ]
+}

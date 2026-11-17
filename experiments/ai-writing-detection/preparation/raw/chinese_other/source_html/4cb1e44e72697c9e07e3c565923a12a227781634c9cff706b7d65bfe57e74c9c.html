@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《朝花夕拾》狗·猫·鼠 - 可阅文学网</title>
+    <meta name="keywords" content="朝花夕拾,狗·猫·鼠,全文阅读,章节,可阅文学">
+    <meta name="description" content="从去年起，仿佛听得有人说我是仇猫的。那根据自然是在我的那一篇《兔和猫》；这是自画招供，当然无话可说，——但倒也毫不介意。一到今年，我可很有点担心了。我是常不免于弄弄笔墨的，写了">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11068/10002">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11068/10002">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11068/10002">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11068">朝花夕拾</a><span id="top_chaptername" style="float: right">狗·猫·鼠</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　从去年起，仿佛听得有人说我是仇猫的。那根据自然是在我的那一篇《兔和猫》；这是自画招供，当然无话可说，——但倒也毫不介意。一到今年，我可很有点担心了。我是常不免于弄弄笔墨的，写了下来，印了出去，对于有些人似乎总是搔着痒处的时候少，碰着痛处的时候多。万一不谨，甚而至于得罪了名人或名教授<i class="iconfont icon-zhushi" data-content="名人或名教授：指当时现代评论派陈西滢等人。1926年1月20日《晨报副刊》发表岂明《闲话的闲话之闲话》一文，其中说“北京有两位新文化新文学的名人名教授”在诬蔑女学生；同月30日陈西滢即在同一副刊上发表《〈闲话的闲话之闲话〉引出来的几封信》，其中《致岂明》一信说：“我虽然配不上称为新文化新文学的名人名教授，也未免要同其余的读者一样，有些疑心先生骂的有我在里面，虽然我又拿不着把柄。”"></i>，或者更甚而至于得罪了“负有指导青年责任的前辈”<i class="iconfont icon-zhushi" data-content="“负有指导青年责任的前辈”：指徐志摩、陈西滢等。当时作者和现代评论派的论争正在继续，徐志摩在1926年2月3日《晨报副刊》发表《结束闲话，结束废话》一文，其中有双方都是“负有指导青年责任的前辈”之类的话。"></i>之流，可就危险已极。为什么呢？因为这些大脚色是“不好惹”<i class="iconfont icon-zhushi" data-content="“不好惹”：这是徐志摩的话。1926年1月30日《晨报副刊》发表徐志摩为陈西滢辩护的《关于下面一束通信告读者们》，其中说：“说实话，他也不是好惹的。”"></i>的。怎地“不好惹”呢？就是怕要浑身发热<i class="iconfont icon-zhushi" data-content="浑身发热：这是讥讽陈西滢的话。陈在1926年1月30日《晨报副刊》发表的《致志摩》中说：“昨晚因为写另一篇文章，睡迟了，今天似乎有些发热。今天写了这封信，已经疲倦了。”"></i>之后，做一封信登在报纸上，广告道：“看哪！狗不是仇猫的么？鲁迅先生却自己承认是仇猫的，而他还说要打‘落水狗’！”这“逻辑”的奥义，即在用我的话，来证明我倒是狗，于是而凡有言说，全都根本推翻，即使我说二二得四，三三见九，也没有一字不错。这些既然都错，则绅士口头的二二得七，三三见千等等，自然就不错了。<br><br>　　我于是就间或留心着查考它们成仇的“动机”。这也并非敢妄学现下的学者以动机来褒贬作品<i class="iconfont icon-zhushi" data-content="以动机来褒贬作品：这也是针对陈西滢的。陈在《现代评论》第二卷第四十八期（1925年11月7日）的《闲话》中说：“一件艺术品的产生，除了纯粹的创造冲动，是不是常常还夹杂着别种动机？是不是应当夹杂着别种不纯洁的动机？……年青的人，他们观看文艺美术是用十二分虔敬的眼光，一定不愿意承认创造者的动机是不纯粹的吧。可是，看一看古今中外的各种文艺美术品，我们不能不说它们的产生的动机大都是混杂的。”"></i>的那些时髦，不过想给自己预先洗刷洗刷。据我想，这在动物心理学家，是用不着费什么力气的，可惜我没有这学问。后来，在覃哈特<i class="iconfont icon-zhushi" data-content="覃哈特（1870—1915）：今译德恩哈尔特，德国文史学家、民俗学者。"></i>博士（Dr.O.Dähnhardt）的《自然史底国民童话》里，总算发见了那原因了。据说，是这么一回事：动物们因为要商议要事，开了一个会议，鸟，鱼，兽都齐集了，单是缺了象。大会议定，派伙计去迎接它，拈到了当这差使的阄的就是狗。“我怎么找到那象呢？我没有见过它，也和它不认识。”它问。“那容易，”大众说，“它是驼背的。”狗去了，遇见一匹猫，立刻弓起脊梁来，它便招待，同行，将弓着脊梁的猫介绍给大家道：“象在这里！”但是大家都嗤笑它了。从此以后，狗和猫便成了仇家。<br><br>　　日耳曼人<i class="iconfont icon-zhushi" data-content="日耳曼人：古代居住在欧洲东北部的一些部落的总称。起初从事游牧、打猎，公元前一世纪转向定居。公元初分成东、西、北数支，开始阶级分化，出现贵族。东、西二支在公元四到五世纪联合斯拉夫人和罗马奴隶等，推翻了西罗马帝国。此后，他们在罗马领土上建立了许多封建王国。各支日耳曼人同其他原居民结合，形成近代英、德、荷兰、瑞典、挪威、丹麦等民族的祖先。"></i>走出森林虽然还不很久，学术文艺却已经很可观，便是书籍的装潢，玩具的工致，也无不令人心爱。独有这一篇童话却实在不漂亮；结怨也结得没有意思。猫的弓起脊梁，并不是希图冒充，故意摆架子的，其咎却在狗的自己没眼力。然而原因也总可以算作一个原因。我的仇猫，是和这大大两样的。<br><br>　　其实人禽之辨，本不必这样严。在动物界，虽然并不如古人所幻想的那样舒适自由，可是噜苏做作的事总比人间少。它们适性任情，对就对，错就错，不说一句分辩话。虫蛆也许是不干净的，但它们并没有自鸣清高；鸷禽猛兽以较弱的动物为饵，不妨说是凶残的罢，但它们从来就没有竖过“公理”“正义”<i class="iconfont icon-zhushi" data-content="“公理”“正义”：这是陈西滢等常用的字眼。如在1925年11月北京女子师范大学复校后，陈西滢等就在宴会席上组织所谓“教育界公理维持会”，支持北洋政府迫害学生和教育界进步人士。参看《华盖集·“公理”的把戏》。"></i>的旗子，使牺牲者直到被吃的时候为止，还是一味佩服赞叹它们。人呢，能直立了，自然是一大进步；能说话了，自然又是一大进步；能写字作文了，自然又是一大进步。然而也就堕落，因为那时也开始了说空话。说空话尚无不可，甚至于连自己也不知道说着违心之论，则对于只能嗥叫的动物，实在免不得“颜厚有忸怩”<i class="iconfont icon-zhushi" data-content="“颜厚有忸怩”：语出《尚书·五子之歌》：“郁陶乎予心，颜厚有忸怩。”意思是脸皮虽厚，内心也感到惭愧。"></i>。假使真有一位一视同仁的造物主，高高在上，那么，对于人类的这些小聪明，也许倒以为多事，正如我们在万生园<i class="iconfont icon-zhushi" data-content="万生园：也作万牲园，清末设立的动物园，今北京动物园的前身。"></i>里，看见猴子翻筋斗，母象请安，虽然往往破颜一笑，但同时也觉得不舒服，甚至于感到悲哀，以为这些多余的聪明，倒不如没有的好罢。然而，既经为人，便也只好“党同伐异”<i class="iconfont icon-zhushi" data-content="“党同伐异”：语出《后汉书·党锢传序》。意思是纠合同伙，攻击异己。陈西滢曾用此语影射攻击鲁迅，他在《现代评论》第三卷第五十三期（1925年12月12日）的《闲话》中说：“中国人是没有是非的……凡是同党，什么都是好的，凡是异党，什么都是坏的。”"></i>，学着人们的说话，随俗来谈一谈，——辩一辩了。<br><br>　　现在说起我仇猫的原因来，自己觉得是理由充足，而且光明正大的。一，它的性情就和别的猛兽不同，凡捕食雀鼠，总不肯一口咬死，定要尽情玩弄，放走，又捉住，捉住，又放走，直待自己玩厌了，这才吃下去，颇与人们的幸灾乐祸，慢慢地折磨弱者的坏脾气相同。二，它不是和狮虎同族的么？可是有这么一副媚态！但这也许是限于天分之故罢，假使它的身材比现在大十倍，那就真不知道它所取的是怎么一种态度。然而，这些口实，仿佛又是现在提起笔来的时候添出来的，虽然也像是当时涌上心来的理由。要说得可靠一点，或者倒不如说不过因为它们配合时候的嗥叫，手续竟有这么繁重，闹得别人心烦，尤其是夜间要看书，睡觉的时候。当这些时候，我便要用长竹竿去攻击它们。狗们在大道上配合时，常有闲汉拿了木棍痛打；我曾见大勃吕该尔（P.Bruegel d.Ä）的一张铜版画Allegorie der Wollust<i class="iconfont icon-zhushi" data-content="大勃吕该尔（1525—1569）：通译勃鲁盖尔，欧洲文艺复兴时期法兰德斯的讽刺画家。Allegorie der Wollust，德语，意思是“情欲的喻言”。"></i>上，也画着这回事，可见这样的举动，是中外古今一致的。自从那执拗的奥国学者弗罗特<i class="iconfont icon-zhushi" data-content="弗罗特（1856—1939）：通译弗洛伊德，奥地利精神病学家，精神分析学说的创立者。他认为文学、艺术、哲学、宗教等一切精神现象，都是人们因受压抑而潜藏在下意识里的某种“生命力”（Libido），特别是性欲的潜力所产生的。"></i>（S.Freud）提倡了精神分析说——Psychoanalysis，听说章士钊<i class="iconfont icon-zhushi" data-content="章士钊（1881—1973）：字行严，湖南善化（今属长沙）人。曾译有《茀罗乙德叙传》和《心解学》。"></i>先生是译作“心解”的，虽然简古，可是实在难解得很——以来，我们的名人名教授也颇有隐隐约约，检来应用的了，这些事便不免又要归宿到性欲上去。打狗的事我不管，至于我的打猫，却只因为它们嚷嚷，此外并无恶意，我自信我的嫉妒心还没有这么博大，当现下“动辄获咎”之秋，这是不可不预先声明的。例如人们当配合之前，也很有些手续，新的是写情书，少则一束，多则一捆；旧的是什么“问名”“纳采”<i class="iconfont icon-zhushi" data-content="“问名”“纳采”：旧时议婚中的仪式。“问名”是男方通过媒妁问女方的姓名和出生年月日；“纳采”是向女方送定婚的礼物。"></i>，磕头作揖，去年海昌蒋氏在北京举行婚礼，拜来拜去，就十足拜了三天，还印有一本红面子的《婚礼节文》，《序论》里大发议论道：“平心论之，既名为礼，当必繁重。专图简易，何用礼为？……然则世之有志于礼者，可以兴矣！不可退居于礼所不下之庶人矣！”然而我毫不生气，这是因为无须我到场；因此也可见我的仇猫，理由实在简简单单，只为了它们在我的耳朵边尽嚷的缘故。人们的各种礼式，局外人可以不见不闻，我就满不管，但如果当我正要看书或睡觉的时候，有人来勒令朗诵情书，奉陪作揖，那是为自卫起见，还要用长竹竿来抵御的。还有，平素不大交往的人，忽而寄给我一个红帖子，上面印着“为舍妹出阁”，“小儿完姻”，“敬请观礼”或“阖第光临”这些含有“阴险的暗示”<i class="iconfont icon-zhushi" data-content="“阴险的暗示”：这也是陈西滢的话。陈为了否认他说过诬蔑女学生的话，在《致岂明》的信中说：“这话先生说了不止一次了，可是好像每次都在骂我的文章里，而且语气里很带些阴险的暗示。”"></i>的句子，使我不化钱便总觉得有些过意不去的，我也不十分高兴。<br><br>　　但是，这都是近时的话。再一回忆，我的仇猫却远在能够说出这些理由之前，也许是还在十岁上下的时候了。至今还分明记得，那原因是极其简单的：只因为它吃老鼠，——吃了我饲养着的可爱的小小的隐鼠<i class="iconfont icon-zhushi" data-content="隐鼠：即鼷鼠，鼠类中最小的一种。"></i>。<br><br>　　听说西洋是不很喜欢黑猫的，不知道可确；但Edgar Allan Poe<i class="iconfont icon-zhushi" data-content="Edgar Allan Poe 爱伦·坡（1809—1849），美国诗人、小说家。他在短篇小说《黑猫》中，写一个囚犯自述的故事：他因杀死一只猫而被神秘的黑猫逼成了谋杀犯。"></i>的小说里的黑猫，却实在有点骇人。日本的猫善于成精，传说中的“猫婆”<i class="iconfont icon-zhushi" data-content="“猫婆”：日本民间传说：有个老太婆养的一只猫，年久成了精怪；它把老太婆吃掉，又幻变成她的形状去害人。"></i>，那食人的惨酷确是更可怕。中国古时候虽然曾有“猫鬼”，近来却很少听到猫的兴妖作怪，似乎古法已经失传，老实起来了。只是我在童年，总觉得它有点妖气，没有什么好感。那是一个我的幼时的夏夜，我躺在一株大桂树下的小板桌上乘凉，祖母摇着芭蕉扇坐在桌旁，给我猜谜，讲故事。忽然，桂树上沙沙地有趾爪的爬搔声，一对闪闪的眼睛在暗中随声而下，使我吃惊，也将祖母讲着的话打断，另讲猫的故事了——<br><br>　　“你知道么？猫是老虎的先生。”她说。“小孩子怎么会知道呢，猫是老虎的师父。老虎本来是什么也不会的，就投到猫的门下来。猫就教给它扑的方法，捉的方法，吃的方法，像自己的捉老鼠一样。这些教完了；老虎想，本领都学到了，谁也比不过它了，只有老师的猫还比自己强，要是杀掉猫，自己便是最强的脚色了。它打定主意，就上前去扑猫。猫是早知道它的来意的，一跳，便上了树，老虎却只能眼睁睁地在树下蹲着。它还没有将一切本领传授完，还没有教给它上树。”<br><br>　　这是侥幸的，我想，幸而老虎很性急，否则从桂树上就会爬下一匹老虎来。然而究竟很怕人，我要进屋子里睡觉去了。夜色更加黯然；桂叶瑟瑟地作响，微风也吹动了，想来草席定已微凉，躺着也不至于烦得翻来复去了。<br><br>　　几百年的老屋中的豆油灯的微光下，是老鼠跳梁的世界，飘忽地走着，吱吱地叫着，那态度往往比“名人名教授”还轩昂。猫是饲养着的，然而吃饭不管事。祖母她们虽然常恨鼠子们啮破了箱柜，偷吃了东西，我却以为这也算不得什么大罪，也和我不相干，况且这类坏事大概是大个子的老鼠做的，决不能诬陷到我所爱的小鼠身上去。这类小鼠大抵在地上走动，只有拇指那么大，也不很畏惧人，我们那里叫它“隐鼠”，与专住在屋上的伟大者是两种。我的床前就帖着两张花纸，一是“八戒招赘”<i class="iconfont icon-zhushi" data-content="“八戒招赘”：指猪八戒在高老庄入赘高太公家的故事，见于《西游记》第十八回。"></i>，满纸长嘴大耳，我以为不甚雅观；别的一张“老鼠成亲”<i class="iconfont icon-zhushi" data-content="“老鼠成亲”：旧时江浙一带的民间传说：夏历正月十四日的半夜是老鼠成亲的日期。"></i>却可爱，自新郎新妇以至傧相，宾客，执事，没有一个不是尖腮细腿，像煞读书人的，但穿的都是红衫绿裤。我想，能举办这样大仪式的，一定只有我所喜欢的那些隐鼠。现在是粗俗了，在路上遇见人类的迎娶仪仗，也不过当作性交的广告看，不甚留心；但那时的想看“老鼠成亲”的仪式，却极其神往，即使像海昌蒋氏似的连拜三夜，怕也未必会看得心烦。正月十四的夜，是我不肯轻易便睡，等候它们的仪仗从床下出来的夜。然而仍然只看见几个光着身子的隐鼠在地面游行，不像正在办着喜事。直到我熬不住了，怏怏睡去，一睁眼却已经天明，到了灯节了。也许鼠族的婚仪，不但不分请帖，来收罗贺礼，虽是真的“观礼”，也绝对不欢迎的罢，我想，这是它们向来的习惯，无法抗议的。<br><br>　　老鼠的大敌其实并不是猫。春后，你听到它“咋！咋咋咋咋！”地叫着，大家称为“老鼠数铜钱”的，便知道它的可怕的屠伯已经光降了。这声音是表现绝望的惊恐的，虽然遇见猫，还不至于这样叫。猫自然也可怕，但老鼠只要窜进一个小洞去，它也就奈何不得，逃命的机会还很多。独有那可怕的屠伯——蛇，身体是细长的，圆径和鼠子差不多，凡鼠子能到的地方，它也能到，追逐的时间也格外长，而且万难幸免，当“数钱”的时候，大概是已经没有第二步办法的了。<br><br>　　有一回，我就听得一间空屋里有着这种“数钱”的声音，推门进去，一条蛇伏在横梁上，看地上，躺着一匹隐鼠，口角流血，但两胁还是一起一落的。取来给躺在一个纸盒子里，大半天，竟醒过来了，渐渐地能够饮食，行走，到第二日，似乎就复了原，但是不逃走。放在地上，也时时跑到人面前来，而且缘腿而上，一直爬到膝髁。给放在饭桌上，便检吃些菜渣，舐舐碗沿；放在我的书桌上，则从容地游行，看见砚台便舐吃了研着的墨汁。这使我非常惊喜了。我听父亲说过的，中国有一种墨猴，只有拇指一般大，全身的毛是漆黑而且发亮的。它睡在笔筒里，一听到磨墨，便跳出来，等着，等到人写完字，套上笔，就舐尽了砚上的余墨，仍旧跳进笔筒里去了。我就极愿意有这样的一个墨猴，可是得不到；问那里有，那里买的呢，谁也不知道。“慰情聊胜无”<i class="iconfont icon-zhushi" data-content="“慰情聊胜无”：语出晋代陶渊明诗《和刘柴桑》：“弱女虽非男，慰情良胜无。”"></i>，这隐鼠总可以算是我的墨猴了罢，虽然它舐吃墨汁，并不一定肯等到我写完字。<br><br>　　现在已经记不分明，这样地大约有一两月；有一天，我忽然感到寂寞了，真所谓“若有所失”。我的隐鼠，是常在眼前游行的，或桌上，或地上。而这一日却大半天没有见，大家吃午饭了，也不见它走出来，平时，是一定出现的。我再等着，再等它一半天，然而仍然没有见。<br><br>　　长妈妈，一个一向带领着我的女工，也许是以为我等得太苦了罢，轻轻地来告诉我一句话。这即刻使我愤怒而且悲哀，决心和猫们为敌。她说：隐鼠是昨天晚上被猫吃去了！<br><br>　　当我失掉了所爱的，心中有着空虚时，我要充填以报仇的恶念！<br><br>　　我的报仇，就从家里饲养着的一匹花猫起手，逐渐推广，至于凡所遇见的诸猫。最先不过是追赶，袭击；后来却愈加巧妙了，能飞石击中它们的头，或诱入空屋里面，打得它垂头丧气。这作战继续得颇长久，此后似乎猫都不来近我了。但对于它们纵使怎样战胜，大约也算不得一个英雄；况且中国毕生和猫打仗的人也未必多，所以一切韬略，战绩，还是全都省略了罢。<br><br>　　但许多天之后，也许是已经经过了大半年，我竟偶然得到一个意外的消息：那隐鼠其实并非被猫所害，倒是它缘着长妈妈的腿要爬上去，被她一脚踏死了。<br><br>　　这确是先前所没有料想到的。现在我已经记不清当时是怎样一个感想，但和猫的感情却终于没有融和；到了北京，还因为它伤害了兔的儿女们，便旧隙夹新嫌，使出更辣的辣手。“仇猫”的话柄，也从此传扬开来。然而在现在，这些早已是过去的事了，我已经改变态度，对猫颇为客气，倘其万不得已，则赶走而已，决不打伤它们，更何况杀害。这是我近几年的进步。经验既多，一旦大悟，知道猫的偷鱼肉，拖小鸡，深夜大叫，人们自然十之九是憎恶的，而这憎恶是在猫身上。假如我出而为人们驱除这憎恶，打伤或杀害了它，它便立刻变为可怜，那憎恶倒移在我身上了。所以，目下的办法，是凡遇猫们捣乱，至于有人讨厌时，我便站出去，在门口大声叱曰：“嘘！滚！”小小平静，即回书房，这样，就长保着御侮保家的资格。其实这方法，中国的官兵就常在实做的，他们总不肯扫清土匪或扑灭敌人，因为这么一来，就要不被重视，甚至于因失其用处而被裁汰。我想，如果能将这方法推广应用，我大概也总可望成为所谓“指导青年”的“前辈”的罢，但现下也还未决心实践，正在研究而且推敲。<br><br><p class="wt">一九二六年二月二十一日。</p></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11068/10003">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/11068/10001">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="56" data-goods-name="山姆代购 臻味三重菇脆黑松露风味酥脆菌菇干休闲轻零食338g" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3848289782572646473&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_28ad1d619fcd83cc48b4a293d07b57f8_sx_454271_www1000-1000"
+                         alt="山姆代购 臻味三重菇脆黑松露风味酥脆菌菇干休闲轻零食338g">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">山姆代购 臻味三重菇脆黑松露风味酥脆菌菇干休闲轻零食338g</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>58.16</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span></span>
+                </p>
+                <li>
+                    <a href="/book/11068/10001">小引</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/11068/10002">狗·猫·鼠</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10003">阿长与《山海经》</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10004">《二十四孝图》</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10005">五猖会</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10006">无常</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10007">从百草园到三味书屋</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10008">父亲的病</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10009">琐记</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10010">藤野先生</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10011">范爱农</a>
+                </li>
+                <li>
+                    <a href="/book/11068/10012">后记</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af022921ba59cf20_052fc3360f25a9154f14d7e9703bb9bd";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "expected": 100,
+  "records": 100,
+  "texts": 100,
+  "paid_response_count": 141,
+  "rewritten_after_first_attempt_count": 33,
+  "selected_cost_usd": 0.11599725000000001,
+  "all_attempts_cost_usd": 0.16066065,
+  "length_ratio_min": 0.826318335752298,
+  "length_ratio_max": 1.087256027554535,
+  "targeted_counts": {
+    "targeted_overlap_retry": 1,
+    "targeted_length_retry": 2
+  },
+  "flagged": [
+    {
+      "source_id": "ZH066",
+      "flags": [
+        "outside_corpus_length_range"
+      ],
+      "fivegram_overlap": 0.19478260869565217
+    }
+  ],
+  "audit_failures": []
+}

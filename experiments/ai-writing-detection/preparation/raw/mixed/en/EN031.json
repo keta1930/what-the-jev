@@ -1,0 +1,77 @@
+{
+  "source_id": "EN031",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "2a842b867d06b2bbf6d2750d5d956d404286bfda2e858f59c7ecb6faf841868b",
+    "e7f85b06b170fe10852fe5a07fc9f8a196db67fa8916867036ee30795bdabcb5",
+    "bdc2193e472d567909de2c3f98609185ee877fb6e1d92ba13b8da826c19d4692"
+  ],
+  "source_block_sha256": "e7f85b06b170fe10852fe5a07fc9f8a196db67fa8916867036ee30795bdabcb5",
+  "ai_block_sha256": "e21139fa2b88e3ee9debe39db3eff87d22157a31a72744739620578ce1cca903",
+  "mixed_sha256": "0d8751a66f944974de213659f611eada329345dab842bf4524ea74be60167729",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 397-595 words, aiming for 496. Use exactly 4 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nTake, for instance, such a simple object as a lamp-post. In London a lamp-post is a comic thing. We think of the intoxicated gentleman embracing it, and recalling ancient friendship. But in Paris a lamp-post is a tragic thing. For we think of tyrants hanged on it, and of an end of the world. There is, or was, a bitter Republican paper in Paris called LA LANTERNE. How funny it would be if there were a Progressive paper in England called THE LAMP POST! We have said, then, that the Frenchman is the man in the street; that he can dine in the street, and die in the street. And if I ever pass through Paris and find him going to bed in the street, I shall say that he is still true to the genius of his civilisation. All that is good and all that is evil in France is alike connected with this open-air element. French democracy and French indecency are alike part of the desire to have everything out of doors. Compared to a café, a public-house is a private house.\n\n.....\n\nThere were two reasons why all these fancies should float through the mind in the streets of this especial town of Belfort. First of all, it lies close upon the boundary of France and Germany, and boundaries are the most beautiful things in the world. To love anything is to love its boundaries; thus children will always play on the edge of anything. They build castles on the edge of the sea, and can only be restrained by public proclamation and private violence from walking on the edge of the grass. For when we have come to the end of a thing we have come to the beginning of it.\n\nHence this town seemed all the more French for being on the very margin of Germany, and although there were many German touches in the place—German names, larger pots of beer, and enormous theatrical barmaids dressed up in outrageous imitation of Alsatian peasants—yet the fixed French colour seemed all the stronger for these specks of something else. All day long and all night long troops of dusty, swarthy, scornful little soldiers went plodding through the streets with an air of stubborn disgust, for German soldiers look as if they despised you, but French soldiers as if they despised you and themselves even more than you. It is a part, I suppose, of the realism of the nation which has made it good at war and science and other things in which what is necessary is combined with what is nasty. And the soldiers and the civilians alike had most of them cropped hair, and that curious kind of head which to an Englishman looks almost brutal, the kind that we call a bullet-head. Indeed, we are speaking very appropriately when we call it a bullet-head, for in intellectual history the heads of Frenchmen have been bullets—yes, and explosive bullets."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 762,
+    "completion_tokens": 521,
+    "total_tokens": 1283,
+    "cost": 0.0004269,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004269,
+      "upstream_inference_prompt_cost": 0.0001143,
+      "upstream_inference_completions_cost": 0.0003126
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0004269,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 496,
+    "output_words": 434,
+    "lower_words": 397,
+    "upper_words": 595,
+    "source_paragraphs": 4,
+    "output_paragraphs": 4,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.002325581395348837,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true,
+    "formatting_only": true
+  },
+  "formatting_only": true,
+  "formatting_algorithm": "Adjust only sentence/paragraph-boundary whitespace until the model output has the source block paragraph count; verify the non-whitespace character sequence is unchanged",
+  "model_output_sha256": "6f5ee61ef4fbd9ff815d1bc614e91087555133bf98f1ada15de181d9f20edcd7",
+  "model_output_path": "raw/mixed/en/EN031.model.txt",
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN031.txt",
+  "mixed_path": "clean/mixed/en/EN031.txt",
+  "response_path": "raw/mixed/en/EN031.response.json"
+}

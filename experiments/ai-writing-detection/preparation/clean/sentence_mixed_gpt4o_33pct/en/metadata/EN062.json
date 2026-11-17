@@ -1,0 +1,947 @@
+{
+  "source_id": "EN062",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "1db79530008c33086227c55c2d6fc1689d1e06da2ba59171af1c32a0247da7b7",
+  "ai_article_sha256": "54e77f494109f8cf0ffde85e9555dffc3cc66f75c590af23041a3ed3a602de1a",
+  "mixed_article_sha256": "398615aa8b4fbaf3e81d0a9c484c36c48fec3573c8e89bf38fc2347db8e58bf6",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 70,
+  "alignment_unit_count": 62,
+  "selected_alignment_unit_count": 20,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.27698,
+  "selected_alignment_score_median": 0.535,
+  "selected_alignment_score_max": 0.876307,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "My hostess and her daughter met me at the station in the little pony-cart and we set off at a gentle trot, conversing as we went.",
+      "output_sha256": "68340d79ea7f7e7bd71e2612f106d590065d9b4f8a5e8586abe0feb0874bba25",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "68340d79ea7f7e7bd71e2612f106d590065d9b4f8a5e8586abe0feb0874bba25",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "That is to say, they asked questions about London and the great wicked world, and I endeavoured to answer them.",
+      "output_sha256": "2b4329ee497322ee847715b29348801ae2ec7f127e55410a619f3929f17bbddf",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "2b4329ee497322ee847715b29348801ae2ec7f127e55410a619f3929f17bbddf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It was high if premature summer; the sky was blue, the hedges and the grass were growing almost audibly, the birds sang, the sun blazed, and, to lighten the burden, I walked up two or three hills without the faintest enthusiasm.",
+      "output_sha256": "bf3e9a9c11df15754ed07713215e73dd75291ac4d7ef8f46c738d1ede5b7f278",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "bf3e9a9c11df15754ed07713215e73dd75291ac4d7ef8f46c738d1ede5b7f278",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Just after the top of the last hill, when I had again resumed my seat (at the risk once more of lifting the pony into the zenith), the ladies simultaneously uttered a shrill cry of dismay.",
+      "output_sha256": "e985d72f1177b1ff39e368c4028f633e555b21b6a622ac3bb4b3eae2bddf9193",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "e985d72f1177b1ff39e368c4028f633e555b21b6a622ac3bb4b3eae2bddf9193",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Look!\" they exclaimed; \"there's Bunty!\"",
+      "output_sha256": "cfbf8aa8ae85257e6ed3ec0985be166b47b7e331aa22bb00a1815091dcb2cc4e",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "cfbf8aa8ae85257e6ed3ec0985be166b47b7e331aa22bb00a1815091dcb2cc4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "I turned my gaze to find a small West Highland terrier in the road, her coat as white as a freshly washed rag after a dip in a muddy ditch.",
+      "output_sha256": "56c5cef76deb8cd190a81084e38f4a177e8bf61aa20fd4a1578f0a446b32185a",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.513041,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "e08dcb81ac8feb8b52ec0bf5fad0017ef665a68dac04c1874cd4edf9b4475ffe"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "56c5cef76deb8cd190a81084e38f4a177e8bf61aa20fd4a1578f0a446b32185a",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "\"Bunty!",
+      "output_sha256": "e3de0c23873fecce0b04a96b1955946d123af52a13eae5709aeeb3b3a6e684df",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "e3de0c23873fecce0b04a96b1955946d123af52a13eae5709aeeb3b3a6e684df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Bunty! you wicked dog!\" they cried; \"how dare you go hunting?\"",
+      "output_sha256": "6bb31b382e3f705d76036571f6e4a89a4d8e201f54edcecc0a49c35cabc5fe65",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "6bb31b382e3f705d76036571f6e4a89a4d8e201f54edcecc0a49c35cabc5fe65",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "In response to their reprimand, Bunty simply ducked under a nearby hedge, seeking a sliver of shade, appearing both exhausted and cautious.",
+      "output_sha256": "0d58ba3dc52166ffec0e03de5a2b636db12f3b9999d5dd0bbd5533bb54ea68ff",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.310037,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "3e3e09117bb30a747aa7d91a9b41acf0fe0601e77d7a579c35825e622890fb82"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "0d58ba3dc52166ffec0e03de5a2b636db12f3b9999d5dd0bbd5533bb54ea68ff",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "\"My goodness, how naughty she is!\" my hostess lamented.",
+      "output_sha256": "f23e409a0018fac3751869f00dd08b137d1e20d0050c5d6d9210867dc98e3018",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.501905,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "797bddd41e5594ad6ba7bda3aa7eba8944ff9a697af0f7160cd8fb856cf82801"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "f23e409a0018fac3751869f00dd08b137d1e20d0050c5d6d9210867dc98e3018",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "\"I left her in the house.\"",
+      "output_sha256": "2b6b70c6122618fac9dfd35532a288b2822d66fcdec9d821da289d810ee08326",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "2b6b70c6122618fac9dfd35532a288b2822d66fcdec9d821da289d810ee08326",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "\"Yes,\" her daughter added, \"if she’s going to go hunting like this, we’ll have complaints from everyone.",
+      "output_sha256": "7a4ae32838c29a0f559490e8cb88c094b2ce2c4f3b3e59e6c3ab97f85e581529",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.538919,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "9422e548457b834090ba1337035ec331a87193cd0e17e40a745694e415e6fa36"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "7a4ae32838c29a0f559490e8cb88c094b2ce2c4f3b3e59e6c3ab97f85e581529",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "There'll be complaints from every one.",
+      "output_sha256": "dc879347d4179a0f54aa8b81b106a5112ae5fccefba6ed6a24fdc6657bb5077d",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "dc879347d4179a0f54aa8b81b106a5112ae5fccefba6ed6a24fdc6657bb5077d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "She's never done it before.\"",
+      "output_sha256": "333badd551b19a1c89fba077885ef89be5f656e02e48658c19025a6dec088441",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "333badd551b19a1c89fba077885ef89be5f656e02e48658c19025a6dec088441",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "\"C’mon, Bunty!\" my hostess called in the sweet tones of a dog owner who believes their pet will respond to any entreaty.",
+      "output_sha256": "e14a5f4836243129cff49697e0322b636ec29bd724fab8b148b9ec07dd35560c",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.406136,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "4f5ac6bc3556ffd3899889ce8b807c278cb4e564608376890f10c92e20f0c260"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "e14a5f4836243129cff49697e0322b636ec29bd724fab8b148b9ec07dd35560c",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "But Bunty remained motionless.",
+      "output_sha256": "282f11e199a89f34ee88c9e05e4cb9e13a964133ec1aec3b9c3fcca3762eb620",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.535,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "f30cee9bca506305ba829e4932b384793e454d18e4a00fd3f8ff0a84c9fcca1d"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "282f11e199a89f34ee88c9e05e4cb9e13a964133ec1aec3b9c3fcca3762eb620",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "\"If we drive on perhaps she'll follow,\" said the daughter, and we drove on a few yards; but Bunty did not move.",
+      "output_sha256": "f414b737a78e2847b45ad8b08c84151e1e69808c2718224327d3f4d428055f67",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "f414b737a78e2847b45ad8b08c84151e1e69808c2718224327d3f4d428055f67",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "We stopped again, while coaxing noises were made, calculated to soften the hearts of rocks; but Bunty refused to stir.",
+      "output_sha256": "e7c1fde893787456047392406d94691edbabb6c98de210fc98406f2f020aff16",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "e7c1fde893787456047392406d94691edbabb6c98de210fc98406f2f020aff16",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "\"She'll come on later,\" I suggested.",
+      "output_sha256": "2790fb4232f375149095f4dbc54ac743d71f5a6e493cd8e83c225d45480d5425",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "2790fb4232f375149095f4dbc54ac743d71f5a6e493cd8e83c225d45480d5425",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "\"Oh no,\" her elderly mistress replied, \"we can’t leave her here when she has never wandered off alone before.",
+      "output_sha256": "7d40eeab608df8c7808c6878cb29b860ca29d1d672752b1287e6ee1b712eb93d",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.707895,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "f0824572bac6f22430b8fd5ce84f4bae8da6f09bc8e900e5c01d724436d33b2a"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "7d40eeab608df8c7808c6878cb29b860ca29d1d672752b1287e6ee1b712eb93d",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "Bunty!",
+      "output_sha256": "8536b40889155fa228c0214292b4d5026d33564411f1c9ca8b16740dd6a35d49",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "8536b40889155fa228c0214292b4d5026d33564411f1c9ca8b16740dd6a35d49",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "Bunty! don't be so naughty.",
+      "output_sha256": "25ec559f9d98632577ff7abf0659769cd6ab21f39b41006a65caea443d147de4",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "25ec559f9d98632577ff7abf0659769cd6ab21f39b41006a65caea443d147de4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Come on, dear little Bunty.\"",
+      "output_sha256": "f89c88faa8531a03593f0ceb3f8fdc1475de1e4a9fc6b30e86e1006cad4b8006",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.692857,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "851acf54713ef5b63ea29fd17f5b2eab78670bbdc82e2109a846eb8bec22fed3"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "f89c88faa8531a03593f0ceb3f8fdc1475de1e4a9fc6b30e86e1006cad4b8006",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "But Bunty merely glittered at us through her white-hair entanglement and remained perfectly still.",
+      "output_sha256": "56e4e3ce61127ec3b75276d73a09835baf8c4851b71a6fde25eb946f1fc935ac",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "56e4e3ce61127ec3b75276d73a09835baf8c4851b71a6fde25eb946f1fc935ac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "I wasn't particularly fond of strange dogs, but with my hostess unable to move quickly and her daughter at the reins, it felt inevitable that I would need to intervene and retrieve the misbehaving terrier.",
+      "output_sha256": "319f87133be9ea75f41b82c3f1d060cf221c6215fd346b99e27ade59e1f2e625",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.27698,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "093ffa278d084b839ce2def2885e737749e9ba06111fdbbfbdc2b437ed4b92a8"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "319f87133be9ea75f41b82c3f1d060cf221c6215fd346b99e27ade59e1f2e625",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "\"Would you mind?\" my hostess asked.",
+      "output_sha256": "6eeb0a2b33c829b07b0b2af9e84dc84cd5d80ec80a124613ec6eac40cd91c2c2",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.667582,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "9672378411138bf6239462a07b8f8b331b5e0fbcf564b0d3fc9c9526b41cb4f8"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "6eeb0a2b33c829b07b0b2af9e84dc84cd5d80ec80a124613ec6eac40cd91c2c2",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "\"I assure you, she won’t bite.",
+      "output_sha256": "2d7760e1ddf6073d71774b3b0a2c239275e99ea3fa4981b3d77ea6d7beef15e3",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.41,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "2ca4ce4d73e3489b6c8551411af267f238d188df3123a3bc4b707f451af71689"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "2d7760e1ddf6073d71774b3b0a2c239275e99ea3fa4981b3d77ea6d7beef15e3",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "She's a perfect dear.\"",
+      "output_sha256": "d3a0bef7e942b0377939c47c25bf775533e9caf5828baaf2c45f6ac5f6017d3a",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "d3a0bef7e942b0377939c47c25bf775533e9caf5828baaf2c45f6ac5f6017d3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 18,
+      "origin": "human",
+      "text": "Trying hard to forget how painful to legs or hands can be the smart closing of the snappy jaws of dogs that won't bite, I advanced stealthily towards Bunty, murmuring ingratiating words.",
+      "output_sha256": "77c19e71c1ac0a0fa32a504f32bd1eebb719b31220d0c2ce38ab99166a652625",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "77c19e71c1ac0a0fa32a504f32bd1eebb719b31220d0c2ce38ab99166a652625",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 19,
+      "origin": "human",
+      "text": "When I was quite close she turned over on her back, lifted her paws, and obviously commended her soul to Heaven; and I had therefore no difficulty in lifting her up and carrying her to the trap.",
+      "output_sha256": "e4363989ad14a165d4361d08759f119439ec00442ac74cba3e5a59aa1d846028",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "e4363989ad14a165d4361d08759f119439ec00442ac74cba3e5a59aa1d846028",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 20,
+      "origin": "human",
+      "text": "Her mistresses received her with rapture, disguised, but by no means successfully, by reproach and reproof, and we were beginning to drive on again when an excited voice called upon us to stop, and a strange lady, of the formidable unmarried kind, with a very red face beneath a purple parasol, confronted us.",
+      "output_sha256": "84198d823739f74cc8e85fc80f669550a319125d535744dfeb17f4e18e5dd040",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "84198d823739f74cc8e85fc80f669550a319125d535744dfeb17f4e18e5dd040",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 21,
+      "origin": "ai",
+      "text": "\"What,\" she panted, \"is the meaning of this?",
+      "output_sha256": "0794d31fac834b48572dd0e3a820f5e3bf3309770952db5197b63c7e15ff96e9",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.876307,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "817b02806c13dbd89c1558865721c3ea9612028af20ce949e1836b29c4707852"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "0794d31fac834b48572dd0e3a820f5e3bf3309770952db5197b63c7e15ff96e9",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 21,
+      "origin": "human",
+      "text": "How dare you steal my dog?\"",
+      "output_sha256": "b2d094747892949d9549fd92856dc4feccc8140862250e4b37475868fedf0d2a",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "b2d094747892949d9549fd92856dc4feccc8140862250e4b37475868fedf0d2a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "\"Your dog, madam?\"",
+      "output_sha256": "38bad8964b704b2c3157a85e0093bd967727000a291987a914eae69268ecd52a",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "38bad8964b704b2c3157a85e0093bd967727000a291987a914eae69268ecd52a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 22,
+      "origin": "human",
+      "text": "I began.",
+      "output_sha256": "7782daa1fc443848d04fd67e6ef9f9ee5dae6913ba64a36b50cc5bac261faf6f",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "7782daa1fc443848d04fd67e6ef9f9ee5dae6913ba64a36b50cc5bac261faf6f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "\"It's no use denying it,\" she burst in, \"I saw you do it.",
+      "output_sha256": "00a8f38bd89818c461276b904d5c560c30db514a37a57792089b16fba3b97aeb",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "00a8f38bd89818c461276b904d5c560c30db514a37a57792089b16fba3b97aeb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "I saw you pick it up and carry it to the trap.",
+      "output_sha256": "19c63bf982b801ebb9431d32f1cc40124144e221ed27fe3c6fd5f3c12b75cb4e",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "19c63bf982b801ebb9431d32f1cc40124144e221ed27fe3c6fd5f3c12b75cb4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "It's—it's monstrous.",
+      "output_sha256": "e2559442122efcfecd2540474a8a4b65a6ee7a1a3bae698880f87d3dee8e9ccd",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "e2559442122efcfecd2540474a8a4b65a6ee7a1a3bae698880f87d3dee8e9ccd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 23,
+      "origin": "human",
+      "text": "I shall go to the police about it.\"",
+      "output_sha256": "1819b6874d3b09c07cf4c0bfb52ec211225b92df1b4d1b089fa7e8258b938d7b",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "1819b6874d3b09c07cf4c0bfb52ec211225b92df1b4d1b089fa7e8258b938d7b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 24,
+      "origin": "human",
+      "text": "Meanwhile, it cannot be denied, the dog was showing signs of delight and recognition such as had previously been lacking.",
+      "output_sha256": "3cfcc3c8be5e61ae843128fc1095cfed7a4259395f27607d1b59d6889f504d02",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "3cfcc3c8be5e61ae843128fc1095cfed7a4259395f27607d1b59d6889f504d02",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 25,
+      "origin": "ai",
+      "text": "\"But—\" my hostess started, not one for conflict.",
+      "output_sha256": "06f89fc9aa2498a82a5ed1a2fc583426c1d6bad95f199f90c0e703c5238ebefb",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.429458,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "18b893a3a88c25fabd2668f5573db7072dd0c6216b96b31d8ece5786fc6b14d5"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "06f89fc9aa2498a82a5ed1a2fc583426c1d6bad95f199f90c0e703c5238ebefb",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 26,
+      "origin": "ai",
+      "text": "\"We ought to recognize our own dog when we see her,\" the daughter chimed in, not shying away from a confrontation.",
+      "output_sha256": "8261f30b7c3eb8af73e4e07cc6d3c00c3f8203aa089ec856fa104151e515e1e0",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.638342,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "9201b3b0685b88a52a457edb3a512f2cac243f870d082e3dccdc51e29dba4401"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "8261f30b7c3eb8af73e4e07cc6d3c00c3f8203aa089ec856fa104151e515e1e0",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 27,
+      "origin": "human",
+      "text": "\"Certainly,\" said the angry lady, \"if you have a dog of your own.\"",
+      "output_sha256": "5d90762fa9d55aca33836356f3e78d4a7a44fedf5c6df9bbad9789b17756c54d",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "5d90762fa9d55aca33836356f3e78d4a7a44fedf5c6df9bbad9789b17756c54d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 28,
+      "origin": "human",
+      "text": "\"Of course we have,\" said the daughter; \"we have a West Highland named Bunty.\"",
+      "output_sha256": "cc586988d9dab7a894acab2ad157234d46f22386a19079245be80d70a6e4aa66",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "cc586988d9dab7a894acab2ad157234d46f22386a19079245be80d70a6e4aa66",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 29,
+      "origin": "human",
+      "text": "\"This happens to be my West Highland, named Wendy,\" said the lady, \"as you will see if you look on the collar.",
+      "output_sha256": "a08786a2c7c12d6a9cca7b219236f6ec233d1386568b3c3bab7a187c47986222",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "a08786a2c7c12d6a9cca7b219236f6ec233d1386568b3c3bab7a187c47986222",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 29,
+      "origin": "ai",
+      "text": "My name is also on there—Miss Morrison, 14 Park Terrace, W. I’m staying at Well House Farm.\"",
+      "output_sha256": "56cbda2c364003a169838c37e5689646276c03d3d0e617e54e2bb167169d4264",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.845,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "93a84f047969de7c2b0c8e69a7ac5e61b2553d429d4dd3740be33c9913f03c21"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "56cbda2c364003a169838c37e5689646276c03d3d0e617e54e2bb167169d4264",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 30,
+      "origin": "human",
+      "text": "And it was so.",
+      "output_sha256": "b0f35387a0820a946ac1c880a642959c89b62b0deec099009958a9a6167d637d",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "b0f35387a0820a946ac1c880a642959c89b62b0deec099009958a9a6167d637d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 31,
+      "origin": "human",
+      "text": "It was on the tip of my tongue to point out that collars, being easily exchangeable, are not evidence; but I thought it better that any such suggestion should come from elsewhere.",
+      "output_sha256": "fe099266eec4b0d8cd80534a7765e92eead1020c8469f873907f56fefc6c417d",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "fe099266eec4b0d8cd80534a7765e92eead1020c8469f873907f56fefc6c417d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 32,
+      "origin": "ai",
+      "text": "\"It’s quite curious,\" the daughter remarked, scrutinizing the dog closely.",
+      "output_sha256": "0372b030a7c3d76cb546b06087a504b2c7e481cdd9ed6287a536928ae2b1d0b1",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.412992,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "3a42f24acab0cf406c021f19612448eed21785f34119867c739eceb3bf65bebf"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "0372b030a7c3d76cb546b06087a504b2c7e481cdd9ed6287a536928ae2b1d0b1",
+      "ai_unit_sentence_indices": [
+        55,
+        56
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 32,
+      "origin": "ai",
+      "text": "\"If this isn’t Bunty, it’s her exact double.\"",
+      "output_sha256": "f79c94b898c4cef20211b663130b0a3d46574ee4a3ef8c5a428f53b5d38cb766",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.412992,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "3a42f24acab0cf406c021f19612448eed21785f34119867c739eceb3bf65bebf"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "f79c94b898c4cef20211b663130b0a3d46574ee4a3ef8c5a428f53b5d38cb766",
+      "ai_unit_sentence_indices": [
+        55,
+        56
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 33,
+      "origin": "human",
+      "text": "\"It is not Bunty, but Wendy,\" said Miss Morrison coldly; \"and I shall be glad if you will give her to me.\"",
+      "output_sha256": "2e6448fcbf4cc08eb287ab30a285626aa4de88dca6f688a40cc39c4f6cb834e6",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "2e6448fcbf4cc08eb287ab30a285626aa4de88dca6f688a40cc39c4f6cb834e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 34,
+      "origin": "ai",
+      "text": "\"But—\" the daughter began again.",
+      "output_sha256": "bcb6b1442b37c8e1f51b686f31a600890fff024f7ea79514b491df9ec6e1c627",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.81,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "d7db399e8ef8f618d94d09089be6376f6c5c9d35b984433a565e8ba842486849"
+      ],
+      "source_ai_sentence_index": 59,
+      "source_ai_sha256": "bcb6b1442b37c8e1f51b686f31a600890fff024f7ea79514b491df9ec6e1c627",
+      "ai_unit_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 35,
+      "origin": "human",
+      "text": "\"Yes, give the lady the dog,\" said the mother.",
+      "output_sha256": "249e403bf4525a02073978951371482a965a9067e25297b97a6d11b7ead9ae4d",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "249e403bf4525a02073978951371482a965a9067e25297b97a6d11b7ead9ae4d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 36,
+      "origin": "human",
+      "text": "In the regrettable absence of Solomon, who would, of course, have cut the little devil in two, there was nothing for it but to surrender; and the couple went off together, the dog exhibiting every sign of pleasure.",
+      "output_sha256": "945587784b2fa9852b7da6991bdd849ed659c339a6f7c2248f7e586fd2ed5d26",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "945587784b2fa9852b7da6991bdd849ed659c339a6f7c2248f7e586fd2ed5d26",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 37,
+      "origin": "human",
+      "text": "Meanwhile the daughter whipped up the pony, and we soon entered the gates.",
+      "output_sha256": "86f15ff3b525da01cef626af6068ef9b6ac71b371f8985e1e15ff5accf36167d",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "86f15ff3b525da01cef626af6068ef9b6ac71b371f8985e1e15ff5accf36167d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 38,
+      "origin": "ai",
+      "text": "Awaiting us in the driveway was a West Highland terrier named Bunty.",
+      "output_sha256": "bd9952f1225a4b45dd81e8a23bbbc7cf767fa053a97aa974d20f9960369d3223",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.800833,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "e25f33f3f8c89c7c4406931788fe400b0b992f21f5056588fbc0c30cb0da6c13"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "bd9952f1225a4b45dd81e8a23bbbc7cf767fa053a97aa974d20f9960369d3223",
+      "ai_unit_sentence_indices": [
+        63
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 39,
+      "origin": "ai",
+      "text": "\"There!\" the ladies exclaimed as they jumped out and rushed toward her.",
+      "output_sha256": "ad2345b811333829a58e9840fb0bccc87fc73c124890243788635b6d8e206521",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.582615,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "de82c0efb414190c111451b7cb53258de2189eefaf787c23b5287d0307faa0ac"
+      ],
+      "source_ai_sentence_index": 64,
+      "source_ai_sha256": "ad2345b811333829a58e9840fb0bccc87fc73c124890243788635b6d8e206521",
+      "ai_unit_sentence_indices": [
+        64
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 40,
+      "origin": "ai",
+      "text": "\"Of course, she doesn’t resemble that Wendy creature at all,\" the mother noted.",
+      "output_sha256": "d1c4c4740375f8817670e04f1a27dc4a91a63d8dfb984243083adf59de93ced4",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.5,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "6d5df4545731121d519777b46f8a0beee1232b6d6c04e72c5644b586c2e2e395"
+      ],
+      "source_ai_sentence_index": 65,
+      "source_ai_sha256": "d1c4c4740375f8817670e04f1a27dc4a91a63d8dfb984243083adf59de93ced4",
+      "ai_unit_sentence_indices": [
+        65
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 41,
+      "origin": "human",
+      "text": "\"Now that I come to look at her I can see heaps of difference,\" said the daughter.",
+      "output_sha256": "0d0da984deba1a04b40b6f8e17548dd6bf58ff0052927f69f7a8a9fd85f9a11c",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "0d0da984deba1a04b40b6f8e17548dd6bf58ff0052927f69f7a8a9fd85f9a11c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 42,
+      "origin": "human",
+      "text": "\"None the less,\" I interjected, \"you turned a very honest man into a thief, and a dog-thief at that; and he insists on reparation.\"",
+      "output_sha256": "d8275875cc7cd19346ed5eb750d63a3a4bb0bb796e3847769d45095d637c4a3a",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "d8275875cc7cd19346ed5eb750d63a3a4bb0bb796e3847769d45095d637c4a3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 43,
+      "origin": "human",
+      "text": "\"Yes, indeed,\" said the mother, \"it is really too bad.",
+      "output_sha256": "7fa8d6f93af078c7660dc15e393e6d5c823584e8c2f4e73efbbe6fa7b49f9aee",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "7fa8d6f93af078c7660dc15e393e6d5c823584e8c2f4e73efbbe6fa7b49f9aee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 43,
+      "origin": "human",
+      "text": "What reparation can we make?\"",
+      "output_sha256": "4b6396c165333e92a74f0a76d0dd18d87131b8d6c63113363824d56baac3844f",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "4b6396c165333e92a74f0a76d0dd18d87131b8d6c63113363824d56baac3844f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 44,
+      "origin": "human",
+      "text": "I don't pretend that my feelings are completely soothed, but the Clicquot 1904 which took the place of claret at dinner that evening was certainly very good.",
+      "output_sha256": "e0ecab4a7597014278bf73c07328fe041a53fadcccd0abaf4e5648046d1048fc",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "e0ecab4a7597014278bf73c07328fe041a53fadcccd0abaf4e5648046d1048fc",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

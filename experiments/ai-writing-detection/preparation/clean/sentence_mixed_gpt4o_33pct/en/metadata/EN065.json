@@ -1,0 +1,947 @@
+{
+  "source_id": "EN065",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "86dea29968999cad3ff9a467c67127a874761df4b5bfd6955a9a4c855873a6d9",
+  "ai_article_sha256": "eeeb14717cca20455dc4e5ec8dabf579eb8189f979e65b9f756e2d9803ccc5b3",
+  "mixed_article_sha256": "80feab84436cdd124359adf600dac41bce59841fa36bcda0236e12d803e242b5",
+  "human_source_sentence_count": 64,
+  "ai_source_sentence_count": 63,
+  "alignment_unit_count": 64,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.245,
+  "selected_alignment_score_median": 0.54,
+  "selected_alignment_score_max": 0.825,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A newspaper has been lamenting the decay of the diary-keeping habit, with the natural result that several correspondents have written to say that they have kept diaries all their lives.",
+      "output_sha256": "8954bc13a3e95d863c879d08c9ced890b2d0c1e8e9564ec1cadff9d7aa596084",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "8954bc13a3e95d863c879d08c9ced890b2d0c1e8e9564ec1cadff9d7aa596084",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "It’s likely that many of these diaries now contain a note along the lines of “Wrote to the Daily —— to counter the claim that the diary-keeping tradition is fading.”",
+      "output_sha256": "ec6a6493c8c2817384dc8ff1416109029484e31508b9be4f49563f1add35fa27",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.531414,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "deb202ca4f54b50bc6f003514d140164a917af74833eab24f265624038e90a09"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "ec6a6493c8c2817384dc8ff1416109029484e31508b9be4f49563f1add35fa27",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Of such little things are diaries made.",
+      "output_sha256": "c21a3e1ac5c4571d193c0bb828a40631cf9353f1d641727e24d791b0635ff486",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "c21a3e1ac5c4571d193c0bb828a40631cf9353f1d641727e24d791b0635ff486",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "This widespread observation might explain why keeping a diary has become increasingly rare; it seems that nothing significant happens in most people's lives.",
+      "output_sha256": "e85b0ea162dae85ed5554d41f5467f1d47cab8707ad00977573d6aa062fb836f",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.30836,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "ac8384d94f3d964d55dc2f91175781b5ae9d96aed4859232030fa89e10a94679"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "e85b0ea162dae85ed5554d41f5467f1d47cab8707ad00977573d6aa062fb836f",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "A diary would be worth writing up if it could be written like this:—",
+      "output_sha256": "ecd08f94d04aaf3d9fcdad11853efd7e269f2de4c66b9ac0092d74f0e9f41b16",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "ecd08f94d04aaf3d9fcdad11853efd7e269f2de4c66b9ac0092d74f0e9f41b16",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "MONDAY.—\"Another exciting day.",
+      "output_sha256": "f88e70ee4a8b66dbb810096e91e5aa1a2c68afb2d40b66aeac0fe998b18ea061",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "f88e70ee4a8b66dbb810096e91e5aa1a2c68afb2d40b66aeac0fe998b18ea061",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Shot a couple of hooligans on my way to business and was forced to give my card to the police.",
+      "output_sha256": "21ab92924624662ca97afdf030bb9d30e9da2ba79d1e193228c43a517c86caca",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "21ab92924624662ca97afdf030bb9d30e9da2ba79d1e193228c43a517c86caca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "On arriving at the office was surprised to find the building on fire, but was just in time to rescue the confidential treaty between England and Switzerland.",
+      "output_sha256": "d3c01c82d4ef6fd4353a2f93b69f7eee95b6db1b03f5b160bd8d6e6197478540",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "d3c01c82d4ef6fd4353a2f93b69f7eee95b6db1b03f5b160bd8d6e6197478540",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Had the public discovered this, it surely would have led to war.",
+      "output_sha256": "722e65ab20cc8918703d336b50d0b747cbe7ed9a2a9d8f3de50cf3230e245883",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.55,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "180b24b8b48db9f2c469eaf4d6f365dd757318c0c6acfbd22b43d955957a3cbd"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "722e65ab20cc8918703d336b50d0b747cbe7ed9a2a9d8f3de50cf3230e245883",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Went out to lunch and saw a runaway elephant in the Strand.",
+      "output_sha256": "b8280c25c2514aa2a6587ab81f951ce242c0e38ebea4f6659caf19026c07c6e0",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "b8280c25c2514aa2a6587ab81f951ce242c0e38ebea4f6659caf19026c07c6e0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I didn’t think much of it then, but later mentioned it to my wife, who agreed it was worth jotting down.\"",
+      "output_sha256": "517ace497d699faf2653b3b43b79436435090dab008531095cce6d9a9ebcf5b6",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.503063,
+      "human_sentence_indices": [
+        11,
+        12
+      ],
+      "human_sha256": [
+        "1f8071def922a493e42c63c7d45ca3cfa486c595620dae7e094bf84fcd6b1334",
+        "f5d138b11ca06d68090debe638a045f7741d1cd4f14b9db9ed93116c8f5da6e1"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "517ace497d699faf2653b3b43b79436435090dab008531095cce6d9a9ebcf5b6",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "TUESDAY.—\"Received a letter from my solicitor informing me that I have inherited £1,000,000 from the will of an Australian gold-digger named Tomkins.",
+      "output_sha256": "d8763ae3b9ddccb5c217ff7bc09c08c97bc24fe7832160694537e558a5fe05f0",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.800964,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "fde2e9ea841475c36ed27c591a0806eb930356dfcc267abffadc45f97028b708"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "d8763ae3b9ddccb5c217ff7bc09c08c97bc24fe7832160694537e558a5fe05f0",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "On referring to my diary I find that I saved his life two years ago by plunging into the Serpentine.",
+      "output_sha256": "52f2a4e890f706cd42f741e0eadb869509c0d11f3b94f74163fffd4943769328",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "52f2a4e890f706cd42f741e0eadb869509c0d11f3b94f74163fffd4943769328",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "This is very gratifying.",
+      "output_sha256": "0714bb7090ae74b0c51c2f808522f993a4fed2a4a24f13e07e58076989154ee9",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "0714bb7090ae74b0c51c2f808522f993a4fed2a4a24f13e07e58076989154ee9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "I was late getting to the office because I had to stop by the Palace to receive my knighthood, yet I still managed to complete a fair amount of work before being interrupted by a madman wielding a razor, who demanded £100.",
+      "output_sha256": "05fe3637d1a16bcda753c9117ebb420b16c21a2fb21f1187e38d4339256055e9",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.585072,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "dd0c7c6a88d39fc0d11a4d1562755a47b3edf9679ac0a5ca0b700977b935a1f0"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "05fe3637d1a16bcda753c9117ebb420b16c21a2fb21f1187e38d4339256055e9",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Shot him after a desperate struggle.",
+      "output_sha256": "0b016d4b70dcda622e8546c88f7fe64f6f75d42137cc519dd20d3c903dbba99d",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "0b016d4b70dcda622e8546c88f7fe64f6f75d42137cc519dd20d3c903dbba99d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Had tea at an ABC where I ran into the Duke of —-.",
+      "output_sha256": "f826d105e2946d571958fb77d4a7b85ad3f1c88478aa2519989ca84e95f169b7",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.731277,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "fe29f5a7be032375020eda6805dbb6762be678f9e08fd0589a644eaa7e3b0de1"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "f826d105e2946d571958fb77d4a7b85ad3f1c88478aa2519989ca84e95f169b7",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Fell into the Thames on my way home, but swam ashore without difficulty.\"",
+      "output_sha256": "acb54a0ff1ce3270ab9c7513026c9b418b19392bb9f921e1cf5a16e847ca74bb",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "acb54a0ff1ce3270ab9c7513026c9b418b19392bb9f921e1cf5a16e847ca74bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Alas! we cannot do this.",
+      "output_sha256": "0c7803220c3dfee6decaf0c206446a7f14e0d181d917113cdcb96594f6b0f9cf",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "0c7803220c3dfee6decaf0c206446a7f14e0d181d917113cdcb96594f6b0f9cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Our diaries are very prosaic, very dull indeed.",
+      "output_sha256": "7f29a5baaf594a7f903baf8055d1e8b8fbcb8e5290b0f6e15ca37b456d8aa6c2",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "7f29a5baaf594a7f903baf8055d1e8b8fbcb8e5290b0f6e15ca37b456d8aa6c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "They read like this:—",
+      "output_sha256": "40966a9b5bc763bfb936cff06e0d0c9454305eb01797b4288e144aba9fe5a96c",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "40966a9b5bc763bfb936cff06e0d0c9454305eb01797b4288e144aba9fe5a96c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Monday.—\"Felt inclined to stay in bed this morning and send an excuse to the office, but was all right after a bath and breakfast.",
+      "output_sha256": "4491f46774e2702b0a017e0fc5f9901f529ca09bd63f40a7ba2ef4f628a92317",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "4491f46774e2702b0a017e0fc5f9901f529ca09bd63f40a7ba2ef4f628a92317",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Worked till 1.30 and had lunch.",
+      "output_sha256": "0f81f1d6e6afb24d0eb7175acc4cd4f07105ca369f796c3dfbbefe2fa13324c9",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "0f81f1d6e6afb24d0eb7175acc4cd4f07105ca369f796c3dfbbefe2fa13324c9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Afterward, I continued working until five, and on my way home, I got my hair cut.",
+      "output_sha256": "5503f3ff2a5a08c1b5fa9edd123abcb2167a9da7425a02db76a22306aad600d6",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.433057,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "eb398b48b483ac8a27df76e9578406619aec65372bb7216997b800fe75692ae0"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "5503f3ff2a5a08c1b5fa9edd123abcb2167a9da7425a02db76a22306aad600d6",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "After dinner read A Man's Passion, by Theodora Popgood.",
+      "output_sha256": "1b9cb025b7ad5940933e7cca3c773ae37e6102ce76fb24d4b45977fee71da9ca",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "1b9cb025b7ad5940933e7cca3c773ae37e6102ce76fb24d4b45977fee71da9ca",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Rotten.",
+      "output_sha256": "cd222d509bef0474e74ec49e01a69fa0191d5edc39e54d89f56d90e14841d63a",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "cd222d509bef0474e74ec49e01a69fa0191d5edc39e54d89f56d90e14841d63a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Went to bed at eleven.\"",
+      "output_sha256": "b4a4aaf5f9fa1078c844ba2dd1d1b070326921190d01d1b171d2bad1d83aa7a0",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "b4a4aaf5f9fa1078c844ba2dd1d1b070326921190d01d1b171d2bad1d83aa7a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "TUESDAY.—\"Received a letter from Jane.",
+      "output_sha256": "ccd5128ec57d91cfc9397795a433f7a94e2301fca30d841c648ef738ba383fe9",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.81,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "7bdd72606a82e56c4796f07de3c6f7b0ddd543af76beb6083a7af0618157642b"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "ccd5128ec57d91cfc9397795a433f7a94e2301fca30d841c648ef738ba383fe9",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Did some good work in the morning, and at lunch met Henry, who asked me to play golf with him on Saturday.",
+      "output_sha256": "3850122a74f350ad82509178df61b7a2293b1876239de117cca59eaebdafefac",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "3850122a74f350ad82509178df61b7a2293b1876239de117cca59eaebdafefac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "I told him I was already scheduled to play with Peter but expressed interest in playing with him the Saturday after.",
+      "output_sha256": "6ee1dd3459cec0f6914fd5cf806ccea01f0aec2b94f63a19915412acdafeafc3",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.607224,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "2f7f4bf01549472406a8b2bf094219bae028fa7366bca7e1958af697c6be8f9a"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "6ee1dd3459cec0f6914fd5cf806ccea01f0aec2b94f63a19915412acdafeafc3",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "However, it turned out he was playing with William then, so we couldn't fix anything up.",
+      "output_sha256": "42ebcc7e687c1a0f09164c935c507ae394f7f8917343f5086173298ba7649b5f",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "42ebcc7e687c1a0f09164c935c507ae394f7f8917343f5086173298ba7649b5f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Bought a pair of shoes on my way home, but think they will be too tight.",
+      "output_sha256": "97ab63bd461f70ab03601df020f488de441ca7ac488beff6687aab9b6e3d93ff",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "97ab63bd461f70ab03601df020f488de441ca7ac488beff6687aab9b6e3d93ff",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "The salesperson assured me they would stretch.\"",
+      "output_sha256": "4ec5550a3f6acb6318ce4e89b81463e5de8a6d10b7e10cf7e4a8f16172f6cad7",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.4425,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "3f059a10a1fce4f6dc648b75aa49db5281361cb861fd1cedc7ed6b6520dfd916"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "4ec5550a3f6acb6318ce4e89b81463e5de8a6d10b7e10cf7e4a8f16172f6cad7",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Wednesday.—\"Played dominoes at lunch and won fivepence.\"",
+      "output_sha256": "73de5115b3a4b0cb859aca4736863069e34135d033e6770cacfa16c2086a46c7",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "73de5115b3a4b0cb859aca4736863069e34135d033e6770cacfa16c2086a46c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "If this type of diary is indeed falling out of favor, the world may not be missing out on much.",
+      "output_sha256": "9386474dfbba75f0ff512730a149448f025624184dd5e93e98139a8d7c90fba4",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.54,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "8dd832ca0ca993f6353a3590e0c3e6379ed1c4b1f1f7c65296622f71f814ba9a"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "9386474dfbba75f0ff512730a149448f025624184dd5e93e98139a8d7c90fba4",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "But at least it is a harmless pleasure to some to enter up their day's doings each evening, and in years to come it may just possibly be of interest to the diarist to know that it was on Monday, 27th April, that he had his hair cut.",
+      "output_sha256": "abcc16b996a5394e870ee54da6c12aa304db1e5dd7fda0391ea97a9bfcbace57",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "abcc16b996a5394e870ee54da6c12aa304db1e5dd7fda0391ea97a9bfcbace57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Additionally, if questions later arise regarding the exact date of Henry’s passing, the diary might serve as evidence that he was alive at least until Tuesday, April 28th.",
+      "output_sha256": "9d2bbfb4cf3fd5144920d009e63ea2339f9a0a553a2b040c51b6e1e9cac8a0ad",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.423308,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "2c023eafe5ed5808504e9ba173447cfe71d9fab0eb54aac42b6b3e017d8f88fb"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "9d2bbfb4cf3fd5144920d009e63ea2339f9a0a553a2b040c51b6e1e9cac8a0ad",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "While this may not be significant, it holds potential value.",
+      "output_sha256": "a2155e7fd6b7b51d3c220235394cf0eb7a6a653687ceae748cf86daded24aee3",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.245,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "7ae89fb82f4a366aff4102f194f2f86f0fe0ff9da2cd96ace9e96a820ee47099"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "a2155e7fd6b7b51d3c220235394cf0eb7a6a653687ceae748cf86daded24aee3",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "But there is another sort of diary which can never be of any importance at all.",
+      "output_sha256": "16da25a926d98983cc4bc4476f206efbbe35ccc6a5aa559789ec7c333af9b915",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "16da25a926d98983cc4bc4476f206efbbe35ccc6a5aa559789ec7c333af9b915",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "I make no apology for giving a third selection of extracts.",
+      "output_sha256": "7a3dbc40570e71eab48515963e7307c86f8f046d13a1e4c16f2551a4d8c6f29a",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "7a3dbc40570e71eab48515963e7307c86f8f046d13a1e4c16f2551a4d8c6f29a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Monday.—\"Rose at nine and came down to find a letter from Mary.",
+      "output_sha256": "4288d2bf2aa99534e63cfecdc0cf1dab150edf08996f65b46ae828fcc496a8a8",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "4288d2bf2aa99534e63cfecdc0cf1dab150edf08996f65b46ae828fcc496a8a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "How little we know our true friends!",
+      "output_sha256": "e82c4fb676d903bfaf4d15d11420c4f35142ca6d3e300ca3e3bcb2781b5e1385",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "e82c4fb676d903bfaf4d15d11420c4f35142ca6d3e300ca3e3bcb2781b5e1385",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Beneath the mask of outward affection there may lurk unknown to us the serpent's tooth of jealousy.",
+      "output_sha256": "1c0eea0e9dc7e1331cc402113c77937fc47d815b89af415b44e1aac92d84c9e3",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "1c0eea0e9dc7e1331cc402113c77937fc47d815b89af415b44e1aac92d84c9e3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Mary writes that she can make nothing for my stall at the bazaar as she has her own stall to provide for.",
+      "output_sha256": "2a26733e46bdfecc56fcaaaf68aaca19f970fa6870d4a3d75d5d2aa2a9b1e6a7",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "2a26733e46bdfecc56fcaaaf68aaca19f970fa6870d4a3d75d5d2aa2a9b1e6a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Ate my breakfast mechanically, my thoughts being far away.",
+      "output_sha256": "0179f5529ae4bf2e5ec08133990d78d5a311ec83f51de684cf36c7d42808ce50",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "0179f5529ae4bf2e5ec08133990d78d5a311ec83f51de684cf36c7d42808ce50",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "What is the meaning of life after all?",
+      "output_sha256": "9b4e44b53ce979c2bdf81b72ffdc9a3a407c72180a64574fb978aa22d3a04fae",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.622692,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "4a2c077481327af594a9e603dce06e4e34fb7ea2011a0a4c318fe7ffe8ace87b"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "9b4e44b53ce979c2bdf81b72ffdc9a3a407c72180a64574fb978aa22d3a04fae",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Meditated deeply on the inner cosmos till lunch- time.",
+      "output_sha256": "2d2f721dea93ce1fb2e9467b3a1efc97b380490a8140d966453dbcea80d6da94",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "2d2f721dea93ce1fb2e9467b3a1efc97b380490a8140d966453dbcea80d6da94",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Afterwards I lay down for an hour and composed my mind.",
+      "output_sha256": "c4eee34b05c77fcab7e7af12fe23df2f1d3943f90bed2b05b27da7b12d3b1c91",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "c4eee34b05c77fcab7e7af12fe23df2f1d3943f90bed2b05b27da7b12d3b1c91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "I was angry this morning with Mary.",
+      "output_sha256": "c69c3d9c4c1cd610f7a9336fbf669a5f6e621563ed1acc8b623d071bfe05ecbf",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "c69c3d9c4c1cd610f7a9336fbf669a5f6e621563ed1acc8b623d071bfe05ecbf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Ah, how petty!",
+      "output_sha256": "8f43d32ca05b1e867d5bce8c388c7bd6549a28fb663d7a93f6cb8395745cac6d",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "8f43d32ca05b1e867d5bce8c388c7bd6549a28fb663d7a93f6cb8395745cac6d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Shall I never be free from the bonds of my own nature?",
+      "output_sha256": "080334f48b8ab4e5585f39dad5712df8c00f05d692de586404e6ce80bd7d6fc8",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "080334f48b8ab4e5585f39dad5712df8c00f05d692de586404e6ce80bd7d6fc8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Is the better self within me never to rise to the sublime heights of selflessness of which it is capable?",
+      "output_sha256": "d12a2c6444be83abffb13c35a399e0e6225d49e76306275a4ea0a7942f47d6eb",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "d12a2c6444be83abffb13c35a399e0e6225d49e76306275a4ea0a7942f47d6eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "I got up at four and wrote to Mary, forgiving her.",
+      "output_sha256": "d42c7b8f6ce1082ff8d8f18c13433b7f2b9540ac7a1f507259942a43b631397f",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.720065,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "aa27a6842cc1b1dc026ae1bb037c5ec1a3f47d10e2594a561a40ea15026fb390"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "d42c7b8f6ce1082ff8d8f18c13433b7f2b9540ac7a1f507259942a43b631397f",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Today has been a wonderful day for the spirit.\"",
+      "output_sha256": "61f3cd7ccd464b1847cab292dd6d1b66e909765a2b416de4ebff81adf9354ba5",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.825,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "e0eea69808ff16ba3ceaba73e1903ea6f8daedc1263033c150400740fb872811"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "61f3cd7ccd464b1847cab292dd6d1b66e909765a2b416de4ebff81adf9354ba5",
+      "ai_unit_sentence_indices": [
+        53
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "It seems that many diaries capture the adventures of the mind and spirit, perhaps out of a lack of physical excitement.",
+      "output_sha256": "37cdffeb9e0358348e113d20a78e4827f6486c037fea145fcc93f220315168a4",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.466102,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "73bcc864f65dbac9cd3871d503a7f0c7a89b37acbc68c09272cdc06d75e332eb"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "37cdffeb9e0358348e113d20a78e4827f6486c037fea145fcc93f220315168a4",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "If one cannot recount, “Attacked by a lion in Bond Street today,” they can at least write, “Attacked by doubt at St. Paul’s Cathedral.”",
+      "output_sha256": "c62c41b74ae638d54787d1f8d01ba2af619e24b9428cf9899f4c7af108cf90f6",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.741667,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "6a66cc89d4e86d083cc63603f966dd4af63e2fbae4890d875f8eeaeb74ec18a4"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "c62c41b74ae638d54787d1f8d01ba2af619e24b9428cf9899f4c7af108cf90f6",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Most people will prefer, in the absence of the lion, to say nothing, or nothing more important than \"Attacked by the hairdresser with a hard brush\"; but there are others who must get pen to paper somehow, and who find that only in regard to their emotions have they anything unique to say.",
+      "output_sha256": "2def7b3a13a6c707c93319ded5ab645ce3887bb521ad62ea2ce26dcfa598f15e",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "2def7b3a13a6c707c93319ded5ab645ce3887bb521ad62ea2ce26dcfa598f15e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "But, of course, there is ever within the breasts of all diarists the hope that their diaries may some day be revealed to the world.",
+      "output_sha256": "00b0641973d499e44a72233e76ad866d87ab82420186646a997a84a58e439379",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "00b0641973d499e44a72233e76ad866d87ab82420186646a997a84a58e439379",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "They may be discovered by some future generation, amazed at the simple doings of the twentieth century, or their publication may be demanded by the next generation, eager to know the inner life of the great man just dead.",
+      "output_sha256": "fa15a2e6f0727c29559a9146749a85aada80f1e09eeccaa0d0b48d9d6af74d37",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "fa15a2e6f0727c29559a9146749a85aada80f1e09eeccaa0d0b48d9d6af74d37",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Ideally, they might even share their thoughts publicly in their autobiographies.",
+      "output_sha256": "525e5e1fe67c2241f28ec058353537700f4f3a68fff8287de534a0b3db90aa56",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.306557,
+      "human_sentence_indices": [
+        61
+      ],
+      "human_sha256": [
+        "0439d4ade114754c2a472b0bfa1e094893affa801afdfe880914de17b19d17b7"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "525e5e1fe67c2241f28ec058353537700f4f3a68fff8287de534a0b3db90aa56",
+      "ai_unit_sentence_indices": [
+        60
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "Indeed, a diarist often keeps in mind the prospect of a future autobiography.",
+      "output_sha256": "8f640cac7b195a51ac60d7a79c35acf48e03e64476b77c4dbef2467ad90cb269",
+      "alignment_unit_index": 62,
+      "alignment_score": 0.338769,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "396da283256ab5c07782c159daec6a7528b544b9c537ff22e0b0dde284676332"
+      ],
+      "source_ai_sentence_index": 61,
+      "source_ai_sha256": "8f640cac7b195a51ac60d7a79c35acf48e03e64476b77c4dbef2467ad90cb269",
+      "ai_unit_sentence_indices": [
+        61
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "\"I remember,\" he will write in that great work, having forgotten all about it, \"I distinctly remember\"—and here he will refer to his diary—\"meeting X. at lunch one Sunday and saying to him …\"",
+      "output_sha256": "a7e35841684dae16eef9f32cc104add7e5391a95b5a806e4718bc44b560210c7",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "a7e35841684dae16eef9f32cc104add7e5391a95b5a806e4718bc44b560210c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "What he said will not be of much importance, but it will show you what a wonderful memory the distinguished author retains in his old age.",
+      "output_sha256": "6b6382d49ae82886fd3a9106f224520e5bd8efa31fbc30e217097e0edc3a6c2f",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "6b6382d49ae82886fd3a9106f224520e5bd8efa31fbc30e217097e0edc3a6c2f",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

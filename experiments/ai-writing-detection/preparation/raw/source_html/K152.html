@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>《“文人”》線上閱讀 | 郁達夫 - 可閱文學網</title>
+    <meta name="keywords" content="“文人”,郁達夫,散文随笔,可閱,可閱文學">
+    <meta name="description" content="三月二十日，立委王崑崙氏，在重慶宴蘇聯作家及中國作家的席上，有人提議，聯合起來，寫一封信來給我的消息，早在香港報上見過。">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="21711">
+    <meta property="og:type" content="novel">
+    <meta property="og:title" content="“文人”">
+    <meta property="og:description" content="三月二十日，立委王崑崙氏，在重慶宴蘇聯作家及中國作家的席上，有人提議，聯合起來，寫一封信來給我的消息，早在香港報上見過。">
+    <meta property="og:url" content="https://www.kepub.net/book/21711/">
+    <meta property="og:novel:category" content="散文随笔">
+    <meta property="og:novel:author" content="郁達夫">
+    <meta property="og:novel:book_name" content="“文人”">
+    <meta property="og:novel:read_url" content="https://www.kepub.net/book/21711/">
+    <meta property="og:novel:status" content="全本">
+    <meta property="og:novel:update_time" content="2022-07-01 15:27">
+    <meta property="og:novel:latest_chapter_name" content="“文人”">
+    <meta property="og:novel:latest_chapter_url" content="https://www.kepub.net/book/21711/10001">
+
+    <link rel="canonical" href="https://www.kepub.net/book/21711">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/21711">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/21711">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首頁</a></li>
+            <li><a href="javascript:" title="目錄" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="評論"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手機閱讀" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章閱讀" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分頁閱讀" onclick="pageReader()"></a></li>
+            <li id="lang_select"><a href="/book/21711" class="active" aria-label="繁"><i class="iconfont icon-fanti"></i></a><a href="/book/21379" aria-label="简"><i class="iconfont icon-jianti"></i></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回頂部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">掃描二維碼，用手機閱讀</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">“文人”</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;"><div class="main" id="TextContent"><br><br><br><br><p>三月二十日，立委王崑崙氏，在重慶宴蘇聯作家及中國作家的席上，有人提議，聯合起來，寫一封信來給我的消息，早在香港報上見過。本坡的《星中報》，亦將此消息轉載。詩是四句：莫道流離苦（老舍），天涯一客孤（沫若），舉杯祝遠道（崑崙），萬里四行書（施誼）。施誼當然是孫師毅的另一寫法。此外到席者，是蘇聯的作家費德連克（他也用了中國筆，寫了“都問你好”的四字），及米克拉舍夫斯基（他寫的是“知己知彼，百戰百勝”的兩句孫子兵法）。這兩位蘇聯作家竟能用中國的毛筆，寫出這樣的字（雖然是像初學會寫字的小孩般的筆法）來，倒也真真難得。當日的列席者，還有一時傳說已被敵人謀害的陳波兒、方殷、戈寶權、葛一虹、陽翰笙諸君。沫若在詩下，還寫有幾行短信：</p><br><p>達夫：詩上雖說你孤，其實你並不孤。今天在座的，都在思念你，全中國的青年朋友，都在思念你。你知道張資平的消息麼？他竟糊塗到底了，可嘆！</p><br><p>◇</p><br><p>從這一張同人合寫成的信中看來，我們可以知道，張資平在上海被敵人收買的事情，確是事實了。本來，我們是最不願意聽到認識的舊日友人，有這一種喪盡天良的行爲的；譬如周作人的附逆，我們在初期，也每以爲是不確，是敵人故意放造的謠言；但日久見人心，終於到了現在，也被證實是事實了。文化界而出這一種人，實在是中國人千古洗不掉的羞恥事，以春秋的筆法來下評語，他們該比被收買的土匪和政客，都應罪加一等。時窮節乃見，古人所說的非至歲寒，不能見松柏之堅貞，自是確語。所以，耳未聽見過炮聲，足未踏入過戰地的許多文化人，只站在後方的後方，高喊着前進，或用盡心機，想打倒幾個在同一區域中作同事的同人來獻身手的，亦當以這些先例爲前車之戒。能做一點實際工作，當遠勝於專向同事作人身攻擊等事，爲益多多。</p><br><p>魯迅也曾說過，既然是人，自然也要性交，若只拿住性交的一點，來攻擊個人，則孔夫子有伯魚。即使是聖到無以復加的聖人，恐怕日常生活，也是和我們這些庸人，相差無幾的。</p><br><p>“文人無行”，是中國慣說的一句口頭語；但我們應當曉得，無行的就不是文人，能說“失節事大，餓死事小”這話而實際做到的人，纔是真正的文人。近則如洪承疇，遠則如長樂老，他們何嘗是文人，他們都不過是學過寫字，讀過書的政客罷了。至如遠處在離敵人數千裏外的異域，只以爲月薪比自己多一點，生活比自己寬裕一點的同事，就是阻遏自己加薪前進的障礙，是敵寇，是漢奸，是一手壓住世界命的魔鬼；像這樣的文人，當然更不是文人了；因爲這些人們，敵寇不來則已，敵寇若一到門，則首先去跪接稱臣，高呼萬歲的，也就是他們了；對這些而也稱作文人，豈不是辱沒了文人的正氣，辱沒了謝皋羽的西臺。</p><br><p>因聽到了故人而竟做了奸逆的醜事，所以一肚皮牢騷，無從發泄，即以我個人的境遇來說，老母在故鄉殉國，胞兄在孤島殉職，他們雖都不是文人，他們也都未曾在副刊上做過慷慨激昂的文章，或任意攻擊過什麼人，但我卻很想以真正的文人來看他們，稱他們是我的表率，是我的精神上的指導者。</p><br><p>我們的抗戰，是還要繼續下去的。這中間，自然更有許多花樣出來，可以給我們歎賞，或給我們唾罵。我們只要抱住一點貞心，使用我們的雙眼，靜靜地看，實在地幹，到了最後勝利之日，便可以分辨出，究竟是誰強誰弱，誰真誰僞來了，現在所說的一切空話，究竟還都是無憑的囈語。</p><br><p>一九四○年四月</p><br><p>（原載一九四○年四月十九日新加坡《星洲日報．晨星》）</p><br><br></div></div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/21710/10001?collectionNo=734930">下一章</a></div>
+        <div class="pre_chapter"><a href="/book/21712/10001?collectionNo=734930">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一頁</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一頁</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div class="book-info">
+            <div class="book-base-info-b">
+                
+                <div class="bookname-b">
+                    <a class="collection-name" href="/book/734930">郁達夫散文集</a>
+                    <span class="arrow-right">/</span>
+                    <a class="bookname" href="/book/21711">“文人”</a>
+                </div>
+                <div>作者：<a class="author" href="/author/10105">郁達夫</a></div>
+                <div class="info-b-1">
+                    <div>类型：<span>散文随笔</span></div>
+                    <div>总字数：<span>1351</span></div>
+                    <div>阅读量：<span>811</span></div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="8" data-goods-name="【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847906989501972612&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_e46c745a552de910d383b61729f6c083_sx_570309_www1000-1000"
+                         alt="【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆/MembersMark】剥皮软糖零食1050g芒果味富含维C</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>74.28</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目錄</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li>
+                    <a href="/book/21654/10001?collectionNo=734930">故都的秋</a>
+                </li>
+                <li>
+                    <a href="/book/21647/10001?collectionNo=734930">江南的冬景</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10001?collectionNo=734930">達夫遊記　半日的遊程</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10002?collectionNo=734930">　　北平的四季</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10003?collectionNo=734930">　　超山的梅花</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10004?collectionNo=734930">　　釣臺的春晝</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10005?collectionNo=734930">　　方巖紀靜</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10006?collectionNo=734930">　　故都的秋</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10007?collectionNo=734930">　　達夫遊記杭州</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10008?collectionNo=734930">　　杭州的八月</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10009?collectionNo=734930">　　還鄉後記</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10010?collectionNo=734930">　　江南的冬景</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10011?collectionNo=734930">　　閩遊滴瀝之二</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10012?collectionNo=734930">　　青島、濟南、北平、北戴河的巡遊</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10013?collectionNo=734930">　　蘇州煙雨記</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10014?collectionNo=734930">　　仙霞紀險</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10015?collectionNo=734930">　　小春天氣</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10016?collectionNo=734930">　　飲食男女在福州</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10017?collectionNo=734930">　　玉皇山</a>
+                </li>
+                <li>
+                    <a href="/book/21747/10001?collectionNo=734930">馬六甲記遊</a>
+                </li>
+                <li>
+                    <a href="/book/21746/10001?collectionNo=734930">覆車小記</a>
+                </li>
+                <li>
+                    <a href="/book/21745/10001?collectionNo=734930">檳城三宿記</a>
+                </li>
+                <li>
+                    <a href="/book/21744/10001?collectionNo=734930">西溪的晴雨</a>
+                </li>
+                <li>
+                    <a href="/book/21743/10001?collectionNo=734930">過富春江</a>
+                </li>
+                <li>
+                    <a href="/book/21742/10001?collectionNo=734930">揚州舊夢寄語堂</a>
+                </li>
+                <li>
+                    <a href="/book/21741/10001?collectionNo=734930">城裏的吳山</a>
+                </li>
+                <li>
+                    <a href="/book/21740/10001?collectionNo=734930">花塢</a>
+                </li>
+                <li>
+                    <a href="/book/21739/10001?collectionNo=734930">超山的梅花</a>
+                </li>
+                <li>
+                    <a href="/book/21738/10001?collectionNo=734930">青島 濟南 北平 北戴河的巡遊</a>
+                </li>
+                <li>
+                    <a href="/book/21737/10001?collectionNo=734930">桐君山的再到</a>
+                </li>
+                <li>
+                    <a href="/book/21736/10001?collectionNo=734930">屯溪夜泊記</a>
+                </li>
+                <li>
+                    <a href="/book/21735/10001?collectionNo=734930">杭州</a>
+                </li>
+                <li>
+                    <a href="/book/21734/10001?collectionNo=734930">半日的遊程</a>
+                </li>
+                <li>
+                    <a href="/book/21733/10001?collectionNo=734930">釣臺的春晝</a>
+                </li>
+                <li>
+                    <a href="/book/21732/10001?collectionNo=734930">感傷的行旅</a>
+                </li>
+                <li>
+                    <a href="/book/21731/10001?collectionNo=734930">鹽原十日記</a>
+                </li>
+                <li>
+                    <a href="/book/21730/10001?collectionNo=734930">說“沉默”</a>
+                </li>
+                <li>
+                    <a href="/book/21729/10001?collectionNo=734930">談結婚</a>
+                </li>
+                <li>
+                    <a href="/book/21728/10001?collectionNo=734930">蘇州煙雨記</a>
+                </li>
+                <li>
+                    <a href="/book/21727/10001?collectionNo=734930">小春天氣</a>
+                </li>
+                <li>
+                    <a href="/book/21726/10001?collectionNo=734930">歸航</a>
+                </li>
+                <li>
+                    <a href="/book/21725/10001?collectionNo=734930">還鄉記</a>
+                </li>
+                <li>
+                    <a href="/book/21724/10001?collectionNo=734930">北國的微音</a>
+                </li>
+                <li>
+                    <a href="/book/21723/10001?collectionNo=734930">日本的文化生活</a>
+                </li>
+                <li>
+                    <a href="/book/21722/10001?collectionNo=734930">飲食男女在福州</a>
+                </li>
+                <li>
+                    <a href="/book/21721/10001?collectionNo=734930">記閩中的風雅</a>
+                </li>
+                <li>
+                    <a href="/book/21720/10001?collectionNo=734930">雨</a>
+                </li>
+                <li>
+                    <a href="/book/21719/10001?collectionNo=734930">住所的話</a>
+                </li>
+                <li>
+                    <a href="/book/21718/10001?collectionNo=734930">北航短信</a>
+                </li>
+                <li>
+                    <a href="/book/21717/10001?collectionNo=734930">婿鄉年節</a>
+                </li>
+                <li>
+                    <a href="/book/21716/10001?collectionNo=734930">二十二年的旅行</a>
+                </li>
+                <li>
+                    <a href="/book/21715/10001?collectionNo=734930">北平的四季</a>
+                </li>
+                <li>
+                    <a href="/book/21714/10001?collectionNo=734930">寂寞的春朝</a>
+                </li>
+                <li>
+                    <a href="/book/21713/10001?collectionNo=734930">記風雨茅廬</a>
+                </li>
+                <li>
+                    <a href="/book/21712/10001?collectionNo=734930">文章的公式</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/21711/10001?collectionNo=734930">“文人”</a>
+                </li>
+                <li>
+                    <a href="/book/21710/10001?collectionNo=734930">馬蜂的毒刺</a>
+                </li>
+                <li>
+                    <a href="/book/21709/10001?collectionNo=734930">故事</a>
+                </li>
+                <li>
+                    <a href="/book/21708/10001?collectionNo=734930">敵我之間</a>
+                </li>
+                <li>
+                    <a href="/book/21707/10001?collectionNo=734930">《創造日》宣言</a>
+                </li>
+                <li>
+                    <a href="/book/21706/10001?collectionNo=734930">給一位文學青年的公開狀</a>
+                </li>
+                <li>
+                    <a href="/book/21705/10001?collectionNo=734930">一個人在途上</a>
+                </li>
+                <li>
+                    <a href="/book/21704/10001?collectionNo=734930">燈蛾埋葬之夜</a>
+                </li>
+                <li>
+                    <a href="/book/21703/10001?collectionNo=734930">五 六年來創作生活的回顧</a>
+                </li>
+                <li>
+                    <a href="/book/21702/10001?collectionNo=734930">骸骨迷戀者的獨語</a>
+                </li>
+                <li>
+                    <a href="/book/21701/10001?collectionNo=734930">零餘者</a>
+                </li>
+                <li>
+                    <a href="/book/21700/10001?collectionNo=734930">海上通信</a>
+                </li>
+                <li>
+                    <a href="/book/21699/10001?collectionNo=734930">一封信</a>
+                </li>
+                <li>
+                    <a href="/book/21698/10001?collectionNo=734930">春愁</a>
+                </li>
+                <li>
+                    <a href="/book/21697/10001?collectionNo=734930">南行雜記</a>
+                </li>
+                <li>
+                    <a href="/book/21696/10001?collectionNo=734930">十一月初三</a>
+                </li>
+                <li>
+                    <a href="/book/21662/10001?collectionNo=734930">馬纓花開的時候</a>
+                </li>
+                <li>
+                    <a href="/book/21661/10001?collectionNo=734930">暴力與傾向</a>
+                </li>
+                <li>
+                    <a href="/book/21653/10001?collectionNo=734930">還鄉後記</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 4;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

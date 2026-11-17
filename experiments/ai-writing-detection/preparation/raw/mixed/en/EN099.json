@@ -1,0 +1,80 @@
+{
+  "source_id": "EN099",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "75f7df84a2548a5b33afbd50a39d3b768d6b8619ae50fab58373e7727f07e692",
+    "2442f34de22483bbf80c60413b206cca4c280cc845d579cf944a0021e7c8a693",
+    "e5c9a2b2486b7f2d9b3ca98149c94c77c23d51d401cbb4d7365ce743b6007bc4"
+  ],
+  "source_block_sha256": "75f7df84a2548a5b33afbd50a39d3b768d6b8619ae50fab58373e7727f07e692",
+  "ai_block_sha256": "71f2c559b15b59fc8427a743e464d38ca387ee796bce81a9d4c69edd3c5b788b",
+  "mixed_sha256": "e121487648403d9dcfc057145f3830b4588e688968f79a3e3f7d8dc6e6268067",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 318-476 words, aiming for 397. Use exactly 5 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nWhatever is it that we are all looking for? I fancy that it is really quite close. When I was a boy I had a fancy that Heaven or Fairyland or whatever I called it, was immediately behind my own back, and that this was why I could never manage to see it, however often I twisted and turned to take it by surprise. I had a notion of a man perpetually spinning round on one foot like a teetotum in the effort to find that world behind his back which continually fled from him. Perhaps this is why the world goes round. Perhaps the world is always trying to look over its shoulder and catch up the world which always escapes it, yet without which it cannot be itself.\n\nIn any case, as I have said, I think that we must always conceive of that which is the goal of all our endeavours as something which is in some strange way near. Science boasts of the distance of its stars; of the terrific remoteness of the things of which it has to speak. But poetry and religion always insist upon the proximity, the almost menacing closeness of the things with which they are concerned. Always the Kingdom of Heaven is “At Hand”; and Looking-glass Land is only through the looking-glass. So I for one should never be astonished if the next twist of a street led me to the heart of that maze in which all the mystics are lost. I should not be at all surprised if I turned one corner in Fleet Street and saw a yet queerer-looking lamp; I should not be surprised if I turned a third corner and found myself in Elfland.\n\nI should not be surprised at this; but I was surprised the other day at something more surprising. I took a turn out of Fleet Street and found myself in England.\n\n.....\n\nThe singular shock experienced perhaps requires explanation. In the darkest or the most inadequate moments of England there is one thing that should always be remembered about the very nature of our country. It may be shortly stated by saying that England is not such a fool as it looks. The types of England, the externals of England, always misrepresent the country. England is an oligarchical country, and it prefers that its oligarchy should be inferior to itself."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 423,
+    "total_tokens": 1057,
+    "cost": 0.0003489,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003489,
+      "upstream_inference_prompt_cost": 9.51e-05,
+      "upstream_inference_completions_cost": 0.0002538
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0003489,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 397,
+    "output_words": 358,
+    "lower_words": 318,
+    "upper_words": 476,
+    "source_paragraphs": 5,
+    "output_paragraphs": 5,
+    "length_ok": true,
+    "within_source_20_percent": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.00847457627118644,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true,
+    "formatting_only": true
+  },
+  "approved_exception": false,
+  "exception_reason": null,
+  "formatting_only": true,
+  "formatting_algorithm": "Adjust only sentence/paragraph-boundary whitespace until the model output has the source block paragraph count; verify the non-whitespace character sequence is unchanged",
+  "model_output_sha256": "c815de4d717a8545f963cc226ce851d0c45145a6a051305e9af1a34559b73e57",
+  "model_output_path": "raw/mixed/en/EN099.model.txt",
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN099.txt",
+  "mixed_path": "clean/mixed/en/EN099.txt",
+  "response_path": "raw/mixed/en/EN099.response.json"
+}

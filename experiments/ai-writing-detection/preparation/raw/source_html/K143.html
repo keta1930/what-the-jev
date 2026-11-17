@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>《達夫遊記》線上閱讀 | 郁達夫 - 可閱文學網</title>
+    <meta name="keywords" content="達夫遊記,郁達夫,散文随笔,可閱,可閱文學">
+    <meta name="description">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="21749">
+    <meta property="og:type" content="novel">
+    <meta property="og:title" content="達夫遊記">
+    <meta property="og:description">
+    <meta property="og:url" content="https://www.kepub.net/book/21749/">
+    <meta property="og:novel:category" content="散文随笔">
+    <meta property="og:novel:author" content="郁達夫">
+    <meta property="og:novel:book_name" content="達夫遊記">
+    <meta property="og:novel:read_url" content="https://www.kepub.net/book/21749/">
+    <meta property="og:novel:status" content="全本">
+    <meta property="og:novel:update_time" content="2022-07-01 16:27">
+    <meta property="og:novel:latest_chapter_name" content="玉皇山">
+    <meta property="og:novel:latest_chapter_url" content="https://www.kepub.net/book/21749/10017">
+
+    <link rel="canonical" href="https://www.kepub.net/book/21749">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/21749">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/21749">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首頁</a></li>
+            <li><a href="javascript:" title="目錄" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="評論"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手機閱讀" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章閱讀" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分頁閱讀" onclick="pageReader()"></a></li>
+            <li id="lang_select"><a href="/book/21749" class="active" aria-label="繁"><i class="iconfont icon-fanti"></i></a><a href="/book/102816" aria-label="简"><i class="iconfont icon-jianti"></i></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回頂部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">掃描二維碼，用手機閱讀</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">達夫遊記</span><span id="top_chaptername" style="float: right;">半日的遊程</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">去年有一天秋晴的午後，我因爲天氣實在好不過，所以就擱下了當時正在趕着寫的一篇短篇的筆，從湖上坐汽車馳上了江干。在兒時習熟的海月橋、花牌樓等處閒走了一陣，看看青天，看看江岸，覺得一個人有點寂寞起來了，索性就朝西的直上，一口氣便走到了二十幾年前曾在那裏度過半年學生生活的之江大學的山中。二十年的時間的印跡，居然處處都顯示了面形：從前的一片荒山，幾條泥路，與夫亂石幽溪，草房藩溷，現在都看不見了。尤其要使人感覺到我老何堪的，是在山道兩旁的那一排青青的不凋冬樹；當時只同豆苗似的幾根小小的樹秧，觀在竟長成了可以遮蔽風雨，可以掩障烈日的長林。不消說，山腰的平處，這裏那裏，—所所的輕巧而經濟的住宅，也添造了許多；象在畫裏似的附近山川的大致，雖仍依陽，但校址的周圍，變化卻竟簇生了不少。第一，從前在大禮堂前的那一絲空地，本來是下臨絕谷的半邊山道，班在卻已將面前的深谷填平，變成了一大球場。大禮堂西北的略高之處，本來足有幾枝被朔風摧折得彎腰屈背的老樹孤立在那裏的，現在卻建築起了三層的圖書文庫了。二十年的歲月！三千六百日的兩倍的七千二百的日子！以這一短短的時節，來比起天地的悠長來，原不過是象白駒的過隙，但是時間的威力，究竟是絕對的暴君，曾日月之幾何，我這一個本在這些荒山野徑裏馳騁過的毛頭小子，現在也竟垂垂老了。<br><br><br><br>    一路上走着看着，又微微地嘆着，自山的腳下，走上中腰，我竟費去了三十來分鐘的時刻。半山裏是一排教員的住宅，我的此來，原因爲在湖上在江干孤獨得怕了，想來找一位既是同鄉，又是同學，而自美國回來之後就在這母校裏服務的胡君，和他來談談過去，賞賞清秋，並且也可以由他這裏來探到一點故鄉的消息的。<br><br><br><br>    兩個人本來是上下年紀的小學校的同學，雖然在這二十幾年中見面的機會不多，但或當暑假，或在異鄉，偶爾通着的時候，卻也有一段不能自已的柔情，油然會生起在各個的胸中。我的這一回的突然的襲擊，原也不過是想使他驚駭一下，用以加增加增親熱的效力的企圖；升堂一見，他果然是被我駭倒了。<br><br><br><br>    “哦！真難得！你是幾時上杭州來的？”他驚笑着問我。<br><br><br><br>    “來了已經多日了，我因爲想靜靜兒的寫一點東西，所以朋友們都還沒有去看過。今天實在天氣太好了，在家裏坐不住，因而一口氣就跑到了這裏。”<br><br><br><br>    “好極！好極！我也正在打算出去走走，就同你一道上溪口去吃茶去罷，沿錢塘江到溪口去的一路的風景，實在是不錯！”<br><br><br><br>    沿溪入谷，在風和日暖，山近天高的田塍道上，二人慢慢地走着，談着，走到九溪十八澗的口上的時候，太陽已經斜到了去山不過丈來高的地位了。在溪房的石條上坐落，等茶莊裏的老翁去起茶煮水的中間，向青翠還象初春似的四山一看，我的心坎裏不知怎麼，竟充滿了一股說不出的颯爽的清氣。兩人在路上，說話原已經說得很多了，所以一到茶莊，都不想再說下去，只瞪目坐着，在看四周的山和腳下的水，忽而噓朔朔朔的一聲，在半天裏，晴空中一隻飛鷹，象霹靂似的叫過了，兩山的迴音，更繚繞地震動了許多時。我們兩人頭也不仰起來，只豎起耳朵，在靜聽着這鷹聲的響過。迴響過後，兩人不期而遇的將視線湊集了攏來，更同時破顏發了一臉微笑，也同時不謀而合的叫了出來說：“真靜啊！”“真靜啊！”<br><br><br><br>    等老翁將一壺茶搬來，也在我們邊上的石條上坐下，和我們攀談了幾句之後，我纔開始問他說：“久住在這樣寂靜的山中，山前山後，一個人也沒有得看見，你們倒也不覺得怕的麼？”<br><br><br><br>    “伯啥東西？我們又沒有龍連（錢），強盜綁匪，難道肯到孤老院裏來討飯吃的麼？並且春三二月，外國清明，這裏的遊客，一天也有好幾千。冷清的，就只不過這幾個月。”<br><br><br><br>    我們一面喝着清茶，一面只在貪味着這陰森得同太古似的山中的寂靜，不知不覺，竟把擺在桌上的四碟糕點都吃完了，老翁看了我們的食慾的旺盛，就又摧薦着他們自造的西湖藕粉和桂花糖說：“我們的出品，非但在本省口碑載道，就是外省，也常有信來郵購的，兩位先生衝一碗嚐嚐看如何？”<br><br><br><br>    大約是山中的清氣，和十幾里路的步行的結果罷，那一碗看起來似鼻涕，吃起來似泥沙的藕粉，竟使我們嚼出了一種意外的鮮味。等那壺龍井芽茶，衝得已無茶味，而我身邊帶着的一封絞盤牌也只剩了兩枝的時節，覺得今天足行得特別快的那輪秋日，早就在西面的峯旁躲去了。谷裏雖掩下了一天陰影，而對面東首的山頭，還映得金黃淺碧，似乎是山靈在預備去赴夜宴而鋪陳着濃裝的樣子。我昂起了頭，正在賞玩着這一幅以青天爲背景的夕照的秋山，忽所見耳旁的老翁以富有抑揚的杭州土音計算着賬說：“一茶，四碟，二粉，五千文！”<br><br><br><br>    我真覺得這一串話是有詩意極了，就回頭來叫了一聲說：<br><br><br><br>    “老先生！你是在對課呢？還是在做詩？”<br><br><br><br>    他倒驚了起來，張圓了兩眼呆視着問我：<br><br><br><br>    “先生你說啥話語？”<br><br><br><br>    “我說，你不是在對課麼？三竺六橋，九溪十八澗，你不是對上了‘一茶四碟，二粉五千文’了麼？”<br><br><br><br>    說到了這裏，他才搖動着鬍子，哈哈的大笑了起來，我們也一道笑了。付賬起身，向右走上了去理安寺的那條石砌小路，我們倆在山嘴將轉彎的時候，三人的呵呵呵呵的大笑的餘音，似乎還在那寂靜的山腰，寂靜的溪口，作不絕如縷的迴響。<br><br><br><br>    一九三三年五月二十一日<br><br></div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/21749/10002">下一章</a></div>
+        <div class="pre_chapter"><a style="color: #d4d4d4;">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一頁</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一頁</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div class="book-info">
+            <div class="book-base-info-b">
+                
+                <div class="bookname-b">
+                    
+                    
+                    <a class="bookname" href="/book/21749">達夫遊記</a>
+                </div>
+                <div>作者：<a class="author" href="/author/10105">郁達夫</a></div>
+                <div class="info-b-1">
+                    <div>类型：<span>散文随笔</span></div>
+                    <div>总字数：<span>5.48万</span></div>
+                    <div>阅读量：<span>9739</span></div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="52" data-goods-name="【山姆薯干】红瑶蜜薯干软糯香甜健康粗粮代餐" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847911123139559846&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/png_m_41e4523e26b9303d803802655234d748_sx_1101927_www1000-1000"
+                         alt="【山姆薯干】红瑶蜜薯干软糯香甜健康粗粮代餐">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆薯干】红瑶蜜薯干软糯香甜健康粗粮代餐</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>50.96</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+                <li class="note_group_4">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目錄</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li class="selected">
+                    <a href="/book/21749/10001">半日的遊程</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10002">北平的四季</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10003">超山的梅花</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10004">釣臺的春晝</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10005">方巖紀靜</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10006">故都的秋</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10007">達夫遊記杭州</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10008">杭州的八月</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10009">還鄉後記</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10010">江南的冬景</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10011">閩遊滴瀝之二</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10012">青島、濟南、北平、北戴河的巡遊</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10013">蘇州煙雨記</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10014">仙霞紀險</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10015">小春天氣</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10016">飲食男女在福州</a>
+                </li>
+                <li>
+                    <a href="/book/21749/10017">玉皇山</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 5;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

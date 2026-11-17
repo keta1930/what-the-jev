@@ -1,0 +1,76 @@
+{
+  "source_id": "EN065",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 3,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "21a1b9ce0cf64f41b636c0ce4681d6a216f7ead86e0d3462647e25037e04023e",
+    "929a23b0ce0366e51d81676e955e0d006d325dfc242a4da69516ddf669207959",
+    "4a0a87ef80f656618b695b77c489489e7ca0f95a093af477e7638f0cc6b331f4"
+  ],
+  "source_block_sha256": "4a0a87ef80f656618b695b77c489489e7ca0f95a093af477e7638f0cc6b331f4",
+  "ai_block_sha256": "64824bc7fc7167970e9220dceac5af2d0116835c311f994cb89df777840e9ceb",
+  "mixed_sha256": "901a7548988144d8056dda97617a7ae98ff9d10f653486d565af0c4ea3d8098c",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 324-486 words, aiming for 405. Use exactly 5 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nMonday.—\"Rose at nine and came down to find a letter from Mary. How little we know our true friends! Beneath the mask of outward affection there may lurk unknown to us the serpent's tooth of jealousy. Mary writes that she can make nothing for my stall at the bazaar as she has her own stall to provide for. Ate my breakfast mechanically, my thoughts being far away. What, after all, is life? Meditated deeply on the inner cosmos till lunch- time. Afterwards I lay down for an hour and composed my mind. I was angry this morning with Mary. Ah, how petty! Shall I never be free from the bonds of my own nature? Is the better self within me never to rise to the sublime heights of selflessness of which it is capable? Rose at four and wrote to Mary, forgiving her. This has been a wonderful day for the spirit.\"\n\nYes; I suspect that a good many diaries record adventures of the mind and soul for lack of stirring adventures to the body. If they cannot say, \"Attacked by a lion in Bond Street to-day,\" they can at least say, \"Attacked by doubt in St. Paul's Cathedral.\" Most people will prefer, in the absence of the lion, to say nothing, or nothing more important than \"Attacked by the hairdresser with a hard brush\"; but there are others who must get pen to paper somehow, and who find that only in regard to their emotions have they anything unique to say.\n\nBut, of course, there is ever within the breasts of all diarists the hope that their diaries may some day be revealed to the world. They may be discovered by some future generation, amazed at the simple doings of the twentieth century, or their publication may be demanded by the next generation, eager to know the inner life of the great man just dead. Best of all, they may be made public by the writers themselves in their autobiographies.\n\nYes; the diarist must always have his eye on a possible autobiography. \"I remember,\" he will write in that great work, having forgotten all about it, \"I distinctly remember\"—and here he will refer to his diary—\"meeting X. at lunch one Sunday and saying to him …\"\n\nWhat he said will not be of much importance, but it will show you what a wonderful memory the distinguished author retains in his old age."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 476,
+    "total_tokens": 1137,
+    "cost": 0.00038475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00038475,
+      "upstream_inference_prompt_cost": 9.915e-05,
+      "upstream_inference_completions_cost": 0.0002856
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00038475,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 405,
+    "output_words": 403,
+    "lower_words": 324,
+    "upper_words": 486,
+    "source_paragraphs": 5,
+    "output_paragraphs": 5,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.03759398496240601,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "64824bc7fc7167970e9220dceac5af2d0116835c311f994cb89df777840e9ceb",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN065.txt",
+  "mixed_path": "clean/mixed/en/EN065.txt",
+  "response_path": "raw/mixed/en/EN065.response.json"
+}

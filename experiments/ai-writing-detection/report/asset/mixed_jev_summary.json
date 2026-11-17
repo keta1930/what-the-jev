@@ -1,0 +1,198 @@
+{
+  "threshold": 0.5,
+  "languages": {
+    "zh": {
+      "article": {
+        "n": 100,
+        "detected": 37,
+        "detection_rate": 0.37,
+        "detection_rate_95ci": [
+          0.28182360534324524,
+          0.4677947041905709
+        ],
+        "mean_probability": 0.42,
+        "median_probability": 0.405,
+        "higher_than_original_human": 0.97,
+        "mean_increase_over_human": 0.2286,
+        "lower_than_full_ai": 0.69,
+        "by_position": {
+          "1": {
+            "n": 34,
+            "detection_rate": 0.0,
+            "mean_probability": 0.24352941176470588
+          },
+          "2": {
+            "n": 33,
+            "detection_rate": 0.45454545454545453,
+            "mean_probability": 0.45454545454545453
+          },
+          "3": {
+            "n": 33,
+            "detection_rate": 0.6666666666666666,
+            "mean_probability": 0.5672727272727273
+          }
+        }
+      },
+      "localization": {
+        "n": 100,
+        "strict_top": 98,
+        "strict_top_rate": 0.98,
+        "strict_top_95ci": [
+          0.929988209271456,
+          0.9944980324498376
+        ],
+        "top_or_tied_rate": 0.98,
+        "mean_reciprocal_rank": 0.99,
+        "exact_at_threshold_rate": 0.64,
+        "target_block_detection_rate": 0.66,
+        "human_block_false_positive_rate": 0.01,
+        "block_roc_auc": 0.980375,
+        "mean_target_probability": 0.5535,
+        "mean_human_probability": 0.22415000000000002,
+        "by_position": {
+          "1": {
+            "n": 34,
+            "strict_top_rate": 1.0,
+            "top_or_tied_rate": 1.0,
+            "target_detection_rate": 0.7058823529411765,
+            "mean_target_probability": 0.5538235294117647
+          },
+          "2": {
+            "n": 33,
+            "strict_top_rate": 1.0,
+            "top_or_tied_rate": 1.0,
+            "target_detection_rate": 0.696969696969697,
+            "mean_target_probability": 0.5696969696969697
+          },
+          "3": {
+            "n": 33,
+            "strict_top_rate": 0.9393939393939394,
+            "top_or_tied_rate": 0.9393939393939394,
+            "target_detection_rate": 0.5757575757575758,
+            "mean_target_probability": 0.536969696969697
+          }
+        }
+      }
+    },
+    "en": {
+      "article": {
+        "n": 100,
+        "detected": 64,
+        "detection_rate": 0.64,
+        "detection_rate_95ci": [
+          0.5423540245160874,
+          0.7272877959859567
+        ],
+        "mean_probability": 0.5834,
+        "median_probability": 0.58,
+        "higher_than_original_human": 1.0,
+        "mean_increase_over_human": 0.4087,
+        "lower_than_full_ai": 0.7,
+        "by_position": {
+          "1": {
+            "n": 34,
+            "detection_rate": 0.23529411764705882,
+            "mean_probability": 0.4038235294117647
+          },
+          "2": {
+            "n": 33,
+            "detection_rate": 0.696969696969697,
+            "mean_probability": 0.5551515151515152
+          },
+          "3": {
+            "n": 33,
+            "detection_rate": 1.0,
+            "mean_probability": 0.7966666666666666
+          }
+        }
+      },
+      "localization": {
+        "n": 100,
+        "strict_top": 100,
+        "strict_top_rate": 1.0,
+        "strict_top_95ci": [
+          0.9630065017930143,
+          1.0
+        ],
+        "top_or_tied_rate": 1.0,
+        "mean_reciprocal_rank": 1.0,
+        "exact_at_threshold_rate": 0.98,
+        "target_block_detection_rate": 1.0,
+        "human_block_false_positive_rate": 0.01,
+        "block_roc_auc": 1.0,
+        "mean_target_probability": 0.7578,
+        "mean_human_probability": 0.182,
+        "by_position": {
+          "1": {
+            "n": 34,
+            "strict_top_rate": 1.0,
+            "top_or_tied_rate": 1.0,
+            "target_detection_rate": 1.0,
+            "mean_target_probability": 0.7676470588235295
+          },
+          "2": {
+            "n": 33,
+            "strict_top_rate": 1.0,
+            "top_or_tied_rate": 1.0,
+            "target_detection_rate": 1.0,
+            "mean_target_probability": 0.7533333333333333
+          },
+          "3": {
+            "n": 33,
+            "strict_top_rate": 1.0,
+            "top_or_tied_rate": 1.0,
+            "target_detection_rate": 1.0,
+            "mean_target_probability": 0.7521212121212121
+          }
+        }
+      }
+    }
+  },
+  "cost": {
+    "zh": {
+      "requests": 400,
+      "input_tokens": 511313,
+      "cost_usd": 0.02147514600000001
+    },
+    "en": {
+      "requests": 400,
+      "input_tokens": 433120,
+      "cost_usd": 0.018191040000000002
+    },
+    "total": {
+      "requests": 800,
+      "input_tokens": 944433,
+      "cost_usd": 0.03966618600000001
+    }
+  },
+  "combined": {
+    "articles": 200,
+    "article_detection_rate": 0.505,
+    "article_detection_95ci": [
+      0.43627000033527485,
+      0.5735415464009526
+    ],
+    "strict_localization_rate": 0.99,
+    "strict_localization_95ci": [
+      0.9642782382838231,
+      0.9972533418664555
+    ],
+    "target_block_detection_rate": 0.83,
+    "human_block_false_positive_rate": 0.01
+  },
+  "generation_cost": {
+    "zh": {
+      "selected_cost_usd": 0.042006449999999994,
+      "all_attempts_cost_usd": 0.04592249999999999
+    },
+    "en": {
+      "selected_cost_usd": 0.037680450000000004,
+      "all_attempts_cost_usd": 0.05332635000000002
+    },
+    "total": {
+      "selected_cost_usd": 0.0796869,
+      "all_attempts_cost_usd": 0.09924885000000001
+    }
+  },
+  "mixed_phase_total_cost_usd": 0.13891503600000002
+}

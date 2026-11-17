@@ -1,0 +1,819 @@
+{
+  "source_id": "EN028",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "bf394d0dc4c2a125b35e8ed63bd15501f7235cc60a83fc1367b5034a38bf2a0e",
+  "ai_article_sha256": "6259c2b9d479ce75f883432a37f8e57eaa0ffee0eba22bdaaf55166bd51b3894",
+  "mixed_article_sha256": "d36c99dbecbaf2f8e226adc508b700957216b0c661e44956002be7880e4dbeaf",
+  "human_source_sentence_count": 53,
+  "ai_source_sentence_count": 49,
+  "alignment_unit_count": 50,
+  "selected_alignment_unit_count": 16,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.307983,
+  "selected_alignment_score_median": 0.414444,
+  "selected_alignment_score_max": 0.638009,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "\"Look at Peggy with that dreadful cat again—the one-eyed creature from next door,\" someone exclaimed.",
+      "output_sha256": "64c1f1c6a5fd8ec5bf0fe65dbf2f7017f00cbb82ee6912c63fd4ab5a12bcfe0c",
+      "alignment_unit_index": 1,
+      "alignment_score": 0.511667,
+      "human_sentence_indices": [
+        1
+      ],
+      "human_sha256": [
+        "2d904d41032d39511f324f5755fe20a014e5df00b306aeef3f61ceb9f779391a"
+      ],
+      "source_ai_sentence_index": 1,
+      "source_ai_sha256": "64c1f1c6a5fd8ec5bf0fe65dbf2f7017f00cbb82ee6912c63fd4ab5a12bcfe0c",
+      "ai_unit_sentence_indices": [
+        1
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "I turned my gaze outside and indeed saw Peggy coming down the garden path, cradling in her arms the one-eyed feline from over the fence.",
+      "output_sha256": "ec59ac1de5a1738eb1dec1f3835174c02020260af95666d62bdaed27351202a4",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.580933,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "a25c02d1240ae8b0b1ddcc006aae2c8f6fa75c9a3f1a08a747b881bf803aaaab"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "ec59ac1de5a1738eb1dec1f3835174c02020260af95666d62bdaed27351202a4",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Peggy likes the animal in spite of its one eye.",
+      "output_sha256": "874cab27c0062308e47a75842ff5941b0c15c6aff0280ff82805b49b33e49378",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "874cab27c0062308e47a75842ff5941b0c15c6aff0280ff82805b49b33e49378",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I am not sure that she does not like it all the more because of its one eye.",
+      "output_sha256": "3c3085c9c2ad83aa8aa89b5cc3b64617b68815f5cab9175b01d81b3ca79f300d",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "3c3085c9c2ad83aa8aa89b5cc3b64617b68815f5cab9175b01d81b3ca79f300d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I think she has an idea that if she nurses the cat it forgets that it has only one eye and recovers its happiness.",
+      "output_sha256": "7dbe9f61fe8353126e9445898b5f1192fe264edfbac49250f940f8044e24f28b",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "7dbe9f61fe8353126e9445898b5f1192fe264edfbac49250f940f8044e24f28b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "She has a passion for all four-legged creatures.",
+      "output_sha256": "89ab416dac2e7d65e0b978218a205cfb4df21e411a55c5e3358393b9bfc2ce37",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "89ab416dac2e7d65e0b978218a205cfb4df21e411a55c5e3358393b9bfc2ce37",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "I've witnessed her spend an entire day gathering handfuls of grass from the orchard, eagerly delivering them to the donkey or horse in the neighboring paddock.",
+      "output_sha256": "66bbdb6b89fc68892bc243dd583b5b38d5798c2329039477ffd7b24311023dff",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.431135,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "2b4f7114f36de7c69a7199ac5c633061617876a6fcbbf6ceee4e247ac1e8e069"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "66bbdb6b89fc68892bc243dd583b5b38d5798c2329039477ffd7b24311023dff",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "When there are no animals to engage with, she improvises by donning horseshoes on her hands and feet, mimicking the sound of a horse trotting about.",
+      "output_sha256": "ab76e60735813de68bc5e67892e8ed98c7c039cb0c5a1928c30421a62b350677",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.431135,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "2b4f7114f36de7c69a7199ac5c633061617876a6fcbbf6ceee4e247ac1e8e069"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "ab76e60735813de68bc5e67892e8ed98c7c039cb0c5a1928c30421a62b350677",
+      "ai_unit_sentence_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Though her compassion embraces all four-legged beings, her deepest affections appear to be reserved for those who are disabled or disadvantaged.",
+      "output_sha256": "3390733e255f62aeb2f6a46eb324169714539e5a14a30ec42f2943e29a8acd49",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.325791,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "feb875fc0bab55c94b05480140c27142cae5ee687116242b1b5379a88ee5d7df"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "3390733e255f62aeb2f6a46eb324169714539e5a14a30ec42f2943e29a8acd49",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It is only among children that we find the quality of charity sufficiently strong to forgive deformity.",
+      "output_sha256": "c47e138f8086197bdbba364ce919bc5ad972d64d580ce1ecc6f443d92ac95ae6",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "c47e138f8086197bdbba364ce919bc5ad972d64d580ce1ecc6f443d92ac95ae6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The instinct to turn away from physical flaws is deeply ingrained; it seems to be an evolutionary trait aimed at preserving the ideal forms of life.",
+      "output_sha256": "2aea868c38fb9d508eff31de625c7c75e685f1d61813374727e1c84fbf445217",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.464615,
+      "human_sentence_indices": [
+        10,
+        11
+      ],
+      "human_sha256": [
+        "aa144489ca147675bfa4bfad2af0540a239a39f871046bf93c2df89c9cb4b01b",
+        "e86de00d5d00fbed89ba010bb08c626f6d231032162e03628ce0782fde7e93c3"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "2aea868c38fb9d508eff31de625c7c75e685f1d61813374727e1c84fbf445217",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "We call these forms beauty and the departure from them ugliness, and it is from \"beauty's rose,\" as Shakespeare says, that \"we desire increase.\"",
+      "output_sha256": "88e0ad703cf0873da161da8777bb6dfbe43245407355d8e1909c465c8bb7cc57",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "88e0ad703cf0873da161da8777bb6dfbe43245407355d8e1909c465c8bb7cc57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "If you shudder at the touch of a withered hand or at the sight of a one-eyed cat, it is because you feel that they are a menace to the established forms of life.",
+      "output_sha256": "afc157b5156273559591f3dcded33475fa076bdae4b9478c5e9e4c7b91e0261c",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "afc157b5156273559591f3dcded33475fa076bdae4b9478c5e9e4c7b91e0261c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You are unconsciously playing the part of policeman for nature.",
+      "output_sha256": "967e913139087b472b5d123e622dad016d2a142f825c8660d69d1d4d8add3740",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "967e913139087b472b5d123e622dad016d2a142f825c8660d69d1d4d8add3740",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You are the guardian of its traditions when you blush at the glance of two eyes and shudder at the glance of one.",
+      "output_sha256": "7e71844586aa640c37ca6e9c71b950f6ebd50eb670fd09e2137b1c7d2c494781",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "7e71844586aa640c37ca6e9c71b950f6ebd50eb670fd09e2137b1c7d2c494781",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And yet it is not impossible to fall in love with the physically defective and sincerely to believe that they are beautiful.",
+      "output_sha256": "057c39a9e555be808e0348cc664f172d175ec3e639a4cede773a6b82b6e52348",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "057c39a9e555be808e0348cc664f172d175ec3e639a4cede773a6b82b6e52348",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Take that incident mentioned by Descartes.",
+      "output_sha256": "0528de8a71262252b62508d634c207121d871bc714f953d34fbbaf36bc5b73b3",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "0528de8a71262252b62508d634c207121d871bc714f953d34fbbaf36bc5b73b3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "He said that when he was a child he used to play with a little girl who had a squint, and that to the end of his days he liked people who squinted.",
+      "output_sha256": "2c35b453fc618059232436d797c876a2709d7c97f2722123b4e72af6d18463ec",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "2c35b453fc618059232436d797c876a2709d7c97f2722123b4e72af6d18463ec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "In this instance, the memories associated with that squinted gaze infused a sense of charm into what might initially seem a deformity.",
+      "output_sha256": "d2a160601c855eb6768f7f25f0c1ad6c242b6af27496cad16f15645c304ede3c",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.36872,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "f88cf2d5d419ad9b88278b56b226b8efc0134b657d24da8e21f8b8ecdddeb6e0"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "d2a160601c855eb6768f7f25f0c1ad6c242b6af27496cad16f15645c304ede3c",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The squint brought back to him the memory of the Golden Age, and through the mist of that memory it was transmuted into loveliness.",
+      "output_sha256": "55e03ea3785209c779553b63a713d531deac62ae1f68d95e8eb69845aef1b8b7",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "55e03ea3785209c779553b63a713d531deac62ae1f68d95e8eb69845aef1b8b7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Nor is it memory alone that will work the miracle.",
+      "output_sha256": "08f20ac7c4712c94c75954fbcbd91a6348e885f34b5f27d0145ba7dd18863d94",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "08f20ac7c4712c94c75954fbcbd91a6348e885f34b5f27d0145ba7dd18863d94",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Intellectual sympathy will do it, too.",
+      "output_sha256": "743af4edda805ca02de6f7020acbe493da6d3dcb45448936b034d258aa4b90cb",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "743af4edda805ca02de6f7020acbe493da6d3dcb45448936b034d258aa4b90cb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Wilkes was renowned for his ugliness, but he claimed that, given half an hour's start, he would win the smiles of any woman against any competitor.",
+      "output_sha256": "d0769c29ac711853b029fb9644fd6adb996c4683d60e89a41623ab4b9d601e84",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "d0769c29ac711853b029fb9644fd6adb996c4683d60e89a41623ab4b9d601e84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "When one of his female supporters defended him against a remark regarding his squint, she declared, \"Of course he does; but he doesn't squint more than a man of his genius ought to squint.\"",
+      "output_sha256": "a90739f391f2f253fd2c4d438d9e1f209a1673903be63cf632d03ef636ee34cc",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.638009,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "27848418c19f2fa5d0d997ce0c463daf400f3b285038d8767b813973e03e6419"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "a90739f391f2f253fd2c4d438d9e1f209a1673903be63cf632d03ef636ee34cc",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "It wasn’t only women who were captivated by Wilkes.",
+      "output_sha256": "331e01e657a0e3a6fb335791f9d0369f9002112edc256d4a515ca9acaa739a47",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.33,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "9adf2e9f0bbe873bc2add2776e437b3867b7386212bf6014f77282d8fcdfa782"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "331e01e657a0e3a6fb335791f9d0369f9002112edc256d4a515ca9acaa739a47",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Who can forget the scene when Tom Davies brought him into the company of Dr. Johnson, who hated Wilkes' Radicalism, and would never willingly have consented to meet him?",
+      "output_sha256": "d62420d54a0e541d208f61d20bceec067af07e488cc3dcf4ea7348d9f8005a4d",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "d62420d54a0e541d208f61d20bceec067af07e488cc3dcf4ea7348d9f8005a4d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Initially, Johnson remained aloof, but eventually, he succumbed to the allure of Wilkes' conversation.",
+      "output_sha256": "d69752e45dd811c31b95148f988d9add7dfc0993e6926c3e050a274c2796ae77",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.317465,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "a77a48c7d9c45eb35e7765de666a50a8b8a395705bf1ffeb8eba4eefa66a84cb"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "d69752e45dd811c31b95148f988d9add7dfc0993e6926c3e050a274c2796ae77",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Similarly, Johnson regarded his wife as the epitome of beauty, despite the fact that most others saw her as plain and unremarkable.",
+      "output_sha256": "26dfb1ae03c5134035c0ad319af00e43e73116b642dd9bcaab5cfda29ebd159d",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.324652,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "d5db76ba269732186faf7b8c74de82c1a1cdf6136c860a88542973b186f6ea40"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "26dfb1ae03c5134035c0ad319af00e43e73116b642dd9bcaab5cfda29ebd159d",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "To the rest of the world she was extraordinarily plain and commonplace, but to Johnson she was the mirror of beauty.",
+      "output_sha256": "6c3d9da5f04394c353a5b9d653a15a393afe91172ed23419a0eb16a9fb128306",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "6c3d9da5f04394c353a5b9d653a15a393afe91172ed23419a0eb16a9fb128306",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "\"Pretty creature,\" he would say with a sigh in referring to her after her death.",
+      "output_sha256": "8a03ad7c07c57eda82975039f1c1f24d2c67f0bcb7c25f7420dd2f5feeb30b76",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "8a03ad7c07c57eda82975039f1c1f24d2c67f0bcb7c25f7420dd2f5feeb30b76",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And there, I fancy, we touch the root of the matter.",
+      "output_sha256": "6e29ca5198aa3f7c72d2cc19afd783ac90b56816fe46f232a6b75db29a2bc8a6",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "6e29ca5198aa3f7c72d2cc19afd783ac90b56816fe46f232a6b75db29a2bc8a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The sense of beauty is in one respect an affair of the soul, and only superficially an aesthetic quality.",
+      "output_sha256": "fbc1fd0ef2ea2fa52a5fc6fcafe0f0a406fd923142dab19219cea7c8273c0182",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "fbc1fd0ef2ea2fa52a5fc6fcafe0f0a406fd923142dab19219cea7c8273c0182",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "We begin with a common bias in favor of certain forms—those that nature has instilled in us as ideals.",
+      "output_sha256": "ba5548d6bfc70ec72b5ef14f7e954d987307e76208d8df4921d744efafb7ccde",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.455,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "787268531863d3925f73c64c33b773dca9172e41d64219e881de41cac79b0619"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "ba5548d6bfc70ec72b5ef14f7e954d987307e76208d8df4921d744efafb7ccde",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "They are the forms with which nature has made us familiar, and we seek to perpetuate them.",
+      "output_sha256": "6bf48bb77ced49ac5f9524316cbd4dc184ea7ad25b769b1152afe05e5099215d",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "6bf48bb77ced49ac5f9524316cbd4dc184ea7ad25b769b1152afe05e5099215d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But if the conventionally beautiful form is allied with spiritual ugliness it ceases to be beautiful to us, and if the conventionally ugly form is allied with spiritual beauty that beauty irradiates the physical deficiency.",
+      "output_sha256": "e54911b7c4799651cfd4379811aabe393595b63620c01bca2d8dfe40b8eb4209",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "e54911b7c4799651cfd4379811aabe393595b63620c01bca2d8dfe40b8eb4209",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The soul dominates the senses.",
+      "output_sha256": "3c0123e8b7919b01beb1a633e1d8c03af9a2610d8333fb1452151425d3887b67",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "3c0123e8b7919b01beb1a633e1d8c03af9a2610d8333fb1452151425d3887b67",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Francis Thompson expresses the idea very beautifully when he says:—",
+      "output_sha256": "d9ca6dd4ab375b09ab85e75d789c2cdbc06788178ddf51b48d06cd1fe953bb1e",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "d9ca6dd4ab375b09ab85e75d789c2cdbc06788178ddf51b48d06cd1fe953bb1e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I cannot tell what beauty is her dole, Who cannot see her features for her soul.",
+      "output_sha256": "098ae25f02f2bd8f95b8fbf19818e23b7b8431adb3b6e3846672f73f5c191436",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "098ae25f02f2bd8f95b8fbf19818e23b7b8431adb3b6e3846672f73f5c191436",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "As birds see not the casement for the sky.",
+      "output_sha256": "6b1c959b045d8af3dfd35001088ca6296b9c0eb6d3ea232eeeba570654fa594b",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "6b1c959b045d8af3dfd35001088ca6296b9c0eb6d3ea232eeeba570654fa594b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But there is another sense in which beauty is the most matter-of-fact thing.",
+      "output_sha256": "d14697115dc14c93e74d04b0801b29a4bae4c914d75e5385923b598615ea7ee6",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "d14697115dc14c93e74d04b0801b29a4bae4c914d75e5385923b598615ea7ee6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I can conceive that if the human family had developed only one eye, and that planted in the centre of the forehead, the appearance of a person with two eyes would be as offensive to our sense of beauty as a hand that consisted not of fingers but of thumbs.",
+      "output_sha256": "1d3973b93e5e6795fb07bd479fcff9a1d92b4ce0483f2f4b64f63640c2ffb736",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "1d3973b93e5e6795fb07bd479fcff9a1d92b4ce0483f2f4b64f63640c2ffb736",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "We would likely view the two-eyed individual with a blend of curiosity and disdain, much like how we currently find ourselves observing the bearded woman in a sideshow.",
+      "output_sha256": "c2086b535b5343e4cc6803738d047b40d04c120ea2f66016be7fd4ee8c13a082",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.397754,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "dd828776c541b3689499224b11469c78d715a6a25f2a879118ca0914f596c79d"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "c2086b535b5343e4cc6803738d047b40d04c120ea2f66016be7fd4ee8c13a082",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "We should not go to admire his two eyes, any more than we go to admire the beard; we should go to enjoy a pleasant sense of disgust at his misfortune and a comfortable satisfaction at the fact that we had not been the victims of such a calamity.",
+      "output_sha256": "42e6d2d6796b33b3cb8cd1c4c86d95d4b788b72ccd8a53ce74244de0b8086bbc",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "42e6d2d6796b33b3cb8cd1c4c86d95d4b788b72ccd8a53ce74244de0b8086bbc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "We should roll our single eye with a proud feeling that we were in the true line of beauty, from which the two-eyed man in front was a hideous and fantastic departure.",
+      "output_sha256": "0b1cd2e34631da51b7fac8bda6ea27965a83e6e5197f13bf0b620b24087ae18f",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "0b1cd2e34631da51b7fac8bda6ea27965a83e6e5197f13bf0b620b24087ae18f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "In essence, beauty serves as a tribute to necessity.",
+      "output_sha256": "859c4f38b30c20d9f5df3f1cea6c0a63c4858f22b6488410ca574d480d6ed4b7",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.476786,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "8c1f919e9f178b35828a98ff68b82792f29684fb4911994e1555a24262796954"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "859c4f38b30c20d9f5df3f1cea6c0a63c4858f22b6488410ca574d480d6ed4b7",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "In equipping itself for the struggle for existence humanity has found that it is convenient to have two eyes and a stereoscopic vision, just as it is convenient to have four fingers on the hand and one thumb instead of five thumbs.",
+      "output_sha256": "01be8963963180514a5f0d4deb9be17be9c4e5d7d398e38f0cbe7b9c756b69cf",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "01be8963963180514a5f0d4deb9be17be9c4e5d7d398e38f0cbe7b9c756b69cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Our physical attributes have been shaped by the demands of survival.",
+      "output_sha256": "777dd314811c406e797a40033f1f99c0e0483336a4d363130ff97fa2eece720a",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.307983,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "3ea2cc8315566faafdbf2d8b79307e6956d43abd011a841ef8431fcb6df91c72"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "777dd314811c406e797a40033f1f99c0e0483336a4d363130ff97fa2eece720a",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "And the more perfectly they fulfil that supreme condition the more beautiful we declare them to be.",
+      "output_sha256": "9197a0ecd0d71dfc902c31e1449e07122ded06a6ce8f486b2e4b02d94b3434ec",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "9197a0ecd0d71dfc902c31e1449e07122ded06a6ce8f486b2e4b02d94b3434ec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Our conceptions of beauty, therefore, are not fixed; they are contingent upon our biological needs.",
+      "output_sha256": "c48dbbaed886210f317f9ddde53863ccaf50499962fd0b7bc209e100542e1b26",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.528135,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "6820032c3c084e769093f9ffba9b77486b39bf791932cf94ba5406f4b970d120"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "c48dbbaed886210f317f9ddde53863ccaf50499962fd0b7bc209e100542e1b26",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "They are the humble servants of our necessity.",
+      "output_sha256": "2f07af50368dba72e1d7e49003cf0d8a7612ef972f098f1a338694d120dc3dd5",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "2f07af50368dba72e1d7e49003cf0d8a7612ef972f098f1a338694d120dc3dd5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Two eyes are essential for navigating our world, and thus, we come to cherish them.",
+      "output_sha256": "7e73cc499804a82f40e9a41a11fff9ca0f4bbee5cbbb5be43c6be5b0112acdd9",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.389364,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "5e0bf8da39da3d47fd70c423e95397e7e08dc11ca1d3fe8647b4a0d01189ddcc"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "7e73cc499804a82f40e9a41a11fff9ca0f4bbee5cbbb5be43c6be5b0112acdd9",
+      "ai_unit_sentence_indices": [
+        45,
+        46
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "The more adept they are at their functions, the more we are drawn to them, declaring them beautiful.",
+      "output_sha256": "d1a755e42c624b961bdeb01caf0ae942c443a752d7e13bbdb08a1f321fbea623",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.389364,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "5e0bf8da39da3d47fd70c423e95397e7e08dc11ca1d3fe8647b4a0d01189ddcc"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "d1a755e42c624b961bdeb01caf0ae942c443a752d7e13bbdb08a1f321fbea623",
+      "ai_unit_sentence_indices": [
+        45,
+        46
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "I think that Peggy, nursing her one-eyed cat there in the sun, has not yet accepted our creed of beauty.",
+      "output_sha256": "cb3c4521140a333a075699e5d791250039d6b4362a557d3a291def490d487c5a",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "cb3c4521140a333a075699e5d791250039d6b4362a557d3a291def490d487c5a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "She will be as conventional as the rest of us when her frocks are longer.",
+      "output_sha256": "bd94ff32114aeaba8f8541725324c080ad0c5a67bd4813bd029b5b9796238090",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "bd94ff32114aeaba8f8541725324c080ad0c5a67bd4813bd029b5b9796238090",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

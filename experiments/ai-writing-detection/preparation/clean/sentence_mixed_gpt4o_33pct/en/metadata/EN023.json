@@ -1,0 +1,953 @@
+{
+  "source_id": "EN023",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "e3dc944b7af61f95bfa349c8cffe25a7abaf3fd52f3ac03b01d8b6291fd2d4d0",
+  "ai_article_sha256": "df8882a7d3d7de16c07628e490eae69bc4fcb052c9149c0ec806d6110a18404b",
+  "mixed_article_sha256": "ebc0daccecfb0891d48183acc1b267904d68b8d166cf85ca2b511841f124b43c",
+  "human_source_sentence_count": 61,
+  "ai_source_sentence_count": 52,
+  "alignment_unit_count": 50,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.279945,
+  "selected_alignment_score_median": 0.415636,
+  "selected_alignment_score_max": 0.62381,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Last week, in an idle metaphor, I took the tumbling of trees and the secret energy of the wind as typical of the visible world moving under the violence of the invisible.",
+      "output_sha256": "06b40df8bd6202feb874aab98035c5a2bca08db3a18ae2057f5842146fa4e9a9",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "06b40df8bd6202feb874aab98035c5a2bca08db3a18ae2057f5842146fa4e9a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "This metaphor arose quite naturally as I penned my thoughts in a wooded area.",
+      "output_sha256": "c08415ef59700d2bef5cbc9e8f34353ca7fef13d72686af063f8becc9f0cf688",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.345,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "4b3efe6232f3506fb9b4a4a649f57e373094aa21e0698cb135d515b7ab3953f5"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "c08415ef59700d2bef5cbc9e8f34353ca7fef13d72686af063f8becc9f0cf688",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "However, upon returning to Fleet Street, a place I find infinitely more vivid and poetic than any wilderness, I was unexpectedly struck by the significance of that metaphor.",
+      "output_sha256": "9cff7fb605bcea64c0a5613835900c90d5a5c489a83a5bbfe13a2c817b8d1f47",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.319286,
+      "human_sentence_indices": [
+        3
+      ],
+      "human_sha256": [
+        "2277fbaa1f7bacd7a38ca360b7d9e9dea470d59fa2e786f9708a99fc434ff8f3"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "9cff7fb605bcea64c0a5613835900c90d5a5c489a83a5bbfe13a2c817b8d1f47",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The people’s figures seem a forest and their soul a wind.",
+      "output_sha256": "435d9ff7a4d5c3916353b4682c5774144fda988a9a1f94cb19d43aca3e2b0c42",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "435d9ff7a4d5c3916353b4682c5774144fda988a9a1f94cb19d43aca3e2b0c42",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "All the human personalities which speak or signal to me seem to have this fantastic character of the fringe of the forest against the sky.",
+      "output_sha256": "ec21448cbb833d68b8bf50dc30cf56f5e9cc42a909bafae5cf2bd44eeef734ed",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "ec21448cbb833d68b8bf50dc30cf56f5e9cc42a909bafae5cf2bd44eeef734ed",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The man engaged in conversation with me appeared as an articulate tree, while the van driver, animatedly gesturing for me to move aside, resembled branches dancing in a gust of wind, a natural spectacle I could observe with ease.",
+      "output_sha256": "b6afe2875c71746e7f8529ccfceac287a9c9e69cd80074e5429d11e963212ad1",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.298182,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "852e7737f06960b0eeb0b0a45f338a1789f79193153e50d8c81026c29125d4da",
+        "32d47a6371462e495ffce5c1f4629671a147dad8e0a27258ab23918e81fa4ff6"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "b6afe2875c71746e7f8529ccfceac287a9c9e69cd80074e5429d11e963212ad1",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The policeman, raising his hand to caution approaching buses of the danger posed by my presence, seemed like a shrub momentarily disturbed by a strong current of human law, an authority stronger than the chaos of anarchy.",
+      "output_sha256": "191f1d40721dd031e44f5e34c7ac9b4514540daa14cb57a66b8a2feab83c3074",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.41876,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "b9a7c5699c32ca8a7b9982e61c40a9d71e23c52aaa9710a2711f473b87917572"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "191f1d40721dd031e44f5e34c7ac9b4514540daa14cb57a66b8a2feab83c3074",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Gradually this impression of the woods wears off.",
+      "output_sha256": "35719ed6ff08b1c565e76c3f3330fb1a38dec07e3d4161807dfe2395f931a62a",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "35719ed6ff08b1c565e76c3f3330fb1a38dec07e3d4161807dfe2395f931a62a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But this black-and-white contrast between the visible and invisible, this deep sense that the one essential belief is belief in the invisible as against the visible, is suddenly and sensationally brought back to my mind.",
+      "output_sha256": "8df5c4ea4b6009c2fedfcdbb5201c8e52e0bccb8f4c4542c621a7f295680b7a7",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "8df5c4ea4b6009c2fedfcdbb5201c8e52e0bccb8f4c4542c621a7f295680b7a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Just when Fleet Street, with its familiar yet bewildering brightness, became mundane, a striking violet poster caught my eye.",
+      "output_sha256": "b2f0384d4e4ae3f7514309499e9e41e144904bc4c0ad64ebd99b590b7e0a38a2",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.45499,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "00c07cfa0fc968169d8f2fde07de96b1d5a5fd97a71192b9cc0c6a5b8d6e49a6"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "b2f0384d4e4ae3f7514309499e9e41e144904bc4c0ad64ebd99b590b7e0a38a2",
+      "ai_unit_sentence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Bold black letters proclaimed an intriguing question: “Should Shop Assistants Marry?”",
+      "output_sha256": "3bee3725238f82fac2e61a571d2fbe7d3ea2dafc92df79b994bcddb6fc862fb7",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.45499,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "00c07cfa0fc968169d8f2fde07de96b1d5a5fd97a71192b9cc0c6a5b8d6e49a6"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "3bee3725238f82fac2e61a571d2fbe7d3ea2dafc92df79b994bcddb6fc862fb7",
+      "ai_unit_sentence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": ".....",
+      "output_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "When I saw those words everything might just as well have turned upside down.",
+      "output_sha256": "c15602ec5f9d40a875419611f28695d85ebbbf5286d09690e192191b7dc2233d",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "c15602ec5f9d40a875419611f28695d85ebbbf5286d09690e192191b7dc2233d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The men in Fleet Street might have been walking about on their hands.",
+      "output_sha256": "6cf4884b78eb8cb6390032265a3fef5d8ec5abfc3f8234ec7a28f3a8ebfd3e3e",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "6cf4884b78eb8cb6390032265a3fef5d8ec5abfc3f8234ec7a28f3a8ebfd3e3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The cross of St. Paul’s might have been hanging in the air upside down.",
+      "output_sha256": "356547effbb99c63ed2f160cb7c4f758c3751d8231156fd36b44f7314a543c2d",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "356547effbb99c63ed2f160cb7c4f758c3751d8231156fd36b44f7314a543c2d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I realized that I had entered a realm where the belief prevailed that the visible world, represented by the swaying of trees, dictated the existence of the wind.",
+      "output_sha256": "826ed12dbc988a552022972f588d78ad265b6279eaae494b29183ac2c39c1e8f",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.359615,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "23b578ad561b31dd0a643474ec1f055810236b8a1b4e53146b968ded6b33519b"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "826ed12dbc988a552022972f588d78ad265b6279eaae494b29183ac2c39c1e8f",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "That is to say, they believe that the material circumstances, however black and twisted, are more important than the spiritual realities, however powerful and pure.",
+      "output_sha256": "e6d13eb8f18d0950f8d5656a90d7a8c8f8ed1a1e5cffae8fc8f3dfabafe8988a",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "e6d13eb8f18d0950f8d5656a90d7a8c8f8ed1a1e5cffae8fc8f3dfabafe8988a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "“Should Shop Assistants Marry?”",
+      "output_sha256": "998c25ea7581d9b977f49279c1ecf02fa4adc8891f534accb28608e5f7323b5f",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "998c25ea7581d9b977f49279c1ecf02fa4adc8891f534accb28608e5f7323b5f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I am puzzled to think what some periods and schools of human history would have made of such a question.",
+      "output_sha256": "243f010496d419454a500caf02cecbbeb7e4f1f34817429ee945cad73fc64982",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "243f010496d419454a500caf02cecbbeb7e4f1f34817429ee945cad73fc64982",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The ascetics of the East or of some periods of the early Church would have thought that the question meant, “Are not shop assistants too saintly, too much of another world, even to feel the emotions of the sexes?”",
+      "output_sha256": "a720a279dec99018df7efe9bddbb9d006b9c16ac8088f9260b51eb6ba4d012fd",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "a720a279dec99018df7efe9bddbb9d006b9c16ac8088f9260b51eb6ba4d012fd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But I suppose that is not what the purple poster means.",
+      "output_sha256": "b029c6c69f0f2428ae5056d82f8cfe24d877f081e43527c022dc6e98a813860d",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "b029c6c69f0f2428ae5056d82f8cfe24d877f081e43527c022dc6e98a813860d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "In certain ancient societies, it could have posed a question about whether individuals of such lowly status as shop assistants should even be allowed to propagate their lineage.",
+      "output_sha256": "9fab3f0963b603d4612cdd57d3329e60f547a50cde666caac5b82511afb6ae49",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.452775,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "e71e0fd81383c1b036f324e0c0e71f4b97f8340385ec5e040638b50e5473ae09"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "9fab3f0963b603d4612cdd57d3329e60f547a50cde666caac5b82511afb6ae49",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But I suppose that is not what the purple poster meant.",
+      "output_sha256": "ff941634f69c4f1533c8fa9af0c1dc58a5fe0853b99dc6f04147bdacd58f987b",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "ff941634f69c4f1533c8fa9af0c1dc58a5fe0853b99dc6f04147bdacd58f987b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "However, I fear we must confront the disturbing reality of what the poster implies.",
+      "output_sha256": "48dae7304e047b54fd75433958d9db117f65f5e54de08e1df833a971d6a79a44",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.416667,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "9ea54429a9569331b356c61a1f985d6aa78f701740903cbea4b6f5e3d3ac3bd3"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "48dae7304e047b54fd75433958d9db117f65f5e54de08e1df833a971d6a79a44",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It does really mean that a section of the human race is asking whether the primary relations of the two human sexes are particularly good for modern shops.",
+      "output_sha256": "0af176aef3ce10a7c729ae0da525e1850a5d0500dce4c697c7987d687e339c42",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "0af176aef3ce10a7c729ae0da525e1850a5d0500dce4c697c7987d687e339c42",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "It invites us to consider whether the archetypal figures of Adam and Eve are well-suited for the setting of Marshall and Snelgrove.",
+      "output_sha256": "b9be51030c531a293d3b6bf64f71fbb115955446f36449ebc8d246a1abb86f53",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.480181,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "e5b8d6b37bce25fdebfd64117bbe0a40110529d5a68c02459a49965dc8d69a00"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "b9be51030c531a293d3b6bf64f71fbb115955446f36449ebc8d246a1abb86f53",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "If this is not topsy-turvy I cannot imagine what would be.",
+      "output_sha256": "01e044662361158c72219c2e197774c0b38a593970ffce0c9857768ee97f42f4",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "01e044662361158c72219c2e197774c0b38a593970ffce0c9857768ee97f42f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "We ask whether the universal institution will improve our (please God) temporary institution.",
+      "output_sha256": "e9d4a034bee4547aaaa8e7cd098f0c26efe285a754d69160095a134f5b848e72",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "e9d4a034bee4547aaaa8e7cd098f0c26efe285a754d69160095a134f5b848e72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Yet I have known many such questions.",
+      "output_sha256": "d9ba67096bde4aa665c0cb1fbc0a572f0da59f28f018ee1921536536a8650c07",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "d9ba67096bde4aa665c0cb1fbc0a572f0da59f28f018ee1921536536a8650c07",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "For instance, I have known a man ask seriously, “Does Democracy help the Empire?”",
+      "output_sha256": "42d03238faf349cfcc6921d4ef724e239e212ab2318177fdb28d293875e68a7c",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "42d03238faf349cfcc6921d4ef724e239e212ab2318177fdb28d293875e68a7c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Which is like saying, “Is art favourable to frescoes?”",
+      "output_sha256": "5c42149b2736103ca9558f340909c4d7662d01ff95ca6bba8411a41ebdde70f8",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "5c42149b2736103ca9558f340909c4d7662d01ff95ca6bba8411a41ebdde70f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "I assert that numerous such inquiries exist.",
+      "output_sha256": "c47195109f46bb4d7017943c8f0fb02822611f201424db010e702ac5ef6a7a97",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.382639,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "277223ee0c3fe12c60eafa28ecf8e8a252dd6881db17ccfc417ba4016ea14b96"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "c47195109f46bb4d7017943c8f0fb02822611f201424db010e702ac5ef6a7a97",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But if the world ever runs short of them, I can suggest a large number of questions of precisely the same kind, based on precisely the same principle.",
+      "output_sha256": "34b73a10a20e7aa2f805789a146b832ef066d03cb199cdcb2d86f0a551efb08a",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "34b73a10a20e7aa2f805789a146b832ef066d03cb199cdcb2d86f0a551efb08a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“Do Feet Improve Boots?”—“Is Bread Better when Eaten?”—“Should Hats have Heads in them?”—“Do People Spoil a Town?”—“Do Walls Ruin Wall-papers?”—“Should Neckties enclose Necks?”—“Do Hands Hurt Walking-sticks?”—“Does Burning Destroy Firewood?”—“Is Cleanliness Good for Soap?”—“Can Cricket Really Improve Cricket-bats?”—“Shall We Take Brides with our Wedding Rings?” and a hundred others.",
+      "output_sha256": "59d0741de234305559c088eb92136ccbeba8b6ef686f03340c0d3856d80b4fc6",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "59d0741de234305559c088eb92136ccbeba8b6ef686f03340c0d3856d80b4fc6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Not one of these questions differs at all in intellectual purport or in intellectual value from the question which I have quoted from the purple poster, or from any of the typical questions asked by half of the earnest economists of our times.",
+      "output_sha256": "ee59f36d4cd6cc0807cf19f28d937963d4c95a2675409be3f56a8dca31d89de3",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "ee59f36d4cd6cc0807cf19f28d937963d4c95a2675409be3f56a8dca31d89de3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "All the questions they ask are of this character; they are all tinged with this same initial absurdity.",
+      "output_sha256": "002f6bbf50222e008ed53dd8efc70d5e0f2a48065e1e60377e316f9a07e3776a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "002f6bbf50222e008ed53dd8efc70d5e0f2a48065e1e60377e316f9a07e3776a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "They don’t ask whether the means align with the end; instead, they display a deep-seated skepticism by inquiring if the end is compatible with the means.",
+      "output_sha256": "062fb2edbfb20b83154dc2acfb08056458ab67f5becd03961fb4e1d1ff0e5044",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.502381,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "2bd76df933efa09df117163aee6dca6f1a695a6f525bd627d483d3d43d22849f"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "062fb2edbfb20b83154dc2acfb08056458ab67f5becd03961fb4e1d1ff0e5044",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "They do not ask whether the tail suits the dog.",
+      "output_sha256": "03dd65bb5aa680cfe783440dc1d4c4e00af4896822f9e9950187e2b8f76afa62",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "03dd65bb5aa680cfe783440dc1d4c4e00af4896822f9e9950187e2b8f76afa62",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "They all ask whether a dog is (by the highest artistic canons) the most ornamental appendage that can be put at the end of a tail.",
+      "output_sha256": "98723593db3b0df9e459b4d925b57123b5a82a63995b6f50b0d00a3b8b9b13cf",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "98723593db3b0df9e459b4d925b57123b5a82a63995b6f50b0d00a3b8b9b13cf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Ultimately, instead of examining whether our modern structures—streets, trades, agreements, laws, and concrete institutions—are appropriate for a wholesome human existence, the discourse rarely includes the concept of healthy human life.",
+      "output_sha256": "cb98bec85f6c25dbcdfbf466eab757ba3809deef0997f06fb1771818d01e4dfe",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.415636,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "72d570b878bb4093d57d11df22709e0c177202e445684ac99313ade12cb17175"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "cb98bec85f6c25dbcdfbf466eab757ba3809deef0997f06fb1771818d01e4dfe",
+      "ai_unit_sentence_indices": [
+        33,
+        34
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "When it does, it is only as an afterthought, merely questioning whether that thriving existence is appropriate for our streets and businesses.",
+      "output_sha256": "864bc62eab130b32d553fa10b6fd1f78f9e3c33fdb954643b4586c7ab3139dfe",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.415636,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "72d570b878bb4093d57d11df22709e0c177202e445684ac99313ade12cb17175"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "864bc62eab130b32d553fa10b6fd1f78f9e3c33fdb954643b4586c7ab3139dfe",
+      "ai_unit_sentence_indices": [
+        33,
+        34
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Perfection may be attainable or unattainable as an end.",
+      "output_sha256": "f16c51a642634ff09ece760efd1b5d17fe8ba354555132f163688f3e440f1654",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "f16c51a642634ff09ece760efd1b5d17fe8ba354555132f163688f3e440f1654",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It may or may not be possible to talk of imperfection as a means to perfection.",
+      "output_sha256": "17846510b92ce2cd3c52bb908fe923864ba971afddbd684b3b95e5dac1ba879c",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "17846510b92ce2cd3c52bb908fe923864ba971afddbd684b3b95e5dac1ba879c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But surely it passes toleration to talk of perfection as a means to imperfection.",
+      "output_sha256": "aaecb513107054111e5e898ca2a81be28ce015b05afee6f257241b5880648333",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "aaecb513107054111e5e898ca2a81be28ce015b05afee6f257241b5880648333",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The New Jerusalem may be a reality.",
+      "output_sha256": "d7ff93e7dd9fd067dfa4538b66ab87e9b19f2523ff0b92e02876888cb71fe7b5",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "d7ff93e7dd9fd067dfa4538b66ab87e9b19f2523ff0b92e02876888cb71fe7b5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It may be a dream.",
+      "output_sha256": "d64e3bf065da6608039072248d878155b9cf97124bdbc4edd608b669bf5e1ddc",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "d64e3bf065da6608039072248d878155b9cf97124bdbc4edd608b669bf5e1ddc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But surely it is too outrageous to say that the New Jerusalem is a reality on the road to Birmingham.",
+      "output_sha256": "016f3b5fee1bba538a84fa93e53b3e5749a1728d9dd8940e757b0d86e6df0d07",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "016f3b5fee1bba538a84fa93e53b3e5749a1728d9dd8940e757b0d86e6df0d07",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": ".....",
+      "output_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "f85d30e7d95a052f65167f1f1095186d1190c91502b4ab7aedab460a6eab8870",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "This is the most enormous and at the same time the most secret of the modern tyrannies of materialism.",
+      "output_sha256": "8882d5c095df0f22c691c205340bd307301de0d955f37e212804033b2727e99f",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "8882d5c095df0f22c691c205340bd307301de0d955f37e212804033b2727e99f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "In theory the thing ought to be simple enough.",
+      "output_sha256": "55e8119eafbc13db7e282c947ad2b8dca3cd378a4dfa3f2081b7a116c8930876",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "55e8119eafbc13db7e282c947ad2b8dca3cd378a4dfa3f2081b7a116c8930876",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "A really human human being would always put the spiritual things first.",
+      "output_sha256": "f228047bbf4973d46dd76e03d14797d89da3972b09309725fef1b3609f62afb5",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "f228047bbf4973d46dd76e03d14797d89da3972b09309725fef1b3609f62afb5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "At a specific moment, a person—an embodiment of divine potential—might find himself working as a shop assistant.",
+      "output_sha256": "4787cf03d7473a83a092b224d78940213d72b60db890a33f48f5b03fa6414195",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.419744,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "9fd93628397ec949412c7091510e8e89e1dc7248814af00768a37ab9bf5cde27"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "4787cf03d7473a83a092b224d78940213d72b60db890a33f48f5b03fa6414195",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Within him lies a capacity for profound love, an innate desire for fatherhood, and a quest for loyalty that unifies his life.",
+      "output_sha256": "416ec6385b30a1780dc0b73b7cfbdaf68605427bc6dbc9cd31daafe145895613",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.338828,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "e92054150dbd553f8b225ce7db813e860fe324eaf22170cc8528ca49ca5df02f"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "416ec6385b30a1780dc0b73b7cfbdaf68605427bc6dbc9cd31daafe145895613",
+      "ai_unit_sentence_indices": [
+        43,
+        44
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Typically, he would consider how the current conditions of shop work align with his epic destiny concerning love and marriage.",
+      "output_sha256": "bd10c22c405f0de5d711b54b8a4c38c83bbbabdbb035708f743b55070c0aa1fc",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.338828,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "e92054150dbd553f8b225ce7db813e860fe324eaf22170cc8528ca49ca5df02f"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "bd10c22c405f0de5d711b54b8a4c38c83bbbabdbb035708f743b55070c0aa1fc",
+      "ai_unit_sentence_indices": [
+        43,
+        44
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Yet, as I’ve indicated, modern materialism exerts its quiet yet suffocating influence.",
+      "output_sha256": "f8a22b3fe063ad777718aa09780908f30a74bdeb202624240c7b97856e578791",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.310714,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "46e17213dca51c8dc01c102b3fdcbbf0ec19782ec883d9532efed12cf889856b"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "f8a22b3fe063ad777718aa09780908f30a74bdeb202624240c7b97856e578791",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It prevents him rising in rebellion, as he would otherwise do.",
+      "output_sha256": "efc6c727306268089f5df489e47b5afff49cf4d4f485c3a65364abd84b1eca74",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "efc6c727306268089f5df489e47b5afff49cf4d4f485c3a65364abd84b1eca74",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "By perpetually talking about environment and visible things, by perpetually talking about economics and physical necessity, painting and keeping repainted a perpetual picture of iron machinery and merciless engines, of rails of steel, and of towers of stone, modern materialism at last produces this tremendous impression in which the truth is stated upside down.",
+      "output_sha256": "12b2d25d18c4595f8ef003ac546aa2754389a341516e28cf5f529a0ef409f5e9",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "12b2d25d18c4595f8ef003ac546aa2754389a341516e28cf5f529a0ef409f5e9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "At last the result is achieved.",
+      "output_sha256": "c4a248d4610b0e028a345a8507ad25905a2967719123e1cc3407ec7ca1ec7217",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "c4a248d4610b0e028a345a8507ad25905a2967719123e1cc3407ec7ca1ec7217",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The man does not say as he ought to have said, “Should married men endure being modern shop assistants?”",
+      "output_sha256": "886dd97ce2db1c46e6039d4a9a24eeab0a17c5a0d4d9b5c81dcd6068802df6b4",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "886dd97ce2db1c46e6039d4a9a24eeab0a17c5a0d4d9b5c81dcd6068802df6b4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Instead, he poses, “Should shop assistants marry?”",
+      "output_sha256": "5db10fa1cbcec987b97ef0f48e9c513bcc7266f3d6cd80a8c386a956bde09efb",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.62381,
+      "human_sentence_indices": [
+        58
+      ],
+      "human_sha256": [
+        "01c74620da70c228427fe1ebc0a56d2048a82aa7e7a0e0b04fb74312915bf5cc"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "5db10fa1cbcec987b97ef0f48e9c513bcc7266f3d6cd80a8c386a956bde09efb",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Materialism achieves its deceptive triumph.",
+      "output_sha256": "43a7ea6c023833a139f636c04f33f23f06b50cb7d4044e03d3fd99b03b8620a5",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.279945,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "e2d64b5db2354c9caa83ba5aa1f126fd5c771e64f71727456cb575067130f3da"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "43a7ea6c023833a139f636c04f33f23f06b50cb7d4044e03d3fd99b03b8620a5",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "The enslaved individual no longer questions, “Are these chains deserving of me?”",
+      "output_sha256": "5d9389e676d9f754444b3246c3a6936ba21b82e002525c8dd6e78188cbf4044f",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.518116,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "42c3ec6cae51b8ee699944c21ea4423b6f4ad16dddb07f2b0400c4d7c40a7df1"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "5d9389e676d9f754444b3246c3a6936ba21b82e002525c8dd6e78188cbf4044f",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The slave says scientifically and contentedly, “Am I even worthy of these chains?”",
+      "output_sha256": "7b13e606f48204fc9148fc999e9535331815331b34b7fb2d792c313e6391b1c0",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "7b13e606f48204fc9148fc999e9535331815331b34b7fb2d792c313e6391b1c0",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

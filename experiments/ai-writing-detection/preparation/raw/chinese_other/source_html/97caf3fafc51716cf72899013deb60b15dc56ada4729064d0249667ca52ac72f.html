@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《而已集》略论中国人的脸 - 可阅文学网</title>
+    <meta name="keywords" content="而已集,略论中国人的脸,全文阅读,章节,可阅文学">
+    <meta name="description" content="大约人们一遇到不大看惯的东西，总不免以为他古怪。我还记得初看见西洋人的时候，就觉得他脸太白，头发太黄，眼珠太淡，鼻梁太高。虽然不能明明白白地说出理由来，但总而言之：相貌不应该如">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/11074/10003">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/11074/10003">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/11074/10003">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/11074">而已集</a><span id="top_chaptername" style="float: right">略论中国人的脸</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　大约人们一遇到不大看惯的东西，总不免以为他古怪。我还记得初看见西洋人的时候，就觉得他脸太白，头发太黄，眼珠太淡，鼻梁太高。虽然不能明明白白地说出理由来，但总而言之：相貌不应该如此。至于对于中国人的脸，是毫无异议；即使有好丑之别，然而都不错的。<br><br>　　我们的古人，倒似乎并不放松自己中国人的相貌。周的孟轲就用眸子来判胸中的正不正，<i class="iconfont icon-zhushi" data-content="《孟子·离娄（上）》有如下的话：“孟子曰：存乎人者，莫良于眸子，眸子不能掩其恶。胸中正，则眸子眊焉；胸中不正，则眸子眊焉。听其言也，观其眸子，人焉廋哉。”"></i>汉朝还有《相人》<i class="iconfont icon-zhushi" data-content="《相人》：谈相术的书，见《汉书·艺文志》的“数术”类，著者不详。"></i>二十四卷。后来闹这玩艺儿的尤其多；分起来，可以说有两派罢：一是从脸上看出他的智愚贤不肖；一是从脸上看出他过去，现在和将来的荣枯。于是天下纷纷，从此多事，许多人就都战战兢兢地研究自己的脸。我想，镜子的发明，恐怕这些人和小姐们是大有功劳的。不过近来前一派已经不大有人讲究，在北京上海这些地方捣鬼的都只是后一派了。<br><br>　　我一向只留心西洋人。留心的结果，又觉得他们的皮肤未免太粗；毫毛有白色的，也不好。皮上常有红点，即因为颜色太白之故，倒不如我们之黄。尤其不好的是红鼻子，有时简直像是将要熔化的蜡烛油，仿佛就要滴下来，使人看得栗栗危惧，也不及黄色人种的较为隐晦，也见得较为安全。总而言之：相貌还是不应该如此的。<br><br>　　后来，我看见西洋人所画的中国人，才知道他们对于我们的相貌也很不敬。那似乎是《天方夜谈》或者《安兑生童话》<i class="iconfont icon-zhushi" data-content="《天方夜谈》：原名《一千〇一夜》，古代阿拉伯民间故事集。安兑生（H.C.Andersen，1805—1875），通译安徒生，丹麦童话作家。这里所说的插画，见于当时美国霍顿·密夫林公司出版的安徒生《童话集》中的《夜莺》篇。"></i>中的插画，现在不很记得清楚了。头上戴着拖花翎的红缨帽，一条辫子在空中飞扬，朝靴的粉底非常之厚。但这些都是满洲人连累我们的。独有两眼歪斜，张嘴露齿，却是我们自己本来的相貌。不过我那时想，其实并不尽然，外国人特地要奚落我们，所以格外形容得过度了。<br><br>　　但此后对于中国一部分人们的相貌，我也逐渐感到一种不满，就是他们每看见不常见的事件或华丽的女人，听到有些醉心的说话的时候，下巴总要慢慢挂下，将嘴张了开来。这实在不大雅观；仿佛精神上缺少着一样什么机件。据研究人体的学者们说，一头附着在上颚骨上，那一头附着在下颚骨上的“咬筋”，力量是非常之大的。我们幼小时候想吃核桃，必须放在门缝里将它的壳夹碎。但在成人，只要牙齿好，那咬筋一收缩，便能咬碎一个核桃。有着这么大的力量的筋，有时竟不能收住一个并不沉重的自己的下巴，虽然正在看得出神的时候，倒也情有可原，但我总以为究竟不是十分体面的事。<br><br>　　日本的长谷川如是闲是善于做讽刺文字的。去年我见过他的一本随笔集，叫作《猫·狗·人》<i class="iconfont icon-zhushi" data-content="长谷川如是闲：（1875—1969） 日本评论家、作家。著有《日本的性格》、《现代社会批判》等。《猫·狗·人》，日本改造社1924年5月出版，内有《中国人的脸及其他》一文。"></i>；其中有一篇就说到中国人的脸。大意是初见中国人，即令人感到较之日本人或西洋人，脸上总欠缺着一点什么。久而久之，看惯了，便觉得这样已经尽够，并不缺少东西；倒是看得西洋人之流的脸上，多余着一点什么。这多余着的东西，他就给它一个不大高妙的名目：兽性。中国人的脸上没有这个，是人，则加上多余的东西，即成了下列的算式：<br><br><p class="q">人＋兽性＝西洋人</p><br>　　他借了称赞中国人，贬斥西洋人，来讥刺日本人的目的，这样就达到了，自然不必再说这兽性的不见于中国人的脸上，是本来没有的呢，还是现在已经消除。如果是后来消除的，那么，是渐渐净尽而只剩了人性的呢，还是不过渐渐成了驯顺。野牛成为家牛，野猪成为猪，狼成为狗，野性是消失了，但只足使牧人喜欢，于本身并无好处。人不过是人，不再夹杂着别的东西，当然再好没有了。倘不得已，我以为还不如带些兽性，如果合于下列的算式倒是不很有趣的：<br><br><p class="q">人＋家畜性＝某一种人</p><br>　　中国人的脸上真可有兽性的记号的疑案，暂且中止讨论罢。我只要说近来却在中国人所理想的古今人的脸上，看见了两种多余。一到广州，我觉得比我所从来的厦门丰富得多的，是电影，而且大半是“国片”，有古装的，有时装的。因为电影是“艺术”，所以电影艺术家便将这两种多余加上去了。<br><br>　　古装的电影也可以说是好看，那好看不下于看戏；至少，决不至于有大锣大鼓将人的耳朵震聋。在“银幕”上，则有身穿不知何时何代的衣服的人物，缓慢地动作；脸正如古人一般死，因为要显得活，便只好加上些旧式戏子的昏庸。<br><br>　　时装人物的脸，只要见过清朝光绪年间上海的吴友如的《画报》<i class="iconfont icon-zhushi" data-content="吴友如：（？—1893） 名猷（又作嘉猷），字友如，江苏元和（今吴县）人，清末画家。以善画人物、世态著名。他主编的《点石斋画报》，旬刊，1884年创刊，1898年停刊，随上海《申报》发行。"></i>的，便会觉得神态非常相像。《画报》所画的大抵不是流氓拆梢<i class="iconfont icon-zhushi" data-content="拆梢：上海一带方言，指流氓制造事端诈取财物的行为。"></i>，便是妓女吃醋，所以脸相都狡猾。这精神似乎至今不变，国产影片中的人物，虽是作者以为善人杰士者，眉宇间也总带些上海洋场式的狡猾。可见不如此，是连善人杰士也做不成的。<br><br>　　听说，国产影片之所以多，是因为华侨欢迎，能够获利，每一新片到，老的便带了孩子去指点给他们看道：“看哪，我们的祖国的人们是这样的。”在广州似乎也受欢迎，日夜四场，我常见看客坐得满满。<br><br>　　广州现在也如上海一样，正在这样地修养他们的趣味。可惜电影一开演，电灯一定熄灭，我不能看见人们的下巴。<br><br><p class="wt">四月六日。</p></div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/11074/10004">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/11074/10002">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="54" data-goods-name="山姆MM盐焗腰果仁酥脆1.1kg越南进口非油炸坚果零食" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847903671639736524&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_b7227f9a2604ca470f5bf022a497f20e_sx_254115_www1000-1000"
+                         alt="山姆MM盐焗腰果仁酥脆1.1kg越南进口非油炸坚果零食">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">山姆MM盐焗腰果仁酥脆1.1kg越南进口非油炸坚果零食</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>122.76</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    <a style="color: #ffffff;" href="/book/11074/10001">题辞</a>
+                    
+                </p>
+                
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>一九二七年</span>
+                </p>
+                <li>
+                    <a href="/book/11074/10002">黄花节的杂感</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/11074/10003">略论中国人的脸</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10004">革命时代的文学</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10005">写在《劳动问题》之前</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10006">略谈香港</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10007">读书杂谈</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10008">通信</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10009">答有恒先生</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10010">辞“大义”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10011">反“漫谈”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10012">忧“天乳”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10013">革“首领”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10014">谈“激烈”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10015">扣丝杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10016">“公理”之所在</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10017">可恶罪</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10018">“意表之外”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10019">新时代的放债法</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10020">魏晋风度及文章与药及酒之关系</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10021">小杂感</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10022">再谈香港</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10023">革命文学</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10024">《尘影》题辞</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10025">当陶元庆君的绘画展览时</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10026">卢梭和胃口</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10027">文学和出汗</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10028">文艺和革命</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10029">谈所谓“大内档案”</a>
+                </li>
+                <li>
+                    <a href="/book/11074/10030">拟预言</a>
+                </li>
+            </ul>
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span>附录</span>
+                </p>
+                <li>
+                    <a href="/book/11074/10031">大衍发微</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af023011e4c45a2b_07f823341b4179b2623479b3e7d3a4fb";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "source_id": "EN055",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "5564a80346131aaf513e3227fe7b7281d53dd29a8bea9aad8c3d3495c5d5a1ea",
+    "1a82c3577145983033ff6cdbd323cd60e8f2a7f60db5969f9aeefd3168bd85c4",
+    "3b109a23a180b8adc576248f9359d7e11ac114261415f4f0928f5ba405c9421c"
+  ],
+  "source_block_sha256": "5564a80346131aaf513e3227fe7b7281d53dd29a8bea9aad8c3d3495c5d5a1ea",
+  "ai_block_sha256": "16342c1521d79701752a1fa40622893664ccc48b986be36f3fcd5bd00b6e1bcc",
+  "mixed_sha256": "1043e27d67b09e7a57f4cbc7838c10ea77743424a314001a5e30de2aa6195c77",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 318-476 words, aiming for 397. Use exactly 2 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nFrom time to time I have introduced into this newspaper column the narration of incidents that have really occurred. I do not mean to insinuate that in this respect it stands alone among newspaper columns. I mean only that I have found that my meaning was better expressed by some practical parable out of daily life than by any other method; therefore I propose to narrate the incident of the extraordinary cabman, which occurred to me only three days ago, and which, slight as it apparently is, aroused in me a moment of genuine emotion bordering upon despair.\n\nOn the day that I met the strange cabman I had been lunching in a little restaurant in Soho in company with three or four of my best friends. My best friends are all either bottomless sceptics or quite uncontrollable believers, so our discussion at luncheon turned upon the most ultimate and terrible ideas. And the whole argument worked out ultimately to this: that the question is whether a man can be certain of anything at all. I think he can be certain, for if (as I said to my friend, furiously brandishing an empty bottle) it is impossible intellectually to entertain certainty, what is this certainty which it is impossible to entertain? If I have never experienced such a thing as certainty I cannot even say that a thing is not certain. Similarly, if I have never experienced such a thing as green I cannot even say that my nose is not green. It may be as green as possible for all I know, if I have really no experience of greenness. So we shouted at each other and shook the room; because metaphysics is the only thoroughly emotional thing. And the difference between us was very deep, because it was a difference as to the object of the whole thing called broad-mindedness or the opening of the intellect. For my friend said that he opened his intellect as the sun opens the fans of a palm tree, opening for opening’s sake, opening infinitely for ever. But I said that I opened my intellect as I opened my mouth, in order to shut it again on something solid. I was doing it at the moment. And as I truly pointed out, it would look uncommonly silly if I went on opening my mouth infinitely, for ever and ever."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 631,
+    "completion_tokens": 417,
+    "total_tokens": 1048,
+    "cost": 0.00034485,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00034485,
+      "upstream_inference_prompt_cost": 9.465e-05,
+      "upstream_inference_completions_cost": 0.0002502
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00034485,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 397,
+    "output_words": 353,
+    "lower_words": 318,
+    "upper_words": 476,
+    "source_paragraphs": 2,
+    "output_paragraphs": 2,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.0028653295128939827,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "16342c1521d79701752a1fa40622893664ccc48b986be36f3fcd5bd00b6e1bcc",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN055.txt",
+  "mixed_path": "clean/mixed/en/EN055.txt",
+  "response_path": "raw/mixed/en/EN055.response.json"
+}

@@ -1,0 +1,238 @@
+{
+  "threshold": 0.5,
+  "bootstrap_iterations": 20000,
+  "auc_bootstrap_iterations": 4000,
+  "bootstrap_design": "stratified by language; resampling unit is source article with all three blocks",
+  "p_value_design": "exact paired cluster sign-flip; Holm correction across 10 binary primary/secondary tests",
+  "cost_usd": {
+    "jev": 0.03966618600000001,
+    "gpt4omini": 0.1090488,
+    "gpt56luna": 0.22346942000000003
+  },
+  "comparisons": {
+    "jev_vs_gpt4omini": {
+      "other_method": "gpt4omini",
+      "n_articles": 200,
+      "n_blocks": 600,
+      "metrics": {
+        "article_detection": {
+          "jev_rate": 0.505,
+          "other_rate": 0.265,
+          "difference": 0.24,
+          "difference_95ci": [
+            0.16,
+            0.32
+          ],
+          "cluster_exact_p": 6.566339353826234e-06,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 21,
+            "jev_only_correct": 80,
+            "other_only_correct": 32,
+            "both_wrong": 67
+          },
+          "holm_p": 3.283169676913117e-05
+        },
+        "block_accuracy": {
+          "jev_rate": 0.9366666666666666,
+          "other_rate": 0.6083333333333333,
+          "difference": 0.3283333333333333,
+          "difference_95ci": [
+            0.3,
+            0.35833333333333334
+          ],
+          "cluster_exact_p": 1.7436582415699466e-46,
+          "cluster_count": 200,
+          "denominator_per_cluster": 3,
+          "paired_counts": {
+            "both_correct": 358,
+            "jev_only_correct": 204,
+            "other_only_correct": 7,
+            "both_wrong": 31
+          },
+          "holm_p": 1.569292417412952e-45
+        },
+        "strict_localization": {
+          "jev_rate": 0.99,
+          "other_rate": 0.2,
+          "difference": 0.79,
+          "difference_95ci": [
+            0.735,
+            0.845
+          ],
+          "cluster_exact_p": 5.473822126268817e-48,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 40,
+            "jev_only_correct": 158,
+            "other_only_correct": 0,
+            "both_wrong": 2
+          },
+          "holm_p": 5.473822126268817e-47
+        },
+        "target_detection": {
+          "jev_rate": 0.83,
+          "other_rate": 0.09,
+          "difference": 0.74,
+          "difference_95ci": [
+            0.68,
+            0.795
+          ],
+          "cluster_exact_p": 4.353903019651069e-39,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 13,
+            "jev_only_correct": 153,
+            "other_only_correct": 5,
+            "both_wrong": 29
+          },
+          "holm_p": 3.4831224157208553e-38
+        },
+        "human_specificity": {
+          "jev_rate": 0.99,
+          "other_rate": 0.8675,
+          "difference": 0.1225,
+          "difference_95ci": [
+            0.09,
+            0.155
+          ],
+          "cluster_exact_p": 7.275957614183426e-11,
+          "cluster_count": 200,
+          "denominator_per_cluster": 2,
+          "paired_counts": {
+            "both_correct": 345,
+            "jev_only_correct": 51,
+            "other_only_correct": 2,
+            "both_wrong": 2
+          },
+          "holm_p": 5.093170329928398e-10
+        }
+      },
+      "block_auc": {
+        "jev_auc": 0.99291875,
+        "other_auc": 0.54598125,
+        "difference": 0.4469375,
+        "difference_95ci": [
+          0.41336203125,
+          0.47902171875000005
+        ],
+        "bootstrap_iterations": 4000
+      }
+    },
+    "jev_vs_gpt56luna": {
+      "other_method": "gpt56luna",
+      "n_articles": 200,
+      "n_blocks": 600,
+      "metrics": {
+        "article_detection": {
+          "jev_rate": 0.505,
+          "other_rate": 0.725,
+          "difference": -0.22,
+          "difference_95ci": [
+            -0.29,
+            -0.15
+          ],
+          "cluster_exact_p": 1.9964982237862146e-08,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 91,
+            "jev_only_correct": 10,
+            "other_only_correct": 54,
+            "both_wrong": 45
+          },
+          "holm_p": 1.1978989342717287e-07
+        },
+        "block_accuracy": {
+          "jev_rate": 0.9366666666666666,
+          "other_rate": 0.9133333333333333,
+          "difference": 0.023333333333333334,
+          "difference_95ci": [
+            0.0033333333333333335,
+            0.043333333333333335
+          ],
+          "cluster_exact_p": 0.04355852192384191,
+          "cluster_count": 200,
+          "denominator_per_cluster": 3,
+          "paired_counts": {
+            "both_correct": 534,
+            "jev_only_correct": 28,
+            "other_only_correct": 14,
+            "both_wrong": 24
+          },
+          "holm_p": 0.13067556577152573
+        },
+        "strict_localization": {
+          "jev_rate": 0.99,
+          "other_rate": 0.975,
+          "difference": 0.015,
+          "difference_95ci": [
+            -0.005,
+            0.04
+          ],
+          "cluster_exact_p": 0.375,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 194,
+            "jev_only_correct": 4,
+            "other_only_correct": 1,
+            "both_wrong": 1
+          },
+          "holm_p": 0.375
+        },
+        "target_detection": {
+          "jev_rate": 0.83,
+          "other_rate": 0.74,
+          "difference": 0.09,
+          "difference_95ci": [
+            0.03,
+            0.145
+          ],
+          "cluster_exact_p": 0.0050976432976312935,
+          "cluster_count": 200,
+          "denominator_per_cluster": 1,
+          "paired_counts": {
+            "both_correct": 138,
+            "jev_only_correct": 28,
+            "other_only_correct": 10,
+            "both_wrong": 24
+          },
+          "holm_p": 0.020390573190525174
+        },
+        "human_specificity": {
+          "jev_rate": 0.99,
+          "other_rate": 1.0,
+          "difference": -0.01,
+          "difference_95ci": [
+            -0.02,
+            -0.0025
+          ],
+          "cluster_exact_p": 0.125,
+          "cluster_count": 200,
+          "denominator_per_cluster": 2,
+          "paired_counts": {
+            "both_correct": 396,
+            "jev_only_correct": 0,
+            "other_only_correct": 4,
+            "both_wrong": 0
+          },
+          "holm_p": 0.25
+        }
+      },
+      "block_auc": {
+        "jev_auc": 0.99291875,
+        "other_auc": 0.99196875,
+        "difference": 0.0009500000000000064,
+        "difference_95ci": [
+          -0.006212499999999954,
+          0.00967578124999999
+        ],
+        "bootstrap_iterations": 4000
+      }
+    }
+  }
+}

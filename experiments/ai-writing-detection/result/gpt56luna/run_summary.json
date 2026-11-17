@@ -1,0 +1,53 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "tag": "gpt56luna",
+  "protocol": "label_confidence",
+  "temperature": 0,
+  "datasets": [
+    {
+      "dataset": "article-zh",
+      "expected": 100,
+      "successful": 100,
+      "unresolved_errors": 0,
+      "cost_usd": 0.05342282000000003,
+      "prompt_tokens": 169486,
+      "completion_tokens": 10513,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt56luna_baseline_v2_output\\responses.gpt56luna.article-mixed.zh.jsonl"
+    },
+    {
+      "dataset": "article-en",
+      "expected": 100,
+      "successful": 100,
+      "unresolved_errors": 0,
+      "cost_usd": 0.04175299999999999,
+      "prompt_tokens": 155836,
+      "completion_tokens": 9582,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt56luna_baseline_v2_output\\responses.gpt56luna.article-mixed.en.jsonl"
+    },
+    {
+      "dataset": "block-zh",
+      "expected": 300,
+      "successful": 300,
+      "unresolved_errors": 0,
+      "cost_usd": 0.06492920000000002,
+      "prompt_tokens": 202690,
+      "completion_tokens": 20326,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt56luna_baseline_v2_output\\responses.gpt56luna.block-mixed.zh.jsonl"
+    },
+    {
+      "dataset": "block-en",
+      "expected": 300,
+      "successful": 300,
+      "unresolved_errors": 0,
+      "cost_usd": 0.06336439999999999,
+      "prompt_tokens": 185836,
+      "completion_tokens": 21831,
+      "output": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\gpt56luna_baseline_v2_output\\responses.gpt56luna.block-mixed.en.jsonl"
+    }
+  ],
+  "total_successful": 800,
+  "total_errors": 0,
+  "total_cost_usd": 0.22346942000000003,
+  "total_prompt_tokens": 713848,
+  "total_completion_tokens": 62252
+}

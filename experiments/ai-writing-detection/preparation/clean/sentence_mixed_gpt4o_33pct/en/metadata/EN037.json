@@ -1,0 +1,817 @@
+{
+  "source_id": "EN037",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "f7ac0faadbaf7c88bd55c5d596bc137db3bf0b3f50316765a9c83dbfeac01dcf",
+  "ai_article_sha256": "af37a71daf607f569263b1a0fc674ffcc21dc0b00849eef7a11228e2ab039d1a",
+  "mixed_article_sha256": "ef28535c469a54ed2af616f36e73a713aee116ace2145c77efa43468b20788b2",
+  "human_source_sentence_count": 56,
+  "ai_source_sentence_count": 54,
+  "alignment_unit_count": 52,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.24053,
+  "selected_alignment_score_median": 0.391441,
+  "selected_alignment_score_max": 0.610714,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "When he reads of the notable doings of famous golfers, the eighteen-handicap man has no envy in his heart.",
+      "output_sha256": "10e28478de347b3eaecbdd134223f6a887c9ceef541aa9d34fdfe13349bc4003",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "10e28478de347b3eaecbdd134223f6a887c9ceef541aa9d34fdfe13349bc4003",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "For by this time he has discovered the great secret of golf.",
+      "output_sha256": "e6cb356c2a08eb15392dd60c0f06674d6863020093427d2568529b9217e8e4c6",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "e6cb356c2a08eb15392dd60c0f06674d6863020093427d2568529b9217e8e4c6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Initially, he pondered what made it so captivating; now, he understands that golf enjoys its popularity because it is the ideal game for those who struggle with it.",
+      "output_sha256": "c3252c3c81c331e6d94a1dc6da9d6d2ba5c785e4d91f140e5dd01e056e1c770e",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.345714,
+      "human_sentence_indices": [
+        3,
+        4
+      ],
+      "human_sha256": [
+        "1d8cbaef1086bd5e8ad215e72320513ae17d81eb26ae39c628761404ae5716ee",
+        "c9f1682a3cec495df2010f22e4957fdde21051b86ca881fb52e945b331c0e6c7"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "c3252c3c81c331e6d94a1dc6da9d6d2ba5c785e4d91f140e5dd01e056e1c770e",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Take, for instance, the experience of being poor at cricket.",
+      "output_sha256": "e6b600280d3f4583fa5365002cc93464028c11fcf35665d78f8d209a83997ccf",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.30807,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "b628bd96ac4a600173662a0a3510ccce98adee85603efd250e102e87e88c1085"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "e6b600280d3f4583fa5365002cc93464028c11fcf35665d78f8d209a83997ccf",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You have bought a new bat, perfect in balance; a new pair of pads, white as driven snow; gloves of the very latest design.",
+      "output_sha256": "04b46fadc4b7b7e59ea81e4e674ad44fa26f8d3151e09af50add66462653a218",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "04b46fadc4b7b7e59ea81e4e674ad44fa26f8d3151e09af50add66462653a218",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Do they let you use them?",
+      "output_sha256": "58d9cf3515dc06dccca55d34032c80939c30d789bfd7813c09a037d98e1cb1f4",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "58d9cf3515dc06dccca55d34032c80939c30d789bfd7813c09a037d98e1cb1f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "No. After one ball, in the negotiation of which neither your bat, nor your pads, nor your gloves came into play, they send you back into the pavilion to spend the rest of the afternoon listening to fatuous stories of some old gentleman who knew Fuller Pilch.",
+      "output_sha256": "333d4329fea6a69bd86fc569806ee20bc5fc8e2e378e2c9fd7cde7d9149d2928",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "333d4329fea6a69bd86fc569806ee20bc5fc8e2e378e2c9fd7cde7d9149d2928",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "And when your side takes the field, where are you?",
+      "output_sha256": "f6a0cb9547d1e251b0a396ca8c6f080a38057411704a05407abd13bd0d024659",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "f6a0cb9547d1e251b0a396ca8c6f080a38057411704a05407abd13bd0d024659",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Probably at long leg both ends, exposed to the public gaze as the worst fieldsman in London.",
+      "output_sha256": "12f1b3f6bbf0528728a03fd753272468afdfad8fb325b09302300b34dc2c30f6",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "12f1b3f6bbf0528728a03fd753272468afdfad8fb325b09302300b34dc2c30f6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "How devastating are your emotions.",
+      "output_sha256": "9b63cb60eaa84f808c660cd3adacaf9f863eb128ba6e85c9add28461c4c04c26",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "9b63cb60eaa84f808c660cd3adacaf9f863eb128ba6e85c9add28461c4c04c26",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Remorse, anger, mortification, fill your heart; above all, envy—envy of the lucky immortals who disport themselves on the green level of Lord's.",
+      "output_sha256": "6eef5ce8b2df5ceeb403cd5bf05eda24b1d87316f2ee64bdc91d0f85608f6aed",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "6eef5ce8b2df5ceeb403cd5bf05eda24b1d87316f2ee64bdc91d0f85608f6aed",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Consider what it is to be bad at lawn tennis.",
+      "output_sha256": "2d0d6f12155642e58c153209ec21eea6a5885d71ed17ac351e1b5268bc675d19",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "2d0d6f12155642e58c153209ec21eea6a5885d71ed17ac351e1b5268bc675d19",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "While you are permitted to hold onto your new racket throughout the match, how frequently do you get to use it effectively?",
+      "output_sha256": "50129bc40929eb804325e008b6637889ecdbf44d3079014b18861e0198798008",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.460333,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "517403f4257a07dc29c89d583a86ae55ef0fafd9165834cba1703374d5f3264e"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "50129bc40929eb804325e008b6637889ecdbf44d3079014b18861e0198798008",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Your partner often shouts “Mine!” and shoves you aside.",
+      "output_sha256": "242fe49ae0beaf7ca00c9b3db92bfcae53a746079776dcdc29db25323cb90078",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.41589,
+      "human_sentence_indices": [
+        15
+      ],
+      "human_sha256": [
+        "562eaf4793e86248cc759d78f6230033dc2490e6420eff5b7ac40541f46ba197"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "242fe49ae0beaf7ca00c9b3db92bfcae53a746079776dcdc29db25323cb90078",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Is there any joy in playing football poorly?",
+      "output_sha256": "811a0bf03ee454ee322b0384e6bb674863d9cd3dcde6f31285b01727046c772d",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.610714,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "ae44ca77ddc929f2a302865ecc1a343a7c98378ea6f2606ff15feb0ad340601d"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "811a0bf03ee454ee322b0384e6bb674863d9cd3dcde6f31285b01727046c772d",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "You may spend the full eighty minutes in your new boots, but your relations with the ball will be distant.",
+      "output_sha256": "3b8531033aca52349c3aaa94b5a3a7d6f413313b82daec1ad10b496d5ab25348",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "3b8531033aca52349c3aaa94b5a3a7d6f413313b82daec1ad10b496d5ab25348",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "In football, the ball doesn’t belong to you.",
+      "output_sha256": "d11b5dc74b0ade83223bddf8f0fa49ffd58f6ed24411c336fbb57754214c65ac",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.278537,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "2f4ebc6629e7c6e7c090c591023ac18ca5fe74cba8a4bbab50030bac46701e0b"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "d11b5dc74b0ade83223bddf8f0fa49ffd58f6ed24411c336fbb57754214c65ac",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But how different a game is golf.",
+      "output_sha256": "3537fba0afae759372beae81e7be138b447c654cec6fec95690cd04893230db4",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "3537fba0afae759372beae81e7be138b447c654cec6fec95690cd04893230db4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "At golf it is the bad player who gets the most strokes.",
+      "output_sha256": "d7f322485e0185882376262bc9bbb967aeda8cc8c5b1f9ecff2b20b22697e44f",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "d7f322485e0185882376262bc9bbb967aeda8cc8c5b1f9ecff2b20b22697e44f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "However good his opponent, the bad player has the right to play out each hole to the end; he will get more than his share of the game.",
+      "output_sha256": "b4cf274a75041e0408298e55cd7a16cd53851205798acf12aa893fbf17dea8d8",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "b4cf274a75041e0408298e55cd7a16cd53851205798acf12aa893fbf17dea8d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "There’s no need to worry that their new driver will sit idle; they are guaranteed ample opportunity to swing it, perhaps even more than the proficient player if they miss the ball entirely on a tee.",
+      "output_sha256": "51ed4c36518bdba9d5bace70e4b13d3278469a8a7aec21d1400bd777400b75eb",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.377882,
+      "human_sentence_indices": [
+        22,
+        23
+      ],
+      "human_sha256": [
+        "cd909ae3f9e6fa1fff77da3c835b1431d4d0587f3a76f4d878ebf8e727f0723a",
+        "7ec13ecabbcd2be87fc2f49a43d82394b1774048cf3dfa4894624d4ef85b3435"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "51ed4c36518bdba9d5bace70e4b13d3278469a8a7aec21d1400bd777400b75eb",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "A new niblick promises immediate enjoyment right from the first round.",
+      "output_sha256": "e8d236aa275098e4dd82a75143ab5648f579156bf977db4feedc15ab7c0b6069",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.315161,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "9a868d3e10164d6ddf696657467a2e5ad70b5e0669bb69681a448c49dc920f5c"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "e8d236aa275098e4dd82a75143ab5648f579156bf977db4feedc15ab7c0b6069",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Moreover, there's a unique aspect of golfing mediocrity—the poor player can occasionally replicate the feats of the skilled player.",
+      "output_sha256": "18eced0b668fec0685768ac0568bf74ad118d2166ec5163e28a53a95b9cc1d00",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.422285,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "79b816a7779a6ff819c34d35dbc4cc61d0e8c0e1e3c0ee47ed1fca41e504341f"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "18eced0b668fec0685768ac0568bf74ad118d2166ec5163e28a53a95b9cc1d00",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The poor cricketer has perhaps never made fifty in his life; as soon as he stands at the wickets he knows that he is not going to make fifty to-day.",
+      "output_sha256": "ac2bc967db8ad3ae047e29e7b68cf64ea5018a3be4e641b4d69de74f63d6c509",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "ac2bc967db8ad3ae047e29e7b68cf64ea5018a3be4e641b4d69de74f63d6c509",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "In contrast, the eighteen-handicap golfer has at some point played every hole on the course flawlessly.",
+      "output_sha256": "58c8f246637a5359b20c66fdfd098de08051e8a7ddf721949c60be185d908b9a",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.589534,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "2b5d6ac95b440165fddc9642716baa32f1cfa3a659bb505f77fc056eca8b845a"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "58c8f246637a5359b20c66fdfd098de08051e8a7ddf721949c60be185d908b9a",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "He has struck a ball 250 yards, executed remarkable approaches, and drained long putts.",
+      "output_sha256": "d156a13bfec790efd85136d6108f646b84ab0f65e7b7db19e9c40265111cff73",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.5093,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "a6cad767ae9b943a5c2eeb87a1cd5236b966555a9c10000affb10862f8714bae"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "d156a13bfec790efd85136d6108f646b84ab0f65e7b7db19e9c40265111cff73",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Any of these things may suddenly happen to him again.",
+      "output_sha256": "524bbfb396eb18b695650b1b7c62b29e44cfbec3441751e2abd6b27fb6b805f4",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "524bbfb396eb18b695650b1b7c62b29e44cfbec3441751e2abd6b27fb6b805f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "And therefore it is not his fate to have to sit in the club smoking- room after his second round and listen to the wonderful deeds of others.",
+      "output_sha256": "f5f6a392b4867b01afd1b417ca013e093fbfa853e39a592fdabc99ff9527b513",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "f5f6a392b4867b01afd1b417ca013e093fbfa853e39a592fdabc99ff9527b513",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "He can join in too.",
+      "output_sha256": "a63103cad18ab57b36ae2ec99b71c0bcf4b3ed7349bec9c87c6c04232b62d4f8",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "a63103cad18ab57b36ae2ec99b71c0bcf4b3ed7349bec9c87c6c04232b62d4f8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "He can say with perfect truth, \"I once carried the ditch at the fourth with my second,\" or \"I remember when I drove into the bunker guarding the eighth green,\" or even \"I did a three at the eleventh this afternoon\"—bogey being five.",
+      "output_sha256": "fed9ef0bc54305512ca3db6cb7aa9002343268e67452838e618e78a2d2371cc2",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "fed9ef0bc54305512ca3db6cb7aa9002343268e67452838e618e78a2d2371cc2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "But if the bad cricketer says, \"I remember when I took a century in forty minutes off Lockwood and Richardson,\" he is nothing but a liar.",
+      "output_sha256": "0f438828fee17a6836b8d628002f0c2b6b5db7e254e42c42a286dea316fb7b03",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "0f438828fee17a6836b8d628002f0c2b6b5db7e254e42c42a286dea316fb7b03",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "For these and other reasons golf is the best game in the world for the bad player.",
+      "output_sha256": "543b10b3cc163f9049cb4945896adffddc25288a71a493dfd73911c173b9ae83",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "543b10b3cc163f9049cb4945896adffddc25288a71a493dfd73911c173b9ae83",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And sometimes I am tempted to go further and say that it is a better game for the bad player than for the good player.",
+      "output_sha256": "a05f85b93fac183a940fff14f025ebb8127ffe02ad5b6bde627b13410130127d",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "a05f85b93fac183a940fff14f025ebb8127ffe02ad5b6bde627b13410130127d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The joy of driving a ball straight after a week of slicing, the joy of putting a mashie shot dead, the joy of even a moderate stroke with a brassie; best of all, the joy of the perfect cleek shot—these things the good player will never know.",
+      "output_sha256": "5e159f09bd668a5501b35c051561e8a31cd100b3b73e4c3c6326f9bb31070bcf",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "5e159f09bd668a5501b35c051561e8a31cd100b3b73e4c3c6326f9bb31070bcf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Every stroke taken by those of us who are less proficient is filled with hope.",
+      "output_sha256": "d9acf2dfced3e54335e57994f34d09c950ac25b36958ca6c22ed07efc3c57a3d",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.366333,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "fd8e7f67ddefeac44fa07de52078ce5b5b6e83ef989574bc739937efd29b4260"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "d9acf2dfced3e54335e57994f34d09c950ac25b36958ca6c22ed07efc3c57a3d",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It is never so bad but it might have been worse; it is never so bad but we are confident of doing better next time.",
+      "output_sha256": "094dd53fa80fb0d1c646251590dbf2346dc2230dc0529b38f8de29ca612d391f",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "094dd53fa80fb0d1c646251590dbf2346dc2230dc0529b38f8de29ca612d391f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "When a subsequent stroke is executed well, it fills us with immense joy.",
+      "output_sha256": "40f8aafec0e229c15e495936f1486f18fc4e2d3a70413fa6592bd0873a732c99",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.335473,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "221ab6d91b76f1611c3e56a789f9d5ac244822bac4760389deabcf5577992165"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "40f8aafec0e229c15e495936f1486f18fc4e2d3a70413fa6592bd0873a732c99",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "How eagerly we tell ourselves that in a little while all our strokes will be as good.",
+      "output_sha256": "64d4c4cf0e9e6f1a7d4e0f8fabd1658b6f7c682678ea56b78df85d4c5645a2ab",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "64d4c4cf0e9e6f1a7d4e0f8fabd1658b6f7c682678ea56b78df85d4c5645a2ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "What does Vardon know of this?",
+      "output_sha256": "d39010e6fb714b1d22790024b6b0ddbbe272d862fff9325299255e6ed0aa9fc7",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "d39010e6fb714b1d22790024b6b0ddbbe272d862fff9325299255e6ed0aa9fc7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "If he completes a five-hole in four, he chastises himself for not achieving it in three; if he finishes in five, he is despondent.",
+      "output_sha256": "958b3ecf6ec4a471dbfaf98e5931d1611ec901a8e0defb7bd25781b1f2a714d4",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.590659,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "328d2154e69fe8016e87db3e3884a48535097970d948d09808e8ba1927f3e0a5"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "958b3ecf6ec4a471dbfaf98e5931d1611ec901a8e0defb7bd25781b1f2a714d4",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "He will never experience the pleasant surprise that accompanies a well-executed stroke.",
+      "output_sha256": "5025095d7e3be031da6339989d32c4b5922127530e913e9ba7195d71a756e93d",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.494505,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "06ab725073ca26ed6839fa33c67260ad9689030863ef6e4cfe231a94f601da28"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "5025095d7e3be031da6339989d32c4b5922127530e913e9ba7195d71a756e93d",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Only his bad strokes surprise him, and then we may suppose that he is not happy.",
+      "output_sha256": "a9e8ccebc9f3835880317ec054396a2b8443f7ff117d6a895f166d34e5a4eda7",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "a9e8ccebc9f3835880317ec054396a2b8443f7ff117d6a895f166d34e5a4eda7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "His length and accuracy are mechanical; they are not the result, as so often in our case, of some suddenly applied maxim or some suddenly discovered innovation.",
+      "output_sha256": "5abd688ef6e7286a9b899573d773d443e28963935b382feae302a02eef39d100",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "5abd688ef6e7286a9b899573d773d443e28963935b382feae302a02eef39d100",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The only thing which can vary in his game is his putting, and putting is not golf but croquet.",
+      "output_sha256": "a2411486dae99e83b2e54ae327b265bf29a45413620b90664aecd00393f5deb7",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "a2411486dae99e83b2e54ae327b265bf29a45413620b90664aecd00393f5deb7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Nevertheless, we too aspire to reach Vardon’s level one day.",
+      "output_sha256": "33c704caf9d07a73f560c4fd200586841ce367f8f1fba2f97393e212654fd1b4",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.405,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "d536c249681792fa3f7b3b89a11d2c17dfd618ecc32d4c14b23ec33cececfb72"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "33c704caf9d07a73f560c4fd200586841ce367f8f1fba2f97393e212654fd1b4",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "We are only postponing the day because meanwhile it is so pleasant to be bad.",
+      "output_sha256": "24ca7042f782cfccbee884e752de8c6815b184dc8cf50fc5c240d8c86079b59f",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "24ca7042f782cfccbee884e752de8c6815b184dc8cf50fc5c240d8c86079b59f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "There’s an enchanting element in being an average golfer: in an instant, overnight, one might transform into a skilled player.",
+      "output_sha256": "2372ed9f0a795fb8214c417e1351ac12f72842f58888f0ff68510caa88d4f6fe",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.24053,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "26242327c1a24d400a7294156aaa39a9d89dc1cc5c5c3c81ec7449bdeda33e0c"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "2372ed9f0a795fb8214c417e1351ac12f72842f58888f0ff68510caa88d4f6fe",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "If the bad cricketer said to a good cricketer, \"What am I doing wrong?\" the only possible answer would be, \"Nothing particular, except that you can't play cricket.\"",
+      "output_sha256": "ecfe0d15ac9dbfabf97d3e230ac487cb6100f53bb171a051a9d1643dd14497c8",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "ecfe0d15ac9dbfabf97d3e230ac487cb6100f53bb171a051a9d1643dd14497c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But if you or I were to say to our scratch friend, \"What am I doing wrong?\" he would reply at once, \"Moving the head\" or \"Dropping the right knee\" or \"Not getting the wrists in soon enough,\" and by to-morrow we should be different players.",
+      "output_sha256": "1642ac12eb6753576f00f6b7f118529d2bce46667b0277a7cfaa76b778b8e815",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "1642ac12eb6753576f00f6b7f118529d2bce46667b0277a7cfaa76b778b8e815",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "The path to excellence in golf, as perceived by the eighteen-handicap player, seems to hinge on such small adjustments.",
+      "output_sha256": "ea233387b8e64f12afc1846a5e6728ef011770fb5414fa5047477ba91c03699c",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.363777,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "7f92298036e11c93c33deb038d203f83f6740b1f5e0aa3c592dfc542e0d4844b"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "ea233387b8e64f12afc1846a5e6728ef011770fb5414fa5047477ba91c03699c",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "And so, perfectly happy in our present badness and perfectly confident of our future goodness, we long-handicap men remain.",
+      "output_sha256": "209817544e9a99605603f9486d37f18f081a74df7148d6aa9c85bf9ddf854e30",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "209817544e9a99605603f9486d37f18f081a74df7148d6aa9c85bf9ddf854e30",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "Perhaps it would be pleasanter to be a little more certain of getting the ball safely off the first tee; perhaps at the fourteenth hole, where there is a right of way and the public encroach, we should like to feel that we have done with topping; perhaps—-",
+      "output_sha256": "e57aa733229dfa8c224afb614c41497478affda864e7e48ff9ac36512b2c997a",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "e57aa733229dfa8c224afb614c41497478affda864e7e48ff9ac36512b2c997a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Well, perhaps we might get our handicap down to fifteen this summer.",
+      "output_sha256": "4cbc7a45b216a86a362743b0a6b780b5238bd802333c4624931b0af4378d8a60",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "4cbc7a45b216a86a362743b0a6b780b5238bd802333c4624931b0af4378d8a60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "But no lower; certainly no lower.",
+      "output_sha256": "da057bfbd57de9c9ec692dd336bffeff87ae5558e32c82b131ae40b91a22573d",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "da057bfbd57de9c9ec692dd336bffeff87ae5558e32c82b131ae40b91a22573d",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "source_id": "EN067",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "c29596fb296e4c2f0ae8e71a5ec53bc1f8470fcb8357306b00fa8c9bc87b5b23",
+    "78baf2bae71379ae09604afe99c4a0071a60e27b0ec824184ed18fa9c12dbc65",
+    "69ab87be542dd698c3179a6071bc9787e98f15e521176a70bbe2819d1811412e"
+  ],
+  "source_block_sha256": "c29596fb296e4c2f0ae8e71a5ec53bc1f8470fcb8357306b00fa8c9bc87b5b23",
+  "ai_block_sha256": "1be4936d299d7e202fc34d5546946b784fb41692bbe78c685057d54ecffb9dab",
+  "mixed_sha256": "49911bf3cd1bf2dd4b2e217e9fa76afe4dd90d61ba036e89216bfdad773d8dfa",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 291-435 words, aiming for 363. Use exactly 2 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nIt is proverbial that a child may lead a horse to the water, but that not even Mr. Lloyd George, with all his persuasive gifts, can make him drink. An even more difficult task is to induce a horse in the pink of robust health to convey a suggestion of being seriously ill—as I chance just to have discovered. It is not the kind of discovery that one can anticipate; indeed, when I woke on the morning of the day on which it happened and, as is my habit, lay for a while forecasting the possible or probable course of events during the next four-and-twenty hours, this example of equine limitation had no place whatever in my thoughts. To the receptive and adventurous observer many curious things may, however, occur; and no sooner was lunch finished than out of a clear sky fell a friend and a taxi (the god and the machine, if you will), and jointly they conveyed me to as odd a building as I have ever thought to find any horse in, where, under a too searching blue glare, was an assemblage of people as strange as their environment.\n\nThere were men in evening dress, toying with cigarettes and bending over women in evening dress; there was an adventuress or two, one with hair in such fluffed-out abundance as can only be a perquisite of notable wickedness; there was a stockman, who was, I fancy, too fond of her; there was a lady in riding boots; there was a comely youth in pyjamas; and there were footmen and page-boys. And all seemed to me made-up to a point of excess. Who could they be? a stranger to the marvel of science might well ask. Strayed revellers? A lost party of masqueraders being held here on bail and photographed for identification purposes?—for there was no doubt about the photography, because the benignant, masterful gentleman with a manuscript, who gave them instructions, every now and then stood aside in order that the camera-operator might direct his machine-gun and turn the handle; but what was said I could not hear, such was the crackling and fizzling of the blue lights."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 386,
+    "total_tokens": 1005,
+    "cost": 0.00032445,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00032445,
+      "upstream_inference_prompt_cost": 9.285e-05,
+      "upstream_inference_completions_cost": 0.0002316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00032445,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 363,
+    "output_words": 323,
+    "lower_words": 291,
+    "upper_words": 435,
+    "source_paragraphs": 2,
+    "output_paragraphs": 2,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.006269592476489028,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "1be4936d299d7e202fc34d5546946b784fb41692bbe78c685057d54ecffb9dab",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN067.txt",
+  "mixed_path": "clean/mixed/en/EN067.txt",
+  "response_path": "raw/mixed/en/EN067.response.json"
+}

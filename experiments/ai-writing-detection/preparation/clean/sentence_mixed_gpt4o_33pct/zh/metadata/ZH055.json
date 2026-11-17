@@ -1,0 +1,727 @@
+{
+  "source_id": "ZH055",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "21eba988f81bfb2dea75795b82f5a06f572c5a83dadff0ca3cee2370eb5439f9",
+  "ai_article_sha256": "c0a5fd8abf7109d57b57feb59c545a9fcff29bd7fcc4bf06a2e81f2b7ebf406f",
+  "mixed_article_sha256": "cc4d0d4618d1e0f45111af5d2eec6eeeab212f42c9d0caf284b2de143844393c",
+  "human_source_sentence_count": 49,
+  "ai_source_sentence_count": 47,
+  "alignment_unit_count": 47,
+  "selected_alignment_unit_count": 16,
+  "mixed_sentence_count": 48,
+  "selected_ai_sentence_count": 16,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.462267,
+  "selected_alignment_score_median": 0.550589,
+  "selected_alignment_score_max": 0.676892,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "一个二十多岁的小伙子，讲恋爱，讲革命，讲志愿，似乎天地之间，唯我独尊，简直想不到组织家庭——结婚既是爱的坟墓，家庭根本上是英雄好汉的累赘。",
+      "output_sha256": "9b0a66614f747451b086a0ac0274b714705df8d47e8d309b881a2e521bceefd2",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "9b0a66614f747451b086a0ac0274b714705df8d47e8d309b881a2e521bceefd2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "及至过了三十，革命成功与否，事情好歹不论，反正领略够了人情世故，壮气就差点事儿了。",
+      "output_sha256": "f72631be3af7de1609ad113dbebf95f77a62aa9cd79375e3228f0f574eaaa91d",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "f72631be3af7de1609ad113dbebf95f77a62aa9cd79375e3228f0f574eaaa91d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "虽然明知家庭之累，等于投胎为马为牛，可是人生总不过如此，多少也都得经验一番，既不坚持独身，结婚倒也还容易。",
+      "output_sha256": "bbe7c28f5d0b24b7daaa3205c0e3e5b2c7f8189d7e1075d8505708c5088829a0",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "bbe7c28f5d0b24b7daaa3205c0e3e5b2c7f8189d7e1075d8505708c5088829a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "于是发帖子请客，笑着开驶倒车，苦乐容或相抵，反正至少凑个热闹。",
+      "output_sha256": "1bb3566890ffa3f54ddd5c5d11ed81cee04a4b3f27b70d8500620430aa30c28c",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "1bb3566890ffa3f54ddd5c5d11ed81cee04a4b3f27b70d8500620430aa30c28c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "到了四十，孩子也有了两三个，无论富贵贫贱，自己依然在其中苦乐相随，对于年轻朋友的建议变得更加遥远，劝他们踏踏实实结婚，早生儿女，无疑是话不投机的一种表现。",
+      "output_sha256": "352b98291ac102d20690f3b2a872c86fa7e076b4d55108fdb72214ad6b41810f",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.486371,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "be350941331d6fcbe5d751cff453e9c31abc7e7c5f55bab3fc5ca8601b23b115"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "352b98291ac102d20690f3b2a872c86fa7e076b4d55108fdb72214ad6b41810f",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "这个年纪，如果还有理想，那理想的家庭便是心中的追求。",
+      "output_sha256": "1fadaa9c0b4ce3b08c00e9afef07defc14179c608d47b080bb475923cab015f3",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.561892,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "108d6cfc6ffc196dd7aad8f3c130522af00858c130978a8a1a0537d59a5b9147"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "1fadaa9c0b4ce3b08c00e9afef07defc14179c608d47b080bb475923cab015f3",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "回想二十年前，连这样的想法也让人感到泄气。",
+      "output_sha256": "bbe940c05b842c97b57a7325471c8914614ffc9ab3b7eafbc249df9dfdcc58bd",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.462267,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "0970964c65bcfe29be007f4554f4363fd1a9e63c2f5248cc622fbc50e080e8eb"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "bbe940c05b842c97b57a7325471c8914614ffc9ab3b7eafbc249df9dfdcc58bd",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "人生的矛盾可笑即在于此，年轻力壮，力求事事出轨，决不甘为火车；及至中年，心理的，生理的，种种理的什么什么，都使他不但非作火车不可，且作货车焉。",
+      "output_sha256": "61e2b394d16b4084a7f0a1d52e204b75060e6269de9b58d7f5d6cc4a4373d09d",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "61e2b394d16b4084a7f0a1d52e204b75060e6269de9b58d7f5d6cc4a4373d09d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "将当初与如今一对比，简直判若两人，足以让自己笑上半天！",
+      "output_sha256": "f0e69799d16f343b72ad6a8ca07aeddc715bb06beabdf3dae68d52b9da349621",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.579412,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "c36703415b6db54853a61fbb55c5a7c3f692a4941bef12466fbeaf774657f912"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "f0e69799d16f343b72ad6a8ca07aeddc715bb06beabdf3dae68d52b9da349621",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "虽然偶尔有例外，但实在不多见。",
+      "output_sha256": "b69616394a210c3d9672476824d24c5d481beebef603383626c1a5ab0f19d15a",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.528077,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "13c82d7362e1228198c92f2f8352fa566b881bf18e7c054a47a9914dd93ad21f"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "b69616394a210c3d9672476824d24c5d481beebef603383626c1a5ab0f19d15a",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "明年我就四十了，已具说理想家庭的资格：大不必吹，盖亦自嘲。",
+      "output_sha256": "05efe3560119886299eb2e2e7c9b6330b03b801dffc794ff92cd1f00cce37660",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "05efe3560119886299eb2e2e7c9b6330b03b801dffc794ff92cd1f00cce37660",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我的理想家庭要有七间小平房：一间是客厅，古玩字画全非必要，只要几张很舒服宽松的椅子，一二小桌。",
+      "output_sha256": "a9450e1f8c85ad61b170b8aa98d5c434e5b428e0dca47ebdf2fb6fc0fd150c68",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "a9450e1f8c85ad61b170b8aa98d5c434e5b428e0dca47ebdf2fb6fc0fd150c68",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "一间书房，书籍不少，不管什么头版与古本，而都是我所爱读的。",
+      "output_sha256": "f93deca79745c20ca65fc287df922556c6d34ab361cbdc9e249a94abdac7e07f",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "f93deca79745c20ca65fc287df922556c6d34ab361cbdc9e249a94abdac7e07f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "书桌上是中国漆制成的，放上热茶杯不会留下圆白印。",
+      "output_sha256": "a0d95109d7ff5662e75118de6038b435869d47e352b587eaff2a570b1e94bafb",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.616474,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "284a91c6a579665e352289e20da6d7a8e476bf551ab5a4a6adf611c2f669d770"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "a0d95109d7ff5662e75118de6038b435869d47e352b587eaff2a570b1e94bafb",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "文具不讲究，可是都很好用，桌上老有一两枝鲜花，插在小瓶里。",
+      "output_sha256": "85f4e74034028d33e1ceba4d6ebe9ced869796b4c867df9b345c1dec5df9a563",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "85f4e74034028d33e1ceba4d6ebe9ced869796b4c867df9b345c1dec5df9a563",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "两间卧室，我独据一间，没有臭虫，而有一张极大极软的床。",
+      "output_sha256": "a38fca78a2d71269a22159fd2c67756a438729a93e6e7e3dc07a00139522cc03",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "a38fca78a2d71269a22159fd2c67756a438729a93e6e7e3dc07a00139522cc03",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "在这个床上，横睡直睡都可以，不论怎睡都一躺下就舒服合适，好像陷在棉花堆里，一点也不硬碰骨头。",
+      "output_sha256": "19c3ced42d8a66b5549654c2f680781b299e26ce61c4e36036752d0c517df8fa",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "19c3ced42d8a66b5549654c2f680781b299e26ce61c4e36036752d0c517df8fa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "还有一间，是预备给客人住的。",
+      "output_sha256": "af2c301c0b039e9cbfbf4a7b071fe911ca7bdf6b865889fb61dc74188965deb3",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "af2c301c0b039e9cbfbf4a7b071fe911ca7bdf6b865889fb61dc74188965deb3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "此外是一间厨房，一个厕所，没有下房，因为根本不预备用仆人。",
+      "output_sha256": "4a71f035866c4ec9886883e6d8b166046f092473671a3ced05e7f534c8c4cd44",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "4a71f035866c4ec9886883e6d8b166046f092473671a3ced05e7f534c8c4cd44",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "家中不要电话，不要播音机，不要留声机，不要麻将牌，不要风扇，不要保险柜。",
+      "output_sha256": "25a3e7ff9a2a009660a688b7d2d3657f7104d6b37631d413ad21dd4ee7354021",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "25a3e7ff9a2a009660a688b7d2d3657f7104d6b37631d413ad21dd4ee7354021",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "缺乏的东西本来很多，不过这几项是故意不要的，有人白送给我也不要。",
+      "output_sha256": "f0044f266a25df7cf535e9899780941f95fd9e71138ad585fe09d69f96f680d1",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "f0044f266a25df7cf535e9899780941f95fd9e71138ad585fe09d69f96f680d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "院子要宽敞，靠墙种几棵小果树。",
+      "output_sha256": "fd39fe0cea6326f290e9aa049c06fd9b864929657c41a44f550fbb2584eed8c9",
+      "alignment_unit_index": 21,
+      "alignment_score": 0.494607,
+      "human_sentence_indices": [
+        22,
+        23
+      ],
+      "human_sha256": [
+        "edd3561681240dbaa6e99e3a673c3faa3175d38d9eec6aa3e0412c0096792e2a",
+        "d1dbafa303e18d9b1246f8f3d5a604bcfd79a609ebc9e4c4b67e63c87baf6523"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "fd39fe0cea6326f290e9aa049c06fd9b864929657c41a44f550fbb2584eed8c9",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "除了一个平坦无草的长方形土地，足够练习太极拳，其他地方则种满花草——不求珍贵，只求繁茂多彩。",
+      "output_sha256": "113bc0a123c5bd581311d21b6ecec65eabcec6b73254656a2aaffcb74f75cd12",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.523399,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "6118d893980cde9aea838d41c2ed36e74bb44f74c80ccb5152b9aa8506a2b3ed"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "113bc0a123c5bd581311d21b6ecec65eabcec6b73254656a2aaffcb74f75cd12",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "屋中至少有一只花猫，院中至少也有一两盆金鱼；小树上悬着小笼，二三绿蝈蝈随意地鸣着。",
+      "output_sha256": "f38fcaad52511c0c76e864b6d2f9ac335c8221eb129274e596137880896f1ccd",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "f38fcaad52511c0c76e864b6d2f9ac335c8221eb129274e596137880896f1ccd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这就该说到人了。",
+      "output_sha256": "8d1468cedcf116e1505e856f2fa90f4fa5e4a1a17bd07ede3d4586d0da213c46",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "8d1468cedcf116e1505e856f2fa90f4fa5e4a1a17bd07ede3d4586d0da213c46",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "屋子不多，又不要仆人，人口自然不能很多：一妻和一儿一女就正合适。",
+      "output_sha256": "c82f2af60f7ae71788aa85bf41e06f4df4e70122b38e75d112c7f719aa65ddd2",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "c82f2af60f7ae71788aa85bf41e06f4df4e70122b38e75d112c7f719aa65ddd2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "先生管擦地板与玻璃，打扫院子，收拾花木，给鱼换水，给蝈蝈一两块绿王瓜或几个毛豆；并管上街送信买书等事宜。",
+      "output_sha256": "8b380c7b010b7d1bf4774a91e75aa653a9bddd693cd31cc289c531917f65ad4c",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "8b380c7b010b7d1bf4774a91e75aa653a9bddd693cd31cc289c531917f65ad4c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "太太管做饭，女儿任助手——顶好是十二三岁，不准小也不准大，老是十二三岁。",
+      "output_sha256": "a4991178dadad67bef62b5cdbeeec502f0e5b259363bc902a547d9cd86388447",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "a4991178dadad67bef62b5cdbeeec502f0e5b259363bc902a547d9cd86388447",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "儿子最好三岁，既会说话，又胖乎乎、调皮可爱。",
+      "output_sha256": "1228fca8a0bd360066e19e9f74e8f5fb9831388710f0d253b731bfe1e3992d86",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.539286,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "172bb56b2f40a59a9da349819e07004b5df24301322bdbed68ef5885deacf6ad"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "1228fca8a0bd360066e19e9f74e8f5fb9831388710f0d253b731bfe1e3992d86",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "母女俩在做饭之余，还会做一些针线活，照顾小弟弟。",
+      "output_sha256": "2f8d4787fa08b206f8d91f7f1ac05173254fe8d6518bb2c9cfce22780831ae49",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.507017,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "0ad2b81ee4d71fc7a4ca3101b0813a6cac4dfce4c45bc07c3d554dc84489b761"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "2f8d4787fa08b206f8d91f7f1ac05173254fe8d6518bb2c9cfce22780831ae49",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "大件衣服拿到外边去洗，小件的随时自己涮一涮。",
+      "output_sha256": "535be40e847102a8ef468ad6cb0651022728c761a524473a534ff0dfbffcf02a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "535be40e847102a8ef468ad6cb0651022728c761a524473a534ff0dfbffcf02a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "既然有如此多的工作，自然没时间听戏看电影。",
+      "output_sha256": "b37ac35a2cdb01a68afe855781749eed17a497f4a7dc124631c400e465b3b2f5",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.577314,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "634a2f48b32a157f79791148cc478c46b5ee225e32bfc20547863f51e0bf9621"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "b37ac35a2cdb01a68afe855781749eed17a497f4a7dc124631c400e465b3b2f5",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "不过在过生日的时候，全家就出去玩半天；接一位亲或友的老太太给看家。",
+      "output_sha256": "6b3505feedc669757acfbb58e2514f2fca0734a31b2ac4e44148ba8640826c87",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "6b3505feedc669757acfbb58e2514f2fca0734a31b2ac4e44148ba8640826c87",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "过生日什么的永远不请客受礼，亲友家送来的红白帖子，就一概扔在字纸篓里，除非那真需要帮助的，才送一些干礼去。",
+      "output_sha256": "3e5c4a3befbcd7251bf8d625a0fe4014f4289ddd0bbc01cae1fb2c8058a354b9",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "3e5c4a3befbcd7251bf8d625a0fe4014f4289ddd0bbc01cae1fb2c8058a354b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "节假日时，食品丰盛，还可以买一副纸牌，大家打打“索儿胡”，赌些铁蚕豆或花生米。",
+      "output_sha256": "d1c5bb8e9ed8cfb0580f4207db94ab2c05e595e78e206deeab074595cfcd71f7",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.64616,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "dd7f689293923908b641639a594acb51b9b3fb3cb35a7e17b6dfaf7a415104bb"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "d1c5bb8e9ed8cfb0580f4207db94ab2c05e595e78e206deeab074595cfcd71f7",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "男的没有固定的职业；只是每天写点诗或小说，每千字卖上四五十元钱。",
+      "output_sha256": "e7dbed4fe19748e7851d7db7abb181b5a949c3d7e192809666352e028048bea7",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "e7dbed4fe19748e7851d7db7abb181b5a949c3d7e192809666352e028048bea7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "女的也没事做，除了家务就读些书。",
+      "output_sha256": "3adbd81fd2d42f094cdc96e268dc837d21e69c0f58027122655921778193027d",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "3adbd81fd2d42f094cdc96e268dc837d21e69c0f58027122655921778193027d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "孩子们永远不上学，由父母教他们画画、唱歌、跳舞——随意跳也算一种舞蹈——以及文字和手工等。",
+      "output_sha256": "e521322c78ca44ae71162ec558f9a04d8d7a460e1ebdff243b941834ec3c4a58",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.571468,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "71bf29d910f9136da776ad1fa5a58adca73a398909039c5e298e0df4e4b5817f"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "e521322c78ca44ae71162ec558f9a04d8d7a460e1ebdff243b941834ec3c4a58",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "等到他们长大，或者也会仗着绘画或写文章卖一点钱吃饭；不过这是后话，顶好暂且不提。",
+      "output_sha256": "ada8b3d3b732052413640761d0411bab7633395ca0af0b0841d12678dd3edd2d",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "ada8b3d3b732052413640761d0411bab7633395ca0af0b0841d12678dd3edd2d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "这一家子人，因为吃得简单干净，而一天到晚又不闲着，所以身体都很不坏。",
+      "output_sha256": "df0dac71939635b74e798cf044f27d6b7f7dccfea91b312ff7fd38171f55e12b",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "df0dac71939635b74e798cf044f27d6b7f7dccfea91b312ff7fd38171f55e12b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "因为身体好，所以没有肝火，大家都不爱闹脾气。",
+      "output_sha256": "515d4d48ef2e6b1623032047d33ae240369683f80da4cbe17cc4f79579269186",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "515d4d48ef2e6b1623032047d33ae240369683f80da4cbe17cc4f79579269186",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "除了为小猫和金鱼的事儿着急外，谁也不会急躁。",
+      "output_sha256": "21dd0c8e5b5dc731354f322edf2ddde3c97c018352d841b77303dd1f3c89d8a8",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.564412,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "69c3899f6f6fc0c644d5e8123f23c0267d6f37277bbf3676cdb532ff79b1a249"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "21dd0c8e5b5dc731354f322edf2ddde3c97c018352d841b77303dd1f3c89d8a8",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "每个人的容貌都很体面，不让人感到厌恶。",
+      "output_sha256": "ef25cac2771d0f835ff9a6c40d8b4acfb9aaf2f6a740dc0de041c3fa64b58176",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.506092,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "a0867d79ee397832557b3214a618fa5caa70ca2ea163c8ac444c0c7f15eb5951"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "ef25cac2771d0f835ff9a6c40d8b4acfb9aaf2f6a740dc0de041c3fa64b58176",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "衣服不求华丽，但结实朴素；永远不穿又臭又硬的皮鞋。",
+      "output_sha256": "4b2a27fdaaa1d82d1cdab3717f7ce33456a09ddf21d2f2bcfceb3e96a65d7abe",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.676892,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "fa49e72353cf1630866dbcf0a68717e96351adc10a44d2df525d033602a00721"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "4b2a27fdaaa1d82d1cdab3717f7ce33456a09ddf21d2f2bcfceb3e96a65d7abe",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "男的很体面，可不露电影明星气；女的很健美，可不红唇卷毛的鼻子朝着天。",
+      "output_sha256": "93d68b4b102ae36ebc9d1f524baa8409d7dd8176180f31755e98d49e2b315b88",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "93d68b4b102ae36ebc9d1f524baa8409d7dd8176180f31755e98d49e2b315b88",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "孩子们都不卷着舌头说话，淘气而不讨厌。",
+      "output_sha256": "15b3b62ec1a3048ae2c06bf849263499a06220056495b43a44ec6d2c99c7b978",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "15b3b62ec1a3048ae2c06bf849263499a06220056495b43a44ec6d2c99c7b978",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "这个家庭顶好是在北平，其次是成都或青岛，至坏也得在苏州。",
+      "output_sha256": "1d9d632371c7ea9ba4c83dbea2be10a63101916a7df5b5c81377190167b97626",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "1d9d632371c7ea9ba4c83dbea2be10a63101916a7df5b5c81377190167b97626",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "无论怎样吧，反正必须在中国，因为中国是顶文明顶平安的国家；理想的家庭必在理想的国内也。",
+      "output_sha256": "d20cec2ad82017b470cd19eb95e63ff98a6943f992a11c2cda3abfcaad46610b",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "d20cec2ad82017b470cd19eb95e63ff98a6943f992a11c2cda3abfcaad46610b",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

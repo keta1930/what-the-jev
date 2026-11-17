@@ -1,0 +1,819 @@
+{
+  "source_id": "EN058",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "77e7cb25125f893382a00ac50750923bdfd65be4ed873b1d34da824b42b38000",
+  "ai_article_sha256": "5c00932869504e0283d0ae9cc0c3d9ec5a34ec2a2697a25ad7b1f12b10822b85",
+  "mixed_article_sha256": "d81cc778d7a313a76bb17ee66f2eb244caab68762ded50c018b31581904f47eb",
+  "human_source_sentence_count": 55,
+  "ai_source_sentence_count": 56,
+  "alignment_unit_count": 51,
+  "selected_alignment_unit_count": 17,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.302922,
+  "selected_alignment_score_median": 0.44,
+  "selected_alignment_score_max": 0.7,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "It is my destiny (said my friend) to buy in the dearest markets and to sell—if I succeed in selling at all—in the cheapest.",
+      "output_sha256": "985c18a45d64d9c2264d6b1110782fd1a91f0248e72355d1f0d1e363c73f1741",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "985c18a45d64d9c2264d6b1110782fd1a91f0248e72355d1f0d1e363c73f1741",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Usually, indeed, having tired of a picture or decorative article, I have positively to give it away; almost to make its acceptance by another a personal favour to me.",
+      "output_sha256": "d9881461a7d7156487429c0fb25cb0eba1e9cb9848c86ad5e6c8c81c27782a72",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "d9881461a7d7156487429c0fb25cb0eba1e9cb9848c86ad5e6c8c81c27782a72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Yet, an incident occurred recently that deviated so significantly from this pattern that I began to wonder if perhaps my fortunes had shifted, allowing me to become a truly enviable figure—a successful dealer.",
+      "output_sha256": "31b541e14c269faa0755ac250bc4696827f29dea70b7368fd2018a3c4860d22e",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.314802,
+      "human_sentence_indices": [
+        3,
+        4
+      ],
+      "human_sha256": [
+        "4d79e3a5d55a8c7bf154979380bdbd8206ae800f46b50e4da99d223d3bde8b0d",
+        "0e827f49fbfe27e0a88fb933e16ebe7b28083a66cb120c1acd4d1dfdb8399888"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "31b541e14c269faa0755ac250bc4696827f29dea70b7368fd2018a3c4860d22e",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "In drifting about the old curiosity shops of a cathedral city I came upon a portfolio of water-colour drawings, among which was one that to my eye would have been a possible Turner, even if an earlier owner had not shared that opinion or hope and set the magic name with all its initials (so often placed in the wrong order) beneath it.",
+      "output_sha256": "31e4c7baba88bf1cf7bacbbc2f94f2075178ab51a8e9b30999f0a7d7c07ead58",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "31e4c7baba88bf1cf7bacbbc2f94f2075178ab51a8e9b30999f0a7d7c07ead58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Curiosity piqued, I inquired, “How much for this?”",
+      "output_sha256": "e567dbb821b14a00064fafda2ebfd0b678194cd71022f20e49e3dfde2b22cdd5",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.465714,
+      "human_sentence_indices": [
+        6,
+        7
+      ],
+      "human_sha256": [
+        "d5b9fe5e247bd0fb4bf0b3b23f35abc285f651b42cc779371dc192885ba85c35",
+        "d212301421ed6cbf3f6f908642b54392463d789c7629f0fd68a141c7b9ed249a"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "e567dbb821b14a00064fafda2ebfd0b678194cd71022f20e49e3dfde2b22cdd5",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "\"Well,\" said the dealer, \"if it were a genuine Turner it would be worth anything.",
+      "output_sha256": "9c4f73311cd6b193e24b1a9d05368c71a5517c8e6b28ab6835930ae10d0c2adf",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "9c4f73311cd6b193e24b1a9d05368c71a5517c8e6b28ab6835930ae10d0c2adf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "But let's say ten shillings.",
+      "output_sha256": "0d678e9a22651e6ad807b4c6926b4f4706fed1cac10acfcd910722d84291614b",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "0d678e9a22651e6ad807b4c6926b4f4706fed1cac10acfcd910722d84291614b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "You can have it for that; but I don't mind if you don't, because I'm going to London next week and should take it with me to get an opinion.\"",
+      "output_sha256": "de6047906fdd9a51b5ecb8d96335a757c0018068adeeca6a15835f2b637e7ca1",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "de6047906fdd9a51b5ecb8d96335a757c0018068adeeca6a15835f2b637e7ca1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I pondered.",
+      "output_sha256": "5a33af997aa4f05df70948bbdaee3d284dff9e0d9ca5b51450f5883e1a050f9d",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "5a33af997aa4f05df70948bbdaee3d284dff9e0d9ca5b51450f5883e1a050f9d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "“Now, I don’t guarantee its authenticity,” he added.",
+      "output_sha256": "f36955161939ae5dcc9f1de1a524bb810d94b394a31f9ecc1aa513ce436bda89",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.510714,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "6b9927289b165f374e41bfea43b790c9b2219a09e290c6ed27a5fa1310801d48"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "f36955161939ae5dcc9f1de1a524bb810d94b394a31f9ecc1aa513ce436bda89",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Without further hesitation, I handed over the ten shillings.",
+      "output_sha256": "c1e9c5203cbe5c4009977ef6b645385b51615a82cdb0d10516e552c4f350429f",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.44,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "e6757360c63d0d2c30f4e8a9da43b9676c746ffcd7d0b5d1a8076a30d992e5cc"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "c1e9c5203cbe5c4009977ef6b645385b51615a82cdb0d10516e552c4f350429f",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "The details of how I ultimately found a buyer willing to pay fifty pounds for that drawing are not the focus of this tale.",
+      "output_sha256": "9d15df58432e9d9fc2507de520f9a51bd9381d58427e76dfc84f7a6c3341047b",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.330118,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "1ed54fdbc9274b5f87def3ae7f6e5e45148ab33d929807bf192b2b9629c185f7"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "9d15df58432e9d9fc2507de520f9a51bd9381d58427e76dfc84f7a6c3341047b",
+      "ai_unit_sentence_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "What truly matters is the internal negotiation I faced.",
+      "output_sha256": "c681e20e4d44e742fd488b02a62ef056850f87b820ae7e3f807791fa4811dfc9",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.330118,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "1ed54fdbc9274b5f87def3ae7f6e5e45148ab33d929807bf192b2b9629c185f7"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "c681e20e4d44e742fd488b02a62ef056850f87b820ae7e3f807791fa4811dfc9",
+      "ai_unit_sentence_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The astonishing fact remains that I achieved a profit of forty-nine pounds ten and was duly elated.",
+      "output_sha256": "0512f308aace76ef1b0a9518b4a591e9aa76f9f65d08922faa904ce7f0e4fefe",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "0512f308aace76ef1b0a9518b4a591e9aa76f9f65d08922faa904ce7f0e4fefe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I then began to think.",
+      "output_sha256": "a5f9c08012cdd59136bf7c09f6af70df8d3af7521c8efdfd4719ea4a02bf9df5",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "a5f9c08012cdd59136bf7c09f6af70df8d3af7521c8efdfd4719ea4a02bf9df5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "The dealer (so my thoughts ran) in that little street by the cathedral west door, he ought to participate in this.",
+      "output_sha256": "55635553bbc0dfaf50ca6940a42beda5240865b0ddda093547649e95117fd6f0",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "55635553bbc0dfaf50ca6940a42beda5240865b0ddda093547649e95117fd6f0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "He behaved very well to me and I ought to behave well to him.",
+      "output_sha256": "79fe7c7797de31d58c3a00fd450789979db157e73660934ba6fa9f996e6acbf5",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "79fe7c7797de31d58c3a00fd450789979db157e73660934ba6fa9f996e6acbf5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "It would be only fair to give him half.",
+      "output_sha256": "f200ecea2632c6f4edfb9c2f63f615f93d7f1c6ab895974b599e330aa4de8e19",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "f200ecea2632c6f4edfb9c2f63f615f93d7f1c6ab895974b599e330aa4de8e19",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Thereupon I sat down and wrote a little note saying that the potential Turner drawing, which no doubt he recollected, had turned out to be authentic, and I had great pleasure in enclosing him half of the proceeds, as I considered that to be the only just and decent course.",
+      "output_sha256": "e5abb8e66b5006328237ba373bb38ea06f76b558db812f0adbaef8d211665eb8",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "e5abb8e66b5006328237ba373bb38ea06f76b558db812f0adbaef8d211665eb8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Having no stamps and the hour being late I did not post this, and went to bed.",
+      "output_sha256": "affad3249272793fe5ffc77b63f7e175d1a579779f4ca4db29438484fcf061b8",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "affad3249272793fe5ffc77b63f7e175d1a579779f4ca4db29438484fcf061b8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "At about 3.30 a. m. I woke widely up and, according to custom, began to review my life's errors, which are in no danger of ever suffering from loneliness.",
+      "output_sha256": "d670b0a2756c73119bdb5a443ff4e4f829b40140ffecd61562f0574709a3d466",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "d670b0a2756c73119bdb5a443ff4e4f829b40140ffecd61562f0574709a3d466",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "From these I reached, by way of mitigation, my recent successful piece of chaffering, and put the letter to the dealer under both examination and cross-examination.",
+      "output_sha256": "83a2ef62433dafb44acf62dfaf8f24563abf5334ce54cd25638a4359126db1db",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "83a2ef62433dafb44acf62dfaf8f24563abf5334ce54cd25638a4359126db1db",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Why, I pondered, should I give him half?",
+      "output_sha256": "cae22aae524d4a01f7daba459793a8bf74b745fa29fadc7a806ff43882af540e",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.625,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "38a436935179736d990f5b858716c7743df1d3d7559fccbb7fb62d09f2fe7f06"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "cae22aae524d4a01f7daba459793a8bf74b745fa29fadc7a806ff43882af540e",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Why be quixotic?",
+      "output_sha256": "a41105325c8c5788b8e567dafa8385f99d7db4393bcebb2f58def1729d282f3a",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "a41105325c8c5788b8e567dafa8385f99d7db4393bcebb2f58def1729d282f3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "This is no world for quixotry.",
+      "output_sha256": "25ce7487cbbbf5051299902de8965c10280d218f03c9518d0554010c7ca1d4e8",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "25ce7487cbbbf5051299902de8965c10280d218f03c9518d0554010c7ca1d4e8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "It was my eye that recognized the potential value of the drawing, not his.",
+      "output_sha256": "10281cd418bd9209ccafe1062ee2394ac76622340d0f4a1d2f8473443ab4339a",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.688095,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "348880acebd2defc8c239394706f5bf44108b0cac4fd651bddd0ca7668fc0b25"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "10281cd418bd9209ccafe1062ee2394ac76622340d0f4a1d2f8473443ab4339a",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "He had, after all, failed to see its worth.",
+      "output_sha256": "b0a49075dde1a589d1bd19c0b14d95e145f42b8f2bc3b63a15a1a520698591a6",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.402105,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "4a1420ab2484a13f4c979552ab7bcda6198087adea6922d6c27688f5ad291ac8"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "b0a49075dde1a589d1bd19c0b14d95e145f42b8f2bc3b63a15a1a520698591a6",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Why put a premium on ineptitude?",
+      "output_sha256": "bb56586bbfa159bee39411b9d7f70eda00c321ba9a01e183267bd9475d9576ce",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "bb56586bbfa159bee39411b9d7f70eda00c321ba9a01e183267bd9475d9576ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "No, a present of, say, ten pounds at the most would more than adequately meet the case.",
+      "output_sha256": "193ebd8c724f0f7f7bb836b9f163f92734f5e87f3c082dd460848bc9862052fb",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "193ebd8c724f0f7f7bb836b9f163f92734f5e87f3c082dd460848bc9862052fb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Sleep still refusing to oblige me, I took a book of short stories and read one.",
+      "output_sha256": "8032689bb139835cf194430a49779c7d4735521052b753c49543f11718159094",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "8032689bb139835cf194430a49779c7d4735521052b753c49543f11718159094",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "Yet, my mind wandered back to the dealer.",
+      "output_sha256": "fdd43b92685c2006ef9d0f66195eaacd5588826654acec60c6ede16a0aaaff42",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.302922,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "eec762d1c6dc3168853e5179f1e52b4b18cd3ae92c97141efd6bc908ac8be629"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "fdd43b92685c2006ef9d0f66195eaacd5588826654acec60c6ede16a0aaaff42",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "I questioned the wisdom of sending him ten pounds.",
+      "output_sha256": "f82c29b5bef5c5e305416b4cc1c536e304cd7d5fa1298e7a2d619f6326cd0b0a",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.44,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "722d7abc765cc96dd404139e6acc98ef82376a01b1fdb5a65af05033da7ea68b"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "f82c29b5bef5c5e305416b4cc1c536e304cd7d5fa1298e7a2d619f6326cd0b0a",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "It will only give him a wrong idea of his customers, none other of whom would be so fair, so sporting, as I. He will expect similar letters every day and be disappointed, and then he will become embittered and go down the vale of tears a miserable creature.",
+      "output_sha256": "3ce9f5ea307cc0906ce262c90a209fa780ee7077216bafb1bd2397d6db156926",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "3ce9f5ea307cc0906ce262c90a209fa780ee7077216bafb1bd2397d6db156926",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "He looked a nice old man too; a pity, nay a crime, to injure such a nature.",
+      "output_sha256": "4059940e2256aa665bfcf7448f3ea0e2fc12457faa5543378e68ec9313ff7aab",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "4059940e2256aa665bfcf7448f3ea0e2fc12457faa5543378e68ec9313ff7aab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "No, ten pounds was excessive.",
+      "output_sha256": "efeca2a9932159a3dbcd8a7fac94cec06dbd59d08e14094cb4493d0e49064fce",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.7,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "182fc94e6f92cb6c92535cbf5775facb6f6b86c3dc7bd83fff88298e1f2b6359"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "efeca2a9932159a3dbcd8a7fac94cec06dbd59d08e14094cb4493d0e49064fce",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Five would be plenty.",
+      "output_sha256": "92b9c3c58f881f2ffbbc618d79289cb1899113c59325577499a8c07627dba9d9",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "92b9c3c58f881f2ffbbc618d79289cb1899113c59325577499a8c07627dba9d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "Ten would put him above himself.",
+      "output_sha256": "383b1edbc3ee3cd5398120e4269e13002c51c80001740105dc61a102e4c03682",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "383b1edbc3ee3cd5398120e4269e13002c51c80001740105dc61a102e4c03682",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "While I was dressing the next morning I thought about the dealer again.",
+      "output_sha256": "f806d1c11945e3702242748159e499da96594345c237bfe086dab43869ff7105",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "f806d1c11945e3702242748159e499da96594345c237bfe086dab43869ff7105",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Why, I mused, should I tarnish my very first financial triumph by giving away a substantial portion of my earnings?",
+      "output_sha256": "08b855a208ee9c44500d422f042f3d1dbeafa587c24d2377fab16ddcdd46cffa",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.413023,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "d47b52107d70140767cd6368f2af50f1b13f2b2093f53872e7639415b06bd976"
+      ],
+      "source_ai_sentence_index": 42,
+      "source_ai_sha256": "08b855a208ee9c44500d422f042f3d1dbeafa587c24d2377fab16ddcdd46cffa",
+      "ai_unit_sentence_indices": [
+        42
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Wasn’t that an affront to the Goddess of Business, whoever she may be?",
+      "output_sha256": "06a8f50c34ed78f2ef4b294da4ee38f66d9e72f255bc6aca3ac12cc874f49776",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.61681,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "c885e28702b849e2f29546f48db03a99dee5bef0eb7d760f234e6b89e5905edf"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "06a8f50c34ed78f2ef4b294da4ee38f66d9e72f255bc6aca3ac12cc874f49776",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Was I not inviting her to overlook me, especially after we had finally established a rapport?",
+      "output_sha256": "1d70f959cb38253d6667a891cf33fac336803906827b53265df4e42274cc85e8",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.418404,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "7aa189d01ce1f9af37b3605d93f4a38d93e2c9ec274f924d7860afb0b8f130e6"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "1d70f959cb38253d6667a891cf33fac336803906827b53265df4e42274cc85e8",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "There is no fury like a woman scorned; it would probably be the end of me.",
+      "output_sha256": "365e0976086d230e2ab8e85d50f1642392e932c71bebf6b5f6e220b4495e740a",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "365e0976086d230e2ab8e85d50f1642392e932c71bebf6b5f6e220b4495e740a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "The Rockefellers and the Vanderbilts have won to success and affluence probably just because they don't do these foolish impulsive things.",
+      "output_sha256": "0ff2fd21c976240a05f6c0cd36b6d57f744aaf028d7c822ec855f26d19828046",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "0ff2fd21c976240a05f6c0cd36b6d57f744aaf028d7c822ec855f26d19828046",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "If I hoped to thrive in my new role as a fine-art speculator, I needed to rein in my emotions.",
+      "output_sha256": "654ffa917d84de124b2846362e5a0882189c1410d7f23bfaf319485c59e7574c",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.415,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "35fb1395326d5fdfd374a0cf5eadff8785ca99ae00a3040ffafa78f4d01b3fb8"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "654ffa917d84de124b2846362e5a0882189c1410d7f23bfaf319485c59e7574c",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "No, five pounds is absurd.",
+      "output_sha256": "6f1ea67f08a8c175ac090592ccfec34233ed62c4054983bf13a9fa40c212be84",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "6f1ea67f08a8c175ac090592ccfec34233ed62c4054983bf13a9fa40c212be84",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "Surely, a token of one pound would suffice.",
+      "output_sha256": "112b80273a20051c6314e4c658d95a29cb8f96c0c354a2658fc0283d308da3bf",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.449542,
+      "human_sentence_indices": [
+        47
+      ],
+      "human_sha256": [
+        "0823b8c4e9ff977eea8cc6f9f9c6c8148482c7fd8fd133b083b0adeea1107f76"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "112b80273a20051c6314e4c658d95a29cb8f96c0c354a2658fc0283d308da3bf",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "It will be nothing to me—or, at any rate, nothing serious—but a gift of quail and manna from a clear sky to the dealer, without, however, doing him any harm.",
+      "output_sha256": "302cd9adeac091062e7b424e2ef8bc4ea70f0b8342b01571c2ed7afe2049956e",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "302cd9adeac091062e7b424e2ef8bc4ea70f0b8342b01571c2ed7afe2049956e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "A pound will be ample, accompanied by a brief note.",
+      "output_sha256": "1494366eeb36d11d14aabce2a5c9859afebf6b2b11d2d1ff6c79d72d6fa8f426",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "1494366eeb36d11d14aabce2a5c9859afebf6b2b11d2d1ff6c79d72d6fa8f426",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "The note conveyed that I had sold the drawing at a profit, allowing me to share a portion of my good fortune, as I held an old and perhaps peculiar belief that such luck should be distributed.",
+      "output_sha256": "89e4d05bd2664d108b51036c4f8994ca02c0da2733e2adef16d82e4f4b0d413f",
+      "alignment_unit_index": 47,
+      "alignment_score": 0.547625,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "378420a93e4ce19e6aa13dfa5775c55dd9d952cd1eeb51281ada5147386fde8f"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "89e4d05bd2664d108b51036c4f8994ca02c0da2733e2adef16d82e4f4b0d413f",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "I had the envelope in my pocket containing the note and the cheque when I reached the club for lunch; and that afternoon I played bridge so disastrously that I was glad I had not posted it.",
+      "output_sha256": "ddf3002e91d34deeb1344b45d41b9b2fa31d5229504cd48a9fa3d3b8ddedc7a3",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "ddf3002e91d34deeb1344b45d41b9b2fa31d5229504cd48a9fa3d3b8ddedc7a3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "After all (so my thoughts ran, as I destroyed the envelope and contents) such bargains are all part of the game.",
+      "output_sha256": "0de36cac821c6e040656771e27b8a08bbdce16b582021a2c4d3c361365164e48",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "0de36cac821c6e040656771e27b8a08bbdce16b582021a2c4d3c361365164e48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "Buying and selling are a perfectly straightforward matter between dealer and customer.",
+      "output_sha256": "05f371a8a5d7be36fe9759d2baccb03c061c5b2cbc4ad170f43667f8e4ba7737",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "05f371a8a5d7be36fe9759d2baccb03c061c5b2cbc4ad170f43667f8e4ba7737",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "The dealer asks as much as he thinks he can extort, and the customer, having paid it, is under no obligation whatever to the dealer.",
+      "output_sha256": "5460e6fcb7a90715f95521d4e8e3723f4520440812ed7029b138c84087168fe9",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "5460e6fcb7a90715f95521d4e8e3723f4520440812ed7029b138c84087168fe9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "The incident is closed.",
+      "output_sha256": "47f6677ad5b4063b82223fac1b30c9a3836ae863a3e238f2b5d5f989fa70abd9",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "47f6677ad5b4063b82223fac1b30c9a3836ae863a3e238f2b5d5f989fa70abd9",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

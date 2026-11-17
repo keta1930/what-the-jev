@@ -1,0 +1,903 @@
+{
+  "source_id": "EN096",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "2698a942c64ea3f5c3f6b2008a5280f3a3c034e413a277235c90805b670f08db",
+  "ai_article_sha256": "2c5d2253f9742db4afe0a7b1ef6395cb0ef8324b9739d421c82058eced7f8485",
+  "mixed_article_sha256": "539e389b90d972ca9c144b51fa32a08a453de009cc77f86e21f062c1c464f914",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 60,
+  "alignment_unit_count": 58,
+  "selected_alignment_unit_count": 19,
+  "mixed_sentence_count": 60,
+  "selected_ai_sentence_count": 20,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.257463,
+  "selected_alignment_score_median": 0.446357,
+  "selected_alignment_score_max": 0.622845,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The other day I was nearly arrested by two excited policemen in a wood in Yorkshire.",
+      "output_sha256": "b8931b0a5cd117536e4c573819bdd6061acadd4f956dbe032459d00f44faaf47",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "b8931b0a5cd117536e4c573819bdd6061acadd4f956dbe032459d00f44faaf47",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I was on a holiday, and was engaged in that rich and intricate mass of pleasures, duties, and discoveries which for the keeping off of the profane, we disguise by the exoteric name of Nothing.",
+      "output_sha256": "d9941d00b09cfaf346386d2d387f3ca38194bfa106e48f89c007f1a06844a5cd",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "d9941d00b09cfaf346386d2d387f3ca38194bfa106e48f89c007f1a06844a5cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "At the moment in question I was throwing a big Swedish knife at a tree, practising (alas, without success) that useful trick of knife-throwing by which men murder each other in Stevenson’s romances.",
+      "output_sha256": "8476e9573da249db45ca4dc7375bbba14fac9f5e954e76f1e7323c40d99b8221",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "8476e9573da249db45ca4dc7375bbba14fac9f5e954e76f1e7323c40d99b8221",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Suddenly the forest was full of two policemen; there was something about their appearance in and relation to the greenwood that reminded me, I know not how, of some happy Elizabethan comedy.",
+      "output_sha256": "086131dfb9619686ccc89954236483f76f7a72180c07aab250ea3dfe93a00a15",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "086131dfb9619686ccc89954236483f76f7a72180c07aab250ea3dfe93a00a15",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "They bombarded me with questions about the knife, my identity, the reason behind my actions, my address, profession, religious beliefs, opinions regarding the Japanese war, and even the name of my favorite cat.",
+      "output_sha256": "13ecdd6935b9401c3151b660ccaad3fd3aff7d6752345dc17753a2d2d0f2de31",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.487871,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "5cf856d3e9b570f0c85d2b3721bb5336dfb94c6617e57a46f8ae7161fac59e97"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "13ecdd6935b9401c3151b660ccaad3fd3aff7d6752345dc17753a2d2d0f2de31",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "They also said I was damaging the tree; which was, I am sorry to say, not true, because I could not hit it.",
+      "output_sha256": "c3c326f9522c42ad45133fd34749122f0ba0c3201d11a3c21393afef340f7df8",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "c3c326f9522c42ad45133fd34749122f0ba0c3201d11a3c21393afef340f7df8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Nonetheless, the philosophical implications of this encounter were intriguing.",
+      "output_sha256": "9f573472c448262422adbe21ced2b0cb52024d22d169a31f4237f5f6232f0232",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.402807,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "cfc7028b7e0a98967028a8821816cf82ecf5147f66279dd52397db544483a184"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "9f573472c448262422adbe21ced2b0cb52024d22d169a31f4237f5f6232f0232",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "After some half-hour’s animated conversation, the exhibition of an envelope, an unfinished poem, which was read with great care, and, I trust, with some profit, and one or two other subtle detective strokes, the elder of the two knights became convinced that I really was what I professed to be, that I was a journalist, that I was on the DAILY NEWS (this was the real stroke; they were shaken with a terror common to all tyrants), that I lived in a particular place as stated, and that I was stopping with particular people in Yorkshire, who happened to be wealthy and well-known in the neighbourhood.",
+      "output_sha256": "cdfea44fb5d24c393f0e18c7ba58467e2a5f3ff13d7b5f20d30be1c990ca9399",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "cdfea44fb5d24c393f0e18c7ba58467e2a5f3ff13d7b5f20d30be1c990ca9399",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "In fact the leading constable became so genial and complimentary at last that he ended up by representing himself as a reader of my work.",
+      "output_sha256": "3342fc60ecc34bd2296b47b1128e582c5c2c9a1c24a6bb04567fa0f7ecd7a427",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "3342fc60ecc34bd2296b47b1128e582c5c2c9a1c24a6bb04567fa0f7ecd7a427",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And when that was said, everything was settled.",
+      "output_sha256": "471683058c0d0eb497b2f8a3f4ca632f109af44d631c12117b246ea8e280af5c",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "471683058c0d0eb497b2f8a3f4ca632f109af44d631c12117b246ea8e280af5c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "They decided to let me go without further ado.",
+      "output_sha256": "c1a58208f7978500e1d8047ca6e63e439f41cf3113608c68cf5ff87dab7aa4c4",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.411806,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "ef4e3cfef9523114a9cf8bcb7573fdfcff83f293773ebdd6ff6ab7f028e8eb66"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "c1a58208f7978500e1d8047ca6e63e439f41cf3113608c68cf5ff87dab7aa4c4",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "“But,” I said, “what of this mangled tree?",
+      "output_sha256": "31b9f183505a499751c789a402cdd62d6f8675b95dfe2326374be537b21cd64a",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "31b9f183505a499751c789a402cdd62d6f8675b95dfe2326374be537b21cd64a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "It was to the rescue of that Dryad, tethered to the earth, that you rushed like knight-errants.",
+      "output_sha256": "530a1cc71162da366a399e7c669b386bf3da30a816fd9859aea89ece6c2df95d",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "530a1cc71162da366a399e7c669b386bf3da30a816fd9859aea89ece6c2df95d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "You, the noble protectors of humanity, are not deceived by the apparent stillness of nature, a stillness akin to the silence of a waterfall—a profound and unyielding quietude.",
+      "output_sha256": "f379334a78e5b6ed3893c3a6db48af1726e8359f81b2e47beaa55133b0f14934",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.520855,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "3628673a92bfec3b666c464513e889f75d344f5f6d9a35537a3ecf5864d096ec"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "f379334a78e5b6ed3893c3a6db48af1726e8359f81b2e47beaa55133b0f14934",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "You know that a tree is but a creature tied to the ground by one leg.",
+      "output_sha256": "e06a9d30483a6892bc890ac9bcce5e390404db0df1f5ed15d24545b9cca51d06",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "e06a9d30483a6892bc890ac9bcce5e390404db0df1f5ed15d24545b9cca51d06",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "You will not let assassins with their Swedish daggers shed the green blood of such a being.",
+      "output_sha256": "90a25f14ac2315f328915653c42cd534305996e6eab615bddd4295cba2d58ff5",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "90a25f14ac2315f328915653c42cd534305996e6eab615bddd4295cba2d58ff5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Yet, if that is the case, why am I not in custody?",
+      "output_sha256": "77ba146502c7afc364624c3aec12c8090b48a787a3119adfa7353820d59329aa",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.622845,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "dd3656e9a6dcb534ee8110fc34e4b807768a8bacacaff1f91af6cefc861b6bfc"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "77ba146502c7afc364624c3aec12c8090b48a787a3119adfa7353820d59329aa",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Where are my shackles?",
+      "output_sha256": "8105a685dbbdd2397a06b0b8deacc0cc647e500ac638f497bfac2a8744bc648f",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.622845,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "dd3656e9a6dcb534ee8110fc34e4b807768a8bacacaff1f91af6cefc861b6bfc"
+      ],
+      "source_ai_sentence_index": 20,
+      "source_ai_sha256": "8105a685dbbdd2397a06b0b8deacc0cc647e500ac638f497bfac2a8744bc648f",
+      "ai_unit_sentence_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Produce, from some portion of your persons, my mouldy straw and my grated window.",
+      "output_sha256": "088278538d5f56664af3810c4f04ea961936011fa46aa67f536ea9520eb300eb",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "088278538d5f56664af3810c4f04ea961936011fa46aa67f536ea9520eb300eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Surely, the facts I have provided you—that my name is Chesterton, that I am a journalist residing with the esteemed Mr. Blank of Ilkley—should not alter your assessment of whether I have committed an act of cruelty against this vegetable life.",
+      "output_sha256": "51fef0bdc0dfd45d08e9df237ac1d1ffefcf917645898ce0460efd5e4505db39",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.557533,
+      "human_sentence_indices": [
+        19
+      ],
+      "human_sha256": [
+        "8c6858e3981c41ea0b4a85d8fb4b2f98e423be06d1184e531c7ec0d964081c23"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "51fef0bdc0dfd45d08e9df237ac1d1ffefcf917645898ce0460efd5e4505db39",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The tree is none the less damaged even though it may reflect with a dark pride that it was wounded by a gentleman connected with the Liberal press.",
+      "output_sha256": "89055631b0e1e62078ba87f570a8753b5dc88be026f10b14184b4e13fe985aaf",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "89055631b0e1e62078ba87f570a8753b5dc88be026f10b14184b4e13fe985aaf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Wounds in the bark do not more rapidly close up because they are inflicted by people who are stopping with Mr. Blank of Ilkley.",
+      "output_sha256": "786be13d9bbe796e7678cf6c69a748ea1c3c773518b0959990f0e6fd594c67cd",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "786be13d9bbe796e7678cf6c69a748ea1c3c773518b0959990f0e6fd594c67cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The tragedy of that tree, now a mere shadow of its former grandeur, laid low by my clumsy throw, cannot simply be overlooked due to my temporary association with affluent people.",
+      "output_sha256": "ddadde50d0dcb1bc2b538825d8134534c9a4a47059834107554cf95b3ad3232d",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.296222,
+      "human_sentence_indices": [
+        22
+      ],
+      "human_sha256": [
+        "59e9c72d7938c1e087fee75eedad786fa481f1c80c052af146fef0425e778a12"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "ddadde50d0dcb1bc2b538825d8134534c9a4a47059834107554cf95b3ad3232d",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "It is astonishing that you lack the authority to detain even the most prominent and fashionable individuals for such a transgression.",
+      "output_sha256": "9d2f6b743477f7623a16ed1b115ce615add0fdf3f4bf05b341da5baaf8376f1e",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.511654,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "7826c5a9b82199d7eba8554ba5c31be37334561aaf778e1b7acd9c0b42e9dc81"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "9d2f6b743477f7623a16ed1b115ce615add0fdf3f4bf05b341da5baaf8376f1e",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "For if so, why did you interfere with me at all?”",
+      "output_sha256": "eff0e92450ef65b461767f4a06425426a3d923002eb74ac75d11d138162a1a2d",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "eff0e92450ef65b461767f4a06425426a3d923002eb74ac75d11d138162a1a2d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I made the later and larger part of this speech to the silent wood, for the two policemen had vanished almost as quickly as they came.",
+      "output_sha256": "30c7fdf39db3ed70b0fb5d7a45f0a8b195e9140d354726e707fd347d67a31746",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "30c7fdf39db3ed70b0fb5d7a45f0a8b195e9140d354726e707fd347d67a31746",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "It is very possible, of course, that they were fairies.",
+      "output_sha256": "1c10a1c697254f18d6bb1f012800b768f2ebc41c7b78c7f1783bb75d8105698c",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "1c10a1c697254f18d6bb1f012800b768f2ebc41c7b78c7f1783bb75d8105698c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "If that were the case, their rather illogical understanding of crime, law, and accountability would receive a whimsical explanation; perhaps if I had lingered until moonrise, I might have witnessed small police officers frolicking on the grass, or scuttling about with glow-worm belts, arresting grasshoppers for damaging blades of grass.",
+      "output_sha256": "13d0e3dd0ba9e5957d1ccabc2f81cd19855c16bb46d62db5957cc880a9fda8d9",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.562307,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "b45bab0bf9d2cf968db8146dd8b7d3a6f225e698fdce324bf2f252212cef63e6"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "13d0e3dd0ba9e5957d1ccabc2f81cd19855c16bb46d62db5957cc880a9fda8d9",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "However, assuming they were indeed genuine policemen, I found myself in a peculiar predicament.",
+      "output_sha256": "fb972875fcaa1de0a90f791a94d994c36e5feac5460434c653a70b4d71430926",
+      "alignment_unit_index": 28,
+      "alignment_score": 0.405432,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "92a219d2ef7652d2cbc3acad21a51ffd074148682d301d79cd0338af69ce4b25"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "fb972875fcaa1de0a90f791a94d994c36e5feac5460434c653a70b4d71430926",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I was certainly accused of something which was either an offence or was not.",
+      "output_sha256": "b05af20f239f43b597ec2250f24d118f8e3c08d6bf86fd847f827700e2e0ca3a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "b05af20f239f43b597ec2250f24d118f8e3c08d6bf86fd847f827700e2e0ca3a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "I was released because I managed to demonstrate my connection to a prominent household.",
+      "output_sha256": "b7e25be92a7c7b0d5dde87f2c4d72c1fd1b2ae17666469e3a7506a184a517c50",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.389916,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "7cf5c22b9580124eaef09738bf9059aec65a0b8fda8d06a176151a097bbf6213"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "b7e25be92a7c7b0d5dde87f2c4d72c1fd1b2ae17666469e3a7506a184a517c50",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The inference seems painfully clear; either it is not a proof of infamy to throw a knife about in a lonely wood, or else it is a proof of innocence to know a rich man.",
+      "output_sha256": "857ba26be0d8ae55d84f5fec9bea1f16678833f1f5a1bd7f1735c400bd2b8a92",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "857ba26be0d8ae55d84f5fec9bea1f16678833f1f5a1bd7f1735c400bd2b8a92",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Imagine, for instance, a much poorer individual—a laborer tirelessly seeking work, frequently changing accommodations, possibly even struggling to pay rent.",
+      "output_sha256": "09143c6dee3421cbad9d39c29daffc6644042db2257d6bfd312b328086caba33",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.257463,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "39716f990cedc2207cfb89fd7ced0148a5c7c4ea99171b6044cbbad11cf06752"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "09143c6dee3421cbad9d39c29daffc6644042db2257d6bfd312b328086caba33",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Suppose he had been intoxicated with the green gaiety of the ancient wood.",
+      "output_sha256": "ddc0daa7d7c0cc0a05195b60dacef25f444d1d9a0af2d97f6d8fcdb3e7b27748",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "ddc0daa7d7c0cc0a05195b60dacef25f444d1d9a0af2d97f6d8fcdb3e7b27748",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Suppose he had thrown knives at trees and could give no description of a dwelling-place except that he had been fired out of the last.",
+      "output_sha256": "fdb7e928e0784a5534db7dd94412a266a5e94629d76a577fcbfff961ef300ebd",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "fdb7e928e0784a5534db7dd94412a266a5e94629d76a577fcbfff961ef300ebd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "As I walked home through a cloudy and purple twilight I wondered how he would have got on.",
+      "output_sha256": "795efcfe889fd981c1cb159b18c038c7fa489e45663341eee674364615059f17",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "795efcfe889fd981c1cb159b18c038c7fa489e45663341eee674364615059f17",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Moral.",
+      "output_sha256": "92585b5984053dd69ba1d17f9ced1595d14dad9eb4534e2016cb2f51cd365bb1",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "92585b5984053dd69ba1d17f9ced1595d14dad9eb4534e2016cb2f51cd365bb1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "We English are always boasting that we are very illogical; there is no great harm in that.",
+      "output_sha256": "397afe9196b0c0e5d7a5a0abad622acbde42a3948d708e9496a07fe4959a7aed",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "397afe9196b0c0e5d7a5a0abad622acbde42a3948d708e9496a07fe4959a7aed",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "There is no subtle spiritual evil in the fact that people always brag about their vices; it is when they begin to brag about their virtues that they become insufferable.",
+      "output_sha256": "2a8e4cff9613fe9e2da8aa0da168d4e82cef76317129f0837332dcfb43a871e4",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "2a8e4cff9613fe9e2da8aa0da168d4e82cef76317129f0837332dcfb43a871e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "But there is this to be said, that illogicality in your constitution or your legal methods may become very dangerous if there happens to be some great national vice or national temptation which many take advantage of the chaos.",
+      "output_sha256": "a3461339f25e62be7069fb59e81eb65282e3ae7663159ba18d70bd750d559ecb",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "a3461339f25e62be7069fb59e81eb65282e3ae7663159ba18d70bd750d559ecb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Much like a drunk person requires stringent guidelines, a sober individual may follow their instincts with more freedom.",
+      "output_sha256": "fdeca509dde32be09d9a74824a2984d4137873a0a8deec5f96db5df717026cf7",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.317833,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "83faf5b1435015cca5b9ba1e54f8d0104066676918bd61eb585a3f4ba2eb42b3"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "fdeca509dde32be09d9a74824a2984d4137873a0a8deec5f96db5df717026cf7",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Take some absurd anomaly in the British law—the fact, for instance, that a man ceasing to be an M. P. has to become Steward of the Chiltern Hundreds, an office which I believe was intended originally to keep down some wild robbers near Chiltern, wherever that is.",
+      "output_sha256": "1e340cbbdc8f2237cb4175db36899c92bdcb4c9141df9f271b4d7d15c2521f20",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "1e340cbbdc8f2237cb4175db36899c92bdcb4c9141df9f271b4d7d15c2521f20",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Obviously this kind of illogicality does not matter very much, for the simple reason that there is no great temptation to take advantage of it.",
+      "output_sha256": "3d7950f5ab7b7086d9c706b06df1637347ed2956ed9f0d0519603e7bdf59c7b9",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "3d7950f5ab7b7086d9c706b06df1637347ed2956ed9f0d0519603e7bdf59c7b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Former MPs have no overwhelming desire to hunt down robbers in the hills.",
+      "output_sha256": "9bf39a5141aa7e3f2655a7339c7f8fe65c12ae957b8dd99b2c50616738c0b48b",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.435991,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "0cbac2596b9dfe311badf776c5aca538b854bb2085c39eb2e676f5b933923676"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "9bf39a5141aa7e3f2655a7339c7f8fe65c12ae957b8dd99b2c50616738c0b48b",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "But if there were a real danger that wise, white-haired, venerable politicians taking leave of public life would desire to do this (if, for instance, there were any money in it), then clearly, if we went on saying that the illogicality did not matter, when (as a matter of fact) Sir Michael Hicks-Beach was hanging Chiltern shop-keepers every day and taking their property, we should be very silly.",
+      "output_sha256": "1a5645c9fe3667afdbde05edba8a558b89c4bbe65990db0058807c02b91b1f76",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "1a5645c9fe3667afdbde05edba8a558b89c4bbe65990db0058807c02b91b1f76",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The illogicality would matter, for it would have become an excuse for indulgence.",
+      "output_sha256": "5245ab79348d985feb29d10b473ca11ee508be4bf5fe39729bea3ffec091f680",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "5245ab79348d985feb29d10b473ca11ee508be4bf5fe39729bea3ffec091f680",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is only the very good who can live riotous lives.",
+      "output_sha256": "f5a8782dc3ce92fa820d76a07e2538a06394707ecbd0493370e215f9303909cd",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "f5a8782dc3ce92fa820d76a07e2538a06394707ecbd0493370e215f9303909cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Now this is exactly what is present in cases of police investigation such as the one narrated above.",
+      "output_sha256": "f4e7509747f9d0dea9b9e5f6ec208f16ec621d31602f9b640fcedaea3a861332",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "f4e7509747f9d0dea9b9e5f6ec208f16ec621d31602f9b640fcedaea3a861332",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "There enters into such things a great national sin, a far greater sin than drink—the habit of respecting a gentleman.",
+      "output_sha256": "0dc5a24b593099834fa2bb3690a2fa0c7b41eeafb00b1edf522a87f578d533b4",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "0dc5a24b593099834fa2bb3690a2fa0c7b41eeafb00b1edf522a87f578d533b4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Snobbishness, much like intoxication, possesses a certain grand allure.",
+      "output_sha256": "f4c24b972ca13d174f43631c653b2883239a23507864df827ea8e555710ecc66",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.531818,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "ea55961eacc8869bcccc8e2048933b1b92b32a9ca9d22939eb09408eb0ab16b9"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "f4c24b972ca13d174f43631c653b2883239a23507864df827ea8e555710ecc66",
+      "ai_unit_sentence_indices": [
+        50
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Yet it harbors a uniquely insidious quality that often seeps through the actions of even the kindest individuals, those with open hearts and welcoming homes.",
+      "output_sha256": "4f4f97e152a9c9d6548eb905ae127569f3389e57733bb4e5d324162812892849",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.329833,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "a44a5d7f2003db3fe5ef8160c4a08340d69c22becbc788790cebaf6e717ae54c"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "4f4f97e152a9c9d6548eb905ae127569f3389e57733bb4e5d324162812892849",
+      "ai_unit_sentence_indices": [
+        51
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But it is our great English vice; to be watched more fiercely than small-pox.",
+      "output_sha256": "d70213ce11ae7de3bb0f63e8a9b679bbd43a82f325db993fa62eb251747ecd89",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "d70213ce11ae7de3bb0f63e8a9b679bbd43a82f325db993fa62eb251747ecd89",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "If a man wished to hear the worst and wickedest thing in England summed up in casual English words, he would not find it in any foul oaths or ribald quarrelling.",
+      "output_sha256": "96fd7f38b74b5ae935e86ab56872aa7bd237d952db1c36c1848b7b578d058d23",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "96fd7f38b74b5ae935e86ab56872aa7bd237d952db1c36c1848b7b578d058d23",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "He would find it in the fact that the best kind of working man, when he wishes to praise any one, calls him “a gentleman.”",
+      "output_sha256": "6209927ee16d257a5fe76a791a7ea7f8b5d455ed903d09afd2f7b106a05991fa",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "6209927ee16d257a5fe76a791a7ea7f8b5d455ed903d09afd2f7b106a05991fa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "It never occurs to him that he might as well call him “a marquis,” or “a privy councillor”—that he is simply naming a rank or class, not a phrase for a good man.",
+      "output_sha256": "d050128e6e5f924963a0594d9026ed75ce7c509bc25d58eb63e947b9bd18e1c5",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "d050128e6e5f924963a0594d9026ed75ce7c509bc25d58eb63e947b9bd18e1c5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "This enduring temptation to idolize social status inevitably influences and distorts our policing methods.",
+      "output_sha256": "350f0c9a2a7c3885067c93f95bb1e3b23b63f27d72ee79735bb7046d54661edb",
+      "alignment_unit_index": 54,
+      "alignment_score": 0.296257,
+      "human_sentence_indices": [
+        55
+      ],
+      "human_sha256": [
+        "048ed98608a43679e841d13a44f8ed3cc2f3b1090ef89e7d16e7c8a9adba6e97"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "350f0c9a2a7c3885067c93f95bb1e3b23b63f27d72ee79735bb7046d54661edb",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "In conclusion, we must be vigilant and precise in our reasoning, for we must self-monitor our inclinations.",
+      "output_sha256": "48971949210b58ce4db95a473dd334872b6a922835210a6381b9edc5e7fa8397",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.456723,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "216fdd2d568e51e8a3a3a2f117fb9e7b42fe99c3839bee6e0c41f3c5b2100df9"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "48971949210b58ce4db95a473dd334872b6a922835210a6381b9edc5e7fa8397",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "The power of wealth, especially in its most nefarious forms, is on the rise in our contemporary world.",
+      "output_sha256": "e7b30e1380d32370611b0bb0eadd240ecd2e9863475073a1704a30be4c09c244",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.514542,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "de2bde9392d1c342a85dd3d6cca320223c437de912f5a6a261f923c6d47a2715"
+      ],
+      "source_ai_sentence_index": 58,
+      "source_ai_sha256": "e7b30e1380d32370611b0bb0eadd240ecd2e9863475073a1704a30be4c09c244",
+      "ai_unit_sentence_indices": [
+        58
+      ]
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "A very good and just people, without this temptation, might not need, perhaps, to make clear rules and systems to guard themselves against the power of our great financiers.",
+      "output_sha256": "00c7b8ed4307b10a08a75fc57a36d89bfc6d639be4b2a484e7fd00655f8f4a6b",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "00c7b8ed4307b10a08a75fc57a36d89bfc6d639be4b2a484e7fd00655f8f4a6b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "But that is because a very just people would have shot them long ago, from mere native good feeling.",
+      "output_sha256": "2528561b050812f247dd780b945e8cab6eb1cdbbff961c672841e80af2213cca",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "2528561b050812f247dd780b945e8cab6eb1cdbbff961c672841e80af2213cca",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

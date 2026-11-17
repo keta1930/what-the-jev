@@ -1,0 +1,815 @@
+{
+  "source_id": "ZH090",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "83b8e7e0736befe7db696f7c9e3b21546fcf5496fd5c8d8f063c1f3dd83b95a8",
+  "ai_article_sha256": "23cc6232c7226285bf353c948456bd44b621736af3429df01b87a5bdeb7d64f3",
+  "mixed_article_sha256": "1170ef4fc17ba53e17a4555c3088e01786d7aea96be745afee513b4c36fcda54",
+  "human_source_sentence_count": 55,
+  "ai_source_sentence_count": 46,
+  "alignment_unit_count": 46,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.402511,
+  "selected_alignment_score_median": 0.574847,
+  "selected_alignment_score_max": 0.8,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "三月花還沒有開，人們嗅不到花香，只是馬路上融化了積雪的泥濘幹起來。",
+      "output_sha256": "8f3fb01897f557d33e6b3d4c14057b61a4af61923c00c5edbbeceaf6526bc1e4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "8f3fb01897f557d33e6b3d4c14057b61a4af61923c00c5edbbeceaf6526bc1e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "天空打起朦朧的多有春意的雲彩；暖風和輕紗一般浮動在街道上，院子裏。",
+      "output_sha256": "50bc7a55177891c9445e4d7beb808035401c290b4070898b05d9f8167db35cb1",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "50bc7a55177891c9445e4d7beb808035401c290b4070898b05d9f8167db35cb1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "春末了，關外的人們才知道春來。",
+      "output_sha256": "c1158ea69c38a7f45d99356cf957b222dcaad98c03e230f1cfbf4e5a01810c9a",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "c1158ea69c38a7f45d99356cf957b222dcaad98c03e230f1cfbf4e5a01810c9a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "春是來了，街頭的白楊樹躥着芽，拖馬車的馬冒着氣，馬車伕們的大氈靴也不見了，行人道上外國女人的腳又從長統套鞋裏顯現出來。",
+      "output_sha256": "d4a7aebd84aac79197c6a29c65c123f3bc2c3b5aec1dc43b7a767c9ce05ca94e",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "d4a7aebd84aac79197c6a29c65c123f3bc2c3b5aec1dc43b7a767c9ce05ca94e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "笑聲與問候再次在行人道上回蕩。",
+      "output_sha256": "20f5a790eff3d30bc163c9439b9550008d8e345eae83431fe7fc6d3d21ff2e0b",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.475217,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "b3eb729b6669150e186f138f4c7ef4223b9e648fb3dcceee6367c62b0c8dfa05"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "20f5a790eff3d30bc163c9439b9550008d8e345eae83431fe7fc6d3d21ff2e0b",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "商店裡，為了傳遞春天的氣息，櫥窗中的花朵早已盛開，草地也變得翠綠，彷彿已經佈置好了夏天的舞台。",
+      "output_sha256": "c1b6be4b0524a1d128314b711115fbb731086cebbd86d17239a5ea6718025fd6",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.402511,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "cbac51e3ab71eee4292b0c5caf03b1af022b547a2a5a9511c97d834d675c24e9"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "c1b6be4b0524a1d128314b711115fbb731086cebbd86d17239a5ea6718025fd6",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我看得很凝神的時候，有人撞了我一下，是汪林，她也戴着那樣小沿的帽子。",
+      "output_sha256": "4276492ccd40c98ca63b3a805ee1cffa1ddca2423946ff6028ea78c785607298",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "4276492ccd40c98ca63b3a805ee1cffa1ddca2423946ff6028ea78c785607298",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“天真暖啦！",
+      "output_sha256": "700f6118ac0b1b0b025b68c983b1cbcdbf82961bb4853b84d5a8806ed93b5830",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "700f6118ac0b1b0b025b68c983b1cbcdbf82961bb4853b84d5a8806ed93b5830",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "走路都有點熱。”",
+      "output_sha256": "cd103786104c5c632e46657a39a70c52125156879f9e745c213761a560864b1c",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "cd103786104c5c632e46657a39a70c52125156879f9e745c213761a560864b1c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "看著她轉身走向“商市街”，我們來到了另一家店鋪，並不是要購買什麼，只是隨意看看，順便曬曬太陽。",
+      "output_sha256": "60b13ef333bbd844482e1f401a3a942fabcfc98c81f944cf0947df44bfc94cac",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.671232,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "9a224fc848719ad3dee02a11eb5e14957d8cf833d44f9f608d8e26476000edd0"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "60b13ef333bbd844482e1f401a3a942fabcfc98c81f944cf0947df44bfc94cac",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "這樣宜人的行人道，既有樹木也有椅子，坐在椅子上，閉上眼睛，讓自己完全沉浸在春天的夢境、春天的謎語和那股暖意之中……聆聽，聆聽吧！",
+      "output_sha256": "bf32e00c0a120c16afdf1f8b7cb633604e9ab987036bfbe73414cced0fc1ce1c",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.501339,
+      "human_sentence_indices": [
+        11,
+        12
+      ],
+      "human_sha256": [
+        "b755175bb37e73d2946ef85bda0c156596bdff4ceae5c99c5250050aacf806b6",
+        "988dad38e2830b1ea230996ee94ec7e20fc49994ff65aae15c2efa78664d7c79"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "bf32e00c0a120c16afdf1f8b7cb633604e9ab987036bfbe73414cced0fc1ce1c",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "春在歌唱……",
+      "output_sha256": "659e3da4157ce63ca24f8901f353b3d11311c6da494b16d32ffca5ccf6211238",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "659e3da4157ce63ca24f8901f353b3d11311c6da494b16d32ffca5ccf6211238",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "“大爺，大奶奶……幫幫吧……”這是什麼歌呢，從背後來的？",
+      "output_sha256": "ff0b7420e466fb3a18cda143e4340cec444f941bc002df503aedc79769dbef76",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "ff0b7420e466fb3a18cda143e4340cec444f941bc002df503aedc79769dbef76",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "這不是春天的歌吧！",
+      "output_sha256": "4224f0e9405f95894394025b111622b68051f240d5ba700ee91ca95078b85ea6",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "4224f0e9405f95894394025b111622b68051f240d5ba700ee91ca95078b85ea6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "那個乞丐嘴裡咬著一個爛梨，腿部腫脹得讓另一隻腿顯得幾乎不存在。",
+      "output_sha256": "dca4fe8da05f1cbe31fae8bae9ac9b73d0258bae5d58c59bbfc330ecdc8b875c",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.484599,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "8504a6749c04b651b42341246a80bc8125b01bb888d916f60731e7a752a05a57"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "dca4fe8da05f1cbe31fae8bae9ac9b73d0258bae5d58c59bbfc330ecdc8b875c",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "“我的腿凍壞了！",
+      "output_sha256": "c336cbc6df1323056f562d8c4a8a9c3836c07d5b288b7f87a5a3022c52e017c5",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.8,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "cd25a76491cc3dd8fcc569be28527c47e4396ddbe2fa166a1093651146378032"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "c336cbc6df1323056f562d8c4a8a9c3836c07d5b288b7f87a5a3022c52e017c5",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "大爺，幫幫吧！",
+      "output_sha256": "1a23560e3fbc5eff4ae42bffe7cfb117fdf592630b8e87b48887dc37224dbc69",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "1a23560e3fbc5eff4ae42bffe7cfb117fdf592630b8e87b48887dc37224dbc69",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "唉唉……！”",
+      "output_sha256": "d56d3947bc5d3639149093840a6e61b95058f328e3710c9ad56ab73e89e3f3a7",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "d56d3947bc5d3639149093840a6e61b95058f328e3710c9ad56ab73e89e3f3a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "還有誰能記得冬天的存在？",
+      "output_sha256": "274b4b013fa633a57e4bb16969f524a925d05e0fbb3d82429196e8240d9cdde1",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.552273,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "2d63629b293a64bc55386cb7a00f7c6ccd1461484c9e72d29b458f4bb6beba4b"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "274b4b013fa633a57e4bb16969f524a925d05e0fbb3d82429196e8240d9cdde1",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "陽光如此溫暖！",
+      "output_sha256": "bcd1a138ffcb533a44d62f97fa7fbceae9f68b76f434e12c5ed03eccc6709fb4",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.483333,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "1bcc49258400f647aa59d9e52d691a64e7a4a25c67584639a3097a8fefc580da"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "bcd1a138ffcb533a44d62f97fa7fbceae9f68b76f434e12c5ed03eccc6709fb4",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "街樹躥着芽！",
+      "output_sha256": "dc9a05272ff21c6f80f54e4aecf6b555c23f79e8bcafd531d9c9fe1578864aac",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "dc9a05272ff21c6f80f54e4aecf6b555c23f79e8bcafd531d9c9fe1578864aac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "手風琴在隔道唱起來，這也不是春天的調，只要一看那個瞎人爲着拉琴而扭歪的頭，就覺得很殘忍。",
+      "output_sha256": "0485f799bb3d0c36dce55b1c03545e8601c90cf6b61fa41b6625f9aba1c19756",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "0485f799bb3d0c36dce55b1c03545e8601c90cf6b61fa41b6625f9aba1c19756",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "瞎人他摸不到春天，他沒有眼睛。",
+      "output_sha256": "e03e8f912645fdb8fa47ce8af5f5a323a99619a2742d69cbf3bf5574e1231f75",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "e03e8f912645fdb8fa47ce8af5f5a323a99619a2742d69cbf3bf5574e1231f75",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "那個受傷的人無法步入春天，即使他擁有雙腿，對他而言也等同於無腿。",
+      "output_sha256": "bad88a86e05571b1dbe9182f07e408123e2233bdd75d6b3927abf847f9ddb530",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.41762,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "1482829f0e9b40cac7fbf42be9f9282a7790b3ed28f50d911c60cd45a9451ee1"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "bad88a86e05571b1dbe9182f07e408123e2233bdd75d6b3927abf847f9ddb530",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "世上這些不幸的人，存在著卻如同不存在，與其讓他們在春日裡發出難聽的歌聲，不如早些將他們消除。",
+      "output_sha256": "52fc78cafae461df45c20d9510d1bd0d1d3bfdf74a9548c5752b187cedeb4012",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.49709,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "51ec926a18fa2c3730b57739eb4e90648423a2d1c3fba0518ab3d8b01cdbc314"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "52fc78cafae461df45c20d9510d1bd0d1d3bfdf74a9548c5752b187cedeb4012",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "汪林在院心吸着一支菸卷，她又換一套衣裳。",
+      "output_sha256": "dc09ef81d8f33c5dd9ee8c24a861b09ceff5b3a92aa517187a4305de734291f4",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "dc09ef81d8f33c5dd9ee8c24a861b09ceff5b3a92aa517187a4305de734291f4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "那是淡綠色的，和樹枝發出的芽一樣的顏色。",
+      "output_sha256": "84d7348f560842273f968b1f27f4e4c66bac8b0a25a5957f48600c66032c3902",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "84d7348f560842273f968b1f27f4e4c66bac8b0a25a5957f48600c66032c3902",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "她腋下夾着一封信，看見我們，趕忙把信送進衣袋去。",
+      "output_sha256": "cb8a098e01fea6739a7251aa80794c761d11f3a78606f86b0f920ae1d8181c64",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "cb8a098e01fea6739a7251aa80794c761d11f3a78606f86b0f920ae1d8181c64",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "“大概又是情書吧！”",
+      "output_sha256": "e4c524364379ddd8b23f2408d4e07206ffc8fb2d22378b2ce16ce603377d879e",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "e4c524364379ddd8b23f2408d4e07206ffc8fb2d22378b2ce16ce603377d879e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "郎華隨便說着玩笑話。",
+      "output_sha256": "f6786cdc81fab73de3d6df53c629a2610846ec027d24a97f8dce4c0f5cb87ad4",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "f6786cdc81fab73de3d6df53c629a2610846ec027d24a97f8dce4c0f5cb87ad4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "她跑進屋去了。",
+      "output_sha256": "10ab7902f668aaa50652092222a8457b0eaa7b323843a7ffc4d606d28d314e30",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "10ab7902f668aaa50652092222a8457b0eaa7b323843a7ffc4d606d28d314e30",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "香菸的煙縷在門外打了一下旋卷才消滅。",
+      "output_sha256": "0fcd69a5bb0297c5add4193382c51eb6c46aae1d809103cf80a2037e301646e6",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "0fcd69a5bb0297c5add4193382c51eb6c46aae1d809103cf80a2037e301646e6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "夜幕降臨，春夜中的中央大街充滿了音樂的氛圍。",
+      "output_sha256": "e4c9f59f7257714685ec5d90f3d76ee2526583d55212a3cc6bf9e64cc7ea4afe",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.666261,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "75b99d0d70148217534e213bf85809d8cb78291d0f4c021a4b15d16fda9042ed"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "e4c9f59f7257714685ec5d90f3d76ee2526583d55212a3cc6bf9e64cc7ea4afe",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "流浪人的音樂，日本舞場的音樂，外國飯店的音樂……七點鐘以後。",
+      "output_sha256": "bc61fbd17a910776f70cb3a6386aedd6573d6c0f23039c2c199be1806a50229b",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "bc61fbd17a910776f70cb3a6386aedd6573d6c0f23039c2c199be1806a50229b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "中央大街的中段，在一條橫口，那個很響的擴音機哇哇地叫起來，這歌聲差不多響徹全街。",
+      "output_sha256": "4c3715794876a2280155671fa7847f68d49a304424534a7dc49d5315564425a8",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "4c3715794876a2280155671fa7847f68d49a304424534a7dc49d5315564425a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "如果站在商店的玻璃窗前，會懷疑聲音是從玻璃中發出的。",
+      "output_sha256": "f1b6851f45c2d2cea8d52e62dd89c8e3034abb24ae47347963c364b4d4455544",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.63,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "230ba75f70d08c045e00d1b575e86357824190f589f79816649096c37e874fa1"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "f1b6851f45c2d2cea8d52e62dd89c8e3034abb24ae47347963c364b4d4455544",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "這條在風雪中孤寂的大街，今天第一次喧嘩起來。",
+      "output_sha256": "b61ca3a3d07ea72c01df3d6b072ae92132a9e2cef1c43ec9734b1a71065785af",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.609641,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "4ac2b7c3d4c396cc5766773fee593b9204065b7c34c06a92811444ab76dc1acf"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "b61ca3a3d07ea72c01df3d6b072ae92132a9e2cef1c43ec9734b1a71065785af",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "外國人！",
+      "output_sha256": "2a5ac739b3bd396f8c04fc6369753b58e2558a4e072ec58a0f692154411369ab",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "2a5ac739b3bd396f8c04fc6369753b58e2558a4e072ec58a0f692154411369ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "有紳士模樣的，也有流氓樣的，還有老婆子和少女們，滿街奔跑……有些人甚至排起隊來封住商店的窗戶，但這僅限於年輕人。",
+      "output_sha256": "a83bf07ed9615ec1912db8b5d8a1713f39d8d13dbbcccd4280923c3e5e0cd514",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.597422,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "0af660cea21db8acb9b423152e48f7c1cf1a17761fc26a52229b5fc565cd8c0c"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "a83bf07ed9615ec1912db8b5d8a1713f39d8d13dbbcccd4280923c3e5e0cd514",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "也有的同唱機一樣唱起來，但這也只限於年輕人。",
+      "output_sha256": "4cbfe11b3786a80d93a9e1deffe3990b78d6ca3c4cde1905a9ca750b777814fe",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "4cbfe11b3786a80d93a9e1deffe3990b78d6ca3c4cde1905a9ca750b777814fe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "這好像特有的年輕人的集會。",
+      "output_sha256": "2028fc5d66f5d87c39b84aa3a42f2cebdfcdcc043e6a339818d87d09ab6e9f7a",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "2028fc5d66f5d87c39b84aa3a42f2cebdfcdcc043e6a339818d87d09ab6e9f7a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "他們與姑娘們一起嬉笑，並肩走著。",
+      "output_sha256": "5304948a592bc0decc85f0e7c861d2b522efa82758902a58c089b6b90aa975b3",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.44055,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "f17918966285cb2a8b81cb701b9e917c8f4bf2e4705bfac40d3b0124ff1c29b3"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "5304948a592bc0decc85f0e7c861d2b522efa82758902a58c089b6b90aa975b3",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 13,
+      "origin": "ai",
+      "text": "中國人在這些捲髮人中間，數量微乎其微，只有七分之一或八分之一。",
+      "output_sha256": "ea662d5b3b1d3a7ae1504358bce51a964fe04a15d56f5d869b165a153266257d",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.747156,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "7de9871998d5813c1c5bfcff568f9f456ac91714a68fa6808c6ba7478fded943"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "ea662d5b3b1d3a7ae1504358bce51a964fe04a15d56f5d869b165a153266257d",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "但是汪林在其中，我們又遇到她。",
+      "output_sha256": "577f537fe81009b9444d639da7dadac7be21ae0c29daaeda5242a98e81b67e0a",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "577f537fe81009b9444d639da7dadac7be21ae0c29daaeda5242a98e81b67e0a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "她和另一個也和她同樣打扮漂亮的、白臉的女人同走……捲髮的人用俄國話說她漂亮。",
+      "output_sha256": "4ce660b800e87b0e5b444ffea68d465dc829f0998b7917b6540911ec5d265f30",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "4ce660b800e87b0e5b444ffea68d465dc829f0998b7917b6540911ec5d265f30",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "她也用俄國話和他們笑了一陣。",
+      "output_sha256": "2cd4452e18342e3c83f4bec97ff50d588ae1b080374a741bd2de8567fe4033aa",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "2cd4452e18342e3c83f4bec97ff50d588ae1b080374a741bd2de8567fe4033aa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "中央大街的南端，人漸漸稀疏了。",
+      "output_sha256": "20ae9c99a21db6e80139437c3548acfc0c9497c66d9ba5257e393ab0dc6c6c57",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "20ae9c99a21db6e80139437c3548acfc0c9497c66d9ba5257e393ab0dc6c6c57",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 15,
+      "origin": "ai",
+      "text": "牆根、轉角處，總能聽見哀嚎，老頭子、孩子和母親們……哭泣的，正是那些永遠被人間遺棄的人！",
+      "output_sha256": "cbd6f72be40f2255ac0edf88d51a11e58d32a0fdfffc9ba820d7b36df486368d",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.609612,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "f133a722487605f26c11cc7c8fd7703762087db4dd7c9cb1f3a97b7400affd99"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "cbd6f72be40f2255ac0edf88d51a11e58d32a0fdfffc9ba820d7b36df486368d",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "那邊，還望得見那邊快樂的人羣。",
+      "output_sha256": "54bfa83ed2a20c02e33193e9ca4f093b13e44bbd43747d59514418ecfae39806",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "54bfa83ed2a20c02e33193e9ca4f093b13e44bbd43747d59514418ecfae39806",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "還聽得見那邊快樂的聲音。",
+      "output_sha256": "16518093f22c37284f9caf2f3f1c241426b067bd21055fbe8f8eceecd937be45",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "16518093f22c37284f9caf2f3f1c241426b067bd21055fbe8f8eceecd937be45",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "三月，花還沒有，人們嗅不到花香。",
+      "output_sha256": "1bb98f217035f58a4e4127c54e37360633264cbb48244f064d7ba924118ed20d",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "1bb98f217035f58a4e4127c54e37360633264cbb48244f064d7ba924118ed20d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 17,
+      "origin": "ai",
+      "text": "夜色中的街道，樹枝上嫩綠的芽無法看見，是冬天嗎？",
+      "output_sha256": "8e6c264648a8a4e73f6db7a413ad3e1e984ffa443276bceba3340bfd043dc962",
+      "alignment_unit_index": 44,
+      "alignment_score": 0.653694,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "6f30eb1b0052daab47abb59b3dbab9c4120116cca0cce1eced49504a67bb2db3"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "8e6c264648a8a4e73f6db7a413ad3e1e984ffa443276bceba3340bfd043dc962",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "是秋天吧？",
+      "output_sha256": "d25da1ec2db2a8f821719a1ee559d23f8cc00b81ea17247cc6d01e66dc32c146",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "d25da1ec2db2a8f821719a1ee559d23f8cc00b81ea17247cc6d01e66dc32c146",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 17,
+      "origin": "human",
+      "text": "但快樂的人們，不問四季總是快樂；哀哭的人們，不問四季也總是哀哭！",
+      "output_sha256": "c2da5dd408f716e4673ad9c836784b1bebf9cfd27bdc4c2c96dbe0c4ea330f7b",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "c2da5dd408f716e4673ad9c836784b1bebf9cfd27bdc4c2c96dbe0c4ea330f7b",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

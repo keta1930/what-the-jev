@@ -1,0 +1,1083 @@
+{
+  "source_id": "ZH053",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "fcafe9190de30a82033a694fc4d6ffb624aa3631c032ea4a27dc9914f8ac4d33",
+  "ai_article_sha256": "182b00d13ab0d09ea2327a21d11e9f8090f7c04e5f05df5a1fbf663fc56cce03",
+  "mixed_article_sha256": "56256a3eee6349841cddb43821d3f320e4d0c7240cdd75267f286ac0d1e67fa9",
+  "human_source_sentence_count": 71,
+  "ai_source_sentence_count": 67,
+  "alignment_unit_count": 63,
+  "selected_alignment_unit_count": 22,
+  "mixed_sentence_count": 72,
+  "selected_ai_sentence_count": 24,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.307796,
+  "selected_alignment_score_median": 0.525911,
+  "selected_alignment_score_max": 0.699452,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "我在蒙自住过五个月，我的家也在那里住过两个月。",
+      "output_sha256": "b1870bf4617a253b6682cbef61f18fe566b5904653e38470efb62714ae3a2ef7",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "b1870bf4617a253b6682cbef61f18fe566b5904653e38470efb62714ae3a2ef7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "时常在繁忙的日子里，我会想起这个地方。",
+      "output_sha256": "c8b2fcc993cbe6271ca59a0f3f54fa0d65bc8e54eb894b6a494955e9b804381a",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.411084,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "f106800604a352aec5b538983a5c15a095a86549fcedc2b4b355c673e251d512"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "c8b2fcc993cbe6271ca59a0f3f54fa0d65bc8e54eb894b6a494955e9b804381a",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "蒙自小得好，人少得好。",
+      "output_sha256": "60f8fe35ea55560a20a121f2f037b5379a0ba1a4724af927879d2f69b6857d6e",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "60f8fe35ea55560a20a121f2f037b5379a0ba1a4724af927879d2f69b6857d6e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "看惯了大城的人，见了蒙自的城圈儿会觉得像玩具似的，正像坐惯了普通火车的人，乍踏上个碧石小火车，会觉得像玩具似的一样。",
+      "output_sha256": "d1456c488bf477d27c5c8aa4841204b4ba5888d3b3dbf0f2c50a69ce4ca85a14",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "d1456c488bf477d27c5c8aa4841204b4ba5888d3b3dbf0f2c50a69ce4ca85a14",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "然而，一旦住下，便会渐渐体会到其中的乐趣。",
+      "output_sha256": "ca0d1da84ab21d52a63690b92f37ade398666c272db9a8d79846f42fd25eb6ea",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.307796,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "51a0c133d40c5b306debd1f021d363c41889d6d47fcf55a21199bc877dfaf654"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "ca0d1da84ab21d52a63690b92f37ade398666c272db9a8d79846f42fd25eb6ea",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "城里只有一条大街，不消几趟就走熟了。",
+      "output_sha256": "d3c9308d2a29692e7431ddbbf3ccd4b40f1ed9de9f16b36039e99833a08c4618",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "d3c9308d2a29692e7431ddbbf3ccd4b40f1ed9de9f16b36039e99833a08c4618",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "书店，文具店，点心店，电筒店，差不多闭了眼可以找到门儿。",
+      "output_sha256": "0beca25318e80ab841ab20a47f8211ff59642e3e40a83b49cebd26cbb2c66e78",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "0beca25318e80ab841ab20a47f8211ff59642e3e40a83b49cebd26cbb2c66e78",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "城外的名胜去处，南湖，湖里的崧岛，军山，三山公园，一下午便可走遍，怪省力的。",
+      "output_sha256": "dffb8445eb9ac9186edd2be05730c2979a5b81463d089ab93edf31daf62ab4cb",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "dffb8445eb9ac9186edd2be05730c2979a5b81463d089ab93edf31daf62ab4cb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "无论在城内外，有时在路上走，甚至会发现一个人影都没有。",
+      "output_sha256": "2c5a7844c7682d36a0d2a88f9c3c0f96cb26a89735aba0cb519d1fbe083b9f8f",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.466667,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "0ee6c9daa330470270553c47fe79614fe0ecf47ce693ccc7af750f014dd97562"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "2c5a7844c7682d36a0d2a88f9c3c0f96cb26a89735aba0cb519d1fbe083b9f8f",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "整个儿天地仿佛是自己的；自我扩展到无穷远，无穷大。",
+      "output_sha256": "16664b09014d2758ad3c159509fd585e17cd626e92f24bf43d3ab24ecc83146d",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "16664b09014d2758ad3c159509fd585e17cd626e92f24bf43d3ab24ecc83146d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "这让我想起了在台州和白马湖时的宁静。",
+      "output_sha256": "db7efc95a985df5444623fc116103485fba39a8e672433b57ec095b65cb0f606",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.50059,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "a09443eb9fc1d58828ed2c291f6b86c071e5f8002bf0439a0ddbcfde033e047d"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "db7efc95a985df5444623fc116103485fba39a8e672433b57ec095b65cb0f606",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "在大街上，有一家专卖糖粥的店，也售卖煎饼。",
+      "output_sha256": "d3ad8197714110e07ee24da9b2114e85eb1adad88832f2dc9e26bf7d44171a0b",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.637816,
+      "human_sentence_indices": [
+        12
+      ],
+      "human_sha256": [
+        "403155f56e88004cc9c90d686377509c3be0d4251cb7ed273c6f10f0336b44c8"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "d3ad8197714110e07ee24da9b2114e85eb1adad88832f2dc9e26bf7d44171a0b",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "桌子凳子乃至碗匙等都很干净，又便宜，我们联大师生照顾的特别多。",
+      "output_sha256": "2e38684e210ec5263f72a587e23ced314e6e5bd6d43f1520908f0b575218ad2f",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "2e38684e210ec5263f72a587e23ced314e6e5bd6d43f1520908f0b575218ad2f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "掌柜是个四川人，姓雷，白发苍苍的。",
+      "output_sha256": "2dbcd48c07a49b0dbf94217bf41c72bfd2b1f265f5117892852f42b55c3b58d9",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "2dbcd48c07a49b0dbf94217bf41c72bfd2b1f265f5117892852f42b55c3b58d9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他脸上常挂着微笑，却并不是巴结顾客的样儿。",
+      "output_sha256": "2d60d0a987b6e32557986e39da55572e4dd767e709be08dc0f88e64cc10d1eb0",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "2d60d0a987b6e32557986e39da55572e4dd767e709be08dc0f88e64cc10d1eb0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "他爱点古玩什么的，每张桌子上，竹器瓷器占着一半儿；糖粥和粑粑便摆在这些桌子上吃。",
+      "output_sha256": "a2ff81be776b0e28ddcff9e167bc2dd8017cbf0312f96a61aaf3b21a21e0f751",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "a2ff81be776b0e28ddcff9e167bc2dd8017cbf0312f96a61aaf3b21a21e0f751",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "他家还有一些“精品”，高兴时会拿出来请客人欣赏。",
+      "output_sha256": "55dcf8fa986e315b749d6540bb526783eb587bec39d852195e217c3136b6a94b",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.506536,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "707f984cad81f3f6fb5eae8db6405618251db789ff280adcc66b6108dc303291"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "55dcf8fa986e315b749d6540bb526783eb587bec39d852195e217c3136b6a94b",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "老头儿有个老伴儿，带一个伙计，就这么活着，倒也自得其乐。",
+      "output_sha256": "89b71c2b02af4e36baa7c3149a5cd79f2767eb52b86a5e1021bf0ada02e699d7",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "89b71c2b02af4e36baa7c3149a5cd79f2767eb52b86a5e1021bf0ada02e699d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我们管这个铺子叫“雷稀饭”，管那掌柜的也叫这名儿；他的人缘儿是很好的。",
+      "output_sha256": "b73a76c1eaf37da8ebb577f3f41ad862ebc007758e2d4e2cd40d4470ae45f805",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "b73a76c1eaf37da8ebb577f3f41ad862ebc007758e2d4e2cd40d4470ae45f805",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "城里最可注意的是人家的门对儿。",
+      "output_sha256": "90de8c8ccb15e1b650cd57b8eadbbbeb34d5e98440b6aa880cf708bf443e592e",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "90de8c8ccb15e1b650cd57b8eadbbbeb34d5e98440b6aa880cf708bf443e592e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "这里许多门对都与人家的姓氏相符。",
+      "output_sha256": "6b22cbc4d58564977b4e0d332c12e36758c3e9be1f5aa64a7e4ba66f3b90e4b6",
+      "alignment_unit_index": 20,
+      "alignment_score": 0.675,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "b443a5cd38f8f8ad5710dc3fc66f0cbe56c524014d4dd5d66f574326d46aa751"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "6b22cbc4d58564977b4e0d332c12e36758c3e9be1f5aa64a7e4ba66f3b90e4b6",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "别地方固然也有这么办的，但没有这里的多。",
+      "output_sha256": "8c3f7e7c6b0cd8e37798a7590fb1ed591d80a9f15e63e8b3eee67e78f53aaa56",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "8c3f7e7c6b0cd8e37798a7590fb1ed591d80a9f15e63e8b3eee67e78f53aaa56",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "散步时，我常常一边观察一边猜测，别有一番趣味。",
+      "output_sha256": "97ea85698de02330709194c241ff7fcef362c1541634344f074b56d6ee9809f2",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.370984,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "c6e97a276e402f1659bcb7548492d03a98fbd6a9441d7ae3edf0ade4a29f29ba"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "97ea85698de02330709194c241ff7fcef362c1541634344f074b56d6ee9809f2",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但是最多的是抗战的门对儿。",
+      "output_sha256": "25cfd844f7048cf8f6b78c394de0d032ccb01981334d6eb09efad5d30331cf39",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "25cfd844f7048cf8f6b78c394de0d032ccb01981334d6eb09efad5d30331cf39",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "昆明也有，不过按比例说，怕不及蒙自的多；多了，就造成一种氛围气，叫在街上走的人不忘记这个时代的这个国家。",
+      "output_sha256": "90ee54d90302330105978e3ae047c11d8e2bf729d6b7ec0a99fcdc484d6917d1",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "90ee54d90302330105978e3ae047c11d8e2bf729d6b7ec0a99fcdc484d6917d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "这似乎也算利用旧形式宣传抗战建国，是值得鼓励的。",
+      "output_sha256": "53bd5897cbdc4503b855b9b68842be99fe37e97d3830154f12e89526070d8813",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "53bd5897cbdc4503b855b9b68842be99fe37e97d3830154f12e89526070d8813",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "眼看旧历年即将到来，这样的抗战春联，确实可以大力推广。",
+      "output_sha256": "d9df9150ca9d5923d12414099d2945799501bb317e8fa92962d39573aca0a581",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.457207,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "ce58bff3fb948cdcbb3174d144c49ece5ba5fc87db78bb9c23977fe37eca5503"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "d9df9150ca9d5923d12414099d2945799501bb317e8fa92962d39573aca0a581",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "蒙自的正式宣传工作，除党部的标语外，教育局的努力，也值得记载。",
+      "output_sha256": "232e4703a61df7a645c1a89db9a703d07ea16fe381f767f4f9a2e8c71c9cb11a",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "232e4703a61df7a645c1a89db9a703d07ea16fe381f767f4f9a2e8c71c9cb11a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他们将一座旧戏台改为演讲台，又每天张贴油印的广播消息。",
+      "output_sha256": "0393c9153bce8978c30989bcc4279057c62c8d4cd0eee9b24f758400f08ed255",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "0393c9153bce8978c30989bcc4279057c62c8d4cd0eee9b24f758400f08ed255",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这都是有益民众的。",
+      "output_sha256": "f2c5c05ec949a8115ce2485fb136a89fd7ab88a207def4c65a4616356745c2c0",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "f2c5c05ec949a8115ce2485fb136a89fd7ab88a207def4c65a4616356745c2c0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "虽然经费不多，但能逐步推进，前景可期。",
+      "output_sha256": "a557910f001494b4533e7f1c339402d43ad7b0d145cac77f06901c4600b0f630",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.4148,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "c74fe5267b323731f66b2c75303f5a2240016726a20c5116730522a8bc453e6a"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "a557910f001494b4533e7f1c339402d43ad7b0d145cac77f06901c4600b0f630",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他们又帮忙北大的学生办了一所民众夜校。",
+      "output_sha256": "4bf01377f1c9957f0642e31e7a86e3ec390eac7c0eb715c1e4631dae66c2299e",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "4bf01377f1c9957f0642e31e7a86e3ec390eac7c0eb715c1e4631dae66c2299e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "报名的非常踊跃，但因为教师和座位的关系，只收了二百人。",
+      "output_sha256": "fe13fc980e58da2cce74811a8e504609c53afd196bb501a5a0ad0abc507444f5",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "fe13fc980e58da2cce74811a8e504609c53afd196bb501a5a0ad0abc507444f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "夜校开办了两三个月，学生们学习认真，成绩相当不错。",
+      "output_sha256": "c38ebae6f89ea9dbd6a711f1be9ff9165eb25a4a16660ba45c72e2e4dbc70930",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.698947,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "b359e0a29a6e3a65aa430eb92e8ba77a8c0aafa3e1699045f554a16d0e9b0d57"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "c38ebae6f89ea9dbd6a711f1be9ff9165eb25a4a16660ba45c72e2e4dbc70930",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "那时，蒙自的联大要迁往昆明，因此不得不停止。",
+      "output_sha256": "de8fb082613f104269a3a879cf27a72a3f3237878711acf4b268166ea504c8e5",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.595254,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "78054f977c6cd7364c4a220c0fd6163fff062391982f41ed9ff2e785a90f3166"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "de8fb082613f104269a3a879cf27a72a3f3237878711acf4b268166ea504c8e5",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "教育局长对此表示非常遗憾；从他的态度来看，他说的是真心话。",
+      "output_sha256": "a437b7fdeab9efa386be5ba33f06262f6997e57c7cdf2c105f06a435b0159ed0",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.641441,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "81ccb97c2d4d2affddfc39dd96dbb9c54c14b2a0956bc55fe0421aadefe44861"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "a437b7fdeab9efa386be5ba33f06262f6997e57c7cdf2c105f06a435b0159ed0",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "蒙自的民众对于宣传非常乐于接受。",
+      "output_sha256": "6d61e12dff436a395effcaf92ff5613eb1dd5ea7384d51445bcacd2ac0b60b65",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.545657,
+      "human_sentence_indices": [
+        37
+      ],
+      "human_sha256": [
+        "7e5b542147f03e6dd85a8822422e69c62b5cad296dea3a1ce7a99fcfc458ea89"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "6d61e12dff436a395effcaf92ff5613eb1dd5ea7384d51445bcacd2ac0b60b65",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "联大的学生曾经来过一次灭蝇运动。",
+      "output_sha256": "3b9e4a02f62de1d24b6eeddc0eb781e3c59fb0aae369aa40494d8d0bba873812",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "3b9e4a02f62de1d24b6eeddc0eb781e3c59fb0aae369aa40494d8d0bba873812",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "四五月间蒙自苍蝇真多。",
+      "output_sha256": "3c98c51df4d90fad170876ba365c1e9819b0d8ba3b3549edb0e4e540cdd5b501",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "3c98c51df4d90fad170876ba365c1e9819b0d8ba3b3549edb0e4e540cdd5b501",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "有一位朋友在街上笑了一下，一张口便飞进一个去。",
+      "output_sha256": "b797ac192bd18e8367e67ce31a44edce2bf2e55daf0e8dd2fc7eab36ad5e70d8",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "b797ac192bd18e8367e67ce31a44edce2bf2e55daf0e8dd2fc7eab36ad5e70d8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "经过灭蝇运动后，许多食物铺子都备上了冷布罩子，虽然简陋，却也是一种进步。",
+      "output_sha256": "6b12346025a3a786697a3685ed7b76cb31b64f8fd95931deb240ae97558cbe83",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.677516,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "6984c0fac8f3c4f88ea07d4aabddf11ba93fc64d2442abb5066a3f41e51c0638"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "6b12346025a3a786697a3685ed7b76cb31b64f8fd95931deb240ae97558cbe83",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "店主们常对我们说：“这是你们来了之后才有的。”",
+      "output_sha256": "50d3519a8b3deaa2440bec4118402d138a592bef0c71a621bd1efdca6c7e047e",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.699452,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "33eba7875e8f3275d9da5dca4de258a6e3cbba6cb02ecb90a6c6fc0caaad956a"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "50d3519a8b3deaa2440bec4118402d138a592bef0c71a621bd1efdca6c7e047e",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "可见他们是很虚心的。",
+      "output_sha256": "d966dd4df6295267a45b8a72393ac7d9a4ccc01b148aceb99ca7cbeee9dcfde3",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "d966dd4df6295267a45b8a72393ac7d9a4ccc01b148aceb99ca7cbeee9dcfde3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "蒙自有个火把节，四乡是在阴历六月二十四晚上，城里是二十五晚上。",
+      "output_sha256": "cb4931846b0a8cbf4f42dbea57cd76ff033f18c08a32609d843dc14df6f6cabe",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "cb4931846b0a8cbf4f42dbea57cd76ff033f18c08a32609d843dc14df6f6cabe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "那晚上城里人家都在门口烧着芦秆或树枝，一处处一堆堆熊熊的火光，围着些男男女女大人小孩；孩子们手里更提着烂布浸油的火球儿晃来晃去的，跳着叫着，冷静的城顿然热闹起来。",
+      "output_sha256": "83a4d723d0bf9a180bc1f2cb0f33472566b8d9f2643668096e4d7424b0b42df4",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "83a4d723d0bf9a180bc1f2cb0f33472566b8d9f2643668096e4d7424b0b42df4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这火是光，是热，是力量，是青年。",
+      "output_sha256": "839b61d40dc34514bd197dc62d9fc3b7dae30f25434d22830325acd530594ad6",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "839b61d40dc34514bd197dc62d9fc3b7dae30f25434d22830325acd530594ad6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "四乡地方空阔，都用一棵棵小树烧；想像着一片茫茫的大黑暗里涌起一团团的热火，光景够雄伟的。",
+      "output_sha256": "ab970bc9ade022b5036c96a2f3300de44d297de913c9065ed1a04054261b8df6",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "ab970bc9ade022b5036c96a2f3300de44d297de913c9065ed1a04054261b8df6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "四乡那些夷人，该更享受这个节，他们该更热烈的跳着叫着罢。",
+      "output_sha256": "e4dd964be2125d8751ff995e2cce02019d70b469d2b04a082151743e41c1e834",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "e4dd964be2125d8751ff995e2cce02019d70b469d2b04a082151743e41c1e834",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这也许是个祓除节，但暗示着生活力的伟大，是个有意义的风俗；在这抗战时期，需要鼓舞精神的时期，它的意义更是深厚。",
+      "output_sha256": "ab47b6191ec14ca28cad208efd201c5ed554b72fbc8f7bc4998782e4bd56a585",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "ab47b6191ec14ca28cad208efd201c5ed554b72fbc8f7bc4998782e4bd56a585",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "南湖在冬春季节水量较少，半数湖面几乎干涸。",
+      "output_sha256": "a0f83822aa8d010ffd83010cfdc7334c79162be3b8297e06961ea21e1a9bf490",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.425068,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "52effcd1ba0592225cb8ede1677f3f6d31ec6d755d2df41e42a02bf292a57d0f"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "a0f83822aa8d010ffd83010cfdc7334c79162be3b8297e06961ea21e1a9bf490",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "但到了夏季，涨得溶溶滟滟的，真是返老还童一般。",
+      "output_sha256": "2be94457ab0d2f984af9bd351b27d80b6968e7d9534523fac8a68746534e8776",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "2be94457ab0d2f984af9bd351b27d80b6968e7d9534523fac8a68746534e8776",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "湖堤上种满了整齐的由加利树，树干高大笔直，犹如“参天”之势，细长的叶子仿佛习惯了轻拂水面。",
+      "output_sha256": "4ce56390ae740ce499c1e0eded0328f80931d10d35c6b92a5d1641ba030f1eb1",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.562192,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "ee7a8e413eec4afc8f6474edcd0b7fe55639058067cf0449a129237e60ad4950"
+      ],
+      "source_ai_sentence_index": 50,
+      "source_ai_sha256": "4ce56390ae740ce499c1e0eded0328f80931d10d35c6b92a5d1641ba030f1eb1",
+      "ai_unit_sentence_indices": [
+        50,
+        51
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "我站在堤上，不禁想起北平的什刹海。",
+      "output_sha256": "5dc23239359583e371dffd44ce1f35b2877aca4cf901ce2a69cf4435953be4b4",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.562192,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "ee7a8e413eec4afc8f6474edcd0b7fe55639058067cf0449a129237e60ad4950"
+      ],
+      "source_ai_sentence_index": 51,
+      "source_ai_sha256": "5dc23239359583e371dffd44ce1f35b2877aca4cf901ce2a69cf4435953be4b4",
+      "ai_unit_sentence_indices": [
+        50,
+        51
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "再加上崧岛那一带田田的荷叶，亭亭的荷花，更像什刹海了。",
+      "output_sha256": "a48219ef75ca0a109215458977eb3ea0862130346b0a938d2537d05ed57678f1",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "a48219ef75ca0a109215458977eb3ea0862130346b0a938d2537d05ed57678f1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "崧岛是个好地方，但我看还不如三山公园曲折幽静。",
+      "output_sha256": "930e60441db72d4689d93900d6aab34ff2aea9322fa645c3d16024da873aa262",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "930e60441db72d4689d93900d6aab34ff2aea9322fa645c3d16024da873aa262",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "这里仅有几个小土堆和几座简朴的小亭子，但回旋起伏、树木掩映，让人感到一种别样的韵味。",
+      "output_sha256": "856d3a7daa19d01f80de1461964b4c4434ac59d829e309e1fe13126d5974426a",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.378812,
+      "human_sentence_indices": [
+        55,
+        56
+      ],
+      "human_sha256": [
+        "3addb1c238a5c46e8bf55d91e3088bb4ed68eaafde00b18e8d24879452dd1d94",
+        "5e626fc3783673fe7ec18bdd3b71dc9c53bd29a53ab895d525735106d7f16399"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "856d3a7daa19d01f80de1461964b4c4434ac59d829e309e1fe13126d5974426a",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "这不能不感谢那位李崧军长。",
+      "output_sha256": "65e4294f1820c8aadea214cead6b92cfe862824854abb7f37750d59ce978cf5f",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "65e4294f1820c8aadea214cead6b92cfe862824854abb7f37750d59ce978cf5f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "南湖上的路都是他的军士筑的，崧岛和军山也是他重新修整的；而这个小小的公园，更见出他的匠心。",
+      "output_sha256": "5c53c7b8cbdc4c77e9b1c2991ed533d2d3e86dbe1b6a54a8ef9900e05d643393",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "5c53c7b8cbdc4c77e9b1c2991ed533d2d3e86dbe1b6a54a8ef9900e05d643393",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "这一带他写的匾额很多。",
+      "output_sha256": "daedd7f547618bcf823c53738c339a86455017c396d7624a68227f486df46eb5",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "daedd7f547618bcf823c53738c339a86455017c396d7624a68227f486df46eb5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "他自然不是书家，不过笔势瘦硬，颇有些英气。",
+      "output_sha256": "42039f7a198e1d251c522c5dd1cae74be9141db7130bd7b6571697705ba4c905",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 60,
+      "source_human_sha256": "42039f7a198e1d251c522c5dd1cae74be9141db7130bd7b6571697705ba4c905",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "联大租借了海关和东方汇理银行旧址，是蒙自最好的地方。",
+      "output_sha256": "fbee78cdb1e7edcac961fc4bc238856507f8fef59a5058f44bf27b7daec96cb0",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "fbee78cdb1e7edcac961fc4bc238856507f8fef59a5058f44bf27b7daec96cb0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "海关里高大的由加利树和一片柔软的绿草，构成了主要的景致。",
+      "output_sha256": "b6791a18a97a6dc9472e19d6dddd4c5498223bc9c7b421a34dac7b5284f1bc96",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.545287,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "d648051caebe0c148b3f057557294b5f459e0bf59afbce6eb34e56f923f4dd31"
+      ],
+      "source_ai_sentence_index": 59,
+      "source_ai_sha256": "b6791a18a97a6dc9472e19d6dddd4c5498223bc9c7b421a34dac7b5284f1bc96",
+      "ai_unit_sentence_indices": [
+        59,
+        60
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "走进门来，胸怀顿时开阔，浑身也感到一种润泽。",
+      "output_sha256": "22a05ea9fcf57f586ed060b42e311d9df46898c28f275611a8a53c562d92d96f",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.545287,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "d648051caebe0c148b3f057557294b5f459e0bf59afbce6eb34e56f923f4dd31"
+      ],
+      "source_ai_sentence_index": 60,
+      "source_ai_sha256": "22a05ea9fcf57f586ed060b42e311d9df46898c28f275611a8a53c562d92d96f",
+      "ai_unit_sentence_indices": [
+        59,
+        60
+      ]
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "树头上好些白鹭，和北平太庙里的“灰鹤”是一类，北方叫做“老等”。",
+      "output_sha256": "726392dbca1ed7b43920789917492eea26f0fae1d5a5753d94b6a5ac7ac71f5a",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "726392dbca1ed7b43920789917492eea26f0fae1d5a5753d94b6a5ac7ac71f5a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "那洁白的羽毛和灵动的姿态，令人陶醉，清晨时分尤为迷人。",
+      "output_sha256": "a6423f0a2634618dac66d63b1a94940f848962e03d2ec7bcc9edf995f053fea8",
+      "alignment_unit_index": 58,
+      "alignment_score": 0.498333,
+      "human_sentence_indices": [
+        64
+      ],
+      "human_sha256": [
+        "044da7fce32ccbfbb7944a17c663b57ea3599a39440e7af969295ab7c52e590a"
+      ],
+      "source_ai_sentence_index": 62,
+      "source_ai_sha256": "a6423f0a2634618dac66d63b1a94940f848962e03d2ec7bcc9edf995f053fea8",
+      "ai_unit_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "在一个角落里有一条灌木林的甬道，夜里月光从叶缝里筛下来，该是顶有趣的。",
+      "output_sha256": "923e60e127d4ab661f1a380e0120b64b5ccf74cea426316067e8f0c2cb97a42d",
+      "alignment_unit_index": 59,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "923e60e127d4ab661f1a380e0120b64b5ccf74cea426316067e8f0c2cb97a42d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "另一个角落长着些芒果树和木瓜树，可惜太阳力量不够，果实结得不肥，但沾着点热带味，也叫人高兴。",
+      "output_sha256": "6b4ce3ee2f7d4161364bbddb1fd8ab651ff96f471401a0980a4bda85dbbe330c",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "6b4ce3ee2f7d4161364bbddb1fd8ab651ff96f471401a0980a4bda85dbbe330c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "银行里花卉繁多，色彩斑斓，始终让人不觉寂寞。",
+      "output_sha256": "544f219b21fada8cd6b195241869d394d7636e647556779f04c162bcd7e937dd",
+      "alignment_unit_index": 61,
+      "alignment_score": 0.468947,
+      "human_sentence_indices": [
+        67
+      ],
+      "human_sha256": [
+        "d6a98921a87fd62fca698a825e94955a779870d79b61166fadd3332f0774e830"
+      ],
+      "source_ai_sentence_index": 65,
+      "source_ai_sha256": "544f219b21fada8cd6b195241869d394d7636e647556779f04c162bcd7e937dd",
+      "ai_unit_sentence_indices": [
+        65
+      ]
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "最艳丽的要数叶子花。",
+      "output_sha256": "2da1e6378c5dce58cdace8c6f8d5e4e8937eafaf98551ba907b18d783f81b7a6",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 68,
+      "source_human_sha256": "2da1e6378c5dce58cdace8c6f8d5e4e8937eafaf98551ba907b18d783f81b7a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "花是浊浓的紫，脉络分明活像叶，一丛丛的，一片片的，真是“浓得化不开”。",
+      "output_sha256": "62f7b3486fd20d22510d3703903af3a62c355cdbf23af0b5c391dd66b963a61b",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "62f7b3486fd20d22510d3703903af3a62c355cdbf23af0b5c391dd66b963a61b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "花开的时候真久。",
+      "output_sha256": "c67fad2dc5f08bddb4a0a2de56caf66f043879895650e54d9676926840bafb17",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 70,
+      "source_human_sha256": "c67fad2dc5f08bddb4a0a2de56caf66f043879895650e54d9676926840bafb17",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "我们四月里去，它就开了，八月里走，它还没谢呢。",
+      "output_sha256": "5a5bc378a1b9bdfbf2126875b8719236bb9f47ead7312a99ad3b366448324af5",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 71,
+      "source_human_sha256": "5a5bc378a1b9bdfbf2126875b8719236bb9f47ead7312a99ad3b366448324af5",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

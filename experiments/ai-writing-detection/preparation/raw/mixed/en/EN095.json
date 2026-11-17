@@ -1,0 +1,79 @@
+{
+  "source_id": "EN095",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 2,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "0be0dd17053abece89bb636ee43edd054056ba8cfa29b06fa2b1b464f8264e8c",
+    "5eb6382986ad65f5e9ceee2d1d634115e7d7336064ea5c46b1c070f9a9120811",
+    "4ba3275cfbb8442d60fb23d9e1e764561539ed24348f00d2b728ba95940f9326"
+  ],
+  "source_block_sha256": "5eb6382986ad65f5e9ceee2d1d634115e7d7336064ea5c46b1c070f9a9120811",
+  "ai_block_sha256": "949ad5cb535a83fdfdc014d914bd560a8a7529bfbbe9c0e2c813f96ee039ae94",
+  "mixed_sha256": "2846243a8e323b88d8e224c8bb3c90f8c81f34716859949d979a101073c84d40",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 254-380 words, aiming for 317. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nYes, a favourite flower must be a spring flower—there is no doubt about that. You have your choice, then, of the daffodil, the violet, the primrose, and the crocus. The bluebell comes too late, the cowslip is but an indifferent primrose; camelias and anemones and all the others which occur to you come into a different class. Well, then, will you choose the violet or the crocus? Or will you follow the legendary Disraeli and have primroses on your statue?\n\nI write as one who spends most of his life in London, and for me the violet, the primrose, and the crocus are lacking in the same necessary quality—they pick badly. My favourite flower must adorn my house; to show itself off to the best advantage within doors it must have a long stalk. A crocus, least of all, is a flower to be plucked. I admit its charm as the first hint of spring that is vouchsafed to us in the parks, but I want it nearer home than that. You cannot pick a crocus and put it in water; nor can you be so cruel as to spoil the primrose and the violet by taking them from their natural setting; but the daffodil cries aloud to be picked. It is what it is waiting for.\n\n\"Long stalks, please.\" Who, being commanded by his lady to bring in flowers for the house, has not received this warning? And was there ever a stalk to equal the daffodil's for length and firmness and beauty? Other flowers must have foliage to set them off, but daffodils can stand by themselves in a bowl, and their green and yellow dress brings all spring into the room. A house with daffodils in it is a house lit up, whether or no the sun be shining outside. Daffodils in a green bowl—and let it snow if it will."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 579,
+    "completion_tokens": 384,
+    "total_tokens": 963,
+    "cost": 0.00031725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00031725,
+      "upstream_inference_prompt_cost": 8.685e-05,
+      "upstream_inference_completions_cost": 0.0002304
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.00031725,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 317,
+    "output_words": 294,
+    "lower_words": 254,
+    "upper_words": 380,
+    "source_paragraphs": 3,
+    "output_paragraphs": 3,
+    "length_ok": true,
+    "within_source_20_percent": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.010344827586206896,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "approved_exception": false,
+  "exception_reason": null,
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "949ad5cb535a83fdfdc014d914bd560a8a7529bfbbe9c0e2c813f96ee039ae94",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN095.txt",
+  "mixed_path": "clean/mixed/en/EN095.txt",
+  "response_path": "raw/mixed/en/EN095.response.json"
+}

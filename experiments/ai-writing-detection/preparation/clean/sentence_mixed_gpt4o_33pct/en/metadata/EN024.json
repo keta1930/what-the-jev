@@ -1,0 +1,685 @@
+{
+  "source_id": "EN024",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "07861e22ad690f5ada99597ec3d9a56fbfd8964afe7d1171349f80d4f9810a9c",
+  "ai_article_sha256": "611d9479d91ea136b8354b6afa378d880a8a3b836ec3ba81da26c8cdb442fd57",
+  "mixed_article_sha256": "53f06fd2343fc1d26952350a11c0ccadbe91ac716dc0154247c41c427e0dd61b",
+  "human_source_sentence_count": 45,
+  "ai_source_sentence_count": 46,
+  "alignment_unit_count": 40,
+  "selected_alignment_unit_count": 14,
+  "mixed_sentence_count": 45,
+  "selected_ai_sentence_count": 15,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.289394,
+  "selected_alignment_score_median": 0.446731,
+  "selected_alignment_score_max": 0.602341,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A good many years ago I had a painful experience.",
+      "output_sha256": "8b027edb1f97cf66424bdd216ce5eabfe321bdbbbe079f5f613c90347b9250c4",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "8b027edb1f97cf66424bdd216ce5eabfe321bdbbbe079f5f613c90347b9250c4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "My house-master caught me reading in bed well past the designated hour of midnight.",
+      "output_sha256": "e493e74381da53c0fc578fe5e773bd810f2c519f02001d8e8ddc3eaf4e8ed32d",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.602341,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "7600481fd9ed3ce5ba81ae70fc3eadd577aa9e54cc6354dab3f63ca7ac93df33"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "e493e74381da53c0fc578fe5e773bd810f2c519f02001d8e8ddc3eaf4e8ed32d",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Smith minor in the next bed (we shared a candle) was also reading.",
+      "output_sha256": "157f4756f2fdbe8b152a59f4396e464bbf158ebe6a522a651ea2dd882a60a9f3",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "157f4756f2fdbe8b152a59f4396e464bbf158ebe6a522a651ea2dd882a60a9f3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "We were both discovered.",
+      "output_sha256": "12bcf5cbc3cecbedb6b396d9339c74bcc45748a4500e5b0c2e3e5c733bade3b1",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "12bcf5cbc3cecbedb6b396d9339c74bcc45748a4500e5b0c2e3e5c733bade3b1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "But the most annoying part of the business, as it seemed to me then, was that Smith minor was discovered reading Alton Locke, and that I was discovered reading Marooned Among Cannibals.",
+      "output_sha256": "08424fe18473808ba5fef86b46959f592f7b5a6efdc4eefe63971a7fcfb8a0a1",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "08424fe18473808ba5fef86b46959f592f7b5a6efdc4eefe63971a7fcfb8a0a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "If only our house- master had come in the night before!",
+      "output_sha256": "f882b399cf914f3c4e6e27ce9a768a10a62fd273b6abcdc8eb83fcef5a66686c",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "f882b399cf914f3c4e6e27ce9a768a10a62fd273b6abcdc8eb83fcef5a66686c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Then he would have found me reading Alton Locke.",
+      "output_sha256": "78764b586f8e4d230d343d16fdcc94c6955a0cdcd44919ceece9c3c73aad89a0",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "78764b586f8e4d230d343d16fdcc94c6955a0cdcd44919ceece9c3c73aad89a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "For a fleeting moment, I considered explaining this to him, but after some thought, I decided against it.",
+      "output_sha256": "53eddfa2784cf711d732d45b74516de62824c46909232b3138f649c992283e0d",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.434874,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "eae662c03306b49eb312432cbae9b4651d1c5cbcdf72ffb6ff96c9ded5cb6fbe"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "53eddfa2784cf711d732d45b74516de62824c46909232b3138f649c992283e0d",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "He might have misunderstood the bearings of the revelation.",
+      "output_sha256": "aad49b1afe3b5a277333054f2630e8228e095c374dbcf11589a6d084660bbcde",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "aad49b1afe3b5a277333054f2630e8228e095c374dbcf11589a6d084660bbcde",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Intellectual snobbery is something to which many of us can relate.",
+      "output_sha256": "92cd74292db9fdc132c319289aa1640ffd16c4e53124ff2e8b9331ce7f818143",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.325513,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "15c3b652586d84ae0e4cf40ee7d751f6dae064d6bb2e671427b92ad6f126ed96"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "92cd74292db9fdc132c319289aa1640ffd16c4e53124ff2e8b9331ce7f818143",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "A detective story may have been a very good friend to us, but we don't want to drag it into the conversation; we prefer a casual reference to The Egoist, with which we have perhaps only a bowing acquaintance; a reference which leaves the impression that we are inseparable companions, or at any rate inseparable until such day when we gather from our betters that there are heights even beyond The Egoist.",
+      "output_sha256": "a49617848f2cd7b46a2c0da2031e0518c1c490823c3a82c6d7aa7ca27327747d",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "a49617848f2cd7b46a2c0da2031e0518c1c490823c3a82c6d7aa7ca27327747d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Dead or alive, we would sooner be found with a copy of Marcus Aurelius than with a copy of Marie Corelli.",
+      "output_sha256": "d8616aaf31b6233565d2a8668cd44a78b6814026d26d02fedcd2e1f1e9c7adf9",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "d8616aaf31b6233565d2a8668cd44a78b6814026d26d02fedcd2e1f1e9c7adf9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "I once knew someone who always carried a Russian novel in its original language, not because he could read Russian, but due to the possibility that one day his \"pockets would be exposed\" in the public arena.",
+      "output_sha256": "e1bc1734b33923fbeef4c88405e7c3a01fd92600b246fe8d409623dec05e2182",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.527252,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "356456cfa6784c441b9c99fdb82d637c4c05a7d55754df4b483ef3c6c3bfcc5f"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "e1bc1734b33923fbeef4c88405e7c3a01fd92600b246fe8d409623dec05e2182",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "He believed that one could never be too prepared, yet the only incident that ever occurred was him being stranded for twelve hours at a remote train station in the Highlands.",
+      "output_sha256": "aede1e204ae3e97b2c457882ec4414abb08def359b39432802843bdbe3f51daa",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.531206,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "dec57e71490be1b0048c71eab3c7fa82e94fe64a5181050c666370b4a11d0331"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "aede1e204ae3e97b2c457882ec4414abb08def359b39432802843bdbe3f51daa",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "After this he maintained that the Russians were overrated.",
+      "output_sha256": "d2b68bdc23b17172c31941eef88d0d19558a0a940d2dcf73f8b6519d611c74a8",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "d2b68bdc23b17172c31941eef88d0d19558a0a940d2dcf73f8b6519d611c74a8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I would like to think that I have outgrown such tendencies, but I find myself questioning whether that is genuinely the case.",
+      "output_sha256": "ab13f4431c4d3904dcc738322c5c20615d2a899d6e355fa0c8de7d3a740f94e4",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.374032,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "778776c58812ac6fd5ba08d4aa787600a0f00e3b822ab373de27c10b450d904e"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "ab13f4431c4d3904dcc738322c5c20615d2a899d6e355fa0c8de7d3a740f94e4",
+      "ai_unit_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It happened to me not so long ago to be travelling in company of which I was very much ashamed; and to be ashamed of one's company is to be a snob.",
+      "output_sha256": "84bab0e92f3e65124953a69c93d4e54e33542dbff18f568011098fbd99c7460e",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "84bab0e92f3e65124953a69c93d4e54e33542dbff18f568011098fbd99c7460e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "At this period I was trying to amuse myself (and, if it might be so, other people) by writing a burlesque story in the manner of an imaginary collaboration by Sir Hall Caine and Mrs. Florence Barclay.",
+      "output_sha256": "9fb845961e2db1438701763c7359df4310523994e78a1e3b49c9c1597272993c",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "9fb845961e2db1438701763c7359df4310523994e78a1e3b49c9c1597272993c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "In order to do this I had to study the works of these famous authors, and for many week-ends in succession I might have been seen travelling to, or returning from, the country with a couple of their books under my arm.",
+      "output_sha256": "390ecb79878d40cb842b6b116d46b55c7eb33a16be09016ba419efb5b8d48198",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "390ecb79878d40cb842b6b116d46b55c7eb33a16be09016ba419efb5b8d48198",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Balancing one book is relatively simple; however, managing two is quite a different challenge.",
+      "output_sha256": "53b3958f956fd819c9f42dee9bbd2d98b540923381f45ae7661537b9f94c44b7",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.357236,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "e53f780bdf63473a3604ce7fd2a311d5b8437d0c053822b397c7aa3924a0ee5b"
+      ],
+      "source_ai_sentence_index": 21,
+      "source_ai_sha256": "53b3958f956fd819c9f42dee9bbd2d98b540923381f45ae7661537b9f94c44b7",
+      "ai_unit_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Many was the time, while waiting for my train to come in, that one of those books slipped from me.",
+      "output_sha256": "62e771c2fe0481cc1cf07c0b2a9e2e32f153388066034839dd896293e479d3e1",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "62e771c2fe0481cc1cf07c0b2a9e2e32f153388066034839dd896293e479d3e1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Indeed, there is hardly a junction in the railway system of the southern counties at which I have not dropped on some Saturday or other a Caine or a Barclay; to have it restored to me a moment later by a courteous fellow-passenger—courteous, but with a smile of gentle pity in his eye as he glimpsed the author's name.",
+      "output_sha256": "93a4c05bf19e46abb8e6cc469b11d238870d9ab59337970fdb725c14b33f8088",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "93a4c05bf19e46abb8e6cc469b11d238870d9ab59337970fdb725c14b33f8088",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "\"Thanks very much,\" I would stammer, blushing guiltily, and perhaps I would babble about a sick friend to whom I was taking them, or that I was running out of paper-weights.",
+      "output_sha256": "380f6a8a763a522ed8a730ecead7cc1941fdb3962b3778e4c2edc30a575dd24a",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "380f6a8a763a522ed8a730ecead7cc1941fdb3962b3778e4c2edc30a575dd24a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "But he never believed me.",
+      "output_sha256": "de4db9d04c6bbe0ef2d103d0828d79cd213830fc5894f2830fc25c785e7d51e2",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "de4db9d04c6bbe0ef2d103d0828d79cd213830fc5894f2830fc25c785e7d51e2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "They understood that they would have likely said something similar in my position.",
+      "output_sha256": "8aedfeff1530ff6ab67281ec6393613d6a7335a8a7d399793476b835f83ca9c2",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.446731,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "31301b90456836f0c70e0f51ee3e0c3adcedbc2238cef0131707a795df747246"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "8aedfeff1530ff6ab67281ec6393613d6a7335a8a7d399793476b835f83ca9c2",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Nothing is easier than to assume that other people share one's weaknesses.",
+      "output_sha256": "135de16ea3d6533137d5a4038afb6858fa408302d327f29ec48a28e605c331be",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "135de16ea3d6533137d5a4038afb6858fa408302d327f29ec48a28e605c331be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "No doubt Jack the Ripper excused himself on the ground that it was human nature; possibly, indeed, he wrote an essay like this, in which he speculated mildly as to the reasons which made stabbing so attractive to us all.",
+      "output_sha256": "e75b7adf820e185fce468dcd7772e5548c8c11752f2f1c019bfaa7c9c1ae36ad",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "e75b7adf820e185fce468dcd7772e5548c8c11752f2f1c019bfaa7c9c1ae36ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "I realize that I may unjustly accuse you of harboring similar snobbish tendencies.",
+      "output_sha256": "333e2f4b862476083110bee5a073aca1207f0960c0d2e1b8e00d15b28bf1fcb3",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.303043,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "298a3d63b10880cdedd7825301a826194748581e47476adab38287561480085a"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "333e2f4b862476083110bee5a073aca1207f0960c0d2e1b8e00d15b28bf1fcb3",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Yet, I cannot help but wish to put you on the stand.",
+      "output_sha256": "b1ca1bb34d0adf4766e964fafba81799709e5c500e496df763e5ace68295c98a",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.289394,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "052acc8d9108b921c893c7254c696a15dbe6030103efe99611df94172fd98fb9"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "b1ca1bb34d0adf4766e964fafba81799709e5c500e496df763e5ace68295c98a",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "If in conversation with you, on the subject (let us say) of heredity, a subject to which you had devoted a good deal of study, I took it for granted that you had read Ommany's Approximations, would you make it quite clear to me that you had not read it?",
+      "output_sha256": "3d214ac4a65487c72d3badf38b87f1d6b3bfe5515e76ed0ab5ddfd86139cdebe",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "3d214ac4a65487c72d3badf38b87f1d6b3bfe5515e76ed0ab5ddfd86139cdebe",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Or would you let me carry on the discussion on the assumption that you knew it well; would you, even, in answer to a direct question, say shamefacedly that though you had not—er—actually read it, you—er—knew about it, of course, and had—er—read extracts from it?",
+      "output_sha256": "8685aab310a07d84a97c7754240a8d1a5e6daf67c86e12d8a0444ed678f68a7b",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "8685aab310a07d84a97c7754240a8d1a5e6daf67c86e12d8a0444ed678f68a7b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Somehow I think that I could lead you on to this; perhaps even make you say that you had actually ordered it from your library, before I told you the horrid truth that Ommany's Approximations was an invention of my own.",
+      "output_sha256": "b6227f1528424207e3159b6e9c4ae6c2c533280a5780df6fef0f9c693a4fff22",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "b6227f1528424207e3159b6e9c4ae6c2c533280a5780df6fef0f9c693a4fff22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "It is ridiculous that we—yes, I include you in this observation—should act in such a manner.",
+      "output_sha256": "f8aaf3eb558be13143ec60a5281e115a7d8bbe966ee559e6ceeddc5bd2784e31",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.539876,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "6196aaa492c7ce6b5a4c6384e837cedb0de0e6cc02154aa02a63a2131e80d9ce"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "f8aaf3eb558be13143ec60a5281e115a7d8bbe966ee559e6ceeddc5bd2784e31",
+      "ai_unit_sentence_indices": [
+        36,
+        37
+      ]
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "There is no book for which we need to feel shame, whether we have read it or not.",
+      "output_sha256": "62e5a4c319145713ed389bd65fc5c4e2b5907103d9cff9ca8b2e452373a50ebf",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.539876,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "6196aaa492c7ce6b5a4c6384e837cedb0de0e6cc02154aa02a63a2131e80d9ce"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "62e5a4c319145713ed389bd65fc5c4e2b5907103d9cff9ca8b2e452373a50ebf",
+      "ai_unit_sentence_indices": [
+        36,
+        37
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Let us, therefore, be frank.",
+      "output_sha256": "7417abed1c70ac25e19a2b5261917f531316a59f8efe1990634713bbdc24d4a3",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "7417abed1c70ac25e19a2b5261917f531316a59f8efe1990634713bbdc24d4a3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "In order to remove the unfortunate impression of myself which I have given you, I will confess that I have only read three of Scott's novels, and begun, but never finished, two of Henry James'.",
+      "output_sha256": "e879ade1f300aa199409e20d119071829c86fbca4eac8f61948e93651655dfa1",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "e879ade1f300aa199409e20d119071829c86fbca4eac8f61948e93651655dfa1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I will also confess —and here I am by way of restoring that unfortunate impression—that I do quite well in Scottish and Jacobean circles on those five books.",
+      "output_sha256": "aacaf8c3dc595b21c438cda78374525c70b43e09802a4aefa3dac4036adaf05e",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "aacaf8c3dc595b21c438cda78374525c70b43e09802a4aefa3dac4036adaf05e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "For, if a question arises as to which is Scott's masterpiece, it is easy for me to suggest one of my three, with the air of one who has chosen it, not over two others, but over twenty.",
+      "output_sha256": "1f326a39758ac14443134f7202bb51ebaec36a650caf7101891c7cd4c03704ce",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "1f326a39758ac14443134f7202bb51ebaec36a650caf7101891c7cd4c03704ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "If one of my chosen novels happens to be the recognized masterpiece, then all is well.",
+      "output_sha256": "f7f645f3d15a2c18ea41a8e09a8e52e348b897ea77f00d4e38be3f072b1d68b4",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.483612,
+      "human_sentence_indices": [
+        38,
+        39
+      ],
+      "human_sha256": [
+        "f8f10bc27d096b4c8062b1b476adfe8c2289bf0f2e96730c469119a65e411102",
+        "f1e68b1736795ba0e439746462a6b640a7743c3cedf1f1a586499975806fd122"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "f7f645f3d15a2c18ea41a8e09a8e52e348b897ea77f00d4e38be3f072b1d68b4",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "But if it is not, then I must appear rather a clever fellow for having rejected the obvious.",
+      "output_sha256": "8a98b4eb7825e1fe0c762004bd87eaad42c576bf71f46b86f9b19218e8ffb1ab",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "8a98b4eb7825e1fe0c762004bd87eaad42c576bf71f46b86f9b19218e8ffb1ab",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "With regard to Henry James, my position is not quite so secure; but at least I have good reason for feeling that the two novels which I was unable to finish cannot be his best, and with a little tact I can appear to be defending this opinion hotly against some imaginary authority who has declared in favour of them.",
+      "output_sha256": "1cd69484c9d3d702060e532960be12649e2a99c25aac7ff40f92da21aa984718",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "1cd69484c9d3d702060e532960be12649e2a99c25aac7ff40f92da21aa984718",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "One might have read the collected works of both authors, yet make less of an impression.",
+      "output_sha256": "9be734e2a2e7fd3808ca788828f31de3dec4a42e5da22fabd5bb0cdea4eb00e5",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "9be734e2a2e7fd3808ca788828f31de3dec4a42e5da22fabd5bb0cdea4eb00e5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "There are times when I feel as though I have delved into both their complete works, as well as Ommany’s Approximations and numerous other titles that you might assume I’m familiar with.",
+      "output_sha256": "b8f88ab38bc55dfa65c90333eaa51ea71c52454fa6bdfea8cfba466c8231747a",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.387178,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "27549e73e41505ade1fa16d4ce21f3db3569cc9cdc3bf6e22fb9e2b08126fd5b"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "b8f88ab38bc55dfa65c90333eaa51ea71c52454fa6bdfea8cfba466c8231747a",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "For in giving others the impression that I am on terms with these masterpieces, I have but handed on an impression which has gradually formed itself in my own mind.",
+      "output_sha256": "4a5c30c851c6999c42aae5c67a6946d60cf87a6ac0aff413a4521fe40c417538",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "4a5c30c851c6999c42aae5c67a6946d60cf87a6ac0aff413a4521fe40c417538",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "I don’t take advantage of this façade; if it turns out that we have both been deceived in our assumptions, I will be just as taken aback and indignant as anyone else involved.",
+      "output_sha256": "4d75d6428463ae8aeaecdf6659ba423c4645cd2c6d875158d8368f91780d3fc7",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.474941,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "25351daba23e2a13ede500e394813515193600819c7b4526e4ad1628d92ae185"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "4d75d6428463ae8aeaecdf6659ba423c4645cd2c6d875158d8368f91780d3fc7",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    }
+  ]
+}

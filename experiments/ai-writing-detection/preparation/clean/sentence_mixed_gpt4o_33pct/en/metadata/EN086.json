@@ -1,0 +1,1083 @@
+{
+  "source_id": "EN086",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "2156477ccc4963fff4d11ae5e98c0b890299177f2ea41f26b96f9ab397e3553f",
+  "ai_article_sha256": "3de4ffce470cbc808b69af256469bf836cf57749526d0803f95708f47e275191",
+  "mixed_article_sha256": "6dcf99e0df5373875b305e158a9fc464edf9ef40b9b0971d0ab8e434627bc489",
+  "human_source_sentence_count": 69,
+  "ai_source_sentence_count": 74,
+  "alignment_unit_count": 66,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 72,
+  "selected_ai_sentence_count": 24,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.308333,
+  "selected_alignment_score_median": 0.527584,
+  "selected_alignment_score_max": 0.751304,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "More than a month ago, when I was leaving London for a holiday, a friend walked into my flat in Battersea and found me surrounded with half-packed luggage.",
+      "output_sha256": "21002706b659c0d4c35a3b3b52bf4a480202dd6962d8ec4bc9a1c860136d8dba",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "21002706b659c0d4c35a3b3b52bf4a480202dd6962d8ec4bc9a1c860136d8dba",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“You seem to be off on your travels,” he said.",
+      "output_sha256": "02527d5755f32845ebba3a2f266575a37dcafe999987dc760e7144813637a8d7",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "02527d5755f32845ebba3a2f266575a37dcafe999987dc760e7144813637a8d7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "“Where are you going?”",
+      "output_sha256": "3910587e17321d47c9ae6af7fdfd1925e61db7e02478bfe5ce0869d5e7c16a72",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "3910587e17321d47c9ae6af7fdfd1925e61db7e02478bfe5ce0869d5e7c16a72",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "With a strap between my teeth I replied, “To Battersea.”",
+      "output_sha256": "d45d8deb5999fc24473ce8103101be22ab8bac6ebd404e9d79eda5afbe6fc55d",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "d45d8deb5999fc24473ce8103101be22ab8bac6ebd404e9d79eda5afbe6fc55d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "“The cleverness of your statement is lost on me,” he replied.",
+      "output_sha256": "336d0f1677ba8459113f100b2b34785d8387704d356396ecc40b1865e929a947",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.403247,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "530ad38890df3b4f59cad765fa380f6d559ddf4649978f0be6fa20fec9d6a452"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "336d0f1677ba8459113f100b2b34785d8387704d356396ecc40b1865e929a947",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“I am going to Battersea,” I repeated, “to Battersea viâ Paris, Belfort, Heidelberg, and Frankfort.",
+      "output_sha256": "e27661bae1d9b17e1c2309dabc6c5ad199393fab6da887b1ef9f5d07d8dec079",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "e27661bae1d9b17e1c2309dabc6c5ad199393fab6da887b1ef9f5d07d8dec079",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "My remark contained no wit.",
+      "output_sha256": "e537ed4b4b5d248ded67a2ea67f5ca6f5eb6f21b680f30ed856342e67b616e19",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "e537ed4b4b5d248ded67a2ea67f5ca6f5eb6f21b680f30ed856342e67b616e19",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "It contained simply the truth.",
+      "output_sha256": "bcf36d8426ec02871471cb6282533177feee6b0ae14234488ef2a0285aaac207",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "bcf36d8426ec02871471cb6282533177feee6b0ae14234488ef2a0285aaac207",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I am going to wander over the whole world until once more I find Battersea.",
+      "output_sha256": "2337e0e335e265ed97087572d45821b76b79087927fbdcf3ed3b9d98a6c8c613",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "2337e0e335e265ed97087572d45821b76b79087927fbdcf3ed3b9d98a6c8c613",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Somewhere amidst the seas of dawn or dusk, in the farthest reaches of the earth, lies a small isle that I aim to uncover: one adorned with gentle green hills and towering white cliffs.",
+      "output_sha256": "b38fc535799e24b269d62babfef0bf62ff4d3576e40ca3efedb742a470977913",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.526696,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "06678313f532ede790c089935358a35ada7c04323763d975079e8bf40bcf8870"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "b38fc535799e24b269d62babfef0bf62ff4d3576e40ca3efedb742a470977913",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Travellers tell me that it is called England (Scotch travellers tell me that it is called Britain), and there is a rumour that somewhere in the heart of it there is a beautiful place called Battersea.”",
+      "output_sha256": "aebeab663bb1ee127a605785710c95582500a44fea4e174a09ba1cdf1903b3cc",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "aebeab663bb1ee127a605785710c95582500a44fea4e174a09ba1cdf1903b3cc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "“I suppose it is unnecessary to tell you,” said my friend, with an air of intellectual comparison, “that this is Battersea?”",
+      "output_sha256": "83279195b21803aefb5be5b5b3ba0a5c1e60347eb0bf00af5d50774e5e1b9a27",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "83279195b21803aefb5be5b5b3ba0a5c1e60347eb0bf00af5d50774e5e1b9a27",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "“Unnecessary indeed,” I replied, “and it lacks spiritual truth.",
+      "output_sha256": "ada1ca46807b53b3c4dab77d9ce6267a061cc82333ddc2bc9a911e7ec1b5dd6d",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.373636,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "efe2268233146289efea462f54c06505814ae8e8e7a86b137b98c4a00a697b2f"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "ada1ca46807b53b3c4dab77d9ce6267a061cc82333ddc2bc9a911e7ec1b5dd6d",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "I cannot perceive any Battersea here; neither can I discern London or England.",
+      "output_sha256": "f548137d7c5c782bcbffbb895fddc55ae29ab8c1654f0743c5a886072f8956a9",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.699351,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "9d8c82287946d586503cda7ec460f6af2146fecfeeafdcb6f537baa753781458"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "f548137d7c5c782bcbffbb895fddc55ae29ab8c1654f0743c5a886072f8956a9",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I cannot see that door.",
+      "output_sha256": "b62ff5d51e1402b3b4bc02673cbea321bf1c0c22a0a46257ee9c4bd3f0b95eb9",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "b62ff5d51e1402b3b4bc02673cbea321bf1c0c22a0a46257ee9c4bd3f0b95eb9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I cannot see that chair: because a cloud of sleep and custom has come across my eyes.",
+      "output_sha256": "f3b64fef021542b29f107b3220b18b10de16eb68c7c8b690a9f3a54da7528405",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "f3b64fef021542b29f107b3220b18b10de16eb68c7c8b690a9f3a54da7528405",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "The only path back to clarity is to venture elsewhere.",
+      "output_sha256": "2a357970ac59f64e2adacbb80181d7acf35bacc6138e6692602db4cf78a46ea1",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.528472,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "0a350f88f25873eef744d9bf0b4862b841ab7090da114a31e43973c43248d431"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "2a357970ac59f64e2adacbb80181d7acf35bacc6138e6692602db4cf78a46ea1",
+      "ai_unit_sentence_indices": [
+        15,
+        16
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "That is the essence of travel and the joy of holidays.",
+      "output_sha256": "0b5bd011f335df61001e00626890c99b3010e32e85fc2bf7a4b13aba619ef018",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.528472,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "0a350f88f25873eef744d9bf0b4862b841ab7090da114a31e43973c43248d431"
+      ],
+      "source_ai_sentence_index": 16,
+      "source_ai_sha256": "0b5bd011f335df61001e00626890c99b3010e32e85fc2bf7a4b13aba619ef018",
+      "ai_unit_sentence_indices": [
+        15,
+        16
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Do you think I travel to France merely to see France?",
+      "output_sha256": "2b3c2fbc74e611705c4384b6da0285caa13e92edccd05ffbc452c513d47e0d60",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.619231,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "86dc57aca336564b0822889521a002c1fdf0a5a9df1041d603acf17dd63c321a"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "2b3c2fbc74e611705c4384b6da0285caa13e92edccd05ffbc452c513d47e0d60",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Do you suppose that I go to Germany in order to see Germany?",
+      "output_sha256": "2cbc7985b35177aa1bb845e7ddbc42d0a6c8025a8c866c0914fb1f07f641bb15",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "2cbc7985b35177aa1bb845e7ddbc42d0a6c8025a8c866c0914fb1f07f641bb15",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I shall enjoy them both; but it is not them that I am seeking.",
+      "output_sha256": "49fefd0c4d972ccdfa6fb43ac9c7fc1dd3c4b9de29a67d62dec7f490764a3251",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "49fefd0c4d972ccdfa6fb43ac9c7fc1dd3c4b9de29a67d62dec7f490764a3251",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "My quest is to find Battersea.",
+      "output_sha256": "a4fb4e3a28e3ececdc1efed21334d8310527bc4d7c41a316e2b84b09eaed6837",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.308333,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "b81c799dde83c8ee13fd9ad88b4e5e6330fe5ae5ead3579a1ba62501850d8652"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "a4fb4e3a28e3ececdc1efed21334d8310527bc4d7c41a316e2b84b09eaed6837",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "The whole object of travel is not to set foot on foreign land; it is at last to set foot on one’s own country as a foreign land.",
+      "output_sha256": "5d703c4b7dfd398ee6654df6d1242696eb916d6d7bed9f6d5fc7f6ffdf109cec",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "5d703c4b7dfd398ee6654df6d1242696eb916d6d7bed9f6d5fc7f6ffdf109cec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Now I warn you that this Gladstone bag is compact and heavy, and that if you utter that word ‘paradox’ I shall hurl it at your head.",
+      "output_sha256": "2c0b1548a01d4e7de369592961d2b56303d61b5a42aa8e4efcc1ae7a2c599497",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "2c0b1548a01d4e7de369592961d2b56303d61b5a42aa8e4efcc1ae7a2c599497",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "I did not make the world, and I did not make it paradoxical.",
+      "output_sha256": "a2434db0290570369a35f84cf3877d4287715a225cb2e7aa770b03c5665e747d",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "a2434db0290570369a35f84cf3877d4287715a225cb2e7aa770b03c5665e747d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is not my fault, it is the truth, that the only way to go to England is to go away from it.”",
+      "output_sha256": "c7c3ef51d3480e6a237f48593780cb4904444b35081eacdc2093f56885c67179",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "c7c3ef51d3480e6a237f48593780cb4904444b35081eacdc2093f56885c67179",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "But when, after only a month’s travelling, I did come back to England, I was startled to find that I had told the exact truth.",
+      "output_sha256": "4a414ef9ba38a2594cf6c06181b5e25a31e1b5155db0e0a72b7b179724b5fe41",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "4a414ef9ba38a2594cf6c06181b5e25a31e1b5155db0e0a72b7b179724b5fe41",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "England greeted me as both stunningly new and beautifully familiar.",
+      "output_sha256": "4e1a0bd533953997b143783bffc55d03a58c4959e50678116e182a47693e84a1",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.50303,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "8258a0077cd8390b6d07d34a06fa4a5b79e7116f0c6a5f8aaf8cd2b6614053be"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "4e1a0bd533953997b143783bffc55d03a58c4959e50678116e182a47693e84a1",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "Arriving at Dover is indeed the ideal way to enter England, as it allows one to first behold the lush, gentle gardens of Kent, which, while perhaps exaggerated, still typify the rich rustic charm of the country.",
+      "output_sha256": "daaddfac1a2d4d16bda72362198abce1884084057069bb0e8da62c5210afc4f3",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.454003,
+      "human_sentence_indices": [
+        28
+      ],
+      "human_sha256": [
+        "1170769b1b5d1849e4159dfaaaae497972f86ee50295027983edfbc6a906b3b9"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "daaddfac1a2d4d16bda72362198abce1884084057069bb0e8da62c5210afc4f3",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "As it happened, also, a fellow-traveller with whom I had fallen into conversation felt the same freshness, though for another cause.",
+      "output_sha256": "a831edb67cf4593d7bedd90d106de7287a98dbc5f61c6bfd10e5e94bb10f5700",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "a831edb67cf4593d7bedd90d106de7287a98dbc5f61c6bfd10e5e94bb10f5700",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "She was an American lady who had seen Europe, and had never yet seen England, and she expressed her enthusiasm in that simple and splendid way which is natural to Americans, who are the most idealistic people in the whole world.",
+      "output_sha256": "7c4fd212d855a8d7b17a56efd6ba3ce2536b75e9a9814e10b51bdfac72efd8e0",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "7c4fd212d855a8d7b17a56efd6ba3ce2536b75e9a9814e10b51bdfac72efd8e0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "Their only danger is that the idealist can easily become the idolator.",
+      "output_sha256": "30e3dcedf3be272392cc771c004c4adac299111482d11b7099c54ab1b8992c6a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "30e3dcedf3be272392cc771c004c4adac299111482d11b7099c54ab1b8992c6a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "And the American has become so idealistic that he even idealises money.",
+      "output_sha256": "5b3f03e3f00c662734b5c89c0a2ec63252e12cc164f060d1e06166bafccf632a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "5b3f03e3f00c662734b5c89c0a2ec63252e12cc164f060d1e06166bafccf632a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "However, as a talented American short story writer might suggest, that is a tale for another time.",
+      "output_sha256": "ea0b80eafcd244046dfa35db87aac1d8096241cb0e6dc87135a7ce71fa469dbd",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.461887,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "36a498f629c71e588cc3e2ecde3c374e05041df8064b98a330505f97029eb9ea"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "ea0b80eafcd244046dfa35db87aac1d8096241cb0e6dc87135a7ce71fa469dbd",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "“I have never been in England before,” said the American lady, “yet it is so pretty that I feel as if I have been away from it for a long time.”",
+      "output_sha256": "852a66b7edba9c2540d8c4614190720a5bb305669f8d8a4ae42d791d88a07e09",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "852a66b7edba9c2540d8c4614190720a5bb305669f8d8a4ae42d791d88a07e09",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "“As a matter of fact, you have,” I replied.",
+      "output_sha256": "720e4d352eb9341c3d201305389d140cbe47d266378203a0c2d4a9b464d0f4ca",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.458333,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "6ab0165eab57fd219890b8e892442ed73817f5bf7fa699b9cd83074b4a8ea232"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "720e4d352eb9341c3d201305389d140cbe47d266378203a0c2d4a9b464d0f4ca",
+      "ai_unit_sentence_indices": [
+        34,
+        35
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "“You’ve been away for three centuries.”",
+      "output_sha256": "29e768e35a08e17facc26861efcca20e29019ba3ef2c560325ca1b941ef98f43",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.458333,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "6ab0165eab57fd219890b8e892442ed73817f5bf7fa699b9cd83074b4a8ea232"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "29e768e35a08e17facc26861efcca20e29019ba3ef2c560325ca1b941ef98f43",
+      "ai_unit_sentence_indices": [
+        34,
+        35
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "“What a lot of ivy you have,” she said.",
+      "output_sha256": "dbefb76a18abdd11c78c11423bfd201bead07ab114723e206c3294379480ea00",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "dbefb76a18abdd11c78c11423bfd201bead07ab114723e206c3294379480ea00",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "“It covers the churches and it buries the houses.",
+      "output_sha256": "bf7f84b95f7e92c0818e0ba6a2e0a3d8659093b3724f9920f39bcb9f98678fd5",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "bf7f84b95f7e92c0818e0ba6a2e0a3d8659093b3724f9920f39bcb9f98678fd5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "We have ivy too, but I’ve never seen it grow in such a manner.”",
+      "output_sha256": "c89f55c033df484e68676b919241ac71bf87a1dcf15641099619db621aec782a",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.631685,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "d1bd0b120585dbb7e8f9c67b209eff056ddc14f9e5a09f6c11b662b481c7354d"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "c89f55c033df484e68676b919241ac71bf87a1dcf15641099619db621aec782a",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "“I am interested to hear it,” I replied, “for I am making a little list of all the things that are really better in England.",
+      "output_sha256": "d35d258462e0b963fc928832977a2f8aadaced62174f2e9044b515770dab73f5",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "d35d258462e0b963fc928832977a2f8aadaced62174f2e9044b515770dab73f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "A month on the Continent, coupled with a modicum of intelligence, reveals that many things are indeed better abroad.",
+      "output_sha256": "fc4b5cc1af4de9a5ebe1f8d9b0117a7ba916869927ef9f983e5c6c3d37992ef5",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.638452,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "92e355d1f95737439a86888d9e8d42958f11a73c2c7ffaf9b2fbac60974738df"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "fc4b5cc1af4de9a5ebe1f8d9b0117a7ba916869927ef9f983e5c6c3d37992ef5",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "All the things that the DAILY MAIL calls English are better abroad.",
+      "output_sha256": "a6df5652cffd5cd0a08ed97574c0a518439dc9611890344e03948ed8332e0523",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "a6df5652cffd5cd0a08ed97574c0a518439dc9611890344e03948ed8332e0523",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "But there are things entirely English and entirely good.",
+      "output_sha256": "e83f09b2170ee68513009c603e837a6b5a2e0cabed6dbf5e33a9a8a082d9f307",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "e83f09b2170ee68513009c603e837a6b5a2e0cabed6dbf5e33a9a8a082d9f307",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Kippers, for instance, and Free Trade, and front gardens, and individual liberty, and the Elizabethan drama, and hansom cabs, and cricket, and Mr. Will Crooks.",
+      "output_sha256": "cc9222fff8ab831c07c21f121c7fc7486d6e2d90846cc22ec661a8c23e99e0c8",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "cc9222fff8ab831c07c21f121c7fc7486d6e2d90846cc22ec661a8c23e99e0c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Most importantly, there exists the cherished and sacred tradition of a hearty breakfast.",
+      "output_sha256": "d8cd15146bf482f1e8cc79f9330def1688c4f21ab2884043dd0d7bc8bd17a95d",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.405714,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "1c793c7dceb8e8886b5638aedb40bd8875c9efd8961a89fd8f8ff76f5a1e1099"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "d8cd15146bf482f1e8cc79f9330def1688c4f21ab2884043dd0d7bc8bd17a95d",
+      "ai_unit_sentence_indices": [
+        44
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "I cannot imagine that Shakespeare began the day with rolls and coffee, like a Frenchman or a German.",
+      "output_sha256": "2615c7cb86861b752ad4e200ba14a2099821f295bd31695a3ba5bd265c04c512",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "2615c7cb86861b752ad4e200ba14a2099821f295bd31695a3ba5bd265c04c512",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "Surely he began with bacon or bloaters.",
+      "output_sha256": "e9546f83aaf6b69398073894e4946181553d8c8081620484a0187ff44a79e96e",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "e9546f83aaf6b69398073894e4946181553d8c8081620484a0187ff44a79e96e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "In fact, a light bursts upon me; for the first time I see the real meaning of Mrs. Gallup and the Great Cipher.",
+      "output_sha256": "09bc08243caf260223015fb3db3d22219685ea2e71c96e4ab8a0fe14a408e618",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "09bc08243caf260223015fb3db3d22219685ea2e71c96e4ab8a0fe14a408e618",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "It all boils down to a mere misinterpretation involving a capital letter.",
+      "output_sha256": "06b37b75d5b56663569f1d4bc6a8db939eb21d0f85fc21e2462e71c15e04a7d0",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.492045,
+      "human_sentence_indices": [
+        48
+      ],
+      "human_sha256": [
+        "084569be354aaa39e86d1c5be585eda6650744b3c1d213be94aca1ad5c56763f"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "06b37b75d5b56663569f1d4bc6a8db939eb21d0f85fc21e2462e71c15e04a7d0",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "I withdraw my objections; I accept everything; bacon did write Shakespeare.”",
+      "output_sha256": "2908573e1c7ee91a8dc07af54f737c0088bbe50f6817e009e0f1188a243dbc74",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "2908573e1c7ee91a8dc07af54f737c0088bbe50f6817e009e0f1188a243dbc74",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 13,
+      "origin": "human",
+      "text": "“I cannot look at anything but the ivy,” she said, “it looks so comfortable.”",
+      "output_sha256": "7b320e86c59cb35ad9408b3242bf0890bb81919b5b71cb279763e9dd36d2f2e4",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "7b320e86c59cb35ad9408b3242bf0890bb81919b5b71cb279763e9dd36d2f2e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "As she admired the ivy, I picked up an English newspaper for the first time in weeks and read a speech by Mr. Balfour.",
+      "output_sha256": "f2d70c33e4bfe2c355762a514262e11bd5ad047c25b5a366553f92cf25c90c8e",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.60756,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "d180a98a38e514721756490d0c5d727cc609b155bfcbb99ff68423e98584cfc7"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "f2d70c33e4bfe2c355762a514262e11bd5ad047c25b5a366553f92cf25c90c8e",
+      "ai_unit_sentence_indices": [
+        52,
+        53
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "He argued that the House of Lords should be preserved because it embodied a form of enduring public opinion in England, rising above the fluctuations of political parties.",
+      "output_sha256": "417803be0f780bd2c5fbf0ad15c1930cdd3c8304cc2a92057a6e8ffc3992b085",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.60756,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "d180a98a38e514721756490d0c5d727cc609b155bfcbb99ff68423e98584cfc7"
+      ],
+      "source_ai_sentence_index": 53,
+      "source_ai_sha256": "417803be0f780bd2c5fbf0ad15c1930cdd3c8304cc2a92057a6e8ffc3992b085",
+      "ai_unit_sentence_indices": [
+        52,
+        53
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "Now Mr. Balfour is a perfectly sincere patriot, a man who, from his own point of view, thinks long and seriously about the public needs, and he is, moreover, a man of entirely exceptionable intellectual power.",
+      "output_sha256": "8c711bae74d1d5bee35f025c4ac73f054e0f7ad32df364a0bfbcbbde2b3e2dbb",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "8c711bae74d1d5bee35f025c4ac73f054e0f7ad32df364a0bfbcbbde2b3e2dbb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "But alas, in spite of all this, when I had read that speech I thought with a heavy heart that there was one more thing that I had to add to the list of the specially English things, such as kippers and cricket; I had to add the specially English kind of humbug.",
+      "output_sha256": "88a1d714c0a8c27ab6b26a1ea36dbbbeee909183cc06995bbcbbe7c527e74f9b",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "88a1d714c0a8c27ab6b26a1ea36dbbbeee909183cc06995bbcbbe7c527e74f9b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "In France, things are critiqued and defended based on their true nature.",
+      "output_sha256": "e87ae74723ea9fe99823759e36873e61957718793310884000e0a3df0b01aaa3",
+      "alignment_unit_index": 51,
+      "alignment_score": 0.568116,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "8dd4428732674b6f2b7578c47187d184c5bf7d329d944417f3ad26028f86a1dd"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "e87ae74723ea9fe99823759e36873e61957718793310884000e0a3df0b01aaa3",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "The Catholic Church is attacked because it is Catholic, and defended because it is Catholic.",
+      "output_sha256": "3394d4b86150145bb5c2fcfc7246334c407b17e2964538b86b33b0d747a7db44",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "3394d4b86150145bb5c2fcfc7246334c407b17e2964538b86b33b0d747a7db44",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "The Republic is supported because it is Republican and attacked for the very same reasons.",
+      "output_sha256": "5f0f3c1a9830be63456bfd45da268735ecdcf304f35d4670b52fd954eda19523",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.64931,
+      "human_sentence_indices": [
+        56
+      ],
+      "human_sha256": [
+        "3561fdc44ab22bd17feaa85f1d956e368427aec3e49277f507f2f2e48a6af2f9"
+      ],
+      "source_ai_sentence_index": 58,
+      "source_ai_sha256": "5f0f3c1a9830be63456bfd45da268735ecdcf304f35d4670b52fd954eda19523",
+      "ai_unit_sentence_indices": [
+        58
+      ]
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "But here is the ablest of English politicians consoling everybody by telling them that the House of Lords is not really the House of Lords, but something quite different, that the foolish accidental peers whom he meets every night are in some mysterious way experts upon the psychology of the democracy; that if you want to know what the very poor want you must ask the very rich, and that if you want the truth about Hoxton, you must ask for it at Hatfield.",
+      "output_sha256": "33f793db465040d56903e49e56e1a0e65fe47eea3af7bf28e035bf7a2eca304e",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "33f793db465040d56903e49e56e1a0e65fe47eea3af7bf28e035bf7a2eca304e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "If the Conservative defender of the House of Lords were a logical French politician he would simply be a liar.",
+      "output_sha256": "68baa694327746063a131bbcabc3bb4340c5e28e776a774384b3922f190b69e4",
+      "alignment_unit_index": 55,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "68baa694327746063a131bbcabc3bb4340c5e28e776a774384b3922f190b69e4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "But being an English politician he is simply a poet.",
+      "output_sha256": "175327abab5a4fe1e2028790ad0ab8b21c30c35bc6ce17fa6623b7ed5ae540f5",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "175327abab5a4fe1e2028790ad0ab8b21c30c35bc6ce17fa6623b7ed5ae540f5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "The English tendency to believe that everything is as it ought to be, combined with their unwavering optimism and vivid imagination, often obscures even the most apparent truths.",
+      "output_sha256": "6d0e2bef3c14bceb1df341bc155d6b4b1d70b35860870f9c2ae65b3906255432",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.460998,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "37e046dffeb7f6f696a5d1a38331fb6ea935bf5a39e22197c737655df5e38e0c"
+      ],
+      "source_ai_sentence_index": 63,
+      "source_ai_sha256": "6d0e2bef3c14bceb1df341bc155d6b4b1d70b35860870f9c2ae65b3906255432",
+      "ai_unit_sentence_indices": [
+        63
+      ]
+    },
+    {
+      "sentence_index": 64,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "In a cold, scientific sense, of course, Mr. Balfour knows that nearly all the Lords who are not Lords by accident are Lords by bribery.",
+      "output_sha256": "dade3e44b5e43a83bea7da9ed389cbcf3533111e1c5ecf3a79e91fa3cec72bc9",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "dade3e44b5e43a83bea7da9ed389cbcf3533111e1c5ecf3a79e91fa3cec72bc9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 65,
+      "paragraph_index": 14,
+      "origin": "ai",
+      "text": "He knows this, and as Mr. Belloc aptly noted, everyone in Parliament is well aware of the names of those peers who bought their titles.",
+      "output_sha256": "95057d4537edb58fc6530d2301f9dbb777f024ead474c1284a21add5d93fc58e",
+      "alignment_unit_index": 59,
+      "alignment_score": 0.5865,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "8d3a182928b8f2746dd3f8e399d635312653dd99ec4ddbeb1daf7cbf20e3c37d"
+      ],
+      "source_ai_sentence_index": 65,
+      "source_ai_sha256": "95057d4537edb58fc6530d2301f9dbb777f024ead474c1284a21add5d93fc58e",
+      "ai_unit_sentence_indices": [
+        65
+      ]
+    },
+    {
+      "sentence_index": 66,
+      "paragraph_index": 14,
+      "origin": "human",
+      "text": "But the glamour of comfort, the pleasure of reassuring himself and reassuring others, is too strong for this original knowledge; at last it fades from him, and he sincerely and earnestly calls on Englishmen to join with him in admiring an august and public-spirited Senate, having wholly forgotten that the Senate really consists of idiots whom he has himself despised; and adventurers whom he has himself ennobled.",
+      "output_sha256": "c4c6ab91df036185c2b817ae00da36fed8f81611d81df7d186d3d175ba792072",
+      "alignment_unit_index": 60,
+      "alignment_score": null,
+      "source_human_sentence_index": 63,
+      "source_human_sha256": "c4c6ab91df036185c2b817ae00da36fed8f81611d81df7d186d3d175ba792072",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 67,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "“Your ivy is so beautifully soft and thick,” said the American lady, “it seems to cover almost everything.",
+      "output_sha256": "53ac46d625e700233042e18c99f6489914e0ac0ae86ad1b23da151b0f33ad53b",
+      "alignment_unit_index": 61,
+      "alignment_score": null,
+      "source_human_sentence_index": 64,
+      "source_human_sha256": "53ac46d625e700233042e18c99f6489914e0ac0ae86ad1b23da151b0f33ad53b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 68,
+      "paragraph_index": 15,
+      "origin": "human",
+      "text": "It must be the most poetical thing in England.”",
+      "output_sha256": "95bb88a5595aeaf8d780c9fc40ad4b72a212e6088954a10b76cee4ecc2daeec5",
+      "alignment_unit_index": 62,
+      "alignment_score": null,
+      "source_human_sentence_index": 65,
+      "source_human_sha256": "95bb88a5595aeaf8d780c9fc40ad4b72a212e6088954a10b76cee4ecc2daeec5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 69,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "“It is very beautiful,” I said, “and, as you say, it is very English.",
+      "output_sha256": "28794150b6bb95eece729c5aafa9b533b595f131f196ee9d1c07157b74860f0b",
+      "alignment_unit_index": 63,
+      "alignment_score": null,
+      "source_human_sentence_index": 66,
+      "source_human_sha256": "28794150b6bb95eece729c5aafa9b533b595f131f196ee9d1c07157b74860f0b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 70,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "Charles Dickens, who was almost more English than England, wrote one of his rare poems about the beauty of ivy.",
+      "output_sha256": "9d9ce95cc48b871de4836011e06f305cef198a3e09a215a9b3fcd130dedf743e",
+      "alignment_unit_index": 64,
+      "alignment_score": null,
+      "source_human_sentence_index": 67,
+      "source_human_sha256": "9d9ce95cc48b871de4836011e06f305cef198a3e09a215a9b3fcd130dedf743e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 71,
+      "paragraph_index": 16,
+      "origin": "ai",
+      "text": "So let us, by all means, admire the ivy—so deep, warm, and imbued with a genial gloom and a grotesque tenderness.",
+      "output_sha256": "86caa09f2191b814ef0bc37d39e6e937fce9a147d41dde2b33f17b5f085e590f",
+      "alignment_unit_index": 65,
+      "alignment_score": 0.751304,
+      "human_sentence_indices": [
+        68
+      ],
+      "human_sha256": [
+        "984688e668fa07ecd9e7efc4b0f2574420e6736a2a22666c10f340a5f8989e73"
+      ],
+      "source_ai_sentence_index": 73,
+      "source_ai_sha256": "86caa09f2191b814ef0bc37d39e6e937fce9a147d41dde2b33f17b5f085e590f",
+      "ai_unit_sentence_indices": [
+        73
+      ]
+    },
+    {
+      "sentence_index": 72,
+      "paragraph_index": 16,
+      "origin": "human",
+      "text": "Let us admire the ivy; and let us pray to God in His mercy that it may not kill the tree.”",
+      "output_sha256": "65dc90a2ac3a920a712af69640bd4d8ea20a9ae39102941878888a29c965ee23",
+      "alignment_unit_index": 66,
+      "alignment_score": null,
+      "source_human_sentence_index": 69,
+      "source_human_sha256": "65dc90a2ac3a920a712af69640bd4d8ea20a9ae39102941878888a29c965ee23",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

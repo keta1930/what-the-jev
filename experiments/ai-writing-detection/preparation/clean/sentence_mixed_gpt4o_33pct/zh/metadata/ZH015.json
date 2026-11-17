@@ -1,0 +1,933 @@
+{
+  "source_id": "ZH015",
+  "language": "zh",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "bf724b62915067f20ed52be47c26b022b8ae2b0af47bf2c81519a2ef7ac6714b",
+  "ai_article_sha256": "416c9847f64f9ff729ec7d47bb6b95bc97cbefccd6a8f1599f46918481dfafcc",
+  "mixed_article_sha256": "548d85504bcc107d25df2095049665e22181b70f781e49f5aabbd4297970c006",
+  "human_source_sentence_count": 62,
+  "ai_source_sentence_count": 57,
+  "alignment_unit_count": 58,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 62,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.33871,
+  "selected_alignment_score_min": 0.303571,
+  "selected_alignment_score_median": 0.594355,
+  "selected_alignment_score_max": 0.749638,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "盛暑中写《白采的诗》一文，刚满一页，便因病搁下。",
+      "output_sha256": "eb7d6939516a652d3f8429c6bfdda77577bd6b24b502d54239fba2aaaa08aaf3",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "eb7d6939516a652d3f8429c6bfdda77577bd6b24b502d54239fba2aaaa08aaf3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "这时候薰宇来了一封信，说白采死了，死在香港到上海的船中。",
+      "output_sha256": "b29245609cd88e21d3fbcff239ee8f1e12e5282d88d42a76739c4e51ab4ceb5c",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "b29245609cd88e21d3fbcff239ee8f1e12e5282d88d42a76739c4e51ab4ceb5c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "他只有一个人；他的遗物暂存在立达学园里。",
+      "output_sha256": "6c582c32cda46772981fd68355b30b97c690f4d4364d4f521e1871ffef788e01",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "6c582c32cda46772981fd68355b30b97c690f4d4364d4f521e1871ffef788e01",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "有文稿，旧体诗词稿，笔记稿，有朋友和女人的通信，还有四包女人的头发！",
+      "output_sha256": "0410dfc2051f2ff9c67520d0d43da19d5d79a29749f3f4a59859a1fde3ab8c0a",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "0410dfc2051f2ff9c67520d0d43da19d5d79a29749f3f4a59859a1fde3ab8c0a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "我反复阅读薰宇的信，感到迷茫了一会儿；虽然白采对生死似乎并不在意，但他竟然以这种方式死去，实在是太过悲惨——这是我们这些后来的生者难以承受的。",
+      "output_sha256": "18994084e564b9916f5d18b95fef1e63b30fd35acac0bab4b3757c4e6b8e2b18",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.440706,
+      "human_sentence_indices": [
+        5
+      ],
+      "human_sha256": [
+        "f7002e4f21c501662a90a4b8bd2fcbd83ec48716cf94ab1df1ea4fba8d4964e2"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "18994084e564b9916f5d18b95fef1e63b30fd35acac0bab4b3757c4e6b8e2b18",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "白采是个难以捉摸的人。",
+      "output_sha256": "69f921db874aa07bbe4773fff83cbb9e7e5839414515c8d06fd609caa54ffa95",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.656818,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "61c168ef7b04808735c837df812be98190488ac4609cc6b5b195be68f6667887"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "69f921db874aa07bbe4773fff83cbb9e7e5839414515c8d06fd609caa54ffa95",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "尽管从遗物中大致了解了他的历史和性格，但在他生前，几乎没有人真正了解他；他也鲜少向人倾诉，问他时总是含糊其辞。",
+      "output_sha256": "f8a763dbb509db8f7302eeffdf0bd7668640f14e34abba3260fb940c27559d1a",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.439268,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "020990830dc85e9477ef6ca8dd4b02ff6b15d4b420f9154c27de81967876b040"
+      ],
+      "source_ai_sentence_index": 6,
+      "source_ai_sha256": "f8a763dbb509db8f7302eeffdf0bd7668640f14e34abba3260fb940c27559d1a",
+      "ai_unit_sentence_indices": [
+        6
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "他赋性既这样遗世绝俗，自然是落落寡合了；但我们却能够看出他是一个好朋友，他是一个有真心的人。",
+      "output_sha256": "cfdf30a97f84ad2b824906a248f4e8e0ac92399a6905bfcf282070cb0500f4ea",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "cfdf30a97f84ad2b824906a248f4e8e0ac92399a6905bfcf282070cb0500f4ea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "“不打不成相识”，我是这样的知道了白采的。",
+      "output_sha256": "92ccaf8188b7f666afa160513370fa7d91218c3116f07ca0d8e1ebf6a92810af",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "92ccaf8188b7f666afa160513370fa7d91218c3116f07ca0d8e1ebf6a92810af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "这是为学生李芳诗集的事。",
+      "output_sha256": "ddb45071ae4413ecf3c53043eedf870c82baea012ff87c4c3bdede1a75168473",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "ddb45071ae4413ecf3c53043eedf870c82baea012ff87c4c3bdede1a75168473",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "李芳将诗集交给我修改，并请我写序。",
+      "output_sha256": "68ea87c9f52071666e8e02f4f96ca64fb61e5308e88e30a179f816be3901c330",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.594355,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "a430c85dd29a121fdcb675e4e02d8aea06e3ebef99fa10e7b5a76d388077be15"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "68ea87c9f52071666e8e02f4f96ca64fb61e5308e88e30a179f816be3901c330",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "那时我在温州，他在上海。",
+      "output_sha256": "a61646b2d71b71e6350d3c4ff90c1c90c979bc1ebcbe2882964645ee838d5693",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "a61646b2d71b71e6350d3c4ff90c1c90c979bc1ebcbe2882964645ee838d5693",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我因事忙，一搁就是半年；而李芳已因不知名的急病死在上海。",
+      "output_sha256": "dc9b859d56a4785094d5fb7f6e2740ba27ac9fa0f1b6412f422547a59eef38d3",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "dc9b859d56a4785094d5fb7f6e2740ba27ac9fa0f1b6412f422547a59eef38d3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "我对此颇感懊悔，急忙抽空去处理他的工作。",
+      "output_sha256": "05c179060f06d97697a7f1b4a0239793ef8ad9f025ead58aad728bdff3e0adc4",
+      "alignment_unit_index": 12,
+      "alignment_score": 0.387529,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "9d5fad23dcdf60a53d7d058a82be22eb79fa571aee068941f4725138d7d1c8cd"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "05c179060f06d97697a7f1b4a0239793ef8ad9f025ead58aad728bdff3e0adc4",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "正在这时，平伯转来白采的信，短短的两行，催我设法将李芳的诗出版；又附了登在《觉悟》上的小说《作诗的儿子》，让我看看——里面颇有讥讽我的话。",
+      "output_sha256": "9bc02559b977819b8d815bf9aa1b19018efae85cc33a2ce9290c3b997a483e98",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "9bc02559b977819b8d815bf9aa1b19018efae85cc33a2ce9290c3b997a483e98",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "那时我觉得不该受到这样的讥讽，于是写了一封近两千字的长信，详细解释事情经过，试图辩解。",
+      "output_sha256": "a1dac013ad9616ef7c4ced334c6d73ef10a2e1b0d9005a53a029aeccee38df79",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.550949,
+      "human_sentence_indices": [
+        16
+      ],
+      "human_sha256": [
+        "18b9f194caadee97ba69acc8ab6e09a95e339bac3be3aba7f5e29d5f59e2855b"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "a1dac013ad9616ef7c4ced334c6d73ef10a2e1b0d9005a53a029aeccee38df79",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "信去了便等回信；但是杳无消息。",
+      "output_sha256": "ba83152525f41498462fd479ddfbf9f9411ded1de97749480817029228b87725",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "ba83152525f41498462fd479ddfbf9f9411ded1de97749480817029228b87725",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "等到我已不希望了，他才来了一张明信片；在我看来，只是几句半冷半热的话而已。",
+      "output_sha256": "d1a792286e339d891cde99a86912021160c29ae7be7f727c8b3ea6f3a77b735e",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "d1a792286e339d891cde99a86912021160c29ae7be7f727c8b3ea6f3a77b735e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "我只能以“岂能尽如人意？",
+      "output_sha256": "9a4b99e0487f47cecd0871c7cdb178db322a18450e07a292bd74595eeab6e8ad",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "9a4b99e0487f47cecd0871c7cdb178db322a18450e07a292bd74595eeab6e8ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "但求无愧我心！”",
+      "output_sha256": "fed4e053576036f17db985d4b1a3fabf479cfcf1f4ee1b0444498b7c22e68978",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "fed4e053576036f17db985d4b1a3fabf479cfcf1f4ee1b0444498b7c22e68978",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "自我安慰，听天由命。",
+      "output_sha256": "47a3019c7cdd9ae5beda36470953711b7a49e96a713fabb11ee6303d1cca4096",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.303571,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "258c49d3812c907b673c5ec7509f921cf0da0b7e9b6238c2368587c42aa02a72"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "47a3019c7cdd9ae5beda36470953711b7a49e96a713fabb11ee6303d1cca4096",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但平伯因转信的关系，却和他常通函札。",
+      "output_sha256": "65147da4c85bc8115744fbea8e213aebacb43e6ecc726bc9699c3c952fb5d51b",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "65147da4c85bc8115744fbea8e213aebacb43e6ecc726bc9699c3c952fb5d51b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "平伯来信，屡屡说起他，说是一个有趣的人。",
+      "output_sha256": "1532d6c37d9b080797fb244b4e8a851bb7d36651753031e50d11d21be1938fe9",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "1532d6c37d9b080797fb244b4e8a851bb7d36651753031e50d11d21be1938fe9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "有一次，平伯来到白马湖看我。",
+      "output_sha256": "9036fee358388289c8352c2758ba445ff62a1aa11c01dc49a163386b8db56833",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.749638,
+      "human_sentence_indices": [
+        24
+      ],
+      "human_sha256": [
+        "b627440361b150313474d0bac4fbd08693aae83431c141eb322ed4ef5ab62564"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "9036fee358388289c8352c2758ba445ff62a1aa11c01dc49a163386b8db56833",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我和他同往宁波的时候，他在火车中将白采的诗稿《羸疾者的爱》给我看。",
+      "output_sha256": "7ae2108822bd7af7aeec9aa5fe00b105170bf89040ddb46a430b7ce7dafa1c91",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "7ae2108822bd7af7aeec9aa5fe00b105170bf89040ddb46a430b7ce7dafa1c91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我在车身不住的动摇中，读了一遍。",
+      "output_sha256": "065f7443bc059afe4febfafbed62df921722b9f8283620e40324fb65ef9c1fbd",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "065f7443bc059afe4febfafbed62df921722b9f8283620e40324fb65ef9c1fbd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "觉得大有意思。",
+      "output_sha256": "5ffca1e7a38eaa47226d5a16e1386fd339daca9355647c25c06ad5c218c079a2",
+      "alignment_unit_index": 24,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "5ffca1e7a38eaa47226d5a16e1386fd339daca9355647c25c06ad5c218c079a2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我于是承认平伯的话，他是一个有趣的人。",
+      "output_sha256": "7d3bd12e4fefea65629685c24b7eb110ed7dffcdccd17a7f12b048cf633816ce",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "7d3bd12e4fefea65629685c24b7eb110ed7dffcdccd17a7f12b048cf633816ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "我还告诉平伯，这首诗似乎受到了尼采的影响。",
+      "output_sha256": "e0062a049ad4d6f37d054e90d1826254f67ed1361296f39ac6a5734153f768d0",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.620836,
+      "human_sentence_indices": [
+        29
+      ],
+      "human_sha256": [
+        "f402774d0eda3ef809094dbaad8c73349193e83decd900d31bec3cce6ae0540b"
+      ],
+      "source_ai_sentence_index": 26,
+      "source_ai_sha256": "e0062a049ad4d6f37d054e90d1826254f67ed1361296f39ac6a5734153f768d0",
+      "ai_unit_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "后来平伯来信，说已将我的看法告知白采，后者对此颇为赞同。",
+      "output_sha256": "1b8a1d53c85b1d5ddf84edf854945e81c264285e6babc1a389ac50c2adcfd29f",
+      "alignment_unit_index": 27,
+      "alignment_score": 0.544412,
+      "human_sentence_indices": [
+        30
+      ],
+      "human_sha256": [
+        "54ab47d39f21c2e8a5e43fc9374ffa774ec2b1d6cf23ed14dcc6587d41c47f02"
+      ],
+      "source_ai_sentence_index": 27,
+      "source_ai_sha256": "1b8a1d53c85b1d5ddf84edf854945e81c264285e6babc1a389ac50c2adcfd29f",
+      "ai_unit_sentence_indices": [
+        27
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我当时还和平伯说，关于这篇诗，我想写一篇评论；平伯大约也告诉了他。",
+      "output_sha256": "30e84f8798df1b00eb0ed70f717f93902fab76e28f49c805a55924eea3e8d0af",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "30e84f8798df1b00eb0ed70f717f93902fab76e28f49c805a55924eea3e8d0af",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "此后，白采突然来信提到此事，期待尽早见到我的评论，以了解我对他诗作的看法。",
+      "output_sha256": "88707eba4f84eb8f4c13ab63f5efa4b25ae829c2005a15c6330a6b8ce73bad83",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.35431,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "67903b44652bbf5b87d6bbd10d9f924979985b188a36d6a421b9541a7d4df01b"
+      ],
+      "source_ai_sentence_index": 28,
+      "source_ai_sha256": "88707eba4f84eb8f4c13ab63f5efa4b25ae829c2005a15c6330a6b8ce73bad83",
+      "ai_unit_sentence_indices": [
+        28
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我回信答应他，就要做的。",
+      "output_sha256": "eba0c4f74640e089bd9440d36e0d59520e96951a33aa7e70f18ed5705c57752a",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "eba0c4f74640e089bd9440d36e0d59520e96951a33aa7e70f18ed5705c57752a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "之后，我们频繁通信，他经常提起此事。",
+      "output_sha256": "1a095f3d6821eeeab135d4e87423548fff186806b63af6e5a5b60a59177bee0d",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.610714,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "8fdb57bde81a9c6ac3ad43ba1d09de5cfa9987a84677cd88529e029c33eac204"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "1a095f3d6821eeeab135d4e87423548fff186806b63af6e5a5b60a59177bee0d",
+      "ai_unit_sentence_indices": [
+        30
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "但现在是三年以后了，我才算将此文完篇；他却已经死了，看不见了！",
+      "output_sha256": "9da2c4b41619d94bfc458afc6ba50bb5319767528280809cd0eaa84df8eb703b",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "9da2c4b41619d94bfc458afc6ba50bb5319767528280809cd0eaa84df8eb703b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "他暑假前最后给我的信还说起他的盼望。",
+      "output_sha256": "b556da97c3d1e3cc6878fefedc6eb80e27346af8d08f3725e4fa2e0aca8c3886",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "b556da97c3d1e3cc6878fefedc6eb80e27346af8d08f3725e4fa2e0aca8c3886",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "天啊！",
+      "output_sha256": "e1f437fcf1beb1d0be2d8a0d138832fe06dc102e46ea54a89bf7887ca7800aee",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "e1f437fcf1beb1d0be2d8a0d138832fe06dc102e46ea54a89bf7887ca7800aee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "我怎样对得起这样一个朋友，我怎样挽回我的过错呢？",
+      "output_sha256": "8cf765a1a62ecb5bf35fa87d0e0903bbeb978f318b7114fdffceb8517a7c2f34",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "8cf765a1a62ecb5bf35fa87d0e0903bbeb978f318b7114fdffceb8517a7c2f34",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "平伯和我都未曾见过白采，大家对此感到遗憾。",
+      "output_sha256": "885ecb4f289868798c840176e7dd57d62d4af1ff26fa120d712f34f3c9c1eca6",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.626111,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "fc253e14058a37f907ae1664790f3a101ed6424ccfb2a700caa4c49cc1b1781a"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "885ecb4f289868798c840176e7dd57d62d4af1ff26fa120d712f34f3c9c1eca6",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "有一次我去上海，平伯约我去西门林荫路新正兴里五号拜访他：这是按照他给我们的通信地址前往的。",
+      "output_sha256": "c35b60414a48e7b01d5a843ca4be3f88806d8d6a8bd0751b79426c3d5307691f",
+      "alignment_unit_index": 37,
+      "alignment_score": 0.71656,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "461bf11582e491204c67f441407f2720f96c5df1a4456c0b0556e2d15f36eea9"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "c35b60414a48e7b01d5a843ca4be3f88806d8d6a8bd0751b79426c3d5307691f",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但不幸得很，他已经搬到附近什么地方去了；我们只好嗒然而归。",
+      "output_sha256": "c76b4291e91e9cd55f35cabc64da42914c6e88597db5e24b83835f8f3e4a68c7",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "c76b4291e91e9cd55f35cabc64da42914c6e88597db5e24b83835f8f3e4a68c7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "新正兴里五号是朋友延陵君住过的：有一次谈起白采，他说他姓童，在美术专门学校念书；他的夫人和延陵夫人是朋友，延陵夫妇曾借住他们所赁的一间亭子间。",
+      "output_sha256": "e74d12cecd4c569960c960a0485a3abbdf153eb501edb7fe55928f014f4b2d3c",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "e74d12cecd4c569960c960a0485a3abbdf153eb501edb7fe55928f014f4b2d3c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "那是我看延陵时去过的，床和桌椅都是白漆的；是一间虽小而极洁净的房子，几乎使我忘记了是在上海的西门地方。",
+      "output_sha256": "da42acfd7904b1695994cbc381078238fbb2aefc0187969a80a751fab89bcf05",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "da42acfd7904b1695994cbc381078238fbb2aefc0187969a80a751fab89bcf05",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "如今从他的遗照中，看来有几张是在那间房子里拍摄的。",
+      "output_sha256": "87250eb5a69b1dc546578e6e514766857f24bc38c0e8214c182bfb11cd8f843c",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.511757,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "2080b8c268f05b4546cdbe43267fcb110f218d8bfac347d66914a009e2a2c2cc"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "87250eb5a69b1dc546578e6e514766857f24bc38c0e8214c182bfb11cd8f843c",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "又从他的遗札里，推想他那时还未离婚；他离开新正兴里五号，或是正为离婚的缘故，也未可知。",
+      "output_sha256": "8029f1f4841fc590600a66d7e76d6ec07039cb2e6451d30bd83dd59c6d7277bd",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "8029f1f4841fc590600a66d7e76d6ec07039cb2e6451d30bd83dd59c6d7277bd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这却使我们事后追想，多少感著些悲剧味了。",
+      "output_sha256": "d392ba942fc3bf70eee373806cf11ff89a35f579e6ee8827ddedcf8eef30f322",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 46,
+      "source_human_sha256": "d392ba942fc3bf70eee373806cf11ff89a35f579e6ee8827ddedcf8eef30f322",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "但平伯终于未见著白采，我竟得和他见了一面。",
+      "output_sha256": "6b1739be8c0c9ea9892d11c03a0972977b327221bdf6377d03a78a24dbe2a5f0",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "6b1739be8c0c9ea9892d11c03a0972977b327221bdf6377d03a78a24dbe2a5f0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "那是在立达学园我预备上火车去上海前的五分钟。",
+      "output_sha256": "319f9b5062b64580204705828c03343fa0d7bd5cf18851f1f24190fa6f157b24",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "319f9b5062b64580204705828c03343fa0d7bd5cf18851f1f24190fa6f157b24",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "这一天，学园的朋友说白采要搬来了；我从早上等了好久，还没有音信。",
+      "output_sha256": "122c556e70c05e934dbea674526fd432c05ae4f87832cfa49cc110d8b7b224ac",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "122c556e70c05e934dbea674526fd432c05ae4f87832cfa49cc110d8b7b224ac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "正准备去车站时，白采从门口走了进来。",
+      "output_sha256": "8c8a90c14ec135926dabe60f66018fa8b78eda744b84f029f67a85afe2b7d862",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.611818,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "621777e4e6619ce587eb4aea8c89fa004fb8425e571a484faf79ef944a7513c7"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "8c8a90c14ec135926dabe60f66018fa8b78eda744b84f029f67a85afe2b7d862",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他说著江西话，似乎很老成了，是饱经世变的样子。",
+      "output_sha256": "596a8b42705c305d7c18372e3352e87a0d6142a176a317141e1f6af1cb7cb705",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "596a8b42705c305d7c18372e3352e87a0d6142a176a317141e1f6af1cb7cb705",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "我因在上海还有约定，匆匆与他交谈，便握手告别。",
+      "output_sha256": "6ba5cb58f80aa308c8482cc1c9392b867eedee7e78986701b3c26ad06ba29817",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.636579,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "3f38f4c4b21bc84cae74add80271012a9021ac611b2dc9970495cda84877f3bb"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "6ba5cb58f80aa308c8482cc1c9392b867eedee7e78986701b3c26ad06ba29817",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "他后来有信给平伯说我“短小精悍”，却是一句有趣的话。",
+      "output_sha256": "b6201f449cb3e804bf56c89d01e41c6790f06085341435c4bce3ba8f7496859c",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "b6201f449cb3e804bf56c89d01e41c6790f06085341435c4bce3ba8f7496859c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "这是我们初次见面，谁知也是最后一次见面。",
+      "output_sha256": "3958e3dee39dd31cb45678772c51e3cbc489a49b82b09a10ec25a505021168a2",
+      "alignment_unit_index": 50,
+      "alignment_score": 0.600275,
+      "human_sentence_indices": [
+        54
+      ],
+      "human_sha256": [
+        "28580b7a55993d0bee38ea8fd14ebb18d7a6c7d922f2e4d9c76dc0ff9c3efc47"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "3958e3dee39dd31cb45678772c51e3cbc489a49b82b09a10ec25a505021168a2",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "去年年底，我在北京时，他要去集美作教；他听说我有南归之意，因不能等我一面，便寄了一张小影给我。",
+      "output_sha256": "6bb85c3d415b42a2417b83a0701a071ad63bde1da639c5645a9af7c94687b316",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "6bb85c3d415b42a2417b83a0701a071ad63bde1da639c5645a9af7c94687b316",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这是他立在露台上远望的背影，他说是聊寄伫盼之意。",
+      "output_sha256": "67f07ec50fb4a6bac25bf16f803b89b3dc98ec0d8ecde5292175b5d70db3eb4e",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "67f07ec50fb4a6bac25bf16f803b89b3dc98ec0d8ecde5292175b5d70db3eb4e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "我反复玩味这张照片，不忍释手，觉得他真是一个好朋友。",
+      "output_sha256": "a29375b4e2787b7e519d784804994e7e0e8d47fe70a21d093acbc3358de743da",
+      "alignment_unit_index": 53,
+      "alignment_score": 0.670109,
+      "human_sentence_indices": [
+        57
+      ],
+      "human_sha256": [
+        "d272bbc6a475eb6303af556f7a25d9ecb3c81143f12d38db39810d1f8a3d9aab"
+      ],
+      "source_ai_sentence_index": 52,
+      "source_ai_sha256": "a29375b4e2787b7e519d784804994e7e0e8d47fe70a21d093acbc3358de743da",
+      "ai_unit_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "这回来到立达学园，偶然翻阅《白采的小说》，《作诗的儿子》一篇中讥讽我的话，已经删改；而薰宇告我，我最初给他的那封长信，他还留在箱子里。",
+      "output_sha256": "0024cec9d861878607229cddfbc194467c340b1db5447dfdadb313b512c8849a",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "0024cec9d861878607229cddfbc194467c340b1db5447dfdadb313b512c8849a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "这使我对当初的猜测感到羞愧，我真是个小心眼的人！",
+      "output_sha256": "abca08f452caa50704bab6ecae1b7f29ebe5d0cb9e2f6767e451d92e85707f75",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.492386,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "ddbf93ff4ea2fcd082cb63431b580937294f8aa6f30536aaad02e484a865665c"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "abca08f452caa50704bab6ecae1b7f29ebe5d0cb9e2f6767e451d92e85707f75",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "然而他如今已去世，我又能做些什么呢？",
+      "output_sha256": "45afe3a4c91b0afb66348d61230f131460a5b36e834468ae92d0ca407503f2f3",
+      "alignment_unit_index": 56,
+      "alignment_score": 0.366672,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "ea8cdd103bc19b0b8ba85446923ddaad3ba3d0fde675836505d7da7668611765"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "45afe3a4c91b0afb66348d61230f131460a5b36e834468ae92d0ca407503f2f3",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "我只相信，如爱墨生的话，他在许多朋友的心里是不死的！",
+      "output_sha256": "165272f9f7d4133a06c1ff3fe9b33c4390ec7abddabe1d1d14ce7cb73e2cbbeb",
+      "alignment_unit_index": 57,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "165272f9f7d4133a06c1ff3fe9b33c4390ec7abddabe1d1d14ce7cb73e2cbbeb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "上海，江湾，立达学园。",
+      "output_sha256": "dc43208f3ae1f6cdf1d118ac3a171bbf679747d11f3949f2758a9313508fac3d",
+      "alignment_unit_index": 58,
+      "alignment_score": null,
+      "source_human_sentence_index": 62,
+      "source_human_sha256": "dc43208f3ae1f6cdf1d118ac3a171bbf679747d11f3949f2758a9313508fac3d",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

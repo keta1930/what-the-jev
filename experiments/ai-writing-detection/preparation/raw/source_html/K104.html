@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>《紅的果園》線上閱讀 | 蕭紅 - 可閱文學網</title>
+    <meta name="keywords" content="紅的果園,蕭紅,散文随笔,可閱,可閱文學">
+    <meta name="description" content="五月一開頭這果園就完全變成了深綠。在寂寞的市梢上，遊人也漸漸增多了起來。那河流的聲音，好像喑啞了去，交織着的是樹聲，蟲聲和人語的聲音。">
+    <meta name="google" content="notranslate">
+    <meta name="book_no" content="22459">
+    <meta property="og:type" content="novel">
+    <meta property="og:title" content="紅的果園">
+    <meta property="og:description" content="五月一開頭這果園就完全變成了深綠。在寂寞的市梢上，遊人也漸漸增多了起來。那河流的聲音，好像喑啞了去，交織着的是樹聲，蟲聲和人語的聲音。">
+    <meta property="og:url" content="https://www.kepub.net/book/22459/">
+    <meta property="og:novel:category" content="散文随笔">
+    <meta property="og:novel:author" content="蕭紅">
+    <meta property="og:novel:book_name" content="紅的果園">
+    <meta property="og:novel:read_url" content="https://www.kepub.net/book/22459/">
+    <meta property="og:novel:status" content="全本">
+    <meta property="og:novel:update_time" content="2022-07-01 16:40">
+    <meta property="og:novel:latest_chapter_name" content="紅的果園">
+    <meta property="og:novel:latest_chapter_url" content="https://www.kepub.net/book/22459/10001">
+
+    <link rel="canonical" href="https://www.kepub.net/book/22459/10001">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/22459/10001">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/22459/10001">
+    <link rel="preload" href="/libs/font_3262646_3da1morkcf1/iconfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=12" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">首頁</a></li>
+            <li><a href="javascript:" title="目錄" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="評論"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="手機閱讀" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="分章閱讀" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="分頁閱讀" onclick="pageReader()"></a></li>
+            <li id="lang_select"><a href="/book/22459" class="active" aria-label="繁"><i class="iconfont icon-fanti"></i></a><a href="/book/20795" aria-label="简"><i class="iconfont icon-jianti"></i></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="回頂部" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">掃描二維碼，用手機閱讀</div>
+    <img alt="手机阅读" src="data:image/jpg;base64,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">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <span class="top_categoryname">紅的果園</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　五月一開頭這果園就完全變成了深綠。在寂寞的市梢上，遊人也漸漸增多了起來。那河流的聲音，好像喑啞了去，交織着的是樹聲，蟲聲和人語的聲音。<br><br>　　園前切着一條細長的閃光的河水，園後，那白色樓房的中學裏邊，常常有鋼琴的聲音，在夜晚散佈到這未熟的果子們的中間。<br><br>　　從五月到六月，到七月，甚至於到八月，這園子才荒涼下來。那些樹，有的在三月裏開花，有的在四月裏開花。但，一到五月，這整個的園子就完全是綠色的了，所有的果子就在這期間肥大了起來。後來，果子開始變紅，後來全紅，再後來——七月裏——果子們就被看園人完全摘掉了。再後來，就是看園人開始掃着那些從樹上自己落下的黃葉的時候。<br><br>　　園子在風聲裏面又收拾起來了。<br><br>　　但那沒有和果子一起成熟的戀愛，繼續到九月也是可能的。<br><br>　　園後那學校的教員室裏的男子的戀愛，雖然沒有完結，也就算完結了。<br><br>　　他在教員休息室裏也看到這園子，在教室裏站在黑板前面也看到這園子，因此他就想到那可怕的白色的冬天。他希望剛走去了的冬天接着再來，但那是不可能。<br><br>　　果園一天一天地在他的旁邊成熟，他嗅到果子的氣味就像坐在園裏的一樣。他看見果子從青色變成紅色，就像拿在手裏看得那麼清楚。同時園門上插着的那張旗子，也好像更鮮明瞭起來。那黃黃的顏色使他對着那旗子起着一種生疏、反感和沒有習慣的那種感覺。所以還不等果子紅起來，他就把他的窗子換上了一張藍色的窗圍。<br><br>　　他怕那果子會一個一個地透進他的房裏來，因此他怕感到什麼不安。<br><br>　　果園終於全紅起來了，一個禮拜，兩個禮拜，差不多三個禮拜，園子還是紅的。<br><br>　　他想去問問那看園子的人，果子究竟要紅到什麼時候。但他一走上那去果園的小路，他就心跳，好像園子在眼前也要顫抖起來。於是他背向着那紅色的園子擦擦眼睛，又順着小路回來了。<br><br>　　在他走上樓梯時，他的胸膛被幻想猛烈地攻擊了一陣：他看見她就站在那小道上，蝴蝶在她旁邊的青草上飛來飛去。“我在這裏……”他好像聽到她的喊聲似的那麼震動。他又看到她等在小夾樹道的木凳上。他還回想着，他是跑了過去的，把她牽住了，於是聲音和人影一起消失到樹叢裏去了。他又想到通夜在園子裏走着的景況和人影一起消失到樹叢裏去了。他又想到通夜在園子裏走着的景況……有時熱情來了的時候，他們和蟲子似的就靠着那樹叢接吻了。朝陽還沒有來到之前，他們的頭髮和衣裳就被夜露完全打溼了。<br><br>　　他在桌上翻開了學生作文的卷子，但那上面寫着些什麼呢？<br><br>　　“皇帝登極，萬民安樂……”<br><br>　　他又看看另一本，每本開頭都有這麼一段……他細看時，那並不是學生們寫的，是用鉛字已經替學生們印好了的。他翻開了所有的卷子，但鉛字是完全一樣。<br><br>　　他走過去，把藍色的窗圍放下來，他看到那已經熟悉了的看園人在他的窗口下面掃着園地。<br><br>　　看園人說：“先生！不常過來園裏走走？總也看不見先生呢？”<br><br>　　“嗯！”他點着頭，“怎麼樣？市價還好？”<br><br>　　“不行啦。先生，你看……這不是嗎？”那人用竹帚的把柄指着太陽快要落下來的方向，那面飄着一些女人的花花的好像口袋一樣大的袖子。<br><br>　　“這年頭，不行了啊！不是年頭……都讓他們……讓那些東西們摘了去啦……”他又用竹帚的把柄指打着樹枝：“先生……看這裏……真的難以栽培，折的折，掉枝的掉枝……招呼她們不聽，又哪敢招呼呢？人家是日本二大爺……”他又問，“女先生，那位，怎麼今年也好像總也沒有看見？”<br><br>　　他想告訴他：“女先生當××軍去了。”但他沒有說。他聽到了園門上旗子的響聲，他向着旗子的方向看了看，也許是什麼假日，園門口換了一張大的旗……黃色的……好像完全黃色的。<br><br>　　看園子的人已經走遠了，他的指甲還在敲着窗上的玻璃。他看着，他聽着，他對着這“園子”和“旗”起着興奮的情感。於是被敲着的玻璃更響了，假若遊園的人經過他的窗下，也能夠聽到他的聲音。<br><br><p class="s">1936年9月東京</p><br><p class="q">(本篇署名蕭紅，首刊於1936年9月15日上海《作家》第1卷第6號)</p></div>
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/22458/10001?collectionNo=708966">下一章</a></div>
+        <div class="pre_chapter"><a href="/book/22460/10001?collectionNo=708966">上一章</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">下一頁</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">上一頁</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div class="book-info">
+            <div class="book-base-info-b">
+                
+                <div class="bookname-b">
+                    <a class="collection-name" href="/book/708966">蕭紅散文集</a>
+                    <span class="arrow-right">/</span>
+                    <a class="bookname" href="/book/22459">紅的果園</a>
+                </div>
+                <div>作者：<a class="author" href="/author/10102">蕭紅</a></div>
+                <div class="info-b-1">
+                    <div>类型：<span>散文随笔</span></div>
+                    <div>总字数：<span>1528</span></div>
+                    <div>阅读量：<span>700</span></div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="23" data-goods-name="【山姆正品】奥利奥薄脆黑巧味夹心饼干休闲零食独立小包装酥脆浓醇" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3848414682352320957&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p9-aio.ecombdimg.com/obj/ecom-shop-material/png_m_c32fc8b0f893685534490a4b71c47bff_sx_623023_www1000-1000"
+                         alt="【山姆正品】奥利奥薄脆黑巧味夹心饼干休闲零食独立小包装酥脆浓醇">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【山姆正品】奥利奥薄脆黑巧味夹心饼干休闲零食独立小包装酥脆浓醇</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>56.90</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+        <div id="note_view">
+            <ul id="note_group_list">
+                <li class="note_group_0">
+                    
+                </li>
+                <li class="note_group_1">
+                    
+                </li>
+                <li class="note_group_2">
+                    
+                </li>
+                <li class="note_group_3">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>目錄</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p></p>
+                <li>
+                    <a href="/book/22486/10001?collectionNo=708966">“九一八”致弟弟書</a>
+                </li>
+                <li>
+                    <a href="/book/22485/10001?collectionNo=708966">給流亡異地的東北同胞書</a>
+                </li>
+                <li>
+                    <a href="/book/22484/10001?collectionNo=708966">致華崗</a>
+                </li>
+                <li>
+                    <a href="/book/22483/10001?collectionNo=708966">致白朗</a>
+                </li>
+                <li>
+                    <a href="/book/22482/10001?collectionNo=708966">致X先生</a>
+                </li>
+                <li>
+                    <a href="/book/22481/10001?collectionNo=708966">致胡風</a>
+                </li>
+                <li>
+                    <a href="/book/22480/10001?collectionNo=708966">致高原</a>
+                </li>
+                <li>
+                    <a href="/book/22479/10001?collectionNo=708966">致黃源</a>
+                </li>
+                <li>
+                    <a href="/book/22478/10001?collectionNo=708966">致蕭軍</a>
+                </li>
+                <li>
+                    <a href="/book/22477/10001?collectionNo=708966">紅玻璃的故事</a>
+                </li>
+                <li>
+                    <a href="/book/22476/10001?collectionNo=708966">北中國</a>
+                </li>
+                <li>
+                    <a href="/book/22475/10001?collectionNo=708966">後花園</a>
+                </li>
+                <li>
+                    <a href="/book/22474/10001?collectionNo=708966">花狗</a>
+                </li>
+                <li>
+                    <a href="/book/22473/10001?collectionNo=708966">梧桐</a>
+                </li>
+                <li>
+                    <a href="/book/22472/10001?collectionNo=708966">山下</a>
+                </li>
+                <li>
+                    <a href="/book/22471/10001?collectionNo=708966">蓮花池</a>
+                </li>
+                <li>
+                    <a href="/book/22470/10001?collectionNo=708966">曠野的呼喊</a>
+                </li>
+                <li>
+                    <a href="/book/22469/10001?collectionNo=708966">逃難</a>
+                </li>
+                <li>
+                    <a href="/book/22468/10001?collectionNo=708966">朦朧的期待</a>
+                </li>
+                <li>
+                    <a href="/book/22467/10001?collectionNo=708966">孩子的講演</a>
+                </li>
+                <li>
+                    <a href="/book/22466/10001?collectionNo=708966">汾河的圓月</a>
+                </li>
+                <li>
+                    <a href="/book/22465/10001?collectionNo=708966">黃河</a>
+                </li>
+                <li>
+                    <a href="/book/22464/10001?collectionNo=708966">兩朋友</a>
+                </li>
+                <li>
+                    <a href="/book/22463/10001?collectionNo=708966">橋</a>
+                </li>
+                <li>
+                    <a href="/book/22462/10001?collectionNo=708966">亞麗</a>
+                </li>
+                <li>
+                    <a href="/book/22461/10001?collectionNo=708966">牛車上</a>
+                </li>
+                <li>
+                    <a href="/book/22460/10001?collectionNo=708966">王四的故事</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/22459/10001?collectionNo=708966">紅的果園</a>
+                </li>
+                <li>
+                    <a href="/book/22458/10001?collectionNo=708966">家族以外的人</a>
+                </li>
+                <li>
+                    <a href="/book/22457/10001?collectionNo=708966">馬房之夜</a>
+                </li>
+                <li>
+                    <a href="/book/22456/10001?collectionNo=708966">出嫁</a>
+                </li>
+                <li>
+                    <a href="/book/22455/10001?collectionNo=708966">患難中</a>
+                </li>
+                <li>
+                    <a href="/book/22454/10001?collectionNo=708966">離去</a>
+                </li>
+                <li>
+                    <a href="/book/22453/10001?collectionNo=708966">渺茫中</a>
+                </li>
+                <li>
+                    <a href="/book/22452/10001?collectionNo=708966">清晨的馬路上</a>
+                </li>
+                <li>
+                    <a href="/book/22451/10001?collectionNo=708966">葉子</a>
+                </li>
+                <li>
+                    <a href="/book/22450/10001?collectionNo=708966">夜風</a>
+                </li>
+                <li>
+                    <a href="/book/22449/10001?collectionNo=708966">啞老人</a>
+                </li>
+                <li>
+                    <a href="/book/22448/10001?collectionNo=708966">兩個青蛙</a>
+                </li>
+                <li>
+                    <a href="/book/22447/10001?collectionNo=708966">太太與西瓜</a>
+                </li>
+                <li>
+                    <a href="/book/22446/10001?collectionNo=708966">腿上的繃帶</a>
+                </li>
+                <li>
+                    <a href="/book/22445/10001?collectionNo=708966">看風箏</a>
+                </li>
+                <li>
+                    <a href="/book/22444/10001?collectionNo=708966">王阿嫂的死</a>
+                </li>
+                <li>
+                    <a href="/book/22443/10001?collectionNo=708966">骨架與靈魂</a>
+                </li>
+                <li>
+                    <a href="/book/22442/10001?collectionNo=708966">回憶魯迅先生</a>
+                </li>
+                <li>
+                    <a href="/book/22441/10001?collectionNo=708966">《大地的女兒》</a>
+                </li>
+                <li>
+                    <a href="/book/22440/10001?collectionNo=708966">記我們的導師</a>
+                </li>
+                <li>
+                    <a href="/book/22439/10001?collectionNo=708966">魯迅先生生活憶略</a>
+                </li>
+                <li>
+                    <a href="/book/22438/10001?collectionNo=708966">魯迅先生生活散記</a>
+                </li>
+                <li>
+                    <a href="/book/22437/10001?collectionNo=708966">茶食店</a>
+                </li>
+                <li>
+                    <a href="/book/22436/10001?collectionNo=708966">放火者</a>
+                </li>
+                <li>
+                    <a href="/book/22435/10001?collectionNo=708966">長安寺</a>
+                </li>
+                <li>
+                    <a href="/book/22434/10001?collectionNo=708966">林小二</a>
+                </li>
+                <li>
+                    <a href="/book/22433/10001?collectionNo=708966">滑竿</a>
+                </li>
+                <li>
+                    <a href="/book/22432/10001?collectionNo=708966">牙粉醫病法</a>
+                </li>
+                <li>
+                    <a href="/book/22431/10001?collectionNo=708966">我之讀世界語</a>
+                </li>
+                <li>
+                    <a href="/book/22430/10001?collectionNo=708966">寄東北流亡者</a>
+                </li>
+                <li>
+                    <a href="/book/22429/10001?collectionNo=708966">無題</a>
+                </li>
+                <li>
+                    <a href="/book/22428/10001?collectionNo=708966">記鹿地夫婦</a>
+                </li>
+                <li>
+                    <a href="/book/22427/10001?collectionNo=708966">《大地的女兒》與《動亂時代》</a>
+                </li>
+                <li>
+                    <a href="/book/22426/10001?collectionNo=708966">一九二九底愚昧</a>
+                </li>
+                <li>
+                    <a href="/book/22425/10001?collectionNo=708966">一條鐵路底完成</a>
+                </li>
+                <li>
+                    <a href="/book/22424/10001?collectionNo=708966">兩種感想</a>
+                </li>
+                <li>
+                    <a href="/book/22423/10001?collectionNo=708966">八月之日記二</a>
+                </li>
+                <li>
+                    <a href="/book/22422/10001?collectionNo=708966">八月之日記一</a>
+                </li>
+                <li>
+                    <a href="/book/22421/10001?collectionNo=708966">火線外(兩章)</a>
+                </li>
+                <li>
+                    <a href="/book/22420/10001?collectionNo=708966">逝者已矣</a>
+                </li>
+                <li>
+                    <a href="/book/22419/10001?collectionNo=708966">魯迅先生記(二)</a>
+                </li>
+                <li>
+                    <a href="/book/22418/10001?collectionNo=708966">魯迅先生記(一)</a>
+                </li>
+                <li>
+                    <a href="/book/22417/10001?collectionNo=708966">失眠之夜</a>
+                </li>
+                <li>
+                    <a href="/book/22416/10001?collectionNo=708966">天空的點綴</a>
+                </li>
+                <li>
+                    <a href="/book/22415/10001?collectionNo=708966">來信</a>
+                </li>
+                <li>
+                    <a href="/book/22414/10001?collectionNo=708966">永久的憧憬和追求</a>
+                </li>
+                <li>
+                    <a href="/book/22413/10001?collectionNo=708966">感情的碎片</a>
+                </li>
+                <li>
+                    <a href="/book/22412/10001?collectionNo=708966">女子裝飾的心理</a>
+                </li>
+                <li>
+                    <a href="/book/22411/10001?collectionNo=708966">長白山的血跡</a>
+                </li>
+                <li>
+                    <a href="/book/22410/10001?collectionNo=708966">孤獨的生活</a>
+                </li>
+                <li>
+                    <a href="/book/22409/10001?collectionNo=708966">索非亞的愁苦</a>
+                </li>
+                <li>
+                    <a href="/book/22408/10001?collectionNo=708966">訪問</a>
+                </li>
+                <li>
+                    <a href="/book/22407/10001?collectionNo=708966">初冬</a>
+                </li>
+                <li>
+                    <a href="/book/22406/10001?collectionNo=708966">三個無聊人</a>
+                </li>
+                <li>
+                    <a href="/book/22405/10001?collectionNo=708966">最後的一個星期</a>
+                </li>
+                <li>
+                    <a href="/book/22404/10001?collectionNo=708966">拍賣傢俱</a>
+                </li>
+                <li>
+                    <a href="/book/22403/10001?collectionNo=708966">十三天</a>
+                </li>
+                <li>
+                    <a href="/book/22402/10001?collectionNo=708966">患病</a>
+                </li>
+                <li>
+                    <a href="/book/22401/10001?collectionNo=708966">又是春天</a>
+                </li>
+                <li>
+                    <a href="/book/22400/10001?collectionNo=708966">生人</a>
+                </li>
+                <li>
+                    <a href="/book/22399/10001?collectionNo=708966">決意</a>
+                </li>
+                <li>
+                    <a href="/book/22398/10001?collectionNo=708966">門前的黑影</a>
+                </li>
+                <li>
+                    <a href="/book/22397/10001?collectionNo=708966">又是冬天</a>
+                </li>
+                <li>
+                    <a href="/book/22396/10001?collectionNo=708966">白麪孔</a>
+                </li>
+                <li>
+                    <a href="/book/22395/10001?collectionNo=708966">劇團</a>
+                </li>
+                <li>
+                    <a href="/book/22394/10001?collectionNo=708966">冊子</a>
+                </li>
+                <li>
+                    <a href="/book/22393/10001?collectionNo=708966">家庭教師是強盜</a>
+                </li>
+                <li>
+                    <a href="/book/22392/10001?collectionNo=708966">公園</a>
+                </li>
+                <li>
+                    <a href="/book/22391/10001?collectionNo=708966">小偷、車伕和老頭</a>
+                </li>
+                <li>
+                    <a href="/book/22390/10001?collectionNo=708966">春意掛上了樹梢</a>
+                </li>
+                <li>
+                    <a href="/book/22389/10001?collectionNo=708966">女教師</a>
+                </li>
+                <li>
+                    <a href="/book/22388/10001?collectionNo=708966">幾個歡快的日子</a>
+                </li>
+                <li>
+                    <a href="/book/22387/10001?collectionNo=708966">同命運的小魚</a>
+                </li>
+                <li>
+                    <a href="/book/22386/10001?collectionNo=708966">十元鈔票</a>
+                </li>
+                <li>
+                    <a href="/book/22385/10001?collectionNo=708966">“牽牛房”</a>
+                </li>
+                <li>
+                    <a href="/book/22384/10001?collectionNo=708966">新識</a>
+                </li>
+                <li>
+                    <a href="/book/22383/10001?collectionNo=708966">借</a>
+                </li>
+                <li>
+                    <a href="/book/22382/10001?collectionNo=708966">當鋪</a>
+                </li>
+                <li>
+                    <a href="/book/22381/10001?collectionNo=708966">他的上脣掛霜了</a>
+                </li>
+                <li>
+                    <a href="/book/22380/10001?collectionNo=708966">飛雪</a>
+                </li>
+                <li>
+                    <a href="/book/22379/10001?collectionNo=708966">度日</a>
+                </li>
+                <li>
+                    <a href="/book/22378/10001?collectionNo=708966">黑“列巴”和白鹽</a>
+                </li>
+                <li>
+                    <a href="/book/22377/10001?collectionNo=708966">搬家</a>
+                </li>
+                <li>
+                    <a href="/book/22376/10001?collectionNo=708966">餓</a>
+                </li>
+                <li>
+                    <a href="/book/22375/10001?collectionNo=708966">提籃者</a>
+                </li>
+                <li>
+                    <a href="/book/22374/10001?collectionNo=708966">來客</a>
+                </li>
+                <li>
+                    <a href="/book/22373/10001?collectionNo=708966">他去追求職業</a>
+                </li>
+                <li>
+                    <a href="/book/22372/10001?collectionNo=708966">雪天</a>
+                </li>
+                <li>
+                    <a href="/book/22371/10001?collectionNo=708966">歐羅巴旅館</a>
+                </li>
+                <li>
+                    <a href="/book/22370/10001?collectionNo=708966">過夜</a>
+                </li>
+                <li>
+                    <a href="/book/22369/10001?collectionNo=708966">小六</a>
+                </li>
+                <li>
+                    <a href="/book/22368/10001?collectionNo=708966">鍍金的學說</a>
+                </li>
+                <li>
+                    <a href="/book/22367/10001?collectionNo=708966">蹲在洋車上</a>
+                </li>
+                <li>
+                    <a href="/book/22366/10001?collectionNo=708966">夏夜</a>
+                </li>
+                <li>
+                    <a href="/book/22365/10001?collectionNo=708966">破落之街</a>
+                </li>
+                <li>
+                    <a href="/book/22364/10001?collectionNo=708966">煩擾的一日</a>
+                </li>
+                <li>
+                    <a href="/book/22363/10001?collectionNo=708966">中秋節</a>
+                </li>
+                <li>
+                    <a href="/book/22362/10001?collectionNo=708966">廣告副手</a>
+                </li>
+                <li>
+                    <a href="/book/22361/10001?collectionNo=708966">棄兒</a>
+                </li>
+                <li>
+                    <a href="/book/21670/10001?collectionNo=708966">祖父死了的時候</a>
+                </li>
+                <li>
+                    <a href="/book/21665/10001?collectionNo=708966">廣告員的夢想</a>
+                </li>
+                <li>
+                    <a href="/book/21660/10001?collectionNo=708966">一個南方的姑娘</a>
+                </li>
+                <li>
+                    <a href="/book/21659/10001?collectionNo=708966">家庭教師</a>
+                </li>
+                <li>
+                    <a href="/book/21657/10001?collectionNo=708966">最末的一塊木柈</a>
+                </li>
+                <li>
+                    <a href="/book/21656/10001?collectionNo=708966">小黑狗</a>
+                </li>
+                <li>
+                    <a href="/book/21655/10001?collectionNo=708966">買皮帽</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var wait_tip = "\u7A0D\u5019...";
+    var publicNoteGroupSize = 4;
+</script>
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js?v=1"></script>
+<script defer language="JavaScript" src="/js/page/reader/center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>

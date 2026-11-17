@@ -1,0 +1,815 @@
+{
+  "source_id": "EN001",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "4fc78f6f8cc841f6ad63eb8939ad65efe1d3c5312508cae67a7b9afb3ab7c824",
+  "ai_article_sha256": "1e7989bdf949decc5926496abfec622fd38e0a7c5bf8d07bb3c39c509ff6c381",
+  "mixed_article_sha256": "be4fe2ab975cd3733b15efae7744623bebe0fae462eba8d42f9b1aedb5b27fb6",
+  "human_source_sentence_count": 55,
+  "ai_source_sentence_count": 51,
+  "alignment_unit_count": 51,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 54,
+  "selected_ai_sentence_count": 18,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.2725,
+  "selected_alignment_score_median": 0.49314,
+  "selected_alignment_score_max": 0.657925,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "\"As for your name, I offer you the whole firmament to choose from.\"",
+      "output_sha256": "2b38f782a9a60e474475dd6b9cfec10e977bcfb3c7b83f516eae3981b1a0d1d1",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "2b38f782a9a60e474475dd6b9cfec10e977bcfb3c7b83f516eae3981b1a0d1d1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "In that prodigal spirit the editor of the Star invites me to join the constellation that he has summoned from the vasty deeps of Fleet Street.",
+      "output_sha256": "cf8730d491929a199d3cc306603985b14d602521884de15133928e7c48457bec",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "cf8730d491929a199d3cc306603985b14d602521884de15133928e7c48457bec",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I am, he says, to shine punctually every Wednesday evening, wet or fine, on winter nights and summer eves, at home or abroad, until such time as he cries: \"Hold, enough!\" and applies the extinguisher that comes to all.",
+      "output_sha256": "511486b9656e1f57a10b7447a4ef2c8834357cfeffc477e4f7168fa59366b6a6",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "511486b9656e1f57a10b7447a4ef2c8834357cfeffc477e4f7168fa59366b6a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "This proposal reaches me while I find solace in a quaint village nestled on a ridge of beech-covered hills, where I have sought refuge from the relentless turmoil of war and the oppressive gloom of London’s nighttime streets.",
+      "output_sha256": "6dea8140dbc3427e8e77eeab03dbb633a3dd1bb991d56654771207cb5b503926",
+      "alignment_unit_index": 3,
+      "alignment_score": 0.472619,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "574304e316d71d06fa7966cc080eedba4af3cd748b451c3df1e17727507f82f0"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "6dea8140dbc3427e8e77eeab03dbb633a3dd1bb991d56654771207cb5b503926",
+      "ai_unit_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Here the darkness has no terrors.",
+      "output_sha256": "e5b63c1b401da97e1512f549821434e52c5d70a66dddff72f1063976b0ff1c8d",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "e5b63c1b401da97e1512f549821434e52c5d70a66dddff72f1063976b0ff1c8d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Each evening, as the sun dips below the expansive plain before me, our lamps flicker to life.",
+      "output_sha256": "6269c278d3270c2c32db9305f914303b3fe7e67ffad626e4a206e6d9334a2e9d",
+      "alignment_unit_index": 5,
+      "alignment_score": 0.287784,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "95fbcc6365c707e4e80975d0a04367d85ee5fab34ee759c4fb912f3dd73c6a29"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "6269c278d3270c2c32db9305f914303b3fe7e67ffad626e4a206e6d9334a2e9d",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "None of the palpitations of Fleet Street disturb us, and the rumours of the war come to us like far-off echoes from another world.",
+      "output_sha256": "63e92768d2b9181bc331d378dd5ec9038e52c91f56fb643e18dfcb813a7953ee",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "63e92768d2b9181bc331d378dd5ec9038e52c91f56fb643e18dfcb813a7953ee",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The only sensation of our day is when, just after darkness has fallen, the sound of a whistle in the tiny street of thatched cottages announces that the postman has called to collect letters.",
+      "output_sha256": "5bd1bb4293306db3eaf3f7c8da141cebcb8a996c5f41756c9a51932c5526bbed",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "5bd1bb4293306db3eaf3f7c8da141cebcb8a996c5f41756c9a51932c5526bbed",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "In this solitude, where one is thrown entirely upon one's own resources, one discovers how dependent one is upon men and books for inspiration.",
+      "output_sha256": "8d7acbba2de9079ccad0a474be726f271fe96186e99ea953d06c8b7f8a9b1be5",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "8d7acbba2de9079ccad0a474be726f271fe96186e99ea953d06c8b7f8a9b1be5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Even the task of naming proves challenging.",
+      "output_sha256": "ec2cfef45f6f3d7fe6572f16efce82f31d0fbfd6bd733b2ab0402c89f3451963",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.2725,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "c189bd1a2cf42e0a2b47f0b5d7dff475d341a478804fce7e49c9f3f0a411316b"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "ec2cfef45f6f3d7fe6572f16efce82f31d0fbfd6bd733b2ab0402c89f3451963",
+      "ai_unit_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "The process of naming is rarely an easy endeavor.",
+      "output_sha256": "86047d24ffd84e2b0aa192f8f89fe8de828ad6c94142f2e8422d92aa7f3e3c3a",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.30807,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "aed821e229f644799b5b9bc3838fba58d4f04fbfc19a9a23354257dd69333a04"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "86047d24ffd84e2b0aa192f8f89fe8de828ad6c94142f2e8422d92aa7f3e3c3a",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Every one who lives by his pen knows the difficulty of the task.",
+      "output_sha256": "4ce6030a368a575fb8ea89ada24ef76423a88eed2e1d7af57cf623732decbfc0",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "4ce6030a368a575fb8ea89ada24ef76423a88eed2e1d7af57cf623732decbfc0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I would rather write an article than find a title for it.",
+      "output_sha256": "ce7413189fa474cf0531e5d9557ff233a425358e26069453570ed1252522de91",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "ce7413189fa474cf0531e5d9557ff233a425358e26069453570ed1252522de91",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The thousand words come easily (sometimes); but the five-words summary of the thousand, that is to flame at the top like a beacon light, is a gem that has to be sought in travail, almost in tears.",
+      "output_sha256": "4d643f038a4453f99d16a8f5b3dbd6f34b9bb79727c4f9c1eab993103415ad6f",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "4d643f038a4453f99d16a8f5b3dbd6f34b9bb79727c4f9c1eab993103415ad6f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I have authored books, yet I have never managed to title one on my own; that honor has always been bestowed upon me by a friend.",
+      "output_sha256": "f5723261ebcb920bb1bd87e7a10db25d6e49a2ee47621acb235ced98b9a2b087",
+      "alignment_unit_index": 14,
+      "alignment_score": 0.554808,
+      "human_sentence_indices": [
+        15,
+        16
+      ],
+      "human_sha256": [
+        "2ea74f4908ac3eedfb86bf5a429ce2d639bf30fe385a6d09d3fa84debf54e9e3",
+        "9115c45a6bbfc6ab504b4db832aa384ce1039466e2be9e10d352c76617701d19"
+      ],
+      "source_ai_sentence_index": 14,
+      "source_ai_sha256": "f5723261ebcb920bb1bd87e7a10db25d6e49a2ee47621acb235ced98b9a2b087",
+      "ai_unit_sentence_indices": [
+        14
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Even those blessed with remarkable talent grapple with this deficiency.",
+      "output_sha256": "3c6ae8b8c701f06bb8ee8c3ebcb5591580e0b34cfa07556921a235a2f2ca7b9e",
+      "alignment_unit_index": 15,
+      "alignment_score": 0.35201,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "e7d4452fe747493a66f20ead2b4730d551f44a00946dc4e422a208a48e7579de"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "3c6ae8b8c701f06bb8ee8c3ebcb5591580e0b34cfa07556921a235a2f2ca7b9e",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "When Goldsmith had written the finest English comedy since Shakespeare he did not know what to call it, and had to leave Johnson to write the label.",
+      "output_sha256": "d1790ef248bd86908eecad0e70e349161c6574bf50299f79ac571aaaae0006eb",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 18,
+      "source_human_sha256": "d1790ef248bd86908eecad0e70e349161c6574bf50299f79ac571aaaae0006eb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "I like to think that Shakespeare himself suffered from this sterility—that he, too, sat biting the feather of his quill in that condition of despair that is so familiar to smaller men.",
+      "output_sha256": "099c86c12b0e30281421de536c6aedc7778a30fa6cb98f5c42f1118746f33b3e",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "099c86c12b0e30281421de536c6aedc7778a30fa6cb98f5c42f1118746f33b3e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Indeed, we have proof that it was so in the titles themselves.",
+      "output_sha256": "57fb598d108b676de11dcabf56b7cb703835d9b03034f6ad2fae12d117fbb2a1",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "57fb598d108b676de11dcabf56b7cb703835d9b03034f6ad2fae12d117fbb2a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "The phrase \"As You Like It\" serves as a testament to his frustration, indicating that he had exhausted himself in the futile search for a name.",
+      "output_sha256": "b08aa192383dc5130be65a4e38899e45bb3774c52490969d59e2bc31a6619851",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.513662,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "e52def90e2f555e6f9581293bff3dc81f65b5e9336b51c17cfb1970f8fcb0a41"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "b08aa192383dc5130be65a4e38899e45bb3774c52490969d59e2bc31a6619851",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "And what is Twelfth Night: or What You Will but an evidence that he could not hit upon any name that would fit the most joyous offspring of his genius?",
+      "output_sha256": "47047a8000d3d13a13447bbe20fb3fbe7e6335fe494589f1520735437488e21c",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "47047a8000d3d13a13447bbe20fb3fbe7e6335fe494589f1520735437488e21c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "What parent does not know the same agony?",
+      "output_sha256": "679d3932d47f61dc0fcc2d1d5f61ef9b96c7c3a5c797514fc2687e4fe73d3fbd",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "679d3932d47f61dc0fcc2d1d5f61ef9b96c7c3a5c797514fc2687e4fe73d3fbd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "To name a child, to give him a sign that shall go with him to his grave, and that shall fit that mystery of the cradle which time and temptation and trial shall alone reveal— hoc opus, hic labor est .",
+      "output_sha256": "ea3c0946c09bc57c5d9f84d8abd75d37e49d90ca6ce8a1608c3db4030ed6aefb",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "ea3c0946c09bc57c5d9f84d8abd75d37e49d90ca6ce8a1608c3db4030ed6aefb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Many fail by starting from false grounds—fashion, ambition, or momentary interest.",
+      "output_sha256": "8eb63e1ba49c89585fcc26e206ec2e0c133a66083e3632eea5e50603dfb624a6",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "8eb63e1ba49c89585fcc26e206ec2e0c133a66083e3632eea5e50603dfb624a6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "A child may arrive at a moment tied to a battle's news or following the release of a popular novel or perhaps when inspired by a particularly austere or noble figure.",
+      "output_sha256": "17a4db47e60fc2d4c9dbbd6ba25f16d7bef4180690039156f591e17201542220",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.389441,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "4e0b6c6d343f9cce2fa618778577ea7974fb26778df53e56cdf9adb030ab0a21"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "17a4db47e60fc2d4c9dbbd6ba25f16d7bef4180690039156f591e17201542220",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "In forgetting that the child will bear the consequences of these transient impulses, one might unwittingly christen them with unwieldy names like Inkerman Jones or Kitchener Smith, or worse, Milton Spinks.",
+      "output_sha256": "9a15e530753dd0db12ed16bf2660497cd4b8a6f05a06b5bdb7413cb3625bdf7d",
+      "alignment_unit_index": 25,
+      "alignment_score": 0.517419,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "3abff33cd425c1e7bf1fd9cc127a661e57e188604e1636276141ff3ed46a5095"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "9a15e530753dd0db12ed16bf2660497cd4b8a6f05a06b5bdb7413cb3625bdf7d",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "And so he is started on his journey, like a little historical memory, or challenging comparison with some hero of fact or fable.",
+      "output_sha256": "da1d2f151a84f6da5537ec8fcc748b9bb2bf6f897b6c3378d29bb842cbfe51a5",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "da1d2f151a84f6da5537ec8fcc748b9bb2bf6f897b6c3378d29bb842cbfe51a5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Perhaps Milton Spinks grows up bow-legged and commonplace—all Spinks and no Milton.",
+      "output_sha256": "7d9859bec51e1ae29a5ced7b68d9baf271764e976f1a5e75f7ba32c33de0d462",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "7d9859bec51e1ae29a5ced7b68d9baf271764e976f1a5e75f7ba32c33de0d462",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "As plain John he would pass through life happy and unnoticed, but the great name of Milton hangs about him like a jest from which he can never escape—no, not even in the grave, for it will be continued there until the lichen has covered the name on the headstone with stealthy and kindly oblivion.",
+      "output_sha256": "efaa5c7dd4be9c9feb45391dad70f7d931c8d50a40284ca6e0fc96021a510077",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "efaa5c7dd4be9c9feb45391dad70f7d931c8d50a40284ca6e0fc96021a510077",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "I believe it is wise to steer clear of fanciful names.",
+      "output_sha256": "8d95ab77a99bb5ff687523b7a41d0cf7ad1663dcb8b4556a427825170460d49c",
+      "alignment_unit_index": 29,
+      "alignment_score": 0.416731,
+      "human_sentence_indices": [
+        31
+      ],
+      "human_sha256": [
+        "1732dfe3a737a1605104fa4b7dc08a1d797c6fdb1632d22984e1c6641b1a21b4"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "8d95ab77a99bb5ff687523b7a41d0cf7ad1663dcb8b4556a427825170460d49c",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "So few of our children are going to be heroes or sages that we should be careful not to stamp them with the mark of greatness at the outset of the journey.",
+      "output_sha256": "a3112f7385bd630c726e4d11fe87005479a9e7b79ec51c89500f2797c8d5fcfa",
+      "alignment_unit_index": 30,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "a3112f7385bd630c726e4d11fe87005479a9e7b79ec51c89500f2797c8d5fcfa",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Horatio was a fortuitous choice for Nelson, but how many Horatios truly achieve immortality or even deserve it?",
+      "output_sha256": "f34c2ff8353f75ec39d6d75d0d18a839aec079aea838a706b1a89591d5d6a273",
+      "alignment_unit_index": 31,
+      "alignment_score": 0.657925,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "8bd38d82595c630fa3aea2ee6565e62217b9e96b175c6ef5566b78ec8653d79b"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "f34c2ff8353f75ec39d6d75d0d18a839aec079aea838a706b1a89591d5d6a273",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "And how disastrous if Horatio turns out a knave and a coward!",
+      "output_sha256": "0f6c7aca5b94ca1672b9bedee1e0f8fd3585eeca6e6298b3c914aff9f30f8cd6",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "0f6c7aca5b94ca1672b9bedee1e0f8fd3585eeca6e6298b3c914aff9f30f8cd6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "If young Spinks possesses any latent Miltonic brilliance, it is likely to shine through the simple name John more naturally and radiantly than through an inherited grand title.",
+      "output_sha256": "3c96c0ad41b31f45a96f32486dfdfab7ab9788835cf7d6bc92fa182fa9be1bc0",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.570879,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "38bfe1e6381b77d2e1c7e8cde3ca5197fc1b81814ec33e1ede6d959dfb412dff"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "3c96c0ad41b31f45a96f32486dfdfab7ab9788835cf7d6bc92fa182fa9be1bc0",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "You may be as humble as you like, and John will fit you: as illustrious as you like, and John will blaze as splendid as your deeds, linking you with that great order of nobility of which John Milton, John Hampden, and John Bright are types.",
+      "output_sha256": "a937a60feb5bea260f29e624a35386560bd3db31a940f92cd22394a8dcc1143d",
+      "alignment_unit_index": 34,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "a937a60feb5bea260f29e624a35386560bd3db31a940f92cd22394a8dcc1143d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "I had written thus far when it occurred to me that I had still my own name to choose and that soon the whistle of the postman would be heard in the street.",
+      "output_sha256": "3d84f69f826b376c040a14ff6af96dd059c94d4b340cb45214172b6fdce793c8",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "3d84f69f826b376c040a14ff6af96dd059c94d4b340cb45214172b6fdce793c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 8,
+      "origin": "ai",
+      "text": "I step into the orchard, seeking guidance from the stars above.",
+      "output_sha256": "5c26d337f02d560abd9f326b9cf6a049e71f1e31acea761389a9f485c8b418df",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.524934,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "07a6ad5b9c47ed2de5164b17a5c659aa6afb5f3a735c575937cfb8b1b996f7dc"
+      ],
+      "source_ai_sentence_index": 36,
+      "source_ai_sha256": "5c26d337f02d560abd9f326b9cf6a049e71f1e31acea761389a9f485c8b418df",
+      "ai_unit_sentence_indices": [
+        36
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "The far horizon was still stained wine-red with the last embers of the day; northward over the shoulder of the hill the yellow moon was rising full-orbed into the night sky and the firmament glittered with a thousand lamps.",
+      "output_sha256": "2563bec7d04461005946c8fae3364d8e48bd7abcc69bc64c7cb2f717b65cbd27",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "2563bec7d04461005946c8fae3364d8e48bd7abcc69bc64c7cb2f717b65cbd27",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "How near and familiar they seem to one in the solitude of the country!",
+      "output_sha256": "5b078260f8554587a629e00b5a1d3ebb296f905419aef0484c0645768c15aa58",
+      "alignment_unit_index": 38,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "5b078260f8554587a629e00b5a1d3ebb296f905419aef0484c0645768c15aa58",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "In the town our vision is limited to the street.",
+      "output_sha256": "ca59428e2b6266dd340a6f2d26247202a79c950888e1d79e9565562d4478da7d",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "ca59428e2b6266dd340a6f2d26247202a79c950888e1d79e9565562d4478da7d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "We see only the lights of the pavement and hear only the rattle of the unceasing traffic.",
+      "output_sha256": "dab5f01eb23d9b711e3b3cb47feedfaaeee6fd31367f3a7d406f7a788af0bf65",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "dab5f01eb23d9b711e3b3cb47feedfaaeee6fd31367f3a7d406f7a788af0bf65",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "The stars appear to be infinitely distant from our lives.",
+      "output_sha256": "018fc8166b7b71e77e70c610fa4a4101ddbe996371116720aa56449f5d2a3e74",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.535,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "9592c174172d462a2fe4fd35de4e2780d2a4f61c2534ea8d58de9f3220eaceea"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "018fc8166b7b71e77e70c610fa4a4101ddbe996371116720aa56449f5d2a3e74",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "But here they are like old neighbours for whom we never look in vain, intimate though eternal, friendly and companionable though far off.",
+      "output_sha256": "b5545fed9092b3081d65e1b98c0ea7fc3683e7046b40e9a06f4a1e2b2698c3a9",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "b5545fed9092b3081d65e1b98c0ea7fc3683e7046b40e9a06f4a1e2b2698c3a9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "There is Orion coming over the hill, and there the many-jewelled Pleiades, and across the great central dome of the sky the vast triangle formed by the Pole Star, golden Arcturus (not now visible), and ice-blue Vega.",
+      "output_sha256": "88232cb98582c5540b4bfa5b398743fad5981eebba371372c9f487a65d5ce49b",
+      "alignment_unit_index": 42,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "88232cb98582c5540b4bfa5b398743fad5981eebba371372c9f487a65d5ce49b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "However, these celestial names fail to resonate with me.",
+      "output_sha256": "b9e8882d9c5d0a50e99e2034e45b13ef59ff7e9802a3a3dbd192f894e85116d1",
+      "alignment_unit_index": 43,
+      "alignment_score": 0.424306,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "2206c7fe188da5e98585aaa98b10134a87d87e60e317d5e2e1efdc73dd427eed"
+      ],
+      "source_ai_sentence_index": 43,
+      "source_ai_sha256": "b9e8882d9c5d0a50e99e2034e45b13ef59ff7e9802a3a3dbd192f894e85116d1",
+      "ai_unit_sentence_indices": [
+        43
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Better are those homely sounds that link the pageant of night with the immemorial life of the fields.",
+      "output_sha256": "98c6da25e7eb54b5152307f6df124fa2b179c1c0c224f7713fa3139ae5ae25be",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "98c6da25e7eb54b5152307f6df124fa2b179c1c0c224f7713fa3139ae5ae25be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Arcturus is Alpha of the Herdsman.",
+      "output_sha256": "34c7d8d8ff1ed29ae9361114492c3f171ea93ca2cdf9c5a957b8dfc031189ab2",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "34c7d8d8ff1ed29ae9361114492c3f171ea93ca2cdf9c5a957b8dfc031189ab2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "Shall it be that?",
+      "output_sha256": "c7d2b2b1f5807a88fee4c7c01045572cb270a8c7ae951e5922871b050719f0c3",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "c7d2b2b1f5807a88fee4c7c01045572cb270a8c7ae951e5922871b050719f0c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "My gaze shifts westward to the Great Bear, hanging upside down as if poised to consume the earth below.",
+      "output_sha256": "b14e63c1d0d163a3c5c09dcfaf9c67a83406987651b652eaffa3a24fe7d00787",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.528846,
+      "human_sentence_indices": [
+        50
+      ],
+      "human_sha256": [
+        "9637b8d6fe88cc8fcb6d20ae946003c65af62e4ef9a65fa587df065bcab782d2"
+      ],
+      "source_ai_sentence_index": 46,
+      "source_ai_sha256": "b14e63c1d0d163a3c5c09dcfaf9c67a83406987651b652eaffa3a24fe7d00787",
+      "ai_unit_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Great Bear, Charles's Wain, the Plough, the Dipper, the Chariot of David—with what fancies the human mind through all the ages has played with that glorious constellation!",
+      "output_sha256": "c743474464c9d92e826c7848282567707c14a052f439253ed93469998878c010",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "c743474464c9d92e826c7848282567707c14a052f439253ed93469998878c010",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "I wish to let my imagination dance with it as well.",
+      "output_sha256": "b659a527fe8509f1e61699543c4066e965d27d046ee035d282f7ec8a128dcbcb",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.364773,
+      "human_sentence_indices": [
+        52
+      ],
+      "human_sha256": [
+        "4503bc0a43804ff93fd36e7b9cc25cd7a170c189359238ab906e9bfe34dc0089"
+      ],
+      "source_ai_sentence_index": 48,
+      "source_ai_sha256": "b659a527fe8509f1e61699543c4066e965d27d046ee035d282f7ec8a128dcbcb",
+      "ai_unit_sentence_indices": [
+        48
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "At the head of the Plough, a brilliant star points toward the pole.",
+      "output_sha256": "9d7f2483d67551d269cea86ca258fbdbbf59ea849353d74e1bd6533c4d411056",
+      "alignment_unit_index": 49,
+      "alignment_score": 0.656178,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "2cd7ba0ed6e1d8a6dcacbb0b5c4c309ac1bcbfeb4d73fcb77d3bb448d189efab"
+      ],
+      "source_ai_sentence_index": 49,
+      "source_ai_sha256": "9d7f2483d67551d269cea86ca258fbdbbf59ea849353d74e1bd6533c4d411056",
+      "ai_unit_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "I will hitch my little waggon to that sublime image.",
+      "output_sha256": "fd19d41a8fe4c53ca443313746e14f424b716f7cf417f7278c27e48da5701d28",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "fd19d41a8fe4c53ca443313746e14f424b716f7cf417f7278c27e48da5701d28",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "I will be Alpha of the Plough.",
+      "output_sha256": "87ae554460c845573f363efb3fb5265101787ed241c4be521dcf5c12df0ec255",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "87ae554460c845573f363efb3fb5265101787ed241c4be521dcf5c12df0ec255",
+      "ai_unit_sentence_indices": []
+    }
+  ]
+}

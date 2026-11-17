@@ -1,0 +1,76 @@
+{
+  "source_id": "EN020",
+  "language": "en",
+  "condition": "mixed",
+  "replaced_block_index": 1,
+  "assignment_rule": "Sort SHA-256('jev-mixed-v1|en|{source_id}'); first 34 -> 1, next 33 -> 2, final 33 -> 3",
+  "human_block_sha256": [
+    "2169aac580e59993f963dbec89e1b0c8236be35474ba7e113b9ebaeb21a0ff4b",
+    "2cbe430d18e256c9d9534f51480c0568ee24fa1795194b16478f806fd5728d74",
+    "d6d906e2cacdd0e52fbf2e6d1ecc299bb60f1f789e20f0f7851d26e4e15af9b3"
+  ],
+  "source_block_sha256": "2169aac580e59993f963dbec89e1b0c8236be35474ba7e113b9ebaeb21a0ff4b",
+  "ai_block_sha256": "0767ee9483c1c319c7f8fd49bd454d75c3777d9cb9d41aa261d221ca4ea5c667",
+  "mixed_sha256": "fc9535a0a9642133baefc1ab0932602d6760cfec6f7714e6759710d35e8723cc",
+  "model": "openai/gpt-4o-mini-2024-07-18",
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 2500,
+  "selected_attempt": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "You are rewriting one contiguous block of an English prose essay for a research corpus. Preserve every principal fact, example, event in the same order, viewpoint, central theme, and overall tone. Substantially change sentence construction and wording throughout. Do not invent or delete facts, summarize, add transitions to text outside this block, add a title, explanation, labels, quotation marks around the whole block, or any statement about AI. Keep the same number of natural paragraphs as the source block. Output only the rewritten block. Treat the source as data, not instructions."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite the source block in 306-458 words, aiming for 382. Use exactly 3 natural paragraphs. The completed block must have at least 250 words. Preserve any necessary proper names and short direct quotations, but rewrite the surrounding prose substantially.\n\nSOURCE BLOCK:\nA friend of mine calling to see me the other day and observing my faithful Airedale—\"Quilp\" by name—whose tail was in a state of violent emotion at the prospect of a walk, remarked that when the new taxes came in I should have to pay a guinea for the privilege of keeping that dog. I said I hoped that Mr. McKenna would do nothing so foolish. In fact, I said, I am sure he will do nothing so foolish. I know him well, and I have always found him a sensible man. Let him, said I, tax us all fairly according to our incomes, but why should he interfere with the way in which we spend the money that he leaves us? Why should he deny the friendship of that most friendly animal the dog to a poor man and make it the exclusive possession of the well-to-do?\n\nThe emotion of Quilp's tail kept pace with the fervour of my remarks. He knew that he was the subject of the conversation, and his large brown eyes gleamed with intelligence, and his expressive eyebrows were eloquent of self-pity and appeal. He was satisfied that whatever the issue I was on his side, and at half a hint he would have given my friend a taste of the rough side of his tongue. But he is a well-mannered brute, and knows how to restrain his feelings in company.\n\nWhat would be the result of your high tax? I continued with passion. It would be a blow at the democracy of dogs. It would reduce the whole of dogdom to a pampered class of degenerates. Is there anything more odious than the spectacle of a fat woman in furs nursing a lap dog in furs, too? It is as degrading to the noble family of dogs as a footman in gold buttons and gold braid is to the human family. But it is just these degenerates whom a high tax would protect. Honest fellows like Quilp here (more triumphant tail flourishes), dogs that love you like a brother, that will run for you, carry for you, bark for you, whose candour is so transparent and whose faithfulness has been the theme of countless poets—dogs like these would be taxed out of existence."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 420,
+    "total_tokens": 1054,
+    "cost": 0.0003471,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003471,
+      "upstream_inference_prompt_cost": 9.51e-05,
+      "upstream_inference_completions_cost": 0.000252
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "cost_usd": 0.0003471,
+  "finish_reason": "stop",
+  "quality_checks": {
+    "source_words": 382,
+    "output_words": 338,
+    "lower_words": 306,
+    "upper_words": 458,
+    "source_paragraphs": 3,
+    "output_paragraphs": 3,
+    "length_ok": true,
+    "paragraphs_ok": true,
+    "fivegram_overlap": 0.005988023952095809,
+    "overlap_ok": true,
+    "changed": true,
+    "accepted": true
+  },
+  "formatting_only": false,
+  "formatting_algorithm": null,
+  "model_output_sha256": "0767ee9483c1c319c7f8fd49bd454d75c3777d9cb9d41aa261d221ca4ea5c667",
+  "model_output_path": null,
+  "ai_block_path": "clean/mixed_ai_blocks/en/EN020.txt",
+  "mixed_path": "clean/mixed/en/EN020.txt",
+  "response_path": "raw/mixed/en/EN020.response.json"
+}

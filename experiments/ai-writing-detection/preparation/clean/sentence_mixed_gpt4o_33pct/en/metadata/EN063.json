@@ -1,0 +1,945 @@
+{
+  "source_id": "EN063",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "3b9882980796f9f0682885a0f7f0852c66a5a7ecdf11e114f61ace8cdad3a7d4",
+  "ai_article_sha256": "e1053014795e5d888cd5cbf39200782b6269e8b7cccc78be11a54ec7e6a7599f",
+  "mixed_article_sha256": "63c5491d0c3019689997746e6bde206ef4bf214aa1a654db750d5e32411bc930",
+  "human_source_sentence_count": 63,
+  "ai_source_sentence_count": 57,
+  "alignment_unit_count": 58,
+  "selected_alignment_unit_count": 21,
+  "mixed_sentence_count": 63,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.333333,
+  "selected_alignment_score_min": 0.282857,
+  "selected_alignment_score_median": 0.498276,
+  "selected_alignment_score_max": 0.64722,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "I feel an almost savage envy on hearing that London has been flooded in my absence, while I am in the mere country.",
+      "output_sha256": "eebd3b521e38b2cb13bc16b6c23ff025a277dc40e6a4be1819904c2917fbbcbc",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "eebd3b521e38b2cb13bc16b6c23ff025a277dc40e6a4be1819904c2917fbbcbc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "It seems that my beloved Battersea has been particularly blessed with the convergence of waters.",
+      "output_sha256": "5041b6856d0b0ee2909d9b211defb33e1a7dda94e12f58c9efd8a9d009404bcd",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.508485,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "96aad8b7319530030d975ea5caffdcd6aa532eaf0fb94dc67ffe24f752b2478d"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "5041b6856d0b0ee2909d9b211defb33e1a7dda94e12f58c9efd8a9d009404bcd",
+      "ai_unit_sentence_indices": [
+        2
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Battersea was already, as I need hardly say, the most beautiful of human localities.",
+      "output_sha256": "1dd3530879aab2a4e1d2d849a1091400fe5b0364f3a79fb44a39497f866e5faf",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "1dd3530879aab2a4e1d2d849a1091400fe5b0364f3a79fb44a39497f866e5faf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Now that it has the additional splendour of great sheets of water, there must be something quite incomparable in the landscape (or waterscape) of my own romantic town.",
+      "output_sha256": "3ac15fe3af1aa343a519bfc885aca8851e76544d96031c2ea70a0174cb06e3c6",
+      "alignment_unit_index": 4,
+      "alignment_score": null,
+      "source_human_sentence_index": 4,
+      "source_human_sha256": "3ac15fe3af1aa343a519bfc885aca8851e76544d96031c2ea70a0174cb06e3c6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "Battersea must be a vision of Venice.",
+      "output_sha256": "5cd24548a7e6607999bce4a64bf30aa345116ef14d39c1a18f28d2dba0739b73",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "5cd24548a7e6607999bce4a64bf30aa345116ef14d39c1a18f28d2dba0739b73",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The boat that brought the meat from the butcher’s must have shot along those lanes of rippling silver with the strange smoothness of the gondola.",
+      "output_sha256": "736105a11425a00b49b9f1b7944f6519c858aba09c6b6765b465fb3e6cd2f363",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "736105a11425a00b49b9f1b7944f6519c858aba09c6b6765b465fb3e6cd2f363",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "Similarly, the greengrocer ferrying cabbages to the corner of Latchmere Road must have rowed with the ethereal grace of a gondolier.",
+      "output_sha256": "6f4f396dce685f94dbe7fa893c625f1580de46071e20dfaa246d16ec4806502d",
+      "alignment_unit_index": 7,
+      "alignment_score": 0.64722,
+      "human_sentence_indices": [
+        7
+      ],
+      "human_sha256": [
+        "d60ec6558cbc28d1e5452bf82877038969587af644c234127a604f66d53ebfad"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "6f4f396dce685f94dbe7fa893c625f1580de46071e20dfaa246d16ec4806502d",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "There is something profoundly poetic about an island; when a neighborhood is submerged, it transforms into an archipelago.",
+      "output_sha256": "1df45b8c7fbaca4aafc024073db9d57ec0c70b86a1c04c00dce677e7a00b2472",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.535658,
+      "human_sentence_indices": [
+        8
+      ],
+      "human_sha256": [
+        "c6687458a96e545ae0c703fc82973dfc353e12ab94b24f35829b2a0173da6b3e"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "1df45b8c7fbaca4aafc024073db9d57ec0c70b86a1c04c00dce677e7a00b2472",
+      "ai_unit_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Some consider such romantic views of flood or fire slightly lacking in reality.",
+      "output_sha256": "09ce464c6fbbaa52ea0abb3de4d6f5fe8a4860d24185bf5385dfe53e889a3bad",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "09ce464c6fbbaa52ea0abb3de4d6f5fe8a4860d24185bf5385dfe53e889a3bad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Yet, I contend that this optimistic viewpoint is just as practical as any other.",
+      "output_sha256": "a4b2205e41b51d8222d8f14a266e6910b4327b8ce0c67642648db1144566e668",
+      "alignment_unit_index": 10,
+      "alignment_score": 0.415731,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "699859d3d518cc0ee9d620359c11a407f51a8623a6cc84c0de89195715526f07"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "a4b2205e41b51d8222d8f14a266e6910b4327b8ce0c67642648db1144566e668",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The true optimist, who perceives in such occurrences an opportunity for delight, is often more logical and sensible than the typical “Indignant Ratepayer,” who merely sees a chance to complain.",
+      "output_sha256": "db72851eca715564951c801e954000b0f739bd550bf5f8821b0fa46c66c200fe",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.635247,
+      "human_sentence_indices": [
+        11
+      ],
+      "human_sha256": [
+        "d4918f248c198a3316ab7c0a8465c1300e4ace3f614f6a4b930e2acdf50be8f1"
+      ],
+      "source_ai_sentence_index": 11,
+      "source_ai_sha256": "db72851eca715564951c801e954000b0f739bd550bf5f8821b0fa46c66c200fe",
+      "ai_unit_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Real pain, as in the case of being burnt at Smithfield or having a toothache, is a positive thing; it can be supported, but scarcely enjoyed.",
+      "output_sha256": "703a69d733e5d61066b83a6ba3dc935dd1e9ec21c0619edc3f72266ea3e4f8a1",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "703a69d733e5d61066b83a6ba3dc935dd1e9ec21c0619edc3f72266ea3e4f8a1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "But, after all, our toothaches are the exception, and as for being burnt at Smithfield, it only happens to us at the very longest intervals.",
+      "output_sha256": "8d1e6e994c9048c3a04e809605d91428e0afe65824960ca586c4265710d8e9ce",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "8d1e6e994c9048c3a04e809605d91428e0afe65824960ca586c4265710d8e9ce",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "And most of the inconveniences that make men swear or women cry are really sentimental or imaginative inconveniences—things altogether of the mind.",
+      "output_sha256": "e60ce386b4be74caac029517cf0c7c4961c3c37f138e304fd09bbb5194fae7a0",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "e60ce386b4be74caac029517cf0c7c4961c3c37f138e304fd09bbb5194fae7a0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "For instance, we often hear grown-up people complaining of having to hang about a railway station and wait for a train.",
+      "output_sha256": "540ef87e47521ce14c19b89572b3aa6e2f1b46cc1e5f8ff032319cca728b4237",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "540ef87e47521ce14c19b89572b3aa6e2f1b46cc1e5f8ff032319cca728b4237",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Did you ever hear a small boy complain of having to hang about a railway station and wait for a train?",
+      "output_sha256": "1a37ff5772a057beec7838e2d45ef400d43bcfb5367d9ba516282a23d09e499f",
+      "alignment_unit_index": 16,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "1a37ff5772a057beec7838e2d45ef400d43bcfb5367d9ba516282a23d09e499f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "No—because to a child, a train station is a cavern of wonder and a palace of poetic delight.",
+      "output_sha256": "9ec6ab1b06c21f5777ea5902fd948b913e2cf1ac90e56a24ba6e3e2f8c096d53",
+      "alignment_unit_index": 17,
+      "alignment_score": 0.580426,
+      "human_sentence_indices": [
+        17
+      ],
+      "human_sha256": [
+        "db61cfd7e121d5752baf68cfebc400e96d2e53558255785d29fb8e7d65dc9f36"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "9ec6ab1b06c21f5777ea5902fd948b913e2cf1ac90e56a24ba6e3e2f8c096d53",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "The red and green lights at the signals appear to them as new celestial bodies.",
+      "output_sha256": "8575dc44ccc7b8ad520585c18aebecd7d51e26d26fe7a34bd6033a7619c43510",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.317985,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "d5bb92ae45cce19d831ddb9151a4a02a286bfee7f07bf505ae9854475d3d0646"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "8575dc44ccc7b8ad520585c18aebecd7d51e26d26fe7a34bd6033a7619c43510",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Because to him when the wooden arm of the signal falls down suddenly, it is as if a great king had thrown down his staff as a signal and started a shrieking tournament of trains.",
+      "output_sha256": "ff9c4314bab3001ebaa48891b1d1eb7aa1a698b659a6ea1c5829d3d64ee8761e",
+      "alignment_unit_index": 19,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "ff9c4314bab3001ebaa48891b1d1eb7aa1a698b659a6ea1c5829d3d64ee8761e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I myself am of little boys’ habit in this matter.",
+      "output_sha256": "509f5eee8480932908b01bd6f8a33f6dadaebdbddf7251a18359038c65c3f101",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "509f5eee8480932908b01bd6f8a33f6dadaebdbddf7251a18359038c65c3f101",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "They also serve who only stand and wait for the two fifteen.",
+      "output_sha256": "f514072fdda0e6d282ed073d0eb851831e714b35d2e9324cb6be2b0deadbc7c8",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 21,
+      "source_human_sha256": "f514072fdda0e6d282ed073d0eb851831e714b35d2e9324cb6be2b0deadbc7c8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "Their meditations may be full of rich and fruitful things.",
+      "output_sha256": "9c48a624c7cdbf87357f4de967b7c2c61f9b7111323dfaaeb66f1386289f20bb",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "9c48a624c7cdbf87357f4de967b7c2c61f9b7111323dfaaeb66f1386289f20bb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Many of the most profound moments of my life have been spent at Clapham Junction, now likely submerged.",
+      "output_sha256": "0fdd51502fe2282dd3a45d54d69884954118fc474ae7e186d8b286bd2a1de4eb",
+      "alignment_unit_index": 22,
+      "alignment_score": 0.612019,
+      "human_sentence_indices": [
+        23
+      ],
+      "human_sha256": [
+        "e06de2e8583609776e3734e9c68dd9945e650a3e1af4b4fe7c71b6d184418035"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "0fdd51502fe2282dd3a45d54d69884954118fc474ae7e186d8b286bd2a1de4eb",
+      "ai_unit_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I have been there in many moods so fixed and mystical that the water might well have come up to my waist before I noticed it particularly.",
+      "output_sha256": "6a9da0cab2854c2766297286e117ee1d7bc7eb36dc5e585d47d1759d61ac1fcc",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "6a9da0cab2854c2766297286e117ee1d7bc7eb36dc5e585d47d1759d61ac1fcc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Yet, as I’ve mentioned, the emotional perspective one adopts determines the experience of these annoyances.",
+      "output_sha256": "ab20626a4ede7c34e75561be5544e76828e626d013d230ab1d1b7a23f3008760",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.282857,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "7d23267f91732f2ea6b3c487e2139cfd055ba851fa90f86ea675365fa4516e71"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "ab20626a4ede7c34e75561be5544e76828e626d013d230ab1d1b7a23f3008760",
+      "ai_unit_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You can safely apply the test to almost every one of the things that are currently talked of as the typical nuisance of daily life.",
+      "output_sha256": "c787d3472fc1afa3f26a8d90d63ca38980925b84571044f2e50865fd178a5a48",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 26,
+      "source_human_sha256": "c787d3472fc1afa3f26a8d90d63ca38980925b84571044f2e50865fd178a5a48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Consider the common belief that chasing after one’s hat is an unpleasant endeavor.",
+      "output_sha256": "31798d67cd8de2525e00383cd112c5896ed28e6fed38d0e4f38e366aac327b87",
+      "alignment_unit_index": 26,
+      "alignment_score": 0.352881,
+      "human_sentence_indices": [
+        27
+      ],
+      "human_sha256": [
+        "aeeb788b31e9c5e88a5465921f51100f2dc8776183c2c9c8fe9c1677a53962b4"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "31798d67cd8de2525e00383cd112c5896ed28e6fed38d0e4f38e366aac327b87",
+      "ai_unit_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Why should it be unpleasant to the well-ordered and pious mind?",
+      "output_sha256": "3f34e09e31a7ab92aa13d293f9385df4482d45e06f94352637e71f9541af5cb7",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "3f34e09e31a7ab92aa13d293f9385df4482d45e06f94352637e71f9541af5cb7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Not merely because it is running, and running exhausts one.",
+      "output_sha256": "27adfd2b20fdb82330f1051489198ba05cefcda711601b49e29d41a4923b80be",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "27adfd2b20fdb82330f1051489198ba05cefcda711601b49e29d41a4923b80be",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The same people run much faster in games and sports.",
+      "output_sha256": "f909695742306f98d0deb53f1335ef6f9da3870181479723cb6b4247c68b85ac",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "f909695742306f98d0deb53f1335ef6f9da3870181479723cb6b4247c68b85ac",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The same people run much more eagerly after an uninteresting little leather ball than they will after a nice silk hat.",
+      "output_sha256": "a89b1306a42094ddbcd60326e178d58736c6c9deb44fef36258a2ddad3462deb",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "a89b1306a42094ddbcd60326e178d58736c6c9deb44fef36258a2ddad3462deb",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "The notion that running after one’s hat is somehow humiliating stems from the implication of comedy.",
+      "output_sha256": "79248697bb32905ffdf68be71ccb01a51ed2ba5ce73d38c1533e457f4b413d26",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.322237,
+      "human_sentence_indices": [
+        32
+      ],
+      "human_sha256": [
+        "2d647a043c3bdb6a187873c7e8f92c37d7fe067d32f9759c44a608d0994ea80a"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "79248697bb32905ffdf68be71ccb01a51ed2ba5ce73d38c1533e457f4b413d26",
+      "ai_unit_sentence_indices": [
+        29
+      ]
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "It certainly is comic; but man is a very comic creature, and most of the things he does are comic—eating, for instance.",
+      "output_sha256": "e5cb2a038cd3dbbb066b26f29831dbe918d11fe8189a8bd61761af12ca722364",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "e5cb2a038cd3dbbb066b26f29831dbe918d11fe8189a8bd61761af12ca722364",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "And the most comic things of all are exactly the things that are most worth doing—such as making love.",
+      "output_sha256": "3ec255b459c488c4da1af1c7a26fb185bd5824adc4cd152486f9672a52338113",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "3ec255b459c488c4da1af1c7a26fb185bd5824adc4cd152486f9672a52338113",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "A person chasing after a hat is far less ridiculous than one pursuing a spouse.",
+      "output_sha256": "e42680e2bdbc2e8d80fef9d61eca06ff6299c98ad40a4e0eea6904556ac6d61b",
+      "alignment_unit_index": 33,
+      "alignment_score": 0.442576,
+      "human_sentence_indices": [
+        35
+      ],
+      "human_sha256": [
+        "f4fb59c7362826bf558110f28de31130826efa23c547467ca368ed761dad719d"
+      ],
+      "source_ai_sentence_index": 32,
+      "source_ai_sha256": "e42680e2bdbc2e8d80fef9d61eca06ff6299c98ad40a4e0eea6904556ac6d61b",
+      "ai_unit_sentence_indices": [
+        32
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "A man could, with a proper mindset, chase after his hat with genuine fervor and joy.",
+      "output_sha256": "131b1757646e606e13e15d020da82a2838942f3e7392f39645f6b7b33b0c99cb",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.414781,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "25308d97675ec9cd97299cdcdf5b180fe919fec9ea577543c1bbf6d42c8dafe0"
+      ],
+      "source_ai_sentence_index": 33,
+      "source_ai_sha256": "131b1757646e606e13e15d020da82a2838942f3e7392f39645f6b7b33b0c99cb",
+      "ai_unit_sentence_indices": [
+        33
+      ]
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "He might regard himself as a jolly huntsman pursuing a wild animal, for certainly no animal could be wilder.",
+      "output_sha256": "e8fec90b87bd319a6af960f59fe3aa8df4bcbde83b95dcb3928d2b83ed0218b3",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "e8fec90b87bd319a6af960f59fe3aa8df4bcbde83b95dcb3928d2b83ed0218b3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "In fact, I am inclined to believe that hat-hunting on windy days will be the sport of the upper classes in the future.",
+      "output_sha256": "0448ed954b700744176937ab741786619d9734b432d191265ad78d3f1a5f8dcf",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 38,
+      "source_human_sha256": "0448ed954b700744176937ab741786619d9734b432d191265ad78d3f1a5f8dcf",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "There will be a meet of ladies and gentlemen on some high ground on a gusty morning.",
+      "output_sha256": "27f2d95a2cf5ad5f8838825db2e5d38e95c8794b2e48b3323a9a888828a8ab0d",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "27f2d95a2cf5ad5f8838825db2e5d38e95c8794b2e48b3323a9a888828a8ab0d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "They will be told that the professional attendants have started a hat in such-and-such a thicket, or whatever be the technical term.",
+      "output_sha256": "6fb784c03c6da2459b33fdf70c2d45f23d9d256a4fd4da93b476cbe93b14bcf5",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "6fb784c03c6da2459b33fdf70c2d45f23d9d256a4fd4da93b476cbe93b14bcf5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "This activity would seamlessly blend sport with a sense of humanitarianism.",
+      "output_sha256": "1aa89a073a54e35480e17f76c740d01cafbefb1785f733d28158f933696fe05d",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.365385,
+      "human_sentence_indices": [
+        41
+      ],
+      "human_sha256": [
+        "bf97e4eb11fc24567fe5a745366b8d529be9fd49181655cc78c00afbd3bc61c4"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "1aa89a073a54e35480e17f76c740d01cafbefb1785f733d28158f933696fe05d",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "The hunters would feel that they were not inflicting pain.",
+      "output_sha256": "4a436ebdc71b606dc3f6d7235239515f8756251047b12cf971634337617befd4",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 42,
+      "source_human_sha256": "4a436ebdc71b606dc3f6d7235239515f8756251047b12cf971634337617befd4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Nay, they would feel that they were inflicting pleasure, rich, almost riotous pleasure, upon the people who were looking on.",
+      "output_sha256": "fd9881d5ec690bc2fa5dcaf38fbe201e01c1347da33c829767be362f932331a7",
+      "alignment_unit_index": 39,
+      "alignment_score": null,
+      "source_human_sentence_index": 43,
+      "source_human_sha256": "fd9881d5ec690bc2fa5dcaf38fbe201e01c1347da33c829767be362f932331a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "When last I saw an old gentleman running after his hat in Hyde Park, I told him that a heart so benevolent as his ought to be filled with peace and thanks at the thought of how much unaffected pleasure his every gesture and bodily attitude were at that moment giving to the crowd.",
+      "output_sha256": "f8ff648f6efc4a77ffd4864df832db381799f44aaae783f55d8ac4d7b4e7b715",
+      "alignment_unit_index": 40,
+      "alignment_score": null,
+      "source_human_sentence_index": 44,
+      "source_human_sha256": "f8ff648f6efc4a77ffd4864df832db381799f44aaae783f55d8ac4d7b4e7b715",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "This same principle of perspective can be applied to other common domestic frustrations.",
+      "output_sha256": "e7dff7b476d504a6a0ceb841d0dc29e5bc5f63cc598ecc82960a3138e7f3080b",
+      "alignment_unit_index": 41,
+      "alignment_score": 0.622615,
+      "human_sentence_indices": [
+        45
+      ],
+      "human_sha256": [
+        "11688be3c26c46a3b6bf8a6dc9f599e92d5a17da765cdfbd5b40dbbc25bd52d6"
+      ],
+      "source_ai_sentence_index": 40,
+      "source_ai_sha256": "e7dff7b476d504a6a0ceb841d0dc29e5bc5f63cc598ecc82960a3138e7f3080b",
+      "ai_unit_sentence_indices": [
+        40
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "For instance, a man might be troubled by a fly in his milk or a piece of cork in his wine and assume he is irritated.",
+      "output_sha256": "20004f466cbc3a8af0f739ce0a87ba38867257468d1243eca4f4f1e038061203",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.480451,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "d0acf8b17d3aa6a559914a57a7a19c472e20832d7ca098f27a680cc036ad4f65"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "20004f466cbc3a8af0f739ce0a87ba38867257468d1243eca4f4f1e038061203",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Let him think for a moment of the patience of anglers sitting by dark pools, and let his soul be immediately irradiated with gratification and repose.",
+      "output_sha256": "288aebbbb4ec3e96c28e4d1efc343a45364e2c5e2d9b3e37486d0e5785a132c4",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "288aebbbb4ec3e96c28e4d1efc343a45364e2c5e2d9b3e37486d0e5785a132c4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Again, I have known some people of very modern views driven by their distress to the use of theological terms to which they attached no doctrinal significance, merely because a drawer was jammed tight and they could not pull it out.",
+      "output_sha256": "d297dd3aeea784a75ea6c07d806cd94a13056f970cf0d213408e17407742cf47",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "d297dd3aeea784a75ea6c07d806cd94a13056f970cf0d213408e17407742cf47",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "A friend of mine was particularly afflicted in this way.",
+      "output_sha256": "d0f9101047cf2ba7c45a7e063e1e88aa72b2a95bb86386fe045111266f6b8595",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 49,
+      "source_human_sha256": "d0f9101047cf2ba7c45a7e063e1e88aa72b2a95bb86386fe045111266f6b8595",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Every day his drawer was jammed, and every day in consequence it was something else that rhymes to it.",
+      "output_sha256": "a0ba068bb3572f14ace55a043cedc8231e76b7667eb63f35d7c1cf6035c1d798",
+      "alignment_unit_index": 45,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "a0ba068bb3572f14ace55a043cedc8231e76b7667eb63f35d7c1cf6035c1d798",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "I suggested to him that this sense of frustration was entirely subjective and hinged on the belief that the drawer should easily yield to his efforts.",
+      "output_sha256": "43a4543694271cec44e6f84aa90275c546f127ddcb0ec4bf077cee1d2270fe05",
+      "alignment_unit_index": 46,
+      "alignment_score": 0.498276,
+      "human_sentence_indices": [
+        51
+      ],
+      "human_sha256": [
+        "3e2a916ec971239b317cad90797d89a44c02a3a8b2e0db68b02a6dc69ccca25e"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "43a4543694271cec44e6f84aa90275c546f127ddcb0ec4bf077cee1d2270fe05",
+      "ai_unit_sentence_indices": [
+        45
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "“But if,” I said, “you picture to yourself that you are pulling against some powerful and oppressive enemy, the struggle will become merely exciting and not exasperating.",
+      "output_sha256": "2e52ef0042526c80bfef61298725a3070bcfd24ba1a6d685e45ee18db50c1d09",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "2e52ef0042526c80bfef61298725a3070bcfd24ba1a6d685e45ee18db50c1d09",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Imagine you are hauling a lifeboat from the sea.",
+      "output_sha256": "7e5138e84e32bb952f2a327dd8ddc0cefa6e3ff2fce280e26c74328ad4e42842",
+      "alignment_unit_index": 48,
+      "alignment_score": 0.628571,
+      "human_sentence_indices": [
+        53
+      ],
+      "human_sha256": [
+        "b3a82d65398b0c55972b1601dbe6a7f0cfa231f79210a018d29aa651994df214"
+      ],
+      "source_ai_sentence_index": 47,
+      "source_ai_sha256": "7e5138e84e32bb952f2a327dd8ddc0cefa6e3ff2fce280e26c74328ad4e42842",
+      "ai_unit_sentence_indices": [
+        47
+      ]
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Imagine that you are roping up a fellow-creature out of an Alpine crevass.",
+      "output_sha256": "cfabf543ddfebe0d13823eb60d20fa4e2208b52287f3f3e7708aa0b6cc8d24c3",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "cfabf543ddfebe0d13823eb60d20fa4e2208b52287f3f3e7708aa0b6cc8d24c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Imagine even that you are a boy again and engaged in a tug-of-war between French and English.”",
+      "output_sha256": "a9a69bf9bc8d6aa7534fbea60e8118a8fc39178a831d7a2490e6e1191a0a4c60",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "a9a69bf9bc8d6aa7534fbea60e8118a8fc39178a831d7a2490e6e1191a0a4c60",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Shortly after saying this I left him; but I have no doubt at all that my words bore the best possible fruit.",
+      "output_sha256": "1f0a4d841b2b652969b650ce4e9f9514588504b3144035d09d6fac8498eaa65e",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "1f0a4d841b2b652969b650ce4e9f9514588504b3144035d09d6fac8498eaa65e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "I have no doubt that every day of his life he hangs on to the handle of that drawer with a flushed face and eyes bright with battle, uttering encouraging shouts to himself, and seeming to hear all round him the roar of an applauding ring.",
+      "output_sha256": "5c06efae95b27002a0d7ccaab6055b42458b1a67346409c00d953a2d546d052e",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "5c06efae95b27002a0d7ccaab6055b42458b1a67346409c00d953a2d546d052e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "So I do not think that it is altogether fanciful or incredible to suppose that even the floods in London may be accepted and enjoyed poetically.",
+      "output_sha256": "d7aa8865928f36c03e44eb3f62a89ce20408349d50ca84b9a75c26c25d8d0c48",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "d7aa8865928f36c03e44eb3f62a89ce20408349d50ca84b9a75c26c25d8d0c48",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Nothing beyond inconvenience seems really to have been caused by them; and inconvenience, as I have said, is only one aspect, and that the most unimaginative and accidental aspect of a really romantic situation.",
+      "output_sha256": "d403bac6191e9c23137f54ce80884eefc83d5d081e312683e74194c02216b38c",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 59,
+      "source_human_sha256": "d403bac6191e9c23137f54ce80884eefc83d5d081e312683e74194c02216b38c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "An adventure is simply an inconvenience viewed through the wrong lens.",
+      "output_sha256": "a77401df735ed6ea94759bd25d6abea8958974eac212eedc15bcbcd94a32ea96",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.492297,
+      "human_sentence_indices": [
+        60
+      ],
+      "human_sha256": [
+        "b3fbf85a200f966ebdf47a7a298e25485ff5b0d9a64c45f8acb63bdc5ceb66ba"
+      ],
+      "source_ai_sentence_index": 54,
+      "source_ai_sha256": "a77401df735ed6ea94759bd25d6abea8958974eac212eedc15bcbcd94a32ea96",
+      "ai_unit_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "An inconvenience is only an adventure wrongly considered.",
+      "output_sha256": "375a370a3dfbbd4b8f2e56a57e79b89c67c2c30b58ebc27fb9215d010a184615",
+      "alignment_unit_index": 56,
+      "alignment_score": null,
+      "source_human_sentence_index": 61,
+      "source_human_sha256": "375a370a3dfbbd4b8f2e56a57e79b89c67c2c30b58ebc27fb9215d010a184615",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The water that enveloped the homes and shops of London must, in fact, have only amplified their inherent charm and mystery.",
+      "output_sha256": "744cf8490c1653cca905ddfe2e29abfe35773aebdd646bf688b0dedfbb1baf4b",
+      "alignment_unit_index": 57,
+      "alignment_score": 0.607519,
+      "human_sentence_indices": [
+        62
+      ],
+      "human_sha256": [
+        "b918a63256adfe12173fc3ee467c021cfd5d0b490dc7f2e2495442aa42dad0d4"
+      ],
+      "source_ai_sentence_index": 56,
+      "source_ai_sha256": "744cf8490c1653cca905ddfe2e29abfe35773aebdd646bf688b0dedfbb1baf4b",
+      "ai_unit_sentence_indices": [
+        56
+      ]
+    },
+    {
+      "sentence_index": 63,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "As a Roman Catholic priest in a story once said, “Wine pairs well with everything, except water,” and similarly, water complements everything except wine.",
+      "output_sha256": "16eb4b5a01fdd73895383950e839e742d44a57d8b960150f0822aa67de0e2cc2",
+      "alignment_unit_index": 58,
+      "alignment_score": 0.64302,
+      "human_sentence_indices": [
+        63
+      ],
+      "human_sha256": [
+        "c3b4fd4d038688cf34e8360e2ec6cb151525eed96eb34be9efd1e85ac35dda4d"
+      ],
+      "source_ai_sentence_index": 57,
+      "source_ai_sha256": "16eb4b5a01fdd73895383950e839e742d44a57d8b960150f0822aa67de0e2cc2",
+      "ai_unit_sentence_indices": [
+        57
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "experiment": "paired_single_sentence_vs_three_sentence_context",
+  "model": "typesafe/jev-1.14",
+  "condition": "sentence_context_window_3_gpt4o_mini_33pct",
+  "external_api_called": false,
+  "new_requests_if_run": 1200,
+  "existing_single_results_reused": 1200,
+  "estimated_new_cost_usd_range": [
+    0.022307,
+    0.029743
+  ],
+  "languages": [
+    {
+      "length_cutpoints": [
+        14.0,
+        34.0
+      ],
+      "alignment_score_cutpoints": [
+        0.5187733333333333,
+        0.6165173333333333
+      ],
+      "ai_cell_quotas": {
+        "high|long|noquote": 9,
+        "high|long|quote": 36,
+        "high|short|noquote": 15,
+        "high|short|quote": 40,
+        "low|long|noquote": 36,
+        "low|long|quote": 14,
+        "low|short|noquote": 41,
+        "low|short|quote": 9,
+        "middle|long|noquote": 23,
+        "middle|long|quote": 32,
+        "middle|short|noquote": 27,
+        "middle|short|quote": 18
+      },
+      "selected_counts": {
+        "total": 600,
+        "ai": 300,
+        "human": 300,
+        "short": 300,
+        "long": 300,
+        "quote": 299,
+        "noquote": 301,
+        "ai_similarity_low": 100,
+        "ai_similarity_middle": 100,
+        "ai_similarity_high": 100,
+        "unique_sources": 100,
+        "minimum_targets_per_source": 1,
+        "maximum_targets_per_source": 15
+      },
+      "language": "zh",
+      "dataset": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\sentence_mixing\\next_experiments\\context_window\\data\\dataset.context3-sentence-mixed.zh.json",
+      "samples": 600,
+      "existing_single_sentence_cost_usd": 0.011231598000000004,
+      "existing_single_sentence_mean_cost_usd": 1.871933e-05,
+      "existing_single_sentence_mean_input_tokens": 445.6983333333333
+    },
+    {
+      "length_cutpoints": [
+        11.0,
+        26.0
+      ],
+      "alignment_score_cutpoints": [
+        0.404231,
+        0.5113293333333333
+      ],
+      "ai_cell_quotas": {
+        "high|long|noquote": 18,
+        "high|long|quote": 30,
+        "high|short|noquote": 3,
+        "high|short|quote": 49,
+        "low|long|noquote": 44,
+        "low|long|quote": 9,
+        "low|short|noquote": 30,
+        "low|short|quote": 17,
+        "middle|long|noquote": 36,
+        "middle|long|quote": 13,
+        "middle|short|noquote": 22,
+        "middle|short|quote": 29
+      },
+      "selected_counts": {
+        "total": 600,
+        "ai": 300,
+        "human": 300,
+        "short": 300,
+        "long": 300,
+        "quote": 297,
+        "noquote": 303,
+        "ai_similarity_low": 100,
+        "ai_similarity_middle": 100,
+        "ai_similarity_high": 100,
+        "unique_sources": 100,
+        "minimum_targets_per_source": 1,
+        "maximum_targets_per_source": 14
+      },
+      "language": "en",
+      "dataset": "C:\\Users\\asus\\Documents\\ChatGPT\\what-the-jev\\sentence_mixing\\next_experiments\\context_window\\data\\dataset.context3-sentence-mixed.en.json",
+      "samples": 600,
+      "existing_single_sentence_cost_usd": 0.010013219999999993,
+      "existing_single_sentence_mean_cost_usd": 1.6688699999999998e-05,
+      "existing_single_sentence_mean_input_tokens": 397.35
+    }
+  ]
+}

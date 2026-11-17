@@ -1,0 +1,939 @@
+{
+  "source_id": "EN080",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "acfbbc181535003b4bbbe5c219c52a7f1bc75c20e0ac7c86403e823c89fe4c08",
+  "ai_article_sha256": "b3c992d1c58d00f1c044b0c9af03e0474956623a7b07469d80d218a33f44f507",
+  "mixed_article_sha256": "7b3791c16bbe8b5428d63f0da054b2f0e0c6755e2080344b2b1d1b64afa8fcda",
+  "human_source_sentence_count": 59,
+  "ai_source_sentence_count": 55,
+  "alignment_unit_count": 55,
+  "selected_alignment_unit_count": 18,
+  "mixed_sentence_count": 62,
+  "selected_ai_sentence_count": 21,
+  "actual_ai_sentence_ratio": 0.33871,
+  "selected_alignment_score_min": 0.251714,
+  "selected_alignment_score_median": 0.410833,
+  "selected_alignment_score_max": 0.591691,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A little group of men, all of whom had achieved conspicuous success in life, were recently talking after dinner round the fire in the smoking-room of a London club.",
+      "output_sha256": "e3dc6dba6b80b26c64e1867f3b3aa47004ec3b7f07a98122b9864324bb178837",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "e3dc6dba6b80b26c64e1867f3b3aa47004ec3b7f07a98122b9864324bb178837",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "They included an eminent lawyer, a politician whose name is a household word, a well-known divine, and a journalist.",
+      "output_sha256": "91674fe253d4b80eb4229683447efe2ecf069af0cfb0f9d47d8508a3026267de",
+      "alignment_unit_index": 2,
+      "alignment_score": null,
+      "source_human_sentence_index": 2,
+      "source_human_sha256": "91674fe253d4b80eb4229683447efe2ecf069af0cfb0f9d47d8508a3026267de",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "The talk traversed many themes, and arrived at that very familiar proposition: If it were in your power to choose, would you live this life again?",
+      "output_sha256": "da3261938d97805103dc8cb4086be7afafa534af24dc6e772b9921bfce8d68a7",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "da3261938d97805103dc8cb4086be7afafa534af24dc6e772b9921bfce8d68a7",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "With one notable exception, the consensus was a resounding \"No.\" Interestingly, the exception was not the clergyman.",
+      "output_sha256": "4c94371d497de802d26d308b2e023b8cff210a8b58fe7cbd633e92bb0b3b5bcc",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.591691,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "a7a65484db45e95148988de2c40eb56dec2415c87550635fbd8b35587d708783"
+      ],
+      "source_ai_sentence_index": 4,
+      "source_ai_sha256": "4c94371d497de802d26d308b2e023b8cff210a8b58fe7cbd633e92bb0b3b5bcc",
+      "ai_unit_sentence_indices": [
+        4
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "He, like the majority, had found one visit to the play enough.",
+      "output_sha256": "797905ecbaf3d66f087744685d261423897633557f38f7acb9b0e178920fa081",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "797905ecbaf3d66f087744685d261423897633557f38f7acb9b0e178920fa081",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "He did not want to see it again.",
+      "output_sha256": "7c88de032fbe72d49c460c2e4019507f46c2cbb77657e9576bda4337ea50066c",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 6,
+      "source_human_sha256": "7c88de032fbe72d49c460c2e4019507f46c2cbb77657e9576bda4337ea50066c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The question, I suppose, is as old as humanity.",
+      "output_sha256": "141837427b6fc39e12ad2634f2879cca2cf425ec4f7021ebbe8b8aca8fb45ca1",
+      "alignment_unit_index": 6,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "141837427b6fc39e12ad2634f2879cca2cf425ec4f7021ebbe8b8aca8fb45ca1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "And the answer is old too, and has always, I fancy, resembled that of our little group round the smoking-room fire.",
+      "output_sha256": "4d5432af9d911fee744c2b1db9c4bf6159eb3d163d8a716d23423a57a132c4cd",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "4d5432af9d911fee744c2b1db9c4bf6159eb3d163d8a716d23423a57a132c4cd",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "This question typically arises in midlife, as youthful exuberance tends to overlook such contemplations.",
+      "output_sha256": "3e44ecf6f4937d84e7684244d2a0e53cd7054e19614ddeeec734b1c95dec3f40",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.251714,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "323f4eefdd8a753dc7e1511af75cce31007a25026482126acba4e3fb9ccbe40c"
+      ],
+      "source_ai_sentence_index": 8,
+      "source_ai_sha256": "3e44ecf6f4937d84e7684244d2a0e53cd7054e19614ddeeec734b1c95dec3f40",
+      "ai_unit_sentence_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "In our younger years, life unfolds like an endless horizon, rendering the notion of its recurrence irrelevant.",
+      "output_sha256": "5e5921f602f9157e2885716f409f2564fba4b7ec51bb3448146d4a7e8a8f7c44",
+      "alignment_unit_index": 8,
+      "alignment_score": 0.251714,
+      "human_sentence_indices": [
+        9
+      ],
+      "human_sha256": [
+        "323f4eefdd8a753dc7e1511af75cce31007a25026482126acba4e3fb9ccbe40c"
+      ],
+      "source_ai_sentence_index": 9,
+      "source_ai_sha256": "5e5921f602f9157e2885716f409f2564fba4b7ec51bb3448146d4a7e8a8f7c44",
+      "ai_unit_sentence_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "It is only when we reach the peak of our journey, beginning to descend with the evening shadows casting long over the valley, that this question emerges unbidden.",
+      "output_sha256": "7953660b005739c237f10da2562faafc6223541943fe34161da6a20100131c0e",
+      "alignment_unit_index": 9,
+      "alignment_score": 0.439886,
+      "human_sentence_indices": [
+        10
+      ],
+      "human_sha256": [
+        "0e307dea155f59c26521b6b567bf162476d8d2b7221db0a9b6e5121991e7d979"
+      ],
+      "source_ai_sentence_index": 10,
+      "source_ai_sha256": "7953660b005739c237f10da2562faafc6223541943fe34161da6a20100131c0e",
+      "ai_unit_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "The answer does not mean that the journey has not been worth while.",
+      "output_sha256": "5e9df7ae08aeb97c028c483e22aae8d7e49c2f8d1d597e619d762e7f2a362c5c",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "5e9df7ae08aeb97c028c483e22aae8d7e49c2f8d1d597e619d762e7f2a362c5c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It only means that the way has been long and rough, that we are footsore and tired, and that the thought of rest is sweet.",
+      "output_sha256": "0187d179fd924c510ca6d33d2c7c34192a72736437e02c25e0ac668e6defe99f",
+      "alignment_unit_index": 11,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "0187d179fd924c510ca6d33d2c7c34192a72736437e02c25e0ac668e6defe99f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "It is nature's way of reconciling us to our common lot.",
+      "output_sha256": "e74340562d06c0e76ee0375753db46a3d7ef7c5b958fec7ccfe373f15893baf8",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 13,
+      "source_human_sha256": "e74340562d06c0e76ee0375753db46a3d7ef7c5b958fec7ccfe373f15893baf8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "Life has shown us its grand spectacle, and now it prepares us for our inevitable return to the earth.",
+      "output_sha256": "f8fe31eb4d34e4ceb26599bb237fc83eacb98f4e161b1941e6a68682cc5c510a",
+      "alignment_unit_index": 13,
+      "alignment_score": 0.386541,
+      "human_sentence_indices": [
+        14
+      ],
+      "human_sha256": [
+        "a1c149ccdd3e6a68c2888c6824d80a065bfabbb7c1c6a2dac7a6d56c1c94251c"
+      ],
+      "source_ai_sentence_index": 13,
+      "source_ai_sha256": "f8fe31eb4d34e4ceb26599bb237fc83eacb98f4e161b1941e6a68682cc5c510a",
+      "ai_unit_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Thou hast made his mouth Avid of all dominion and all mightiness, All sorrow, all delight, all topless grandeurs, All beauty, and all starry majesties, And dim transtellar things;—even that it may, Filled in the ending with a puff of dust, Confess—\"It is enough.\"",
+      "output_sha256": "2dfdcf2df6cf4abd217611d58e03e1eacc13a72f0b99ac15575bfa4b1e7ffe0d",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "2dfdcf2df6cf4abd217611d58e03e1eacc13a72f0b99ac15575bfa4b1e7ffe0d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Yes, it is enough.",
+      "output_sha256": "2121c1ecb1e384445af022a3af5138fad001c01edc1ec5923281286a70194894",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "2121c1ecb1e384445af022a3af5138fad001c01edc1ec5923281286a70194894",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "We accept the verdict of mortality uncomplainingly—nay, we would not wish it to be reversed, even if that were possible.",
+      "output_sha256": "f91a74e7ae8846783d33e6d27915888a28d43df3b51f2d76e5a1999fdd3a9ec6",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "f91a74e7ae8846783d33e6d27915888a28d43df3b51f2d76e5a1999fdd3a9ec6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "However, this contemplation should not be confused with the more frivolous inquiry: \"Is life worth living?\"",
+      "output_sha256": "f0c5639aebeafb4c7b28d6b9f437026c57faf53b6f35633ed2cbf9ee50a5944e",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.471858,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "f014c955eab9758326b4c14875d8aa23584b3399b011037f68815fcf9e306562"
+      ],
+      "source_ai_sentence_index": 15,
+      "source_ai_sha256": "f0c5639aebeafb4c7b28d6b9f437026c57faf53b6f35633ed2cbf9ee50a5944e",
+      "ai_unit_sentence_indices": [
+        15
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The group round the smoking-room fire would have answered that question—if they had troubled to answer it at all—with an instant and scornful \"Yes.\"",
+      "output_sha256": "b47abc8ac013ce8b34b87be749a89723bf457950cb559602fe45c8967cf38bf2",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "b47abc8ac013ce8b34b87be749a89723bf457950cb559602fe45c8967cf38bf2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Each had experienced life as a magnificent adventure, making the most of their time and cherishing every moment of its rich tapestry.",
+      "output_sha256": "b5c99e0682540b5801a0435dc9033ccfadd17b2c92db3ecaf65e0248c842d26d",
+      "alignment_unit_index": 18,
+      "alignment_score": 0.269574,
+      "human_sentence_indices": [
+        20
+      ],
+      "human_sha256": [
+        "27d3930c50defee6cc23bed0d0a3a713600d3a604555975bd12617283c492542"
+      ],
+      "source_ai_sentence_index": 17,
+      "source_ai_sha256": "b5c99e0682540b5801a0435dc9033ccfadd17b2c92db3ecaf65e0248c842d26d",
+      "ai_unit_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "This sentiment is true for all who possess a healthy mindset.",
+      "output_sha256": "069bd6f37bdeba0cb2e29aefbc00ecd6a4c8df57707c46c3190e95161083ec2e",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.28697,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "da4b537314e8ee3f861283a3a761b6c3605e74ed32ec3383dbff48167af8ced6"
+      ],
+      "source_ai_sentence_index": 18,
+      "source_ai_sha256": "069bd6f37bdeba0cb2e29aefbc00ecd6a4c8df57707c46c3190e95161083ec2e",
+      "ai_unit_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "We may, like Job, in moments of depression curse the day when we were born; but the curse dies on our lips.",
+      "output_sha256": "e5e9c474ae053ebaeb71968aba123da62729038a351180f12b1c1bbe8458eb46",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "e5e9c474ae053ebaeb71968aba123da62729038a351180f12b1c1bbe8458eb46",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Swift, it is true, kept his birthday as a day of mourning; but no man who hates humanity can hope to find life endurable, for the measure of our sympathies is the measure of our joy in living.",
+      "output_sha256": "a96b63564b56d6289b038c5d67b96f1561c66f14ff0f4a02f4a1a47b1f6f72fc",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "a96b63564b56d6289b038c5d67b96f1561c66f14ff0f4a02f4a1a47b1f6f72fc",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Even those who take the most hopeless view of life are careful to keep out of mischief.",
+      "output_sha256": "3751db2bd1f6589adcbd54179386a85e6b65dde27b45a711912bcf063c6d7555",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "3751db2bd1f6589adcbd54179386a85e6b65dde27b45a711912bcf063c6d7555",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "A friend recounted a day spent with a renowned author known for his grim philosophical outlook.",
+      "output_sha256": "b429bdceab6fb5583a1af87b2890314d60475c52948727ee718b40b46cf0fcbe",
+      "alignment_unit_index": 23,
+      "alignment_score": 0.410833,
+      "human_sentence_indices": [
+        25
+      ],
+      "human_sha256": [
+        "17a274c8f155e458c5b1c106381eef2f78ddf31a5cac3269d6264626a5014772"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "b429bdceab6fb5583a1af87b2890314d60475c52948727ee718b40b46cf0fcbe",
+      "ai_unit_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "In the morning, the writer lamented that each day brought a wish to have never been born.",
+      "output_sha256": "5127ad29664ef13104776eda4df08f1dae4228ff6992a9a78c1e2eee86dbb651",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.497944,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "05398a010d6ab2f53e8e269e210008bc45bdc047323fa747d92025e362b7cab8"
+      ],
+      "source_ai_sentence_index": 24,
+      "source_ai_sha256": "5127ad29664ef13104776eda4df08f1dae4228ff6992a9a78c1e2eee86dbb651",
+      "ai_unit_sentence_indices": [
+        24,
+        25
+      ]
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "Yet in the afternoon, when faced with the opportunity to drown due to a mishap with a sailing boat, he turned down the chance with unexpected urgency.",
+      "output_sha256": "af9e95ce8e01ec8a3e6866aa0c155547e53cac5daf1a03be496d6c5f5e36de7e",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.497944,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "05398a010d6ab2f53e8e269e210008bc45bdc047323fa747d92025e362b7cab8"
+      ],
+      "source_ai_sentence_index": 25,
+      "source_ai_sha256": "af9e95ce8e01ec8a3e6866aa0c155547e53cac5daf1a03be496d6c5f5e36de7e",
+      "ai_unit_sentence_indices": [
+        24,
+        25
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Yet I daresay he went on believing that he wished he had never been born.",
+      "output_sha256": "d9832b57f203cbfaaf8573c56ab91a5e6c2caf3c776d9de395b15aae67fb589b",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "d9832b57f203cbfaaf8573c56ab91a5e6c2caf3c776d9de395b15aae67fb589b",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "It is not only the children who live in the world of \"Let us make pretend.\"",
+      "output_sha256": "7f8b36ec2195b78f4b65c4cf80bce25aea06bbdf088de57ab6f2d968d42a7786",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "7f8b36ec2195b78f4b65c4cf80bce25aea06bbdf088de57ab6f2d968d42a7786",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "No, we are all glad to have come this way once.",
+      "output_sha256": "d3ce8b761dc48fa89f5c307dd38ce990fcf23855ed752b3057bfce05c66d1f1d",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "d3ce8b761dc48fa89f5c307dd38ce990fcf23855ed752b3057bfce05c66d1f1d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is the thought of a second journey over the same ground that chills us and gives us pause.",
+      "output_sha256": "5d996eadffa6a3a230626f569c441b6451f224c8b6a71d7b3efa844ba094f0b2",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "5d996eadffa6a3a230626f569c441b6451f224c8b6a71d7b3efa844ba094f0b2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "Sometimes you will hear men answer, \"Yes, if I could have the experience I have had in this life.\"",
+      "output_sha256": "67395b0dfdb0fdef93007f182b8642e04c29074ba18b07aa208d33d214645244",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "67395b0dfdb0fdef93007f182b8642e04c29074ba18b07aa208d33d214645244",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "By which they mean, \"Yes, if I could come back with the certainty of making all the short cuts to happiness that I now see I have missed.\"",
+      "output_sha256": "cc95eb9fcf052aff237a46ec2c13aa5a1390ec89c74b771e2ca6a5e28c35061d",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "cc95eb9fcf052aff237a46ec2c13aa5a1390ec89c74b771e2ca6a5e28c35061d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "However, this perspective trivializes the question at hand.",
+      "output_sha256": "0f3ab7e96e0451ab2c7d77c7a7ea8c6bdecd6dfb7a2b542ce40c4aac0c349414",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.345,
+      "human_sentence_indices": [
+        33
+      ],
+      "human_sha256": [
+        "eb63a21e4de7f388283c2f61e7e96549f023ad17d8f4e33fc1c99150a212f776"
+      ],
+      "source_ai_sentence_index": 31,
+      "source_ai_sha256": "0f3ab7e96e0451ab2c7d77c7a7ea8c6bdecd6dfb7a2b542ce40c4aac0c349414",
+      "ai_unit_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "It is to ask that life shall not be a splendid mystery, every day of which is",
+      "output_sha256": "34026395af36c3e78061d7ff63d16d504591c9c169b6c37967949b4906033465",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 34,
+      "source_human_sha256": "34026395af36c3e78061d7ff63d16d504591c9c169b6c37967949b4906033465",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "an arch wherethrough Gleams the untravelled world;",
+      "output_sha256": "c76e66e34f9789277e45196173a5764a826c8015667d3de106381cec767faed9",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "c76e66e34f9789277e45196173a5764a826c8015667d3de106381cec767faed9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "but that it shall be a thoroughly safe three per cent. investment into which I can put my money with the certainty of having a good time—all sunshine and no shadows.",
+      "output_sha256": "a1ef0446748ad34bab20f3a5f149c461d38eb6af7fa4749b5591ea49acfee4f1",
+      "alignment_unit_index": 32,
+      "alignment_score": null,
+      "source_human_sentence_index": 36,
+      "source_human_sha256": "a1ef0446748ad34bab20f3a5f149c461d38eb6af7fa4749b5591ea49acfee4f1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "But life on those terms would be the dreariest funeral march of the marionettes.",
+      "output_sha256": "bf3bc2e5d92c96e55ceffde1b1e9d0aea6f56a767f4feba302a10160587a3528",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "bf3bc2e5d92c96e55ceffde1b1e9d0aea6f56a767f4feba302a10160587a3528",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Strip away the uncertainties of life, and you strip away its enchantment.",
+      "output_sha256": "e87e7c1cae83c3020565d6bdbb1544bb88e19816058001ed38fa068a1db1928e",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.539282,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "fc9bc592ef1f5fe22edcfc32ac245934c4a6ca2bf1ed149a9c14151bba3a429d"
+      ],
+      "source_ai_sentence_index": 34,
+      "source_ai_sha256": "e87e7c1cae83c3020565d6bdbb1544bb88e19816058001ed38fa068a1db1928e",
+      "ai_unit_sentence_indices": [
+        34
+      ]
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "It would be akin to stepping to the crease in cricket with the assurance of scoring runs at will; no one would find that appealing.",
+      "output_sha256": "44100455eb8b0466b749ef86cae5606633de29c51232b2fa80e2ded0754f8780",
+      "alignment_unit_index": 35,
+      "alignment_score": 0.416091,
+      "human_sentence_indices": [
+        39
+      ],
+      "human_sha256": [
+        "307267853fbd48913e90a688b0a3221fe3f1111b61a3331b7abc4343f8556893"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "44100455eb8b0466b749ef86cae5606633de29c51232b2fa80e2ded0754f8780",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "No one would trouble to go to the wicket on those preposterous terms.",
+      "output_sha256": "05504efd33db3fd5795095bcc57d0195eabc2dfde36422ab0df12af58dad4775",
+      "alignment_unit_index": 36,
+      "alignment_score": null,
+      "source_human_sentence_index": 40,
+      "source_human_sha256": "05504efd33db3fd5795095bcc57d0195eabc2dfde36422ab0df12af58dad4775",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 9,
+      "origin": "human",
+      "text": "It is because I may be out first ball or stay in and make a hundred runs (not that I ever did any such heroic thing) that I put on the pads with the feverish sense of adventure.",
+      "output_sha256": "bb2ae0c556593b9ab070a3ffc03ffa32843a3b3eab5471fe18fdae736db65067",
+      "alignment_unit_index": 37,
+      "alignment_score": null,
+      "source_human_sentence_index": 41,
+      "source_human_sha256": "bb2ae0c556593b9ab070a3ffc03ffa32843a3b3eab5471fe18fdae736db65067",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 44,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "Each dawn carries the same wonder as that first moment of creation, ensuring that life remains a story still unfolding.",
+      "output_sha256": "88e520e1acd12a0a915b4a8de35eb5b6f045958b2f19699ed900c7177a9e2c03",
+      "alignment_unit_index": 38,
+      "alignment_score": 0.365737,
+      "human_sentence_indices": [
+        42
+      ],
+      "human_sha256": [
+        "5e937f80a6a78a3da49b062ed42386b319b69f90f006b3ada6a1274456186eb2"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "88e520e1acd12a0a915b4a8de35eb5b6f045958b2f19699ed900c7177a9e2c03",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 45,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "Moreover, how could past experiences truly benefit us?",
+      "output_sha256": "1b88f7902320fb445a11281b1c23f241df14f1f369dec2c7d39a119654196e33",
+      "alignment_unit_index": 39,
+      "alignment_score": 0.474675,
+      "human_sentence_indices": [
+        43
+      ],
+      "human_sha256": [
+        "4a6527d0cbacdf7c2ea1883cc42986bd54136d5c2e87f16c65e6ccca31b0520b"
+      ],
+      "source_ai_sentence_index": 38,
+      "source_ai_sha256": "1b88f7902320fb445a11281b1c23f241df14f1f369dec2c7d39a119654196e33",
+      "ai_unit_sentence_indices": [
+        38
+      ]
+    },
+    {
+      "sentence_index": 46,
+      "paragraph_index": 10,
+      "origin": "ai",
+      "text": "It is often said that character shapes destiny.",
+      "output_sha256": "3a5014252571272c1763b595bd4305700aa03bc9c19dc2f36bc46509a37a8037",
+      "alignment_unit_index": 40,
+      "alignment_score": 0.577143,
+      "human_sentence_indices": [
+        44
+      ],
+      "human_sha256": [
+        "54dd9da2c3a16e6af455f22ed15261c8e2eb3c45ecf8f9e9b375d6256dc2f45f"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "3a5014252571272c1763b595bd4305700aa03bc9c19dc2f36bc46509a37a8037",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 47,
+      "paragraph_index": 10,
+      "origin": "human",
+      "text": "If you came back with that weak chin and flickering eye, not all the experience of all the ages would save you from futility.",
+      "output_sha256": "20ecac3b83d9c77b8a26cadc72a5f55ed8561372f16ffffde2546574d7b0c53c",
+      "alignment_unit_index": 41,
+      "alignment_score": null,
+      "source_human_sentence_index": 45,
+      "source_human_sha256": "20ecac3b83d9c77b8a26cadc72a5f55ed8561372f16ffffde2546574d7b0c53c",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 48,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "If we were to relive our existence, it would have to be under the same unknown circumstances, to keep the experience meaningful.",
+      "output_sha256": "1ae5379ea6c55eff00cfcc43a4ebb14e2f3f3f8874545267215dfa1da950510f",
+      "alignment_unit_index": 42,
+      "alignment_score": 0.35029,
+      "human_sentence_indices": [
+        46
+      ],
+      "human_sha256": [
+        "60dbc272792810d6f5a5e72cb2a2c2c2705b6a2612be56c523ad72ce5586df72"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "1ae5379ea6c55eff00cfcc43a4ebb14e2f3f3f8874545267215dfa1da950510f",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    },
+    {
+      "sentence_index": 49,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "We must come, as we came before, like wanderers out of eternity for the brief adventure of time.",
+      "output_sha256": "3abbcd43cab7e549dbbc79e53edb5cda1cc1abf213d69161af312ee2dc7711e8",
+      "alignment_unit_index": 43,
+      "alignment_score": null,
+      "source_human_sentence_index": 47,
+      "source_human_sha256": "3abbcd43cab7e549dbbc79e53edb5cda1cc1abf213d69161af312ee2dc7711e8",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 50,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "And, in spite of all the fascinations of that adventure, the balance of our feeling is against repeating it.",
+      "output_sha256": "8fb2162ddaa792ed23e3964ebae485c527e09efbe18a7da2d7196ff9c1a46ca0",
+      "alignment_unit_index": 44,
+      "alignment_score": null,
+      "source_human_sentence_index": 48,
+      "source_human_sha256": "8fb2162ddaa792ed23e3964ebae485c527e09efbe18a7da2d7196ff9c1a46ca0",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 51,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "We understand that everything that makes life precious would disappear along with the familiar faces and cherished connections from our past.",
+      "output_sha256": "e1fd74f0c0429138d87b9efce723c64bca23ab6833bc161a44375fe4783a1dcc",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.385395,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "1d33b7cff766e953dbf40d35bb66712075a59655265b1235f388235b7e44ac00"
+      ],
+      "source_ai_sentence_index": 44,
+      "source_ai_sha256": "e1fd74f0c0429138d87b9efce723c64bca23ab6833bc161a44375fe4783a1dcc",
+      "ai_unit_sentence_indices": [
+        44,
+        45
+      ]
+    },
+    {
+      "sentence_index": 52,
+      "paragraph_index": 11,
+      "origin": "ai",
+      "text": "The thought of forming new bonds, of forging new paths, feels somewhat disloyal.",
+      "output_sha256": "e3fd0d3ed66c392c6035a458eeb138566057ba277d8145a5f65c0190af336b29",
+      "alignment_unit_index": 45,
+      "alignment_score": 0.385395,
+      "human_sentence_indices": [
+        49
+      ],
+      "human_sha256": [
+        "1d33b7cff766e953dbf40d35bb66712075a59655265b1235f388235b7e44ac00"
+      ],
+      "source_ai_sentence_index": 45,
+      "source_ai_sha256": "e3fd0d3ed66c392c6035a458eeb138566057ba277d8145a5f65c0190af336b29",
+      "ai_unit_sentence_indices": [
+        44,
+        45
+      ]
+    },
+    {
+      "sentence_index": 53,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "Holmes once wrote a poem about being \"Homesick in heaven\"; but it would be still harder to be homesick on earth—to be wandering about among the ghosts of old memories, and trying to recapture the familiar atmosphere of things.",
+      "output_sha256": "33030d5c3e12f0e05ec4fab240a37794adaa388a58e6c400cb83ddc1150b851d",
+      "alignment_unit_index": 46,
+      "alignment_score": null,
+      "source_human_sentence_index": 50,
+      "source_human_sha256": "33030d5c3e12f0e05ec4fab240a37794adaa388a58e6c400cb83ddc1150b851d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 54,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "We should make new friends; but they would not be the same.",
+      "output_sha256": "eab35ad6eb9f347bb7760f2ed2983539b70ec9f37d02b3704623b753de6cb7d6",
+      "alignment_unit_index": 47,
+      "alignment_score": null,
+      "source_human_sentence_index": 51,
+      "source_human_sha256": "eab35ad6eb9f347bb7760f2ed2983539b70ec9f37d02b3704623b753de6cb7d6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 55,
+      "paragraph_index": 11,
+      "origin": "human",
+      "text": "They might be better; but we should not ask for better friends: we should yearn for the old ones.",
+      "output_sha256": "85a29720a94b907c7da6e86448a1a8f4904a18bdef1194fb421387d226ed4312",
+      "alignment_unit_index": 48,
+      "alignment_score": null,
+      "source_human_sentence_index": 52,
+      "source_human_sha256": "85a29720a94b907c7da6e86448a1a8f4904a18bdef1194fb421387d226ed4312",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 56,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "There is a fine passage in Guido Rey's noble book on the \"Matterhorn\" which comes to my mind as a fitting expression of what I think we feel.",
+      "output_sha256": "2de623a92f540edd974b01bf3c65f61191c323a0cbce5a9d1710c7980849dd22",
+      "alignment_unit_index": 49,
+      "alignment_score": null,
+      "source_human_sentence_index": 53,
+      "source_human_sha256": "2de623a92f540edd974b01bf3c65f61191c323a0cbce5a9d1710c7980849dd22",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 57,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "He was on his way to climb the mountain, when, on one of its lower slopes, he saw standing lonely in the evening light the figure of a grey-headed man.",
+      "output_sha256": "251818236e39c35ae334e9e16ecc2bb2b2365719d920b053368c1be4826c753f",
+      "alignment_unit_index": 50,
+      "alignment_score": null,
+      "source_human_sentence_index": 54,
+      "source_human_sha256": "251818236e39c35ae334e9e16ecc2bb2b2365719d920b053368c1be4826c753f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 58,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "It was Whymper, the conqueror of the Matterhorn—Whymper grown old, standing there in the evening light and gazing on the mighty rock that he had vanquished in his prime.",
+      "output_sha256": "29f89772abafd97f62fa82116ce4f3186f562e6ae552fe75cb1031a2c7a7e488",
+      "alignment_unit_index": 51,
+      "alignment_score": null,
+      "source_human_sentence_index": 55,
+      "source_human_sha256": "29f89772abafd97f62fa82116ce4f3186f562e6ae552fe75cb1031a2c7a7e488",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 59,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "His climbing days were done, and he sought no more victories on the mountains.",
+      "output_sha256": "b94f91d8859fb737b09efd16c3f7836a5ca9bb9c731c6ceac3e603391daafdf5",
+      "alignment_unit_index": 52,
+      "alignment_score": null,
+      "source_human_sentence_index": 56,
+      "source_human_sha256": "b94f91d8859fb737b09efd16c3f7836a5ca9bb9c731c6ceac3e603391daafdf5",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 60,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "He had had his day and was content to stand afar off, alone with his memories, leaving the joy of battle to the young and the ardent.",
+      "output_sha256": "864eb4b8872fb54fc8c0fdda3e403b13f0f63be8e59610697f58e22ef7cd0557",
+      "alignment_unit_index": 53,
+      "alignment_score": null,
+      "source_human_sentence_index": 57,
+      "source_human_sha256": "864eb4b8872fb54fc8c0fdda3e403b13f0f63be8e59610697f58e22ef7cd0557",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 61,
+      "paragraph_index": 12,
+      "origin": "human",
+      "text": "There was not one of those memories that he would be without—save, of course, that terrible experience in the hour of his victory over the Matterhorn.",
+      "output_sha256": "af1cf2605b04be113ef4821a97b2855f3914a6ec64e29216679858150e95b9ae",
+      "alignment_unit_index": 54,
+      "alignment_score": null,
+      "source_human_sentence_index": 58,
+      "source_human_sha256": "af1cf2605b04be113ef4821a97b2855f3914a6ec64e29216679858150e95b9ae",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 62,
+      "paragraph_index": 12,
+      "origin": "ai",
+      "text": "Yet, had anyone inquired if he still craved those lofty heights and celestial wonders, he would have likely replied, \"It is enough.\"",
+      "output_sha256": "75786f18d39e9208bc83164454c6acaf65c88a00b5579dabda2db7995580a2ef",
+      "alignment_unit_index": 55,
+      "alignment_score": 0.489328,
+      "human_sentence_indices": [
+        59
+      ],
+      "human_sha256": [
+        "a610b8d3fa40971ea2fd5923d0739f8be5f6239e1074e3460871a124fd89db77"
+      ],
+      "source_ai_sentence_index": 55,
+      "source_ai_sha256": "75786f18d39e9208bc83164454c6acaf65c88a00b5579dabda2db7995580a2ef",
+      "ai_unit_sentence_indices": [
+        55
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "source_id": "EN042",
+  "language": "en",
+  "condition": "sentence_unit_mixed_gpt4o_mini_33pct",
+  "generator_model": "openai/gpt-4o-mini-2024-07-18",
+  "human_article_sha256": "ded53682ba7241c205b0a2c6942083169491500cbce1079afbb0cc83bf9c8a54",
+  "ai_article_sha256": "722d076e4a616dbd7bb7db2cda230550aa2aac455811375b1b2eefae502e9bea",
+  "mixed_article_sha256": "d1f1d0a6e874940a55f2a7d1d3813c7ded3d8933ff8cc29c0950ae599df2eea2",
+  "human_source_sentence_count": 40,
+  "ai_source_sentence_count": 41,
+  "alignment_unit_count": 36,
+  "selected_alignment_unit_count": 11,
+  "mixed_sentence_count": 43,
+  "selected_ai_sentence_count": 14,
+  "actual_ai_sentence_ratio": 0.325581,
+  "selected_alignment_score_min": 0.26619,
+  "selected_alignment_score_median": 0.542004,
+  "selected_alignment_score_max": 0.767584,
+  "segments": [
+    {
+      "sentence_index": 1,
+      "paragraph_index": 1,
+      "origin": "human",
+      "text": "A naval gentleman of importance having asked me who the original Davy Jones was, I was rendered mute and ashamed.",
+      "output_sha256": "c86b8a98ba21b28453c097bcda944898db94a451a0f7f2e7085b1a41f1584da2",
+      "alignment_unit_index": 1,
+      "alignment_score": null,
+      "source_human_sentence_index": 1,
+      "source_human_sha256": "c86b8a98ba21b28453c097bcda944898db94a451a0f7f2e7085b1a41f1584da2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 2,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "The embarrassment should have belonged to him, given his position within the Admiralty, where knowledge of maritime lore is expected.",
+      "output_sha256": "259e1c611996d74a04894197b9ce4a094cb440d18a8822f3c898c0cfca5fe598",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.304437,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "c53e07716e3695793b9a572a4e4c891757271808702532b824ce8c3cebabaa7d"
+      ],
+      "source_ai_sentence_index": 2,
+      "source_ai_sha256": "259e1c611996d74a04894197b9ce4a094cb440d18a8822f3c898c0cfca5fe598",
+      "ai_unit_sentence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "paragraph_index": 1,
+      "origin": "ai",
+      "text": "However, the whims of circumstance found me, a mere literary figure, feeling the weight of that moment.",
+      "output_sha256": "0071fcf4b13138c64a0fba896afe3886cb4bab5f9b6c1385db5ab171f344c54e",
+      "alignment_unit_index": 2,
+      "alignment_score": 0.304437,
+      "human_sentence_indices": [
+        2
+      ],
+      "human_sha256": [
+        "c53e07716e3695793b9a572a4e4c891757271808702532b824ce8c3cebabaa7d"
+      ],
+      "source_ai_sentence_index": 3,
+      "source_ai_sha256": "0071fcf4b13138c64a0fba896afe3886cb4bab5f9b6c1385db5ab171f344c54e",
+      "ai_unit_sentence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "I left with bent head, determined, directly I reached London and books were again accessible, to find the answer.",
+      "output_sha256": "00acf516fad72eb98b5abdda448b9892972269433b160de6295999ea3ddac841",
+      "alignment_unit_index": 3,
+      "alignment_score": null,
+      "source_human_sentence_index": 3,
+      "source_human_sha256": "00acf516fad72eb98b5abdda448b9892972269433b160de6295999ea3ddac841",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 5,
+      "paragraph_index": 2,
+      "origin": "ai",
+      "text": "But have I truly discovered it?",
+      "output_sha256": "476891dcae079188d4fc9e76ba0fb9b7897b3bc157fac0e8da90448d50a15c6c",
+      "alignment_unit_index": 4,
+      "alignment_score": 0.543939,
+      "human_sentence_indices": [
+        4
+      ],
+      "human_sha256": [
+        "2f03c27395ef52566dcb2e54aeebbb674e7651cc9559990dab3b30bc0b6100b5"
+      ],
+      "source_ai_sentence_index": 5,
+      "source_ai_sha256": "476891dcae079188d4fc9e76ba0fb9b7897b3bc157fac0e8da90448d50a15c6c",
+      "ai_unit_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "paragraph_index": 2,
+      "origin": "human",
+      "text": "You shall decide.",
+      "output_sha256": "10eca76ed395080e8efc7407938944a0fc8fad0da30979312d76adcd680c9825",
+      "alignment_unit_index": 5,
+      "alignment_score": null,
+      "source_human_sentence_index": 5,
+      "source_human_sha256": "10eca76ed395080e8efc7407938944a0fc8fad0da30979312d76adcd680c9825",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 7,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "I commenced my inquiry with a \"Glossary of Sea Terms,\" which offered a slick explanation regarding Davy Jones's locker but failed to address its etymology.",
+      "output_sha256": "17538c4825a9f2729954ff95edea3f7c24828bacb46f64aa039c33400cec6450",
+      "alignment_unit_index": 6,
+      "alignment_score": 0.562594,
+      "human_sentence_indices": [
+        6
+      ],
+      "human_sha256": [
+        "9b18f9cbb166994333ddbcb53e8236ec0c92cae84ee85698fa37159cca1cf0cf"
+      ],
+      "source_ai_sentence_index": 7,
+      "source_ai_sha256": "17538c4825a9f2729954ff95edea3f7c24828bacb46f64aa039c33400cec6450",
+      "ai_unit_sentence_indices": [
+        7
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "I passed on to \"The Oxford Dictionary,\" there to find the meaning more precisely stated, after directions how to pronounce Davy's name.",
+      "output_sha256": "f40a535e3aea36b166f13a293a3231bc93d9cdade5a231ea059d787ca99f02f6",
+      "alignment_unit_index": 7,
+      "alignment_score": null,
+      "source_human_sentence_index": 7,
+      "source_human_sha256": "f40a535e3aea36b166f13a293a3231bc93d9cdade5a231ea059d787ca99f02f6",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 9,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "You or I would assume that he should be pronounced as he is spelt: just Davy; but the late Dr. Murray knew better.",
+      "output_sha256": "788f3154d3350d72341a04b7e89c082828a4ab0f4fcbfa09fdaffa37b46107ad",
+      "alignment_unit_index": 8,
+      "alignment_score": null,
+      "source_human_sentence_index": 8,
+      "source_human_sha256": "788f3154d3350d72341a04b7e89c082828a4ab0f4fcbfa09fdaffa37b46107ad",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 10,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "You don't say Davy; you say Dē.vi .",
+      "output_sha256": "07776473ea780b7f81eb801d29c713923c7677215974ff9af55b54fbf56d5d47",
+      "alignment_unit_index": 9,
+      "alignment_score": null,
+      "source_human_sentence_index": 9,
+      "source_human_sha256": "07776473ea780b7f81eb801d29c713923c7677215974ff9af55b54fbf56d5d47",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 11,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Having invented and solved these difficulties, the Dictionary proceeds: \"Nautical slang.",
+      "output_sha256": "23074192876ea2fbbbb733df2edfaa8406be54919ed261b3c4c9e91593e7f0c3",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 10,
+      "source_human_sha256": "23074192876ea2fbbbb733df2edfaa8406be54919ed261b3c4c9e91593e7f0c3",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 12,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "The spirit of the sea, the sailor's devil.",
+      "output_sha256": "780b86cd88c43731284568d4ea56dfffd19c36227fb3cb7312641dfe94edb4c2",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 11,
+      "source_human_sha256": "780b86cd88c43731284568d4ea56dfffd19c36227fb3cb7312641dfe94edb4c2",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 13,
+      "paragraph_index": 3,
+      "origin": "human",
+      "text": "Davy Jones's locker: the ocean, the deep, especially as the grave of those who perish at sea.\"",
+      "output_sha256": "19661ed3063791516e46efba2cdf801db8f3d99b9c4ad5f538f9c33b267d1394",
+      "alignment_unit_index": 10,
+      "alignment_score": null,
+      "source_human_sentence_index": 12,
+      "source_human_sha256": "19661ed3063791516e46efba2cdf801db8f3d99b9c4ad5f538f9c33b267d1394",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 14,
+      "paragraph_index": 3,
+      "origin": "ai",
+      "text": "Among the references was Smollett’s \"Peregrine Pickle,\" along with one J. Willock, whom I will revisit later.",
+      "output_sha256": "56ada069af37ac0a5375ec17e47ae847b3cb9cc9c962a6bc1501c5d9ed156a8c",
+      "alignment_unit_index": 11,
+      "alignment_score": 0.589559,
+      "human_sentence_indices": [
+        13
+      ],
+      "human_sha256": [
+        "e9e4c05bef7390b36f8f097a512ca6f517c19b1ae47fd5e096ccd4e8c1ac6c20"
+      ],
+      "source_ai_sentence_index": 12,
+      "source_ai_sha256": "56ada069af37ac0a5375ec17e47ae847b3cb9cc9c962a6bc1501c5d9ed156a8c",
+      "ai_unit_sentence_indices": [
+        12
+      ]
+    },
+    {
+      "sentence_index": 15,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "Still on the search for an origin of Davy Jones I went next to \"The Dictionary of National Biography\" (which, if only you could get it ashore, is, no matter what the pundits say as to the Bible and Boswell and Plato and \"The Golden Treasury,\" and so forth, the best book for a desert island), and there I found no fewer than eight David Joneses, all of course Welsh, not one of whom, however, could possibly claim any connexion with our hero; three being hymn-writers and antiquaries, one a revivalist, one a soldier and translator, one a barrister, one a missionary to Madagascar (the only one who knew anything of the sea), and one a mad preacher whose troubles caused his \"coal-black hair to turn milk-white in a night\"—as mine seemed likely soon to do.",
+      "output_sha256": "a7d9ccf5882f061b8164c1ee526f72872aa45bad314e23335ffd7cdc21947b05",
+      "alignment_unit_index": 12,
+      "alignment_score": null,
+      "source_human_sentence_index": 14,
+      "source_human_sha256": "a7d9ccf5882f061b8164c1ee526f72872aa45bad314e23335ffd7cdc21947b05",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 16,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "However, I then bethought me of what I should have done first, and seeking the shelves where \"Notes and Queries\" reside was at once rewarded.",
+      "output_sha256": "450c21960cb2ffd3b66aae172aa6e924cfc02a32053373ada7f1f5c82827ff13",
+      "alignment_unit_index": 13,
+      "alignment_score": null,
+      "source_human_sentence_index": 15,
+      "source_human_sha256": "450c21960cb2ffd3b66aae172aa6e924cfc02a32053373ada7f1f5c82827ff13",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 17,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "For \"Notes and Queries\" had tackled the problem and done with it as long ago as 1851.",
+      "output_sha256": "ce9d0a6d8044f3ad921cb15f51276ddad3d78b8ead2625e96bf0b11e266bb1df",
+      "alignment_unit_index": 14,
+      "alignment_score": null,
+      "source_human_sentence_index": 16,
+      "source_human_sha256": "ce9d0a6d8044f3ad921cb15f51276ddad3d78b8ead2625e96bf0b11e266bb1df",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 18,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "On June 14 of that year Mr. Henry Campkin requested the little paper (which, since Captain Cuttle provided it with its excellent motto, should have a certain friendliness towards nautical questions) to help him.",
+      "output_sha256": "cd500147d5cccb948d876083763877d4e1768e039c94662f4d6ffbcfd18cff8e",
+      "alignment_unit_index": 15,
+      "alignment_score": null,
+      "source_human_sentence_index": 17,
+      "source_human_sha256": "cd500147d5cccb948d876083763877d4e1768e039c94662f4d6ffbcfd18cff8e",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 19,
+      "paragraph_index": 4,
+      "origin": "ai",
+      "text": "Unlike my Admiralty acquaintance, Mr. Campkin did not bluntly inquire, \"Who the devil was Davy Jones?\"",
+      "output_sha256": "7aaf379a34a69a5afffe5d0fe7ea8c47aef8daf34fdc72f48a631856ab74fa1e",
+      "alignment_unit_index": 16,
+      "alignment_score": 0.58125,
+      "human_sentence_indices": [
+        18
+      ],
+      "human_sha256": [
+        "ff8bd0a06da9e2eb3ef2524b284011c0288c48cf925a4332bb01bd68a3dc9872"
+      ],
+      "source_ai_sentence_index": 19,
+      "source_ai_sha256": "7aaf379a34a69a5afffe5d0fe7ea8c47aef8daf34fdc72f48a631856ab74fa1e",
+      "ai_unit_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "sentence_index": 20,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "He asked, as a gentleman should, in gentlemanly, if precise, terms: \"Who was the important individual whose name has become so powerful a myth?",
+      "output_sha256": "80e207cf15b7b37ec124d7cc259913dd139e1ce27ab50ef7d0ebd5b81b80580f",
+      "alignment_unit_index": 17,
+      "alignment_score": null,
+      "source_human_sentence_index": 19,
+      "source_human_sha256": "80e207cf15b7b37ec124d7cc259913dd139e1ce27ab50ef7d0ebd5b81b80580f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 21,
+      "paragraph_index": 4,
+      "origin": "human",
+      "text": "And what occasioned the identification of the ocean itself with the locker of this mysterious person?\"",
+      "output_sha256": "5fb5bc922cde496b34efd5732a3632b3811f4b66cf8479233fdafa2cccec8dea",
+      "alignment_unit_index": 18,
+      "alignment_score": null,
+      "source_human_sentence_index": 20,
+      "source_human_sha256": "5fb5bc922cde496b34efd5732a3632b3811f4b66cf8479233fdafa2cccec8dea",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 22,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "Mr. Campkin's request was answered remarkably quickly—much faster than one might expect today.",
+      "output_sha256": "ae3f19625ff43d1c2c33b6d13971ccda1fcc319c9e0699952ebcd8fa1608c03b",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.427236,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "479109c7a679c724a1e50aef188094b1c6aa9b3d8f4d99289c562c722d1a4317"
+      ],
+      "source_ai_sentence_index": 22,
+      "source_ai_sha256": "ae3f19625ff43d1c2c33b6d13971ccda1fcc319c9e0699952ebcd8fa1608c03b",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 23,
+      "paragraph_index": 5,
+      "origin": "ai",
+      "text": "By June 21, Mr. Pemberton, the only reader of \"Notes and Queries\" to rise to the occasion, provided an answer that would serve as a cornerstone for our understanding.",
+      "output_sha256": "5ae4a039c4146ab43919026cfca1a97385c6250c9b17206168e00d3c9c983adb",
+      "alignment_unit_index": 19,
+      "alignment_score": 0.427236,
+      "human_sentence_indices": [
+        21
+      ],
+      "human_sha256": [
+        "479109c7a679c724a1e50aef188094b1c6aa9b3d8f4d99289c562c722d1a4317"
+      ],
+      "source_ai_sentence_index": 23,
+      "source_ai_sha256": "5ae4a039c4146ab43919026cfca1a97385c6250c9b17206168e00d3c9c983adb",
+      "ai_unit_sentence_indices": [
+        22,
+        23
+      ]
+    },
+    {
+      "sentence_index": 24,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Mr. Pemberton said that being himself a seafarer and having given much consideration to the question, he had come at length to the conclusion that the name of Davy Jones was derived from the prophet Jonah (who, of course, was not Welsh at all but an Israelite).",
+      "output_sha256": "7be08d2e37ab8d2083d79628c1acbba35916796bc02079b1dc86ec58e330bbb4",
+      "alignment_unit_index": 20,
+      "alignment_score": null,
+      "source_human_sentence_index": 22,
+      "source_human_sha256": "7be08d2e37ab8d2083d79628c1acbba35916796bc02079b1dc86ec58e330bbb4",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 25,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "Jonah, if not exactly a sailor, had had his marine adventures, and in his prayer thus refers to them: \"The waters compassed me about ... the depth closed me round about; the weeds were wrapped about my head,\" and so forth.",
+      "output_sha256": "c14c11947a12b78c2a70ce0ce699de0b0c5141ad5cd5c5f1ffcb7c3cf0335f15",
+      "alignment_unit_index": 21,
+      "alignment_score": null,
+      "source_human_sentence_index": 23,
+      "source_human_sha256": "c14c11947a12b78c2a70ce0ce699de0b0c5141ad5cd5c5f1ffcb7c3cf0335f15",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 26,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "The sea, then, Mr. Pemberton continued, \"might not be misappropriately termed by a rude mariner Jonah's locker\"; while Jonah would naturally soon be familiarised into Jones, and since all Joneses hail from the country from whose valleys and mountains Mr. Lloyd George derives his moving perorations, and since most Welshmen (Mr. Lloyd George being no exception) are named Davy, how natural that \"Davy Jones\" should emerge!",
+      "output_sha256": "82b88cdd163910c78b2b73ff9a48c9aeaab7b026c402891f30abe4d6f9cdf182",
+      "alignment_unit_index": 22,
+      "alignment_score": null,
+      "source_human_sentence_index": 24,
+      "source_human_sha256": "82b88cdd163910c78b2b73ff9a48c9aeaab7b026c402891f30abe4d6f9cdf182",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 27,
+      "paragraph_index": 5,
+      "origin": "human",
+      "text": "That was Mr. Pemberton's theory, and the only one which I have discovered; but I am sure that Mrs. Gamp would support him—although she might prefer to substitute for the word \"locker\" the word which comic military poets always rhyme to \"réveillé.\"",
+      "output_sha256": "382b310da16a37700f60fe162c8dd5e79951523d3e0090d30c46f7548a7af50f",
+      "alignment_unit_index": 23,
+      "alignment_score": null,
+      "source_human_sentence_index": 25,
+      "source_human_sha256": "382b310da16a37700f60fe162c8dd5e79951523d3e0090d30c46f7548a7af50f",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 28,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "The more one contemplates this theory, the more plausible it becomes.",
+      "output_sha256": "ad9966dbbb399df8aa9d26091286d7e3cda0642ec8c041ff6b0bea2a2e2b5b1f",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.584992,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "d6ed0a3934ba76790371f94b6f6bbca85fe88923140f11957f5e4616272be4f5"
+      ],
+      "source_ai_sentence_index": 29,
+      "source_ai_sha256": "ad9966dbbb399df8aa9d26091286d7e3cda0642ec8c041ff6b0bea2a2e2b5b1f",
+      "ai_unit_sentence_indices": [
+        29,
+        30
+      ]
+    },
+    {
+      "sentence_index": 29,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "As Mr. Pemberton might have elaborated, there is further evidence linking Jonah and Jones through the fish that swallowed the prophet but subsequently did not retain him.",
+      "output_sha256": "d23fbc91d3d58a781210ab165fc6cd27f52ed50f57b9c86f4e0ed8231b103233",
+      "alignment_unit_index": 24,
+      "alignment_score": 0.584992,
+      "human_sentence_indices": [
+        26
+      ],
+      "human_sha256": [
+        "d6ed0a3934ba76790371f94b6f6bbca85fe88923140f11957f5e4616272be4f5"
+      ],
+      "source_ai_sentence_index": 30,
+      "source_ai_sha256": "d23fbc91d3d58a781210ab165fc6cd27f52ed50f57b9c86f4e0ed8231b103233",
+      "ai_unit_sentence_indices": [
+        29,
+        30
+      ]
+    },
+    {
+      "sentence_index": 30,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "To a dialectician of any parts the fatal association of whales and Wales would be child's play.",
+      "output_sha256": "fd4f547b07045c0e058dcb4cf1f6d7508776555d58db7e9d72a58d2784f2e9b9",
+      "alignment_unit_index": 25,
+      "alignment_score": null,
+      "source_human_sentence_index": 27,
+      "source_human_sha256": "fd4f547b07045c0e058dcb4cf1f6d7508776555d58db7e9d72a58d2784f2e9b9",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 31,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Later I found that Dr. Brewer of \"The Dictionary of Phrase and Fable\" supports the Jonah theory whole-heartedly; but he goes on—to my mind very unnecessarily—to derive \"Davy\" from \"duffy,\" a West Indian spirit.",
+      "output_sha256": "3ae478ec090b9afb216cfac2ef9952cb371b0f697781f43cd622207c02130536",
+      "alignment_unit_index": 26,
+      "alignment_score": null,
+      "source_human_sentence_index": 28,
+      "source_human_sha256": "3ae478ec090b9afb216cfac2ef9952cb371b0f697781f43cd622207c02130536",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 32,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Thus, says he, Davy Jones's locker is really Duffy Jonah's locker—that is, the bottom of the sea, or the place where the sailors intended to consign Jonah.",
+      "output_sha256": "bfcd4db2d0f6ff01fe36de139558f535ef1a95e58bcd4caf4e51d459933e445d",
+      "alignment_unit_index": 27,
+      "alignment_score": null,
+      "source_human_sentence_index": 29,
+      "source_human_sha256": "bfcd4db2d0f6ff01fe36de139558f535ef1a95e58bcd4caf4e51d459933e445d",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 33,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "The confusion is rather comic.",
+      "output_sha256": "1f5e1d85f6d757fdd736b37a59a8d4b195f0fdeb02e6e964cc43e5a2ac4da561",
+      "alignment_unit_index": 28,
+      "alignment_score": null,
+      "source_human_sentence_index": 30,
+      "source_human_sha256": "1f5e1d85f6d757fdd736b37a59a8d4b195f0fdeb02e6e964cc43e5a2ac4da561",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 34,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "First, a man of God whom the crew throws overboard.",
+      "output_sha256": "070ec7ce1ba2e07f0fa78d177107f7c16b555ad93bd4798a6209b8e3c64c2a12",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 31,
+      "source_human_sha256": "070ec7ce1ba2e07f0fa78d177107f7c16b555ad93bd4798a6209b8e3c64c2a12",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 35,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Secondly a fish, divinely sent to save the man of God.",
+      "output_sha256": "14bb506c137c25c6c271b552953efc93f40f0e6360d4f39ddb2b6a864ecf268a",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 32,
+      "source_human_sha256": "14bb506c137c25c6c271b552953efc93f40f0e6360d4f39ddb2b6a864ecf268a",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 36,
+      "paragraph_index": 6,
+      "origin": "human",
+      "text": "Thirdly, the use of the man of God's name to signify the sailor's devil, with himself as sinister ruler of an element which he had the best reasons for hating.",
+      "output_sha256": "106c6df08ec2d48d0acc612f6b247e121d8a94511d0dcbaeca10dc98272abda1",
+      "alignment_unit_index": 29,
+      "alignment_score": null,
+      "source_human_sentence_index": 33,
+      "source_human_sha256": "106c6df08ec2d48d0acc612f6b247e121d8a94511d0dcbaeca10dc98272abda1",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 37,
+      "paragraph_index": 6,
+      "origin": "ai",
+      "text": "This is how myths take shape.",
+      "output_sha256": "ed7fd1808c4143b6e5110971ffb01951b19e65ae0148d3b54bc5127408fe2fbb",
+      "alignment_unit_index": 30,
+      "alignment_score": 0.26619,
+      "human_sentence_indices": [
+        34
+      ],
+      "human_sha256": [
+        "7c8bb414981b916c31b05c49341956a902c9c9e3d86e9788a193f57251cc9328"
+      ],
+      "source_ai_sentence_index": 35,
+      "source_ai_sha256": "ed7fd1808c4143b6e5110971ffb01951b19e65ae0148d3b54bc5127408fe2fbb",
+      "ai_unit_sentence_indices": [
+        35
+      ]
+    },
+    {
+      "sentence_index": 38,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "So much for Davy Jones.",
+      "output_sha256": "8cf137dbba64155abd0f711132afeef5f654a56fe6b8a9a80958e9ab33b8a398",
+      "alignment_unit_index": 31,
+      "alignment_score": null,
+      "source_human_sentence_index": 35,
+      "source_human_sha256": "8cf137dbba64155abd0f711132afeef5f654a56fe6b8a9a80958e9ab33b8a398",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 39,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "Yet, J. Willock, another author referenced by \"The Oxford Dictionary,\" leads us into yet another enigma.",
+      "output_sha256": "a6f170bee1260b0f42d2b0171be73fc64727f04758ca138adce342ac5c9ada4e",
+      "alignment_unit_index": 32,
+      "alignment_score": 0.540069,
+      "human_sentence_indices": [
+        36
+      ],
+      "human_sha256": [
+        "b9d182791d9f0372c6b14c1faa932ff27aab420701c960b39a51df1e102935b5"
+      ],
+      "source_ai_sentence_index": 37,
+      "source_ai_sha256": "a6f170bee1260b0f42d2b0171be73fc64727f04758ca138adce342ac5c9ada4e",
+      "ai_unit_sentence_indices": [
+        37
+      ]
+    },
+    {
+      "sentence_index": 40,
+      "paragraph_index": 7,
+      "origin": "human",
+      "text": "In one of his Voyages he says: \"The great bugbear of the ocean is Davie Jones.",
+      "output_sha256": "3e7aa8bbb25f45ed95f4b77a75598a81a3b187cfee1197e8e90529ee0596cf09",
+      "alignment_unit_index": 33,
+      "alignment_score": null,
+      "source_human_sentence_index": 37,
+      "source_human_sha256": "3e7aa8bbb25f45ed95f4b77a75598a81a3b187cfee1197e8e90529ee0596cf09",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 41,
+      "paragraph_index": 7,
+      "origin": "ai",
+      "text": "At the crossing of the line, they shout that Davie Jones and his wife are coming aboard....\"",
+      "output_sha256": "aaa9e4bb910e40644685ea12f02ec3e38e39be95b6364f1c6d46f63122a6725a",
+      "alignment_unit_index": 34,
+      "alignment_score": 0.767584,
+      "human_sentence_indices": [
+        38
+      ],
+      "human_sha256": [
+        "d5eb7ae4a41ab761a1000a66bfe095e87b44c6aaa0c9d16cbda36395e5ae17aa"
+      ],
+      "source_ai_sentence_index": 39,
+      "source_ai_sha256": "aaa9e4bb910e40644685ea12f02ec3e38e39be95b6364f1c6d46f63122a6725a",
+      "ai_unit_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "sentence_index": 42,
+      "paragraph_index": 8,
+      "origin": "human",
+      "text": "\"And his wife\"!",
+      "output_sha256": "7c6c503376efe70c59f5d5be8b96854814bd8d52d03bfd096083fb0f00d4d102",
+      "alignment_unit_index": 35,
+      "alignment_score": null,
+      "source_human_sentence_index": 39,
+      "source_human_sha256": "7c6c503376efe70c59f5d5be8b96854814bd8d52d03bfd096083fb0f00d4d102",
+      "ai_unit_sentence_indices": []
+    },
+    {
+      "sentence_index": 43,
+      "paragraph_index": 9,
+      "origin": "ai",
+      "text": "As for the identity of Mrs. Davy Jones, I shall refrain from delving into that mystery—regardless of any orders from the Board of Admiralty.",
+      "output_sha256": "5e4aa26c477bd05bf76882ac5ef82c10781a205739d91a9d4d30703948de69d1",
+      "alignment_unit_index": 36,
+      "alignment_score": 0.511679,
+      "human_sentence_indices": [
+        40
+      ],
+      "human_sha256": [
+        "6ed7335c9199c477876ded1694d84a7e5471a7d2cc84134543c4f6f837849e2c"
+      ],
+      "source_ai_sentence_index": 41,
+      "source_ai_sha256": "5e4aa26c477bd05bf76882ac5ef82c10781a205739d91a9d4d30703948de69d1",
+      "ai_unit_sentence_indices": [
+        41
+      ]
+    }
+  ]
+}

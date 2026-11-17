@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>《伦敦杂记》三家书店 - 可阅文学网</title>
+    <meta name="keywords" content="伦敦杂记,三家书店,全文阅读,章节,可阅文学">
+    <meta name="description" content="伦敦卖旧书的铺子，集中在切林克拉斯路（Charing Cross Road）；那是热闹地方，顶容易找。路不宽，也不长，只这么弯弯的一段儿；两旁不短的是书，玻璃窗里齐整整排着的，">
+
+    <meta name="google" content="notranslate">
+    <link rel="canonical" href="https://www.kepub.net/book/20687/10002">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kepub.net/book/20687/10002">
+    <link rel="alternate" media="handheld" href="https://m.kepub.net/book/20687/10002">
+    <link href="/libs/font_3262646_3da1morkcf1/iconfont.css?v=437" rel="stylesheet">
+    <link href="/css/common/scrollbar.css" rel="stylesheet">
+    <link href="/css/page/reader.css?v=15" rel="stylesheet">
+
+    <script defer src="/libs/jquery-3.2.1.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HW18P780T8"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HW18P780T8');
+</script>
+</head>
+<body>
+<canvas height="100%" width="100%" style="position: fixed; top:0; left:0; z-index: -1; opacity: 1;"  id="anm-canvas"></canvas>
+
+<!-- 右边 -->
+<div id="right" style="position: fixed;top: 200px;">
+    <div style="margin-left: 363px;width: 50px;">
+        <ul style="list-style: none">
+            <li><a href="/">Home</a></li>
+            <li><a href="javascript:" title="Table of Contents" onclick="viewLeft()"></a></li>
+            <li style="display: none"><a href="javascript:" title="Comments"></a></li>
+            <li id="phone_reader"><a href="javascript:" title="Mobile Reading" onclick="phoneReader()"></a></li>
+            <li id="chapter_reader"><a href="javascript:" title="Chapter Reading" onclick="chapterReader()"></a></li>
+            <li id="page_reader"><a href="javascript:" title="Page Reading" onclick="pageReader()"></a></li>
+            <li id="gotop" style="display: none;"><a href="javascript:" title="Back to Top" onclick="goTop()"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 二维码 固定块 开始 -->
+<div id="qr_block" style="display:none">
+    <div id="x_btn" onclick="x_btn_click()"></div>
+    <div class="qr-block-text">Scan the QR code to read on mobile</div>
+    <img src="data:image/jpg;base64,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" alt="手机阅读二维码">
+</div>
+<!-- 二维码 固定块 结束 -->
+
+<!-- 中间 -->
+<div class="block" style="margin-top: 0;">
+    <!-- 阅读进度条开始 -->
+    <div id="bar">
+        <div id="bar_val"></div>
+    </div>
+    <!-- 阅读进度条结束 -->
+    <div style="border: 1px solid #dcdcdc;border-top: none;padding:0 20px;">
+        <div class="item_top">
+            <p>
+                <a class="top_categoryname"  href="/book/20687">伦敦杂记</a><span id="top_chaptername" style="float: right">三家书店</span>
+            </p>
+        </div>
+        <div class="view_block_1" id="view_block" style="border:0 solid #dcdcdc;margin: 10px 0;overflow: hidden">
+            <div id="content" style="margin-top: 0;">　　伦敦卖旧书的铺子，集中在切林克拉斯路（Charing Cross Road）；那是热闹地方，顶容易找。路不宽，也不长，只这么弯弯的一段儿；两旁不短的是书，玻璃窗里齐整整排着的，门口摊儿上乱哄哄摆着的，都有。加上那徘徊在窗前的，围绕着摊儿的，看书的人，到处显得拥拥挤挤，看过去路便更窄了。摊儿上看最痛快，随你翻，用不着“劳驾”“多谢”；可是让风吹日晒的到底没什么好书，要看好的还得进铺子去。进去了有时也可随便看，随便翻，但用得着“劳驾”“多谢”的时候也有；不过爱买不买，决不至于遭白眼。说是旧书，新书可也有的是；只是来者多数为的旧书罢了。<br><br>　　最大的一家要算福也尔（Foyle），在路西；新旧大楼隔着一道小街相对着，共占七号门牌，都是四层，旧大楼还带地下室可并不是地窨子。店里按着书的性质分二十五部；地下室里满是旧文学书。这爿店二十八年前本是一家小铺子，只用了一个店员；现在店员差不多到了二百人，藏书到了二百万种，伦敦的《晨报》称为“世界最大的新旧书店”。两边店门口也摆着书摊儿，可是比别家的大。我的一本《袖珍欧洲指南》，就在这儿从那穿了满染着书尘的工作衣的店员手里，用半价买到的。在摊儿上翻书的时候，往往看不见店员的影子；等到选好了书四面找他，他却从不知那一个角落里钻出来了。但最值得流连的还是那间地下室；那儿有好多排书架子，地上还东一堆西一堆的。乍进去，好像掉在书海里；慢慢地才找出道儿来。屋里不够亮，土又多，离窗户远些的地方，白日也得开灯。可是看得自在；他们是早七点到晚九点，你待个几点钟不在乎，一天去几趟也不在乎。只有一件，不可着急。你得像逛庙会逛小市那样，一半玩儿，一半当真，翻翻看看，看看翻翻；也许好几回碰不见一本合意的书，也许霎时间到手了不止一本。<br><br>　　开铺子少不了生意经，福也尔的却颇高雅。他们在旧大楼的四层上留出一间美术馆，不时地展览一些画。去看不花钱，还送展览目录；目录后面印着几行字，告诉你要买美术书可到馆旁艺术部去。展览的画也并不坏，有卖的，有不卖的。他们又常在馆里举行演讲会，讲的人和主席的人当中，不缺少知名的。听讲也不用花钱；只每季的演讲程序表下，“恭请你注意组织演讲会的福也尔书店”。还有所谓文学午餐会，记得也在馆里。他们请一两个小名人做主角，随便谁，纳了餐费便可加入；英国的午餐很简单，费不会多。假使有闲工夫，去领略领略那名隽的谈吐，倒也值得的，不过去的却并不怎样多。<br><br>　　牛津街是伦敦的东西通衢，繁华无比，街上呢绒店最多；但也有一家大书铺，叫做彭勃思（Bumpus）的便是。这铺子开设于一七九○年左右，原在别处；一八五○年在牛津街开了一个分店，十九世纪末便全挪到那边去了，维多利亚时代，店主多马斯彭勃思很通声气，来往的有迭更斯，兰姆，麦考莱，威治威斯等人；铺子就在这时候出了名。店后来连着旧法院，有看守所，守卫室等，十几年来都让店里给买下了。这点古迹增加了人对于书店的趣味。法院的会议圆厅现在专作书籍展览会之用；守卫室陈列插图的书，看守所变成新书的货栈。但当日的光景还可从一些画里看出：如十八世纪罗兰生（Rowlandson）所画守卫室内部，是晚上各守卫提了灯准备去查监的情形，瞧着很忙碌的样子。再有一个图，画的是一七二九的一个守卫，神气够凶的。看守所也有一幅画，砖砌的一重重大拱门，石板铺的地，看守室的厚木板门严严锁着，只留下一个小方窗，还用十字形的铁条界着；真是铜墙铁壁，插翅也飞不出去。<br><br>　　这家铺子是五层大楼，却没有福也尔家地方大。下层卖新书，三楼卖儿童书，外国书，四楼五楼卖廉价书；二楼卖绝版书，难得的本子，精装的新书，还有《圣经》，祈祷书，书影等等，似乎是菁华所在。他们有初印本，精印本，著者自印本，著者签字本等目录，搜罗甚博，福也尔家所不及。新书用小牛皮或摩洛哥皮（山羊皮羊皮也可仿制）装订，烫上金色或别种颜色的立体派图案；稀疏的几条平直线或弧线，还有“点儿”，错综着配置，透出干净，利落，平静，显豁，看了心目清朗。装订的书，数这儿讲究，别家书店里少见。书影是仿中世纪的抄本的一叶，大抵是祷文之类。中世纪抄本用黑色花体字，文首第一字母和叶边空处，常用蓝色金色画上各样花饰，典丽皇，穷极工巧，而又经久不变；仿本自然说不上这些，只取其也有一点古色古香罢了。<br><br>　　一九三一年里，这铺子举行过两回展览会，一回是剑桥书籍展览，一回是近代插图书籍展览，都在那“会议厅”里。重要的自然是第一回。牛津剑桥是英国最著名的大学；各有印刷所，也都著名。这里从前展览过牛津书籍，现在再展览剑桥的，可谓无遗憾了。这一年是剑桥目下的辟特印刷所（The Pitt Press）奠基百年纪念，展览会便为的庆祝这个。展览会由鼎鼎大名的斯密兹将军（General Smuts）开幕，到者有科学家詹姆士金斯（James Jeans），亚特爱丁顿（Arthur Eddington），还有别的人。展览分两部，现在出版的书约莫四千册是一类；另一类是历史部分。剑桥的书字型清晰，墨色匀称，行款合式，书扉和书衣上最见工夫；尤其擅长的是算学书，专门的科学书。这两种书需要极精密的技巧，极仔细的校对；剑桥是第一把手。但是这些东西，还有他们印的那些冷僻的外国语书，都卖得少，赚不了钱。除了是大学印刷所，别家大概很少愿意承印。剑桥又承印《圣经》；英国准印《圣经》的只剑桥牛津和王家印刷人。斯密兹说剑桥就靠《圣经》和教科书赚钱。可是《泰晤士报》社论中说现在印《圣经》的责任重大，认真地考究地印，也只能够本罢了。一五八八年英国最早的《圣经》便是由剑桥承印的。<br><br>　　英国印第一本书，出于伦敦威廉甲克司登（William Caxton）之手，那是一四七七年。到了一五二一，约翰席勃齐（John Siberch）来到剑桥，一年内印了八本书；剑桥印刷事业才创始。八年之后，大学方面因为有一家书纸店与异端的新教派勾结，怕他们利用书籍宣传，便呈请政府，求英王核准在剑桥只许有三家书铺，让他们宣誓不卖未经大学检查员审定的书。那时英王是亨利第八；一五三四年颁给他们敕书，授权他们选三家书纸店兼印刷人，或书铺，“印行大学校长或他的代理人等所审定的各种书籍”。这便是剑桥印书的法律根据。不过直到一五八三年，他们才真正印起书来。那时伦敦各家书纸店有印书的专利权，任意抬高价钱。他们妒忌剑桥印书，更恨的是卖得贱。恰好一六二○年剑桥翻印了他们一本文法书，他们就在法庭告了一状。剑桥师生老早不乐意他们抬价钱，这一来更愤愤不平；大学副校长第二年乘英王詹姆士第一上新市场去，半路上就递上一件呈子，附了一个比较价目表。这样小题大做，真有些书呆子气。王和诸大臣商议了一下，批道，我们现在事情很多，没工夫讨论大学与诸家书纸店的权益；但准大学印刷人出售那些文法书，以救济他的支绌。这算是碰了个软钉子，可也算是胜利。那呈子，那批，和上文说的那本《圣经》都在这一回展览中。席勃齐印的八本书也有两种在这里。此外还有一六二九年初印的定本《圣经》，书扉雕刻繁细，手艺精工之极。又密尔顿《力息达斯》（Lycidas）的初本也在展览着，那是经他亲手校改过的。<br><br>　　近代插图书籍展览，在圣诞节前不久，大约是让做父母的给孩子们多买点节礼吧。但在一个外国人，却也值得看看。展览的是七十年来的作品，虽没有什么系统，在这里却可以找着各种美，各种趋势。插图与装饰画不一样，得吟味原书的文字，透出自己的机锋。心要灵，手要熟，二者不可缺一。或实写，或想象，因原书情境，画人性习而异。童话的插图却只得凭空着笔，想象更自由些；在不自由的成人看来，也许别有一种滋味。看过赵译《阿丽思漫游奇境记》里谭尼尔（John Tenniel）的插画的，当会有同感吧。所展览的，幽默，秀美，粗豪，典重，各擅胜场，琳琅满目；有人称为“视觉的音乐”颇为近之。最有味的，同一作家，各家插画所表现的却大不相同。譬如莪默伽亚谟（Omar Khayyam），莎士比亚，几乎在一个人手里一个样子；展览会里书多，比较着看方便，可以扩充眼界。插图有“黑白”的，有彩色的；“黑白”的多，为的省事省钱。就黑白画而论，从前是雕版，后来是照相；照相虽然精细，可是失掉了那种生力，只要拿原稿对看就会觉出。这儿也展览原稿，或是侯笔画，或是水彩画；不但可以“对看”，也可以让那些艺术家更和我们接近些。《观察报》记者记这回展览会，说插图的书，字往往印得特别大，意在和谐；却实在不便看。他主张书与图分开，字还照寻常大小印。他自然指大本子而言。但那种“和谐”其实也可爱；若说不便，这种书原是让你慢慢玩赏的，那能像读报一样目下数行呢？再说，将配好了的对儿生生拆开，不但大小不称，怕还要多花钱。<br><br>　　诗籍铺（The Poetry Bookshop）真是米米小，在一个大地方的一道小街上。“叫名”街，实在一条小胡同吧。门前不大见车马，不说；就是行人，一天也只寥寥几个。那道街斜对着无人不知的大英博物院；街口钉着小小的一块字号木牌。初次去时，人家教在博物院左近找。问院门口守卫，他不知道有这个铺子，问路上戴着常礼帽的老者，他想没有这么一个铺子；好容易才找着那块小木牌，真是“远在天边，近在眼前”。这铺子从前在另一处，那才冷僻，连裴歹克的地图上都没名字，据说那儿是一所老宅子，才真够诗味，挪到现在这样平常的地带，未免太可惜。那时候美国游客常去，一个原因许是美国看不见那样老宅子。<br><br>　　诗人赫洛德孟罗（Harold Monro）在一九一二年创办了这爿诗籍铺。用意在让诗与社会发生点切实的关系。孟罗是二十多年来伦敦文学生涯里一个要紧角色。从一九一一给诗社办《诗刊》（Poetry Review）起知名。在第一期里，他说，“诗与人生的关系得再认真讨论，用于别种艺术的标准也该用于诗。”他觉得能做诗的该做诗，有困难时该帮助他，让他能做下去；一般人也该念诗，受用诗。为了前一件，他要自办杂志，为了后一件，他要办读诗会；为了这两件，他办了诗籍铺。这铺子印行过《乔治诗选》（Georgian Poetry），乔治是现在英王的名字，意思就是当代诗选，所收的都是代表作家。第一册出版，一时风靡，买诗念诗的都多了起来；社会确乎大受影响。诗选共五册；出第五册时在一九二二，那时乔治诗人的诗兴却渐渐衰了。一九一九到二五年铺子里又印行《市本》月刊（The Chapbook）登载诗歌，评论，木刻等，颇多新进作家。<br><br>　　读诗会也在铺子里，星期四晚上准六点钟起，在一间小楼上。一年中也有些时候定好了没有。从创始以来，差不多没有间断过。前前后后著名的诗人几乎都在这儿读过诗：他们自己的诗，或他们喜欢的诗。入场券六便士，在英国算贱，合四五毛钱。在伦敦的时候，也去过两回。那时孟罗病了，不大能问事，铺子里颇为黯淡。两回都是他夫人爱立达克莱曼答斯基（Alida Klementaski）读，说是找不着别人。那间小楼也容得下四五十位子，两回去，人都不少；第二回满了座，而且几乎都是女人还有挨着墙站着听的。屋内只读诗的人小桌上一盏蓝罩子的桌灯亮着，幽幽的。她读济兹和别人的诗，读得很好，口齿既清楚，又有顿挫，内行说，能表出原诗的情味。英国诗有两种读法，将每个重音咬得清清楚楚，顿挫的地方用力，和说话的调子不相像，约翰德林瓦特（John Drinkwater）便主张这一种。他说，读诗若用说话的调子，太随便，诗会跑了。但是参用一点儿，像克莱曼答斯基女士那样，也似乎自然流利，别有味道。这怕要看什么样的诗，什么样的读诗人，不可一概而论。但英国读诗，除不吟而诵，与中国根本不同之处，还有一件：他们按着文气停顿，不按着行，也不一定按着韵脚。这因为他们的诗以轻重为节奏，文句组织又不同，往往一句跨两行三行，却非作一句读不可，韵脚便只得轻轻地滑过去。读诗是一种才能，但也需要训练；他们注重这个，训练的机会多，所以是诗人都能来一手。<br><br>　　铺子在楼下，只一间，可是和读诗那座楼远隔着一条甬道。屋子有点黑，四壁是书架，中间桌上放着些诗歌篇子（Sheets），木刻画。篇子有宽长两种，印着诗歌，加上些零星的彩画，是给大人和孩子玩儿的。犄角儿上一张帐桌子，坐着一个戴近视眼镜的，和蔼可亲的，圆脸的中年妇人。桌前装着火炉，炉旁蹲着一只大白狮子猫，和女人一样胖。有时也遇见克莱曼答斯基女士，匆匆地来匆匆地去。孟罗死在一九三二年三月十五日。第二天晚上到铺子里去，看见两个年轻人在和那女人司帐说话；说到诗，说到人生，都是哀悼孟罗的。话音很悲伤，却如清泉流泻，差不多句句像诗；女司帐说不出什么，唯唯而已。孟罗在日最尽力于诗人文人的结合，他老让各色的才人聚在一块儿。又好客，家里炉旁（英国终年有用火炉的时候）常有许多人聚谈，到深夜才去。这两位青年的伤感不是偶然的。他的铺子可是赚不了钱；死后由他夫人接手，勉强张罗，现在许还开着。</div>
+            <!-- 付费墙 -->
+            
+            
+        </div>
+    </div>
+    <!-- 上一章下一章 -->
+    <div id="change_chapter_block">
+        <div class="next_chapter"><a href="/book/20687/10003">Next Chapter</a></div>
+        <div class="pre_chapter"><a href="/book/20687/10001">Pre Chapter</a></div>
+    </div>
+    <!-- 上一页下一页按钮模块开始 -->
+    <div id="change_page_block">
+        <div id="huanye">
+            <div onclick="next_page_f()" class="next_page next" id="next_page">Next</div>
+            <div onclick="previous_page_f()" class="previous_page pre" id="previous_page">Previous</div>
+        </div>
+    </div>
+    <!-- 上一页下一页按钮模块结束 -->
+</div>
+
+<!-- 小窗口 -->
+<div class="mini-window">
+    <div id="mini-window-content" style="margin-top: 0;">
+        <div>
+
+    <link href="/css/common/ad.css?v=14" rel="stylesheet">
+
+
+
+    <!-- 中国 IP：App 下载侧栏（付费墙已展示 App 卡片时不重复） -->
+
+    <div class="ad-b app-aside-promo">
+
+        <script>
+
+            (function () {
+
+                try {
+
+                    if (localStorage.getItem('kepub_app_aside_collapsed') === '1') {
+
+                        document.currentScript.parentElement.classList.add('is-collapsed');
+
+                    }
+
+                } catch (e) {}
+
+            })();
+
+        </script>
+
+        <button type="button"
+
+                class="app-aside-toggle"
+
+                aria-label="收起"
+
+                title="收起">
+
+            <svg class="app-aside-toggle-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+
+                <path d="M3.5 5.5L8 10l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+            </svg>
+
+        </button>
+
+        <div class="app-aside-inner">
+
+            <div class="app-aside-head">
+
+                <img class="app-aside-logo"
+
+                     src="/app/download/assets/app_icon.png"
+
+                     width="28"
+
+                     height="28"
+
+                     alt="">
+
+                <div class="app-aside-head-text">
+
+                    <div class="app-aside-title">可阅文学</div>
+
+                    <div class="app-aside-tag">官方客户端</div>
+
+                </div>
+
+            </div>
+
+            <div class="app-aside-qr"
+
+                 data-app-download-qr
+
+                 data-url="https://www.kepub.net/app/download?from=reader_aside"
+
+                 data-logo="/app/download/assets/app_icon.png"
+
+                 data-size="88"
+
+                 aria-label="扫码下载可阅文学 App"></div>
+
+            <div class="app-aside-copy">
+
+                <p class="app-aside-desc">手机扫码，下载官方 App</p>
+
+                <p class="app-aside-sub">随身阅读 · 进度同步 · 安全安装</p>
+
+                <a class="app-aside-link"
+
+                   href="/app/download?from=reader_aside"
+
+                   target="_blank"
+
+                   rel="noopener">打开下载页</a>
+
+            </div>
+
+        </div>
+
+        <script defer src="/js/common/app_download_qr.js?v=2"></script>
+
+        <script defer src="/js/common/app_aside_promo.js?v=1"></script>
+
+    </div>
+
+
+
+    <!-- 中国 IP、非会员：抖音商品。没有上架商品时不占位。 -->
+    
+        
+            <div class="ad-b sams-goods" data-goods-id="5" data-goods-name="【MM会员超市】溏心鹌鹑蛋脂肪（日式味增风味）低GI健康" data-douyin-url="https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3847298770559697758&amp;origin_type=604">
+                <div class="sams-goods-row">
+                    <img class="sams-goods-cover"
+                         src="https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_66213492df1524d9d77b900085e7f240_sx_244073_www1000-1000"
+                         alt="【MM会员超市】溏心鹌鹑蛋脂肪（日式味增风味）低GI健康">
+                    <div class="sams-goods-info">
+                        <p class="sams-goods-name">【MM会员超市】溏心鹌鹑蛋脂肪（日式味增风味）低GI健康</p>
+                        <div class="sams-goods-meta">
+                            <p class="sams-goods-price"><i>¥</i><span>97.48</span></p>
+                            <button type="button" class="sams-goods-buy" aria-expanded="false">购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sams-goods-qr" hidden>
+                    <div class="sams-qr" data-sams-qr data-logo="/img/ad/sams/logo.png"></div>
+                    <p class="sams-goods-qr-tip">打开抖音扫码购买</p>
+                </div>
+                <script defer type="text/javascript" src="/js/common/sams-goods.js?v=2"></script>
+            </div>
+        
+    
+
+
+
+    <!-- 非中国：保留 Google 广告 -->
+
+    
+
+</div>
+    </div>
+</div>
+
+<!-- 左边 -->
+<div id="left">
+    <div style="height:100%;overflow-y:scroll;/*margin-right:-18px; */">
+        <h3><strong>Table of Contents</strong></h3>
+        <div id="chapterlink">
+            <ul>
+                <p style="padding-left: 6px;">
+                    
+                    <span></span>
+                </p>
+                <li>
+                    <a href="/book/20687/10001">自序</a>
+                </li>
+                <li class="selected">
+                    <a href="/book/20687/10002">三家书店</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10003">文人宅</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10004">博物院</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10005">公园</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10006">加尔东尼市场</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10007">吃的</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10008">乞丐</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10009">圣诞节</a>
+                </li>
+                <li>
+                    <a href="/book/20687/10010">房东太太</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var userId = 0;
+    var readId = "af016585e184cb09_1b4a32fad2ed54d3389da6f7dfed065c";
+    var wait_tip = "Please wait...";
+    var publicNoteGroupSize = 1;
+    var showPaywall = false;
+</script>
+<!-- 订阅toast -->
+<div id="subscribe-toast" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.75);color:#fff;padding:16px 32px;border-radius:8px;font-size:15px;z-index:200;text-align:center;pointer-events:none;"></div>
+<!-- 确认弹窗 -->
+<div id="confirm-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:28px 32px;text-align:center;min-width:320px;max-width:400px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:16px;">确认订阅</div>
+        <div id="confirm-modal-body" style="font-size:14px;color:#555;line-height:1.8;margin-bottom:20px;text-align:left;padding:0 8px;"></div>
+        <div style="display:flex;gap:12px;justify-content:center;">
+            <button id="confirm-cancel" style="flex:1;background:#f5f5f5;border:1px solid #ddd;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+            <button id="confirm-ok" style="flex:1;background:#1e88e5;border:none;padding:10px 0;border-radius:6px;cursor:pointer;font-size:14px;color:#fff;">确认订阅</button>
+        </div>
+    </div>
+</div>
+<!-- 微信支付弹窗 -->
+<div id="pay-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:199;">
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;padding:30px 36px;text-align:center;min-width:300px;">
+        <div style="font-size:16px;font-weight:bold;color:#333;margin-bottom:6px;">微信扫码支付</div>
+        <div id="pay-modal-amount" style="font-size:13px;color:#999;margin-bottom:16px;"></div>
+        <div id="pay-modal-qr" style="margin-bottom:16px;"></div>
+        <div id="pay-modal-status" style="font-size:13px;color:#999;margin-bottom:12px;">等待扫码支付...</div>
+        <button id="pay-modal-close" style="background:#eee;border:none;padding:8px 28px;border-radius:6px;cursor:pointer;font-size:14px;color:#666;">取消</button>
+    </div>
+</div>
+
+
+<script defer type="text/javascript" src="/js/common/scrollbar.js"></script>
+<script defer language="JavaScript" src="/js/reader.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/original_center.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/left.js"></script>
+<script defer language="JavaScript" src="/js/page/reader/right.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim1.js"></script>
+<script defer language="JavaScript" src="/js/canvas/anim2.js"></script>
+<script defer language="JavaScript" src="/js/canvas/stars.js"></script>
+<script>
+    window.onload = function(){
+        var r = Math.random();
+        if(r>0.7){
+            n();
+        }else if(r>0.4){
+            snow();
+        }else{
+            createUniverse();
+        }
+    }
+</script>
+</body>
+</html>
